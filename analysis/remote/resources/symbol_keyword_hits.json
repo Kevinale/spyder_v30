@@ -1,0 +1,732 @@
+[
+  {
+    "file": "defaultSymbolTable.bin",
+    "index": 2,
+    "record_offset": 32,
+    "string_offset": 7351,
+    "pool_offset": 11,
+    "word": "0x296504f1",
+    "length": 18,
+    "text": "TMCrossoverFloor12"
+  },
+  {
+    "file": "defaultSymbolTable.bin",
+    "index": 3,
+    "record_offset": 44,
+    "string_offset": 7370,
+    "pool_offset": 30,
+    "word": "0xca7ba1c9",
+    "length": 17,
+    "text": "TMCrossoverFloor8"
+  },
+  {
+    "file": "defaultSymbolTable.bin",
+    "index": 4,
+    "record_offset": 56,
+    "string_offset": 7388,
+    "pool_offset": 48,
+    "word": "0x96f64462",
+    "length": 18,
+    "text": "TMCrossoverTable12"
+  },
+  {
+    "file": "defaultSymbolTable.bin",
+    "index": 5,
+    "record_offset": 68,
+    "string_offset": 7407,
+    "pool_offset": 67,
+    "word": "0x895a24fa",
+    "length": 17,
+    "text": "TMCrossoverTable8"
+  },
+  {
+    "file": "defaultSymbolTable.bin",
+    "index": 117,
+    "record_offset": 1412,
+    "string_offset": 8797,
+    "pool_offset": 1457,
+    "word": "0xee4c0606",
+    "length": 10,
+    "text": "PedalState"
+  },
+  {
+    "file": "defaultSymbolTable.bin",
+    "index": 121,
+    "record_offset": 1460,
+    "string_offset": 8836,
+    "pool_offset": 1496,
+    "word": "0x85f52b8e",
+    "length": 5,
+    "text": "Pedal"
+  },
+  {
+    "file": "defaultSymbolTable.bin",
+    "index": 381,
+    "record_offset": 4580,
+    "string_offset": 12010,
+    "pool_offset": 4670,
+    "word": "0x3dca88de",
+    "length": 17,
+    "text": "SharcPodFixedComp"
+  },
+  {
+    "file": "defaultSymbolTable.bin",
+    "index": 499,
+    "record_offset": 5996,
+    "string_offset": 14511,
+    "pool_offset": 7171,
+    "word": "0x74087b6d",
+    "length": 11,
+    "text": "VolumePedal"
+  },
+  {
+    "file": "defaultSymbolTable.bin",
+    "index": 552,
+    "record_offset": 6632,
+    "string_offset": 15015,
+    "pool_offset": 7675,
+    "word": "0x6c14281b",
+    "length": 22,
+    "text": "VolumePedalEnableState"
+  },
+  {
+    "file": "defaultSymbolTable.bin",
+    "index": 577,
+    "record_offset": 6932,
+    "string_offset": 15358,
+    "pool_offset": 8018,
+    "word": "0x5828e83d",
+    "length": 17,
+    "text": "VolumePedalEnable"
+  },
+  {
+    "file": "defaultSymbolTable.bin",
+    "index": 597,
+    "record_offset": 7172,
+    "string_offset": 15578,
+    "pool_offset": 8238,
+    "word": "0x34e118b8",
+    "length": 9,
+    "text": "Crossover"
+  },
+  {
+    "file": "defaultSymbolTable_AEON.bin",
+    "index": 159,
+    "record_offset": 1916,
+    "string_offset": 15880,
+    "pool_offset": 2048,
+    "word": "0xee4c0606",
+    "length": 10,
+    "text": "PedalState"
+  },
+  {
+    "file": "defaultSymbolTable_AEON.bin",
+    "index": 163,
+    "record_offset": 1964,
+    "string_offset": 15919,
+    "pool_offset": 2087,
+    "word": "0x85f52b8e",
+    "length": 5,
+    "text": "Pedal"
+  },
+  {
+    "file": "defaultSymbolTable_AEON.bin",
+    "index": 480,
+    "record_offset": 5768,
+    "string_offset": 19904,
+    "pool_offset": 6072,
+    "word": "0x3dca88de",
+    "length": 17,
+    "text": "SharcPodFixedComp"
+  },
+  {
+    "file": "defaultSymbolTable_AEON.bin",
+    "index": 598,
+    "record_offset": 7184,
+    "string_offset": 22405,
+    "pool_offset": 8573,
+    "word": "0x74087b6d",
+    "length": 11,
+    "text": "VolumePedal"
+  },
+  {
+    "file": "defaultSymbolTable_AEON.bin",
+    "index": 657,
+    "record_offset": 7892,
+    "string_offset": 22963,
+    "pool_offset": 9131,
+    "word": "0x6c14281b",
+    "length": 22,
+    "text": "VolumePedalEnableState"
+  },
+  {
+    "file": "defaultSymbolTable_AEON.bin",
+    "index": 691,
+    "record_offset": 8300,
+    "string_offset": 23462,
+    "pool_offset": 9630,
+    "word": "0x5828e83d",
+    "length": 17,
+    "text": "VolumePedalEnable"
+  },
+  {
+    "file": "defaultSymbolTable_Dio.bin",
+    "index": 110,
+    "record_offset": 1328,
+    "string_offset": 8898,
+    "pool_offset": 1342,
+    "word": "0xee4c0606",
+    "length": 10,
+    "text": "PedalState"
+  },
+  {
+    "file": "defaultSymbolTable_Dio.bin",
+    "index": 114,
+    "record_offset": 1376,
+    "string_offset": 8937,
+    "pool_offset": 1381,
+    "word": "0x85f52b8e",
+    "length": 5,
+    "text": "Pedal"
+  },
+  {
+    "file": "defaultSymbolTable_Dio.bin",
+    "index": 375,
+    "record_offset": 4508,
+    "string_offset": 12117,
+    "pool_offset": 4561,
+    "word": "0x3dca88de",
+    "length": 17,
+    "text": "SharcPodFixedComp"
+  },
+  {
+    "file": "defaultSymbolTable_Dio.bin",
+    "index": 493,
+    "record_offset": 5924,
+    "string_offset": 14618,
+    "pool_offset": 7062,
+    "word": "0x74087b6d",
+    "length": 11,
+    "text": "VolumePedal"
+  },
+  {
+    "file": "defaultSymbolTable_Dio.bin",
+    "index": 546,
+    "record_offset": 6560,
+    "string_offset": 15122,
+    "pool_offset": 7566,
+    "word": "0x6c14281b",
+    "length": 22,
+    "text": "VolumePedalEnableState"
+  },
+  {
+    "file": "defaultSymbolTable_Dio.bin",
+    "index": 571,
+    "record_offset": 6860,
+    "string_offset": 15465,
+    "pool_offset": 7909,
+    "word": "0x5828e83d",
+    "length": 17,
+    "text": "VolumePedalEnable"
+  },
+  {
+    "file": "defaultSymbolTable_FX100.bin",
+    "index": 110,
+    "record_offset": 1328,
+    "string_offset": 8898,
+    "pool_offset": 1342,
+    "word": "0xee4c0606",
+    "length": 10,
+    "text": "PedalState"
+  },
+  {
+    "file": "defaultSymbolTable_FX100.bin",
+    "index": 114,
+    "record_offset": 1376,
+    "string_offset": 8937,
+    "pool_offset": 1381,
+    "word": "0x85f52b8e",
+    "length": 5,
+    "text": "Pedal"
+  },
+  {
+    "file": "defaultSymbolTable_FX100.bin",
+    "index": 375,
+    "record_offset": 4508,
+    "string_offset": 12117,
+    "pool_offset": 4561,
+    "word": "0x3dca88de",
+    "length": 17,
+    "text": "SharcPodFixedComp"
+  },
+  {
+    "file": "defaultSymbolTable_FX100.bin",
+    "index": 493,
+    "record_offset": 5924,
+    "string_offset": 14618,
+    "pool_offset": 7062,
+    "word": "0x74087b6d",
+    "length": 11,
+    "text": "VolumePedal"
+  },
+  {
+    "file": "defaultSymbolTable_FX100.bin",
+    "index": 546,
+    "record_offset": 6560,
+    "string_offset": 15122,
+    "pool_offset": 7566,
+    "word": "0x6c14281b",
+    "length": 22,
+    "text": "VolumePedalEnableState"
+  },
+  {
+    "file": "defaultSymbolTable_FX100.bin",
+    "index": 571,
+    "record_offset": 6860,
+    "string_offset": 15465,
+    "pool_offset": 7909,
+    "word": "0x5828e83d",
+    "length": 17,
+    "text": "VolumePedalEnable"
+  },
+  {
+    "file": "defaultSymbolTable_Firebird.bin",
+    "index": 0,
+    "record_offset": 8,
+    "string_offset": 14168,
+    "pool_offset": 0,
+    "word": "0x672e318b",
+    "length": 19,
+    "text": "FHCrossoverBackWall"
+  },
+  {
+    "file": "defaultSymbolTable_Firebird.bin",
+    "index": 1,
+    "record_offset": 20,
+    "string_offset": 14188,
+    "pool_offset": 20,
+    "word": "0x8337a089",
+    "length": 20,
+    "text": "FHCrossoverFreeField"
+  },
+  {
+    "file": "defaultSymbolTable_Firebird.bin",
+    "index": 2,
+    "record_offset": 32,
+    "string_offset": 14209,
+    "pool_offset": 41,
+    "word": "0x2655e6df",
+    "length": 20,
+    "text": "FHCrossoverFloorMode"
+  },
+  {
+    "file": "defaultSymbolTable_Firebird.bin",
+    "index": 349,
+    "record_offset": 4196,
+    "string_offset": 18418,
+    "pool_offset": 4250,
+    "word": "0xee4c0606",
+    "length": 10,
+    "text": "PedalState"
+  },
+  {
+    "file": "defaultSymbolTable_Firebird.bin",
+    "index": 353,
+    "record_offset": 4244,
+    "string_offset": 18457,
+    "pool_offset": 4289,
+    "word": "0x85f52b8e",
+    "length": 5,
+    "text": "Pedal"
+  },
+  {
+    "file": "defaultSymbolTable_Firebird.bin",
+    "index": 822,
+    "record_offset": 9872,
+    "string_offset": 24155,
+    "pool_offset": 9987,
+    "word": "0x3dca88de",
+    "length": 17,
+    "text": "SharcPodFixedComp"
+  },
+  {
+    "file": "defaultSymbolTable_Firebird.bin",
+    "index": 981,
+    "record_offset": 11780,
+    "string_offset": 27112,
+    "pool_offset": 12944,
+    "word": "0x74087b6d",
+    "length": 11,
+    "text": "VolumePedal"
+  },
+  {
+    "file": "defaultSymbolTable_Firebird.bin",
+    "index": 1042,
+    "record_offset": 12512,
+    "string_offset": 27692,
+    "pool_offset": 13524,
+    "word": "0x6c14281b",
+    "length": 22,
+    "text": "VolumePedalEnableState"
+  },
+  {
+    "file": "defaultSymbolTable_Firebird.bin",
+    "index": 1078,
+    "record_offset": 12944,
+    "string_offset": 28224,
+    "pool_offset": 14056,
+    "word": "0x5828e83d",
+    "length": 17,
+    "text": "VolumePedalEnable"
+  },
+  {
+    "file": "defaultSymbolTable_Firebird.bin",
+    "index": 1152,
+    "record_offset": 13832,
+    "string_offset": 29154,
+    "pool_offset": 14986,
+    "word": "0xbe364e1f",
+    "length": 15,
+    "text": "SpeakerGlobalEQ"
+  },
+  {
+    "file": "defaultSymbolTable_Firebird.bin",
+    "index": 1153,
+    "record_offset": 13844,
+    "string_offset": 29170,
+    "pool_offset": 15002,
+    "word": "0x34e118b8",
+    "length": 9,
+    "text": "Crossover"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 11,
+    "record_offset": 140,
+    "string_offset": 11024,
+    "pool_offset": 96,
+    "word": "0x5cf9ffd8",
+    "length": 20,
+    "text": "SpiderV100_Crossover"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 21,
+    "record_offset": 260,
+    "string_offset": 11113,
+    "pool_offset": 185,
+    "word": "0x89041e59",
+    "length": 29,
+    "text": "SpiderV200H_4x12MonoCrossover"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 22,
+    "record_offset": 272,
+    "string_offset": 11143,
+    "pool_offset": 215,
+    "word": "0xe3e3d10a",
+    "length": 31,
+    "text": "SpiderV200H_4x12StereoCrossover"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 23,
+    "record_offset": 284,
+    "string_offset": 11175,
+    "pool_offset": 247,
+    "word": "0xcf0b3489",
+    "length": 21,
+    "text": "SpiderV200H_Crossover"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 24,
+    "record_offset": 296,
+    "string_offset": 11197,
+    "pool_offset": 269,
+    "word": "0xe1339316",
+    "length": 20,
+    "text": "SpiderV200_Crossover"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 25,
+    "record_offset": 308,
+    "string_offset": 11218,
+    "pool_offset": 290,
+    "word": "0x13a20468",
+    "length": 19,
+    "text": "SpiderV30_Crossover"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 26,
+    "record_offset": 320,
+    "string_offset": 11238,
+    "pool_offset": 310,
+    "word": "0x8b017378",
+    "length": 19,
+    "text": "SpiderV60_Crossover"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 358,
+    "record_offset": 4304,
+    "string_offset": 14702,
+    "pool_offset": 3774,
+    "word": "0xee4c0606",
+    "length": 10,
+    "text": "PedalState"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 362,
+    "record_offset": 4352,
+    "string_offset": 14741,
+    "pool_offset": 3813,
+    "word": "0x85f52b8e",
+    "length": 5,
+    "text": "Pedal"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 609,
+    "record_offset": 7316,
+    "string_offset": 17354,
+    "pool_offset": 6426,
+    "word": "0x3dca88de",
+    "length": 17,
+    "text": "SharcPodFixedComp"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 772,
+    "record_offset": 9272,
+    "string_offset": 20354,
+    "pool_offset": 9426,
+    "word": "0x74087b6d",
+    "length": 11,
+    "text": "VolumePedal"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 790,
+    "record_offset": 9488,
+    "string_offset": 20523,
+    "pool_offset": 9595,
+    "word": "0x6742cabf",
+    "length": 17,
+    "text": "SpiderVGuitarFlow"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 826,
+    "record_offset": 9920,
+    "string_offset": 20925,
+    "pool_offset": 9997,
+    "word": "0x6c14281b",
+    "length": 22,
+    "text": "VolumePedalEnableState"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 841,
+    "record_offset": 10100,
+    "string_offset": 21117,
+    "pool_offset": 10189,
+    "word": "0x5828e83d",
+    "length": 17,
+    "text": "VolumePedalEnable"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 865,
+    "record_offset": 10388,
+    "string_offset": 21364,
+    "pool_offset": 10436,
+    "word": "0x2ba00c60",
+    "length": 24,
+    "text": "SpiderV100_OutputLimiter"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 872,
+    "record_offset": 10472,
+    "string_offset": 21465,
+    "pool_offset": 10537,
+    "word": "0x8a675cc7",
+    "length": 25,
+    "text": "SpiderV200H_OutputLimiter"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 873,
+    "record_offset": 10484,
+    "string_offset": 21491,
+    "pool_offset": 10563,
+    "word": "0x783a57e4",
+    "length": 24,
+    "text": "SpiderV200_OutputLimiter"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 874,
+    "record_offset": 10496,
+    "string_offset": 21516,
+    "pool_offset": 10588,
+    "word": "0x306f0655",
+    "length": 23,
+    "text": "SpiderV30_OutputLimiter"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 875,
+    "record_offset": 10508,
+    "string_offset": 21540,
+    "pool_offset": 10612,
+    "word": "0x4a36db43",
+    "length": 23,
+    "text": "SpiderV60_OutputLimiter"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 883,
+    "record_offset": 10604,
+    "string_offset": 21633,
+    "pool_offset": 10705,
+    "word": "0xce9a5e4a",
+    "length": 11,
+    "text": "SpiderVMain"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 885,
+    "record_offset": 10628,
+    "string_offset": 21656,
+    "pool_offset": 10728,
+    "word": "0x34e118b8",
+    "length": 9,
+    "text": "Crossover"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 900,
+    "record_offset": 10808,
+    "string_offset": 21892,
+    "pool_offset": 10964,
+    "word": "0x837ea250",
+    "length": 11,
+    "text": "USBOutLevel"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 901,
+    "record_offset": 10820,
+    "string_offset": 21904,
+    "pool_offset": 10976,
+    "word": "0xe2b4d7d3",
+    "length": 10,
+    "text": "USBInLevel"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 904,
+    "record_offset": 10856,
+    "string_offset": 21938,
+    "pool_offset": 11010,
+    "word": "0x56a56d48",
+    "length": 26,
+    "text": "SpiderV30_CrossoverBoiling"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 905,
+    "record_offset": 10868,
+    "string_offset": 21965,
+    "pool_offset": 11037,
+    "word": "0x682fe0f2",
+    "length": 26,
+    "text": "SpiderV60_CrossoverBoiling"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 907,
+    "record_offset": 10892,
+    "string_offset": 22011,
+    "pool_offset": 11083,
+    "word": "0x85317d83",
+    "length": 27,
+    "text": "SpiderV100_CrossoverBoiling"
+  },
+  {
+    "file": "defaultSymbolTable_Parker.bin",
+    "index": 908,
+    "record_offset": 10904,
+    "string_offset": 22039,
+    "pool_offset": 11111,
+    "word": "0x2a983049",
+    "length": 27,
+    "text": "SpiderV200_CrossoverBoiling"
+  },
+  {
+    "file": "defaultSymbolTable_TT.bin",
+    "index": 110,
+    "record_offset": 1328,
+    "string_offset": 8898,
+    "pool_offset": 1342,
+    "word": "0xee4c0606",
+    "length": 10,
+    "text": "PedalState"
+  },
+  {
+    "file": "defaultSymbolTable_TT.bin",
+    "index": 114,
+    "record_offset": 1376,
+    "string_offset": 8937,
+    "pool_offset": 1381,
+    "word": "0x85f52b8e",
+    "length": 5,
+    "text": "Pedal"
+  },
+  {
+    "file": "defaultSymbolTable_TT.bin",
+    "index": 375,
+    "record_offset": 4508,
+    "string_offset": 12117,
+    "pool_offset": 4561,
+    "word": "0x3dca88de",
+    "length": 17,
+    "text": "SharcPodFixedComp"
+  },
+  {
+    "file": "defaultSymbolTable_TT.bin",
+    "index": 493,
+    "record_offset": 5924,
+    "string_offset": 14618,
+    "pool_offset": 7062,
+    "word": "0x74087b6d",
+    "length": 11,
+    "text": "VolumePedal"
+  },
+  {
+    "file": "defaultSymbolTable_TT.bin",
+    "index": 546,
+    "record_offset": 6560,
+    "string_offset": 15122,
+    "pool_offset": 7566,
+    "word": "0x6c14281b",
+    "length": 22,
+    "text": "VolumePedalEnableState"
+  },
+  {
+    "file": "defaultSymbolTable_TT.bin",
+    "index": 571,
+    "record_offset": 6860,
+    "string_offset": 15465,
+    "pool_offset": 7909,
+    "word": "0x5828e83d",
+    "length": 17,
+    "text": "VolumePedalEnable"
+  }
+]

@@ -1,0 +1,10 @@
+candidate=0x14003abf0 count=145 slot_2a0=0x140024100
+candidate=0x14003b098 count=149 slot_2a0=0x140024100
+candidate=0x14003b558 count=151 slot_2a0=0x140024100
+candidate=0x14003ba20 count=160 slot_2a0=0x140004680
+candidate=0x14003bf30 count=145 slot_2a0=0x140024100
+candidate=0x14003c3c8 count=151 slot_2a0=0x140024100
+candidate=0x14003c890 count=151 slot_2a0=0x140024100
+candidate=0x14003cd60 count=144 slot_2a0=0x140024100
+candidate=0x14003d480 count=109 slot_2a0=0x140004680
+candidate=0x14003d810 count=151 slot_2a0=0x140024100

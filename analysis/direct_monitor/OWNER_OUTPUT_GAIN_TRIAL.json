@@ -1,0 +1,23 @@
+{
+  "source": "owner log and audio/meter observation in chat",
+  "device": "Spider V30",
+  "firmware": "2.05.0",
+  "AmpEnable": 1,
+  "parameter": "GuitProcOutputGain",
+  "context": "global(-1)",
+  "initial": 1,
+  "temporary": 0,
+  "readback_zero_reported": true,
+  "restored": 1,
+  "restoration_verified_reported": true,
+  "observation": {
+    "guitar_audible": false,
+    "reaper_input_meter_moving": false
+  },
+  "conclusion": "Setting this parameter to zero does not preserve USB guitar capture in the tested condition. Not a direct-monitor-only mute.",
+  "limits": [
+    "No instrumental audio capture supplied",
+    "Audio tap topology not proven",
+    "Not tested with AmpEnable0 in this experiment"
+  ]
+}

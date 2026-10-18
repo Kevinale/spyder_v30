@@ -1,0 +1,13 @@
+{
+  "input": "/workspace/analysis/firmware/data.decompressed.bin",
+  "bytes": 393192,
+  "input_sha256": "58b058a7310a8f397d5c029f6dc0c0b07e5128dbd027548c060eba797647a0b4",
+  "decoded_sha256": "58b058a7310a8f397d5c029f6dc0c0b07e5128dbd027548c060eba797647a0b4",
+  "modeled_encoded_capacity": 32,
+  "raw_bytes_per_full_packet": 28,
+  "modeled_packets": 14043,
+  "max_encoded_bytes": 32,
+  "exact_roundtrip": true,
+  "bad_checksum_rejected": true,
+  "limits": "Offline model based on static code, not device capture or complete updater reimplementation. No ready-to-send messages generated; no device IO."
+}

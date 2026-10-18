@@ -1,0 +1,50 @@
+{
+  "runtime": "Lua 5.4 via lupa; simulated REAPER API, not real Gateway",
+  "cases": [
+    {
+      "case": "normal playback, parameter selection, gain bounds and restoration",
+      "passed": true,
+      "set_calls": 1166
+    },
+    {
+      "case": "Esc cancels mid-demo and restores",
+      "passed": true
+    },
+    {
+      "case": "unsupported dB formatter omits Drive safely",
+      "passed": true
+    },
+    {
+      "case": "guard record_arm=1",
+      "passed": true
+    },
+    {
+      "case": "guard monitor=1",
+      "passed": true
+    },
+    {
+      "case": "guard automation=3",
+      "passed": true
+    },
+    {
+      "case": "guard global_automation=3",
+      "passed": true
+    },
+    {
+      "case": "guard playstate=5",
+      "passed": true
+    },
+    {
+      "case": "recording begins mid-demo: abort and restore",
+      "passed": true
+    },
+    {
+      "case": "FX identity changed: stop without writing replacement FX",
+      "passed": true
+    }
+  ],
+  "event_count": 1146,
+  "live_reaper_validation": false,
+  "usb_access": false,
+  "all_passed": true
+}

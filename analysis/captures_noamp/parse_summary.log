@@ -1,0 +1,39 @@
+{
+  "input": "/workspace/analysis/captures_noamp/input/SpiderV_NoAmp_Perillas.pcapng",
+  "sha256": "4ebbb7faced38403cad610e93d3cf8dc97407b5e07a711e6e03b7f5c85834018",
+  "bytes": 84637284,
+  "frames": 470865,
+  "duration_seconds": 117.386209,
+  "interfaces": [
+    {
+      "link_type": 249,
+      "snaplen": 65535,
+      "resolution": 6,
+      "scale": 1e-06,
+      "name": "\\\\.\\USBPcap2"
+    }
+  ],
+  "targets": [
+    [
+      2,
+      4
+    ]
+  ],
+  "target_frames": 470847,
+  "exported_target_frames": 1306,
+  "export_control_midi_only": true,
+  "target_transfer_counts": {
+    "2": 6,
+    "0": 469541,
+    "3": 1300
+  },
+  "all_usb_status_zero": true,
+  "target_payload_urbs": 650,
+  "midi_events": 9750,
+  "sysex_messages": 650,
+  "sysex_counts": {
+    "IN": 650
+  },
+  "unfinished_sysex": 0,
+  "warnings": []
+}

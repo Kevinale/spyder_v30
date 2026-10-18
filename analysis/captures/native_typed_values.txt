@@ -1,0 +1,565 @@
+XREF 100998e0 10176280
+XREF 100999a0 10176284
+XREF 1009ae80 100851a5
+FUNCTION 100998e0 FUN_100998e0
+
+void __thiscall FUN_100998e0(void *this,undefined4 param_1,int param_2,undefined4 *param_3)
+
+{
+  int iVar1;
+  DWORD DVar2;
+  int local_20;
+  undefined4 local_1c;
+  int local_18;
+  undefined4 local_14;
+  undefined4 local_10;
+  undefined4 local_c;
+  uint local_8;
+  
+  local_8 = DAT_1018a29c ^ (uint)&stack0xfffffffc;
+  if (param_2 == -1) {
+    __security_check_cookie(local_8 ^ (uint)&stack0xfffffffc);
+    return;
+  }
+  local_1c = param_1;
+  local_14 = *param_3;
+  local_10 = param_3[1];
+  local_18 = param_2;
+  iVar1 = FUN_100991b0(this,10,&local_1c,0x10,param_2,&local_c,4,&local_20);
+  if (-1 < iVar1) {
+    if ((HANDLE)**(undefined4 **)(local_20 + 4) != (HANDLE)0x0) {
+      DVar2 = WaitForSingleObject((HANDLE)**(undefined4 **)(local_20 + 4),15000);
+      if (DVar2 == 0) {
+        *(undefined4 *)((int)this + 0xd8) = local_c;
+        __security_check_cookie(local_8 ^ (uint)&stack0xfffffffc);
+        return;
+      }
+    }
+    FUN_1009b4a0(this);
+  }
+  __security_check_cookie(local_8 ^ (uint)&stack0xfffffffc);
+  return;
+}
+
+
+FUNCTION 100999a0 FUN_100999a0
+
+void __thiscall FUN_100999a0(void *this,undefined4 param_1,int param_2,undefined4 *param_3)
+
+{
+  undefined4 local_18;
+  int local_14;
+  undefined4 local_10;
+  undefined4 local_c;
+  uint local_8;
+  
+  local_8 = DAT_1018a29c ^ (uint)&stack0xfffffffc;
+  if (param_2 == -1) {
+    __security_check_cookie(local_8 ^ (uint)&stack0xfffffffc);
+    return;
+  }
+  local_18 = param_1;
+  local_10 = *param_3;
+  local_c = param_3[1];
+  local_14 = param_2;
+  FUN_100991b0(this,10,&local_18,0x10,param_2,0,4,(int *)0x0);
+  __security_check_cookie(local_8 ^ (uint)&stack0xfffffffc);
+  return;
+}
+
+
+FUNCTION 1009ae80 FUN_1009ae80
+
+void __fastcall FUN_1009ae80(void *param_1)
+
+{
+  int *piVar1;
+  int iVar2;
+  int *piVar3;
+  undefined4 *puVar4;
+  int iVar5;
+  code *pcVar6;
+  undefined4 uVar7;
+  undefined4 *puVar8;
+  int iVar9;
+  undefined1 auStack_24 [4];
+  undefined4 uStack_20;
+  int iStack_1c;
+  int *piStack_18;
+  int local_14 [4];
+  
+  local_14[2] = DAT_1018a29c ^ (uint)auStack_24;
+  local_14[0] = 0;
+  local_14[1] = 0;
+  if ((*(int **)((int)param_1 + 4) == (int *)0x0) ||
+     (iVar5 = (**(code **)(**(int **)((int)param_1 + 4) + 0x10))(local_14,8), iVar5 < 0)) {
+LAB_1009b3df:
+    __security_check_cookie(local_14[2] ^ (uint)auStack_24);
+    return;
+  }
+  if (iVar5 != 8) {
+    __security_check_cookie(local_14[2] ^ (uint)auStack_24);
+    return;
+  }
+  if (local_14[0] != 0) {
+    if (local_14[0] == 1) {
+      FUN_1009ac30(param_1,local_14);
+      __security_check_cookie(local_14[2] ^ (uint)auStack_24);
+      return;
+    }
+    if (local_14[0] == 2) {
+      if (*(uint *)((int)param_1 + 0xd4) < (uint)local_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)param_1 + 4) + 0x10))
+                        (*(undefined4 *)((int)param_1 + 0xd0),local_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      piStack_18 = *(int **)((int)param_1 + 0xd0);
+      iStack_1c = *piStack_18;
+      iVar5 = piStack_18[1];
+      if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)param_1 + 0x14),0xffffffff);
+      }
+      for (iVar9 = *(int *)((int)param_1 + 0x5c); iVar9 != 0; iVar9 = *(int *)(iVar9 + 4)) {
+        if (iVar9 == 0) {
+          iStack_1c = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&iStack_1c,(ThrowInfo *)&DAT_10186f18);
+        }
+        piVar1 = *(int **)(iVar9 + 8);
+        if (((*piVar1 == iStack_1c) && (piVar1[1] == iVar5)) &&
+           (pcVar6 = (code *)piVar1[2], pcVar6 != (code *)0x0)) {
+          if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)param_1 + 0x14));
+            pcVar6 = (code *)piVar1[2];
+          }
+          (*pcVar6)(piStack_18 + 2,piVar1[3]);
+          __security_check_cookie(local_14[2] ^ (uint)auStack_24);
+          return;
+        }
+      }
+    }
+    else if (local_14[0] == 3) {
+      if (*(uint *)((int)param_1 + 0xd4) < (uint)local_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)param_1 + 4) + 0x10))
+                        (*(undefined4 *)((int)param_1 + 0xd0),local_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      iVar5 = *(int *)((int)param_1 + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)param_1 + 0x14),0xffffffff);
+      }
+      for (iVar9 = *(int *)((int)param_1 + 0x6c); iVar9 != 0; iVar9 = *(int *)(iVar9 + 4)) {
+        if (iVar9 == 0) {
+          piStack_18 = (int *)0x3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&piStack_18,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar2 = *(int *)(iVar9 + 8);
+        if (*(int *)(iVar2 + 8) != 0) {
+          if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)param_1 + 0x14));
+          }
+          iVar9 = *(int *)(iVar2 + 0xc);
+          *(undefined4 *)(iVar9 + 8) = *(undefined4 *)(iVar5 + 8);
+          *(undefined4 *)(iVar9 + 0xc) = *(undefined4 *)(iVar5 + 0xc);
+          (**(code **)(iVar2 + 8))(iVar5,*(undefined4 *)(iVar2 + 0xc));
+          __security_check_cookie(local_14[2] ^ (uint)auStack_24);
+          return;
+        }
+      }
+    }
+    else if (local_14[0] == 4) {
+      if (*(uint *)((int)param_1 + 0xd4) < (uint)local_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)param_1 + 4) + 0x10))
+                        (*(undefined4 *)((int)param_1 + 0xd0),local_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      piVar1 = *(int **)((int)param_1 + 0xd0);
+      iStack_1c = piVar1[1];
+      piStack_18 = (int *)*piVar1;
+      if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)param_1 + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)param_1 + 0x7c); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        if (*(int *)(iVar9 + 8) != 0) {
+          if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)param_1 + 0x14));
+          }
+          piVar3 = *(int **)(iVar9 + 0xc);
+          *piVar3 = (int)piStack_18;
+          piVar3[1] = iStack_1c;
+          (**(code **)(iVar9 + 8))(piVar1 + 2,*(undefined4 *)(iVar9 + 0xc));
+          __security_check_cookie(local_14[2] ^ (uint)auStack_24);
+          return;
+        }
+      }
+    }
+    else if (local_14[0] == 5) {
+      if (*(uint *)((int)param_1 + 0xd4) < (uint)local_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)param_1 + 4) + 0x10))
+                        (*(undefined4 *)((int)param_1 + 0xd0),local_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      uVar7 = *(undefined4 *)((int)param_1 + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)param_1 + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)param_1 + 0x8c); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        pcVar6 = *(code **)(iVar9 + 8);
+        if (pcVar6 != (code *)0x0) {
+LAB_1009b1f6:
+          if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)param_1 + 0x14));
+            pcVar6 = *(code **)(iVar9 + 8);
+          }
+          (*pcVar6)(uVar7,*(undefined4 *)(iVar9 + 0xc));
+          __security_check_cookie(local_14[2] ^ (uint)auStack_24);
+          return;
+        }
+      }
+    }
+    else if (local_14[0] == 6) {
+      if (*(uint *)((int)param_1 + 0xd4) < (uint)local_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)param_1 + 4) + 0x10))
+                        (*(undefined4 *)((int)param_1 + 0xd0),local_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      uVar7 = *(undefined4 *)((int)param_1 + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)param_1 + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)param_1 + 0x9c); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        pcVar6 = *(code **)(iVar9 + 8);
+        if (pcVar6 != (code *)0x0) goto LAB_1009b1f6;
+      }
+    }
+    else if (local_14[0] == 7) {
+      if (*(uint *)((int)param_1 + 0xd4) < (uint)local_14[1]) {
+LAB_1009af2d:
+        __security_check_cookie(local_14[2] ^ (uint)auStack_24);
+        return;
+      }
+      iVar5 = (**(code **)(**(int **)((int)param_1 + 4) + 0x10))
+                        (*(undefined4 *)((int)param_1 + 0xd0),local_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      puVar8 = *(undefined4 **)((int)param_1 + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)param_1 + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)param_1 + 0xac); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        if (*(int *)(iVar9 + 8) != 0) {
+LAB_1009b30f:
+          if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)param_1 + 0x14));
+          }
+          puVar4 = *(undefined4 **)(iVar9 + 0xc);
+          *puVar4 = *puVar8;
+          puVar4[1] = puVar8[1];
+          puVar4[2] = puVar8[2];
+          (**(code **)(iVar9 + 8))(puVar8 + 1,*(undefined4 *)(iVar9 + 0xc));
+          __security_check_cookie(local_14[2] ^ (uint)auStack_24);
+          return;
+        }
+      }
+    }
+    else {
+      if (local_14[0] != 8) {
+        __security_check_cookie(local_14[2] ^ (uint)auStack_24);
+        return;
+      }
+      if (*(uint *)((int)param_1 + 0xd4) < (uint)local_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)param_1 + 4) + 0x10))
+                        (*(undefined4 *)((int)param_1 + 0xd0),local_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      puVar8 = *(undefined4 **)((int)param_1 + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)param_1 + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)param_1 + 0xbc); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        if (*(int *)(iVar9 + 8) != 0) goto LAB_1009b30f;
+      }
+    }
+    if ((HANDLE)**(undefined4 **)((int)param_1 + 0x14) != (HANDLE)0x0) {
+      ReleaseMutex((HANDLE)**(undefined4 **)((int)param_1 + 0x14));
+    }
+  }
+  __security_check_cookie(local_14[2] ^ (uint)auStack_24);
+  return;
+}
+
+
+FUNCTION 100851a0 FUN_100851a0
+
+undefined4 __fastcall FUN_100851a0(int param_1)
+
+{
+  void *this;
+  int *piVar1;
+  int iVar2;
+  int *piVar3;
+  undefined4 *puVar4;
+  int iVar5;
+  undefined4 uVar6;
+  code *pcVar7;
+  undefined4 *puVar8;
+  int iVar9;
+  undefined1 auStack_24 [4];
+  undefined4 uStack_20;
+  int iStack_1c;
+  int *piStack_18;
+  int aiStack_14 [4];
+  
+  this = *(void **)(param_1 + 0x58);
+  if (this == (void *)0x0) {
+    return 0xffffffff;
+  }
+  aiStack_14[2] = DAT_1018a29c ^ (uint)auStack_24;
+  aiStack_14[0] = 0;
+  aiStack_14[1] = 0;
+  if ((*(int **)((int)this + 4) == (int *)0x0) ||
+     (iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))(aiStack_14,8), iVar5 < 0)) {
+LAB_1009b3df:
+    uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+    return uVar6;
+  }
+  if (iVar5 != 8) {
+    uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+    return uVar6;
+  }
+  if (aiStack_14[0] != 0) {
+    if (aiStack_14[0] == 1) {
+      FUN_1009ac30(this,aiStack_14);
+      uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+      return uVar6;
+    }
+    if (aiStack_14[0] == 2) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      piStack_18 = *(int **)((int)this + 0xd0);
+      iStack_1c = *piStack_18;
+      iVar5 = piStack_18[1];
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar9 = *(int *)((int)this + 0x5c); iVar9 != 0; iVar9 = *(int *)(iVar9 + 4)) {
+        if (iVar9 == 0) {
+          iStack_1c = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&iStack_1c,(ThrowInfo *)&DAT_10186f18);
+        }
+        piVar1 = *(int **)(iVar9 + 8);
+        if (((*piVar1 == iStack_1c) && (piVar1[1] == iVar5)) &&
+           (pcVar7 = (code *)piVar1[2], pcVar7 != (code *)0x0)) {
+          if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+            pcVar7 = (code *)piVar1[2];
+          }
+          (*pcVar7)(piStack_18 + 2,piVar1[3]);
+          uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+          return uVar6;
+        }
+      }
+    }
+    else if (aiStack_14[0] == 3) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      iVar5 = *(int *)((int)this + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar9 = *(int *)((int)this + 0x6c); iVar9 != 0; iVar9 = *(int *)(iVar9 + 4)) {
+        if (iVar9 == 0) {
+          piStack_18 = (int *)0x3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&piStack_18,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar2 = *(int *)(iVar9 + 8);
+        if (*(int *)(iVar2 + 8) != 0) {
+          if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+          }
+          iVar9 = *(int *)(iVar2 + 0xc);
+          *(undefined4 *)(iVar9 + 8) = *(undefined4 *)(iVar5 + 8);
+          *(undefined4 *)(iVar9 + 0xc) = *(undefined4 *)(iVar5 + 0xc);
+          (**(code **)(iVar2 + 8))(iVar5,*(undefined4 *)(iVar2 + 0xc));
+          uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+          return uVar6;
+        }
+      }
+    }
+    else if (aiStack_14[0] == 4) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      piVar1 = *(int **)((int)this + 0xd0);
+      iStack_1c = piVar1[1];
+      piStack_18 = (int *)*piVar1;
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)this + 0x7c); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        if (*(int *)(iVar9 + 8) != 0) {
+          if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+          }
+          piVar3 = *(int **)(iVar9 + 0xc);
+          *piVar3 = (int)piStack_18;
+          piVar3[1] = iStack_1c;
+          (**(code **)(iVar9 + 8))(piVar1 + 2,*(undefined4 *)(iVar9 + 0xc));
+          uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+          return uVar6;
+        }
+      }
+    }
+    else if (aiStack_14[0] == 5) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      uVar6 = *(undefined4 *)((int)this + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)this + 0x8c); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        pcVar7 = *(code **)(iVar9 + 8);
+        if (pcVar7 != (code *)0x0) {
+LAB_1009b1f6:
+          if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+            pcVar7 = *(code **)(iVar9 + 8);
+          }
+          (*pcVar7)(uVar6,*(undefined4 *)(iVar9 + 0xc));
+          uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+          return uVar6;
+        }
+      }
+    }
+    else if (aiStack_14[0] == 6) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      uVar6 = *(undefined4 *)((int)this + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)this + 0x9c); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        pcVar7 = *(code **)(iVar9 + 8);
+        if (pcVar7 != (code *)0x0) goto LAB_1009b1f6;
+      }
+    }
+    else if (aiStack_14[0] == 7) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) {
+LAB_1009af2d:
+        uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+        return uVar6;
+      }
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      puVar8 = *(undefined4 **)((int)this + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)this + 0xac); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        if (*(int *)(iVar9 + 8) != 0) {
+LAB_1009b30f:
+          if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+          }
+          puVar4 = *(undefined4 **)(iVar9 + 0xc);
+          *puVar4 = *puVar8;
+          puVar4[1] = puVar8[1];
+          puVar4[2] = puVar8[2];
+          (**(code **)(iVar9 + 8))(puVar8 + 1,*(undefined4 *)(iVar9 + 0xc));
+          uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+          return uVar6;
+        }
+      }
+    }
+    else {
+      if (aiStack_14[0] != 8) {
+        uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+        return uVar6;
+      }
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      puVar8 = *(undefined4 **)((int)this + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)this + 0xbc); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        if (*(int *)(iVar9 + 8) != 0) goto LAB_1009b30f;
+      }
+    }
+    if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+      ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+    }
+  }
+  uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+  return uVar6;
+}
+
+

@@ -1,0 +1,48 @@
+[
+  {
+    "query": "BF70x",
+    "count": 5,
+    "results": [
+      {
+        "name": "deanm1278/<em>bf70x</em>-bootloader",
+        "description": "openocd bootloader sketch for <em>bf70x</em> boards"
+      },
+      {
+        "name": "majbthrd/ldrshrink",
+        "description": "shrink image size (and boot time) for ADSP-<em>BF70x</em> / ADSP-SC57x / ADSP-SC58x"
+      },
+      {
+        "name": "ruoshuiclub/lfs-<em>bf70x</em>",
+        "description": "\u5b66\u4e60ADSP-<em>BF70x</em> Series\u7684\u4e00\u4e9b\u7b14\u8bb0 "
+      },
+      {
+        "name": "vipzrxqq/LFS-<em>BF70x</em>",
+        "description": "\u5b66\u4e60ADSP-<em>BF70x</em>\u7684\u4e00\u4e9b\u7b14\u8bb0"
+      },
+      {
+        "name": "ujinosuke/ToppersJspForBF70x",
+        "description": "Toppres JSP (uITRON RTOS) for BlackfinPlus <em>BF70x</em>"
+      }
+    ]
+  },
+  {
+    "query": "Blackfin bootrom",
+    "count": 0,
+    "results": []
+  },
+  {
+    "query": "ADSP BF707",
+    "count": 0,
+    "results": []
+  },
+  {
+    "query": "Blackfin firmware tools",
+    "count": 1,
+    "results": [
+      {
+        "name": "cdj2k-revival/cdj2000-emulator",
+        "description": "Emulator for the Pioneer CDJ-2000 that boots the player's own <em>firmware</em> on two emulated processors: a QEMU SH-4 board and a patched GNU <em>Bl\u2026</em>"
+      }
+    ]
+  }
+]

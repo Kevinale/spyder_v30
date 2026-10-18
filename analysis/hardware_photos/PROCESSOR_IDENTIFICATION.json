@@ -1,0 +1,31 @@
+{
+  "source": "two new owner photographs of same device with U6 marking visible",
+  "component": "U6",
+  "manufacturer": "Analog Devices",
+  "marking_lines": [
+    "ADSP-BF707",
+    "KBCZ-4",
+    "6782263.1-1.1",
+    "#2217 KOREA",
+    "Blackfin"
+  ],
+  "part_identification": "ADSP-BF707KBCZ-4",
+  "confidence": "high for visible marking; no clock measurement or runtime memory map",
+  "architecture_family": "Blackfin",
+  "photographs": [
+    {
+      "path": "/tmp/codex-remote-attachments/01a13e1f-0848-754c-8947-93c713c0c0da/01daa28b-9706-446a-9447-c19382f183f1/1-1000275197.jpg",
+      "sha256": "aa60d744679b53e83d1b7c2503c283fc310fe72617b2914a7a7e6551ab11a945"
+    },
+    {
+      "path": "/tmp/codex-remote-attachments/01a13e1f-0848-754c-8947-93c713c0c0da/01daa28b-9706-446a-9447-c19382f183f1/2-1000275196.jpg",
+      "sha256": "2a98262c99c058e54f4eed51fba7ff75461fe937604b97e3caa05c35576467c6"
+    }
+  ],
+  "limits": [
+    "Clock in operation unmeasured",
+    "Exact free RAM unknown",
+    "No executable firmware image decoded",
+    "No NAM feasibility proof or direct-monitor route found"
+  ]
+}

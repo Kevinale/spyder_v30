@@ -1,0 +1,23 @@
+[
+  {
+    "format": "Line6 ARM loader (AMPLIFi TT comparison only)",
+    "magic_hex": "5e0c0b23",
+    "candidate_offsets": []
+  },
+  {
+    "format": "L6IA",
+    "magic_hex": "4c364941",
+    "candidate_offsets": []
+  },
+  {
+    "format": "ADSP-21489 loader layout used by AMPLIFi TT; not assumed for Spider",
+    "header_offset": 1536,
+    "header_words_hex": [
+      "0x5040c132",
+      "0x593972c3",
+      "0xa5d2d32d"
+    ],
+    "first_tag_in_known_0_to_6_set": false,
+    "limit": "Failure only excludes that exact tag/count/address header at this offset, not SHARC silicon or other loaders."
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "symbols": {
+    "AmpEnable": {
+      "index": 835,
+      "text": "AmpEnable",
+      "crc32": "cda80a0c",
+      "string_offset": 21127,
+      "record_offset": 10028
+    },
+    "AmpEnableState": {
+      "index": 821,
+      "text": "AmpEnableState",
+      "crc32": "61205541",
+      "string_offset": 20922,
+      "record_offset": 9860
+    },
+    "GuitarProc": {
+      "index": 884,
+      "text": "GuitarProc",
+      "crc32": "184726db",
+      "string_offset": 21717,
+      "record_offset": 10616
+    },
+    "Amp": {
+      "index": 42,
+      "text": "Amp",
+      "crc32": "0e4f5a33",
+      "string_offset": 11462,
+      "record_offset": 512
+    }
+  },
+  "stored_flag": {
+    "payload_offset": 367,
+    "key": "0x335",
+    "type": 1,
+    "value": 1,
+    "section": "GTRT",
+    "block_path": [
+      "GuitarProc"
+    ],
+    "symbol": "AmpEnableState"
+  },
+  "separate_amp_model": {
+    "payload_offset": 939,
+    "key": "0x80000005",
+    "type": 7,
+    "value": 124,
+    "section": "GTRT",
+    "block_path": [
+      "GuitarProc",
+      "Amp"
+    ],
+    "model_name": "Line6SuperSparkle"
+  },
+  "reply_provenance": {
+    "logical_index": 18,
+    "channel": 1,
+    "frames": [
+      1281,
+      1351
+    ],
+    "flag_sysex_index": 110,
+    "flag_sysex_frames": [
+      1295,
+      1307
+    ],
+    "flag_key_offset_in_reply_payload": 367,
+    "flag_value_offset_in_reply_payload": 373
+  },
+  "next_read_only_query_description": {
+    "status": "NOT SENT; requires appropriate session/transport and hardware",
+    "api_header_opcode": 9,
+    "api_payload_bytes": 8,
+    "object_symbol": "GuitarProc",
+    "object_id": 884,
+    "parameter_symbol": "AmpEnable",
+    "parameter_id": 835,
+    "api_message_hex": "09000000080000007403000043030000",
+    "native_evidence": "captures/native_setters.txt FUN_10099810 VA0x10099810: opcode9 and two IDs; opcode10 setter is a separate function",
+    "read_question": "Does this parameter read succeed, and what is its value with an active model versus No Amp?",
+    "does_not_test": [
+      "Whether setting zero is accepted",
+      "Whether audio is bypassed",
+      "Whether four physical knob IDs remain distinct",
+      "Whether state is saved"
+    ]
+  },
+  "correction": "The missing amp/@enabled mapping in Remote does not imply missing AmpEnable in the device. Both AmpEnable and stored AmpEnableState are in the device-supplied table; an actual preset includes the stored flag."
+}

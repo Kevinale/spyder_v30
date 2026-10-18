@@ -1,0 +1,8498 @@
+[
+  {
+    "type": ".<Module>",
+    "methods": [
+      {
+        "token": "0x6000001",
+        "name": "new",
+        "signature_hex": "000220450f01090f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Size"
+          },
+          {
+            "sequence": 2,
+            "name": "_Where"
+          }
+        ]
+      },
+      {
+        "token": "0x6000002",
+        "name": "std.exception.{ctor}",
+        "signature_hex": "000220490f11857c205920590f11857c207d0f205911857c",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Other"
+          }
+        ]
+      },
+      {
+        "token": "0x6000003",
+        "name": "std.exception.{dtor}",
+        "signature_hex": "0001204901205920590f11857c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000004",
+        "name": "std.exception.what",
+        "signature_hex": "000120490f2059206504205920590f205911857c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000005",
+        "name": "std.exception.__vecDelDtor",
+        "signature_hex": "000220490f01205920590f11857c09",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000006",
+        "name": "std.exception_ptr.{dtor}",
+        "signature_hex": "0001204901205920590f11858c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000007",
+        "name": "std.exception_ptr.{ctor}",
+        "signature_hex": "000220490f11858c205920590f11858c207d0f205911858c",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Rhs"
+          }
+        ]
+      },
+      {
+        "token": "0x6000008",
+        "name": "std.numeric_limits<int>.max",
+        "signature_hex": "0000204508",
+        "parameters": []
+      },
+      {
+        "token": "0x6000009",
+        "name": "std.char_traits<char>.length",
+        "signature_hex": "0001204509205920590f2059206504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_First"
+          }
+        ]
+      },
+      {
+        "token": "0x600000a",
+        "name": "std.char_traits<char>.copy",
+        "signature_hex": "000320450f206504205920590f206504205920590f2059206504205909",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_First1"
+          },
+          {
+            "sequence": 2,
+            "name": "_First2"
+          },
+          {
+            "sequence": 3,
+            "name": "_Count"
+          }
+        ]
+      },
+      {
+        "token": "0x600000b",
+        "name": "std.char_traits<char>.move",
+        "signature_hex": "000320450f206504205920590f206504205920590f2059206504205909",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_First1"
+          },
+          {
+            "sequence": 2,
+            "name": "_First2"
+          },
+          {
+            "sequence": 3,
+            "name": "_Count"
+          }
+        ]
+      },
+      {
+        "token": "0x600000c",
+        "name": "std.char_traits<char>.assign",
+        "signature_hex": "0002204501207d0f206504207d0f2059206504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Left"
+          },
+          {
+            "sequence": 2,
+            "name": "_Right"
+          }
+        ]
+      },
+      {
+        "token": "0x600000d",
+        "name": "std._Container_base0._Orphan_all",
+        "signature_hex": "0001204901205920590f1185e0",
+        "parameters": []
+      },
+      {
+        "token": "0x600000e",
+        "name": "std._Container_base12.{ctor}",
+        "signature_hex": "000220490f1185e4205920590f1185e4207d0f20591185e4",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x600000f",
+        "name": "std._Iterator_base12.{ctor}",
+        "signature_hex": "000220490f1185e8205920590f1185e8207d0f20591185e8",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Right"
+          }
+        ]
+      },
+      {
+        "token": "0x6000010",
+        "name": "std._Iterator_base12.=",
+        "signature_hex": "00022049207d0f1185e8205920590f1185e8207d0f20591185e8",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Right"
+          }
+        ]
+      },
+      {
+        "token": "0x6000011",
+        "name": "std._Iterator_base12._Adopt",
+        "signature_hex": "0002204901205920590f1185e80f20591185e4",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Parent"
+          }
+        ]
+      },
+      {
+        "token": "0x6000012",
+        "name": "std._Get_size_of_n<1>",
+        "signature_hex": "0001204509205909",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Count"
+          }
+        ]
+      },
+      {
+        "token": "0x6000013",
+        "name": "std._Default_allocate_traits._Allocate",
+        "signature_hex": "000120450f01205909",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Bytes"
+          }
+        ]
+      },
+      {
+        "token": "0x6000014",
+        "name": "std._Adjust_manually_vector_aligned",
+        "signature_hex": "0002204501207d0f0f01207d0f09",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Ptr"
+          },
+          {
+            "sequence": 2,
+            "name": "_Bytes"
+          }
+        ]
+      },
+      {
+        "token": "0x6000015",
+        "name": "std._Convert_size<unsigned int>",
+        "signature_hex": "0001204509205909",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Len"
+          }
+        ]
+      },
+      {
+        "token": "0x6000016",
+        "name": "std.runtime_error.__vecDelDtor",
+        "signature_hex": "000220490f01205920590f11860409",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000017",
+        "name": "std.runtime_error.{dtor}",
+        "signature_hex": "0001204901205920590f118604",
+        "parameters": []
+      },
+      {
+        "token": "0x6000018",
+        "name": "std.bad_cast.__vecDelDtor",
+        "signature_hex": "000220490f01205920590f11861409",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000019",
+        "name": "std.bad_cast.{dtor}",
+        "signature_hex": "0001204901205920590f118614",
+        "parameters": []
+      },
+      {
+        "token": "0x600001a",
+        "name": "std.runtime_error.{ctor}",
+        "signature_hex": "000220490f118604205920590f118604207d0f2059118604",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x600001b",
+        "name": "std.locale.{ctor}",
+        "signature_hex": "000220490f118644205920590f118644207d0f2059118644",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Right"
+          }
+        ]
+      },
+      {
+        "token": "0x600001c",
+        "name": "std._System_error.__vecDelDtor",
+        "signature_hex": "000220490f01205920590f11868809",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x600001d",
+        "name": "std._System_error.{dtor}",
+        "signature_hex": "0001204901205920590f118688",
+        "parameters": []
+      },
+      {
+        "token": "0x600001e",
+        "name": "std.system_error.__vecDelDtor",
+        "signature_hex": "000220490f01205920590f11868c09",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x600001f",
+        "name": "std.system_error.{dtor}",
+        "signature_hex": "0001204901205920590f11868c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000020",
+        "name": "std.ios_base.failure.__vecDelDtor",
+        "signature_hex": "000220490f01205920590f1186a409",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000021",
+        "name": "std.ios_base.failure.{dtor}",
+        "signature_hex": "0001204901205920590f1186a4",
+        "parameters": []
+      },
+      {
+        "token": "0x6000022",
+        "name": "std.ios_base.failure.{ctor}",
+        "signature_hex": "000220490f1186a4205920590f1186a4207d0f20591186a4",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000023",
+        "name": "std.system_error.{ctor}",
+        "signature_hex": "000220490f11868c205920590f11868c207d0f205911868c",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000024",
+        "name": "std._System_error.{ctor}",
+        "signature_hex": "000220490f118688205920590f118688207d0f2059118688",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000025",
+        "name": "PtrToStringChars",
+        "signature_hex": "00012080ad1020590320590e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "s"
+          }
+        ]
+      },
+      {
+        "token": "0x6000026",
+        "name": "msclr.interop.details.GetAnsiStringSize",
+        "signature_hex": "0001090e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_str"
+          }
+        ]
+      },
+      {
+        "token": "0x6000027",
+        "name": "msclr.interop.details.WriteAnsiString",
+        "signature_hex": "0003010f206504090e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_buf"
+          },
+          {
+            "sequence": 2,
+            "name": "_size"
+          },
+          {
+            "sequence": 3,
+            "name": "_str"
+          }
+        ]
+      },
+      {
+        "token": "0x6000028",
+        "name": "std.tuple<>.{ctor}",
+        "signature_hex": "000220490f1186c4205920590f1186c4207d0f20591186c4",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000029",
+        "name": "std.vector<int,std::allocator<int> >.[]",
+        "signature_hex": "00022049207d0f08205920590f1186cc205909",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Pos"
+          }
+        ]
+      },
+      {
+        "token": "0x600002a",
+        "name": "std.vector<int,std::allocator<int> >.size",
+        "signature_hex": "0001204909205920590f20591186cc",
+        "parameters": []
+      },
+      {
+        "token": "0x600002b",
+        "name": "std.vector<int,std::allocator<int> >.{dtor}",
+        "signature_hex": "0001204901205920590f1186cc",
+        "parameters": []
+      },
+      {
+        "token": "0x600002c",
+        "name": "std.vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >.[]",
+        "signature_hex": "00022049207d0f118504205920590f1186d0205909",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Pos"
+          }
+        ]
+      },
+      {
+        "token": "0x600002d",
+        "name": "std.vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >.size",
+        "signature_hex": "0001204909205920590f20591186d0",
+        "parameters": []
+      },
+      {
+        "token": "0x600002e",
+        "name": "std.vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >.{dtor}",
+        "signature_hex": "0001204901205920590f1186d0",
+        "parameters": []
+      },
+      {
+        "token": "0x600002f",
+        "name": "msclr.interop.details.char_buffer<char>.release",
+        "signature_hex": "000120490f206504205920590f1186d4",
+        "parameters": []
+      },
+      {
+        "token": "0x6000030",
+        "name": "msclr.interop.details.char_buffer<char>.get",
+        "signature_hex": "000120490f206504205920590f20591186d4",
+        "parameters": []
+      },
+      {
+        "token": "0x6000031",
+        "name": "msclr.interop.details.char_buffer<char>.{dtor}",
+        "signature_hex": "0001204901205920590f1186d4",
+        "parameters": []
+      },
+      {
+        "token": "0x6000032",
+        "name": "msclr.interop.details.char_buffer<char>.{ctor}",
+        "signature_hex": "000220490f1186d4205920590f1186d409",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_size"
+          }
+        ]
+      },
+      {
+        "token": "0x6000033",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >.c_str",
+        "signature_hex": "000120490f2059206504205920590f2059118504",
+        "parameters": []
+      },
+      {
+        "token": "0x6000034",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}",
+        "signature_hex": "0001204901205920590f118504",
+        "parameters": []
+      },
+      {
+        "token": "0x6000035",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{ctor}",
+        "signature_hex": "000220490f118504205920590f118504207d207d0f118504",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Right"
+          }
+        ]
+      },
+      {
+        "token": "0x6000036",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{ctor}",
+        "signature_hex": "000220490f118504205920590f118504205920590f2059206504",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Ptr"
+          }
+        ]
+      },
+      {
+        "token": "0x6000037",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{ctor}",
+        "signature_hex": "000220490f118504205920590f118504207d0f2059118504",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Right"
+          }
+        ]
+      },
+      {
+        "token": "0x6000038",
+        "name": "std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}",
+        "signature_hex": "0001204901205920590f118744",
+        "parameters": []
+      },
+      {
+        "token": "0x6000039",
+        "name": "std._Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>.{dtor}",
+        "signature_hex": "0001204901205920590f118754",
+        "parameters": []
+      },
+      {
+        "token": "0x600003a",
+        "name": "std._String_val<std::_Simple_types<char> >.{dtor}",
+        "signature_hex": "0001204901205920590f118770",
+        "parameters": []
+      },
+      {
+        "token": "0x600003b",
+        "name": "std._Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >._Mylast",
+        "signature_hex": "00012049207d0f205920590f08205920590f2059118778",
+        "parameters": []
+      },
+      {
+        "token": "0x600003c",
+        "name": "std._Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >._Myfirst",
+        "signature_hex": "00012049207d0f205920590f08205920590f2059118778",
+        "parameters": []
+      },
+      {
+        "token": "0x600003d",
+        "name": "std._Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >._Myfirst",
+        "signature_hex": "00012049207d0f0f08205920590f118778",
+        "parameters": []
+      },
+      {
+        "token": "0x600003e",
+        "name": "std._Vector_alloc<std::_Vec_base_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >._Mylast",
+        "signature_hex": "00012049207d0f205920590f118504205920590f205911877c",
+        "parameters": []
+      },
+      {
+        "token": "0x600003f",
+        "name": "std._Vector_alloc<std::_Vec_base_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >._Myfirst",
+        "signature_hex": "00012049207d0f205920590f118504205920590f205911877c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000040",
+        "name": "std._Vector_alloc<std::_Vec_base_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >._Myfirst",
+        "signature_hex": "00012049207d0f0f118504205920590f11877c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000041",
+        "name": "std.vector<int,std::allocator<int> >._Tidy",
+        "signature_hex": "0001204901205920590f1186cc",
+        "parameters": []
+      },
+      {
+        "token": "0x6000042",
+        "name": "std.vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >._Tidy",
+        "signature_hex": "0001204901205920590f1186d0",
+        "parameters": []
+      },
+      {
+        "token": "0x6000043",
+        "name": "std._String_val<std::_Simple_types<char> >._Bxty.{dtor}",
+        "signature_hex": "0001204901205920590f118774",
+        "parameters": []
+      },
+      {
+        "token": "0x6000044",
+        "name": "std._String_val<std::_Simple_types<char> >._Large_string_engaged",
+        "signature_hex": "0001204902205920590f2059118770",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000045",
+        "name": "std._String_val<std::_Simple_types<char> >._Myptr",
+        "signature_hex": "000120490f2059206504205920590f2059118770",
+        "parameters": []
+      },
+      {
+        "token": "0x6000046",
+        "name": "std._String_val<std::_Simple_types<char> >._Myptr",
+        "signature_hex": "000120490f206504205920590f118770",
+        "parameters": []
+      },
+      {
+        "token": "0x6000047",
+        "name": "std._Default_allocator_traits<std::allocator<char> >.select_on_container_copy_construction",
+        "signature_hex": "000220451f809d0f1187880f118788207d0f2059118788",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Al"
+          }
+        ]
+      },
+      {
+        "token": "0x6000048",
+        "name": "std._String_alloc<std::_String_base_types<char,std::allocator<char> > >._Get_data",
+        "signature_hex": "00012049207d0f2059118770205920590f2059118744",
+        "parameters": []
+      },
+      {
+        "token": "0x6000049",
+        "name": "std._String_alloc<std::_String_base_types<char,std::allocator<char> > >._Get_data",
+        "signature_hex": "00012049207d0f118770205920590f118744",
+        "parameters": []
+      },
+      {
+        "token": "0x600004a",
+        "name": "std._String_alloc<std::_String_base_types<char,std::allocator<char> > >._Getal",
+        "signature_hex": "00012049207d0f2059118788205920590f2059118744",
+        "parameters": []
+      },
+      {
+        "token": "0x600004b",
+        "name": "std._String_alloc<std::_String_base_types<char,std::allocator<char> > >._Getal",
+        "signature_hex": "00012049207d0f118788205920590f118744",
+        "parameters": []
+      },
+      {
+        "token": "0x600004c",
+        "name": "std._String_alloc<std::_String_base_types<char,std::allocator<char> > >._Orphan_all",
+        "signature_hex": "0001204901205920590f118744",
+        "parameters": []
+      },
+      {
+        "token": "0x600004d",
+        "name": "std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{ctor}",
+        "signature_hex": "000120490f118744205920590f118744",
+        "parameters": []
+      },
+      {
+        "token": "0x600004e",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate",
+        "signature_hex": "0001204901205920590f118504",
+        "parameters": []
+      },
+      {
+        "token": "0x600004f",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_init",
+        "signature_hex": "0001204901205920590f118504",
+        "parameters": []
+      },
+      {
+        "token": "0x6000050",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >.max_size",
+        "signature_hex": "0001204909205920590f2059118504",
+        "parameters": []
+      },
+      {
+        "token": "0x6000051",
+        "name": "std._Max_value<unsigned int>",
+        "signature_hex": "00022045207d0f205909207d0f205909207d0f205909",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Left"
+          },
+          {
+            "sequence": 2,
+            "name": "_Right"
+          }
+        ]
+      },
+      {
+        "token": "0x6000052",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >.assign",
+        "signature_hex": "00022049207d0f118504205920590f118504205920590f2059206504",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Ptr"
+          }
+        ]
+      },
+      {
+        "token": "0x6000053",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >.assign",
+        "signature_hex": "00032049207d0f118504205920590f118504205920590f2059206504205909",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Ptr"
+          },
+          {
+            "sequence": 3,
+            "name": "_Count"
+          }
+        ]
+      },
+      {
+        "token": "0x6000054",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >.assign.<lambda_88acb98cb1d3e807ff08d7ebe077788e>.()",
+        "signature_hex": "0004204901205920590f2059118544205920590f206504205909205920590f2059206504",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_New_ptr"
+          },
+          {
+            "sequence": 3,
+            "name": "_Count"
+          },
+          {
+            "sequence": 4,
+            "name": "_Ptr"
+          }
+        ]
+      },
+      {
+        "token": "0x6000055",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Construct_lv_contents",
+        "signature_hex": "0002204901205920590f118504207d0f2059118504",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Right"
+          }
+        ]
+      },
+      {
+        "token": "0x6000056",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Assign_rv_contents_with_alloc_always_equal",
+        "signature_hex": "0003204901205920590f118504207d207d0f118504118524",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Right"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed001"
+          }
+        ]
+      },
+      {
+        "token": "0x6000057",
+        "name": "std.allocator<char>.allocate",
+        "signature_hex": "000220490f206504205920590f118788205909",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Count"
+          }
+        ]
+      },
+      {
+        "token": "0x6000058",
+        "name": "std.allocator<char>.deallocate",
+        "signature_hex": "0003204901205920590f118788205920590f206504205909",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Ptr"
+          },
+          {
+            "sequence": 3,
+            "name": "_Count"
+          }
+        ]
+      },
+      {
+        "token": "0x6000059",
+        "name": "std._Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >._Myend",
+        "signature_hex": "00012049207d0f0f08205920590f118778",
+        "parameters": []
+      },
+      {
+        "token": "0x600005a",
+        "name": "std._Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >._Mylast",
+        "signature_hex": "00012049207d0f0f08205920590f118778",
+        "parameters": []
+      },
+      {
+        "token": "0x600005b",
+        "name": "std._Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >._Get_data",
+        "signature_hex": "00012049207d0f2059118794205920590f2059118778",
+        "parameters": []
+      },
+      {
+        "token": "0x600005c",
+        "name": "std._Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >._Get_data",
+        "signature_hex": "00012049207d0f118794205920590f118778",
+        "parameters": []
+      },
+      {
+        "token": "0x600005d",
+        "name": "std._Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >._Getal",
+        "signature_hex": "00012049207d0f118798205920590f118778",
+        "parameters": []
+      },
+      {
+        "token": "0x600005e",
+        "name": "std._Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >._Orphan_all",
+        "signature_hex": "0001204901205920590f118778",
+        "parameters": []
+      },
+      {
+        "token": "0x600005f",
+        "name": "std._Vector_alloc<std::_Vec_base_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >._Myend",
+        "signature_hex": "00012049207d0f0f118504205920590f11877c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000060",
+        "name": "std._Vector_alloc<std::_Vec_base_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >._Mylast",
+        "signature_hex": "00012049207d0f0f118504205920590f11877c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000061",
+        "name": "std._Vector_alloc<std::_Vec_base_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >._Get_data",
+        "signature_hex": "00012049207d0f205911879c205920590f205911877c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000062",
+        "name": "std._Vector_alloc<std::_Vec_base_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >._Get_data",
+        "signature_hex": "00012049207d0f11879c205920590f11877c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000063",
+        "name": "std._Vector_alloc<std::_Vec_base_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >._Getal",
+        "signature_hex": "00012049207d0f1187a0205920590f11877c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000064",
+        "name": "std._Vector_alloc<std::_Vec_base_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >._Orphan_all",
+        "signature_hex": "0001204901205920590f11877c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000065",
+        "name": "std.vector<int,std::allocator<int> >._Destroy",
+        "signature_hex": "0003204901205920590f1186cc0f080f08",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_First"
+          },
+          {
+            "sequence": 3,
+            "name": "_Last"
+          }
+        ]
+      },
+      {
+        "token": "0x6000066",
+        "name": "std.vector<int,std::allocator<int> >.capacity",
+        "signature_hex": "0001204909205920590f20591186cc",
+        "parameters": []
+      },
+      {
+        "token": "0x6000067",
+        "name": "std.allocator<int>.deallocate",
+        "signature_hex": "0003204901205920590f118798205920590f08205909",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Ptr"
+          },
+          {
+            "sequence": 3,
+            "name": "_Count"
+          }
+        ]
+      },
+      {
+        "token": "0x6000068",
+        "name": "std.vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >._Destroy",
+        "signature_hex": "0003204901205920590f1186d00f1185040f118504",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_First"
+          },
+          {
+            "sequence": 3,
+            "name": "_Last"
+          }
+        ]
+      },
+      {
+        "token": "0x6000069",
+        "name": "std.vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >.capacity",
+        "signature_hex": "0001204909205920590f20591186d0",
+        "parameters": []
+      },
+      {
+        "token": "0x600006a",
+        "name": "std.allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >.deallocate",
+        "signature_hex": "0003204901205920590f1187a0205920590f118504205909",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Ptr"
+          },
+          {
+            "sequence": 3,
+            "name": "_Count"
+          }
+        ]
+      },
+      {
+        "token": "0x600006b",
+        "name": "std._Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>._Get_second",
+        "signature_hex": "00012049207d0f2059118770205920590f2059118754",
+        "parameters": []
+      },
+      {
+        "token": "0x600006c",
+        "name": "std._Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>._Get_second",
+        "signature_hex": "00012049207d0f118770205920590f118754",
+        "parameters": []
+      },
+      {
+        "token": "0x600006d",
+        "name": "std._Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>._Get_first",
+        "signature_hex": "00012049207d0f2059118788205920590f2059118754",
+        "parameters": []
+      },
+      {
+        "token": "0x600006e",
+        "name": "std._Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>._Get_first",
+        "signature_hex": "00012049207d0f118788205920590f118754",
+        "parameters": []
+      },
+      {
+        "token": "0x600006f",
+        "name": "std._Default_allocator_traits<std::allocator<char> >.max_size",
+        "signature_hex": "0001204509207d0f2059118788",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000070",
+        "name": "std._Compressed_pair<std::allocator<int>,std::_Vector_val<std::_Simple_types<int> >,1>._Get_second",
+        "signature_hex": "00012049207d0f2059118794205920590f20591187b8",
+        "parameters": []
+      },
+      {
+        "token": "0x6000071",
+        "name": "std._Compressed_pair<std::allocator<int>,std::_Vector_val<std::_Simple_types<int> >,1>._Get_second",
+        "signature_hex": "00012049207d0f118794205920590f1187b8",
+        "parameters": []
+      },
+      {
+        "token": "0x6000072",
+        "name": "std._Compressed_pair<std::allocator<int>,std::_Vector_val<std::_Simple_types<int> >,1>._Get_first",
+        "signature_hex": "00012049207d0f118798205920590f1187b8",
+        "parameters": []
+      },
+      {
+        "token": "0x6000073",
+        "name": "std._Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >._Myend",
+        "signature_hex": "00012049207d0f205920590f08205920590f2059118778",
+        "parameters": []
+      },
+      {
+        "token": "0x6000074",
+        "name": "std._Compressed_pair<std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,1>._Get_second",
+        "signature_hex": "00012049207d0f205911879c205920590f20591187bc",
+        "parameters": []
+      },
+      {
+        "token": "0x6000075",
+        "name": "std._Compressed_pair<std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,1>._Get_second",
+        "signature_hex": "00012049207d0f11879c205920590f1187bc",
+        "parameters": []
+      },
+      {
+        "token": "0x6000076",
+        "name": "std._Compressed_pair<std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,1>._Get_first",
+        "signature_hex": "00012049207d0f1187a0205920590f1187bc",
+        "parameters": []
+      },
+      {
+        "token": "0x6000077",
+        "name": "std._Vector_alloc<std::_Vec_base_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >._Myend",
+        "signature_hex": "00012049207d0f205920590f118504205920590f205911877c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000078",
+        "name": "std._Min_value<unsigned int>",
+        "signature_hex": "00022045207d0f205909207d0f205909207d0f205909",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Left"
+          },
+          {
+            "sequence": 2,
+            "name": "_Right"
+          }
+        ]
+      },
+      {
+        "token": "0x6000079",
+        "name": "std._Unfancy<char>",
+        "signature_hex": "000120450f2065040f206504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Ptr"
+          }
+        ]
+      },
+      {
+        "token": "0x600007a",
+        "name": "std.move<class std::allocator<char> &>",
+        "signature_hex": "00012045207d207d0f118788207d0f118788",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Arg"
+          }
+        ]
+      },
+      {
+        "token": "0x600007b",
+        "name": "std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{ctor}<class std::allocator<char>,void>",
+        "signature_hex": "000220490f118744205920590f118744207d207d0f118788",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Al"
+          }
+        ]
+      },
+      {
+        "token": "0x600007c",
+        "name": "std.move<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &>",
+        "signature_hex": "00012045207d207d0f118504207d0f118504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Arg"
+          }
+        ]
+      },
+      {
+        "token": "0x600007d",
+        "name": "std._Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>.{ctor}<>",
+        "signature_hex": "000220490f118754205920590f118754118528",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x600007e",
+        "name": "std.addressof<char *>",
+        "signature_hex": "000120450f0f206504207d0f0f206504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Val"
+          }
+        ]
+      },
+      {
+        "token": "0x600007f",
+        "name": "std._Default_allocator_traits<std::allocator<char> >.destroy<char *>",
+        "signature_hex": "0002204501207d0f118788205920590f0f206504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "_Ptr"
+          }
+        ]
+      },
+      {
+        "token": "0x6000080",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Reallocate_for<class <lambda_88acb98cb1d3e807ff08d7ebe077788e>,char const *>",
+        "signature_hex": "00042049207d0f118504205920590f1185042059091185440f2059206504",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_New_size"
+          },
+          {
+            "sequence": 3,
+            "name": "_Fn"
+          },
+          {
+            "sequence": 4,
+            "name": "<_Args_0>"
+          }
+        ]
+      },
+      {
+        "token": "0x6000081",
+        "name": "std._Default_allocator_traits<std::allocator<char> >.construct<char *,char * const &>",
+        "signature_hex": "0003204501207d0f118788205920590f0f206504207d0f205920590f206504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "_Ptr"
+          },
+          {
+            "sequence": 3,
+            "name": "<_Args_0>"
+          }
+        ]
+      },
+      {
+        "token": "0x6000082",
+        "name": "std.addressof<class std::_String_val<struct std::_Simple_types<char> > >",
+        "signature_hex": "000120450f118770207d0f118770",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Val"
+          }
+        ]
+      },
+      {
+        "token": "0x6000083",
+        "name": "std._Allocate<8,struct std::_Default_allocate_traits,0>",
+        "signature_hex": "000120450f01205909",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Bytes"
+          }
+        ]
+      },
+      {
+        "token": "0x6000084",
+        "name": "std._Deallocate<8,0>",
+        "signature_hex": "00022045010f0109",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Ptr"
+          },
+          {
+            "sequence": 2,
+            "name": "_Bytes"
+          }
+        ]
+      },
+      {
+        "token": "0x6000085",
+        "name": "std._Destroy_range<class std::allocator<int> >",
+        "signature_hex": "00032045010f080f08207d0f118798",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_First"
+          },
+          {
+            "sequence": 2,
+            "name": "_Last"
+          },
+          {
+            "sequence": 3,
+            "name": "_Al"
+          }
+        ]
+      },
+      {
+        "token": "0x6000086",
+        "name": "std._Destroy_range<class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >",
+        "signature_hex": "00032045010f1185040f118504207d0f1187a0",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_First"
+          },
+          {
+            "sequence": 2,
+            "name": "_Last"
+          },
+          {
+            "sequence": 3,
+            "name": "_Al"
+          }
+        ]
+      },
+      {
+        "token": "0x6000087",
+        "name": "std.bad_cast.{ctor}",
+        "signature_hex": "000220490f118614205920590f118614207d0f2059118614",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000088",
+        "name": "std._String_val<std::_Simple_types<char> >.{ctor}",
+        "signature_hex": "000120490f118770205920590f118770",
+        "parameters": []
+      },
+      {
+        "token": "0x6000089",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Xlen",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x600008a",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Calculate_growth",
+        "signature_hex": "0002204909205920590f2059118504205909",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "_Requested"
+          }
+        ]
+      },
+      {
+        "token": "0x600008b",
+        "name": "std.allocator<char>.{ctor}",
+        "signature_hex": "000120490f118788205920590f118788",
+        "parameters": []
+      },
+      {
+        "token": "0x600008c",
+        "name": "std._String_val<std::_Simple_types<char> >._Bxty.{ctor}",
+        "signature_hex": "000120490f118774205920590f118774",
+        "parameters": []
+      },
+      {
+        "token": "0x600008d",
+        "name": "std.forward<class std::allocator<char> >",
+        "signature_hex": "00012045207d207d0f118788207d0f118788",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Arg"
+          }
+        ]
+      },
+      {
+        "token": "0x600008e",
+        "name": "std._Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>.{ctor}<class std::allocator<char> >",
+        "signature_hex": "000320490f118754205920590f118754118564207d207d0f118788",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 3,
+            "name": "_Val1"
+          }
+        ]
+      },
+      {
+        "token": "0x600008f",
+        "name": "std.forward<char * const &>",
+        "signature_hex": "00012045207d0f205920590f206504207d0f205920590f206504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Arg"
+          }
+        ]
+      },
+      {
+        "token": "0x6000090",
+        "name": "std._Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>",
+        "signature_hex": "000120450f01205909",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Bytes"
+          }
+        ]
+      },
+      {
+        "token": "0x6000091",
+        "name": "std._Destroy_range1<class std::allocator<int> >",
+        "signature_hex": "00042045010f080f08207d0f118798118524",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          },
+          {
+            "sequence": 3,
+            "name": "A_2"
+          },
+          {
+            "sequence": 4,
+            "name": "A_3"
+          }
+        ]
+      },
+      {
+        "token": "0x6000092",
+        "name": "std._Destroy_range1<class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >",
+        "signature_hex": "00042045010f1185040f118504207d0f1187a0118560",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_First"
+          },
+          {
+            "sequence": 2,
+            "name": "_Last"
+          },
+          {
+            "sequence": 3,
+            "name": "_Al"
+          },
+          {
+            "sequence": 4,
+            "name": "__unnamed003"
+          }
+        ]
+      },
+      {
+        "token": "0x6000093",
+        "name": "std._Unfancy<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >",
+        "signature_hex": "000120450f1185040f118504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Ptr"
+          }
+        ]
+      },
+      {
+        "token": "0x6000094",
+        "name": "std._Default_allocator_traits<std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >.destroy<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >",
+        "signature_hex": "0002204501207d0f1187a0205920590f118504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "_Ptr"
+          }
+        ]
+      },
+      {
+        "token": "0x6000095",
+        "name": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >.__delDtor",
+        "signature_hex": "000220490f01205920590f11850409",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000096",
+        "name": "<CrtImplementationDetails>.ThrowNestedModuleLoadException",
+        "signature_hex": "0002011280e11280e1",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "innerException"
+          },
+          {
+            "sequence": 2,
+            "name": "nestedException"
+          }
+        ]
+      },
+      {
+        "token": "0x6000097",
+        "name": "<CrtImplementationDetails>.ThrowModuleLoadException",
+        "signature_hex": "0001010e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "errorMessage"
+          }
+        ]
+      },
+      {
+        "token": "0x6000098",
+        "name": "<CrtImplementationDetails>.ThrowModuleLoadException",
+        "signature_hex": "0002010e1280e1",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "errorMessage"
+          },
+          {
+            "sequence": 2,
+            "name": "innerException"
+          }
+        ]
+      },
+      {
+        "token": "0x6000099",
+        "name": "<CrtImplementationDetails>.RegisterModuleUninitializer",
+        "signature_hex": "0001011280f5",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "handler"
+          }
+        ]
+      },
+      {
+        "token": "0x600009a",
+        "name": "<CrtImplementationDetails>.FromGUID",
+        "signature_hex": "0001118109207d0f20591186b4",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "guid"
+          }
+        ]
+      },
+      {
+        "token": "0x600009b",
+        "name": "__get_default_appdomain",
+        "signature_hex": "000120452069080f0f118a3c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "ppUnk"
+          }
+        ]
+      },
+      {
+        "token": "0x600009c",
+        "name": "__release_appdomain",
+        "signature_hex": "00012045010f118a3c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "ppUnk"
+          }
+        ]
+      },
+      {
+        "token": "0x600009d",
+        "name": "<CrtImplementationDetails>.GetDefaultDomain",
+        "signature_hex": "0000128105",
+        "parameters": []
+      },
+      {
+        "token": "0x600009e",
+        "name": "<CrtImplementationDetails>.DoCallBackInDefaultDomain",
+        "signature_hex": "00022045011b020120412069080f010f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "function"
+          },
+          {
+            "sequence": 2,
+            "name": "cookie"
+          }
+        ]
+      },
+      {
+        "token": "0x600009f",
+        "name": "__scrt_is_safe_for_managed_code",
+        "signature_hex": "0000204502",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x60000a0",
+        "name": "<CrtImplementationDetails>.DefaultDomain.DoNothing",
+        "signature_hex": "000120412069080f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "cookie"
+          }
+        ]
+      },
+      {
+        "token": "0x60000a1",
+        "name": "<CrtImplementationDetails>.DefaultDomain.HasPerProcess",
+        "signature_hex": "0000204502",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x60000a2",
+        "name": "<CrtImplementationDetails>.DefaultDomain.HasNative",
+        "signature_hex": "0000204502",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x60000a3",
+        "name": "<CrtImplementationDetails>.DefaultDomain.NeedsInitialization",
+        "signature_hex": "0000204502",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x60000a4",
+        "name": "<CrtImplementationDetails>.DefaultDomain.NeedsUninitialization",
+        "signature_hex": "0000204502",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x60000a5",
+        "name": "<CrtImplementationDetails>.DefaultDomain.Initialize",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x60000a6",
+        "name": "?A0x0346007c.??__E?Initialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA@@YMXXZ",
+        "signature_hex": "000001",
+        "parameters": []
+      },
+      {
+        "token": "0x60000a7",
+        "name": "?A0x0346007c.??__E?Uninitialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA@@YMXXZ",
+        "signature_hex": "000001",
+        "parameters": []
+      },
+      {
+        "token": "0x60000a8",
+        "name": "?A0x0346007c.??__E?IsDefaultDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2_NA@@YMXXZ",
+        "signature_hex": "000001",
+        "parameters": []
+      },
+      {
+        "token": "0x60000a9",
+        "name": "?A0x0346007c.??__E?InitializedVtables@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ",
+        "signature_hex": "000001",
+        "parameters": []
+      },
+      {
+        "token": "0x60000aa",
+        "name": "?A0x0346007c.??__E?InitializedNative@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ",
+        "signature_hex": "000001",
+        "parameters": []
+      },
+      {
+        "token": "0x60000ab",
+        "name": "?A0x0346007c.??__E?InitializedPerProcess@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ",
+        "signature_hex": "000001",
+        "parameters": []
+      },
+      {
+        "token": "0x60000ac",
+        "name": "?A0x0346007c.??__E?InitializedPerAppDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A@@YMXXZ",
+        "signature_hex": "000001",
+        "parameters": []
+      },
+      {
+        "token": "0x60000ad",
+        "name": "<CrtImplementationDetails>.LanguageSupport.InitializeVtables",
+        "signature_hex": "0001204901205920590f118a44",
+        "parameters": []
+      },
+      {
+        "token": "0x60000ae",
+        "name": "<CrtImplementationDetails>.LanguageSupport.InitializeDefaultAppDomain",
+        "signature_hex": "0001204901205920590f118a44",
+        "parameters": []
+      },
+      {
+        "token": "0x60000af",
+        "name": "<CrtImplementationDetails>.LanguageSupport.InitializeNative",
+        "signature_hex": "0001204901205920590f118a44",
+        "parameters": []
+      },
+      {
+        "token": "0x60000b0",
+        "name": "<CrtImplementationDetails>.LanguageSupport.InitializePerProcess",
+        "signature_hex": "0001204901205920590f118a44",
+        "parameters": []
+      },
+      {
+        "token": "0x60000b1",
+        "name": "<CrtImplementationDetails>.LanguageSupport.InitializePerAppDomain",
+        "signature_hex": "0001204901205920590f118a44",
+        "parameters": []
+      },
+      {
+        "token": "0x60000b2",
+        "name": "<CrtImplementationDetails>.LanguageSupport.InitializeUninitializer",
+        "signature_hex": "0001204901205920590f118a44",
+        "parameters": []
+      },
+      {
+        "token": "0x60000b3",
+        "name": "<CrtImplementationDetails>.LanguageSupport._Initialize",
+        "signature_hex": "0001204901205920590f118a44",
+        "parameters": []
+      },
+      {
+        "token": "0x60000b4",
+        "name": "<CrtImplementationDetails>.LanguageSupport.UninitializeAppDomain",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x60000b5",
+        "name": "<CrtImplementationDetails>.LanguageSupport._UninitializeDefaultDomain",
+        "signature_hex": "000120412069080f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "cookie"
+          }
+        ]
+      },
+      {
+        "token": "0x60000b6",
+        "name": "<CrtImplementationDetails>.LanguageSupport.UninitializeDefaultDomain",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x60000b7",
+        "name": "<CrtImplementationDetails>.LanguageSupport.DomainUnload",
+        "signature_hex": "0002011c1280fd",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x60000b8",
+        "name": "<CrtImplementationDetails>.LanguageSupport.Cleanup",
+        "signature_hex": "000201205920590f118a441280e1",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "innerException"
+          }
+        ]
+      },
+      {
+        "token": "0x60000b9",
+        "name": "<CrtImplementationDetails>.LanguageSupport.{ctor}",
+        "signature_hex": "000120490f118a44205920590f118a44",
+        "parameters": []
+      },
+      {
+        "token": "0x60000ba",
+        "name": "<CrtImplementationDetails>.LanguageSupport.{dtor}",
+        "signature_hex": "0001204901205920590f118a44",
+        "parameters": []
+      },
+      {
+        "token": "0x60000bb",
+        "name": "<CrtImplementationDetails>.LanguageSupport.Initialize",
+        "signature_hex": "0001204901205920590f118a44",
+        "parameters": []
+      },
+      {
+        "token": "0x60000bc",
+        "name": ".cctor",
+        "signature_hex": "000001",
+        "parameters": []
+      },
+      {
+        "token": "0x60000bd",
+        "name": "gcroot<System::String ^>..P$AAVString@System@@",
+        "signature_hex": "00010e205920590f2059118a48",
+        "parameters": []
+      },
+      {
+        "token": "0x60000be",
+        "name": "gcroot<System::String ^>.=",
+        "signature_hex": "0002207d0f118a48205920590f118a480e",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "t"
+          }
+        ]
+      },
+      {
+        "token": "0x60000bf",
+        "name": "gcroot<System::String ^>.{dtor}",
+        "signature_hex": "0001204901205920590f118a48",
+        "parameters": []
+      },
+      {
+        "token": "0x60000c0",
+        "name": "gcroot<System::String ^>.{ctor}",
+        "signature_hex": "000120490f118a48205920590f118a48",
+        "parameters": []
+      },
+      {
+        "token": "0x60000c1",
+        "name": "___CxxCallUnwindDtor",
+        "signature_hex": "0002011b0001010f010f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "pDtor"
+          },
+          {
+            "sequence": 2,
+            "name": "pThis"
+          }
+        ]
+      },
+      {
+        "token": "0x60000c2",
+        "name": "___CxxCallUnwindDelDtor",
+        "signature_hex": "0002011b0001010f010f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "pDtor"
+          },
+          {
+            "sequence": 2,
+            "name": "pThis"
+          }
+        ]
+      },
+      {
+        "token": "0x60000c3",
+        "name": "___CxxCallUnwindVecDtor",
+        "signature_hex": "0005011b0004010f0109081b0001010f010f0109081b0001010f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "pVecDtor"
+          },
+          {
+            "sequence": 2,
+            "name": "ptr"
+          },
+          {
+            "sequence": 3,
+            "name": "size"
+          },
+          {
+            "sequence": 4,
+            "name": "count"
+          },
+          {
+            "sequence": 5,
+            "name": "pDtor"
+          }
+        ]
+      },
+      {
+        "token": "0x60000c4",
+        "name": "__ehvec_dtor",
+        "signature_hex": "0004010f0109091b0001010f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "ptr"
+          },
+          {
+            "sequence": 2,
+            "name": "size"
+          },
+          {
+            "sequence": 3,
+            "name": "count"
+          },
+          {
+            "sequence": 4,
+            "name": "destructor"
+          }
+        ]
+      },
+      {
+        "token": "0x60000c5",
+        "name": "?A0x19ec1b44.ArrayUnwindFilter",
+        "signature_hex": "00012045080f118aa8",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "pExPtrs"
+          }
+        ]
+      },
+      {
+        "token": "0x60000c6",
+        "name": "__ArrayUnwind",
+        "signature_hex": "0004010f0109091b0001010f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "ptr"
+          },
+          {
+            "sequence": 2,
+            "name": "size"
+          },
+          {
+            "sequence": 3,
+            "name": "count"
+          },
+          {
+            "sequence": 4,
+            "name": "destructor"
+          }
+        ]
+      },
+      {
+        "token": "0x60000c7",
+        "name": "__ehvec_dtor",
+        "signature_hex": "0004010f0109081b0001010f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "ptr"
+          },
+          {
+            "sequence": 2,
+            "name": "size"
+          },
+          {
+            "sequence": 3,
+            "name": "count"
+          },
+          {
+            "sequence": 4,
+            "name": "destructor"
+          }
+        ]
+      },
+      {
+        "token": "0x60000c8",
+        "name": "<CrtImplementationDetails>.AtExitLock._handle",
+        "signature_hex": "000020814920812d1261",
+        "parameters": []
+      },
+      {
+        "token": "0x60000c9",
+        "name": "<CrtImplementationDetails>.AtExitLock._lock_Construct",
+        "signature_hex": "0001011c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x60000ca",
+        "name": "<CrtImplementationDetails>.AtExitLock._lock_Set",
+        "signature_hex": "0001011c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x60000cb",
+        "name": "<CrtImplementationDetails>.AtExitLock._lock_Get",
+        "signature_hex": "00001c",
+        "parameters": []
+      },
+      {
+        "token": "0x60000cc",
+        "name": "<CrtImplementationDetails>.AtExitLock._lock_Destruct",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x60000cd",
+        "name": "<CrtImplementationDetails>.AtExitLock.IsInitialized",
+        "signature_hex": "0000204502",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x60000ce",
+        "name": "<CrtImplementationDetails>.AtExitLock.AddRef",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x60000cf",
+        "name": "<CrtImplementationDetails>.AtExitLock.RemoveRef",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x60000d0",
+        "name": "<CrtImplementationDetails>.AtExitLock.Enter",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x60000d1",
+        "name": "<CrtImplementationDetails>.AtExitLock.Exit",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x60000d2",
+        "name": "?A0x373b8c5b.__global_lock",
+        "signature_hex": "0000204502",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x60000d3",
+        "name": "?A0x373b8c5b.__global_unlock",
+        "signature_hex": "0000204502",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x60000d4",
+        "name": "?A0x373b8c5b.__alloc_global_lock",
+        "signature_hex": "0000204502",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x60000d5",
+        "name": "?A0x373b8c5b.__dealloc_global_lock",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x60000d6",
+        "name": "_atexit_helper",
+        "signature_hex": "0004081b0000010f090f0f1b0000010f0f1b000001",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "func"
+          },
+          {
+            "sequence": 2,
+            "name": "__pexit_list_size"
+          },
+          {
+            "sequence": 3,
+            "name": "__ponexitend_e"
+          },
+          {
+            "sequence": 4,
+            "name": "__ponexitbegin_e"
+          }
+        ]
+      },
+      {
+        "token": "0x60000d7",
+        "name": "_exit_callback",
+        "signature_hex": "000001",
+        "parameters": []
+      },
+      {
+        "token": "0x60000d8",
+        "name": "_initatexit_m",
+        "signature_hex": "000008",
+        "parameters": []
+      },
+      {
+        "token": "0x60000d9",
+        "name": "_onexit_m",
+        "signature_hex": "00011b0000081b000008",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Function"
+          }
+        ]
+      },
+      {
+        "token": "0x60000da",
+        "name": "_atexit_m",
+        "signature_hex": "0001081b000001",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "func"
+          }
+        ]
+      },
+      {
+        "token": "0x60000db",
+        "name": "_initatexit_app_domain",
+        "signature_hex": "000008",
+        "parameters": []
+      },
+      {
+        "token": "0x60000dc",
+        "name": "_app_exit_callback",
+        "signature_hex": "000001",
+        "parameters": []
+      },
+      {
+        "token": "0x60000dd",
+        "name": "_onexit_m_appdomain",
+        "signature_hex": "00011b0000081b000008",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Function"
+          }
+        ]
+      },
+      {
+        "token": "0x60000de",
+        "name": "_atexit_m_appdomain",
+        "signature_hex": "0001081b000001",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "func"
+          }
+        ]
+      },
+      {
+        "token": "0x60000df",
+        "name": "DecodePointer",
+        "signature_hex": "00010f010f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Ptr"
+          }
+        ]
+      },
+      {
+        "token": "0x60000e0",
+        "name": "EncodePointer",
+        "signature_hex": "00010f010f01",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_Ptr"
+          }
+        ]
+      },
+      {
+        "token": "0x60000e1",
+        "name": "_initterm_e",
+        "signature_hex": "0002080f1b01002045080f1b0100204508",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "pfbegin"
+          },
+          {
+            "sequence": 2,
+            "name": "pfend"
+          }
+        ]
+      },
+      {
+        "token": "0x60000e2",
+        "name": "_initterm",
+        "signature_hex": "0002010f1b01002045010f1b0100204501",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "pfbegin"
+          },
+          {
+            "sequence": 2,
+            "name": "pfend"
+          }
+        ]
+      },
+      {
+        "token": "0x60000e3",
+        "name": "<CrtImplementationDetails>.ThisModule.Handle",
+        "signature_hex": "0000118151",
+        "parameters": []
+      },
+      {
+        "token": "0x60000e4",
+        "name": "_initterm_m",
+        "signature_hex": "0002010f20591b00000f2059010f20591b00000f205901",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "pfbegin"
+          },
+          {
+            "sequence": 2,
+            "name": "pfend"
+          }
+        ]
+      },
+      {
+        "token": "0x60000e5",
+        "name": "<CrtImplementationDetails>.ThisModule.ResolveMethod<void const * __clrcall(void)>",
+        "signature_hex": "00011b00000f2059011b00000f205901",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "methodToken"
+          }
+        ]
+      },
+      {
+        "token": "0x60000e6",
+        "name": "std._Xlength_error",
+        "signature_hex": "00012045010f2059206504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000e7",
+        "name": "new[]",
+        "signature_hex": "000120450f0109",
+        "parameters": []
+      },
+      {
+        "token": "0x60000e8",
+        "name": "APIV3EngineInterface.Functions.getIntArrayParamValue",
+        "signature_hex": "000420451f809d0f1186cc0f1186cc0f1185080f1f808d1185040f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000e9",
+        "name": "APIV3EngineInterface.Functions.getStringArrayParamValue",
+        "signature_hex": "000420451f809d0f1186d00f1186d00f1185080f1f808d1185040f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000ea",
+        "name": "APIV3EngineInterface.Functions.getStringParamValue",
+        "signature_hex": "000420451f809d0f1185040f1185040f1185080f1f808d1185040f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000eb",
+        "name": "APIV3EngineInterface.Functions.getBoolParamValue",
+        "signature_hex": "00032045020f1185080f1f808d1185040f1f808d118504",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": ""
+          }
+        ]
+      },
+      {
+        "token": "0x60000ec",
+        "name": "APIV3EngineInterface.Functions.getIntParamValue",
+        "signature_hex": "00032045080f1185080f1f808d1185040f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000ed",
+        "name": "APIV3EngineInterface.Functions.getFloatParamValue",
+        "signature_hex": "000320450c0f1185080f1f808d1185040f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000ee",
+        "name": "APIV3EngineInterface.Functions.moveSlotAssetToSlot",
+        "signature_hex": "00032045080f1185080f1f808d1185040f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000ef",
+        "name": "APIV3EngineInterface.Functions.bindAssetParamToExternalControl",
+        "signature_hex": "00032045080f1185080f1f808d1185040f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000f0",
+        "name": "APIV3EngineInterface.Functions.searchCloud",
+        "signature_hex": "00032045080f1185080f1f808d11850409",
+        "parameters": []
+      },
+      {
+        "token": "0x60000f1",
+        "name": "APIV3EngineInterface.Functions.ratePreset",
+        "signature_hex": "00032045080f1185080f1f808d11850408",
+        "parameters": []
+      },
+      {
+        "token": "0x60000f2",
+        "name": "APIV3EngineInterface.Functions.resetPassword",
+        "signature_hex": "00032045080f1185080f1f808d1185040f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000f3",
+        "name": "APIV3EngineInterface.Functions.createAccount",
+        "signature_hex": "00062045080f1185080f1f808d1185040f1f808d1185040f1f808d1185040f1f808d11850402",
+        "parameters": [
+          {
+            "sequence": 6,
+            "name": ""
+          }
+        ]
+      },
+      {
+        "token": "0x60000f4",
+        "name": "APIV3EngineInterface.Functions.logIn",
+        "signature_hex": "00032045080f1185080f1f808d1185040f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000f5",
+        "name": "APIV3EngineInterface.Functions.setIRNameAtIndex",
+        "signature_hex": "00032045080f118508080f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000f6",
+        "name": "APIV3EngineInterface.Functions.reorderDevicePreset",
+        "signature_hex": "00032045080f1185080808",
+        "parameters": []
+      },
+      {
+        "token": "0x60000f7",
+        "name": "APIV3EngineInterface.Functions.setPresetNameAtDeviceIndex",
+        "signature_hex": "00032045080f118508080f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000f8",
+        "name": "APIV3EngineInterface.Functions.importImpulseResponse",
+        "signature_hex": "00032045080f118508080f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000f9",
+        "name": "APIV3EngineInterface.Functions.exportImpulseResponse",
+        "signature_hex": "00032045080f118508080f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000fa",
+        "name": "APIV3EngineInterface.Functions.importDeviceTone",
+        "signature_hex": "00032045080f118508080f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000fb",
+        "name": "APIV3EngineInterface.Functions.exportDeviceTone",
+        "signature_hex": "00032045080f118508080f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000fc",
+        "name": "APIV3EngineInterface.Functions.setStringParamValue",
+        "signature_hex": "00042045080f1185080f1f808d1185040f1f808d1185040f1f808d118504",
+        "parameters": []
+      },
+      {
+        "token": "0x60000fd",
+        "name": "APIV3EngineInterface.Functions.setBoolParamValue",
+        "signature_hex": "00042045080f1185080f1f808d1185040f1f808d11850402",
+        "parameters": [
+          {
+            "sequence": 4,
+            "name": ""
+          }
+        ]
+      },
+      {
+        "token": "0x60000fe",
+        "name": "APIV3EngineInterface.Functions.setIntParamValue",
+        "signature_hex": "00042045080f1185080f1f808d1185040f1f808d11850408",
+        "parameters": []
+      },
+      {
+        "token": "0x60000ff",
+        "name": "APIV3EngineInterface.Functions.setFloatParamValue",
+        "signature_hex": "00042045080f1185080f1f808d1185040f1f808d1185040c",
+        "parameters": []
+      },
+      {
+        "token": "0x6000100",
+        "name": "APIV3EngineInterface.Functions.start",
+        "signature_hex": "00012045020f118508",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": ""
+          }
+        ]
+      },
+      {
+        "token": "0x6000101",
+        "name": "APIV3EngineInterface.Functions.initialize",
+        "signature_hex": "00022045020f1185080f1f808d118504",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": ""
+          }
+        ]
+      },
+      {
+        "token": "0x6000102",
+        "name": "APIV3EngineInterface.Functions.createEngine",
+        "signature_hex": "000420450f1185081b02042041010f1f808d1185040f1f808d1185040c2080b1051b02042041010f1f808d1185040f1f808d118504082080b1051b02042041010f1f808d1185040f1f808d1185042080b1052080b1051b02042041010f1f808d1185040f1f808d1185040f1f808d1185042080b105",
+        "parameters": []
+      },
+      {
+        "token": "0x6000103",
+        "name": "WideCharToMultiByte",
+        "signature_hex": "0008204108092069090f205903080f206504080f20592065040f08",
+        "parameters": []
+      },
+      {
+        "token": "0x6000104",
+        "name": "delete[]",
+        "signature_hex": "00012045010f01",
+        "parameters": []
+      },
+      {
+        "token": "0x6000105",
+        "name": "new",
+        "signature_hex": "000120450f0109",
+        "parameters": []
+      },
+      {
+        "token": "0x6000106",
+        "name": "_invalid_parameter_noinfo_noreturn",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x6000107",
+        "name": "__ExceptionPtrCopy",
+        "signature_hex": "00022045010f010f205901",
+        "parameters": []
+      },
+      {
+        "token": "0x6000108",
+        "name": "__ExceptionPtrDestroy",
+        "signature_hex": "00012045010f01",
+        "parameters": []
+      },
+      {
+        "token": "0x6000109",
+        "name": "delete[]",
+        "signature_hex": "00022045010f0109",
+        "parameters": []
+      },
+      {
+        "token": "0x600010a",
+        "name": "delete",
+        "signature_hex": "00022045010f0109",
+        "parameters": []
+      },
+      {
+        "token": "0x600010b",
+        "name": "__std_exception_destroy",
+        "signature_hex": "00012045010f118954",
+        "parameters": []
+      },
+      {
+        "token": "0x600010c",
+        "name": "__std_exception_copy",
+        "signature_hex": "00022045010f20591189540f118954",
+        "parameters": []
+      },
+      {
+        "token": "0x600010d",
+        "name": "memmove",
+        "signature_hex": "000320450f010f010f20590109",
+        "parameters": []
+      },
+      {
+        "token": "0x600010e",
+        "name": "_getFiberPtrId",
+        "signature_hex": "000020450f01",
+        "parameters": []
+      },
+      {
+        "token": "0x600010f",
+        "name": "_cexit",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x6000110",
+        "name": "Sleep",
+        "signature_hex": "0001204101206909",
+        "parameters": []
+      },
+      {
+        "token": "0x6000111",
+        "name": "abort",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x6000112",
+        "name": "__security_init_cookie",
+        "signature_hex": "0000204501",
+        "parameters": []
+      },
+      {
+        "token": "0x6000113",
+        "name": "__FrameUnwindFilter",
+        "signature_hex": "00012045080f118aa8",
+        "parameters": []
+      },
+      {
+        "token": "0x6000114",
+        "name": "terminate",
+        "signature_hex": "0000204501",
+        "parameters": []
+      }
+    ],
+    "fields": [
+      "??_C@_0BC@EOODALEL@Unknown?5exception@",
+      "??_C@_0BA@JFNIOLAK@string?5too?5long@",
+      "??_R2failure@ios_base@std@@8",
+      "??_R2system_error@std@@8",
+      "??_R2_System_error@std@@8",
+      "??_R2bad_cast@std@@8",
+      "??_R2runtime_error@std@@8",
+      "??_R2exception@std@@8",
+      "??_R1A@?0A@EA@failure@ios_base@std@@8",
+      "??_R1A@?0A@EA@system_error@std@@8",
+      "??_R1A@?0A@EA@_System_error@std@@8",
+      "??_R1A@?0A@EA@bad_cast@std@@8",
+      "??_R1A@?0A@EA@runtime_error@std@@8",
+      "??_R1A@?0A@EA@exception@std@@8",
+      "??_R3failure@ios_base@std@@8",
+      "??_R3system_error@std@@8",
+      "??_R3_System_error@std@@8",
+      "??_R3bad_cast@std@@8",
+      "??_R3runtime_error@std@@8",
+      "??_R3exception@std@@8",
+      "??_R4failure@ios_base@std@@6B@",
+      "??_R4system_error@std@@6B@",
+      "??_R4_System_error@std@@6B@",
+      "??_R4bad_cast@std@@6B@",
+      "??_R4runtime_error@std@@6B@",
+      "??_R4exception@std@@6B@",
+      "??_R0?AVbad_cast@std@@@8",
+      "??_R0?AV_System_error@std@@@8",
+      "??_R0?AVsystem_error@std@@@8",
+      "??_R0?AVfailure@ios_base@std@@@8",
+      "??_7failure@ios_base@std@@6B@",
+      "??_7system_error@std@@6B@",
+      "??_7_System_error@std@@6B@",
+      "??_R0?AVexception@std@@@8",
+      "??_R0?AVruntime_error@std@@@8",
+      "??_7bad_cast@std@@6B@",
+      "??_7runtime_error@std@@6B@",
+      "??_7exception@std@@6B@",
+      "__@@_PchSym_@00@UyUhdRhidiyRqlyBUhfynlwfovhUhkrwvieivnlgvUhkrwviivnlgvUzkreDvmtrmvdizkkviUivovzhvUhgwzucOlyq@4B2008FD98C1DD4",
+      "_GUID_cb2f6723_ab3a_11d2_9c40_00c04fa30a3e",
+      "?InitializedPerProcess@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A",
+      "?A0x0346007c.?InitializedPerProcess$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZA",
+      "_GUID_cb2f6722_ab3a_11d2_9c40_00c04fa30a3e",
+      "_GUID_90f1a06c_7712_4762_86b5_7a5eba6bdb02",
+      "_GUID_90f1a06e_7712_4762_86b5_7a5eba6bdb02",
+      "?Uninitialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA",
+      "?InitializedPerAppDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A",
+      "?Entered@DefaultDomain@<CrtImplementationDetails>@@2_NA",
+      "?hasNative@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A",
+      "?InitializedPerProcess@DefaultDomain@<CrtImplementationDetails>@@2_NA",
+      "?Count@AllDomains@<CrtImplementationDetails>@@2HA",
+      "?Initialized@CurrentDomain@<CrtImplementationDetails>@@$$Q2HA",
+      "?InitializedNative@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A",
+      "?InitializedNativeFromCCTOR@DefaultDomain@<CrtImplementationDetails>@@2_NA",
+      "?IsDefaultDomain@CurrentDomain@<CrtImplementationDetails>@@$$Q2_NA",
+      "?InitializedVtables@CurrentDomain@<CrtImplementationDetails>@@$$Q2W4Progress@2@A",
+      "?InitializedNative@DefaultDomain@<CrtImplementationDetails>@@2_NA",
+      "?hasPerProcess@DefaultDomain@<CrtImplementationDetails>@@0W4TriBool@2@A",
+      "__xc_mp_z",
+      "__xi_vt_z",
+      "?A0x0346007c.?IsDefaultDomain$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZA",
+      "__xc_ma_a",
+      "__xc_ma_z",
+      "?A0x0346007c.?Initialized$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZA",
+      "?A0x0346007c.?InitializedPerAppDomain$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZA",
+      "__xi_vt_a",
+      "?A0x0346007c.?InitializedNative$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZA",
+      "__xc_mp_a",
+      "?A0x0346007c.?InitializedVtables$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZA",
+      "?A0x0346007c.?Uninitialized$initializer$@CurrentDomain@<CrtImplementationDetails>@@$$Q2P6MXXZA",
+      "__unep@?DoNothing@DefaultDomain@<CrtImplementationDetails>@@$$FCGJPAX@Z",
+      "__unep@?_UninitializeDefaultDomain@LanguageSupport@<CrtImplementationDetails>@@$$FCGJPAX@Z",
+      "?A0x373b8c5b.__onexitbegin_m",
+      "?A0x373b8c5b.__exit_list_size",
+      "__onexitend_app_domain",
+      "?_lock@AtExitLock@<CrtImplementationDetails>@@$$Q0PAXA",
+      "?_ref_count@AtExitLock@<CrtImplementationDetails>@@$$Q0HA",
+      "?A0x373b8c5b.__onexitend_m",
+      "__exit_list_size_app_domain",
+      "__onexitbegin_app_domain",
+      "??_7type_info@@6B@",
+      "__xi_z",
+      "__scrt_current_native_startup_state",
+      "__scrt_native_startup_lock",
+      "__xc_a",
+      "__xi_a",
+      "__scrt_native_dllmain_reason",
+      "__xc_z"
+    ]
+  },
+  {
+    "type": "msclr.interop.context_node_base",
+    "methods": [
+      {
+        "token": "0x6000115",
+        "name": ".ctor",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x6000116",
+        "name": ".cctor",
+        "signature_hex": "000001",
+        "parameters": []
+      }
+    ],
+    "fields": [
+      "_Needs_Context"
+    ]
+  },
+  {
+    "type": "msclr.interop.marshal_context",
+    "methods": [
+      {
+        "token": "0x6000117",
+        "name": ".ctor",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x6000118",
+        "name": "~marshal_context",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x6000119",
+        "name": "Dispose",
+        "signature_hex": "20010102",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x600011a",
+        "name": "Dispose",
+        "signature_hex": "200001",
+        "parameters": []
+      }
+    ],
+    "fields": [
+      "_clean_up_list"
+    ]
+  },
+  {
+    "type": "msclr.interop.context_node<char const *,System::String ^>",
+    "methods": [
+      {
+        "token": "0x600011b",
+        "name": ".ctor",
+        "signature_hex": "200201207d0f0f20592065040e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_to_object"
+          },
+          {
+            "sequence": 2,
+            "name": "_from_object"
+          }
+        ]
+      },
+      {
+        "token": "0x600011c",
+        "name": "~context_node<char const *,System::String ^>",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x600011d",
+        "name": "!context_node<char const *,System::String ^>",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x600011e",
+        "name": "Dispose",
+        "signature_hex": "20010102",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x600011f",
+        "name": "Dispose",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x6000120",
+        "name": "Finalize",
+        "signature_hex": "200001",
+        "parameters": []
+      }
+    ],
+    "fields": [
+      "_ptr"
+    ]
+  },
+  {
+    "type": "msclr.interop.context_node<wchar_t const *,System::String ^>",
+    "methods": [
+      {
+        "token": "0x6000121",
+        "name": ".ctor",
+        "signature_hex": "200201207d0f0f2059030e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "_to_object"
+          },
+          {
+            "sequence": 2,
+            "name": "_from_object"
+          }
+        ]
+      },
+      {
+        "token": "0x6000122",
+        "name": "~context_node<wchar_t const *,System::String ^>",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x6000123",
+        "name": "!context_node<wchar_t const *,System::String ^>",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x6000124",
+        "name": "Dispose",
+        "signature_hex": "20010102",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x6000125",
+        "name": "Dispose",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x6000126",
+        "name": "Finalize",
+        "signature_hex": "200001",
+        "parameters": []
+      }
+    ],
+    "fields": [
+      "_ip"
+    ]
+  },
+  {
+    "type": "EngineCLIWrapper.NativeFloatParamValueDelegate",
+    "methods": [
+      {
+        "token": "0x6000127",
+        "name": ".ctor",
+        "signature_hex": "2002011c18",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x6000128",
+        "name": "Invoke",
+        "signature_hex": "2004010f1f808d1185040f1f808d1185040c02",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          },
+          {
+            "sequence": 3,
+            "name": "A_2"
+          },
+          {
+            "sequence": 4,
+            "name": "A_3"
+          }
+        ]
+      },
+      {
+        "token": "0x6000129",
+        "name": "BeginInvoke",
+        "signature_hex": "20061280910f1f808d1185040f1f808d1185040c021280951c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "__unnamed003"
+          },
+          {
+            "sequence": 5,
+            "name": "callback"
+          },
+          {
+            "sequence": 6,
+            "name": "obj"
+          }
+        ]
+      },
+      {
+        "token": "0x600012a",
+        "name": "EndInvoke",
+        "signature_hex": "200101128091",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "result"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "EngineCLIWrapper.NativeIntParamValueDelegate",
+    "methods": [
+      {
+        "token": "0x600012b",
+        "name": ".ctor",
+        "signature_hex": "2002011c18",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x600012c",
+        "name": "Invoke",
+        "signature_hex": "2004010f1f808d1185040f1f808d1185040802",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          },
+          {
+            "sequence": 3,
+            "name": "A_2"
+          },
+          {
+            "sequence": 4,
+            "name": "A_3"
+          }
+        ]
+      },
+      {
+        "token": "0x600012d",
+        "name": "BeginInvoke",
+        "signature_hex": "20061280910f1f808d1185040f1f808d11850408021280951c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "__unnamed003"
+          },
+          {
+            "sequence": 5,
+            "name": "callback"
+          },
+          {
+            "sequence": 6,
+            "name": "obj"
+          }
+        ]
+      },
+      {
+        "token": "0x600012e",
+        "name": "EndInvoke",
+        "signature_hex": "200101128091",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "result"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "EngineCLIWrapper.NativeBoolParamValueDelegate",
+    "methods": [
+      {
+        "token": "0x600012f",
+        "name": ".ctor",
+        "signature_hex": "2002011c18",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x6000130",
+        "name": "Invoke",
+        "signature_hex": "2004010f1f808d1185040f1f808d1185040202",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          },
+          {
+            "sequence": 3,
+            "name": "A_2"
+          },
+          {
+            "sequence": 4,
+            "name": "A_3"
+          }
+        ]
+      },
+      {
+        "token": "0x6000131",
+        "name": "BeginInvoke",
+        "signature_hex": "20061280910f1f808d1185040f1f808d11850402021280951c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "__unnamed003"
+          },
+          {
+            "sequence": 5,
+            "name": "callback"
+          },
+          {
+            "sequence": 6,
+            "name": "obj"
+          }
+        ]
+      },
+      {
+        "token": "0x6000132",
+        "name": "EndInvoke",
+        "signature_hex": "200101128091",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "result"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "EngineCLIWrapper.NativeStringParamValueDelegate",
+    "methods": [
+      {
+        "token": "0x6000133",
+        "name": ".ctor",
+        "signature_hex": "2002011c18",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x6000134",
+        "name": "Invoke",
+        "signature_hex": "2004010f1f808d1185040f1f808d1185040f1f808d11850402",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          },
+          {
+            "sequence": 3,
+            "name": "A_2"
+          },
+          {
+            "sequence": 4,
+            "name": "A_3"
+          }
+        ]
+      },
+      {
+        "token": "0x6000135",
+        "name": "BeginInvoke",
+        "signature_hex": "20061280910f1f808d1185040f1f808d1185040f1f808d118504021280951c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "__unnamed003"
+          },
+          {
+            "sequence": 5,
+            "name": "callback"
+          },
+          {
+            "sequence": 6,
+            "name": "obj"
+          }
+        ]
+      },
+      {
+        "token": "0x6000136",
+        "name": "EndInvoke",
+        "signature_hex": "200101128091",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "result"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "EngineCLIWrapper.FloatParamValueSender",
+    "methods": [
+      {
+        "token": "0x6000137",
+        "name": ".ctor",
+        "signature_hex": "2002011c18",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x6000138",
+        "name": "Invoke",
+        "signature_hex": "2004010e0e0c02",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          }
+        ]
+      },
+      {
+        "token": "0x6000139",
+        "name": "BeginInvoke",
+        "signature_hex": "20061280910e0e0c021280951c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          },
+          {
+            "sequence": 5,
+            "name": "callback"
+          },
+          {
+            "sequence": 6,
+            "name": "obj"
+          }
+        ]
+      },
+      {
+        "token": "0x600013a",
+        "name": "EndInvoke",
+        "signature_hex": "200101128091",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "result"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "EngineCLIWrapper.IntParamValueSender",
+    "methods": [
+      {
+        "token": "0x600013b",
+        "name": ".ctor",
+        "signature_hex": "2002011c18",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x600013c",
+        "name": "Invoke",
+        "signature_hex": "2004010e0e0802",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          }
+        ]
+      },
+      {
+        "token": "0x600013d",
+        "name": "BeginInvoke",
+        "signature_hex": "20061280910e0e08021280951c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          },
+          {
+            "sequence": 5,
+            "name": "callback"
+          },
+          {
+            "sequence": 6,
+            "name": "obj"
+          }
+        ]
+      },
+      {
+        "token": "0x600013e",
+        "name": "EndInvoke",
+        "signature_hex": "200101128091",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "result"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "EngineCLIWrapper.BoolParamValueSender",
+    "methods": [
+      {
+        "token": "0x600013f",
+        "name": ".ctor",
+        "signature_hex": "2002011c18",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x6000140",
+        "name": "Invoke",
+        "signature_hex": "2004010e0e0202",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          }
+        ]
+      },
+      {
+        "token": "0x6000141",
+        "name": "BeginInvoke",
+        "signature_hex": "20061280910e0e02021280951c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          },
+          {
+            "sequence": 5,
+            "name": "callback"
+          },
+          {
+            "sequence": 6,
+            "name": "obj"
+          }
+        ]
+      },
+      {
+        "token": "0x6000142",
+        "name": "EndInvoke",
+        "signature_hex": "200101128091",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "result"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "EngineCLIWrapper.StringParamValueSender",
+    "methods": [
+      {
+        "token": "0x6000143",
+        "name": ".ctor",
+        "signature_hex": "2002011c18",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x6000144",
+        "name": "Invoke",
+        "signature_hex": "2004010e0e0e02",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          }
+        ]
+      },
+      {
+        "token": "0x6000145",
+        "name": "BeginInvoke",
+        "signature_hex": "20061280910e0e0e021280951c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          },
+          {
+            "sequence": 5,
+            "name": "callback"
+          },
+          {
+            "sequence": 6,
+            "name": "obj"
+          }
+        ]
+      },
+      {
+        "token": "0x6000146",
+        "name": "EndInvoke",
+        "signature_hex": "200101128091",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "result"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "EngineCLIWrapper.DictionaryParamValueSender",
+    "methods": [
+      {
+        "token": "0x6000147",
+        "name": ".ctor",
+        "signature_hex": "2002011c18",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x6000148",
+        "name": "Invoke",
+        "signature_hex": "2004010e0e15128099020e1c02",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          }
+        ]
+      },
+      {
+        "token": "0x6000149",
+        "name": "BeginInvoke",
+        "signature_hex": "20061280910e0e15128099020e1c021280951c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__unnamed000"
+          },
+          {
+            "sequence": 2,
+            "name": "__unnamed001"
+          },
+          {
+            "sequence": 3,
+            "name": "__unnamed002"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          },
+          {
+            "sequence": 5,
+            "name": "callback"
+          },
+          {
+            "sequence": 6,
+            "name": "obj"
+          }
+        ]
+      },
+      {
+        "token": "0x600014a",
+        "name": "EndInvoke",
+        "signature_hex": "200101128091",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "result"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "EngineCLIWrapper.EngineWrapper",
+    "methods": [
+      {
+        "token": "0x600014b",
+        "name": ".ctor",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x600014c",
+        "name": "~EngineWrapper",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x600014d",
+        "name": "setFloatParamValue",
+        "signature_hex": "2003080e0e0c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          },
+          {
+            "sequence": 3,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x600014e",
+        "name": "setIntParamValue",
+        "signature_hex": "2003080e0e08",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          },
+          {
+            "sequence": 3,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x600014f",
+        "name": "setBoolParamValue",
+        "signature_hex": "2003080e0e02",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          },
+          {
+            "sequence": 3,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000150",
+        "name": "setStringParamValue",
+        "signature_hex": "2003080e0e0e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          },
+          {
+            "sequence": 3,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000151",
+        "name": "setDictionaryParamValue",
+        "signature_hex": "2003080e0e15128099020e1c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          },
+          {
+            "sequence": 3,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000152",
+        "name": "getFloatParamValue",
+        "signature_hex": "20020c0e0e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          }
+        ]
+      },
+      {
+        "token": "0x6000153",
+        "name": "getIntParamValue",
+        "signature_hex": "2002080e0e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          }
+        ]
+      },
+      {
+        "token": "0x6000154",
+        "name": "getBoolParamValue",
+        "signature_hex": "2002020e0e",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          },
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          }
+        ]
+      },
+      {
+        "token": "0x6000155",
+        "name": "getStringParamValue",
+        "signature_hex": "20020e0e0e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          }
+        ]
+      },
+      {
+        "token": "0x6000156",
+        "name": "getDictionaryParamValue",
+        "signature_hex": "200215128099020e1c0e0e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          }
+        ]
+      },
+      {
+        "token": "0x6000157",
+        "name": "initialize",
+        "signature_hex": "2001020e",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          },
+          {
+            "sequence": 1,
+            "name": "appVersion"
+          }
+        ]
+      },
+      {
+        "token": "0x6000158",
+        "name": "start",
+        "signature_hex": "200002",
+        "parameters": [
+          {
+            "sequence": 0,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000159",
+        "name": "shutDown",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x600015a",
+        "name": "NativeFloatParamValueReceiver",
+        "signature_hex": "0004010f1f808d1185040f1f808d1185040c02",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          },
+          {
+            "sequence": 3,
+            "name": "value"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          }
+        ]
+      },
+      {
+        "token": "0x600015b",
+        "name": "NativeIntParamValueReceiver",
+        "signature_hex": "0004010f1f808d1185040f1f808d1185040802",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          },
+          {
+            "sequence": 3,
+            "name": "value"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          }
+        ]
+      },
+      {
+        "token": "0x600015c",
+        "name": "NativeBoolParamValueReceiver",
+        "signature_hex": "0004010f1f808d1185040f1f808d1185040202",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          },
+          {
+            "sequence": 3,
+            "name": "value"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          }
+        ]
+      },
+      {
+        "token": "0x600015d",
+        "name": "NativeStringParamValueReceiver",
+        "signature_hex": "0004010f1f808d1185040f1f808d1185040f1f808d11850402",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "groupID"
+          },
+          {
+            "sequence": 2,
+            "name": "paramID"
+          },
+          {
+            "sequence": 3,
+            "name": "value"
+          },
+          {
+            "sequence": 4,
+            "name": "deviceTriggered"
+          }
+        ]
+      },
+      {
+        "token": "0x600015e",
+        "name": "stardardStringForManagedString",
+        "signature_hex": "20021f809d0f1185040f1185040e",
+        "parameters": [
+          {
+            "sequence": 2,
+            "name": "managedString"
+          }
+        ]
+      },
+      {
+        "token": "0x600015f",
+        "name": "add_SendFloat",
+        "signature_hex": "0001011228",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000160",
+        "name": "remove_SendFloat",
+        "signature_hex": "0001011228",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000161",
+        "name": "raise_SendFloat",
+        "signature_hex": "0004010e0e0c02",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value0"
+          },
+          {
+            "sequence": 2,
+            "name": "value1"
+          },
+          {
+            "sequence": 3,
+            "name": "value2"
+          },
+          {
+            "sequence": 4,
+            "name": "value3"
+          }
+        ]
+      },
+      {
+        "token": "0x6000162",
+        "name": "add_sendInt",
+        "signature_hex": "000101122c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000163",
+        "name": "remove_sendInt",
+        "signature_hex": "000101122c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000164",
+        "name": "raise_sendInt",
+        "signature_hex": "0004010e0e0802",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value0"
+          },
+          {
+            "sequence": 2,
+            "name": "value1"
+          },
+          {
+            "sequence": 3,
+            "name": "value2"
+          },
+          {
+            "sequence": 4,
+            "name": "value3"
+          }
+        ]
+      },
+      {
+        "token": "0x6000165",
+        "name": "add_sendBool",
+        "signature_hex": "0001011230",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000166",
+        "name": "remove_sendBool",
+        "signature_hex": "0001011230",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000167",
+        "name": "raise_sendBool",
+        "signature_hex": "0004010e0e0202",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value0"
+          },
+          {
+            "sequence": 2,
+            "name": "value1"
+          },
+          {
+            "sequence": 3,
+            "name": "value2"
+          },
+          {
+            "sequence": 4,
+            "name": "value3"
+          }
+        ]
+      },
+      {
+        "token": "0x6000168",
+        "name": "add_SendString",
+        "signature_hex": "0001011234",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x6000169",
+        "name": "remove_SendString",
+        "signature_hex": "0001011234",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x600016a",
+        "name": "raise_SendString",
+        "signature_hex": "0004010e0e0e02",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value0"
+          },
+          {
+            "sequence": 2,
+            "name": "value1"
+          },
+          {
+            "sequence": 3,
+            "name": "value2"
+          },
+          {
+            "sequence": 4,
+            "name": "value3"
+          }
+        ]
+      },
+      {
+        "token": "0x600016b",
+        "name": "add_SendDictionary",
+        "signature_hex": "0001011238",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x600016c",
+        "name": "remove_SendDictionary",
+        "signature_hex": "0001011238",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value"
+          }
+        ]
+      },
+      {
+        "token": "0x600016d",
+        "name": "raise_SendDictionary",
+        "signature_hex": "0004010e0e15128099020e1c02",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "value0"
+          },
+          {
+            "sequence": 2,
+            "name": "value1"
+          },
+          {
+            "sequence": 3,
+            "name": "value2"
+          },
+          {
+            "sequence": 4,
+            "name": "value3"
+          }
+        ]
+      },
+      {
+        "token": "0x600016e",
+        "name": "Dispose",
+        "signature_hex": "20010102",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          }
+        ]
+      },
+      {
+        "token": "0x600016f",
+        "name": "Dispose",
+        "signature_hex": "200001",
+        "parameters": []
+      }
+    ],
+    "fields": [
+      "<backing_store>SendFloat",
+      "<backing_store>sendInt",
+      "<backing_store>sendBool",
+      "<backing_store>SendString",
+      "<backing_store>SendDictionary",
+      "theEngine",
+      "floatParamValueDelegate",
+      "intParamValueDelegate",
+      "boolParamValueDelegate",
+      "stringParamValueDelegate"
+    ]
+  },
+  {
+    "type": "std._Uninitialized",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BC@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0O@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0P@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BF@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.float_denorm_style",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "std.float_round_style",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "std.memory_order",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY08$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0L@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BA@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0FG@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0IH@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY05$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY04$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0FG@$$CB_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0IH@$$CB_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0N@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.pointer_safety",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY01$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY00$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Codecvt_mode",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "std.errc",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "std.io_errc",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY02$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.error_code",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY07$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BG@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY06$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BL@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BH@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BM@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BI@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BN@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY03$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY02$$CB_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY03$$CB_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._EXCEPTION_DISPOSITION",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SID_NAME_USE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._ACL_INFORMATION_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._AUDIT_EVENT_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._ACCESS_REASON_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SECURITY_IMPERSONATION_LEVEL",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._TOKEN_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._TOKEN_ELEVATION_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._TOKEN_INFORMATION_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._MANDATORY_LEVEL",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SE_IMAGE_SIGNATURE_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SE_LEARNING_MODE_DATA_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._HARDWARE_COUNTER_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._PROCESS_MITIGATION_POLICY",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._JOBOBJECT_RATE_CONTROL_TOLERANCE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._JOBOBJECT_RATE_CONTROL_TOLERANCE_INTERVAL",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".JOB_OBJECT_NET_RATE_CONTROL_FLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".JOB_OBJECT_IO_RATE_CONTROL_FLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".JOBOBJECT_IO_ATTRIBUTION_CONTROL_FLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._JOBOBJECTINFOCLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SERVERSILO_STATE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._FIRMWARE_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._LOGICAL_PROCESSOR_RELATIONSHIP",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._PROCESSOR_CACHE_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._CPU_SET_INFORMATION_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SharedVirtualDiskSupportType",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SharedVirtualDiskHandleState",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SYSTEM_POWER_STATE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._DEVICE_POWER_STATE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._MONITOR_DISPLAY_STATE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._USER_ACTIVITY_PRESENCE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._POWER_REQUEST_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._POWER_MONITOR_REQUEST_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._POWER_PLATFORM_ROLE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._HIBERFILE_BUCKET_SIZE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".IMAGE_AUX_SYMBOL_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".IMPORT_OBJECT_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".IMPORT_OBJECT_NAME_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".ReplacesCorHdrNumericDefines",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._RTL_UMS_THREAD_INFO_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._RTL_UMS_SCHEDULER_REASON",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._OS_DEPLOYEMENT_STATE_VALUES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._HEAP_INFORMATION_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._ACTIVATION_CONTEXT_INFO_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._CM_SERVICE_NODE_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._CM_SERVICE_LOAD_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._CM_ERROR_CONTROL_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._TAPE_DRIVE_PROBLEM_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._TRANSACTION_OUTCOME",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._TRANSACTION_STATE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._TRANSACTION_INFORMATION_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._TRANSACTIONMANAGER_INFORMATION_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._RESOURCEMANAGER_INFORMATION_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._ENLISTMENT_INFORMATION_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._KTMOBJECT_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._TP_CALLBACK_PRIORITY",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".DPI_AWARENESS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._FINDEX_INFO_LEVELS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._FINDEX_SEARCH_OPS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._GET_FILEEX_INFO_LEVELS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._FILE_INFO_BY_HANDLE_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STREAM_INFO_LEVELS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._THREAD_INFORMATION_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._PROCESS_INFORMATION_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._PROCESS_MEMORY_EXHAUSTION_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._PROCESS_ACTIVITY_THROTTLE_STATE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._PROCESS_ACTIVITY_THROTTLE_POLICY_OP",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._COMPUTER_NAME_FORMAT",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._MEMORY_RESOURCE_NOTIFICATION_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".OFFER_PRIORITY",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".WIN32_MEMORY_INFORMATION_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._DEP_SYSTEM_POLICY_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._PROC_THREAD_ATTRIBUTE_NUM",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._COPYFILE2_MESSAGE_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._COPYFILE2_MESSAGE_ACTION",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._COPYFILE2_COPY_PHASE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._PRIORITY_HINT",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._FILE_ID_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".DISPLAYCONFIG_TOPOLOGY_ID",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._DISPLAYCONFIG_COLOR_ENCODING",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".DIALOG_CONTROL_DPI_CHANGE_BEHAVIORS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".DIALOG_DPI_CHANGE_BEHAVIORS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagPOINTER_INPUT_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagPOINTER_BUTTON_CHANGE_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagFEEDBACK_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagPOINTER_DEVICE_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagPOINTER_DEVICE_CURSOR_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagINPUT_MESSAGE_DEVICE_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagINPUT_MESSAGE_ORIGIN_ID",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagAR_STATE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".ORIENTATION_PREFERENCE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".SYSNLS_FUNCTION",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".SYSGEOTYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".SYSGEOCLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._NORM_FORM",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._RPC_HTTP_REDIRECTOR_STAGE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".RPC_ADDRESS_CHANGE_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._LRPC_SYSTEM_HANDLE_MARSHAL_DIRECTION",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".RpcProxyPerfCounters",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._RPC_NOTIFICATION_TYPES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._RPC_ASYNC_EVENT",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagExtendedErrorParamTypes",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagRpcLocalAddressFormat",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagRpcCallType",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagRpcCallClientLocality",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._RPC_NOTIFICATIONS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".ASSOCCLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".SHSTOCKICONID",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".CertKeyType",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._USER_MARSHAL_CB_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._IDL_CS_CONVERT",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._system_handle_t",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagMEMCTX",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagCLSCTX",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagMSHLFLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagMSHCTX",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagDVASPECT",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagSTGC",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagSTGMOVE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagSTATFLAG",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".VARENUM",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagTYSPEC",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_MEDIA_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_BUS_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_QUERY_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_PROPERTY_ID",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_PORT_CODE_SET",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_IDENTIFIER_CODE_SET",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_IDENTIFIER_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_ID_NAA_FORMAT",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_ASSOCIATION_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_RPMB_FRAME_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_CRYPTO_ALGORITHM_ID",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_CRYPTO_KEY_SIZE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_TIER_MEDIA_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_TIER_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_PROTOCOL_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_PROTOCOL_NVME_DATA_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_PROTOCOL_ATA_DATA_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_DEVICE_FORM_FACTOR",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_COMPONENT_HEALTH_STATUS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_DISK_HEALTH_STATUS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_DISK_OPERATIONAL_STATUS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_OPERATIONAL_STATUS_REASON",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._WRITE_CACHE_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._WRITE_CACHE_ENABLE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._WRITE_CACHE_CHANGE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._WRITE_THROUGH",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._DEVICEDUMP_COLLECTION_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_POWERUP_REASON_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_DEVICE_POWER_CAP_UNITS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_RPMB_COMMAND_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_COUNTER_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._STORAGE_ATTRIBUTE_MGMT_ACTION",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._MEDIA_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._PARTITION_STYLE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._DETECTION_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._BIN_TYPES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._ELEMENT_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._CHANGER_DEVICE_PROBLEM_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SHRINK_VOLUME_REQUEST_TYPES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._CSV_CONTROL_OP",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._CSVFS_DISK_CONNECTIVITY",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._QUERY_FILE_LAYOUT_FILTER_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._FILE_STORAGE_TIER_MEDIA_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._FILE_STORAGE_TIER_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._PRINTER_OPTION_FLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagREGCLS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagCOINITBASE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagACTIVATIONTYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagEXTCONN",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagSTGTY",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagSTREAM_SEEK",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagLOCKTYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagEOLE_AUTHENTICATION_CAPABILITIES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagRPCOPT_PROPERTIES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagRPCOPT_SERVER_LOCALITY_VALUES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagGLOBALOPT_PROPERTIES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagGLOBALOPT_EH_VALUES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagGLOBALOPT_RPCTP_VALUES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagGLOBALOPT_RO_FLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagGLOBALOPT_UNMARSHALING_POLICY_VALUES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagDCOM_CALL_STATE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._APTTYPEQUALIFIER",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._APTTYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._THDTYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".CO_MARSHALING_CONTEXT_ATTRIBUTES",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagSTDMSHLFLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagCOWAIT_FLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".CWMO_FLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".AgileReferenceOptions",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagBIND_FLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagMKSYS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagMKREDUCE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagADVF",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagTYMED",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagDATADIR",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagCALLTYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagSERVERCALL",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagPENDINGTYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagPENDINGMSG",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagApplicationType",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagShutdownType",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagSF_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagTYPEKIND",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagCALLCONV",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagFUNCKIND",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagINVOKEKIND",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagVARKIND",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagTYPEFLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagFUNCFLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagVARFLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagDESCKIND",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagSYSKIND",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagLIBFLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagCHANGEKIND",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagCOINIT",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagCOMSD",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagDISCARDCACHE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagOLEGETMONIKER",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagOLEWHICHMK",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagUSERCLASSTYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagOLEMISC",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagOLECLOSE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagOLERENDER",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagOLEUPDATE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagOLELINKBIND",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagBINDSPEED",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagOLECONTF",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagOLEVERBATTRIB",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagDOMNodeType",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagXMLEMEM_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".IEObjectType",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IMonikerProp_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IBindStatusCallback_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IBindStatusCallback_0002",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IBindStatusCallback_0003",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IBindStatusCallback_0004",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IBindStatusCallback_0005",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IBindStatusCallback_0006",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagBINDSTATUS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IBindStatusCallbackEx_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IAuthenticateEx_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_ICodeInstall_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IUri_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IUri_0002",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagBINDSTRING",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._tagPI_FLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._tagOIBDG_FLAGS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._tagPARSEACTION",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._tagPSUACTION",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._tagQUERYOPTION",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._tagINTERNETFEATURELIST",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IInternetSecurityManager_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IInternetSecurityManager_0002",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IInternetSecurityManager_0003",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagURLZONE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagURLTEMPLATE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IInternetZoneManager_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IInternetZoneManager_0002",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._URLZONEREG",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL_IGetBindHandle_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".PIDMSI_STATUS_VALUE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".tagREGKIND",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SC_ACTION_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SC_STATUS_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SC_ENUM_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._SC_EVENT_TYPE",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "std.basic_string<char,std::char_traits<char>,std::allocator<char> >",
+    "methods": [
+      {
+        "token": "0x6000170",
+        "name": "<MarshalCopy>",
+        "signature_hex": "0002010f1185040f118504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x6000171",
+        "name": "<MarshalDestroy>",
+        "signature_hex": "0001010f118504",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": ".APIV3Engine",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.istreambuf_iterator<wchar_t,std::char_traits<wchar_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Istreambuf_proxy",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.ostreambuf_iterator<char,std::char_traits<char> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.istreambuf_iterator<char,std::char_traits<char> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Istreambuf_proxy",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.integral_constant<bool,1>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Zero_then_variadic_args_t",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?assign@?$basic_string@_UU?$char_traits@_U@std@@V?$allocator@_U@2@@std@@$$FQAEAAV12@QB_UI@Z.__l2.<lambda_336b60ed8ece25612a4e239a3ad2963a>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?assign@?$basic_string@_SU?$char_traits@_S@std@@V?$allocator@_S@2@@std@@$$FQAEAAV12@QB_SI@Z.__l2.<lambda_e8146e699ad3d19085b95d1601c4900f>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?push_back@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQAEX_W@Z.__l2.<lambda_000a440560208bdbd8b15cb5b1a8b6b3>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQAEAAV12@QB_WI@Z.__l2.<lambda_dedddf4a6a87ceff87c95d2861c9e684>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?push_back@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEXD@Z.__l2.<lambda_6f04b3841c6ace20ee4fd1b3dbc592d0>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@ID@Z.__l2.<lambda_2e531c9f1bfece438b11d7a687d3ac9c>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@QBDI@Z.__l2.<lambda_88acb98cb1d3e807ff08d7ebe077788e>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@ID@Z.__l2.<lambda_b520e6e7dd2c85f4b83ca9ec1210796f>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@QBDI@Z.__l2.<lambda_4c04651f1675f62dd3603168f157397a>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?insert@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQAEAAV12@II_W@Z.__l2.<lambda_33207f5e511f75d4236841966d7be680>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?assign@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQAEAAV12@I_W@Z.__l2.<lambda_0504f7258912048d76197aad5a051a15>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?insert@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$FQAEAAV12@IID@Z.__l2.<lambda_6f15b3f3d520a31cb8e9581fa19a29aa>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.?append@?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@$$FQAEAAV12@QB_WI@Z.__l2.<lambda_81024737dbc355ceadab6de384f2d3f0>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.integral_constant<bool,0>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._One_then_variadic_args_t",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Cvtvec",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.random_access_iterator_tag",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Unused_parameter",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._iobuf",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".__crt_locale_pointers",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.exception",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.bad_exception",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.bad_alloc",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.bad_array_new_length",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.exception_ptr",
+    "methods": [
+      {
+        "token": "0x6000172",
+        "name": "<MarshalCopy>",
+        "signature_hex": "0002010f11858c0f11858c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          },
+          {
+            "sequence": 2,
+            "name": "A_1"
+          }
+        ]
+      },
+      {
+        "token": "0x6000173",
+        "name": "<MarshalDestroy>",
+        "signature_hex": "0001010f11858c",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "A_0"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "std.nested_exception",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<char>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<wchar_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<bool>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<signed char>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<unsigned char>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<short>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<unsigned short>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<char16_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<int>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<unsigned int>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<long>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<unsigned long>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<char32_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<__int64>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<unsigned __int64>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<float>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<double>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numeric_limits<long double>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.char_traits<char>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Container_base0",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Container_base12",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Iterator_base12",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Default_allocate_traits",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.logic_error",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.domain_error",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.invalid_argument",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.length_error",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.out_of_range",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.runtime_error",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.overflow_error",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.underflow_error",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.range_error",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.bad_cast",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.bad_typeid",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.__non_rtti_object",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".__crt_locale_data_public",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Timevec",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Locinfo",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Ctypevec",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".lconv",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.bad_weak_ptr",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Ref_count_base",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".type_info",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Facet_base",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.locale",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".id",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Locimp",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".facet",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.codecvt_base",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.codecvt<char16_t,char,_Mbstatet>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Mbstatet",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.codecvt<char32_t,char,_Mbstatet>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.codecvt<wchar_t,char,_Mbstatet>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.codecvt<unsigned short,char,_Mbstatet>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.ctype_base",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.ctype<char>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.ctype<wchar_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.ctype<unsigned short>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.ctype_byname<char>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.error_category",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.error_condition",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._System_error",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.system_error",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Generic_error_category",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Iostream_error_category",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._System_error_category",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.ios_base",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".event",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".failure",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".Init",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Iosarray",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Fnarray",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._GUID",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._TP_CALLBACK_ENVIRON_V3",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".<unnamed-type-u>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".<unnamed-type-s>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.tuple<>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".APIV3ClientBridge",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.vector<int,std::allocator<int> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "msclr.interop.details.char_buffer<char>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "msclr.interop.details.char_buffer<wchar_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.num_get<wchar_t,std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t> > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numpunct<wchar_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.num_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.num_get<char,std::istreambuf_iterator<char,std::char_traits<char> > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.numpunct<char>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Conditionally_enabled_hash<int,1>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.codecvt<char,char,_Mbstatet>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Yarn<wchar_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Yarn<char>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_string<char32_t,std::char_traits<char32_t>,std::allocator<char32_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_string<char16_t,std::char_traits<char16_t>,std::allocator<char16_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_iostream<wchar_t,std::char_traits<wchar_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_ostream<wchar_t,std::char_traits<wchar_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_istream<wchar_t,std::char_traits<wchar_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_streambuf<wchar_t,std::char_traits<wchar_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_ios<wchar_t,std::char_traits<wchar_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_iostream<char,std::char_traits<char> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_ostream<char,std::char_traits<char> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_istream<char,std::char_traits<char> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_streambuf<char,std::char_traits<char> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.basic_ios<char,std::char_traits<char> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._String_alloc<std::_String_base_types<char32_t,std::allocator<char32_t> > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._String_alloc<std::_String_base_types<char16_t,std::allocator<char16_t> > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._String_alloc<std::_String_base_types<wchar_t,std::allocator<wchar_t> > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._String_alloc<std::_String_base_types<char,std::allocator<char> > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Compressed_pair<std::allocator<char32_t>,std::_String_val<std::_Simple_types<char32_t> >,1>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Compressed_pair<std::allocator<char16_t>,std::_String_val<std::_Simple_types<char16_t> >,1>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Compressed_pair<std::allocator<wchar_t>,std::_String_val<std::_Simple_types<wchar_t> >,1>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._String_val<std::_Simple_types<char32_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Bxty",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._String_val<std::_Simple_types<char16_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Bxty",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._String_val<std::_Simple_types<wchar_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Bxty",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._String_val<std::_Simple_types<char> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Bxty",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Vector_alloc<std::_Vec_base_types<int,std::allocator<int> > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Vector_alloc<std::_Vec_base_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.hash<int>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Default_allocator_traits<std::allocator<char> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.allocator<char>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._WChar_traits<wchar_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.fpos<_Mbstatet>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Vector_val<std::_Simple_types<int> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.allocator<int>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.allocator<char32_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.allocator<char16_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.allocator<wchar_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Char_traits<char32_t,unsigned int>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._WChar_traits<char16_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Compressed_pair<std::allocator<int>,std::_Vector_val<std::_Simple_types<int> >,1>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Compressed_pair<std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::_Vector_val<std::_Simple_types<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,1>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BF@D",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BF@_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0P@$$CB_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BL@$$CB_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Default_allocator_traits<std::allocator<char32_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Default_allocator_traits<std::allocator<char16_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Default_allocator_traits<std::allocator<wchar_t> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BN@$$CB_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.unique_ptr<std::_Facet_base,std::default_delete<std::_Facet_base> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Unique_ptr_base<std::_Facet_base,std::default_delete<std::_Facet_base> >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.default_delete<std::_Facet_base>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Compressed_pair<std::default_delete<std::_Facet_base>,std::_Facet_base *,1>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Default_allocator_traits<std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_s__RTTIBaseClassArray$_extraBytes_4",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_s__RTTIBaseClassArray$_extraBytes_16",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_s__RTTIBaseClassArray$_extraBytes_20",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_s__RTTIBaseClassArray$_extraBytes_8",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_s__RTTIBaseClassArray$_extraBytes_12",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_s__RTTIBaseClassArray$_extraBytes_24",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._s__RTTIBaseClassDescriptor",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._s__RTTIClassHierarchyDescriptor",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_24",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_23",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_33",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_35",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_34",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_25",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_27",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_20",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_21",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_36",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_26",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_22",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_28",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_31",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._s__RTTICompleteObjectLocator",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.is_signed<char const >",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.is_signed<char>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Align_type<int,8>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.once_flag",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_s__CatchableTypeArray$_extraBytes_8",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._s__CatchableType",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_TypeDescriptor$_extraBytes_19",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._s__ThrowInfo",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BN@D",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BN@_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BL@D",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0P@D",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BL@_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0P@_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY01D",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY01Q6AXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0BA@Q6AXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0L@Q6AXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY08Q6AXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0P@Q6AXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0M@Q6AXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0DBI@D",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0CA@D",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY05D",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY07D",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0EA@D",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY05Q6AXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".tagVARIANT",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0xff2a38d6$541$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0xff2a38d6$542$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0xff2a38d6$543$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0xff2a38d6$544$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".tagPROPVARIANT",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0xff2a38d6$549$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0xff2a38d6$550$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0xff2a38d6$551$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".HWND__",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".tagRECT",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".HDC__",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".tagMSG",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".tagTEXTMETRICW",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._SECURITY_ATTRIBUTES",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$_s__CatchableTypeArray$_extraBytes_20",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY02Q6AXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Iosb<int>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Dummy_enum",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._Fmtflags",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._Iostate",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._Openmode",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._Seekdir",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY06Q6AXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.hash<std::error_condition>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.hash<std::error_code>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY03Q6AXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY04D",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Lockit",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Shared_ptr_spin_lock",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._Collvec",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".__type_info_node",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".__std_type_info_data",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Distance_unknown",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Container_proxy",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std._Iterator_base0",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._stat64i32",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".stat",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".__std_exception_data",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.hash<std::nullptr_t>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.hash<long double>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.hash<double>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "std.hash<float>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._lldiv_t",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._ldiv_t",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CrtImplementationDetails>.Exception",
+    "methods": [
+      {
+        "token": "0x6000174",
+        "name": ".ctor",
+        "signature_hex": "2002011280e51180e9",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "info"
+          },
+          {
+            "sequence": 2,
+            "name": "context"
+          }
+        ]
+      },
+      {
+        "token": "0x6000175",
+        "name": ".ctor",
+        "signature_hex": "2002010e1280e1",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "message"
+          },
+          {
+            "sequence": 2,
+            "name": "innerException"
+          }
+        ]
+      },
+      {
+        "token": "0x6000176",
+        "name": ".ctor",
+        "signature_hex": "2001010e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "message"
+          }
+        ]
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "<CrtImplementationDetails>.ModuleLoadException",
+    "methods": [
+      {
+        "token": "0x6000177",
+        "name": ".ctor",
+        "signature_hex": "2002011280e51180e9",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "info"
+          },
+          {
+            "sequence": 2,
+            "name": "context"
+          }
+        ]
+      },
+      {
+        "token": "0x6000178",
+        "name": ".ctor",
+        "signature_hex": "2002010e1280e1",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "message"
+          },
+          {
+            "sequence": 2,
+            "name": "innerException"
+          }
+        ]
+      },
+      {
+        "token": "0x6000179",
+        "name": ".ctor",
+        "signature_hex": "2001010e",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "message"
+          }
+        ]
+      }
+    ],
+    "fields": [
+      "Nested"
+    ]
+  },
+  {
+    "type": "<CrtImplementationDetails>.ModuleLoadExceptionHandlerException",
+    "methods": [
+      {
+        "token": "0x600017a",
+        "name": ".ctor",
+        "signature_hex": "2002011280e51180e9",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "info"
+          },
+          {
+            "sequence": 2,
+            "name": "context"
+          }
+        ]
+      },
+      {
+        "token": "0x600017b",
+        "name": ".ctor",
+        "signature_hex": "2003010e1280e11280e1",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "message"
+          },
+          {
+            "sequence": 2,
+            "name": "innerException"
+          },
+          {
+            "sequence": 3,
+            "name": "nestedException"
+          }
+        ]
+      },
+      {
+        "token": "0x600017c",
+        "name": "get_NestedException",
+        "signature_hex": "20001280e1",
+        "parameters": []
+      },
+      {
+        "token": "0x600017d",
+        "name": "set_NestedException",
+        "signature_hex": "2001011280e1",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "__set_formal"
+          }
+        ]
+      },
+      {
+        "token": "0x600017e",
+        "name": "ToString",
+        "signature_hex": "20000e",
+        "parameters": []
+      },
+      {
+        "token": "0x600017f",
+        "name": "GetObjectData",
+        "signature_hex": "2002011280e51180e9",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "info"
+          },
+          {
+            "sequence": 2,
+            "name": "context"
+          }
+        ]
+      }
+    ],
+    "fields": [
+      "formatString",
+      "<backing_store>NestedException"
+    ]
+  },
+  {
+    "type": "<CrtImplementationDetails>.ModuleUninitializer",
+    "methods": [
+      {
+        "token": "0x6000180",
+        "name": "AddHandler",
+        "signature_hex": "2001011280f5",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "handler"
+          }
+        ]
+      },
+      {
+        "token": "0x6000181",
+        "name": ".cctor",
+        "signature_hex": "000001",
+        "parameters": []
+      },
+      {
+        "token": "0x6000182",
+        "name": ".ctor",
+        "signature_hex": "200001",
+        "parameters": []
+      },
+      {
+        "token": "0x6000183",
+        "name": "SingletonDomainUnload",
+        "signature_hex": "2002011c1280fd",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "source"
+          },
+          {
+            "sequence": 2,
+            "name": "arguments"
+          }
+        ]
+      }
+    ],
+    "fields": [
+      "lock",
+      "_ModuleUninitializer"
+    ]
+  },
+  {
+    "type": "<CrtImplementationDetails>.OpenMPWithMultipleAppdomainsException",
+    "methods": [
+      {
+        "token": "0x6000184",
+        "name": ".ctor",
+        "signature_hex": "2002011280e51180e9",
+        "parameters": [
+          {
+            "sequence": 1,
+            "name": "info"
+          },
+          {
+            "sequence": 2,
+            "name": "context"
+          }
+        ]
+      },
+      {
+        "token": "0x6000185",
+        "name": ".ctor",
+        "signature_hex": "200001",
+        "parameters": []
+      }
+    ],
+    "fields": []
+  },
+  {
+    "type": "std.align_val_t",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_gchost_0000_0000_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_gchost_0000_0000_0002",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".ValidatorFlags",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0000_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0000_0002",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0000_0003",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0000_0004",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0000_0005",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0009_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0009_0002",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0009_0003",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0011_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".ETaskType",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0020_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0021_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0021_0002",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0028_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0028_0002",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0028_0003",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0028_0004",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0030_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0030_0002",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._CLRAssemblyIdentityFlags",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._hostBiningPolicyModifyFlags",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0040_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._HostApplicationPolicy",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0045_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0046_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__MIDL___MIDL_itf_mscoree_0000_0048_0001",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0N@$$CB_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0M@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0O@$$CB_W",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._crt_argv_mode",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._crt_exit_return_mode",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._crt_exit_cleanup_mode",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._crt_app_type",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".ISA_AVAILABILITY",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "._EVENT_INFO_CLASS",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__vcrt_lock_id",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__scrt_module_type",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__scrt_native_startup_state",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "<CrtImplementationDetails>.TriBool",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": "<CrtImplementationDetails>.Progress",
+    "methods": [],
+    "fields": [
+      "value__"
+    ]
+  },
+  {
+    "type": ".__m128",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".__m64",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".IUnknown",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CrtImplementationDetails>.DefaultDomain",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CrtImplementationDetails>.LanguageSupport",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".gcroot<System::String ^>",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".__s_GUID",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0A@P6AHXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".HINSTANCE__",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._EVENT_DESCRIPTOR",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".ICLRRuntimeHost",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".ICorRuntimeHost",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY00Q6MPBXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0A@P6AXXZ",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x0346007c$289$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x0346007c$290$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x0346007c$291$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x0346007c$292$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".__crt_fast_encoded_nullptr_t",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._EVENT_DATA_DESCRIPTOR",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x0346007c$304$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x0346007c$305$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".tagTEXTMETRICA",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x0346007c$297$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x0346007c$298$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x0346007c$299$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0CK@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0CL@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CppImplementationDetails>.$ArrayType$$$BY0DC@$$CBD",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "._EXCEPTION_POINTERS",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x824478cf$241$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x824478cf$242$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".EHExceptionRecord",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".EHParameters",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CrtImplementationDetails>.AtExitLock",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x373b8c5b$241$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x373b8c5b$242$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": "<CrtImplementationDetails>.ThisModule",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x992e01b1$288$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x992e01b1$289$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x992e01b1$290$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x992e01b1$291$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x992e01b1$245$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x992e01b1$246$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x992e01b1$296$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x992e01b1$297$",
+    "methods": [],
+    "fields": []
+  },
+  {
+    "type": ".$UnnamedClass$0x992e01b1$298$",
+    "methods": [],
+    "fields": []
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "ldr-utils",
+    "commit": "2253efd17594fe3943ed31cf37b0dce0f61ada8c",
+    "executed": false
+  },
+  {
+    "repository": "adi-bf707-uboot",
+    "commit": "a6d9b80a40f4fd1baa6c8d8c5e7894b9aa8e9908",
+    "executed": false
+  },
+  {
+    "repository": "gesture-bf707",
+    "commit": "d2f586c168d5e703a80f6d815ccfe28712c0f8d4",
+    "executed": false
+  }
+]

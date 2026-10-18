@@ -1,0 +1,8 @@
+PASS: No active test without explicit action.
+PASS: No Amp model refused before any write.
+PASS: Snapshot1 -> set0/readback -> same model -> four physical IDs -> restore1/readback.
+PASS: Normal close restores before releasing ports.
+PASS: Ignored zero is detected and restoration attempted.
+PASS: Rejected or uncertain write still triggers restore attempt.
+PASS: Restore failure is retained/reported, never labelled restored.
+PASS: Transport gate rejects idle writes, other parameters and zero during restoration.

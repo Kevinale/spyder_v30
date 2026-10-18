@@ -1,0 +1,210 @@
+{
+  "summary": [
+    {
+      "file": "amps.models",
+      "type": "list",
+      "count": 79,
+      "parameters": 469
+    },
+    {
+      "file": "amps_hd.models",
+      "type": "list",
+      "count": 29,
+      "parameters": 319
+    },
+    {
+      "file": "cabs.models",
+      "type": "list",
+      "count": 26,
+      "parameters": 50
+    },
+    {
+      "file": "defaultSymbolTable.bin",
+      "count": 611,
+      "size_field": 15764,
+      "actual_size": 15764,
+      "string_pool_offset": 7340,
+      "invalid_string_records": [],
+      "last_string_end": 15764,
+      "crc32_matches": 611
+    },
+    {
+      "file": "defaultSymbolTable_AEON.bin",
+      "count": 1152,
+      "size_field": 28815,
+      "actual_size": 28815,
+      "string_pool_offset": 13832,
+      "invalid_string_records": [],
+      "last_string_end": 28815,
+      "crc32_matches": 1152
+    },
+    {
+      "file": "defaultSymbolTable_Dio.bin",
+      "count": 629,
+      "size_field": 16199,
+      "actual_size": 16199,
+      "string_pool_offset": 7556,
+      "invalid_string_records": [],
+      "last_string_end": 16199,
+      "crc32_matches": 629
+    },
+    {
+      "file": "defaultSymbolTable_FX100.bin",
+      "count": 629,
+      "size_field": 16197,
+      "actual_size": 16197,
+      "string_pool_offset": 7556,
+      "invalid_string_records": [],
+      "last_string_end": 16197,
+      "crc32_matches": 629
+    },
+    {
+      "file": "defaultSymbolTable_Firebird.bin",
+      "count": 1180,
+      "size_field": 29577,
+      "actual_size": 29577,
+      "string_pool_offset": 14168,
+      "invalid_string_records": [],
+      "last_string_end": 29577,
+      "crc32_matches": 1180
+    },
+    {
+      "file": "defaultSymbolTable_Parker.bin",
+      "count": 910,
+      "size_field": 22074,
+      "actual_size": 22074,
+      "string_pool_offset": 10928,
+      "invalid_string_records": [],
+      "last_string_end": 22074,
+      "crc32_matches": 910
+    },
+    {
+      "file": "defaultSymbolTable_TT.bin",
+      "count": 629,
+      "size_field": 16199,
+      "actual_size": 16199,
+      "string_pool_offset": 7556,
+      "invalid_string_records": [],
+      "last_string_end": 16199,
+      "crc32_matches": 629
+    },
+    {
+      "file": "default_preset.json",
+      "schema": "L6Preset",
+      "version": 5,
+      "device": 2097154,
+      "device_version": 7471224,
+      "tone_blocks": [
+        "amp",
+        "cab",
+        "compressor",
+        "eq",
+        "fx1",
+        "fx2",
+        "fx3",
+        "gate",
+        "global",
+        "reverb",
+        "volume",
+        "wah"
+      ]
+    },
+    {
+      "file": "default_preset_AEON.json",
+      "schema": "L6Preset",
+      "version": 5,
+      "device": 2097156,
+      "device_version": 0,
+      "tone_blocks": [
+        "variax",
+        "volume",
+        "global",
+        "fx2",
+        "gate",
+        "amp",
+        "compressor",
+        "fx3",
+        "wah",
+        "reverb",
+        "eq",
+        "cab",
+        "fx1",
+        "fx4"
+      ]
+    },
+    {
+      "file": "default_preset_parker.json",
+      "schema": "L6Preset",
+      "version": 5,
+      "device": 2228226,
+      "device_version": 16778081,
+      "tone_blocks": [
+        "volume",
+        "cab",
+        "fx2",
+        "eq",
+        "gate",
+        "fx3",
+        "global",
+        "compressor",
+        "wah",
+        "fx1",
+        "amp",
+        "reverb"
+      ]
+    },
+    {
+      "file": "delay.models",
+      "type": "list",
+      "count": 15,
+      "parameters": 163
+    },
+    {
+      "file": "fixed.models",
+      "type": "list",
+      "count": 9,
+      "parameters": 58
+    },
+    {
+      "file": "mod.models",
+      "type": "list",
+      "count": 23,
+      "parameters": 233
+    },
+    {
+      "file": "reverbs.models",
+      "type": "list",
+      "count": 15,
+      "parameters": 102
+    },
+    {
+      "file": "reverbs_mclass.models",
+      "type": "list",
+      "count": 12,
+      "parameters": 84
+    },
+    {
+      "file": "stomps.models",
+      "type": "list",
+      "count": 31,
+      "parameters": 252
+    },
+    {
+      "file": "stomps_hd.models",
+      "type": "list",
+      "count": 14,
+      "parameters": 138
+    },
+    {
+      "file": "wahs.models",
+      "type": "list",
+      "count": 8,
+      "parameters": 16
+    }
+  ],
+  "assets": 200,
+  "binding": {
+    "False": 644,
+    "True": 309
+  }
+}

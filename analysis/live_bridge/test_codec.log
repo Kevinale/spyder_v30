@@ -1,0 +1,35 @@
+[
+  {
+    "capture": "captures",
+    "identified": true,
+    "counts": {
+      "Drive": 140,
+      "Bass": 0,
+      "Middle": 0,
+      "Treble": 0
+    },
+    "unknown": 0
+  },
+  {
+    "capture": "captures_tone",
+    "identified": true,
+    "counts": {
+      "Drive": 0,
+      "Bass": 293,
+      "Middle": 356,
+      "Treble": 357
+    },
+    "unknown": 0
+  },
+  {
+    "capture": "captures_noamp",
+    "identified": true,
+    "counts": {
+      "Drive": 0,
+      "Bass": 0,
+      "Middle": 0,
+      "Treble": 0
+    },
+    "unknown": 650
+  }
+]

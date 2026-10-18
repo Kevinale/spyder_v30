@@ -1,0 +1,65 @@
+{
+  "input_sha256": "fa12988477ae3c2952b89f81a5b429cb92a4a0123ff2033536eb116e60a05a91",
+  "input_bytes": 185548,
+  "frames": 2050,
+  "duration_seconds": 174.134747,
+  "raw_parker_packets": 1013,
+  "logical_messages": 1013,
+  "opcode_counts": {
+    "4": 1006,
+    "3": 7
+  },
+  "stream_unconsumed_bytes": 0,
+  "symbol_reference": "/workspace/analysis/captures/device_symbols.json",
+  "symbol_reference_sha256": "7b2dc689153634d3d8496cb1dbcca3cfe07d8d3112f27ec334e2b61e2a5954be",
+  "symbol_provenance_note": "Explicit reference table from prior capture; no new table assumed received in this file.",
+  "controls": [
+    {
+      "group_index": 42,
+      "group": "Amp",
+      "parameter_index": 33,
+      "parameter": "Bass",
+      "direction": "IN",
+      "count": 293,
+      "first_time": 38.554697,
+      "last_time": 69.606882,
+      "first_frame": 25,
+      "last_frame": 611,
+      "min": 0.0,
+      "max": 1.0,
+      "unique_values": 275
+    },
+    {
+      "group_index": 42,
+      "group": "Amp",
+      "parameter_index": 35,
+      "parameter": "Mid",
+      "direction": "IN",
+      "count": 356,
+      "first_time": 87.139158,
+      "last_time": 121.710052,
+      "first_frame": 615,
+      "last_frame": 1329,
+      "min": 0.0,
+      "max": 1.0,
+      "unique_values": 346
+    },
+    {
+      "group_index": 42,
+      "group": "Amp",
+      "parameter_index": 36,
+      "parameter": "Treble",
+      "direction": "IN",
+      "count": 357,
+      "first_time": 139.883606,
+      "last_time": 172.072504,
+      "first_frame": 1333,
+      "last_frame": 2047,
+      "min": 0.0,
+      "max": 1.0,
+      "unique_values": 321
+    }
+  ],
+  "typed_control_events": 1006,
+  "other_logical_messages": 7
+}

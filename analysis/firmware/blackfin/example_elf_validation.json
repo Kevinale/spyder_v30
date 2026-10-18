@@ -1,0 +1,12 @@
+{
+  "source": "/workspace/analysis/research/gesture-bf707/Debug/handrecog5.dxe",
+  "sha256": "09dcb9e8e8b80afd0fa52c01982f15e006ef1116e27a4385a0c5e85c00d21aa0",
+  "elf_detection": [
+    {
+      "offset": 0,
+      "class": 1,
+      "machine": 106
+    }
+  ],
+  "executed": false
+}

@@ -1,0 +1,13 @@
+{
+  "input_path": "/workspace/attachments/61bdc038-8b34-48fc-8c44-f8520be47b2c/SpiderV_USB2perilla.pcapng .pcapng",
+  "input_bytes": 664000,
+  "input_sha256": "101c25061d62c511b61a8635903da0b277a4379d918fde3e5f5a6167cea4c536",
+  "unchanged": true,
+  "independent_sysex_count": 3219,
+  "roundtrips": 3216,
+  "logical_messages": 2307,
+  "symbol_crcs": 916,
+  "app_drive_out": 813,
+  "physical_drive_in": 140,
+  "offline_control_export": 140
+}

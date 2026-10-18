@@ -1,0 +1,3366 @@
+[
+  {
+    "symbolicID": "HD_AmpBlackfaceDoubleNrm",
+    "id": 458757,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Blackface Double Normal",
+    "shortname": "Blackface Double Nrm",
+    "icon": "amp-gtr-hd-blackfacedouble-normal",
+    "cablink": "2x12BlackfaceStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.4,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpBlackfaceDoubleVib",
+    "id": 458758,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Blackface Double Vibrato",
+    "shortname": "Blackface Double Vib",
+    "icon": "amp-gtr-hd-blackfacedouble-vibrato",
+    "cablink": "2x12BlackfaceStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.34,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.36,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpHiway100",
+    "id": 458759,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Hiway 100",
+    "shortname": "Hiway 100",
+    "icon": "amp-gtr-hd-hiway100",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.86,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.56,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.51,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.45,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpSuperO",
+    "id": 458765,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Super O",
+    "shortname": "Super O",
+    "icon": "amp-gtr-hd-supero",
+    "cablink": "1x6SuperOStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.25,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.64,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.26,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpGibtone185",
+    "id": 458769,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Gibtone 185",
+    "shortname": "Gibtone 185",
+    "icon": "amp-gtr-hd-gibtone185",
+    "cablink": "1x10GibtoneStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.26,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.44,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpTweedBManNrm",
+    "id": 458753,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Tweed B-Man Normal",
+    "shortname": "Tweed B-Man Nrm",
+    "icon": "amp-gtr-hd-tweedbman-normal",
+    "cablink": "4x10TweedStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.45,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.34,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpTweedBManBrt",
+    "id": 458754,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Tweed B-Man Bright",
+    "shortname": "Tweed B-Man Brt",
+    "icon": "amp-gtr-hd-tweedbman-bright",
+    "cablink": "4x10TweedStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.45,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpBlackfaceLuxNrm",
+    "id": 458755,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Blackface ‘Lux Normal",
+    "shortname": "Blackface ‘Lux Nrm",
+    "icon": "amp-gtr-hd-blackfacelux-normal",
+    "cablink": "1x12BlackfaceStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.51,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpBlackfaceLuxVib",
+    "id": 458756,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Blackface ‘Lux Vibrato",
+    "shortname": "Blackface ‘Lux Vib",
+    "icon": "amp-gtr-hd-blackfacelux-vibrato",
+    "cablink": "1x12BlackfaceStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.51,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpDivide915",
+    "id": 458768,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Divide  9/15",
+    "shortname": "Divide  9/15",
+    "icon": "amp-gtr-hd-divide915",
+    "cablink": "1x12ClassAStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.19,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive2",
+        "persist": 0,
+        "symbolicID": "Drive2",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.58,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Cut",
+        "persist": 0,
+        "symbolicID": "Cut",
+        "valueType": 1
+      },
+      {
+        "default": 0.54,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive1",
+        "persist": 0,
+        "symbolicID": "Drive1",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpPhDMotorway",
+    "id": 458752,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "PhD Motorway",
+    "shortname": "PhD Motorway",
+    "icon": "amp-gtr-hd-phdmotorway",
+    "cablink": "2x12MatchStudio",
+    "cabER": 0.0,
+    "cabmic": 2,
+    "params": [
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.59,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpClassA15",
+    "id": 458766,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Class A-15",
+    "shortname": "Class A-15",
+    "icon": "amp-gtr-hd-classa15",
+    "cablink": "1x12ClassAStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.57,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Cut",
+        "persist": 0,
+        "symbolicID": "Cut",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.47,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpClassA30TB",
+    "id": 458767,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Class A-30 TB",
+    "shortname": "Class A-30 TB",
+    "icon": "amp-gtr-hd-classa30tb",
+    "cablink": "2x12ClassAStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Cut",
+        "persist": 0,
+        "symbolicID": "Cut",
+        "valueType": 1
+      },
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.3,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpBritJ45Nrm",
+    "id": 458760,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Brit J-45 Normal",
+    "shortname": "Brit J-45 Normal",
+    "icon": "amp-gtr-hd-britj45-normal",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.26,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpBritJ45Brt",
+    "id": 458761,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Brit J-45 Bright",
+    "shortname": "Brit J-45 Bright",
+    "icon": "amp-gtr-hd-britj45-bright",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.29,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.64,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpPlexiLead100Nrm",
+    "id": 458774,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Plexi Lead 100 Normal",
+    "shortname": "Plexi Lead 100 Nrm",
+    "icon": "amp-gtr-hd-plexilead100-normal",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.12,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpPlexiLead100Brt",
+    "id": 458775,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Plexi Lead 100 Bright",
+    "shortname": "Plexi Lead 100 Brt",
+    "icon": "amp-gtr-hd-plexilead100-bright",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.35,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.81,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.46,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpBritP75Nrm",
+    "id": 458763,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Brit P-75 Normal",
+    "shortname": "Brit P-75 Normal",
+    "icon": "amp-gtr-hd-britp75-normal",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.78,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.29,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpBritP75Brt",
+    "id": 458764,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Brit P-75 Bright",
+    "shortname": "Brit P-75 Bright",
+    "icon": "amp-gtr-hd-britp75-bright",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.78,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.29,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpBritJ800",
+    "id": 458770,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Brit J-800",
+    "shortname": "Brit J-800",
+    "icon": "amp-gtr-hd-britj800",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.81,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.06,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.27,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpBomberUber",
+    "id": 458771,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Bomber Uber",
+    "shortname": "Bomber Uber",
+    "icon": "amp-gtr-hd-bomberuber",
+    "cablink": "4x12Line6Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.35,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.56,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpTreadplate",
+    "id": 458762,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Treadplate",
+    "shortname": "Treadplate",
+    "icon": "amp-gtr-hd-treadplate",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.71,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.39,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpAngelFBall",
+    "id": 458772,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "ANGEL F-Ball",
+    "shortname": "ANGEL F-Ball",
+    "icon": "amp-gtr-hd-angelfball",
+    "cablink": "4x12Line6Studio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.58,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.81,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpLine6Elektrik",
+    "id": 458773,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Line 6 Elektrik",
+    "shortname": "Line 6 Elektrik",
+    "icon": "amp-gtr-hd-l6elektrik",
+    "cablink": "4x12Line6Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.35,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.56,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpSolo100Clean",
+    "id": 458776,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Solo 100 Clean",
+    "shortname": "Solo 100 Clean",
+    "icon": "amp-gtr-hd-solo100clean",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.93,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.77,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.42,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.46,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.23,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpSolo100Crunch",
+    "id": 458777,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Solo 100 Crunch",
+    "shortname": "Solo 100 Crunch",
+    "icon": "amp-gtr-hd-solo100crunch",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 2,
+    "params": [
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.71,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.86,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpSolo100OD",
+    "id": 458778,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Solo 100 OD",
+    "shortname": "Solo 100 OD",
+    "icon": "amp-gtr-hd-solo100od",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 2,
+    "params": [
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.52,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.58,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.59,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.31,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpLine6Doom",
+    "id": 458779,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Line 6 Doom",
+    "shortname": "Line 6 Doom",
+    "icon": "amp-gtr-hd-l6doom",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_AmpLine6Epic",
+    "id": 458780,
+    "category": 1,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Line 6 Epic",
+    "shortname": "Line 6 Epic",
+    "icon": "amp-gtr-hd-l6epic",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 2,
+    "params": [
+      {
+        "default": 0.51,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.4,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Master",
+        "persist": 0,
+        "symbolicID": "Master",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sag",
+        "persist": 0,
+        "symbolicID": "Sag",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hum",
+        "persist": 0,
+        "symbolicID": "Hum",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias",
+        "persist": 0,
+        "symbolicID": "Bias",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bias Excursion",
+        "persist": 0,
+        "symbolicID": "BiasExcursion",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  }
+]

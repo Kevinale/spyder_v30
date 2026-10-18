@@ -1,0 +1,80 @@
+[
+  {
+    "query": "BF707",
+    "url": "https://github.com/search?q=BF707&type=repositories",
+    "count": 5,
+    "results": [
+      {
+        "name": "DAB-Embedded/adi-<em>bf707</em>-uboot",
+        "description": "U-boot for Analog Devices <em>BF707</em> DSP (<em>BF707</em>-EZKIT)"
+      },
+      {
+        "name": "flyingzhao/Gesture-Recognition-<em>BF707</em>",
+        "description": "Gesture recognition based on <em>BF707</em> "
+      },
+      {
+        "name": "mintlify-atlas/docs-atlas-<em>bf707609</em>",
+        "description": null
+      },
+      {
+        "name": "DAB-Embedded-BVBA/adi-<em>bf707</em>-uboot",
+        "description": "U-boot for Analog Devices <em>BF707</em> SoC "
+      },
+      {
+        "name": "flyingzhao/Gesture-Recognition-Qt",
+        "description": "Gesture recognition based on <em>BF707</em> upper computer software"
+      }
+    ]
+  },
+  {
+    "query": "line6 firmware decrypt",
+    "url": "https://github.com/search?q=line6+firmware+decrypt&type=repositories",
+    "count": 0,
+    "results": []
+  },
+  {
+    "query": "line6 firmware",
+    "url": "https://github.com/search?q=line6+firmware&type=repositories",
+    "count": 3,
+    "results": [
+      {
+        "name": "Jmainguy/<em>line6</em>-tt",
+        "description": "Linux USB control, <em>firmware</em> research, and a Rust GUI for the Line 6 AMPLIFi TT"
+      },
+      {
+        "name": "MarByteBeep/podgo",
+        "description": "Possibly futile attempt at decoding the <em>Line6</em> Pod Go <em>firmware</em>"
+      },
+      {
+        "name": "beepoo304/<em>line6</em>-m5-arduino-midiswitch",
+        "description": "Arduino Nano MIDI foot controller for the Line 6 M5 Stompbox Modeler. Two footswitches, a two-digit LED display and MIDI OUT, with build \u2026"
+      }
+    ]
+  },
+  {
+    "query": "Blackfin loader",
+    "url": "https://github.com/search?q=Blackfin+loader&type=repositories",
+    "count": 2,
+    "results": [
+      {
+        "name": "tabascoeye/ldr2dxe",
+        "description": "small python script to turn <em>Blackfin</em> <em>loader</em> files (.LDR) back to VisualDSP executable files (DXE)"
+      },
+      {
+        "name": "rauschenbach/BF504_<em>loader</em>",
+        "description": "program downloads the firmware from SD card to the flash of bf504f"
+      }
+    ]
+  },
+  {
+    "query": "L6FF",
+    "url": "https://github.com/search?q=L6FF&type=repositories",
+    "count": 1,
+    "results": [
+      {
+        "name": "derekmomen/q16_<em>l6ff</em>",
+        "description": "On this road full of unknowns, bravely pursuing dreams means accepting imperfection and learning to enjoy every challenge in the process \u2026"
+      }
+    ]
+  }
+]

@@ -1,0 +1,478 @@
+
+7-Zip 26.04 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-05
+ 64-bit locale=C.UTF-8 Threads:5 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 93761728 bytes (90 MiB)
+
+Listing archive: /workspace/analysis/remote/reconstructed/Spider V Remote 2.01 Installer.exe
+
+--
+Path = /workspace/analysis/remote/reconstructed/Spider V Remote 2.01 Installer.exe
+Type = PE
+Physical Size = 93761728
+CPU = x86
+Characteristics = Executable 32-bit NoRelocs NoLineNums NoLocalSyms
+Created = 2018-12-15 22:24:41
+Headers Size = 1024
+Checksum = 93812718
+Image Size = 491520
+Section Alignment = 4096
+File Alignment = 512
+Code Size = 25600
+Initialized Data Size = 162816
+Uninitialized Data Size = 1024
+Linker Version = 6.0
+OS Version = 4.0
+Image Version = 6.0
+Subsystem Version = 4.0
+Subsystem = Windows GUI
+DLL Characteristics = Relocated NX-Compatible NoSEH TerminalServerAware
+Stack Reserve = 1048576
+Stack Commit = 4096
+Heap Reserve = 1048576
+Heap Commit = 4096
+Virtual Address = 0x400000
+Comment = 
+{
+
+Data Directories: 16
+{
+index=1 name=IMPORT VA=0x853C Size=160
+index=2 name=RESOURCE VA=0x3D000 Size=241640
+index=4 name=SECURITY VA=0x59693C8 Size=7416
+index=12 name=IAT VA=0x8000 Size=664
+}
+}
+----
+Path = [0]
+Size = 93479368
+Packed Size = 93479368
+Virtual Size = 93479368
+Offset = 274944
+--
+Path = [0]
+Type = Nsis
+Physical Size = 93479363
+Tail Size = 5
+Method = Deflate
+Solid = -
+Headers Size = 36715
+Embedded Stub Size = 0
+SubType = NSIS-3
+
+----------
+Path = $PLUGINSDIR/System.dll
+Size = 
+Packed Size = 6826
+Modified = 
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 0
+
+Path = $PLUGINSDIR/InstallOptions.dll
+Size = 
+Packed Size = 8004
+Modified = 
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 6830
+
+Path = $PLUGINSDIR/DotNetChecker.dll
+Size = 
+Packed Size = 42875
+Modified = 
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 14838
+
+Path = $TEMP/dotNETInstaller.exe
+Size = 
+Packed Size = 61903602
+Modified = 2021-10-15 11:14:50.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 57717
+
+Path = Spider V Remote/APIV3EngineDLL.dll
+Size = 
+Packed Size = 491622
+Modified = 2021-10-15 23:32:32.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 61961323
+
+Path = Spider V Remote/AssetDefs.plist
+Size = 
+Packed Size = 21935
+Modified = 2021-10-15 23:32:32.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 62452949
+
+Path = Spider V Remote/EngineCLIWrapper.dll
+Size = 
+Packed Size = 46897
+Modified = 2021-10-15 23:32:32.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 62474888
+
+Path = Spider V Remote/Interposer.dll
+Size = 
+Packed Size = 118623
+Modified = 2021-10-15 23:32:32.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 62521789
+
+Path = Spider V Remote/Microsoft.Toolkit.Wpf.UI.Controls.WebView.dll
+Size = 
+Packed Size = 60360
+Modified = 2021-10-15 23:32:32.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 62640416
+
+Path = Spider V Remote/Microsoft.Toolkit.Wpf.UI.Controls.WebView.xml
+Size = 
+Packed Size = 25228
+Modified = 2021-10-15 23:32:32.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 62700780
+
+Path = Spider V Remote/Newtonsoft.Json.dll
+Size = 
+Packed Size = 255826
+Modified = 2021-10-15 23:32:32.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 62726012
+
+Path = Spider V Remote/Newtonsoft.Json.xml
+Size = 
+Packed Size = 49175
+Modified = 2021-10-15 23:32:32.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 62981842
+
+Path = Spider V Remote/Spider V Remote Uninstaller.exe
+Size = 
+Packed Size = 144729
+Modified = 2021-10-15 23:32:34.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 63031021
+
+Path = Spider V Remote/Spider V Remote.exe
+Size = 
+Packed Size = 15278488
+Modified = 2021-10-15 23:32:34.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 63175754
+
+Path = Spider V Remote/System.ValueTuple.dll
+Size = 
+Packed Size = 30879
+Modified = 2021-10-15 23:32:32.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 78454246
+
+Path = Spider V Remote/System.ValueTuple.xml
+Size = 
+Packed Size = 5172
+Modified = 2021-10-15 23:32:32.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 78485129
+
+Path = Spider V Remote/libusb-1.0.dll
+Size = 
+Packed Size = 50497
+Modified = 2021-10-15 23:32:32.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 78490305
+
+Path = Spider V Remote/msvcr120.dll
+Size = 
+Packed Size = 520271
+Modified = 2021-10-15 23:32:34.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 78540806
+
+Path = Spider V Remote/res/amps.models
+Size = 
+Packed Size = 4944
+Modified = 2021-10-15 23:32:28.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79061081
+
+Path = Spider V Remote/res/amps_hd.models
+Size = 
+Packed Size = 2180
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79066029
+
+Path = Spider V Remote/res/cabs.models
+Size = 
+Packed Size = 1100
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79068213
+
+Path = Spider V Remote/res/defaultSymbolTable.bin
+Size = 
+Packed Size = 7855
+Modified = 2021-10-15 23:32:28.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79069317
+
+Path = Spider V Remote/res/defaultSymbolTable_AEON.bin
+Size = 
+Packed Size = 14630
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79077176
+
+Path = Spider V Remote/res/defaultSymbolTable_Dio.bin
+Size = 
+Packed Size = 8076
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79091810
+
+Path = Spider V Remote/res/defaultSymbolTable_TT.bin
+Size = 
+Packed Size = 8076
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79091810
+
+Path = Spider V Remote/res/defaultSymbolTable_FX100.bin
+Size = 
+Packed Size = 8074
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79099890
+
+Path = Spider V Remote/res/defaultSymbolTable_Firebird.bin
+Size = 
+Packed Size = 14801
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79107968
+
+Path = Spider V Remote/res/defaultSymbolTable_Parker.bin
+Size = 
+Packed Size = 11509
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79122773
+
+Path = Spider V Remote/res/default_preset.json
+Size = 
+Packed Size = 948
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79134286
+
+Path = Spider V Remote/res/default_preset_AEON.json
+Size = 
+Packed Size = 1182
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79135238
+
+Path = Spider V Remote/res/default_preset_parker.json
+Size = 
+Packed Size = 888
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79136424
+
+Path = Spider V Remote/res/delay.models
+Size = 
+Packed Size = 1359
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79137316
+
+Path = Spider V Remote/res/fixed.models
+Size = 
+Packed Size = 1242
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79138679
+
+Path = Spider V Remote/res/mod.models
+Size = 
+Packed Size = 1658
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79139925
+
+Path = Spider V Remote/res/reverbs.models
+Size = 
+Packed Size = 866
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79141587
+
+Path = Spider V Remote/res/reverbs_mclass.models
+Size = 
+Packed Size = 915
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79142457
+
+Path = Spider V Remote/res/stomps.models
+Size = 
+Packed Size = 2210
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79143376
+
+Path = Spider V Remote/res/stomps_hd.models
+Size = 
+Packed Size = 1232
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79145590
+
+Path = Spider V Remote/res/wahs.models
+Size = 
+Packed Size = 452
+Modified = 2021-10-15 23:32:30.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79146826
+
+Path = $TEMP/redist.exe
+Size = 
+Packed Size = 14211418
+Modified = 2021-10-15 11:14:50.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 79147282
+
+Path = $PLUGINSDIR/ioSpecial.ini
+Size = 
+Packed Size = 134
+Modified = 2007-11-14 20:12:38.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 93358704
+
+Path = $PLUGINSDIR/modern-wizard.bmp
+Size = 
+Packed Size = 101058
+Modified = 2021-10-15 11:14:50.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 93358842
+
+Path = $PLUGINSDIR/modern-header.bmp
+Size = 
+Packed Size = 3275
+Modified = 2021-10-15 11:14:50.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 93459904
+
+Path = $PLUGINSDIR/page_spider_remote_readme.ini
+Size = 
+Packed Size = 691
+Modified = 2021-10-15 11:14:50.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 93463183
+
+Path = $PLUGINSDIR/nsDialogs.dll
+Size = 
+Packed Size = 4632
+Modified = 
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 93463878
+
+Path = $PLUGINSDIR/UserInfo.dll
+Size = 
+Packed Size = 1336
+Modified = 
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 93468514
+

@@ -1,0 +1,24 @@
+{
+  "received": [
+    {
+      "file": "Line 6 Updater v1.28 Installer.7z.001",
+      "path": "/workspace/attachments/cfb6564d-585d-48b2-95cb-e849316d1b22/Line 6 Updater v1.28 Installer.7z.001",
+      "bytes": 26214400,
+      "sha256": "0c6cc02a24560b485b29f4a7f4fed03f7888e443f3433744c90e3974862e8a75"
+    },
+    {
+      "file": "Line 6 Updater v1.28 Installer.7z.002",
+      "path": "/workspace/attachments/7186d1a1-bb01-492f-ba7f-b3ffb58372c8/Line 6 Updater v1.28 Installer.7z.002",
+      "bytes": 26214400,
+      "sha256": "55778abb929b2aa56f34c5fc93afec3a42513a8823e32c8ebb67fea9717dbd53"
+    },
+    {
+      "file": "Line 6 Updater v1.28 Installer.7z.003",
+      "path": "/workspace/attachments/9a371a40-2c86-4940-8049-9f098b9c0605/Line 6 Updater v1.28 Installer.7z.003",
+      "bytes": 135947,
+      "sha256": "3abbf80f00e7d890eb6b0b8d0b99a4d78034dbf8ba28a093f0d45381d7039bca"
+    }
+  ],
+  "missing": [],
+  "installer_executed": false
+}

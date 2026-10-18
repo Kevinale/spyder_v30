@@ -1,0 +1,35 @@
+{
+  "source": "owner pasted log in chat",
+  "device": "Spider V30",
+  "firmware": "2.05.0",
+  "amp_enable": 1,
+  "symbol_crc_validation": "reported valid by reader",
+  "reads": [
+    {
+      "parameter": "GuitProcOutputGain",
+      "global_status": 0,
+      "type": 4,
+      "value": 1,
+      "raw": "0x3f800000",
+      "GuitarProc_status": -1
+    },
+    {
+      "parameter": "USBOutLevel",
+      "global_status": 0,
+      "type": 4,
+      "value": 0,
+      "raw": "0x00000000",
+      "GuitarProc_status": -1
+    },
+    {
+      "parameter": "USBInLevel",
+      "global_status": 0,
+      "type": 4,
+      "value": 0,
+      "raw": "0x00000000",
+      "GuitarProc_status": -1
+    }
+  ],
+  "writes_performed": false,
+  "audio_routing_semantics": "unknown"
+}

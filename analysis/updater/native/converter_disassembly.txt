@@ -1,0 +1,129 @@
+
+/workspace/analysis/updater/extracted/Line 6 Updater/Line 6 Updater.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+004979b0 <.text+0x969b0>:
+  4979b0:	00 00                	add    BYTE PTR [eax],al
+  4979b2:	00 e8                	add    al,ch
+  4979b4:	d8 45 fb             	fadd   DWORD PTR [ebp-0x5]
+  4979b7:	ff 8d 45 dc c6 45    	dec    DWORD PTR [ebp+0x45c6dc45]
+  4979bd:	fc                   	cld
+  4979be:	05 50 8d 4d d4       	add    eax,0xd44d8d50
+  4979c3:	e8 c8 54 fb ff       	call   0x44ce90
+  4979c8:	8d 45 e4             	lea    eax,[ebp-0x1c]
+  4979cb:	50                   	push   eax
+  4979cc:	8d 45 d4             	lea    eax,[ebp-0x2c]
+  4979cf:	50                   	push   eax
+  4979d0:	e8 cb 55 00 00       	call   0x49cfa0
+  4979d5:	8b f0                	mov    esi,eax
+  4979d7:	83 c4 08             	add    esp,0x8
+  4979da:	85 f6                	test   esi,esi
+  4979dc:	0f 88 ce 00 00 00    	js     0x497ab0
+  4979e2:	c7 45 90 1c 07 58 00 	mov    DWORD PTR [ebp-0x70],0x58071c
+  4979e9:	c6 45 94 00          	mov    BYTE PTR [ebp-0x6c],0x0
+  4979ed:	c7 45 98 00 00 00 00 	mov    DWORD PTR [ebp-0x68],0x0
+  4979f4:	c7 45 9c 00 01 00 00 	mov    DWORD PTR [ebp-0x64],0x100
+  4979fb:	c7 45 a0 00 00 00 00 	mov    DWORD PTR [ebp-0x60],0x0
+  497a02:	c7 45 a4 00 00 00 00 	mov    DWORD PTR [ebp-0x5c],0x0
+  497a09:	c7 45 a8 00 00 00 00 	mov    DWORD PTR [ebp-0x58],0x0
+  497a10:	8d 45 e4             	lea    eax,[ebp-0x1c]
+  497a13:	c6 45 fc 06          	mov    BYTE PTR [ebp-0x4],0x6
+  497a17:	50                   	push   eax
+  497a18:	8d 4d c0             	lea    ecx,[ebp-0x40]
+  497a1b:	e8 50 f8 fc ff       	call   0x467270
+  497a20:	8d 45 90             	lea    eax,[ebp-0x70]
+  497a23:	c6 45 fc 07          	mov    BYTE PTR [ebp-0x4],0x7
+  497a27:	50                   	push   eax
+  497a28:	8d 4d c0             	lea    ecx,[ebp-0x40]
+  497a2b:	e8 a0 ff fc ff       	call   0x4679d0
+  497a30:	8b f0                	mov    esi,eax
+  497a32:	85 f6                	test   esi,esi
+  497a34:	78 4c                	js     0x497a82
+  497a36:	ff 75 a8             	push   DWORD PTR [ebp-0x58]
+  497a39:	e8 a0 c5 04 00       	call   0x4e3fde
+  497a3e:	8b f8                	mov    edi,eax
+  497a40:	83 c4 04             	add    esp,0x4
+  497a43:	85 ff                	test   edi,edi
+  497a45:	74 30                	je     0x497a77
+  497a47:	ff 75 a8             	push   DWORD PTR [ebp-0x58]
+  497a4a:	8d 4d 90             	lea    ecx,[ebp-0x70]
+  497a4d:	e8 ce 04 fc ff       	call   0x457f20
+  497a52:	50                   	push   eax
+  497a53:	57                   	push   edi
+  497a54:	e8 bd c6 04 00       	call   0x4e4116
+  497a59:	8b 55 10             	mov    edx,DWORD PTR [ebp+0x10]
+  497a5c:	83 c4 0c             	add    esp,0xc
+  497a5f:	8b 0b                	mov    ecx,DWORD PTR [ebx]
+  497a61:	8b 45 a8             	mov    eax,DWORD PTR [ebp-0x58]
+  497a64:	89 3b                	mov    DWORD PTR [ebx],edi
+  497a66:	89 02                	mov    DWORD PTR [edx],eax
+  497a68:	85 c9                	test   ecx,ecx
+  497a6a:	74 10                	je     0x497a7c
+  497a6c:	51                   	push   ecx
+  497a6d:	e8 72 c5 04 00       	call   0x4e3fe4
+  497a72:	83 c4 04             	add    esp,0x4
+  497a75:	eb 05                	jmp    0x497a7c
+  497a77:	be fe ff ff ff       	mov    esi,0xfffffffe
+  497a7c:	8b 3d f4 82 57 00    	mov    edi,DWORD PTR ds:0x5782f4
+  497a82:	8d 4d c0             	lea    ecx,[ebp-0x40]
+  497a85:	c6 45 fc 06          	mov    BYTE PTR [ebp-0x4],0x6
+  497a89:	e8 92 f8 fc ff       	call   0x467320
+  497a8e:	8b 45 a0             	mov    eax,DWORD PTR [ebp-0x60]
+  497a91:	c7 45 90 1c 07 58 00 	mov    DWORD PTR [ebp-0x70],0x58071c
+  497a98:	85 c0                	test   eax,eax
+  497a9a:	74 22                	je     0x497abe
+  497a9c:	50                   	push   eax
+  497a9d:	ff d7                	call   edi
+  497a9f:	83 c4 04             	add    esp,0x4
+  497aa2:	c6 45 fc 04          	mov    BYTE PTR [ebp-0x4],0x4
+  497aa6:	8d 4d d4             	lea    ecx,[ebp-0x2c]
+  497aa9:	e8 12 40 fb ff       	call   0x44bac0
+  497aae:	eb 2a                	jmp    0x497ada
+  497ab0:	56                   	push   esi
+  497ab1:	68 88 8f 7f 00       	push   0x7f8f88
+  497ab6:	e8 f5 4b 00 00       	call   0x49c6b0
+  497abb:	83 c4 08             	add    esp,0x8
+  497abe:	8d 4d d4             	lea    ecx,[ebp-0x2c]
+  497ac1:	c6 45 fc 04          	mov    BYTE PTR [ebp-0x4],0x4
+  497ac5:	e8 f6 3f fb ff       	call   0x44bac0
+  497aca:	eb 0e                	jmp    0x497ada
+  497acc:	56                   	push   esi
+  497acd:	68 d8 8f 7f 00       	push   0x7f8fd8
+  497ad2:	e8 d9 4b 00 00       	call   0x49c6b0
+  497ad7:	83 c4 08             	add    esp,0x8
+  497ada:	8d 45 dc             	lea    eax,[ebp-0x24]
+  497add:	50                   	push   eax
+  497ade:	e8 6d 09 fd ff       	call   0x468450
+  497ae3:	83 c4 04             	add    esp,0x4
+  497ae6:	84 c0                	test   al,al
+  497ae8:	74 0c                	je     0x497af6
+  497aea:	8d 45 dc             	lea    eax,[ebp-0x24]
+  497aed:	50                   	push   eax
+  497aee:	e8 fd 06 fd ff       	call   0x4681f0
+  497af3:	83 c4 04             	add    esp,0x4
+  497af6:	8d 45 e4             	lea    eax,[ebp-0x1c]
+  497af9:	50                   	push   eax
+  497afa:	e8 51 09 fd ff       	call   0x468450
+  497aff:	83 c4 04             	add    esp,0x4
+  497b02:	84 c0                	test   al,al
+  497b04:	74 0c                	je     0x497b12
+  497b06:	8d 45 e4             	lea    eax,[ebp-0x1c]
+  497b09:	50                   	push   eax
+  497b0a:	e8 e1 06 fd ff       	call   0x4681f0
+  497b0f:	83 c4 04             	add    esp,0x4
+  497b12:	8d 4d ac             	lea    ecx,[ebp-0x54]
+  497b15:	c6 45 fc 03          	mov    BYTE PTR [ebp-0x4],0x3
+  497b19:	e8 02 f8 fc ff       	call   0x467320
+  497b1e:	8b 45 e8             	mov    eax,DWORD PTR [ebp-0x18]
+  497b21:	c6 45 fc 02          	mov    BYTE PTR [ebp-0x4],0x2
+  497b25:	c7 45 e4 14 07 58 00 	mov    DWORD PTR [ebp-0x1c],0x580714
+  497b2c:	85 c0                	test   eax,eax
+  497b2e:	74 34                	je     0x497b64
+  497b30:	50                   	push   eax
+  497b31:	e8 ba 35 fd ff       	call   0x46b0f0
+  497b36:	83 c4 04             	add    esp,0x4
+  497b39:	85 c0                	test   eax,eax
+  497b3b:	7f 20                	jg     0x497b5d
+  497b3d:	8b 45 e8             	mov    eax,DWORD PTR [ebp-0x18]

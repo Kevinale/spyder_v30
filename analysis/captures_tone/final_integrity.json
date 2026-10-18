@@ -1,0 +1,12 @@
+{
+  "input_path": "/workspace/attachments/7b5b94c5-7925-4068-a345-574f6364cc53/SpiderV_Bass_Mid_Treble.pcapng",
+  "sha256": "fa12988477ae3c2952b89f81a5b429cb92a4a0123ff2033536eb116e60a05a91",
+  "bytes": 185548,
+  "unchanged": true,
+  "independent_exact_sysex": 1013,
+  "canonical_roundtrips": 1013,
+  "logical_messages": 1013,
+  "control_events": 1006,
+  "other_messages": 7,
+  "unconsumed_bytes": 0
+}

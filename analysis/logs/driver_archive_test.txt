@@ -1,0 +1,67 @@
+
+7-Zip 26.04 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-05
+ 64-bit locale=C.UTF-8 Threads:5 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 1645376 bytes (1607 KiB)
+
+Testing archive: /workspace/attachments/8fc16b25-bb96-49a6-8c31-06af0f1b93ac/Line 6 Driver2_5 Spider V v2.00.0.0 Installer (3).exe
+--
+Path = /workspace/attachments/8fc16b25-bb96-49a6-8c31-06af0f1b93ac/Line 6 Driver2_5 Spider V v2.00.0.0 Installer (3).exe
+Type = PE
+Physical Size = 1645376
+CPU = x86
+Characteristics = Executable 32-bit NoRelocs NoLineNums NoLocalSyms
+Created = 2016-07-25 00:55:54
+Headers Size = 1024
+Checksum = 1708460
+Image Size = 532480
+Section Alignment = 4096
+File Alignment = 512
+Code Size = 24576
+Initialized Data Size = 162816
+Uninitialized Data Size = 1024
+Linker Version = 6.0
+OS Version = 4.0
+Image Version = 6.0
+Subsystem Version = 4.0
+Subsystem = Windows GUI
+DLL Characteristics = Relocated NX-Compatible NoSEH TerminalServerAware
+Stack Reserve = 1048576
+Stack Commit = 4096
+Heap Reserve = 1048576
+Heap Commit = 4096
+Virtual Address = 0x400000
+Comment = 
+{
+
+Data Directories: 16
+{
+index=1 name=IMPORT VA=0x7534 Size=160
+index=2 name=RESOURCE VA=0x47000 Size=241640
+index=4 name=SECURITY VA=0x18F1A8 Size=10648
+index=12 name=IAT VA=0x7000 Size=664
+}
+}
+----
+Path = [0]
+Size = 1360808
+Packed Size = 1360808
+Virtual Size = 1360808
+Offset = 273920
+--
+Path = [0]
+Type = Nsis
+Physical Size = 1360805
+Tail Size = 3
+Method = Deflate
+Solid = -
+Headers Size = 64515
+Embedded Stub Size = 0
+SubType = NSIS-3
+
+Everything is Ok
+
+Files: 22
+Size:       0
+Compressed: 1645376

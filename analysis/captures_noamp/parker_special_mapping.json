@@ -1,0 +1,352 @@
+[
+  {
+    "index": 0,
+    "VA": "0x1018e8a8",
+    "RVA": "0x18e8a8",
+    "offset": "0x18cea8",
+    "pointers": [
+      "0x10175708",
+      "0x10174f60",
+      "0x10117000"
+    ],
+    "firmware_name": "CabEnable",
+    "application_group": "cab",
+    "application_parameter": "@enabled"
+  },
+  {
+    "index": 1,
+    "VA": "0x1018e8b4",
+    "RVA": "0x18e8b4",
+    "offset": "0x18ceb4",
+    "pointers": [
+      "0x10175714",
+      "0x1017566c",
+      "0x10117000"
+    ],
+    "firmware_name": "GateEnable",
+    "application_group": "gate",
+    "application_parameter": "@enabled"
+  },
+  {
+    "index": 2,
+    "VA": "0x1018e8c0",
+    "RVA": "0x18e8c0",
+    "offset": "0x18cec0",
+    "pointers": [
+      "0x10175720",
+      "0x10175674",
+      "0x10117000"
+    ],
+    "firmware_name": "PostCompEnable",
+    "application_group": "compressor",
+    "application_parameter": "@enabled"
+  },
+  {
+    "index": 3,
+    "VA": "0x1018e8cc",
+    "RVA": "0x18e8cc",
+    "offset": "0x18cecc",
+    "pointers": [
+      "0x10175730",
+      "0x10175680",
+      "0x10117000"
+    ],
+    "firmware_name": "PostEQEnable",
+    "application_group": "eq",
+    "application_parameter": "@enabled"
+  },
+  {
+    "index": 4,
+    "VA": "0x1018e8d8",
+    "RVA": "0x18e8d8",
+    "offset": "0x18ced8",
+    "pointers": [
+      "0x10175740",
+      "0x10175684",
+      "0x10117000"
+    ],
+    "firmware_name": "WahEnable",
+    "application_group": "wah",
+    "application_parameter": "@enabled"
+  },
+  {
+    "index": 5,
+    "VA": "0x1018e8e4",
+    "RVA": "0x18e8e4",
+    "offset": "0x18cee4",
+    "pointers": [
+      "0x1017574c",
+      "0x10175690",
+      "0x10117000"
+    ],
+    "firmware_name": "VolumePedalEnable",
+    "application_group": "volume",
+    "application_parameter": "@enabled"
+  },
+  {
+    "index": 6,
+    "VA": "0x1018e8f0",
+    "RVA": "0x18e8f0",
+    "offset": "0x18cef0",
+    "pointers": [
+      "0x10175760",
+      "0x10174e94",
+      "0x10117000"
+    ],
+    "firmware_name": "FX1Enable",
+    "application_group": "fx1",
+    "application_parameter": "@enabled"
+  },
+  {
+    "index": 7,
+    "VA": "0x1018e8fc",
+    "RVA": "0x18e8fc",
+    "offset": "0x18cefc",
+    "pointers": [
+      "0x1017576c",
+      "0x10174e98",
+      "0x10117000"
+    ],
+    "firmware_name": "FX2Enable",
+    "application_group": "fx2",
+    "application_parameter": "@enabled"
+  },
+  {
+    "index": 8,
+    "VA": "0x1018e908",
+    "RVA": "0x18e908",
+    "offset": "0x18cf08",
+    "pointers": [
+      "0x10175778",
+      "0x10174e9c",
+      "0x10117000"
+    ],
+    "firmware_name": "FX3Enable",
+    "application_group": "fx3",
+    "application_parameter": "@enabled"
+  },
+  {
+    "index": 9,
+    "VA": "0x1018e914",
+    "RVA": "0x18e914",
+    "offset": "0x18cf14",
+    "pointers": [
+      "0x10175784",
+      "0x10175688",
+      "0x10117000"
+    ],
+    "firmware_name": "FX4Enable",
+    "application_group": "reverb",
+    "application_parameter": "@enabled"
+  },
+  {
+    "index": 10,
+    "VA": "0x1018e920",
+    "RVA": "0x18e920",
+    "offset": "0x18cf20",
+    "pointers": [
+      "0x10175838",
+      "0x10175698",
+      "0x10117000"
+    ],
+    "firmware_name": "LooperEnable",
+    "application_group": "looper",
+    "application_parameter": "@enabled"
+  },
+  {
+    "index": 11,
+    "VA": "0x1018e92c",
+    "RVA": "0x18e92c",
+    "offset": "0x18cf2c",
+    "pointers": [
+      "0x10175790",
+      "0x10175690",
+      "0x10117020"
+    ],
+    "firmware_name": "VolumePost",
+    "application_group": "volume",
+    "application_parameter": "@post"
+  },
+  {
+    "index": 12,
+    "VA": "0x1018e938",
+    "RVA": "0x18e938",
+    "offset": "0x18cf38",
+    "pointers": [
+      "0x1017579c",
+      "0x10174e94",
+      "0x10117020"
+    ],
+    "firmware_name": "FX1Post",
+    "application_group": "fx1",
+    "application_parameter": "@post"
+  },
+  {
+    "index": 13,
+    "VA": "0x1018e944",
+    "RVA": "0x18e944",
+    "offset": "0x18cf44",
+    "pointers": [
+      "0x101757a4",
+      "0x10174e98",
+      "0x10117020"
+    ],
+    "firmware_name": "FX2Post",
+    "application_group": "fx2",
+    "application_parameter": "@post"
+  },
+  {
+    "index": 14,
+    "VA": "0x1018e950",
+    "RVA": "0x18e950",
+    "offset": "0x18cf50",
+    "pointers": [
+      "0x101757ac",
+      "0x10174e9c",
+      "0x10117020"
+    ],
+    "firmware_name": "FX3Post",
+    "application_group": "fx3",
+    "application_parameter": "@post"
+  },
+  {
+    "index": 15,
+    "VA": "0x1018e95c",
+    "RVA": "0x18e95c",
+    "offset": "0x18cf5c",
+    "pointers": [
+      "0x101757b4",
+      "0x10175688",
+      "0x10117020"
+    ],
+    "firmware_name": "FX4Post",
+    "application_group": "reverb",
+    "application_parameter": "@post"
+  },
+  {
+    "index": 16,
+    "VA": "0x1018e968",
+    "RVA": "0x18e968",
+    "offset": "0x18cf68",
+    "pointers": [
+      "0x10175850",
+      "0x10175698",
+      "0x10117020"
+    ],
+    "firmware_name": "LooperPost",
+    "application_group": "looper",
+    "application_parameter": "@post"
+  },
+  {
+    "index": 17,
+    "VA": "0x1018e974",
+    "RVA": "0x18e974",
+    "offset": "0x18cf74",
+    "pointers": [
+      "0x101757bc",
+      "0x10174e94",
+      "0x101757c4"
+    ],
+    "firmware_name": "FX1Mix",
+    "application_group": "fx1",
+    "application_parameter": "@mix"
+  },
+  {
+    "index": 18,
+    "VA": "0x1018e980",
+    "RVA": "0x18e980",
+    "offset": "0x18cf80",
+    "pointers": [
+      "0x101757cc",
+      "0x10174e98",
+      "0x101757c4"
+    ],
+    "firmware_name": "FX2Mix",
+    "application_group": "fx2",
+    "application_parameter": "@mix"
+  },
+  {
+    "index": 19,
+    "VA": "0x1018e98c",
+    "RVA": "0x18e98c",
+    "offset": "0x18cf8c",
+    "pointers": [
+      "0x101757d4",
+      "0x10174e9c",
+      "0x101757c4"
+    ],
+    "firmware_name": "FX3Mix",
+    "application_group": "fx3",
+    "application_parameter": "@mix"
+  },
+  {
+    "index": 20,
+    "VA": "0x1018e998",
+    "RVA": "0x18e998",
+    "offset": "0x18cf98",
+    "pointers": [
+      "0x101757dc",
+      "0x10175688",
+      "0x101757c4"
+    ],
+    "firmware_name": "FX4Mix",
+    "application_group": "reverb",
+    "application_parameter": "@mix"
+  },
+  {
+    "index": 21,
+    "VA": "0x1018e9a4",
+    "RVA": "0x18e9a4",
+    "offset": "0x18cfa4",
+    "pointers": [
+      "0x101757e4",
+      "0x10174e94",
+      "0x101757f0"
+    ],
+    "firmware_name": "FX1MixType",
+    "application_group": "fx1",
+    "application_parameter": "@mixtype"
+  },
+  {
+    "index": 22,
+    "VA": "0x1018e9b0",
+    "RVA": "0x18e9b0",
+    "offset": "0x18cfb0",
+    "pointers": [
+      "0x101757fc",
+      "0x10174e98",
+      "0x101757f0"
+    ],
+    "firmware_name": "FX2MixType",
+    "application_group": "fx2",
+    "application_parameter": "@mixtype"
+  },
+  {
+    "index": 23,
+    "VA": "0x1018e9bc",
+    "RVA": "0x18e9bc",
+    "offset": "0x18cfbc",
+    "pointers": [
+      "0x10175808",
+      "0x10174e9c",
+      "0x101757f0"
+    ],
+    "firmware_name": "FX3MixType",
+    "application_group": "fx3",
+    "application_parameter": "@mixtype"
+  },
+  {
+    "index": 24,
+    "VA": "0x1018e9c8",
+    "RVA": "0x18e9c8",
+    "offset": "0x18cfc8",
+    "pointers": [
+      "0x10175814",
+      "0x10116ee0",
+      "0x10175824"
+    ],
+    "firmware_name": "ChannelVolume",
+    "application_group": "amp",
+    "application_parameter": "@volume"
+  }
+]

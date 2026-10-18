@@ -1,0 +1,262 @@
+
+7-Zip 26.04 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-05
+ 64-bit locale=C.UTF-8 Threads:5 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 1645376 bytes (1607 KiB)
+
+Listing archive: /workspace/attachments/8fc16b25-bb96-49a6-8c31-06af0f1b93ac/Line 6 Driver2_5 Spider V v2.00.0.0 Installer (3).exe
+
+--
+Path = /workspace/attachments/8fc16b25-bb96-49a6-8c31-06af0f1b93ac/Line 6 Driver2_5 Spider V v2.00.0.0 Installer (3).exe
+Type = PE
+Physical Size = 1645376
+CPU = x86
+Characteristics = Executable 32-bit NoRelocs NoLineNums NoLocalSyms
+Created = 2016-07-25 00:55:54
+Headers Size = 1024
+Checksum = 1708460
+Image Size = 532480
+Section Alignment = 4096
+File Alignment = 512
+Code Size = 24576
+Initialized Data Size = 162816
+Uninitialized Data Size = 1024
+Linker Version = 6.0
+OS Version = 4.0
+Image Version = 6.0
+Subsystem Version = 4.0
+Subsystem = Windows GUI
+DLL Characteristics = Relocated NX-Compatible NoSEH TerminalServerAware
+Stack Reserve = 1048576
+Stack Commit = 4096
+Heap Reserve = 1048576
+Heap Commit = 4096
+Virtual Address = 0x400000
+Comment = 
+{
+
+Data Directories: 16
+{
+index=1 name=IMPORT VA=0x7534 Size=160
+index=2 name=RESOURCE VA=0x47000 Size=241640
+index=4 name=SECURITY VA=0x18F1A8 Size=10648
+index=12 name=IAT VA=0x7000 Size=664
+}
+}
+----
+Path = [0]
+Size = 1360808
+Packed Size = 1360808
+Virtual Size = 1360808
+Offset = 273920
+--
+Path = [0]
+Type = Nsis
+Physical Size = 1360805
+Tail Size = 3
+Method = Deflate
+Solid = -
+Headers Size = 64515
+Embedded Stub Size = 0
+SubType = NSIS-3
+
+----------
+Path = $PLUGINSDIR/nsExec.dll
+Size = 
+Packed Size = 3117
+Modified = 
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 0
+
+Path = $PLUGINSDIR/System.dll
+Size = 
+Packed Size = 6427
+Modified = 
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 3121
+
+Path = $PLUGINSDIR/modern-wizard.bmp
+Size = 
+Packed Size = 63770
+Modified = 2024-01-12 16:42:22.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 9552
+
+Path = $PLUGINSDIR/nsDialogs.dll
+Size = 
+Packed Size = 4546
+Modified = 
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 73326
+
+Path = Tools/Driver2 Archive/SpiderV/l6spiderv.cat
+Size = 
+Packed Size = 7584
+Modified = 2024-01-19 17:53:12.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 77876
+
+Path = Tools/Driver2 Archive/SpiderV/l6SpiderV.inf
+Size = 
+Packed Size = 1698
+Modified = 2024-01-19 17:53:10.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 85464
+
+Path = Tools/Driver2 Archive/SpiderV/l6SpiderV.sys
+Size = 
+Packed Size = 143446
+Modified = 2024-01-19 17:53:12.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 87166
+
+Path = Tools/Driver2 Archive/SpiderV/l6SpiderV_AvsFilter.sys
+Size = 
+Packed Size = 65478
+Modified = 2024-01-19 17:53:12.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 230616
+
+Path = Tools/Driver2 Archive/SpiderV/PnpUtilInstall.bat
+Size = 
+Packed Size = 417
+Modified = 2024-01-12 16:42:22.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 296098
+
+Path = Tools/Driver2 Archive/SpiderV/$SYSDIR/L6Driver2SpiderVControlPanel.cpl
+Size = 
+Packed Size = 185589
+Modified = 2024-01-19 17:52:56.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 296519
+
+Path = Tools/Driver2 Archive/SpiderV/$APPDATA/Line 6/Interposer/Interposer64.dll
+Size = 
+Packed Size = 69900
+Modified = 2024-01-19 17:53:04.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 482112
+
+Path = Tools/Driver2 Archive/SpiderV/$APPDATA/Line 6/Interposer/Interposer.dll
+Size = 
+Packed Size = 62249
+Modified = 2024-01-19 17:53:04.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 552016
+
+Path = Tools/Driver2 Archive/SpiderV/$SYSDIR/InterposerBackEnd64.dll
+Size = 
+Packed Size = 23649
+Modified = 2024-01-19 17:53:04.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 614269
+
+Path = Tools/Driver2 Archive/SpiderV/$SYSDIR/InterposerBackEnd.dll
+Size = 
+Packed Size = 21597
+Modified = 2024-01-19 17:53:04.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 637922
+
+Path = $APPDATA/Line 6/Interposer/L6ConfigInterposer2_5.json
+Size = 
+Packed Size = 384
+Modified = 2024-01-19 17:53:02.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 659523
+
+Path = $APPDATA/Line 6/Interposer/$SYSDIR/SpiderVAsio_OnInterposer_x64.dll
+Size = 
+Packed Size = 43335
+Modified = 2024-01-19 17:53:06.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 659911
+
+Path = Tools/Driver2 Archive/SpiderV/Line 6 Driver2_5 Spider V v2.00.0.0 Uninstaller.exe
+Size = 
+Packed Size = 237314
+Modified = 2024-01-19 17:54:00.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 703250
+
+Path = Tools/Driver2 Archive/SpiderV/PnpUtilUninstall.bat
+Size = 
+Packed Size = 1025
+Modified = 2024-01-12 16:42:22.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 940568
+
+Path = $PLUGINSDIR/modern-header.bmp
+Size = 
+Packed Size = 14580
+Modified = 2024-01-12 16:42:22.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 941597
+
+Path = $PLUGINSDIR/inst_noplug.bmp
+Size = 
+Packed Size = 219426
+Modified = 2024-01-12 16:42:22.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 956181
+
+Path = $PLUGINSDIR/inst_hwplugin.bmp
+Size = 
+Packed Size = 168794
+Modified = 2024-01-12 16:42:22.0000000
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 1175611
+
+Path = $PLUGINSDIR/UserInfo.dll
+Size = 
+Packed Size = 1324
+Modified = 
+Attributes = 
+Method = Deflate
+Solid = -
+Offset = 1344409
+

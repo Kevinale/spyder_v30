@@ -1,0 +1,60 @@
+{
+  "files": 47,
+  "pe_files": 18,
+  "reconstructed_exe": {
+    "path": "/workspace/analysis/remote/reconstructed/Spider V Remote 2.01 Installer.exe",
+    "bytes": 93761728,
+    "sha256": "1f8291548abbd72ba73322e8d8916fdc8083badc2dc15d49933a87c4dc17a613",
+    "pe": {
+      "machine": "0x14c",
+      "image_base": "0x400000",
+      "entry_rva": "0x320c",
+      "timestamp_untrusted": 1544912681,
+      "clr_directory": {
+        "rva": "0x0",
+        "size": 0
+      },
+      "certificate_table": {
+        "file_offset": "0x59693c8",
+        "size": 7416,
+        "trust_verified": false
+      },
+      "sections": [
+        {
+          "name": ".text",
+          "raw_offset": "0x400",
+          "raw_size": 25600,
+          "rva": "0x1000",
+          "virtual_size": 25231
+        },
+        {
+          "name": ".rdata",
+          "raw_offset": "0x6800",
+          "raw_size": 5120,
+          "rva": "0x8000",
+          "virtual_size": 4956
+        },
+        {
+          "name": ".data",
+          "raw_offset": "0x7c00",
+          "raw_size": 1536,
+          "rva": "0xa000",
+          "virtual_size": 152856
+        },
+        {
+          "name": ".ndata",
+          "raw_offset": "0x0",
+          "raw_size": 0,
+          "rva": "0x30000",
+          "virtual_size": 53248
+        },
+        {
+          "name": ".rsrc",
+          "raw_offset": "0x8200",
+          "raw_size": 241664,
+          "rva": "0x3d000",
+          "virtual_size": 241640
+        }
+      ],
+      "imports": {
+        "

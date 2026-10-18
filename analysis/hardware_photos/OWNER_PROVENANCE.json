@@ -1,0 +1,10 @@
+{
+  "source": "owner confirmation in chat: Si son el mio",
+  "photos_are_of_owners_device": true,
+  "device_as_identified_in_session": "Line6 Spider V30 MkII, firmware2.05.0",
+  "boards_visible": [
+    "A39 Daughter Rev A /35-00-0485",
+    "A39-1 25W Main-DB /35-00-0487"
+  ],
+  "central_ic_model": "obscured by A43.2 sticker"
+}

@@ -1,0 +1,69 @@
+{
+  "source": "Owner report in chat; no direct instrumented measurement in cloud",
+  "device": "Spider V30 / firmware2.05.0",
+  "read_only_phase": {
+    "AmpEnable_with_active_amp": 1,
+    "AmpEnable_with_No_Amp": 1,
+    "identity_version_symbols_crc_session": "owner reported successful"
+  },
+  "active_trial": {
+    "initial_AmpEnable": 1,
+    "set_zero_readback": 0,
+    "same_model_verified_by_program": true,
+    "physical_event_counts": {
+      "Drive": 0,
+      "Bass": 19,
+      "Mid": 26,
+      "Treble": 27
+    },
+    "before_restore_AmpEnable": 0,
+    "restore_readback": 1,
+    "audio_observation": "Owner: la guitarra quedo limpia"
+  },
+  "supported_conclusions": [
+    "AmpEnable0 was accepted and read back while the selected model was retained.",
+    "Bass/Mid/Treble events remained identifiable during the active trial.",
+    "Flag remained0 after the observed knob movements.",
+    "Owner heard clean guitar during that trial.",
+    "Restoration to1 was confirmed by the program."
+  ],
+  "not_yet_proven": [
+    "Bit-perfect DI, noise/distortion/latency metrics, or NAM inside amp."
+  ],
+  "next_test": "No further repeated functional trial required for basic integration. Continuous operation, standalone packaging, direct-monitor separation and quantitative latency remain separate work.",
+  "later_drive_diagnostic": {
+    "model": "Line6BigBottom",
+    "model_id": 180,
+    "parameter": "Amp.Gain",
+    "ids": [
+      42,
+      37
+    ],
+    "type": 4,
+    "range_in_report": [
+      0.0,
+      1.0
+    ],
+    "flag_readback_during_trial": 0,
+    "flag_readback_before_restore": 0,
+    "flag_restore_readback": 1,
+    "source": "Owner diagnostic text",
+    "interpretation": "Drive physical control remains identified as Gain37 in this model; old Drive38-only counter missed it."
+  },
+  "usb_recording_trial": {
+    "source": "Owner report in chat; recording not uploaded or measured in cloud",
+    "setup": "REAPER captures Spider input; Gateway disabled; bounded AmpEnable0 trial retains model and restores1",
+    "reported_sequence": [
+      "distorted before bypass",
+      "clean during bypass",
+      "distorted after restoration"
+    ],
+    "conclusion": "Functional audible USB input bypass confirmed for reported setup",
+    "limits": [
+      "Not a bit-perfect DI proof",
+      "No objective noise/distortion/latency measurements",
+      "Not yet a full simultaneous live Gateway/four-knob demonstration"
+    ]
+  },
+  "integrated_trial_result": "Owner confirms Gateway audible with bypass active and all four physical knobs moving plugin controls in same integrated20s test."
+}

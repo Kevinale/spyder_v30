@@ -1,0 +1,112 @@
+[
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/amps.models",
+    "size": 117519,
+    "sha256": "968ff7d4eaa870a50521f01e7d5950eec8e3dbc379a4ed7da569df04ad40535e"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/amps_hd.models",
+    "size": 73690,
+    "sha256": "041dcead7f10f89e2957c3c108545fb30bb6f30058946c28513f26ea36e86a17"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/cabs.models",
+    "size": 16811,
+    "sha256": "1d770255bc66d7252c74fc961c1b27b259dd3601c35419cc8765a860ec32c5c9"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable.bin",
+    "size": 15764,
+    "sha256": "45d0f3e16a2d9d4b3c987acb41369f8e260ba0eb91178ed8bd0879b1163b6666"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_AEON.bin",
+    "size": 28815,
+    "sha256": "fb14b18317f3fed81586c321c32858bf0a4eb51ac9599c477a8e82d245d0b415"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_Dio.bin",
+    "size": 16199,
+    "sha256": "4383c924a7b43e4017585c525312b06d6315984122751632c63a6ce502d13fae"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_FX100.bin",
+    "size": 16197,
+    "sha256": "d4e6db29dd2b226e76c7e539bcd137bd4d313e3b3a04b630e36229626c09293c"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_Firebird.bin",
+    "size": 29577,
+    "sha256": "9bdd8e8c1ea6a6b78f111cee7541212a7422528f754e2e0ded7fd936a4f1be22"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_Parker.bin",
+    "size": 22074,
+    "sha256": "cff12f33ba3645bcc842ef117badfca14d6d6929f6d24a3500f726ff7ae109b4"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_TT.bin",
+    "size": 16199,
+    "sha256": "4383c924a7b43e4017585c525312b06d6315984122751632c63a6ce502d13fae"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/default_preset.json",
+    "size": 3943,
+    "sha256": "48c2b8b25706399a332b9a18dcebced92a35997f82c6801f7abbda6f9ccf5e20"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/default_preset_AEON.json",
+    "size": 4705,
+    "sha256": "f844206796a56afce94e8de1f4ad10699008b7a3ba94e846773b7464f2d45936"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/default_preset_parker.json",
+    "size": 3768,
+    "sha256": "3311d4ba8f3c4874e53df49337a3b6710bbe423337667f199678eba92c69f7c9"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/delay.models",
+    "size": 36362,
+    "sha256": "1587838a393671c5953b22ef60979a413f9624700db471ac0e80ec8c2eae6e7e"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/fixed.models",
+    "size": 13823,
+    "sha256": "0f790e48f397e486ee920f1b433776942b8a29a036db047032f81b1f0ea23392"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/mod.models",
+    "size": 51757,
+    "sha256": "0a5d7c94b255704c096e38fac851ccec299fc07bfdca5b9cc9a1ff458714178b"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/reverbs.models",
+    "size": 24279,
+    "sha256": "7c7a4845613735facc83ea2642a658cc9bf24c9d87118b4eac84b09c86737901"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/reverbs_mclass.models",
+    "size": 20393,
+    "sha256": "cbe0317e4773562d46697be922c22dd1dcdd01be9310dd5719d012cb5c62feb0"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/stomps.models",
+    "size": 56824,
+    "sha256": "c351d237bdcf22a2396b7e43ecc95f358e2b4d85b87860c615cbba7ce11abcf7"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/stomps_hd.models",
+    "size": 31568,
+    "sha256": "094381323c401eaf56897e6295a13129ca1ef952693a4210d2784c53db2f8538"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/wahs.models",
+    "size": 5059,
+    "sha256": "4cbe9fbeaed7f03e4b0aeaf9aead421649b47c279988106547ce6ee57eaa6fec"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/AssetDefs.plist",
+    "size": 1627603,
+    "sha256": "a5c1bbe71a701a58db25eb4865d0032bcd87089bdf5cefa00334d8ebebbf76f6"
+  }
+]

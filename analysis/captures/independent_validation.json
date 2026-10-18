@@ -1,0 +1,360 @@
+{
+  "all_target_status_zero": true,
+  "bulk_urb_matched_pairs": 3962,
+  "bulk_completion_without_submission": [
+    {
+      "frame": 27,
+      "endpoint": "0x82"
+    }
+  ],
+  "bulk_pending_at_end": [
+    {
+      "frame": 7950,
+      "endpoint": "0x82"
+    }
+  ],
+  "sha256": "101c25061d62c511b61a8635903da0b277a4379d918fde3e5f5a6167cea4c536",
+  "bytes": 664000,
+  "blocks": {
+    "0xa0d0d0a": 1,
+    "0x1": 1,
+    "0x6": 7950
+  },
+  "frames": 7950,
+  "target_frames": 7932,
+  "target_only": true,
+  "independent_matches_root_sysex_exactly": true,
+  "messages": 3219,
+  "nonzero_ignored_padding_events": 12,
+  "first_bulk_time": 60.250494,
+  "cin_counts": [
+    {
+      "endpoint": "0x2",
+      "cable": 0,
+      "cin": 4,
+      "count": 19528
+    },
+    {
+      "endpoint": "0x2",
+      "cable": 0,
+      "cin": 5,
+      "count": 813
+    },
+    {
+      "endpoint": "0x2",
+      "cable": 0,
+      "cin": 6,
+      "count": 1083
+    },
+    {
+      "endpoint": "0x2",
+      "cable": 0,
+      "cin": 7,
+      "count": 5
+    },
+    {
+      "endpoint": "0x82",
+      "cable": 0,
+      "cin": 4,
+      "count": 23561
+    },
+    {
+      "endpoint": "0x82",
+      "cable": 0,
+      "cin": 5,
+      "count": 43
+    },
+    {
+      "endpoint": "0x82",
+      "cable": 0,
+      "cin": 6,
+      "count": 890
+    },
+    {
+      "endpoint": "0x82",
+      "cable": 0,
+      "cin": 7,
+      "count": 385
+    }
+  ],
+  "configuration_descriptors": [
+    {
+      "configuration_offset": 0,
+      "length": 9,
+      "type": 2,
+      "hex": "09022201050100c000"
+    },
+    {
+      "configuration_offset": 9,
+      "length": 9,
+      "type": 4,
+      "hex": "090400000001010000",
+      "interface": 0,
+      "alternate": 0,
+      "endpoints": 0,
+      "class_": 1,
+      "subclass": 1,
+      "protocol": 0
+    },
+    {
+      "configuration_offset": 18,
+      "length": 9,
+      "type": 36,
+      "hex": "092401000109000101"
+    },
+    {
+      "configuration_offset": 27,
+      "length": 9,
+      "type": 4,
+      "hex": "090401000201030000",
+      "interface": 1,
+      "alternate": 0,
+      "endpoints": 2,
+      "class_": 1,
+      "subclass": 3,
+      "protocol": 0
+    },
+    {
+      "configuration_offset": 36,
+      "length": 7,
+      "type": 36,
+      "hex": "07240100014100"
+    },
+    {
+      "configuration_offset": 43,
+      "length": 6,
+      "type": 36,
+      "hex": "062402010100"
+    },
+    {
+      "configuration_offset": 49,
+      "length": 6,
+      "type": 36,
+      "hex": "062402020200"
+    },
+    {
+      "configuration_offset": 55,
+      "length": 9,
+      "type": 36,
+      "hex": "092403010301020100"
+    },
+    {
+      "configuration_offset": 64,
+      "length": 9,
+      "type": 36,
+      "hex": "092403020401010100"
+    },
+    {
+      "configuration_offset": 73,
+      "length": 9,
+      "type": 5,
+      "hex": "090502024000000000",
+      "interface": 1,
+      "alternate": 0,
+      "endpoint": "0x2",
+      "attributes": "0x2",
+      "max_packet": 64,
+      "interval": 0
+    },
+    {
+      "configuration_offset": 82,
+      "length": 5,
+      "type": 37,
+      "hex": "0525010101"
+    },
+    {
+      "configuration_offset": 87,
+      "length": 9,
+      "type": 5,
+      "hex": "090582024000000000",
+      "interface": 1,
+      "alternate": 0,
+      "endpoint": "0x82",
+      "attributes": "0x2",
+      "max_packet": 64,
+      "interval": 0
+    },
+    {
+      "configuration_offset": 96,
+      "length": 5,
+      "type": 37,
+      "hex": "0525010103"
+    },
+    {
+      "configuration_offset": 101,
+      "length": 9,
+      "type": 4,
+      "hex": "090402000001010000",
+      "interface": 2,
+      "alternate": 0,
+      "endpoints": 0,
+      "class_": 1,
+      "subclass": 1,
+      "protocol": 0
+    },
+    {
+      "configuration_offset": 110,
+      "length": 10,
+      "type": 36,
+      "hex": "0a240100013d00020304"
+    },
+    {
+      "configuration_offset": 120,
+      "length": 12,
+      "type": 36,
+      "hex": "0c2402010101020203000000"
+    },
+    {
+      "configuration_offset": 132,
+      "length": 9,
+      "type": 36,
+      "hex": "092406050102030000"
+    },
+    {
+      "configuration_offset": 141,
+      "length": 9,
+      "type": 36,
+      "hex": "092403020103010500"
+    },
+    {
+      "configuration_offset": 150,
+      "length": 12,
+      "type": 36,
+      "hex": "0c2402030102040203000000"
+    },
+    {
+      "configuration_offset": 162,
+      "length": 9,
+      "type": 36,
+      "hex": "092403040101030300"
+    },
+    {
+      "configuration_offset": 171,
+      "length": 9,
+      "type": 4,
+      "hex": "090403000001020000",
+      "interface": 3,
+      "alternate": 0,
+      "endpoints": 0,
+      "class_": 1,
+      "subclass": 2,
+      "protocol": 0
+    },
+    {
+      "configuration_offset": 180,
+      "length": 9,
+      "type": 4,
+      "hex": "090403010101020000",
+      "interface": 3,
+      "alternate": 1,
+      "endpoints": 1,
+      "class_": 1,
+      "subclass": 2,
+      "protocol": 0
+    },
+    {
+      "configuration_offset": 189,
+      "length": 7,
+      "type": 36,
+      "hex": "07240104020100"
+    },
+    {
+      "configuration_offset": 196,
+      "length": 14,
+      "type": 36,
+      "hex": "0e2402010202100280bb0044ac00",
+      "rates_hz": [
+        48000,
+        44100
+      ]
+    },
+    {
+      "configuration_offset": 210,
+      "length": 9,
+      "type": 5,
+      "hex": "09058325c400010000",
+      "interface": 3,
+      "alternate": 1,
+      "endpoint": "0x83",
+      "attributes": "0x25",
+      "max_packet": 196,
+      "interval": 1
+    },
+    {
+      "configuration_offset": 219,
+      "length": 7,
+      "type": 37,
+      "hex": "07250101000000"
+    },
+    {
+      "configuration_offset": 226,
+      "length": 9,
+      "type": 4,
+      "hex": "090404000001020000",
+      "interface": 4,
+      "alternate": 0,
+      "endpoints": 0,
+      "class_": 1,
+      "subclass": 2,
+      "protocol": 0
+    },
+    {
+      "configuration_offset": 235,
+      "length": 9,
+      "type": 4,
+      "hex": "090404010201020000",
+      "interface": 4,
+      "alternate": 1,
+      "endpoints": 2,
+      "class_": 1,
+      "subclass": 2,
+      "protocol": 0
+    },
+    {
+      "configuration_offset": 244,
+      "length": 7,
+      "type": 36,
+      "hex": "07240101020100"
+    },
+    {
+      "configuration_offset": 251,
+      "length": 14,
+      "type": 36,
+      "hex": "0e2402010202100280bb0044ac00",
+      "rates_hz": [
+        48000,
+        44100
+      ]
+    },
+    {
+      "configuration_offset": 265,
+      "length": 9,
+      "type": 5,
+      "hex": "09050405c400010084",
+      "interface": 4,
+      "alternate": 1,
+      "endpoint": "0x4",
+      "attributes": "0x5",
+      "max_packet": 196,
+      "interval": 1
+    },
+    {
+      "configuration_offset": 274,
+      "length": 7,
+      "type": 37,
+      "hex": "07250101000000"
+    },
+    {
+      "configuration_offset": 281,
+      "length": 9,
+      "type": 5,
+      "hex": "090584110400010400",
+      "interface": 4,
+      "alternate": 1,
+      "endpoint": "0x84",
+      "attributes": "0x11",
+      "max_packet": 4,
+      "interval": 1
+    }
+  ]
+}

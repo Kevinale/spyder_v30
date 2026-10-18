@@ -1,0 +1,191 @@
+[
+  {
+    "query": "\"line6\" firmware",
+    "url": "https://github.com/search?q=%22line6%22+firmware&type=repositories",
+    "status": 200,
+    "source": "public_search_0.html",
+    "sha256": "18404c61ba0e7147406f67ab57bce93f62bf7923e9bdd4bb9d28c1b142430fc6",
+    "result_count": 3,
+    "results": [
+      {
+        "name": "Jmainguy/<em>line6</em>-tt",
+        "description": "Linux USB control, <em>firmware</em> research, and a Rust GUI for the Line 6 AMPLIFi TT",
+        "repo": {
+          "repository": {
+            "id": 1362974937,
+            "name": "line6-tt",
+            "owner_id": 1372228,
+            "owner_login": "Jmainguy",
+            "updated_at": "2026-09-09T17:27:14.820Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "name": "MarByteBeep/podgo",
+        "description": "Possibly futile attempt at decoding the <em>Line6</em> Pod Go <em>firmware</em>",
+        "repo": {
+          "repository": {
+            "id": 479114091,
+            "name": "podgo",
+            "owner_id": 58225562,
+            "owner_login": "MarByteBeep",
+            "updated_at": "2022-04-07T19:11:34.791Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "name": "beepoo304/<em>line6</em>-m5-arduino-midiswitch",
+        "description": "Arduino Nano MIDI foot controller for the Line 6 M5 Stompbox Modeler. Two footswitches, a two-digit LED display and MIDI OUT, with build \u2026",
+        "repo": {
+          "repository": {
+            "id": 1367365540,
+            "name": "line6-m5-arduino-midiswitch",
+            "owner_id": 289046047,
+            "owner_login": "beepoo304",
+            "updated_at": "2026-09-12T14:24:53.639Z",
+            "has_issues": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "query": "\"L6FF\"",
+    "url": "https://github.com/search?q=%22L6FF%22&type=repositories",
+    "status": 200,
+    "source": "public_search_1.html",
+    "sha256": "eee148e07b5e9f4eead243bcf62a3e0e91cfdbead857fac65eb24d83fab6a9f8",
+    "result_count": 1,
+    "results": [
+      {
+        "name": "derekmomen/q16_<em>l6ff</em>",
+        "description": "On this road full of unknowns, bravely pursuing dreams means accepting imperfection and learning to enjoy every challenge in the process \u2026",
+        "repo": {
+          "repository": {
+            "id": 1230592424,
+            "name": "q16_l6ff",
+            "owner_id": 276217968,
+            "owner_login": "derekmomen",
+            "updated_at": "2026-05-06T06:27:06.778Z",
+            "has_issues": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "query": "\"spider\" \"line 6\"",
+    "url": "https://github.com/search?q=%22spider%22+%22line+6%22&type=repositories",
+    "status": 200,
+    "source": "public_search_2.html",
+    "sha256": "571865a2b55abf496175958e6ffbcb2b96bee2beeb7532dbad1c58e66a47bbe4",
+    "result_count": 5,
+    "results": [
+      {
+        "name": "stric9r/<em>Line6</em>-FBV3-Clone",
+        "description": "Clone of USB interface between linux (Raspberry Pi 4B or Zero W) and a Line6 <em>Spider</em> V amplifier",
+        "repo": {
+          "repository": {
+            "id": 324795124,
+            "name": "Line6-FBV3-Clone",
+            "owner_id": 76652407,
+            "owner_login": "stric9r",
+            "updated_at": "2022-01-08T17:24:31.027Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "name": "codeape2/jam2wav",
+        "description": "Convert <em>Line</em> <em>6</em> .JAM files (file format used in <em>Spider</em> Jam amp and JM4 looper) to .WAV",
+        "repo": {
+          "repository": {
+            "id": 123551702,
+            "name": "jam2wav",
+            "owner_id": 97742,
+            "owner_login": "codeape2",
+            "updated_at": "2018-03-02T08:30:49.819Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "name": "teoriadeladistraccion/Gemini_<em>Line6</em>",
+        "description": "<em>Line</em> <em>6</em> <em>Spider</em> IV Preset Creator",
+        "repo": {
+          "repository": {
+            "id": 1075688457,
+            "name": "Gemini_Line6",
+            "owner_id": 237871678,
+            "owner_login": "teoriadeladistraccion",
+            "updated_at": "2025-10-13T23:05:26.060Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "name": "leevilaukka/<em>spiderv</em>-web-control",
+        "description": "Browser-based editor for <em>Line</em> <em>6</em> <em>Spider</em> V amps over USB, built from a reverse-engineered protocol",
+        "repo": {
+          "repository": {
+            "id": 1421293180,
+            "name": "spiderv-web-control",
+            "owner_id": 48748643,
+            "owner_login": "leevilaukka",
+            "updated_at": "2026-10-16T20:26:11.626Z",
+            "has_issues": true
+          }
+        }
+      },
+      {
+        "name": "vinshreds/<em>line</em>-<em>6</em>-bogner-app",
+        "description": "Unofficial browser Web MIDI editor for the <em>Line</em> <em>6</em> <em>Spider</em> Valve MkII amp + FBV Shortboard (Chrome/Edge). Not affiliated with <em>Line</em> <em>6</em> or Bog\u2026",
+        "repo": {
+          "repository": {
+            "id": 1353758828,
+            "name": "line-6-bogner-app",
+            "owner_id": 26314028,
+            "owner_login": "vinshreds",
+            "updated_at": "2026-09-01T15:59:02.717Z",
+            "has_issues": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "query": "\"Spider V\" amplifier",
+    "url": "https://github.com/search?q=%22Spider+V%22+amplifier&type=repositories",
+    "status": 200,
+    "source": "public_search_3.html",
+    "sha256": "90a34d0c9479596af1452434f145305d1a5453113de0adf3714ddf6f946718d3",
+    "result_count": 1,
+    "results": [
+      {
+        "name": "stric9r/Line6-FBV3-Clone",
+        "description": "Clone of USB interface between linux (Raspberry Pi 4B or Zero W) and a Line6 <em>Spider</em> <em>V</em> <em>amplifier</em>",
+        "repo": {
+          "repository": {
+            "id": 324795124,
+            "name": "Line6-FBV3-Clone",
+            "owner_id": 76652407,
+            "owner_login": "stric9r",
+            "updated_at": "2022-01-08T17:24:31.027Z",
+            "has_issues": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "query": "line6 decrypt",
+    "url": "https://github.com/search?q=line6+decrypt&type=repositories",
+    "status": 200,
+    "source": "public_search_4.html",
+    "sha256": "432e37d5784cadf58f4ba11344f4ec83e3e6305e66e036771dd016d20da3b987",
+    "result_count": 0,
+    "results": []
+  }
+]

@@ -1,0 +1,1743 @@
+
+FILE EngineCLIWrapper
+{"token": "0x600014b", "name": "EngineCLIWrapper.EngineWrapper::.ctor", "rva": "0x2e0c", "offset": "0x220c", "va": "0x10002e0c"}
+000c ldarg.0 None
+000d call token(0x0A00002D) System.Object::.ctor
+0012 ldnull None
+0013 ldftn token(0x0600015A) EngineCLIWrapper.EngineWrapper::NativeFloatParamValueReceiver
+0019 newobj token(0x06000127) EngineCLIWrapper.NativeFloatParamValueDelegate::.ctor
+001e stloc.3 None
+001f ldarg.0 None
+0020 ldloc.3 None
+0021 stfld token(0x04000063) EngineCLIWrapper.EngineWrapper::floatParamValueDelegate
+0026 ldloc.3 None
+0027 call token(0x2B000004) 
+002c stloc.s local(0x0007)
+002e ldnull None
+002f ldftn token(0x0600015B) EngineCLIWrapper.EngineWrapper::NativeIntParamValueReceiver
+0035 newobj token(0x0600012B) EngineCLIWrapper.NativeIntParamValueDelegate::.ctor
+003a stloc.2 None
+003b ldarg.0 None
+003c ldloc.2 None
+003d stfld token(0x04000064) EngineCLIWrapper.EngineWrapper::intParamValueDelegate
+0042 ldloc.2 None
+0043 call token(0x2B000003) 
+0048 stloc.s local(0x0006)
+004a ldnull None
+004b ldftn token(0x0600015C) EngineCLIWrapper.EngineWrapper::NativeBoolParamValueReceiver
+0051 newobj token(0x0600012F) EngineCLIWrapper.NativeBoolParamValueDelegate::.ctor
+0056 stloc.1 None
+0057 ldarg.0 None
+0058 ldloc.1 None
+0059 stfld token(0x04000065) EngineCLIWrapper.EngineWrapper::boolParamValueDelegate
+005e ldloc.1 None
+005f call token(0x2B000002) 
+0064 stloc.s local(0x0005)
+0066 ldnull None
+0067 ldftn token(0x0600015D) EngineCLIWrapper.EngineWrapper::NativeStringParamValueReceiver
+006d newobj token(0x06000133) EngineCLIWrapper.NativeStringParamValueDelegate::.ctor
+0072 stloc.0 None
+0073 ldarg.0 None
+0074 ldloc.0 None
+0075 stfld token(0x04000066) EngineCLIWrapper.EngineWrapper::stringParamValueDelegate
+007a ldloc.0 None
+007b call token(0x2B000001) 
+0080 stloc.s local(0x0004)
+0082 ldarg.0 None
+0083 ldloca.s local(0x0007)
+0085 call token(0x0A000023) System.IntPtr::ToPointer
+008a ldloca.s local(0x0006)
+008c call token(0x0A000023) System.IntPtr::ToPointer
+0091 ldloca.s local(0x0005)
+0093 call token(0x0A000023) System.IntPtr::ToPointer
+0098 ldloca.s local(0x0004)
+009a call token(0x0A000023) System.IntPtr::ToPointer
+009f call token(0x06000102) .<Module>::APIV3EngineInterface.Functions.createEngine
+00a4 stfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+00a9 ret None
+
+FILE EngineCLIWrapper
+{"token": "0x600014d", "name": "EngineCLIWrapper.EngineWrapper::setFloatParamValue", "rva": "0x30a4", "offset": "0x24a4", "va": "0x100030a4"}
+000c ldc.i4.0 None
+000d stloc.s local(0x0007)
+000f ldloca.s local(0x0006)
+0011 stloc.s local(0x0004)
+0013 ldloca.s local(0x0005)
+0015 stloc.3 None
+0016 ldarg.0 None
+0017 ldloca.s local(0x0006)
+0019 ldarg.2 None
+001a call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+001f stloc.2 None
+0020 ldarg.0 None
+0021 ldloca.s local(0x0005)
+0023 ldarg.1 None
+0024 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+0029 stloc.1 None
+002a ldarg.0 None
+002b ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+0030 stloc.0 None
+0031 leave.s 64
+0033 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0039 ldloc.3 None
+003a call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+003f endfinally None
+0040 leave.s 80
+0042 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0048 ldloc.s local(0x0004)
+004a call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+004f endfinally None
+0050 ldloc.0 None
+0051 ldloc.1 None
+0052 ldloc.2 None
+0053 ldarg.3 None
+0054 call token(0x060000FF) .<Module>::APIV3EngineInterface.Functions.setFloatParamValue
+0059 ret None
+
+FILE EngineCLIWrapper
+{"token": "0x6000151", "name": "EngineCLIWrapper.EngineWrapper::setDictionaryParamValue", "rva": "0x331c", "offset": "0x271c", "va": "0x1000331c"}
+000c ldc.i4.0 None
+000d stloc.s local(0x006C)
+000f ldarg.2 None
+0010 ldstr 'exportPresetFromDeviceAtIndex'
+0015 call token(0x0A000025) System.String::op_Equality
+001a brfalse 194
+001f ldarg.3 None
+0020 ldstr 'exportPresetFromDeviceAtIndex_IndexKey'
+0025 callvirt token(0x0A00001B) .::get_Item
+002a unbox token(0x01000028) 
+002f ldind.i4 None
+0030 stloc.s local(0x004F)
+0032 ldarg.0 None
+0033 ldloca.s local(0x006B)
+0035 ldarg.3 None
+0036 ldstr 'exportPresetFromDeviceAtIndex_FilePathKey'
+003b callvirt token(0x0A00001B) .::get_Item
+0040 castclass token(0x01000029) 
+0045 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+004a pop None
+004b ldloca.s local(0x006A)
+004d stloc.3 None
+004e ldloca.s local(0x006A)
+0050 ldloc.s local(0x0069)
+0052 ldloca.s local(0x0068)
+0054 call token(0x0600008E) .<Module>::std._Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>.{ctor}<class std::allocator<char> >
+0059 pop None
+005a ldloca.s local(0x006A)
+005c ldloca.s local(0x006B)
+005e call token(0x06000055) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Construct_lv_contents
+0063 leave.s 114
+0065 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+006b ldloc.3 None
+006c call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0071 endfinally None
+0072 nop None
+0073 ldarg.0 None
+0074 ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+0079 stloc.s local(0x004E)
+007b leave.s 138
+007d ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0083 ldloc.3 None
+0084 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0089 endfinally None
+008a ldloc.s local(0x004E)
+008c ldloc.s local(0x004F)
+008e ldloca.s local(0x006A)
+0090 call token(0x060000FB) .<Module>::APIV3EngineInterface.Functions.exportDeviceTone
+0095 stloc.s local(0x004D)
+0097 leave.s 167
+0099 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+009f ldloca.s local(0x006B)
+00a1 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+00a6 endfinally None
+00a7 nop None
+00a8 ldloca.s local(0x006B)
+00aa call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+00af leave.s 191
+00b1 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+00b7 ldloca.s local(0x006B)
+00b9 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+00be endfinally None
+00bf ldloc.s local(0x004D)
+00c1 ret None
+00c2 ldarg.2 None
+00c3 ldstr 'importPresetToDeviceAtIndex'
+00c8 call token(0x0A000025) System.String::op_Equality
+00cd brfalse 373
+00d2 ldarg.3 None
+00d3 ldstr 'importPresetToDeviceAtIndex_IndexKey'
+00d8 callvirt token(0x0A00001B) .::get_Item
+00dd unbox token(0x01000028) 
+00e2 ldind.i4 None
+00e3 stloc.s local(0x004C)
+00e5 ldarg.0 None
+00e6 ldloca.s local(0x0067)
+00e8 ldarg.3 None
+00e9 ldstr 'importPresetToDeviceAtIndex_FilePathKey'
+00ee callvirt token(0x0A00001B) .::get_Item
+00f3 castclass token(0x01000029) 
+00f8 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+00fd pop None
+00fe ldloca.s local(0x0066)
+0100 stloc.2 None
+0101 ldloca.s local(0x0066)
+0103 ldloc.s local(0x0065)
+0105 ldloca.s local(0x0064)
+0107 call token(0x0600008E) .<Module>::std._Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>.{ctor}<class std::allocator<char> >
+010c pop None
+010d ldloca.s local(0x0066)
+010f ldloca.s local(0x0067)
+0111 call token(0x06000055) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Construct_lv_contents
+0116 leave.s 293
+0118 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+011e ldloc.2 None
+011f call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0124 endfinally None
+0125 nop None
+0126 ldarg.0 None
+0127 ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+012c stloc.s local(0x004B)
+012e leave.s 317
+0130 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0136 ldloc.2 None
+0137 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+013c endfinally None
+013d ldloc.s local(0x004B)
+013f ldloc.s local(0x004C)
+0141 ldloca.s local(0x0066)
+0143 call token(0x060000FA) .<Module>::APIV3EngineInterface.Functions.importDeviceTone
+0148 stloc.s local(0x004A)
+014a leave.s 346
+014c ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0152 ldloca.s local(0x0067)
+0154 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0159 endfinally None
+015a nop None
+015b ldloca.s local(0x0067)
+015d call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+0162 leave.s 370
+0164 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+016a ldloca.s local(0x0067)
+016c call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0171 endfinally None
+0172 ldloc.s local(0x004A)
+0174 ret None
+0175 ldarg.2 None
+0176 ldstr 'exportImpulseResponseFromDeviceAtIndex'
+017b call token(0x0A000025) System.String::op_Equality
+0180 brfalse 548
+0185 ldarg.3 None
+0186 ldstr 'exportImpulseResponseFromDeviceAtIndex_IndexKey'
+018b callvirt token(0x0A00001B) .::get_Item
+0190 unbox token(0x01000028) 
+0195 ldind.i4 None
+0196 stloc.s local(0x0049)
+0198 ldarg.0 None
+0199 ldloca.s local(0x0063)
+019b ldarg.3 None
+019c ldstr 'exportImpulseResponseFromDeviceAtIndex_FilePathKey'
+01a1 callvirt token(0x0A00001B) .::get_Item
+01a6 castclass token(0x01000029) 
+01ab call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+01b0 pop None
+01b1 ldloca.s local(0x0062)
+01b3 stloc.1 None
+01b4 ldloca.s local(0x0062)
+01b6 call token(0x06000088) .<Module>::std._String_val<std::_Simple_types<char> >.{ctor}
+01bb pop None
+01bc ldloca.s local(0x0062)
+01be ldloca.s local(0x0063)
+01c0 call token(0x06000055) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Construct_lv_contents
+01c5 leave.s 468
+01c7 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+01cd ldloc.1 None
+01ce call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+01d3 endfinally None
+01d4 nop None
+01d5 ldarg.0 None
+01d6 ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+01db stloc.s local(0x0048)
+01dd leave.s 492
+01df ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+01e5 ldloc.1 None
+01e6 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+01eb endfinally None
+01ec ldloc.s local(0x0048)
+01ee ldloc.s local(0x0049)
+01f0 ldloca.s local(0x0062)
+01f2 call token(0x060000F9) .<Module>::APIV3EngineInterface.Functions.exportImpulseResponse
+01f7 stloc.s local(0x0047)
+01f9 leave.s 521
+01fb ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0201 ldloca.s local(0x0063)
+0203 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0208 endfinally None
+0209 nop None
+020a ldloca.s local(0x0063)
+020c call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+0211 leave.s 545
+0213 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+0219 ldloca.s local(0x0063)
+021b call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0220 endfinally None
+0221 ldloc.s local(0x0047)
+0223 ret None
+0224 ldarg.2 None
+0225 ldstr 'importImpulseResponseToDeviceAtIndex'
+022a call token(0x0A000025) System.String::op_Equality
+022f brfalse 723
+0234 ldarg.3 None
+0235 ldstr 'importImpulseResponseToDeviceAtIndex_IndexKey'
+023a callvirt token(0x0A00001B) .::get_Item
+023f unbox token(0x01000028) 
+0244 ldind.i4 None
+0245 stloc.s local(0x0046)
+0247 ldarg.0 None
+0248 ldloca.s local(0x0061)
+024a ldarg.3 None
+024b ldstr 'importImpulseResponseToDeviceAtIndex_FilePathKey'
+0250 callvirt token(0x0A00001B) .::get_Item
+0255 castclass token(0x01000029) 
+025a call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+025f pop None
+0260 ldloca.s local(0x0060)
+0262 stloc.0 None
+0263 ldloca.s local(0x0060)
+0265 call token(0x06000088) .<Module>::std._String_val<std::_Simple_types<char> >.{ctor}
+026a pop None
+026b ldloca.s local(0x0060)
+026d ldloca.s local(0x0061)
+026f call token(0x06000055) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Construct_lv_contents
+0274 leave.s 643
+0276 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+027c ldloc.0 None
+027d call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0282 endfinally None
+0283 nop None
+0284 ldarg.0 None
+0285 ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+028a stloc.s local(0x0045)
+028c leave.s 667
+028e ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0294 ldloc.0 None
+0295 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+029a endfinally None
+029b ldloc.s local(0x0045)
+029d ldloc.s local(0x0046)
+029f ldloca.s local(0x0060)
+02a1 call token(0x060000F8) .<Module>::APIV3EngineInterface.Functions.importImpulseResponse
+02a6 stloc.s local(0x0044)
+02a8 leave.s 696
+02aa ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+02b0 ldloca.s local(0x0061)
+02b2 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+02b7 endfinally None
+02b8 nop None
+02b9 ldloca.s local(0x0061)
+02bb call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+02c0 leave.s 720
+02c2 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+02c8 ldloca.s local(0x0061)
+02ca call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+02cf endfinally None
+02d0 ldloc.s local(0x0044)
+02d2 ret None
+02d3 ldarg.2 None
+02d4 ldstr 'setDevicePresetNameAtIndex'
+02d9 call token(0x0A000025) System.String::op_Equality
+02de brfalse.s 825
+02e0 ldarg.3 None
+02e1 ldstr 'setDevicePresetNameAtIndex_NameKey'
+02e6 callvirt token(0x0A00001B) .::get_Item
+02eb call token(0x0A00001A) System.Convert::ToString
+02f0 stloc.s local(0x0043)
+02f2 ldarg.3 None
+02f3 ldstr 'setDevicePresetNameAtIndex_IndexKey'
+02f8 callvirt token(0x0A00001B) .::get_Item
+02fd unbox token(0x01000028) 
+0302 ldind.i4 None
+0303 stloc.s local(0x0042)
+0305 ldloca.s local(0x005F)
+0307 stloc.s local(0x0041)
+0309 ldarg.0 None
+030a ldloca.s local(0x005F)
+030c ldloc.s local(0x0043)
+030e call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+0313 stloc.s local(0x0040)
+0315 ldarg.0 None
+0316 ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+031b stloc.s local(0x003F)
+031d leave.s 813
+031f ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0325 ldloc.s local(0x0041)
+0327 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+032c endfinally None
+032d ldloc.s local(0x003F)
+032f ldloc.s local(0x0042)
+0331 ldloc.s local(0x0040)
+0333 call token(0x060000F7) .<Module>::APIV3EngineInterface.Functions.setPresetNameAtDeviceIndex
+0338 ret None
+0339 ldarg.2 None
+033a ldstr 'moveDevicePreset'
+033f call token(0x0A000025) System.String::op_Equality
+0344 brfalse.s 892
+0346 ldarg.3 None
+0347 ldstr 'moveDevicePreset_SourceIndexKey'
+034c callvirt token(0x0A00001B) .::get_Item
+0351 unbox token(0x01000028) 
+0356 ldind.i4 None
+0357 stloc.s local(0x003E)
+0359 ldarg.3 None
+035a ldstr 'moveDevicePreset_DestinationIndexKey'
+035f callvirt token(0x0A00001B) .::get_Item
+0364 unbox token(0x01000028) 
+0369 ldind.i4 None
+036a stloc.s local(0x003D)
+036c ldarg.0 None
+036d ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+0372 ldloc.s local(0x003E)
+0374 ldloc.s local(0x003D)
+0376 call token(0x060000F6) .<Module>::APIV3EngineInterface.Functions.reorderDevicePreset
+037b ret None
+037c ldarg.2 None
+037d ldstr 'setDeviceImpulseResponseNameAtIndex'
+0382 call token(0x0A000025) System.String::op_Equality
+0387 brfalse.s 994
+0389 ldarg.3 None
+038a ldstr 'setDeviceImpulseResponseNameAtIndex_NameKey'
+038f callvirt token(0x0A00001B) .::get_Item
+0394 call token(0x0A00001A) System.Convert::ToString
+0399 stloc.s local(0x003C)
+039b ldarg.3 None
+039c ldstr 'setDeviceImpulseResponseNameAtIndex_IndexKey'
+03a1 callvirt token(0x0A00001B) .::get_Item
+03a6 unbox token(0x01000028) 
+03ab ldind.i4 None
+03ac stloc.s local(0x003B)
+03ae ldloca.s local(0x005E)
+03b0 stloc.s local(0x003A)
+03b2 ldarg.0 None
+03b3 ldloca.s local(0x005E)
+03b5 ldloc.s local(0x003C)
+03b7 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+03bc stloc.s local(0x0039)
+03be ldarg.0 None
+03bf ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+03c4 stloc.s local(0x0038)
+03c6 leave.s 982
+03c8 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+03ce ldloc.s local(0x003A)
+03d0 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+03d5 endfinally None
+03d6 ldloc.s local(0x0038)
+03d8 ldloc.s local(0x003B)
+03da ldloc.s local(0x0039)
+03dc call token(0x060000F5) .<Module>::APIV3EngineInterface.Functions.setIRNameAtIndex
+03e1 ret None
+03e2 ldarg.2 None
+03e3 ldstr 'performLogin'
+03e8 call token(0x0A000025) System.String::op_Equality
+03ed brfalse 1130
+03f2 ldarg.3 None
+03f3 ldstr 'performLogin_UserName'
+03f8 callvirt token(0x0A00001B) .::get_Item
+03fd call token(0x0A00001A) System.Convert::ToString
+0402 stloc.s local(0x0037)
+0404 ldarg.3 None
+0405 ldstr 'performLogin_Password'
+040a callvirt token(0x0A00001B) .::get_Item
+040f call token(0x0A00001A) System.Convert::ToString
+0414 stloc.s local(0x0036)
+0416 ldloca.s local(0x005D)
+0418 stloc.s local(0x0035)
+041a ldloca.s local(0x005C)
+041c stloc.s local(0x0034)
+041e ldarg.0 None
+041f ldloca.s local(0x005D)
+0421 ldloc.s local(0x0036)
+0423 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+0428 stloc.s local(0x0033)
+042a ldarg.0 None
+042b ldloca.s local(0x005C)
+042d ldloc.s local(0x0037)
+042f call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+0434 stloc.s local(0x0032)
+0436 ldarg.0 None
+0437 ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+043c stloc.s local(0x0031)
+043e leave.s 1102
+0440 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0446 ldloc.s local(0x0034)
+0448 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+044d endfinally None
+044e leave.s 1118
+0450 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0456 ldloc.s local(0x0035)
+0458 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+045d endfinally None
+045e ldloc.s local(0x0031)
+0460 ldloc.s local(0x0032)
+0462 ldloc.s local(0x0033)
+0464 call token(0x060000F4) .<Module>::APIV3EngineInterface.Functions.logIn
+0469 ret None
+046a ldarg.2 None
+046b ldstr 'createUserAccount'
+0470 call token(0x0A000025) System.String::op_Equality
+0475 brfalse 1380
+047a ldarg.3 None
+047b ldstr 'performLogin_UserName'
+0480 callvirt token(0x0A00001B) .::get_Item
+0485 call token(0x0A00001A) System.Convert::ToString
+048a stloc.s local(0x0030)
+048c ldarg.3 None
+048d ldstr 'performLogin_Password'
+0492 callvirt token(0x0A00001B) .::get_Item
+0497 call token(0x0A00001A) System.Convert::ToString
+049c stloc.s local(0x002F)
+049e ldarg.3 None
+049f ldstr 'performLogin_Password'
+04a4 callvirt token(0x0A00001B) .::get_Item
+04a9 call token(0x0A00001A) System.Convert::ToString
+04ae stloc.s local(0x002E)
+04b0 ldarg.3 None
+04b1 ldstr 'performLogin_Password'
+04b6 callvirt token(0x0A00001B) .::get_Item
+04bb call token(0x0A00001A) System.Convert::ToString
+04c0 stloc.s local(0x002D)
+04c2 ldarg.3 None
+04c3 call token(0x0A000019) System.Convert::ToBoolean
+04c8 stloc.s local(0x002C)
+04ca ldloca.s local(0x005B)
+04cc stloc.s local(0x002B)
+04ce ldloca.s local(0x005A)
+04d0 stloc.s local(0x002A)
+04d2 ldloca.s local(0x0059)
+04d4 stloc.s local(0x0029)
+04d6 ldloca.s local(0x0058)
+04d8 stloc.s local(0x0028)
+04da ldarg.0 None
+04db ldloca.s local(0x005B)
+04dd ldloc.s local(0x002D)
+04df call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+04e4 stloc.s local(0x0027)
+04e6 ldarg.0 None
+04e7 ldloca.s local(0x005A)
+04e9 ldloc.s local(0x002E)
+04eb call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+04f0 stloc.s local(0x0026)
+04f2 ldarg.0 None
+04f3 ldloca.s local(0x0059)
+04f5 ldloc.s local(0x002F)
+04f7 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+04fc stloc.s local(0x0025)
+04fe ldarg.0 None
+04ff ldloca.s local(0x0058)
+0501 ldloc.s local(0x0030)
+0503 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+0508 stloc.s local(0x0024)
+050a ldarg.0 None
+050b ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+0510 stloc.s local(0x0023)
+0512 leave.s 1314
+0514 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+051a ldloc.s local(0x0028)
+051c call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0521 endfinally None
+0522 leave.s 1330
+0524 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+052a ldloc.s local(0x0029)
+052c call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0531 endfinally None
+0532 leave.s 1346
+0534 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+053a ldloc.s local(0x002A)
+053c call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0541 endfinally None
+0542 leave.s 1362
+0544 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+054a ldloc.s local(0x002B)
+054c call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0551 endfinally None
+0552 ldloc.s local(0x0023)
+0554 ldloc.s local(0x0024)
+0556 ldloc.s local(0x0025)
+0558 ldloc.s local(0x0026)
+055a ldloc.s local(0x0027)
+055c ldloc.s local(0x002C)
+055e call token(0x060000F3) .<Module>::APIV3EngineInterface.Functions.createAccount
+0563 ret None
+0564 ldarg.2 None
+0565 ldstr 'resetAccountPassword'
+056a call token(0x0A000025) System.String::op_Equality
+056f brfalse 1516
+0574 ldarg.3 None
+0575 ldstr 'resetAccountPassword_UserNameKey'
+057a callvirt token(0x0A00001B) .::get_Item
+057f call token(0x0A00001A) System.Convert::ToString
+0584 stloc.s local(0x0022)
+0586 ldarg.3 None
+0587 ldstr 'resetAccountPassword_EMailAddressKey'
+058c callvirt token(0x0A00001B) .::get_Item
+0591 call token(0x0A00001A) System.Convert::ToString
+0596 stloc.s local(0x0021)
+0598 ldloca.s local(0x0057)
+059a stloc.s local(0x0020)
+059c ldloca.s local(0x0056)
+059e stloc.s local(0x001F)
+05a0 ldarg.0 None
+05a1 ldloca.s local(0x0057)
+05a3 ldloc.s local(0x0021)
+05a5 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+05aa stloc.s local(0x001E)
+05ac ldarg.0 None
+05ad ldloca.s local(0x0056)
+05af ldloc.s local(0x0022)
+05b1 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+05b6 stloc.s local(0x001D)
+05b8 ldarg.0 None
+05b9 ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+05be stloc.s local(0x001C)
+05c0 leave.s 1488
+05c2 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+05c8 ldloc.s local(0x001F)
+05ca call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+05cf endfinally None
+05d0 leave.s 1504
+05d2 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+05d8 ldloc.s local(0x0020)
+05da call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+05df endfinally None
+05e0 ldloc.s local(0x001C)
+05e2 ldloc.s local(0x001D)
+05e4 ldloc.s local(0x001E)
+05e6 call token(0x060000F2) .<Module>::APIV3EngineInterface.Functions.resetPassword
+05eb ret None
+05ec ldarg.2 None
+05ed ldstr 'rateCloudSearchPreset'
+05f2 call token(0x0A000025) System.String::op_Equality
+05f7 brfalse.s 1618
+05f9 ldarg.3 None
+05fa ldstr 'rateCloudSearchPreset_presetIDKey'
+05ff callvirt token(0x0A00001B) .::get_Item
+0604 call token(0x0A00001A) System.Convert::ToString
+0609 stloc.s local(0x001B)
+060b ldarg.3 None
+060c ldstr 'rateCloudSearchPreset_ratingKey'
+0611 callvirt token(0x0A00001B) .::get_Item
+0616 unbox token(0x01000028) 
+061b ldind.i4 None
+061c stloc.s local(0x001A)
+061e ldloca.s local(0x0055)
+0620 stloc.s local(0x0019)
+0622 ldarg.0 None
+0623 ldloca.s local(0x0055)
+0625 ldloc.s local(0x001B)
+0627 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+062c stloc.s local(0x0018)
+062e ldarg.0 None
+062f ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+0634 stloc.s local(0x0017)
+0636 leave.s 1606
+0638 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+063e ldloc.s local(0x0019)
+0640 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0645 endfinally None
+0646 ldloc.s local(0x0017)
+0648 ldloc.s local(0x0018)
+064a ldloc.s local(0x001A)
+064c call token(0x060000F1) .<Module>::APIV3EngineInterface.Functions.ratePreset
+0651 ret None
+0652 ldarg.2 None
+0653 ldstr 'performCloudSearch'
+0658 call token(0x0A000025) System.String::op_Equality
+065d brfalse.s 1720
+065f ldarg.3 None
+0660 ldstr 'performCloudSearch_searchString'
+0665 callvirt token(0x0A00001B) .::get_Item
+066a call token(0x0A00001A) System.Convert::ToString
+066f stloc.s local(0x0016)
+0671 ldarg.3 None
+0672 ldstr 'performCloudSearch_pageNumber'
+0677 callvirt token(0x0A00001B) .::get_Item
+067c unbox token(0x01000028) 
+0681 ldind.i4 None
+0682 stloc.s local(0x0015)
+0684 ldloca.s local(0x0054)
+0686 stloc.s local(0x0014)
+0688 ldarg.0 None
+0689 ldloca.s local(0x0054)
+068b ldloc.s local(0x0016)
+068d call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+0692 stloc.s local(0x0013)
+0694 ldarg.0 None
+0695 ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+069a stloc.s local(0x0012)
+069c leave.s 1708
+069e ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+06a4 ldloc.s local(0x0014)
+06a6 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+06ab endfinally None
+06ac ldloc.s local(0x0012)
+06ae ldloc.s local(0x0013)
+06b0 ldloc.s local(0x0015)
+06b2 call token(0x060000F0) .<Module>::APIV3EngineInterface.Functions.searchCloud
+06b7 ret None
+06b8 ldarg.2 None
+06b9 ldstr 'assetParamBinding'
+06be call token(0x0A000025) System.String::op_Equality
+06c3 brfalse 1856
+06c8 ldarg.3 None
+06c9 ldstr 'assetParamBinding_GroupIDKey'
+06ce callvirt token(0x0A00001B) .::get_Item
+06d3 call token(0x0A00001A) System.Convert::ToString
+06d8 stloc.s local(0x0011)
+06da ldarg.3 None
+06db ldstr 'assetParamBinding_ParamIDKey'
+06e0 callvirt token(0x0A00001B) .::get_Item
+06e5 call token(0x0A00001A) System.Convert::ToString
+06ea stloc.s local(0x0010)
+06ec ldloca.s local(0x0053)
+06ee stloc.s local(0x000F)
+06f0 ldloca.s local(0x0052)
+06f2 stloc.s local(0x000E)
+06f4 ldarg.0 None
+06f5 ldloca.s local(0x0053)
+06f7 ldloc.s local(0x0010)
+06f9 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+06fe stloc.s local(0x000D)
+0700 ldarg.0 None
+0701 ldloca.s local(0x0052)
+0703 ldloc.s local(0x0011)
+0705 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+070a stloc.s local(0x000C)
+070c ldarg.0 None
+070d ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+0712 stloc.s local(0x000B)
+0714 leave.s 1828
+0716 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+071c ldloc.s local(0x000E)
+071e call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0723 endfinally None
+0724 leave.s 1844
+0726 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+072c ldloc.s local(0x000F)
+072e call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0733 endfinally None
+0734 ldloc.s local(0x000B)
+0736 ldloc.s local(0x000C)
+0738 ldloc.s local(0x000D)
+073a call token(0x060000EF) .<Module>::APIV3EngineInterface.Functions.bindAssetParamToExternalControl
+073f ret None
+0740 ldarg.2 None
+0741 ldstr 'moveAssetToSlot'
+0746 call token(0x0A000025) System.String::op_Equality
+074b brfalse 1992
+0750 ldarg.3 None
+0751 ldstr 'moveAssetToSlot_StartingSlotKey'
+0756 callvirt token(0x0A00001B) .::get_Item
+075b call token(0x0A00001A) System.Convert::ToString
+0760 stloc.s local(0x000A)
+0762 ldarg.3 None
+0763 ldstr 'moveAssetToSlot_TargetSlotKey'
+0768 callvirt token(0x0A00001B) .::get_Item
+076d call token(0x0A00001A) System.Convert::ToString
+0772 stloc.s local(0x0009)
+0774 ldloca.s local(0x0051)
+0776 stloc.s local(0x0008)
+0778 ldloca.s local(0x0050)
+077a stloc.s local(0x0007)
+077c ldarg.0 None
+077d ldloca.s local(0x0051)
+077f ldloc.s local(0x0009)
+0781 call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+0786 stloc.s local(0x0006)
+0788 ldarg.0 None
+0789 ldloca.s local(0x0050)
+078b ldloc.s local(0x000A)
+078d call token(0x0600015E) EngineCLIWrapper.EngineWrapper::stardardStringForManagedString
+0792 stloc.s local(0x0005)
+0794 ldarg.0 None
+0795 ldfld token(0x04000062) EngineCLIWrapper.EngineWrapper::theEngine
+079a stloc.s local(0x0004)
+079c leave.s 1964
+079e ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+07a4 ldloc.s local(0x0007)
+07a6 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+07ab endfinally None
+07ac leave.s 1980
+07ae ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+07b4 ldloc.s local(0x0008)
+07b6 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+07bb endfinally None
+07bc ldloc.s local(0x0004)
+07be ldloc.s local(0x0005)
+07c0 ldloc.s local(0x0006)
+07c2 call token(0x060000EE) .<Module>::APIV3EngineInterface.Functions.moveSlotAssetToSlot
+07c7 ret None
+07c8 ldc.i4.8 None
+07c9 ret None
+
+FILE EngineCLIWrapper
+{"token": "0x600015a", "name": "EngineCLIWrapper.EngineWrapper::NativeFloatParamValueReceiver", "rva": "0x2974", "offset": "0x1d74", "va": "0x10002974"}
+000c ldarg.0 None
+000d stloc.2 None
+000e ldc.i4.s 16
+0010 ldarg.0 None
+0011 ldc.i4.s 20
+0013 add None
+0014 ldind.i4 None
+0015 ble.un.s 26
+0017 ldc.i4.0 None
+0018 br.s 27
+001a ldc.i4.1 None
+001b conv.u1 None
+001c brfalse.s 33
+001e ldarg.0 None
+001f ldind.i4 None
+0020 stloc.2 None
+0021 ldloc.2 None
+0022 newobj token(0x0A00001F) System.String::.ctor
+0027 stloc.s local(0x0004)
+0029 ldarg.1 None
+002a stloc.1 None
+002b ldc.i4.s 16
+002d ldarg.1 None
+002e ldc.i4.s 20
+0030 add None
+0031 ldind.i4 None
+0032 ble.un.s 55
+0034 ldc.i4.0 None
+0035 br.s 56
+0037 ldc.i4.1 None
+0038 conv.u1 None
+0039 brfalse.s 62
+003b ldarg.1 None
+003c ldind.i4 None
+003d stloc.1 None
+003e ldloc.1 None
+003f newobj token(0x0A00001F) System.String::.ctor
+0044 stloc.3 None
+0045 ldsfld token(0x0400005D) EngineCLIWrapper.EngineWrapper::<backing_store>SendFloat
+004a stloc.0 None
+004b ldloc.0 None
+004c brfalse.s 89
+004e ldloc.0 None
+004f ldloc.s local(0x0004)
+0051 ldloc.3 None
+0052 ldarg.2 None
+0053 ldarg.3 None
+0054 callvirt token(0x06000138) EngineCLIWrapper.FloatParamValueSender::Invoke
+0059 leave.s 104
+005b ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0061 ldarg.0 None
+0062 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0067 endfinally None
+0068 nop None
+0069 ldarg.0 None
+006a call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+006f leave.s 126
+0071 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+0077 ldarg.0 None
+0078 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+007d endfinally None
+007e leave.s 141
+0080 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0086 ldarg.1 None
+0087 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+008c endfinally None
+008d nop None
+008e ldarg.1 None
+008f call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+0094 leave.s 163
+0096 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+009c ldarg.1 None
+009d call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+00a2 endfinally None
+00a3 ret None
+
+FILE EngineCLIWrapper
+{"token": "0x600015b", "name": "EngineCLIWrapper.EngineWrapper::NativeIntParamValueReceiver", "rva": "0x2a7c", "offset": "0x1e7c", "va": "0x10002a7c"}
+000c ldarg.0 None
+000d stloc.2 None
+000e ldc.i4.s 16
+0010 ldarg.0 None
+0011 ldc.i4.s 20
+0013 add None
+0014 ldind.i4 None
+0015 ble.un.s 26
+0017 ldc.i4.0 None
+0018 br.s 27
+001a ldc.i4.1 None
+001b conv.u1 None
+001c brfalse.s 33
+001e ldarg.0 None
+001f ldind.i4 None
+0020 stloc.2 None
+0021 ldloc.2 None
+0022 newobj token(0x0A00001F) System.String::.ctor
+0027 stloc.s local(0x0004)
+0029 ldarg.1 None
+002a stloc.1 None
+002b ldc.i4.s 16
+002d ldarg.1 None
+002e ldc.i4.s 20
+0030 add None
+0031 ldind.i4 None
+0032 ble.un.s 55
+0034 ldc.i4.0 None
+0035 br.s 56
+0037 ldc.i4.1 None
+0038 conv.u1 None
+0039 brfalse.s 62
+003b ldarg.1 None
+003c ldind.i4 None
+003d stloc.1 None
+003e ldloc.1 None
+003f newobj token(0x0A00001F) System.String::.ctor
+0044 stloc.3 None
+0045 ldsfld token(0x0400005E) EngineCLIWrapper.EngineWrapper::<backing_store>sendInt
+004a stloc.0 None
+004b ldloc.0 None
+004c brfalse.s 89
+004e ldloc.0 None
+004f ldloc.s local(0x0004)
+0051 ldloc.3 None
+0052 ldarg.2 None
+0053 ldarg.3 None
+0054 callvirt token(0x0600013C) EngineCLIWrapper.IntParamValueSender::Invoke
+0059 leave.s 104
+005b ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0061 ldarg.0 None
+0062 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0067 endfinally None
+0068 nop None
+0069 ldarg.0 None
+006a call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+006f leave.s 126
+0071 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+0077 ldarg.0 None
+0078 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+007d endfinally None
+007e leave.s 141
+0080 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0086 ldarg.1 None
+0087 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+008c endfinally None
+008d nop None
+008e ldarg.1 None
+008f call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+0094 leave.s 163
+0096 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+009c ldarg.1 None
+009d call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+00a2 endfinally None
+00a3 ret None
+
+FILE EngineCLIWrapper
+{"token": "0x600015c", "name": "EngineCLIWrapper.EngineWrapper::NativeBoolParamValueReceiver", "rva": "0x2b84", "offset": "0x1f84", "va": "0x10002b84"}
+000c ldarg.0 None
+000d stloc.2 None
+000e ldc.i4.s 16
+0010 ldarg.0 None
+0011 ldc.i4.s 20
+0013 add None
+0014 ldind.i4 None
+0015 ble.un.s 26
+0017 ldc.i4.0 None
+0018 br.s 27
+001a ldc.i4.1 None
+001b conv.u1 None
+001c brfalse.s 33
+001e ldarg.0 None
+001f ldind.i4 None
+0020 stloc.2 None
+0021 ldloc.2 None
+0022 newobj token(0x0A00001F) System.String::.ctor
+0027 stloc.s local(0x0004)
+0029 ldarg.1 None
+002a stloc.1 None
+002b ldc.i4.s 16
+002d ldarg.1 None
+002e ldc.i4.s 20
+0030 add None
+0031 ldind.i4 None
+0032 ble.un.s 55
+0034 ldc.i4.0 None
+0035 br.s 56
+0037 ldc.i4.1 None
+0038 conv.u1 None
+0039 brfalse.s 62
+003b ldarg.1 None
+003c ldind.i4 None
+003d stloc.1 None
+003e ldloc.1 None
+003f newobj token(0x0A00001F) System.String::.ctor
+0044 stloc.3 None
+0045 ldsfld token(0x0400005F) EngineCLIWrapper.EngineWrapper::<backing_store>sendBool
+004a stloc.0 None
+004b ldloc.0 None
+004c brfalse.s 89
+004e ldloc.0 None
+004f ldloc.s local(0x0004)
+0051 ldloc.3 None
+0052 ldarg.2 None
+0053 ldarg.3 None
+0054 callvirt token(0x06000140) EngineCLIWrapper.BoolParamValueSender::Invoke
+0059 leave.s 104
+005b ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0061 ldarg.0 None
+0062 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0067 endfinally None
+0068 nop None
+0069 ldarg.0 None
+006a call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+006f leave.s 126
+0071 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+0077 ldarg.0 None
+0078 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+007d endfinally None
+007e leave.s 141
+0080 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0086 ldarg.1 None
+0087 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+008c endfinally None
+008d nop None
+008e ldarg.1 None
+008f call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+0094 leave.s 163
+0096 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+009c ldarg.1 None
+009d call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+00a2 endfinally None
+00a3 ret None
+
+FILE EngineCLIWrapper
+{"token": "0x600015d", "name": "EngineCLIWrapper.EngineWrapper::NativeStringParamValueReceiver", "rva": "0x2c8c", "offset": "0x208c", "va": "0x10002c8c"}
+000c ldarg.0 None
+000d stloc.3 None
+000e ldc.i4.s 16
+0010 ldarg.0 None
+0011 ldc.i4.s 20
+0013 add None
+0014 ldind.i4 None
+0015 ble.un.s 26
+0017 ldc.i4.0 None
+0018 br.s 27
+001a ldc.i4.1 None
+001b conv.u1 None
+001c brfalse.s 33
+001e ldarg.0 None
+001f ldind.i4 None
+0020 stloc.3 None
+0021 ldloc.3 None
+0022 newobj token(0x0A00001F) System.String::.ctor
+0027 stloc.s local(0x0006)
+0029 ldarg.1 None
+002a stloc.2 None
+002b ldc.i4.s 16
+002d ldarg.1 None
+002e ldc.i4.s 20
+0030 add None
+0031 ldind.i4 None
+0032 ble.un.s 55
+0034 ldc.i4.0 None
+0035 br.s 56
+0037 ldc.i4.1 None
+0038 conv.u1 None
+0039 brfalse.s 62
+003b ldarg.1 None
+003c ldind.i4 None
+003d stloc.2 None
+003e ldloc.2 None
+003f newobj token(0x0A00001F) System.String::.ctor
+0044 stloc.s local(0x0005)
+0046 ldarg.2 None
+0047 stloc.1 None
+0048 ldc.i4.s 16
+004a ldarg.2 None
+004b ldc.i4.s 20
+004d add None
+004e ldind.i4 None
+004f ble.un.s 84
+0051 ldc.i4.0 None
+0052 br.s 85
+0054 ldc.i4.1 None
+0055 conv.u1 None
+0056 brfalse.s 91
+0058 ldarg.2 None
+0059 ldind.i4 None
+005a stloc.1 None
+005b ldloc.1 None
+005c newobj token(0x0A00001F) System.String::.ctor
+0061 stloc.s local(0x0004)
+0063 ldsfld token(0x04000060) EngineCLIWrapper.EngineWrapper::<backing_store>SendString
+0068 stloc.0 None
+0069 ldloc.0 None
+006a brfalse.s 121
+006c ldloc.0 None
+006d ldloc.s local(0x0006)
+006f ldloc.s local(0x0005)
+0071 ldloc.s local(0x0004)
+0073 ldarg.3 None
+0074 callvirt token(0x06000144) EngineCLIWrapper.StringParamValueSender::Invoke
+0079 leave.s 136
+007b ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+0081 ldarg.0 None
+0082 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+0087 endfinally None
+0088 nop None
+0089 ldarg.0 None
+008a call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+008f leave.s 158
+0091 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+0097 ldarg.0 None
+0098 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+009d endfinally None
+009e leave.s 173
+00a0 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+00a6 ldarg.1 None
+00a7 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+00ac endfinally None
+00ad nop None
+00ae ldarg.1 None
+00af call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+00b4 leave.s 195
+00b6 ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+00bc ldarg.1 None
+00bd call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+00c2 endfinally None
+00c3 leave.s 210
+00c5 ldftn token(0x06000034) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >.{dtor}
+00cb ldarg.2 None
+00cc call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+00d1 endfinally None
+00d2 nop None
+00d3 ldarg.2 None
+00d4 call token(0x0600004E) .<Module>::std.basic_string<char,std::char_traits<char>,std::allocator<char> >._Tidy_deallocate
+00d9 leave.s 232
+00db ldftn token(0x06000038) .<Module>::std._String_alloc<std::_String_base_types<char,std::allocator<char> > >.{dtor}
+00e1 ldarg.2 None
+00e2 call token(0x060000C1) .<Module>::___CxxCallUnwindDtor
+00e7 endfinally None
+00e8 ret None
+
+FILE Spider_V_Remote
+{"token": "0x600000d", "name": "WindowsCommon.EngineInterface.ParamValueServer::createEngine", "rva": "0x239c", "offset": "0x59c", "va": "0x40239c"}
+000c ldarg.0 None
+000d ldftn token(0x06000012) WindowsCommon.EngineInterface.ParamValueServer::setFloatValue
+0013 newobj token(0x0A000042) EngineCLIWrapper.FloatParamValueSender::.ctor
+0018 call token(0x0A000043) EngineCLIWrapper.EngineWrapper::add_SendFloat
+001d ldarg.0 None
+001e ldftn token(0x06000013) WindowsCommon.EngineInterface.ParamValueServer::setIntValue
+0024 newobj token(0x0A000044) EngineCLIWrapper.IntParamValueSender::.ctor
+0029 call token(0x0A000045) EngineCLIWrapper.EngineWrapper::add_sendInt
+002e ldarg.0 None
+002f ldftn token(0x06000014) WindowsCommon.EngineInterface.ParamValueServer::setBoolValue
+0035 newobj token(0x0A000046) EngineCLIWrapper.BoolParamValueSender::.ctor
+003a call token(0x0A000047) EngineCLIWrapper.EngineWrapper::add_sendBool
+003f ldarg.0 None
+0040 ldftn token(0x06000015) WindowsCommon.EngineInterface.ParamValueServer::setStringValue
+0046 newobj token(0x0A000048) EngineCLIWrapper.StringParamValueSender::.ctor
+004b call token(0x0A000049) EngineCLIWrapper.EngineWrapper::add_SendString
+0050 ldarg.0 None
+0051 ldftn token(0x06000016) WindowsCommon.EngineInterface.ParamValueServer::setDictionaryValue
+0057 newobj token(0x0A00004A) EngineCLIWrapper.DictionaryParamValueSender::.ctor
+005c call token(0x0A00004B) EngineCLIWrapper.EngineWrapper::add_SendDictionary
+0061 ldarg.0 None
+0062 newobj token(0x0A00004C) EngineCLIWrapper.EngineWrapper::.ctor
+0067 stfld token(0x04000101) WindowsCommon.EngineInterface.ParamValueServer::theEngine
+006c ret None
+
+FILE Spider_V_Remote
+{"token": "0x6000011", "name": "WindowsCommon.EngineInterface.ParamValueServer::processSetParamValue", "rva": "0x2758", "offset": "0x958", "va": "0x402758"}
+000c ldarg.0 None
+000d ldfld token(0x040000FF) WindowsCommon.EngineInterface.ParamValueServer::appParamTree
+0012 ldarg.1 None
+0013 callvirt token(0x0A000051) .::ContainsKey
+0018 brfalse.s 120
+001a ldarg.0 None
+001b ldfld token(0x040000FF) WindowsCommon.EngineInterface.ParamValueServer::appParamTree
+0020 ldarg.1 None
+0021 callvirt token(0x0A000058) .::get_Item
+0026 ldarg.2 None
+0027 callvirt token(0x0A000059) .::ContainsKey
+002c brfalse.s 120
+002e ldarg.0 None
+002f ldfld token(0x040000FF) WindowsCommon.EngineInterface.ParamValueServer::appParamTree
+0034 ldarg.1 None
+0035 callvirt token(0x0A000058) .::get_Item
+003a ldarg.2 None
+003b callvirt token(0x0A00005A) .::get_Item
+0040 call token(0x2B000003) 
+0045 callvirt token(0x0A00005B) .::GetEnumerator
+004a stloc.0 None
+004b br.s 95
+004d ldloca.s local(0x0000)
+004f call token(0x0A00005C) .::get_Current
+0054 ldarg.1 None
+0055 ldarg.2 None
+0056 ldarg.3 None
+0057 ldarg.s argument(0x0004)
+0059 callvirt token(0x06000027) WindowsCommon.EngineInterface.Interfaces.ParamValueContainerInterface::setParamValue
+005e pop None
+005f ldloca.s local(0x0000)
+0061 call token(0x0A00005D) .::MoveNext
+0066 brtrue.s 77
+0068 leave.s 120
+006a ldloca.s local(0x0000)
+006c constrained. token(0x1B00000D) 
+0072 callvirt token(0x0A000031) System.IDisposable::Dispose
+0077 endfinally None
+0078 ret None
+
+FILE Spider_V_Remote
+{"token": "0x6000012", "name": "WindowsCommon.EngineInterface.ParamValueServer::setFloatValue", "rva": "0x27e4", "offset": "0x9e4", "va": "0x4027e4"}
+0001 ldarg.0 None
+0002 ldarg.1 None
+0003 ldarg.2 None
+0004 ldarg.3 None
+0005 box token(0x01000096) 
+000a ldarg.s argument(0x0004)
+000c call token(0x06000011) WindowsCommon.EngineInterface.ParamValueServer::processSetParamValue
+0011 ret None
+
+FILE Spider_V_Remote
+{"token": "0x6000017", "name": "WindowsCommon.EngineInterface.ParamValueServer::setFloatParamValue", "rva": "0x2827", "offset": "0xa27", "va": "0x402827"}
+0001 ldarg.0 None
+0002 ldfld token(0x04000102) WindowsCommon.EngineInterface.ParamValueServer::engineIsTerminating
+0007 brfalse.s 11
+0009 ldc.i4.2 None
+000a ret None
+000b ldarg.0 None
+000c ldfld token(0x04000101) WindowsCommon.EngineInterface.ParamValueServer::theEngine
+0011 ldarg.1 None
+0012 ldarg.2 None
+0013 ldarg.3 None
+0014 callvirt token(0x0A000063) EngineCLIWrapper.EngineWrapper::setFloatParamValue
+0019 ret None
+
+FILE Spider_V_Remote
+{"token": "0x600031d", "name": "MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::sendLowParamValue", "rva": "0x1a768", "offset": "0x18968", "va": "0x41a768"}
+000c ldarg.0 None
+000d ldfld token(0x040003DC) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValueServer
+0012 ldarg.0 None
+0013 ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0018 ldarg.0 None
+0019 ldfld token(0x040003A7) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::rangeLowIndex
+001e callvirt token(0x0A00008E) .::get_Item
+0023 ldfld token(0x0A000050) .::Item1
+0028 ldarg.0 None
+0029 ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+002e ldarg.0 None
+002f ldfld token(0x040003A7) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::rangeLowIndex
+0034 callvirt token(0x0A00008E) .::get_Item
+0039 ldfld token(0x0A000055) .::Item2
+003e ldarg.0 None
+003f ldfld token(0x040003E0) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::lowParamValue
+0044 callvirt token(0x06000017) WindowsCommon.EngineInterface.ParamValueServer::setFloatParamValue
+0049 brfalse.s 166
+004b ldc.i4.5 None
+004c newarr token(0x01000093) 
+0051 dup None
+0052 ldc.i4.0 None
+0053 ldstr '!!!ParamControlManager failed to set paramValue on engine for groupID '
+0058 stelem.ref None
+0059 dup None
+005a ldc.i4.1 None
+005b ldarg.0 None
+005c ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0061 ldarg.0 None
+0062 ldfld token(0x040003A7) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::rangeLowIndex
+0067 callvirt token(0x0A00008E) .::get_Item
+006c ldfld token(0x0A000050) .::Item1
+0071 stelem.ref None
+0072 dup None
+0073 ldc.i4.2 None
+0074 ldstr ' and paramID '
+0079 stelem.ref None
+007a dup None
+007b ldc.i4.3 None
+007c ldarg.0 None
+007d ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0082 ldarg.0 None
+0083 ldfld token(0x040003A7) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::rangeLowIndex
+0088 callvirt token(0x0A00008E) .::get_Item
+008d ldfld token(0x0A000055) .::Item2
+0092 stelem.ref None
+0093 dup None
+0094 ldc.i4.4 None
+0095 ldstr '!!!'
+009a stelem.ref None
+009b call token(0x0A0001D0) System.String::Concat
+00a0 call token(0x0A0000B3) System.Console::WriteLine
+00a5 ret None
+00a6 ldarg.0 None
+00a7 ldarg.0 None
+00a8 ldfld token(0x040003E0) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::lowParamValue
+00ad stfld token(0x040003B2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::lastTransmittedLowParamValue
+00b2 ret None
+
+FILE Spider_V_Remote
+{"token": "0x600032a", "name": "MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::sendValuesToEngine", "rva": "0x1b8b4", "offset": "0x19ab4", "va": "0x41b8b4"}
+000c ldarg.0 None
+000d ldfld token(0x040003B9) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::_linkedParameters
+0012 brfalse.s 82
+0014 ldarg.0 None
+0015 ldfld token(0x040003B9) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::_linkedParameters
+001a callvirt token(0x0A000222) .::GetEnumerator
+001f stloc.0 None
+0020 br.s 57
+0022 ldloca.s local(0x0000)
+0024 call token(0x0A000223) .::get_Current
+0029 ldfld token(0x0A000224) .::Item3
+002e ldarg.0 None
+002f ldfld token(0x040003DF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValue
+0034 callvirt token(0x0600031F) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::setUIToParamValue
+0039 ldloca.s local(0x0000)
+003b call token(0x0A000225) .::MoveNext
+0040 brtrue.s 34
+0042 leave.s 82
+0044 ldloca.s local(0x0000)
+0046 constrained. token(0x1B000038) 
+004c callvirt token(0x0A000031) System.IDisposable::Dispose
+0051 endfinally None
+0052 ldarg.0 None
+0053 ldc.i4.0 None
+0054 call token(0x0600032B) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::setEditState
+0059 ldarg.0 None
+005a ldfld token(0x040003B8) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::controlType
+005f ldc.i4.1 None
+0060 bne.un 369
+0065 ldarg.0 None
+0066 ldfld token(0x040003B2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::lastTransmittedLowParamValue
+006b ldarg.0 None
+006c ldfld token(0x040003E0) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::lowParamValue
+0071 ceq None
+0073 ldc.i4.0 None
+0074 ceq None
+0076 ldarg.0 None
+0077 ldfld token(0x040003B3) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::lastTransmittedHighParamValue
+007c ldarg.0 None
+007d ldfld token(0x040003E1) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::highParamValue
+0082 ceq None
+0084 ldc.i4.0 None
+0085 ceq None
+0087 stloc.1 None
+0088 brfalse.s 202
+008a ldarg.0 None
+008b call token(0x0600031D) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::sendLowParamValue
+0090 ldloc.1 None
+0091 brfalse 962
+0096 ldarg.0 None
+0097 ldflda token(0x040003AF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::throttleDelta
+009c call token(0x0A000226) System.TimeSpan::get_TotalSeconds
+00a1 newobj token(0x0A0000A1) System.Timers.Timer::.ctor
+00a6 dup None
+00a7 ldc.i4.0 None
+00a8 callvirt token(0x0A0000A2) System.Timers.Timer::set_AutoReset
+00ad dup None
+00ae ldarg.0 None
+00af ldftn token(0x0600031C) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::sendHighParamValueDelayed
+00b5 newobj token(0x0A0000A4) System.Timers.ElapsedEventHandler::.ctor
+00ba callvirt token(0x0A0000A5) System.Timers.Timer::add_Elapsed
+00bf ldc.i4.1 None
+00c0 callvirt token(0x0A0000A3) System.Timers.Timer::set_Enabled
+00c5 br 962
+00ca ldloc.1 None
+00cb brfalse 962
+00d0 ldarg.0 None
+00d1 ldfld token(0x040003DC) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValueServer
+00d6 ldarg.0 None
+00d7 ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+00dc ldarg.0 None
+00dd ldfld token(0x040003A8) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::rangeHighIndex
+00e2 callvirt token(0x0A00008E) .::get_Item
+00e7 ldfld token(0x0A000050) .::Item1
+00ec ldarg.0 None
+00ed ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+00f2 ldarg.0 None
+00f3 ldfld token(0x040003A8) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::rangeHighIndex
+00f8 callvirt token(0x0A00008E) .::get_Item
+00fd ldfld token(0x0A000055) .::Item2
+0102 ldarg.0 None
+0103 ldfld token(0x040003E1) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::highParamValue
+0108 callvirt token(0x06000017) WindowsCommon.EngineInterface.ParamValueServer::setFloatParamValue
+010d brfalse 962
+0112 ldc.i4.5 None
+0113 newarr token(0x01000093) 
+0118 dup None
+0119 ldc.i4.0 None
+011a ldstr '!!!ParamValueContainerDelegate failed to set paramValue on engine for groupID '
+011f stelem.ref None
+0120 dup None
+0121 ldc.i4.1 None
+0122 ldarg.0 None
+0123 ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0128 ldarg.0 None
+0129 ldfld token(0x040003A8) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::rangeHighIndex
+012e callvirt token(0x0A00008E) .::get_Item
+0133 ldfld token(0x0A000050) .::Item1
+0138 stelem.ref None
+0139 dup None
+013a ldc.i4.2 None
+013b ldstr ' and paramID '
+0140 stelem.ref None
+0141 dup None
+0142 ldc.i4.3 None
+0143 ldarg.0 None
+0144 ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0149 ldarg.0 None
+014a ldfld token(0x040003A8) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::rangeHighIndex
+014f callvirt token(0x0A00008E) .::get_Item
+0154 ldfld token(0x0A000055) .::Item2
+0159 stelem.ref None
+015a dup None
+015b ldc.i4.4 None
+015c ldstr '!!!'
+0161 stelem.ref None
+0162 call token(0x0A0001D0) System.String::Concat
+0167 call token(0x0A0000B3) System.Console::WriteLine
+016c br 962
+0171 ldarg.0 None
+0172 ldfld token(0x040003B8) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::controlType
+0177 brtrue 962
+017c ldarg.0 None
+017d ldfld token(0x040003CF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::isIntParam
+0182 brfalse 533
+0187 ldarg.0 None
+0188 ldfld token(0x040003DC) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValueServer
+018d ldarg.0 None
+018e ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0193 ldc.i4.0 None
+0194 callvirt token(0x0A00008E) .::get_Item
+0199 ldfld token(0x0A000050) .::Item1
+019e ldarg.0 None
+019f ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+01a4 ldc.i4.0 None
+01a5 callvirt token(0x0A00008E) .::get_Item
+01aa ldfld token(0x0A000055) .::Item2
+01af ldarg.0 None
+01b0 ldfld token(0x040003DF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValue
+01b5 conv.i4 None
+01b6 callvirt token(0x06000018) WindowsCommon.EngineInterface.ParamValueServer::setIntParamValue
+01bb brfalse 666
+01c0 ldc.i4.5 None
+01c1 newarr token(0x01000093) 
+01c6 dup None
+01c7 ldc.i4.0 None
+01c8 ldstr '!!!ParamValueContainerDelegate failed to set paramValue on engine for groupID '
+01cd stelem.ref None
+01ce dup None
+01cf ldc.i4.1 None
+01d0 ldarg.0 None
+01d1 ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+01d6 ldc.i4.0 None
+01d7 callvirt token(0x0A00008E) .::get_Item
+01dc ldfld token(0x0A000050) .::Item1
+01e1 stelem.ref None
+01e2 dup None
+01e3 ldc.i4.2 None
+01e4 ldstr ' and paramID '
+01e9 stelem.ref None
+01ea dup None
+01eb ldc.i4.3 None
+01ec ldarg.0 None
+01ed ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+01f2 ldc.i4.0 None
+01f3 callvirt token(0x0A00008E) .::get_Item
+01f8 ldfld token(0x0A000055) .::Item2
+01fd stelem.ref None
+01fe dup None
+01ff ldc.i4.4 None
+0200 ldstr '!!!'
+0205 stelem.ref None
+0206 call token(0x0A0001D0) System.String::Concat
+020b call token(0x0A0000B3) System.Console::WriteLine
+0210 br 666
+0215 ldarg.0 None
+0216 ldfld token(0x040003DC) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValueServer
+021b ldarg.0 None
+021c ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0221 ldc.i4.0 None
+0222 callvirt token(0x0A00008E) .::get_Item
+0227 ldfld token(0x0A000050) .::Item1
+022c ldarg.0 None
+022d ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0232 ldc.i4.0 None
+0233 callvirt token(0x0A00008E) .::get_Item
+0238 ldfld token(0x0A000055) .::Item2
+023d ldarg.0 None
+023e ldfld token(0x040003DF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValue
+0243 callvirt token(0x06000017) WindowsCommon.EngineInterface.ParamValueServer::setFloatParamValue
+0248 brfalse.s 666
+024a ldc.i4.5 None
+024b newarr token(0x01000093) 
+0250 dup None
+0251 ldc.i4.0 None
+0252 ldstr '!!!ParamValueContainerDelegate failed to set paramValue on engine for groupID '
+0257 stelem.ref None
+0258 dup None
+0259 ldc.i4.1 None
+025a ldarg.0 None
+025b ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0260 ldc.i4.0 None
+0261 callvirt token(0x0A00008E) .::get_Item
+0266 ldfld token(0x0A000050) .::Item1
+026b stelem.ref None
+026c dup None
+026d ldc.i4.2 None
+026e ldstr ' and paramID '
+0273 stelem.ref None
+0274 dup None
+0275 ldc.i4.3 None
+0276 ldarg.0 None
+0277 ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+027c ldc.i4.0 None
+027d callvirt token(0x0A00008E) .::get_Item
+0282 ldfld token(0x0A000055) .::Item2
+0287 stelem.ref None
+0288 dup None
+0289 ldc.i4.4 None
+028a ldstr '!!!'
+028f stelem.ref None
+0290 call token(0x0A0001D0) System.String::Concat
+0295 call token(0x0A0000B3) System.Console::WriteLine
+029a ldarg.0 None
+029b ldfld token(0x040003B9) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::_linkedParameters
+02a0 brfalse 962
+02a5 ldarg.0 None
+02a6 ldfld token(0x040003B9) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::_linkedParameters
+02ab callvirt token(0x0A000222) .::GetEnumerator
+02b0 stloc.0 None
+02b1 br 934
+02b6 ldloca.s local(0x0000)
+02b8 call token(0x0A000223) .::get_Current
+02bd stloc.2 None
+02be ldarg.0 None
+02bf ldfld token(0x040003CF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::isIntParam
+02c4 brfalse.s 826
+02c6 ldarg.0 None
+02c7 ldfld token(0x040003DC) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValueServer
+02cc ldloc.2 None
+02cd ldfld token(0x0A000227) .::Item1
+02d2 ldloc.2 None
+02d3 ldfld token(0x0A000228) .::Item2
+02d8 ldarg.0 None
+02d9 ldfld token(0x040003DF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValue
+02de conv.i4 None
+02df callvirt token(0x06000018) WindowsCommon.EngineInterface.ParamValueServer::setIntParamValue
+02e4 brfalse.s 805
+02e6 ldc.i4.5 None
+02e7 newarr token(0x01000093) 
+02ec dup None
+02ed ldc.i4.0 None
+02ee ldstr '!!!ParamValueContainerDelegate failed to set paramValue on engine for groupID '
+02f3 stelem.ref None
+02f4 dup None
+02f5 ldc.i4.1 None
+02f6 ldloc.2 None
+02f7 ldfld token(0x0A000227) .::Item1
+02fc stelem.ref None
+02fd dup None
+02fe ldc.i4.2 None
+02ff ldstr ' and paramID '
+0304 stelem.ref None
+0305 dup None
+0306 ldc.i4.3 None
+0307 ldloc.2 None
+0308 ldfld token(0x0A000228) .::Item2
+030d stelem.ref None
+030e dup None
+030f ldc.i4.4 None
+0310 ldstr '!!!'
+0315 stelem.ref None
+0316 call token(0x0A0001D0) System.String::Concat
+031b call token(0x0A0000B3) System.Console::WriteLine
+0320 br 934
+0325 ldloc.2 None
+0326 ldfld token(0x0A000224) .::Item3
+032b ldarg.0 None
+032c ldfld token(0x040003DF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValue
+0331 conv.i4 None
+0332 conv.r4 None
+0333 callvirt token(0x0600031F) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::setUIToParamValue
+0338 br.s 934
+033a ldarg.0 None
+033b ldfld token(0x040003DC) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValueServer
+0340 ldloc.2 None
+0341 ldfld token(0x0A000227) .::Item1
+0346 ldloc.2 None
+0347 ldfld token(0x0A000228) .::Item2
+034c ldarg.0 None
+034d ldfld token(0x040003DF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValue
+0352 callvirt token(0x06000017) WindowsCommon.EngineInterface.ParamValueServer::setFloatParamValue
+0357 brfalse.s 917
+0359 ldc.i4.5 None
+035a newarr token(0x01000093) 
+035f dup None
+0360 ldc.i4.0 None
+0361 ldstr '!!!ParamValueContainerDelegate failed to set paramValue on engine for groupID '
+0366 stelem.ref None
+0367 dup None
+0368 ldc.i4.1 None
+0369 ldloc.2 None
+036a ldfld token(0x0A000227) .::Item1
+036f stelem.ref None
+0370 dup None
+0371 ldc.i4.2 None
+0372 ldstr ' and paramID '
+0377 stelem.ref None
+0378 dup None
+0379 ldc.i4.3 None
+037a ldloc.2 None
+037b ldfld token(0x0A000228) .::Item2
+0380 stelem.ref None
+0381 dup None
+0382 ldc.i4.4 None
+0383 ldstr '!!!'
+0388 stelem.ref None
+0389 call token(0x0A0001D0) System.String::Concat
+038e call token(0x0A0000B3) System.Console::WriteLine
+0393 br.s 934
+0395 ldloc.2 None
+0396 ldfld token(0x0A000224) .::Item3
+039b ldarg.0 None
+039c ldfld token(0x040003DF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValue
+03a1 callvirt token(0x0600031F) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::setUIToParamValue
+03a6 ldloca.s local(0x0000)
+03a8 call token(0x0A000225) .::MoveNext
+03ad brtrue 694
+03b2 leave.s 962
+03b4 ldloca.s local(0x0000)
+03b6 constrained. token(0x1B000038) 
+03bc callvirt token(0x0A000031) System.IDisposable::Dispose
+03c1 endfinally None
+03c2 ldarg.0 None
+03c3 ldc.i4.1 None
+03c4 call token(0x0600032B) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::setEditState
+03c9 ret None
+
+FILE Spider_V_Remote
+{"token": "0x600032c", "name": "MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::setParamValue", "rva": "0x1bcc0", "offset": "0x19ec0", "va": "0x41bcc0"}
+000c ldarg.1 None
+000d ldarg.0 None
+000e ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0013 ldc.i4.0 None
+0014 callvirt token(0x0A00008E) .::get_Item
+0019 ldfld token(0x0A000050) .::Item1
+001e call token(0x0A0000FD) System.String::op_Inequality
+0023 brfalse.s 39
+0025 ldc.i4.8 None
+0026 ret None
+0027 ldarg.0 None
+0028 ldfld token(0x040003DD) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValueEditState
+002d ldc.i4.1 None
+002e bne.un 241
+0033 ldarg.0 None
+0034 ldfld token(0x040003B8) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::controlType
+0039 ldc.i4.1 None
+003a bne.un.s 160
+003c ldarg.2 None
+003d ldarg.0 None
+003e ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0043 ldarg.0 None
+0044 ldfld token(0x040003A7) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::rangeLowIndex
+0049 callvirt token(0x0A00008E) .::get_Item
+004e ldfld token(0x0A000055) .::Item2
+0053 call token(0x0A000034) System.String::op_Equality
+0058 brfalse.s 110
+005a ldarg.0 None
+005b ldarg.3 None
+005c unbox.any token(0x01000096) 
+0061 stfld token(0x040003E0) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::lowParamValue
+0066 ldarg.0 None
+0067 call token(0x06000320) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::updateUIWithLocalValues
+006c ldc.i4.0 None
+006d ret None
+006e ldarg.2 None
+006f ldarg.0 None
+0070 ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+0075 ldarg.0 None
+0076 ldfld token(0x040003A8) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::rangeHighIndex
+007b callvirt token(0x0A00008E) .::get_Item
+0080 ldfld token(0x0A000055) .::Item2
+0085 call token(0x0A000034) System.String::op_Equality
+008a brfalse.s 238
+008c ldarg.0 None
+008d ldarg.3 None
+008e unbox.any token(0x01000096) 
+0093 stfld token(0x040003E1) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::highParamValue
+0098 ldarg.0 None
+0099 call token(0x06000320) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::updateUIWithLocalValues
+009e ldc.i4.0 None
+009f ret None
+00a0 ldarg.0 None
+00a1 ldfld token(0x040003B8) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::controlType
+00a6 brtrue.s 238
+00a8 ldarg.2 None
+00a9 ldarg.0 None
+00aa ldfld token(0x040003E2) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramDefs
+00af ldc.i4.0 None
+00b0 callvirt token(0x0A00008E) .::get_Item
+00b5 ldfld token(0x0A000055) .::Item2
+00ba call token(0x0A000034) System.String::op_Equality
+00bf brfalse.s 238
+00c1 ldarg.3 None
+00c2 isinst token(0x01000096) 
+00c7 brfalse.s 215
+00c9 ldarg.0 None
+00ca ldarg.3 None
+00cb unbox.any token(0x01000096) 
+00d0 stfld token(0x040003DF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValue
+00d5 br.s 230
+00d7 ldarg.3 None
+00d8 unbox.any token(0x01000094) 
+00dd stloc.0 None
+00de ldarg.0 None
+00df ldloc.0 None
+00e0 conv.r4 None
+00e1 stfld token(0x040003DF) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::paramValue
+00e6 ldarg.0 None
+00e7 call token(0x06000320) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::updateUIWithLocalValues
+00ec ldc.i4.0 None
+00ed ret None
+00ee ldc.i4.s 9
+00f0 ret None
+00f1 ldc.i4.1 None
+00f2 ret None
+
+FILE Spider_V_Remote
+{"token": "0x6000340", "name": "MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.SingleSlider::onMouseMove", "rva": "0x1ce64", "offset": "0x1b064", "va": "0x41ce64"}
+000c ldarg.0 None
+000d ldfld token(0x040003F3) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.SingleSlider::sliderThumb
+0012 callvirt token(0x0A0001F9) System.Windows.UIElement::get_IsMouseCaptured
+0017 brtrue.s 26
+0019 ret None
+001a ldarg.2 None
+001b ldarg.0 None
+001c ldfld token(0x040003EA) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.SingleSlider::parentGrid
+0021 callvirt token(0x0A000124) System.Windows.Input.MouseEventArgs::GetPosition
+0026 stloc.0 None
+0027 ldloca.s local(0x0001)
+0029 ldloca.s local(0x0000)
+002b call token(0x0A00010B) System.Windows.Point::get_X
+0030 ldarg.0 None
+0031 ldflda token(0x040003E7) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.SingleSlider::lastMousePos
+0036 call token(0x0A00010B) System.Windows.Point::get_X
+003b sub None
+003c ldloca.s local(0x0000)
+003e call token(0x0A00010C) System.Windows.Point::get_Y
+0043 ldarg.0 None
+0044 ldflda token(0x040003E7) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.SingleSlider::lastMousePos
+0049 call token(0x0A00010C) System.Windows.Point::get_Y
+004e sub None
+004f call token(0x0A00010D) System.Windows.Point::.ctor
+0054 ldarg.0 None
+0055 ldfld token(0x040003E5) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.SingleSlider::controlInteractionInterface
+005a ldsfld token(0x040003AB) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.ParamControlManager::thumbIdentifier
+005f ldloc.1 None
+0060 callvirt token(0x0600035C) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.Interfaces.ControlInteractionInterface::mouseDraggedOnControlWithID
+0065 ldarg.0 None
+0066 ldloc.0 None
+0067 stfld token(0x040003E7) MainApplication.WindowsCommon.Editor.SignalFlowItemEditor.ModelParamEditor.SingleSlider::lastMousePos
+006c ret None

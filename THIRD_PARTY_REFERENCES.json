@@ -1,0 +1,47 @@
+[
+  {
+    "name": "line6-tt",
+    "url": "https://github.com/Jmainguy/line6-tt.git",
+    "commit": "1bce01b3f8dbaa4a472f48b330c7cc8883139287"
+  },
+  {
+    "name": "ldr-utils",
+    "url": "https://github.com/neuschaefer/ldr-utils.git",
+    "commit": "2253efd17594fe3943ed31cf37b0dce0f61ada8c"
+  },
+  {
+    "name": "podgo",
+    "url": "https://github.com/MarByteBeep/podgo.git",
+    "commit": "7317864cb113d5fd9572b0651577a47358083192"
+  },
+  {
+    "name": "adi-bf707-uboot",
+    "url": "https://github.com/DAB-Embedded/adi-bf707-uboot.git",
+    "commit": "a6d9b80a40f4fd1baa6c8d8c5e7894b9aa8e9908"
+  },
+  {
+    "name": "ldr2dxe",
+    "url": "https://github.com/tabascoeye/ldr2dxe.git",
+    "commit": "b9d2a6c049f55b79439b9f3a5e93f6b402421b26"
+  },
+  {
+    "name": "bf70x-bootloader",
+    "url": "https://github.com/deanm1278/bf70x-bootloader.git",
+    "commit": "bd8cb63e952ef568ba827f56673e1dd7447fcc1e"
+  },
+  {
+    "name": "ldrshrink",
+    "url": "https://github.com/majbthrd/ldrshrink.git",
+    "commit": "daad8de9afa7c0cac8e77eac764590d142964fce"
+  },
+  {
+    "name": "spiderv-web-control",
+    "url": "https://github.com/leevilaukka/spiderv-web-control.git",
+    "commit": "d392eea2a35bec47447481ccc1866db8b28cc174"
+  },
+  {
+    "name": "gesture-bf707",
+    "url": "https://github.com/flyingzhao/Gesture-Recognition-BF707.git",
+    "commit": "d2f586c168d5e703a80f6d815ccfe28712c0f8d4"
+  }
+]

@@ -1,0 +1,13 @@
+PASS: structural probe positive controls (Cortex-M/A32/ELF/PE) and malformed headers.
+identity {'elf': 0, 'pe': 0, 'cortex_m_vector_candidates': 0, 'a32_vector_candidates': 0}
+xor_ff {'elf': 0, 'pe': 0, 'cortex_m_vector_candidates': 0, 'a32_vector_candidates': 0}
+reverse_bits_in_each_byte {'elf': 0, 'pe': 0, 'cortex_m_vector_candidates': 0, 'a32_vector_candidates': 0}
+reverse_bytes_in_2_byte_words {'elf': 0, 'pe': 0, 'cortex_m_vector_candidates': 0, 'a32_vector_candidates': 0}
+reverse_bytes_in_4_byte_words {'elf': 0, 'pe': 0, 'cortex_m_vector_candidates': 0, 'a32_vector_candidates': 0}
+reverse_bytes_in_6_byte_words {'elf': 0, 'pe': 0, 'cortex_m_vector_candidates': 0, 'a32_vector_candidates': 0}
+reverse_bytes_in_8_byte_words {'elf': 0, 'pe': 0, 'cortex_m_vector_candidates': 0, 'a32_vector_candidates': 0}
+rotate_each_byte_left_1 {'elf': 0, 'pe': 0, 'cortex_m_vector_candidates': 0, 'a32_vector_candidates': 0}
+rotate_each_byte_left_2 {'elf': 0, 'pe': 0, 'cortex_m_vector_candidates': 0, 'a32_vector_candidates': 0}
+rotate_each_byte_left_3 {'elf': 0, 'pe': 0, 'cortex_m_vector_candidates': 0, 'a32_vector_candidates': 0}
+rotate_each_byte_left_4 {'elf': 0, 'pe': 0, 'cortex_m_vector_candidates': 0, 'a32_vector_candidates': 0}
+Original hash unchanged: 58b058a7310a8f397d5c029f6dc0c0b07e5128dbd027548c060eba797647a0b4

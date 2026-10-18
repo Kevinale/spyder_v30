@@ -1,0 +1,32 @@
+[
+  {
+    "text": "decrypted_size",
+    "offset": "0x174a7c",
+    "va": "0x1017647c"
+  },
+  {
+    "text": "decompressed_size",
+    "offset": "0x174a8c",
+    "va": "0x1017648c"
+  },
+  {
+    "text": "UI processor firmware",
+    "offset": "0x12c570",
+    "va": "0x1012df70"
+  },
+  {
+    "text": "BootedFirmwareType",
+    "offset": "0x171d08",
+    "va": "0x10173708"
+  },
+  {
+    "text": "updateDeviceFirmware",
+    "offset": "0x170710",
+    "va": "0x10172110"
+  },
+  {
+    "text": "main",
+    "offset": "0x171cbc",
+    "va": "0x101736bc"
+  }
+]

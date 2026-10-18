@@ -1,0 +1,17 @@
+{
+  "continuous_version_real_windows": "PENDING",
+  "prior_20s_owner_result": "Gateway audio and four knobs confirmed",
+  "checks": [
+    "combined JS syntax",
+    "continuous lifecycle with mock device",
+    "real Lua with simulated REAPER",
+    "existing bounded AmpEnable setter gate",
+    "local authenticated publisher"
+  ],
+  "not_tested": [
+    "Windows PowerShell execution",
+    "continuous hardware session",
+    "latency",
+    "direct monitoring isolation"
+  ]
+}

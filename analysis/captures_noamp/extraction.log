@@ -1,0 +1,30 @@
+
+7-Zip 26.04 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-05
+ 64-bit locale=C.UTF-8 Threads:5 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 3220800 bytes (3146 KiB)
+
+Extracting archive: /workspace/attachments/fa6bbefd-efb4-4ccf-b953-964d23b2d728/SpiderV_NoAmp_Perillas.7z.001
+--
+Path = /workspace/attachments/fa6bbefd-efb4-4ccf-b953-964d23b2d728/SpiderV_NoAmp_Perillas.7z.001
+Type = Split
+Physical Size = 3220800
+Volumes = 1
+Total Physical Size = 3220800
+----
+Path = SpiderV_NoAmp_Perillas.7z
+Size = 3220800
+--
+Path = SpiderV_NoAmp_Perillas.7z
+Type = 7z
+Physical Size = 3220800
+Headers Size = 162
+Method = LZMA2:25
+Solid = -
+Blocks = 1
+
+Everything is Ok
+
+Size:       84637284
+Compressed: 3220800

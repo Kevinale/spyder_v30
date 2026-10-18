@@ -1,0 +1,4 @@
+PASS: same USB config in 3 captures; one stereo capture and playback stream; feedback endpoint distinguished; no standard selector; No Amp Volume-only; 79 amp assets without declared @enabled; managed routing literal hits=0
+captures 22 2784
+captures_tone 22 2784
+captures_noamp 22 2784

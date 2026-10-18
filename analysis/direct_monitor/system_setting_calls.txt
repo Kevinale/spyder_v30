@@ -1,0 +1,2015 @@
+CALL_SLOT 1004e2ba CALL dword ptr [EAX + 0x98] FUN_1004e2a0
+CALL_SLOT 100515e1 CALL dword ptr [EAX + 0x94] FUN_10051340
+CALL_SLOT 10051bda CALL dword ptr [EAX + 0x94] FUN_10051a60
+CALL_SLOT 10052541 CALL dword ptr [EAX + 0x94] FUN_100522b0
+CALL_SLOT 10052b1a CALL dword ptr [EAX + 0x94] FUN_100529a0
+CALL_SLOT 10055ae4 CALL dword ptr [EAX + 0x94] FUN_10055150
+CALL_SLOT 10055cab CALL dword ptr [EAX + 0x98] FUN_10055c80
+CALL_SLOT 10058cb4 CALL dword ptr [EAX + 0x94] FUN_100585e0
+CALL_SLOT 10058dbb CALL dword ptr [EAX + 0x98] FUN_10058d90
+CALL_SLOT 1007a3d8 CALL dword ptr [EAX + 0x94] FUN_10079f30
+FUNCTION 1004e2a0 FUN_1004e2a0
+
+undefined4 __fastcall FUN_1004e2a0(int *param_1)
+
+{
+  undefined4 uVar1;
+  
+  if (*(HANDLE *)param_1[2] != (HANDLE)0x0) {
+    WaitForSingleObject(*(HANDLE *)param_1[2],0xffffffff);
+  }
+  uVar1 = (**(code **)(*param_1 + 0x98))();
+  if (*(HANDLE *)param_1[2] != (HANDLE)0x0) {
+    ReleaseMutex(*(HANDLE *)param_1[2]);
+  }
+  return uVar1;
+}
+
+
+FUNCTION 10051340 FUN_10051340
+
+int __fastcall FUN_10051340(int *param_1)
+
+{
+  int *piVar1;
+  undefined4 *puVar2;
+  int iVar3;
+  int iVar4;
+  undefined **local_18;
+  int *local_14;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_100c4ab2;
+  local_10 = ExceptionList;
+  ExceptionList = &local_10;
+  iVar3 = 0;
+  local_18 = L6String::vftable;
+  local_14 = (int *)0x0;
+  FUN_1001d100(&local_18,"Line 6");
+  local_8 = 0;
+  FUN_1001d1a0(param_1 + 0x11,&local_18);
+  piVar1 = local_14;
+  local_8 = 0xffffffff;
+  if (local_14 != (int *)0x0) {
+    LOCK();
+    iVar4 = *local_14;
+    *local_14 = *local_14 + -1;
+    UNLOCK();
+    if (iVar4 == 1 || iVar4 + -1 < 0) {
+      if (local_14[3] != 0) {
+        free((void *)local_14[4]);
+      }
+      FUN_100bee96(piVar1);
+    }
+  }
+  if ((param_1[0x1d] == 3) || (param_1[0x1d] != 4)) {
+    iVar3 = -0x2395;
+  }
+  else if (param_1[0x1e] == 0) {
+    iVar3 = -0x2329;
+  }
+  else if (*(short *)(param_1[0x1e] + 2) == 0x5067) {
+    param_1[4] = 0x110003;
+    FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018af40);
+    local_18 = L6String::vftable;
+    local_14 = (int *)0x0;
+    FUN_1001d100(&local_18,"FBV 3");
+    local_8 = 1;
+    FUN_1001d1a0(param_1 + 0x13,&local_18);
+    piVar1 = local_14;
+    local_8 = 0xffffffff;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar4 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar4 == 1 || iVar4 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(piVar1);
+      }
+    }
+    local_18 = L6String::vftable;
+    local_14 = (int *)0x0;
+    FUN_1001d100(&local_18,"X16");
+    local_8 = 2;
+    FUN_1001d1a0(param_1 + 0xd,&local_18);
+    piVar1 = local_14;
+    local_8 = 0xffffffff;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar4 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar4 == 1 || iVar4 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(piVar1);
+      }
+    }
+    param_1[5] = 0;
+    FUN_1001d1a0(param_1 + 0x24,&PTR_vftable_1018ae98);
+    FUN_1001d1a0(param_1 + 0x26,&PTR_vftable_1018ae98);
+  }
+  else {
+    iVar3 = -0x238e;
+  }
+  if (iVar3 < 0) {
+    ExceptionList = local_10;
+    return iVar3;
+  }
+  piVar1 = (int *)FUN_100bee66(0xb8);
+  local_8 = 3;
+  local_14 = piVar1;
+  memset(piVar1,0,0xb8);
+  puVar2 = FUN_10059bd0(piVar1,param_1 + 0x1d,1,param_1 + 0x24,param_1 + 0x26);
+  local_8 = 0xffffffff;
+  param_1[0x2d] = (int)puVar2;
+  if (puVar2 == (undefined4 *)0x0) {
+    iVar3 = -2;
+  }
+  else {
+    iVar4 = 0;
+    do {
+      iVar3 = (**(code **)(*(int *)param_1[0x2d] + 0x38))();
+      if (iVar3 == 0) break;
+      FUN_10047e30();
+      Sleep(1000);
+      iVar4 = iVar4 + 1;
+    } while (iVar4 < 0x19);
+    (**(code **)(*(int *)param_1[0x2d] + 0x24))(param_1 + 0x29);
+  }
+  if (iVar3 < 0) {
+    (**(code **)(*param_1 + 0x78))();
+  }
+  else {
+    (**(code **)(*param_1 + 0x28))(1,8);
+  }
+  if (iVar3 == 0) {
+    iVar3 = (**(code **)(*param_1 + 0x20))();
+    if (iVar3 == 0) {
+      iVar3 = (**(code **)(*param_1 + 0x94))();
+      if (iVar3 == -0x238c) {
+        local_18 = L6String::vftable;
+        local_14 = (int *)0x0;
+        FUN_1001d100(&local_18,"Update Required");
+        local_8 = 4;
+        FUN_1001d1a0(param_1 + 0x19,&local_18);
+        piVar1 = local_14;
+        local_8 = 0xffffffff;
+        if (local_14 != (int *)0x0) {
+          LOCK();
+          iVar3 = *local_14;
+          *local_14 = *local_14 + -1;
+          UNLOCK();
+          if (iVar3 == 1 || iVar3 + -1 < 0) {
+            if (local_14[3] != 0) {
+              free((void *)local_14[4]);
+            }
+            FUN_100bee96(piVar1);
+          }
+        }
+        (**(code **)(*param_1 + 0x28))(5,0x14);
+        iVar3 = 0;
+      }
+      (**(code **)(*param_1 + 0x24))();
+    }
+  }
+  (**(code **)(*param_1 + 0x10))();
+  ExceptionList = local_10;
+  return iVar3;
+}
+
+
+FUNCTION 10051a60 FUN_10051a60
+
+/* WARNING: Exceeded maximum restarts with more pending */
+
+void __thiscall FUN_10051a60(void *this,undefined4 param_1)
+
+{
+  int *piVar1;
+  uint uVar2;
+  int iVar3;
+  int iVar4;
+  undefined **ppuVar5;
+  undefined **local_34;
+  int *local_30;
+  undefined4 local_2c [2];
+  undefined4 local_24;
+  undefined **local_1c;
+  int *piStack_18;
+  uint local_14;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined1 local_8;
+  undefined3 uStack_7;
+  
+  puStack_c = &LAB_100c4b30;
+  local_10 = ExceptionList;
+  uVar2 = DAT_1018a29c ^ (uint)&stack0xfffffffc;
+  ExceptionList = &local_10;
+  local_2c[0] = 7;
+  local_24 = 0;
+  local_1c = L6String::vftable;
+  piStack_18 = (int *)0x0;
+  iVar4 = -1;
+  local_8 = 1;
+  uStack_7 = 0;
+  local_14 = uVar2;
+  switch(param_1) {
+  case 1:
+    FUN_1001d1a0(&local_1c,&PTR_vftable_1018af08);
+    break;
+  default:
+    goto switchD_10051ac4_caseD_2;
+  case 3:
+    ppuVar5 = &PTR_vftable_1018af38;
+    goto LAB_10051af4;
+  case 4:
+    FUN_1001d1a0(&local_1c,&PTR_vftable_1018aed8);
+    break;
+  case 5:
+    ppuVar5 = &PTR_vftable_1018af80;
+LAB_10051af4:
+    FUN_1001d1a0(&local_1c,ppuVar5);
+    iVar3 = *(int *)((int)this + -0xa0);
+    goto LAB_10051bf9;
+  case 6:
+    goto switchD_10051ac4_caseD_6;
+  }
+LAB_10051bff:
+  FUN_1004f9a0(*(void **)((int)this + -0x9c),(int)this + -0xa0,&local_1c,local_2c);
+switchD_10051ac4_caseD_2:
+  local_1c = L6String::vftable;
+  if (piStack_18 != (int *)0x0) {
+    LOCK();
+    iVar3 = *piStack_18;
+    *piStack_18 = *piStack_18 + iVar4;
+    UNLOCK();
+    iVar4 = iVar3 + -1;
+    if (iVar4 < 1) {
+      if (piStack_18[3] != 0) {
+        free((void *)piStack_18[4]);
+      }
+      FUN_100bee96(piStack_18);
+    }
+    piStack_18 = (int *)0x0;
+  }
+  switch(local_2c[0]) {
+  case 0x10051b1c:
+    break;
+  default:
+    ExceptionList = local_10;
+    __security_check_cookie(local_14 ^ (uint)&stack0xfffffffc);
+    return;
+  }
+switchD_10051ac4_caseD_6:
+                    /* WARNING: This code block may not be properly labeled as switch case */
+  local_34 = L6String::vftable;
+  local_30 = (int *)0x0;
+  FUN_1001d100(&local_34,&DAT_10116cb1);
+  local_8 = 2;
+  FUN_1001d1a0((void *)((int)this + -0x3c),&local_34);
+  piVar1 = local_30;
+  local_8 = 1;
+  if (local_30 != (int *)0x0) {
+    LOCK();
+    iVar3 = *local_30;
+    *local_30 = *local_30 + iVar4;
+    UNLOCK();
+    if (iVar3 == 1 || iVar3 + -1 < 0) {
+      if (local_30[3] != 0) {
+        free((void *)local_30[4]);
+      }
+      FUN_100bee96(piVar1);
+    }
+  }
+  local_34 = L6String::vftable;
+  local_30 = (int *)0x0;
+  FUN_1001d100(&local_34,&DAT_10116cb1);
+  local_8 = 3;
+  FUN_1001d1a0((void *)((int)this + 8),&local_34);
+  piVar1 = local_30;
+  local_8 = 1;
+  if (local_30 != (int *)0x0) {
+    LOCK();
+    iVar3 = *local_30;
+    *local_30 = *local_30 + iVar4;
+    UNLOCK();
+    if (iVar3 == 1 || iVar3 + -1 < 0) {
+      if (local_30[3] != 0) {
+        free((void *)local_30[4]);
+      }
+      FUN_100bee96(piVar1);
+    }
+  }
+  (**(code **)(*(int *)((int)this + -0xa0) + 0x94))();
+  FUN_1001d1a0(&local_1c,&PTR_vftable_1018af18);
+  iVar3 = *(int *)((int)this + -0xa0);
+LAB_10051bf9:
+  (**(code **)(iVar3 + 0x90))(uVar2);
+  goto LAB_10051bff;
+}
+
+
+FUNCTION 100522b0 FUN_100522b0
+
+int __fastcall FUN_100522b0(int *param_1)
+
+{
+  int *piVar1;
+  undefined4 *puVar2;
+  int iVar3;
+  int iVar4;
+  undefined **local_18;
+  int *local_14;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_100c4ab2;
+  local_10 = ExceptionList;
+  ExceptionList = &local_10;
+  iVar3 = 0;
+  local_18 = L6String::vftable;
+  local_14 = (int *)0x0;
+  FUN_1001d100(&local_18,"Line 6");
+  local_8 = 0;
+  FUN_1001d1a0(param_1 + 0x11,&local_18);
+  piVar1 = local_14;
+  local_8 = 0xffffffff;
+  if (local_14 != (int *)0x0) {
+    LOCK();
+    iVar4 = *local_14;
+    *local_14 = *local_14 + -1;
+    UNLOCK();
+    if (iVar4 == 1 || iVar4 + -1 < 0) {
+      if (local_14[3] != 0) {
+        free((void *)local_14[4]);
+      }
+      FUN_100bee96(piVar1);
+    }
+  }
+  if ((param_1[0x1d] == 3) || (param_1[0x1d] != 4)) {
+    iVar3 = -0x2395;
+  }
+  else if (param_1[0x1e] == 0) {
+    iVar3 = -0x2329;
+  }
+  else if (*(short *)(param_1[0x1e] + 2) == 0x4243) {
+    local_18 = L6String::vftable;
+    local_14 = (int *)0x0;
+    FUN_1001d100(&local_18,"POD_HD2");
+    local_8 = 1;
+    FUN_1001d1a0(param_1 + 0x13,&local_18);
+    piVar1 = local_14;
+    local_8 = 0xffffffff;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar4 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar4 == 1 || iVar4 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(piVar1);
+      }
+    }
+    local_18 = L6String::vftable;
+    local_14 = (int *)0x0;
+    FUN_1001d100(&local_18,"X15");
+    local_8 = 2;
+    FUN_1001d1a0(param_1 + 0xd,&local_18);
+    piVar1 = local_14;
+    local_8 = 0xffffffff;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar4 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar4 == 1 || iVar4 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(piVar1);
+      }
+    }
+    param_1[5] = 0;
+    FUN_1001d1a0(param_1 + 0x24,&PTR_vftable_1018b080);
+    FUN_1001d1a0(param_1 + 0x26,&PTR_vftable_1018b080);
+  }
+  else {
+    iVar3 = -0x238e;
+  }
+  if (iVar3 < 0) {
+    ExceptionList = local_10;
+    return iVar3;
+  }
+  piVar1 = (int *)FUN_100bee66(0xb8);
+  local_8 = 3;
+  local_14 = piVar1;
+  memset(piVar1,0,0xb8);
+  puVar2 = FUN_10059bd0(piVar1,param_1 + 0x1d,1,param_1 + 0x24,param_1 + 0x26);
+  local_8 = 0xffffffff;
+  param_1[0x2d] = (int)puVar2;
+  if (puVar2 == (undefined4 *)0x0) {
+    iVar3 = -2;
+  }
+  else {
+    iVar4 = 0;
+    do {
+      iVar3 = (**(code **)(*(int *)param_1[0x2d] + 0x38))();
+      if (iVar3 == 0) break;
+      FUN_10047e30();
+      Sleep(1000);
+      iVar4 = iVar4 + 1;
+    } while (iVar4 < 0x19);
+    (**(code **)(*(int *)param_1[0x2d] + 0x24))(param_1 + 0x29);
+  }
+  if (iVar3 < 0) {
+    (**(code **)(*param_1 + 0x78))();
+  }
+  else {
+    (**(code **)(*param_1 + 0x28))(1,8);
+  }
+  if (iVar3 == 0) {
+    iVar3 = (**(code **)(*param_1 + 0x20))();
+    if (iVar3 == 0) {
+      iVar3 = (**(code **)(*param_1 + 0x94))();
+      if (iVar3 == -0x238c) {
+        local_18 = L6String::vftable;
+        local_14 = (int *)0x0;
+        FUN_1001d100(&local_18,"Update Required");
+        local_8 = 4;
+        FUN_1001d1a0(param_1 + 0x19,&local_18);
+        piVar1 = local_14;
+        local_8 = 0xffffffff;
+        if (local_14 != (int *)0x0) {
+          LOCK();
+          iVar3 = *local_14;
+          *local_14 = *local_14 + -1;
+          UNLOCK();
+          if (iVar3 == 1 || iVar3 + -1 < 0) {
+            if (local_14[3] != 0) {
+              free((void *)local_14[4]);
+            }
+            FUN_100bee96(piVar1);
+          }
+        }
+        (**(code **)(*param_1 + 0x28))(5,0x14);
+        iVar3 = 0;
+      }
+      (**(code **)(*param_1 + 0x24))();
+    }
+  }
+  (**(code **)(*param_1 + 0x10))();
+  ExceptionList = local_10;
+  return iVar3;
+}
+
+
+FUNCTION 100529a0 FUN_100529a0
+
+/* WARNING: Exceeded maximum restarts with more pending */
+
+void __thiscall FUN_100529a0(void *this,undefined4 param_1)
+
+{
+  int *piVar1;
+  uint uVar2;
+  int iVar3;
+  int iVar4;
+  undefined **ppuVar5;
+  undefined **local_34;
+  int *local_30;
+  undefined4 local_2c [2];
+  undefined4 local_24;
+  undefined **local_1c;
+  int *piStack_18;
+  uint local_14;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined1 local_8;
+  undefined3 uStack_7;
+  
+  puStack_c = &LAB_100c4b30;
+  local_10 = ExceptionList;
+  uVar2 = DAT_1018a29c ^ (uint)&stack0xfffffffc;
+  ExceptionList = &local_10;
+  local_2c[0] = 7;
+  local_24 = 0;
+  local_1c = L6String::vftable;
+  piStack_18 = (int *)0x0;
+  iVar4 = -1;
+  local_8 = 1;
+  uStack_7 = 0;
+  local_14 = uVar2;
+  switch(param_1) {
+  case 1:
+    FUN_1001d1a0(&local_1c,&PTR_vftable_1018b108);
+    break;
+  default:
+    goto switchD_10052a04_caseD_2;
+  case 3:
+    ppuVar5 = &PTR_vftable_1018b138;
+    goto LAB_10052a34;
+  case 4:
+    FUN_1001d1a0(&local_1c,&PTR_vftable_1018b0d8);
+    break;
+  case 5:
+    ppuVar5 = &PTR_vftable_1018b180;
+LAB_10052a34:
+    FUN_1001d1a0(&local_1c,ppuVar5);
+    iVar3 = *(int *)((int)this + -0xa0);
+    goto LAB_10052b39;
+  case 6:
+    goto switchD_10052a04_caseD_6;
+  }
+LAB_10052b3f:
+  FUN_1004f9a0(*(void **)((int)this + -0x9c),(int)this + -0xa0,&local_1c,local_2c);
+switchD_10052a04_caseD_2:
+  local_1c = L6String::vftable;
+  if (piStack_18 != (int *)0x0) {
+    LOCK();
+    iVar3 = *piStack_18;
+    *piStack_18 = *piStack_18 + iVar4;
+    UNLOCK();
+    iVar4 = iVar3 + -1;
+    if (iVar4 < 1) {
+      if (piStack_18[3] != 0) {
+        free((void *)piStack_18[4]);
+      }
+      FUN_100bee96(piStack_18);
+    }
+    piStack_18 = (int *)0x0;
+  }
+  switch(local_2c[0]) {
+  case 0x10052a5c:
+    break;
+  default:
+    ExceptionList = local_10;
+    __security_check_cookie(local_14 ^ (uint)&stack0xfffffffc);
+    return;
+  }
+switchD_10052a04_caseD_6:
+                    /* WARNING: This code block may not be properly labeled as switch case */
+  local_34 = L6String::vftable;
+  local_30 = (int *)0x0;
+  FUN_1001d100(&local_34,&DAT_10116cb1);
+  local_8 = 2;
+  FUN_1001d1a0((void *)((int)this + -0x3c),&local_34);
+  piVar1 = local_30;
+  local_8 = 1;
+  if (local_30 != (int *)0x0) {
+    LOCK();
+    iVar3 = *local_30;
+    *local_30 = *local_30 + iVar4;
+    UNLOCK();
+    if (iVar3 == 1 || iVar3 + -1 < 0) {
+      if (local_30[3] != 0) {
+        free((void *)local_30[4]);
+      }
+      FUN_100bee96(piVar1);
+    }
+  }
+  local_34 = L6String::vftable;
+  local_30 = (int *)0x0;
+  FUN_1001d100(&local_34,&DAT_10116cb1);
+  local_8 = 3;
+  FUN_1001d1a0((void *)((int)this + 8),&local_34);
+  piVar1 = local_30;
+  local_8 = 1;
+  if (local_30 != (int *)0x0) {
+    LOCK();
+    iVar3 = *local_30;
+    *local_30 = *local_30 + iVar4;
+    UNLOCK();
+    if (iVar3 == 1 || iVar3 + -1 < 0) {
+      if (local_30[3] != 0) {
+        free((void *)local_30[4]);
+      }
+      FUN_100bee96(piVar1);
+    }
+  }
+  (**(code **)(*(int *)((int)this + -0xa0) + 0x94))();
+  FUN_1001d1a0(&local_1c,&PTR_vftable_1018b118);
+  iVar3 = *(int *)((int)this + -0xa0);
+LAB_10052b39:
+  (**(code **)(iVar3 + 0x90))(uVar2);
+  goto LAB_10052b3f;
+}
+
+
+FUNCTION 10055150 FUN_10055150
+
+int __fastcall FUN_10055150(int *param_1)
+
+{
+  DWORD DVar1;
+  int *piVar2;
+  undefined4 *puVar3;
+  int iVar4;
+  int iVar5;
+  undefined **local_18;
+  int *local_14;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_100c4e82;
+  local_10 = ExceptionList;
+  ExceptionList = &local_10;
+  iVar5 = 0;
+  local_18 = L6String::vftable;
+  local_14 = (int *)0x0;
+  FUN_1001d100(&local_18,"Line 6");
+  local_8 = 0;
+  FUN_1001d1a0(param_1 + 0x11,&local_18);
+  local_8 = 0xffffffff;
+  if (local_14 != (int *)0x0) {
+    LOCK();
+    iVar4 = *local_14;
+    *local_14 = *local_14 + -1;
+    UNLOCK();
+    if (iVar4 == 1 || iVar4 + -1 < 0) {
+      if (local_14[3] != 0) {
+        free((void *)local_14[4]);
+      }
+      FUN_100bee96(local_14);
+    }
+  }
+  iVar4 = param_1[0x1d];
+  if (iVar4 == 3) {
+LAB_100559ca:
+    iVar5 = -0x2395;
+    goto LAB_100559cf;
+  }
+  if (iVar4 == 2) {
+    param_1[4] = 0x220000;
+    param_1[0x86] = 0;
+    FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bad8);
+    local_18 = L6String::vftable;
+    local_14 = (int *)0x0;
+    FUN_1001d100(&local_18,"Spider V");
+    local_8 = 1;
+    FUN_1001d1a0(param_1 + 0x13,&local_18);
+    local_8 = 0xffffffff;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar4 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar4 == 1 || iVar4 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(local_14);
+      }
+    }
+    local_18 = L6String::vftable;
+    local_14 = (int *)0x0;
+    FUN_1001d100(&local_18,"Spider V 30");
+    local_8 = 2;
+    FUN_1001d1a0(param_1 + 0xd,&local_18);
+    local_8 = 0xffffffff;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar4 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar4 == 1 || iVar4 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(local_14);
+      }
+    }
+    param_1[5] = 0x1000300;
+    FUN_1001d1a0(param_1 + 0x24,&PTR_vftable_1018bb64);
+    FUN_1001d1a0(param_1 + 0x26,&PTR_vftable_1018bb64);
+    goto LAB_100559cf;
+  }
+  if (iVar4 == 1) {
+    param_1[4] = 0x220000;
+    param_1[0x86] = 0;
+    FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bad8);
+    local_18 = L6String::vftable;
+    local_14 = (int *)0x0;
+    FUN_1001d100(&local_18,"Spider V");
+    local_8 = 3;
+    FUN_1001d1a0(param_1 + 0x13,&local_18);
+    local_8 = 0xffffffff;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar4 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar4 == 1 || iVar4 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(local_14);
+      }
+    }
+    local_18 = L6String::vftable;
+    local_14 = (int *)0x0;
+    FUN_1001d100(&local_18,"Spider V 30");
+    local_8 = 4;
+    FUN_1001d1a0(param_1 + 0xd,&local_18);
+    local_8 = 0xffffffff;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar4 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar4 == 1 || iVar4 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(local_14);
+      }
+    }
+  }
+  else {
+    if (iVar4 == 5) {
+      param_1[4] = 0x220000;
+      FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bad8);
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V");
+      local_8 = 5;
+      FUN_1001d1a0(param_1 + 0x13,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V 30");
+      local_8 = 6;
+      FUN_1001d1a0(param_1 + 0xd,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      param_1[0x86] = 0;
+      goto LAB_100554fa;
+    }
+    if (iVar4 != 4) goto LAB_100559ca;
+    if (param_1[0x1e] == 0) {
+      iVar5 = -0x2329;
+      goto LAB_100559cf;
+    }
+    switch(*(undefined2 *)(param_1[0x1e] + 2)) {
+    case 0x5068:
+      param_1[4] = 0x220000;
+      FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bad8);
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V");
+      local_8 = 9;
+      FUN_1001d1a0(param_1 + 0x13,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V 30");
+      local_8 = 10;
+      break;
+    case 0x5069:
+      param_1[4] = 0x220001;
+      FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018ba28);
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V");
+      local_8 = 0xb;
+      FUN_1001d1a0(param_1 + 0x13,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V 60");
+      local_8 = 0xc;
+      break;
+    case 0x506a:
+      param_1[4] = 0x220002;
+      FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bc14);
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V");
+      local_8 = 0xd;
+      FUN_1001d1a0(param_1 + 0x13,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V 120");
+      local_8 = 0xe;
+      break;
+    case 0x506b:
+      param_1[4] = 0x220003;
+      FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bbd4);
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V");
+      local_8 = 0xf;
+      FUN_1001d1a0(param_1 + 0x13,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V 240");
+      local_8 = 0x10;
+      break;
+    case 0x506c:
+      param_1[4] = 0x220004;
+      FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018ba08);
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V");
+      local_8 = 0x11;
+      FUN_1001d1a0(param_1 + 0x13,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V 240HC");
+      local_8 = 0x12;
+      break;
+    default:
+      iVar5 = -0x238e;
+      goto LAB_100559cf;
+    case 0x506f:
+      param_1[4] = 0x220005;
+      FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bb3c);
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V");
+      local_8 = 7;
+      FUN_1001d1a0(param_1 + 0x13,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"Spider V 20");
+      local_8 = 8;
+      FUN_1001d1a0(param_1 + 0xd,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      param_1[5] = 0x1000100;
+      param_1[0x86] = 0x1000100;
+      goto LAB_10055501;
+    }
+    FUN_1001d1a0(param_1 + 0xd,&local_18);
+    local_8 = 0xffffffff;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar4 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar4 == 1 || iVar4 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(local_14);
+      }
+    }
+    param_1[0x86] = 0x1000300;
+  }
+LAB_100554fa:
+  param_1[5] = 0x1000300;
+LAB_10055501:
+  FUN_1001d1a0(param_1 + 0x24,&PTR_vftable_1018bbb4);
+  FUN_1001d1a0(param_1 + 0x26,&PTR_vftable_1018bbb4);
+LAB_100559cf:
+  if (-1 < iVar5) {
+    iVar5 = -0x239b;
+    iVar4 = 0;
+    do {
+      if ((*(HANDLE *)param_1[0x38] != (HANDLE)0x0) &&
+         (DVar1 = WaitForSingleObject(*(HANDLE *)param_1[0x38],0), DVar1 == 0)) {
+        iVar5 = 0;
+        break;
+      }
+      FUN_10047e30();
+      Sleep(0xfa);
+      iVar4 = iVar4 + 1;
+    } while (iVar4 < 10);
+    if (-1 < iVar5) {
+      piVar2 = (int *)FUN_100bee66(0xb8);
+      local_8 = 0x13;
+      local_14 = piVar2;
+      memset(piVar2,0,0xb8);
+      puVar3 = FUN_10059bd0(piVar2,param_1 + 0x1d,4,param_1 + 0x24,param_1 + 0x26);
+      local_8 = 0xffffffff;
+      param_1[0x2a] = (int)puVar3;
+      if (puVar3 == (undefined4 *)0x0) {
+        iVar5 = -2;
+      }
+      else {
+        iVar4 = 0;
+        do {
+          iVar5 = (**(code **)(*(int *)param_1[0x2a] + 0x38))();
+          if (iVar5 == 0) break;
+          FUN_10047e30();
+          Sleep(1000);
+          iVar4 = iVar4 + 1;
+        } while (iVar4 < 0x19);
+        (**(code **)(*(int *)param_1[0x2a] + 0x24))(param_1 + 0x29);
+      }
+      if (iVar5 < 0) {
+        (**(code **)(*param_1 + 0x78))();
+      }
+      else {
+        (**(code **)(*param_1 + 0x28))(1,8);
+      }
+      if ((iVar5 == 0) && (iVar5 = (**(code **)(*param_1 + 0x20))(), iVar5 == 0)) {
+        iVar4 = 0;
+        do {
+          iVar5 = (**(code **)(*param_1 + 0x94))();
+          if ((-1 < iVar5) || (iVar5 != -0x24ba)) {
+            if (iVar5 == -0x238c) {
+              local_18 = L6String::vftable;
+              local_14 = (int *)0x0;
+              FUN_1001d100(&local_18,"Update Required");
+              local_8 = 0x17;
+              FUN_1001d1a0(param_1 + 0x19,&local_18);
+              piVar2 = local_14;
+              local_8 = 0xffffffff;
+              if (local_14 != (int *)0x0) {
+                LOCK();
+                iVar5 = *local_14;
+                *local_14 = *local_14 + -1;
+                UNLOCK();
+                if (iVar5 == 1 || iVar5 + -1 < 0) {
+                  if (local_14[3] != 0) {
+                    free((void *)local_14[4]);
+                  }
+                  FUN_100bee96(piVar2);
+                }
+              }
+              (**(code **)(*param_1 + 0x28))(5,4);
+              iVar5 = 0;
+            }
+            break;
+          }
+          iVar4 = iVar4 + 1;
+        } while (iVar4 < 300);
+        (**(code **)(*param_1 + 0x24))();
+      }
+      (**(code **)(*param_1 + 0x10))();
+      if (*(HANDLE *)param_1[0x38] != (HANDLE)0x0) {
+        ReleaseSemaphore(*(HANDLE *)param_1[0x38],1,(LPLONG)0x0);
+      }
+    }
+  }
+  if (*(HANDLE *)param_1[0x85] != (HANDLE)0x0) {
+    SetEvent(*(HANDLE *)param_1[0x85]);
+  }
+  ExceptionList = local_10;
+  return iVar5;
+}
+
+
+FUNCTION 10055c80 FUN_10055c80
+
+int __fastcall FUN_10055c80(int *param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  void *pvVar3;
+  undefined **local_18;
+  int *local_14;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_100c4ea8;
+  local_10 = ExceptionList;
+  ExceptionList = &local_10;
+  iVar2 = (**(code **)(*param_1 + 0x98))(DAT_1018a29c ^ (uint)&stack0xfffffffc);
+  if ((-1 < iVar2) && (param_1[0x3b] != 1)) {
+    (**(code **)(*param_1 + 0x9c))();
+    param_1[5] = param_1[0x45];
+    pvVar3 = (void *)FUN_1005b220(&local_18,param_1[0x45]);
+    local_8 = 0;
+    FUN_1001d1a0(param_1 + 0x19,pvVar3);
+    local_18 = L6String::vftable;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar1 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar1 == 1 || iVar1 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(local_14);
+      }
+    }
+  }
+  ExceptionList = local_10;
+  return iVar2;
+}
+
+
+FUNCTION 100585e0 FUN_100585e0
+
+int __fastcall FUN_100585e0(int *param_1)
+
+{
+  short sVar1;
+  int *piVar2;
+  undefined4 *puVar3;
+  int iVar4;
+  int iVar5;
+  undefined **local_18;
+  int *local_14;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_100c5142;
+  local_10 = ExceptionList;
+  ExceptionList = &local_10;
+  iVar5 = 0;
+  local_18 = L6String::vftable;
+  local_14 = (int *)0x0;
+  FUN_1001d100(&local_18,"Line 6");
+  local_8 = 0;
+  FUN_1001d1a0(param_1 + 0x11,&local_18);
+  local_8 = 0xffffffff;
+  if (local_14 != (int *)0x0) {
+    LOCK();
+    iVar4 = *local_14;
+    *local_14 = *local_14 + -1;
+    UNLOCK();
+    if (iVar4 == 1 || iVar4 + -1 < 0) {
+      if (local_14[3] != 0) {
+        free((void *)local_14[4]);
+      }
+      FUN_100bee96(local_14);
+    }
+  }
+  iVar4 = param_1[0x1d];
+  if (iVar4 == 3) {
+LAB_10058bdc:
+    iVar5 = -0x2395;
+  }
+  else {
+    if (iVar4 == 2) {
+      param_1[4] = 0x230001;
+      FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bf98);
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"A40");
+      local_8 = 1;
+      FUN_1001d1a0(param_1 + 0x13,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"A40-2");
+      local_8 = 2;
+    }
+    else if (iVar4 == 1) {
+      param_1[4] = 0x230001;
+      FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bf98);
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"A40");
+      local_8 = 3;
+      FUN_1001d1a0(param_1 + 0x13,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"A40-2");
+      local_8 = 4;
+    }
+    else {
+      if (iVar4 != 5) {
+        if (iVar4 == 4) {
+          if (param_1[0x1e] == 0) {
+            iVar5 = -0x2329;
+          }
+          else {
+            sVar1 = *(short *)(param_1[0x1e] + 2);
+            if (sVar1 == 0x506d) {
+              param_1[4] = 0x230000;
+              FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018be54);
+              local_18 = L6String::vftable;
+              local_14 = (int *)0x0;
+              FUN_1001d100(&local_18,"A40");
+              local_8 = 7;
+              FUN_1001d1a0(param_1 + 0x13,&local_18);
+              local_8 = 0xffffffff;
+              if (local_14 != (int *)0x0) {
+                LOCK();
+                iVar4 = *local_14;
+                *local_14 = *local_14 + -1;
+                UNLOCK();
+                if (iVar4 == 1 || iVar4 + -1 < 0) {
+                  if (local_14[3] != 0) {
+                    free((void *)local_14[4]);
+                  }
+                  FUN_100bee96(local_14);
+                }
+              }
+              local_18 = L6String::vftable;
+              local_14 = (int *)0x0;
+              FUN_1001d100(&local_18,"A40-1");
+              local_8 = 8;
+            }
+            else {
+              if (sVar1 != 0x506e) {
+                if (sVar1 == 0x5070) {
+                  param_1[4] = 0x230002;
+                  FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bff0);
+                  local_18 = L6String::vftable;
+                  local_14 = (int *)0x0;
+                  FUN_1001d100(&local_18,"A42");
+                  local_8 = 0xb;
+                  FUN_1001d1a0(param_1 + 0x13,&local_18);
+                  local_8 = 0xffffffff;
+                  if (local_14 != (int *)0x0) {
+                    LOCK();
+                    iVar4 = *local_14;
+                    *local_14 = *local_14 + -1;
+                    UNLOCK();
+                    if (iVar4 == 1 || iVar4 + -1 < 0) {
+                      if (local_14[3] != 0) {
+                        free((void *)local_14[4]);
+                      }
+                      FUN_100bee96(local_14);
+                    }
+                  }
+                  local_18 = L6String::vftable;
+                  local_14 = (int *)0x0;
+                  FUN_1001d100(&local_18,"A42");
+                  local_8 = 0xc;
+                  FUN_1001d1a0(param_1 + 0xd,&local_18);
+                  local_8 = 0xffffffff;
+                  if (local_14 != (int *)0x0) {
+                    LOCK();
+                    iVar4 = *local_14;
+                    *local_14 = *local_14 + -1;
+                    UNLOCK();
+                    if (iVar4 == 1 || iVar4 + -1 < 0) {
+                      if (local_14[3] != 0) {
+                        free((void *)local_14[4]);
+                      }
+                      FUN_100bee96(local_14);
+                    }
+                  }
+                  param_1[5] = 0;
+                  FUN_1001d1a0(param_1 + 0x24,&PTR_vftable_1018becc);
+                  FUN_1001d1a0(param_1 + 0x26,&PTR_vftable_1018becc);
+                }
+                else {
+                  iVar5 = -0x238e;
+                }
+                goto LAB_10058be1;
+              }
+              param_1[4] = 0x230001;
+              FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bf98);
+              local_18 = L6String::vftable;
+              local_14 = (int *)0x0;
+              FUN_1001d100(&local_18,"A40");
+              local_8 = 9;
+              FUN_1001d1a0(param_1 + 0x13,&local_18);
+              local_8 = 0xffffffff;
+              if (local_14 != (int *)0x0) {
+                LOCK();
+                iVar4 = *local_14;
+                *local_14 = *local_14 + -1;
+                UNLOCK();
+                if (iVar4 == 1 || iVar4 + -1 < 0) {
+                  if (local_14[3] != 0) {
+                    free((void *)local_14[4]);
+                  }
+                  FUN_100bee96(local_14);
+                }
+              }
+              local_18 = L6String::vftable;
+              local_14 = (int *)0x0;
+              FUN_1001d100(&local_18,"A40-2");
+              local_8 = 10;
+            }
+            FUN_1001d1a0(param_1 + 0xd,&local_18);
+            local_8 = 0xffffffff;
+            if (local_14 != (int *)0x0) {
+              LOCK();
+              iVar4 = *local_14;
+              *local_14 = *local_14 + -1;
+              UNLOCK();
+              if (iVar4 == 1 || iVar4 + -1 < 0) {
+                if (local_14[3] != 0) {
+                  free((void *)local_14[4]);
+                }
+                FUN_100bee96(local_14);
+              }
+            }
+            param_1[5] = 0;
+            FUN_1001d1a0(param_1 + 0x24,&PTR_vftable_1018c030);
+            FUN_1001d1a0(param_1 + 0x26,&PTR_vftable_1018c030);
+          }
+          goto LAB_10058be1;
+        }
+        goto LAB_10058bdc;
+      }
+      param_1[4] = 0x230001;
+      FUN_1001d1a0(param_1 + 0xf,&PTR_vftable_1018bf98);
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"A40");
+      local_8 = 5;
+      FUN_1001d1a0(param_1 + 0x13,&local_18);
+      local_8 = 0xffffffff;
+      if (local_14 != (int *)0x0) {
+        LOCK();
+        iVar4 = *local_14;
+        *local_14 = *local_14 + -1;
+        UNLOCK();
+        if (iVar4 == 1 || iVar4 + -1 < 0) {
+          if (local_14[3] != 0) {
+            free((void *)local_14[4]);
+          }
+          FUN_100bee96(local_14);
+        }
+      }
+      local_18 = L6String::vftable;
+      local_14 = (int *)0x0;
+      FUN_1001d100(&local_18,"A40-2");
+      local_8 = 6;
+    }
+    FUN_1001d1a0(param_1 + 0xd,&local_18);
+    local_8 = 0xffffffff;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar4 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar4 == 1 || iVar4 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(local_14);
+      }
+    }
+    param_1[5] = 0;
+    FUN_1001d1a0(param_1 + 0x24,&PTR_vftable_1018bef4);
+    FUN_1001d1a0(param_1 + 0x26,&PTR_vftable_1018bef4);
+  }
+LAB_10058be1:
+  if (-1 < iVar5) {
+    piVar2 = (int *)FUN_100bee66(0xb8);
+    local_8 = 0xd;
+    local_14 = piVar2;
+    memset(piVar2,0,0xb8);
+    puVar3 = FUN_10059bd0(piVar2,param_1 + 0x1d,4,param_1 + 0x24,param_1 + 0x26);
+    local_8 = 0xffffffff;
+    param_1[0x2a] = (int)puVar3;
+    if (puVar3 == (undefined4 *)0x0) {
+      iVar5 = -2;
+    }
+    else {
+      iVar4 = 0;
+      do {
+        iVar5 = (**(code **)(*(int *)param_1[0x2a] + 0x38))();
+        if (iVar5 == 0) break;
+        FUN_10047e30();
+        Sleep(1000);
+        iVar4 = iVar4 + 1;
+      } while (iVar4 < 0x19);
+      (**(code **)(*(int *)param_1[0x2a] + 0x24))(param_1 + 0x29);
+    }
+    if (iVar5 < 0) {
+      (**(code **)(*param_1 + 0x78))();
+    }
+    else {
+      (**(code **)(*param_1 + 0x28))(1,8);
+    }
+    if ((iVar5 == 0) && (iVar5 = (**(code **)(*param_1 + 0x20))(), iVar5 == 0)) {
+      iVar4 = 0;
+      do {
+        iVar5 = (**(code **)(*param_1 + 0x94))();
+        if ((-1 < iVar5) || (iVar5 != -0x24ba)) {
+          if (iVar5 == -0x238c) {
+            local_18 = L6String::vftable;
+            local_14 = (int *)0x0;
+            FUN_1001d100(&local_18,"Update Required");
+            local_8 = 0x11;
+            FUN_1001d1a0(param_1 + 0x19,&local_18);
+            piVar2 = local_14;
+            local_8 = 0xffffffff;
+            if (local_14 != (int *)0x0) {
+              LOCK();
+              iVar5 = *local_14;
+              *local_14 = *local_14 + -1;
+              UNLOCK();
+              if (iVar5 == 1 || iVar5 + -1 < 0) {
+                if (local_14[3] != 0) {
+                  free((void *)local_14[4]);
+                }
+                FUN_100bee96(piVar2);
+              }
+            }
+            (**(code **)(*param_1 + 0x28))(5,4);
+            iVar5 = 0;
+          }
+          break;
+        }
+        iVar4 = iVar4 + 1;
+      } while (iVar4 < 300);
+      (**(code **)(*param_1 + 0x24))();
+    }
+    (**(code **)(*param_1 + 0x10))();
+  }
+  if (*(HANDLE *)param_1[0x81] != (HANDLE)0x0) {
+    SetEvent(*(HANDLE *)param_1[0x81]);
+  }
+  ExceptionList = local_10;
+  return iVar5;
+}
+
+
+FUNCTION 10058d90 FUN_10058d90
+
+int __fastcall FUN_10058d90(int *param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  void *pvVar3;
+  undefined **local_18;
+  int *local_14;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_100c4ea8;
+  local_10 = ExceptionList;
+  ExceptionList = &local_10;
+  iVar2 = (**(code **)(*param_1 + 0x98))(DAT_1018a29c ^ (uint)&stack0xfffffffc);
+  if ((-1 < iVar2) && (param_1[0x37] != 1)) {
+    (**(code **)(*param_1 + 0x9c))();
+    param_1[5] = param_1[0x41];
+    pvVar3 = (void *)FUN_1005b220(&local_18,param_1[0x41]);
+    local_8 = 0;
+    FUN_1001d1a0(param_1 + 0x19,pvVar3);
+    local_18 = L6String::vftable;
+    if (local_14 != (int *)0x0) {
+      LOCK();
+      iVar1 = *local_14;
+      *local_14 = *local_14 + -1;
+      UNLOCK();
+      if (iVar1 == 1 || iVar1 + -1 < 0) {
+        if (local_14[3] != 0) {
+          free((void *)local_14[4]);
+        }
+        FUN_100bee96(local_14);
+      }
+    }
+  }
+  ExceptionList = local_10;
+  return iVar2;
+}
+
+
+FUNCTION 10079f30 FUN_10079f30
+
+void FUN_10079f30(void *param_1,int *param_2)
+
+{
+  byte bVar1;
+  uint uVar2;
+  undefined4 uVar3;
+  int iVar4;
+  byte *pbVar5;
+  int iVar6;
+  char *pcVar7;
+  byte *pbVar8;
+  uint uVar9;
+  int *piVar10;
+  bool bVar11;
+  undefined4 local_48 [2];
+  undefined **local_40;
+  int *local_3c;
+  int *local_38;
+  undefined8 local_34;
+  int local_2c;
+  int local_28;
+  char *local_24;
+  int local_20;
+  ulonglong local_1c;
+  uint local_14;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  puStack_c = &LAB_100c7d30;
+  local_10 = ExceptionList;
+  local_14 = DAT_1018a29c ^ (uint)&stack0xfffffffc;
+  ExceptionList = &local_10;
+  local_38 = param_2;
+  local_48[0] = 7;
+  local_40 = (undefined **)0x0;
+  local_8 = 0;
+  FUN_100232f0(param_2,local_48);
+  local_8 = 0xffffffff;
+  local_34 = 0;
+  FUN_10023440(param_1,&local_40);
+  local_8 = 1;
+  local_34 = 0x10171938;
+  FUN_1001d1a0(&local_34,&local_40);
+  local_8 = CONCAT31(local_8._1_3_,3);
+  if (local_3c != (int *)0x0) {
+    LOCK();
+    iVar4 = *local_3c;
+    *local_3c = *local_3c + -1;
+    UNLOCK();
+    if (iVar4 == 1 || iVar4 + -1 < 0) {
+      if (local_3c[3] != 0) {
+        free((void *)local_3c[4]);
+      }
+      FUN_100bee96(local_3c);
+    }
+  }
+  local_40 = L6String::vftable;
+  local_3c = (int *)0x0;
+  FUN_1001d100(&local_40,"MasterVolume");
+  uVar2 = FUN_1001d4d0(&local_34,(int)&local_40);
+  piVar10 = local_3c;
+  if (local_3c != (int *)0x0) {
+    LOCK();
+    iVar4 = *local_3c;
+    *local_3c = *local_3c + -1;
+    UNLOCK();
+    if (iVar4 == 1 || iVar4 + -1 < 0) {
+      if (local_3c[3] != 0) {
+        free((void *)local_3c[4]);
+      }
+      FUN_100bee96(piVar10);
+    }
+  }
+  if ((char)uVar2 == '\0') {
+    local_40 = L6String::vftable;
+    local_3c = (int *)0x0;
+    FUN_1001d100(&local_40,"GuitarVolume");
+    uVar2 = FUN_1001d4d0(&local_34,(int)&local_40);
+    piVar10 = local_3c;
+    if (local_3c != (int *)0x0) {
+      LOCK();
+      iVar4 = *local_3c;
+      *local_3c = *local_3c + -1;
+      UNLOCK();
+      if (iVar4 == 1 || iVar4 + -1 < 0) {
+        if (local_3c[3] != 0) {
+          free((void *)local_3c[4]);
+        }
+        FUN_100bee96(piVar10);
+      }
+    }
+    piVar10 = local_34._4_4_;
+    if (((char)uVar2 == '\0') ||
+       ((local_34._4_4_ != (int *)0x0 && ((char *)local_34._4_4_[4] == "GuitOutputGain"))))
+    goto LAB_1007a13f;
+    uVar2 = 0;
+    do {
+      uVar9 = uVar2;
+      uVar2 = uVar9 + 1;
+    } while ("GuitOutputGain"[uVar9 + 1] != '\0');
+    uVar3 = FUN_1001d600(&local_34,uVar9 + 2);
+    if ((char)uVar3 == '\0') goto LAB_1007a480;
+    pcVar7 = "GuitOutputGain";
+  }
+  else {
+    if ((local_34._4_4_ != (int *)0x0) &&
+       (piVar10 = local_34._4_4_, (char *)local_34._4_4_[4] == "Master")) goto LAB_1007a13f;
+    uVar2 = 0;
+    do {
+      uVar9 = uVar2;
+      uVar2 = uVar9 + 1;
+    } while ("Master"[uVar9 + 1] != '\0');
+    uVar3 = FUN_1001d600(&local_34,uVar9 + 2);
+    if ((char)uVar3 == '\0') {
+LAB_1007a480:
+      local_2c = 1;
+                    /* WARNING: Subroutine does not return */
+      _CxxThrowException(&local_2c,(ThrowInfo *)&DAT_10186f18);
+    }
+    pcVar7 = "Master";
+  }
+  piVar10 = local_34._4_4_;
+  FUN_1001d570(local_34._4_4_[4],pcVar7,uVar2);
+  FUN_1001d700((int)&local_34);
+LAB_1007a13f:
+  if (piVar10 == (int *)0x0) {
+    pbVar8 = &DAT_10116cb1;
+  }
+  else {
+    pbVar8 = (byte *)piVar10[4];
+  }
+  iVar4 = FUN_10084100(pbVar8);
+  if (iVar4 == -1) {
+    pcVar7 = "FBVConnected";
+    pbVar5 = pbVar8;
+    do {
+      bVar1 = *pbVar5;
+      bVar11 = bVar1 < (byte)*pcVar7;
+      if (bVar1 != *pcVar7) {
+LAB_1007a1a1:
+        uVar2 = -(uint)bVar11 | 1;
+        goto LAB_1007a1a6;
+      }
+      if (bVar1 == 0) break;
+      bVar1 = pbVar5[1];
+      bVar11 = bVar1 < (byte)pcVar7[1];
+      if (bVar1 != pcVar7[1]) goto LAB_1007a1a1;
+      pbVar5 = pbVar5 + 2;
+      pcVar7 = pcVar7 + 2;
+    } while (bVar1 != 0);
+    uVar2 = 0;
+LAB_1007a1a6:
+    if (uVar2 == 0) {
+      iVar4 = *(int *)(local_2c + 0xe0);
+      if (iVar4 != 0) {
+        local_2c = 0;
+        if (((*(char *)(iVar4 + 0x19) == '\0') || (*(char *)(iVar4 + 0x18) == '\0')) ||
+           (*(int *)(iVar4 + 4) == 0)) {
+          bVar11 = false;
+        }
+        else {
+          bVar11 = true;
+        }
+        if (bVar11) {
+          iVar4 = *(int *)(iVar4 + 4);
+          local_28 = 0;
+          if ((HANDLE)**(undefined4 **)(iVar4 + 8) != (HANDLE)0x0) {
+            WaitForSingleObject((HANDLE)**(undefined4 **)(iVar4 + 8),0xffffffff);
+          }
+          if ((*(char *)(iVar4 + 0x40) == '\0') || (*(int **)(iVar4 + 0x58) == (int *)0x0)) {
+            uVar3 = 0xfffffffa;
+          }
+          else {
+            uVar3 = (**(code **)(**(int **)(iVar4 + 0x58) + 0x78))(&local_28);
+          }
+          if ((HANDLE)**(undefined4 **)(iVar4 + 8) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)(iVar4 + 8));
+          }
+          iVar4 = FUN_10097960(uVar3);
+          if (iVar4 == 0) {
+            local_2c = local_28;
+          }
+        }
+        else {
+          iVar4 = -0x200f;
+        }
+        local_24 = (char *)0x2;
+        iVar6 = 0;
+        if (-1 < iVar4) {
+          iVar6 = local_2c;
+        }
+        local_1c = CONCAT44(local_1c._4_4_,iVar6);
+        local_8 = CONCAT31(local_8._1_3_,4);
+        FUN_100232f0(local_38,&local_24);
+      }
+    }
+    else {
+      pcVar7 = "VariaxConnected";
+      pbVar5 = pbVar8;
+      do {
+        bVar1 = *pbVar5;
+        bVar11 = bVar1 < (byte)*pcVar7;
+        if (bVar1 != *pcVar7) {
+LAB_1007a295:
+          uVar2 = -(uint)bVar11 | 1;
+          goto LAB_1007a29a;
+        }
+        if (bVar1 == 0) break;
+        bVar1 = pbVar5[1];
+        bVar11 = bVar1 < (byte)pcVar7[1];
+        if (bVar1 != pcVar7[1]) goto LAB_1007a295;
+        pbVar5 = pbVar5 + 2;
+        pcVar7 = pcVar7 + 2;
+      } while (bVar1 != 0);
+      uVar2 = 0;
+LAB_1007a29a:
+      if (uVar2 == 0) {
+        local_2c = *(int *)(local_2c + 0xe0);
+        if (local_2c != 0) {
+          local_24 = "VariaxConnected";
+          iVar4 = 0;
+          local_20 = 0;
+          pcVar7 = "VariaxConnected";
+          local_1c = 0;
+          pbVar5 = pbVar8;
+LAB_1007a2e2:
+          do {
+            bVar1 = *pbVar5;
+            bVar11 = bVar1 < (byte)*pcVar7;
+            if (bVar1 == *pcVar7) {
+              if (bVar1 != 0) {
+                bVar1 = pbVar5[1];
+                bVar11 = bVar1 < (byte)pcVar7[1];
+                if (bVar1 != pcVar7[1]) goto LAB_1007a302;
+                pcVar7 = pcVar7 + 2;
+                pbVar5 = pbVar5 + 2;
+                if (bVar1 != 0) goto LAB_1007a2e2;
+              }
+              uVar2 = 0;
+            }
+            else {
+LAB_1007a302:
+              uVar2 = -(uint)bVar11 | 1;
+            }
+            if (uVar2 == 0) {
+              iVar4 = (&local_20)[iVar4 * 2];
+              if (iVar4 != -1) {
+                local_24 = (char *)0x7;
+                local_1c = 0;
+                local_8._0_1_ = 5;
+                FUN_100232f0(local_38,&local_24);
+                local_8 = CONCAT31(local_8._1_3_,3);
+                if (((*(char *)(local_2c + 0x19) == '\0') || (*(char *)(local_2c + 0x18) == '\0'))
+                   || (*(int *)(local_2c + 4) == 0)) {
+                  bVar11 = false;
+                }
+                else {
+                  bVar11 = true;
+                }
+                if ((bVar11) &&
+                   ((*(int *)(local_2c + 0x1c) == 0x200004 ||
+                    (*(int *)(local_2c + 0x1c) == 0x200006)))) {
+                  iVar6 = *(int *)(local_2c + 4);
+                  local_24 = (char *)0x7;
+                  local_1c = local_1c & 0xffffffff00000000;
+                  local_8._0_1_ = 6;
+                  FUN_100232f0(local_38,&local_24);
+                  local_8 = CONCAT31(local_8._1_3_,3);
+                  if ((HANDLE)**(undefined4 **)(iVar6 + 8) != (HANDLE)0x0) {
+                    WaitForSingleObject((HANDLE)**(undefined4 **)(iVar6 + 8),0xffffffff);
+                  }
+                  if ((*(char *)(iVar6 + 0x40) == '\0') || (*(int **)(iVar6 + 0x58) == (int *)0x0))
+                  {
+                    iVar4 = -6;
+                  }
+                  else {
+                    local_1c = 0;
+                    iVar4 = (**(code **)(**(int **)(iVar6 + 0x58) + 0x94))(iVar4,&local_1c);
+                    if (iVar4 == 0) {
+                      iVar4 = FUN_10084980((undefined4 *)&local_1c,local_38);
+                    }
+                  }
+                  if ((HANDLE)**(undefined4 **)(iVar6 + 8) != (HANDLE)0x0) {
+                    ReleaseMutex((HANDLE)**(undefined4 **)(iVar6 + 8));
+                  }
+                  FUN_10097960(iVar4);
+                }
+              }
+              break;
+            }
+            pcVar7 = *(char **)(&local_1c + iVar4);
+            iVar4 = iVar4 + 1;
+            pbVar5 = pbVar8;
+            if ((byte *)pcVar7 == (byte *)0x0) break;
+          } while( true );
+        }
+      }
+      else if (*(void **)(local_2c + 0xe0) != (void *)0x0) {
+        FUN_10097c00(*(void **)(local_2c + 0xe0),pbVar8,&DAT_10116cb1,local_38);
+      }
+    }
+  }
+  else if (*(void **)(local_2c + 0xe0) != (void *)0x0) {
+    FUN_10097f70(*(void **)(local_2c + 0xe0),iVar4,local_38);
+  }
+  if (piVar10 != (int *)0x0) {
+    LOCK();
+    iVar4 = *piVar10;
+    *piVar10 = *piVar10 + -1;
+    UNLOCK();
+    if (iVar4 == 1 || iVar4 + -1 < 0) {
+      if (piVar10[3] != 0) {
+        free((void *)piVar10[4]);
+      }
+      FUN_100bee96(piVar10);
+    }
+  }
+  ExceptionList = local_10;
+  __security_check_cookie(local_14 ^ (uint)&stack0xfffffffc);
+  return;
+}
+
+
+FUNCTION 10084d20 FUN_10084d20
+
+void __thiscall FUN_10084d20(void *this,int param_1,undefined4 *param_2)
+
+{
+  int *piVar1;
+  uint uVar2;
+  int iVar3;
+  char *pcVar4;
+  undefined4 *puVar5;
+  undefined4 local_34 [2];
+  undefined4 *local_2c;
+  undefined **local_24;
+  int *local_20;
+  undefined8 local_1c;
+  uint local_14;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  puStack_c = &LAB_100c8c28;
+  local_10 = ExceptionList;
+  uVar2 = DAT_1018a29c ^ (uint)&stack0xfffffffc;
+  ExceptionList = &local_10;
+  local_34[0] = 7;
+  local_2c = (undefined4 *)0x0;
+  local_8 = 0;
+  local_14 = uVar2;
+  FUN_100232f0(param_2,local_34);
+  local_8 = 0xffffffff;
+  if ((HANDLE)**(undefined4 **)((int)this + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 8),0xffffffff);
+  }
+  if ((*(char *)((int)this + 0x40) != '\0') && (*(int **)((int)this + 0x58) != (int *)0x0)) {
+    local_1c = 0;
+    iVar3 = (**(code **)(**(int **)((int)this + 0x58) + 0x7c))(param_1,&local_1c,uVar2);
+    if (iVar3 == 0) {
+      if (param_1 == 0x1d) {
+        pcVar4 = (char *)FUN_100ac720(*(void **)((int)this + 0x44),local_1c._4_4_);
+        if (pcVar4 == (char *)0x0) goto LAB_10084e8f;
+        local_24 = L6String::vftable;
+        local_20 = (int *)0x0;
+        FUN_1001d100(&local_24,pcVar4);
+        local_8 = 1;
+        puVar5 = FUN_1001da90(local_34,&local_24);
+        local_8 = CONCAT31(local_8._1_3_,2);
+        FUN_100232f0(param_2,puVar5);
+        switch(local_34[0]) {
+        case 8:
+        case 10:
+        case 0xb:
+        case 0xc:
+          if (local_2c != (undefined4 *)0x0) {
+            (**(code **)*local_2c)(1);
+          }
+        }
+        piVar1 = local_20;
+        local_2c = (undefined4 *)0x0;
+        if (local_20 != (int *)0x0) {
+          LOCK();
+          iVar3 = *local_20;
+          *local_20 = *local_20 + -1;
+          UNLOCK();
+          if (iVar3 == 1 || iVar3 + -1 < 0) {
+            if (local_20[3] != 0) {
+              free((void *)local_20[4]);
+            }
+            FUN_100bee96(piVar1);
+          }
+        }
+      }
+      else {
+        FUN_10084980((undefined4 *)&local_1c,param_2);
+      }
+    }
+  }
+  if ((HANDLE)**(undefined4 **)((int)this + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 8));
+  }
+LAB_10084e8f:
+  ExceptionList = local_10;
+  __security_check_cookie(local_14 ^ (uint)&stack0xfffffffc);
+  return;
+}
+
+
+FUNCTION 10097a40 FUN_10097a40
+
+undefined4 __fastcall FUN_10097a40(int param_1)
+
+{
+  int iVar1;
+  undefined4 uVar2;
+  
+  *(undefined4 *)(param_1 + 0x28) = 0;
+  (**(code **)(**(int **)(param_1 + 4) + 0x14))();
+  if (*(char *)(param_1 + 0x7c) == '\0') goto LAB_10097bcb;
+  iVar1 = *(int *)(param_1 + 4);
+  if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)(iVar1 + 8),0xffffffff);
+  }
+  if ((*(char *)(iVar1 + 0x40) != '\0') && (*(int **)(iVar1 + 0x58) != (int *)0x0)) {
+    (**(code **)(**(int **)(iVar1 + 0x58) + 0x40))();
+  }
+  if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)(iVar1 + 8));
+  }
+  iVar1 = *(int *)(param_1 + 4);
+  if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)(iVar1 + 8),0xffffffff);
+  }
+  if ((*(char *)(iVar1 + 0x40) != '\0') && (*(int **)(iVar1 + 0x58) != (int *)0x0)) {
+    (**(code **)(**(int **)(iVar1 + 0x58) + 0x48))();
+  }
+  if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)(iVar1 + 8));
+  }
+  iVar1 = *(int *)(param_1 + 4);
+  if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)(iVar1 + 8),0xffffffff);
+  }
+  if ((*(char *)(iVar1 + 0x40) != '\0') && (*(int **)(iVar1 + 0x58) != (int *)0x0)) {
+    (**(code **)(**(int **)(iVar1 + 0x58) + 0x50))();
+  }
+  if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)(iVar1 + 8));
+  }
+  iVar1 = *(int *)(param_1 + 4);
+  if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)(iVar1 + 8),0xffffffff);
+  }
+  if ((*(char *)(iVar1 + 0x40) != '\0') && (*(int **)(iVar1 + 0x58) != (int *)0x0)) {
+    (**(code **)(**(int **)(iVar1 + 0x58) + 0x58))();
+  }
+  if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)(iVar1 + 8));
+  }
+  switch(*(undefined4 *)(param_1 + 0x1c)) {
+  case 0x200001:
+  case 0x200002:
+  case 0x200003:
+  case 0x200005:
+  case 0x200007:
+    if (0x21102ff < *(uint *)(param_1 + 0x20)) goto switchD_10097b44_caseD_200004;
+    break;
+  default:
+switchD_10097b44_caseD_200004:
+    iVar1 = *(int *)(param_1 + 4);
+    if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+      WaitForSingleObject((HANDLE)**(undefined4 **)(iVar1 + 8),0xffffffff);
+    }
+    if ((*(char *)(iVar1 + 0x40) != '\0') && (*(int **)(iVar1 + 0x58) != (int *)0x0)) {
+      (**(code **)(**(int **)(iVar1 + 0x58) + 0x60))();
+    }
+    if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+      ReleaseMutex((HANDLE)**(undefined4 **)(iVar1 + 8));
+    }
+  }
+  if ((*(int *)(param_1 + 0x1c) == 0x200004) || (*(int *)(param_1 + 0x1c) == 0x200006)) {
+    iVar1 = *(int *)(param_1 + 4);
+    if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+      WaitForSingleObject((HANDLE)**(undefined4 **)(iVar1 + 8),0xffffffff);
+    }
+    if ((*(char *)(iVar1 + 0x40) != '\0') && (*(int **)(iVar1 + 0x58) != (int *)0x0)) {
+      (**(code **)(**(int **)(iVar1 + 0x58) + 0x68))();
+    }
+    if ((HANDLE)**(undefined4 **)(iVar1 + 8) != (HANDLE)0x0) {
+      ReleaseMutex((HANDLE)**(undefined4 **)(iVar1 + 8));
+    }
+  }
+LAB_10097bcb:
+  if (*(int **)(param_1 + 4) != (int *)0x0) {
+    uVar2 = (**(code **)(**(int **)(param_1 + 4) + 0xc))();
+    *(undefined1 *)(param_1 + 0x19) = 0;
+    return uVar2;
+  }
+  return 0xffffdff7;
+}
+
+

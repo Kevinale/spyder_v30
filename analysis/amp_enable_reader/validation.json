@@ -1,0 +1,13 @@
+{
+  "passed": [
+    "Actual capture: every IN/channel0 reply and notification reassembled byte-for-byte, including fragmented 22175-byte symbol table.",
+    "All 916 symbol entry CRCs validated; IDs match the device capture.",
+    "Damaged symbol table rejected.",
+    "Model/preset/parameter setters and query before verified session blocked before transport.",
+    "Mock sessions read boolean0 and1 using only identity / GET1,2,3 / handshake4 / GET9; disconnect releases ports.",
+    "Negative device status and unexpected float type rejected.",
+    "Other firmware version stops before table/handshake/parameter query."
+  ],
+  "real_windows_device_test": "PENDING",
+  "browser_midi_permission": "PENDING"
+}

@@ -1,0 +1,1997 @@
+0x0000004d	ascii	!This program cannot be run in DOS mode.
+0x00000210	ascii	.text
+0x00000237	ascii	`.rdata
+0x0000025f	ascii	@.data
+0x00000288	ascii	.pdata
+0x000002af	ascii	@_RDATA
+0x000002d7	ascii	@.rsrc
+0x000002ff	ascii	@.reloc
+0x000004fc	ascii	t$ WH
+0x00000b63	ascii	D$ E3
+0x00000bf3	ascii	L$0E3
+0x00000c72	ascii	D$ E3
+0x00000d2c	ascii	t$ WAVAWH
+0x00000e5c	ascii	L$8H3
+0x00000e79	ascii	@A_A^_
+0x00000ea5	ascii	L$3fA;
+0x00001037	ascii	L$ SUVWH
+0x00001081	ascii	8_^][
+0x00001127	ascii	L$ SUVWH
+0x00001171	ascii	8_^][
+0x00001187	ascii	l$ VWATAVAWH
+0x000012d9	ascii	A_A^A\_^
+0x00001481	ascii	|$ AVH
+0x000017ec	ascii	t$ WH
+0x00001829	ascii	l$PH9j
+0x000018e0	ascii	H;C u
+0x00001908	ascii	L$ H9H
+0x00001926	ascii	D$ H9F
+0x00001a4f	ascii	E9X0u
+0x00001a75	ascii	D9X0udM
+0x00001be8	ascii	E9X0u
+0x00001c0e	ascii	D9X0udM
+0x000022c7	ascii	H;C u
+0x00002407	ascii	D$@;S
+0x00002450	ascii	~D$ f
+0x00002610	ascii	@UVWH
+0x00002691	ascii	D$0H+
+0x0000273b	ascii	9L$ t
+0x000027c7	ascii	|$ UH
+0x000029fa	ascii	VWAVH
+0x00002d18	ascii	 A^_^
+0x00002dfc	ascii	|$ AVH
+0x00003160	ascii	@SUWATAUH
+0x000031ac	ascii	pA]A\_][
+0x00003265	ascii	\$@E3
+0x000032d9	ascii	pA]A\_][
+0x00003487	ascii	D$ E3
+0x0000356d	ascii	D8f,t
+0x000035b5	ascii	UWAUAVAWH
+0x00003893	ascii	A9n<u
+0x00003ab1	ascii	ZA9n@A
+0x00003abb	ascii	PA9n@t
+0x00003afd	ascii	A;FDD
+0x00003b57	ascii	`A_A^A]_]
+0x00004321	ascii	|$ AVH
+0x0000444c	ascii	t$ WATAUAVAWH
+0x00004996	ascii	A_A^A]A\_
+0x000049c0	ascii	@SVWH
+0x00004cb1	ascii	y H9y
+0x00004db0	ascii	@SUVWAVH
+0x00004efb	ascii	 A^_^][
+0x00004f18	ascii	 A^_^][
+0x00005083	ascii	fD9<Hu
+0x00005093	ascii	t(fff
+0x000050c3	ascii	fD9<Gu
+0x00005231	ascii	|$ AVH
+0x0000549c	ascii	|$ AVH
+0x00005637	ascii	H9o t
+0x00005917	ascii	t$ UWAWH
+0x00005b35	ascii	UVWAUAVH
+0x000061c2	ascii	A^A]_^]
+0x00006422	ascii	\$ UH
+0x00006468	ascii	t$@E3
+0x00006486	ascii	@t"E3
+0x00006751	ascii	|$ AVH
+0x00006775	ascii	P@;G4u
+0x000067ec	ascii	~ULcI4
+0x00006b30	ascii	@UVWATAWH
+0x00006b61	ascii	H9q8u
+0x00006c62	ascii	D$|E3
+0x00006df4	ascii	G@D+M
+0x00006f82	ascii	A_A\_^]
+0x00007142	ascii	\$ UVWATAUAVAWH
+0x00007223	ascii	t:D8-
+0x00007266	ascii	L$HH3
+0x0000727c	ascii	PA_A^A]A\_^]
+0x0000733a	ascii	D$DD+D$<
+0x00007343	ascii	T$@+T$8H
+0x000073cf	ascii	9Q@t<H
+0x00007430	ascii	@USVWATAUAVAWH
+0x000077ac	ascii	|$ E3
+0x000077fb	ascii	A_A^A]A\_^[]
+0x00007919	ascii	EL$@H;
+0x000079e0	ascii	@SWAWH
+0x000079fb	ascii	pA__[
+0x00007a34	ascii	pA__[
+0x00007a51	ascii	pA__[
+0x00007d7e	ascii	pA__[
+0x00008211	ascii	|$ AVH
+0x0000830f	ascii	WAVAWH
+0x000083e5	ascii	0A_A^_
+0x000085c0	ascii	@VAVAWH
+0x00008658	ascii	0A_A^^H
+0x00008689	ascii	HcHP3
+0x00008a84	ascii	L$ SH
+0x00008bd0	ascii	@USAVH
+0x00008d5a	ascii	f+E0fA
+0x00008faa	ascii	PA^[]
+0x00008fc0	ascii	PA^[]
+0x00008fcc	ascii	PA^[]
+0x00008fef	ascii	VWAVH
+0x000091e6	ascii	0A^_^
+0x000093d9	ascii	L$HH3
+0x00009477	ascii	L$HH3
+0x0000948f	ascii	L$HH3
+0x000094a7	ascii	L$HH3
+0x00009547	ascii	L$HH3
+0x0000955f	ascii	L$HH3
+0x00009577	ascii	L$HH3
+0x000095fe	ascii	L$@H3
+0x00009616	ascii	L$@H3
+0x0000962e	ascii	L$@H3
+0x00009645	ascii	UVWATAUAVAWH
+0x00009e02	ascii	D843u
+0x00009e40	ascii	D842u
+0x0000a132	ascii	pA_A^A]A\_^]
+0x0000a2b4	ascii	L$HH3
+0x0000a345	ascii	L$HH3
+0x0000a35c	ascii	L$HH3
+0x0000a3c7	ascii	L$@H3
+0x0000a3de	ascii	L$@H3
+0x0000a572	ascii	\$ WH
+0x0000a59b	ascii	t$`Ic
+0x0000a5c0	ascii	,D$ D
+0x0000a642	ascii	L$@H3
+0x0000a6d3	ascii	T$8E3
+0x0000a922	ascii	T$8E3
+0x0000a96c	ascii	T$8E3
+0x0000aa20	ascii	T$8E3
+0x0000aa6a	ascii	T$8E3
+0x0000ab21	ascii	(t$pH
+0x0000ab27	ascii	L$hH3
+0x0000ab9e	ascii	)t$@H
+0x0000ad9d	ascii	(t$@H
+0x0000b0a4	ascii	T$8E3
+0x0000b134	ascii	T$8E3
+0x0000b1d3	ascii	T$8E3
+0x0000b273	ascii	T$8E3
+0x0000b2be	ascii	(t$pH
+0x0000b2cc	ascii	L$hH3
+0x0000b443	ascii	)t$pH
+0x0000b47e	ascii	T$8E3
+0x0000b4ce	ascii	T$8E3
+0x0000b511	ascii	(t$pH
+0x0000b550	ascii	,D$HD
+0x0000b6ad	ascii	L$hH3
+0x0000b76d	ascii	)t$pH
+0x0000b7d9	ascii	T$8E3
+0x0000b821	ascii	L$8E3
+0x0000b85c	ascii	(t$pu)H
+0x0000b88d	ascii	L$hH3
+0x0000b8c1	ascii	L$ SWH
+0x0000b94c	ascii	L$ SVWH
+0x0000baf7	ascii	t$ WH
+0x0000bb7a	ascii	8\$PtZ
+0x0000bb84	ascii	8\<Pu
+0x0000bba8	ascii	t#8\$Pt
+0x0000bdbc	ascii	t$ WAVAWH
+0x0000bdcc	ascii	)t$@L
+0x0000be2b	ascii	T$8E3
+0x0000be78	ascii	|$8E3
+0x0000beab	ascii	(t$@L
+0x0000bec7	ascii	A_A^_
+0x0000bf8d	ascii	)t$@3
+0x0000bfd4	ascii	(t$@H
+0x0000c137	ascii	t$ WH
+0x0000c183	ascii	|$0E3
+0x0000c1ab	ascii	\$@H;
+0x0000c2cf	ascii	D$8E3
+0x0000c30c	ascii	T$PH+
+0x0000c33e	ascii	T$PH+
+0x0000c41a	ascii	WAVAWH
+0x0000c502	ascii	R`H;=
+0x0000c55b	ascii	PA_A^_I
+0x0000c57d	ascii	x UATAUAVAWH
+0x0000c76c	ascii	t$ E3
+0x0000c7c3	ascii	t$ E3
+0x0000c800	ascii	t$ E3
+0x0000c884	ascii	VBWBfD
+0x0000c8be	ascii	t$ E3
+0x0000cab0	ascii	A_A^A]A\]
+0x0000cafa	ascii	VWAVH
+0x0000ccd1	ascii	L$ E3
+0x0000cd91	ascii	L$ SWH
+0x0000ce60	ascii	@USVWATAUAVAWH
+0x0000cfde	ascii	D96~<
+0x0000d29a	ascii	t$(E3
+0x0000d466	ascii	x*D9n
+0x0000d5d9	ascii	A_A^A]A\_^[]
+0x0000d620	ascii	@USVWAUAVH
+0x0000dc76	ascii	A^A]_^[]
+0x0000dc80	ascii	ATAVH
+0x0000dd51	ascii	L$0D+L$0E3
+0x0000de27	ascii	L$0Hc
+0x0000deec	ascii	L$@H3
+0x0000e651	ascii	L$ SWH
+0x0000e861	ascii	|$ AVH
+0x0000e9bf	ascii	WAVAWH
+0x0000ea9a	ascii	0A_A^_
+0x0000ee10	ascii	H;PPu
+0x0000ee87	ascii	L;@Pu
+0x0000ef13	ascii	H;PPu
+0x0000ef7f	ascii	L;@Pu
+0x0000efe2	ascii	)D$0A
+0x0000eff4	ascii	)L$@A
+0x0000f010	ascii	)L$`I
+0x0000f021	ascii	H9jPt)H
+0x0000f089	ascii	H;xPu
+0x0000f0f7	ascii	H;CXu
+0x0000f122	ascii	L$ H9HPu
+0x0000f140	ascii	D$ H9F
+0x0000f2a7	ascii	D$(+D$ D
+0x0000f2b0	ascii	L$,D+L$$
+0x0000f2fb	ascii	L$0H3
+0x0000f325	ascii	Y4+Y8H
+0x0000f3e7	ascii	H;HPu
+0x0000f40f	ascii	E9Xhu
+0x0000f435	ascii	D9XhudM
+0x0000f480	ascii	H;PPu
+0x0000f504	ascii	H;PPu
+0x0000f580	ascii	H;HPu
+0x0000f5a8	ascii	E9Xhu
+0x0000f5ce	ascii	D9XhudM
+0x0000f619	ascii	H;PPu
+0x0000f695	ascii	4H;PPu
+0x0000f6e0	ascii	@USVWATAUAVAWH
+0x0000f84e	ascii	t%L;c
+0x0000fa80	ascii	_4+_8H
+0x0000fad3	ascii	T$ E3
+0x0000fbfd	ascii	A_A^A]A\_^[]
+0x0000fd30	ascii	@SVWAVH
+0x0000fdac	ascii	t$d+\$XD+t$\H
+0x0000ff28	ascii	O<;D$0~
+0x0000fff7	ascii	D$ D;
+0x00010066	ascii	L$hH3
+0x00010074	ascii	xA^_^[
+0x000100c1	ascii	|$ AVH
+0x0001015f	ascii	WATAUAVAWH
+0x000101ee	ascii	l$hfF
+0x000101fe	ascii	0A_A^A]A\_
+0x0001021f	ascii	WATAUAVAWH
+0x000102d7	ascii	@A_A^A]A\_
+0x0001032f	ascii	oD$ f
+0x00010335	ascii	oL$0f
+0x0001033b	ascii	oT$@f
+0x00010341	ascii	o\$PH
+0x00010420	ascii	oD$ f
+0x00010426	ascii	oL$0f
+0x0001042c	ascii	oT$@f
+0x00010432	ascii	o\$PH
+0x000106d3	ascii	D$DDtRH
+0x00010908	ascii	|$ UATAUAVAWH
+0x00010aea	ascii	t'HcG<
+0x00010afa	ascii	M09L8
+0x00010b02	ascii	H;|80u
+0x00010bc4	ascii	A_A^A]A\]
+0x00010dd6	ascii	\$ WH
+0x00010e44	ascii	@SVWH
+0x00010f45	ascii	x AVH
+0x00011677	ascii	WAVAWH
+0x000116cd	ascii	0A_A^_
+0x000116e3	ascii	SVWAVH
+0x00011738	ascii	8A^_^[
+0x0001174f	ascii	WAVAWH
+0x00011768	ascii	\$8H;
+0x0001179b	ascii	A_A^_
+0x00011808	ascii	|$ AVH
+0x000119aa	ascii	VWAVH
+0x00011ac3	ascii	@A^_^
+0x00011b95	ascii	ntelA
+0x00011b9c	ascii	GenuD
+0x00011e82	ascii	\$ UH
+0x00011ed0	ascii	M H1E
+0x00011ee6	ascii	 H3E H3E
+0x00012047	ascii	t7HcP
+0x00012183	ascii	t$ WH
+0x00012399	ascii	D8L$0uP
+0x00012434	ascii	|$(A^
+0x00012512	ascii	VWATAVAWH
+0x00012541	ascii	ttIcF
+0x00012564	ascii	T$PE3
+0x000125c7	ascii	 A_A^A\_^
+0x00012607	ascii	WATAUAVAWH
+0x00012727	ascii	A_A^A]A\_
+0x00012749	ascii	x AVH
+0x00012770	ascii	(t$ H
+0x000127c0	ascii	(t$ H
+0x0001293f	ascii	HcE_H
+0x00012a40	ascii	HcE_L
+0x00012a68	ascii	HcEgH
+0x00012c95	ascii	H;XXs
+0x00012cd2	ascii	H;xXu5
+0x00013192	ascii	ffffff
+0x00013401	ascii	fffffff
+0x000135a3	ascii	fffff
+0x000139db	ascii	WATAUAVAWH
+0x00013a1f	ascii	|$8;3
+0x00013b2f	ascii	 tDE3
+0x00013bcd	ascii	A_A^A]A\_
+0x00013e67	ascii	L$@;|
+0x00013e9c	ascii	tRLcY
+0x00013fef	ascii	AUAVAWH
+0x0001412d	ascii	u4I9}(
+0x00014162	ascii	;I9}(tiH
+0x000141b6	ascii	0A_A^A]
+0x000141ef	ascii	AUAVAWH
+0x00014330	ascii	u4I9}(
+0x00014365	ascii	;I9}(tiH
+0x000143b9	ascii	0A_A^A]
+0x00014573	ascii	UVWATAUAVAWH
+0x0001462c	ascii	`A_A^A]A\_^]
+0x00014647	ascii	UVWATAUAVAWH
+0x00014700	ascii	`A_A^A]A\_^]
+0x00014710	ascii	@USVWATAUAVAWH
+0x00014980	ascii	K0HcQ
+0x00014a39	ascii	L$xE3
+0x00014a62	ascii	D9o t
+0x00014a6d	ascii	HcO H
+0x00014aa5	ascii	D9o t
+0x00014ab3	ascii	HcG H
+0x00014b7b	ascii	A_A^A]A\_^[]
+0x00014bd8	ascii	@USVWATAUAVAWH
+0x00014c88	ascii	t)IcV
+0x00014ea5	ascii	K0HcQ
+0x00014ec2	ascii	D$pHc
+0x00014efc	ascii	d$dD;d$ltY
+0x00014ffc	ascii	L$h;M
+0x0001507e	ascii	A_A^A]A\_^[]
+0x000150e3	ascii	UVWATAUAVAWH
+0x00015146	ascii	mwtMH
+0x00015187	ascii	A_A^A]A\_^]
+0x00015251	ascii	t-Lck
+0x000152d2	ascii	MGD;}
+0x000152ec	ascii	@USVWATAUAVAWH
+0x000155a9	ascii	L$`;M
+0x000155c8	ascii	A_A^A]A\_^[]
+0x000155ed	ascii	x AVH
+0x0001572d	ascii	x AVH
+0x00015871	ascii	x AVH
+0x00015999	ascii	HcK H
+0x000159ed	ascii	G0HcH
+0x00015aa7	ascii	WAVAWH
+0x00015ae2	ascii	9p@u+
+0x00015b95	ascii	t'HcW
+0x00015c47	ascii	9t$Pu
+0x00015c80	ascii	C0HcH
+0x00015d20	ascii	A_A^_
+0x00015d54	ascii	tEHcR
+0x00015edc	ascii	@SVWATAUAVAWH
+0x00015ef4	ascii	|$ D!
+0x00015eff	ascii	L!|$(L!
+0x00015f8c	ascii	D$8L9
+0x000160a1	ascii	D$0HcH
+0x000160b9	ascii	pA_A^A]A\_^[
+0x000160cb	ascii	SVWATAUAWH
+0x000160e3	ascii	d$ D!
+0x000160ee	ascii	L!d$(L!d$@D
+0x000161a8	ascii	D$HL9gXt
+0x00016307	ascii	A_A]A\_^[
+0x0001643f	ascii	< u\A
+0x000164d7	ascii	B(I9A(u
+0x00016567	ascii	SVWATAUAVAWH
+0x000166c9	ascii	0A_A^A]A\_^[
+0x000166e7	ascii	SVWATAUAVAWH
+0x00016791	ascii	t@HcS
+0x0001684b	ascii	t$8L;
+0x00016857	ascii	L;t$X
+0x00016888	ascii	(D$0f
+0x000169b8	ascii	A_A^A]A\_^[
+0x00016a70	ascii	t$ WATAUAVAWH
+0x00016aa6	ascii	E0Lc`
+0x00016abd	ascii	E0HcH
+0x00016b40	ascii	 A_A^A]A\_
+0x00016b6d	ascii	9)~P3
+0x00016ca7	ascii	UVWATAUAVAWH
+0x00016cd6	ascii	99~CE
+0x00016d59	ascii	 A_A^A]A\_^]
+0x00016f2b	ascii	WATAUAVAWH
+0x0001705f	ascii	 A_A^A]A\_
+0x000173f4	ascii	@USVWATAVAWH
+0x00017440	ascii	D$(E3
+0x00017472	ascii	d$IfD
+0x00017525	ascii	D$@H;
+0x0001754d	ascii	D$@H;
+0x0001757d	ascii	A_A^A\_^[]
+0x0001758f	ascii	D$@H;
+0x000175a4	ascii	@USVWATAVAWH
+0x000175f0	ascii	D$(E3
+0x00017622	ascii	d$IfD
+0x000176d9	ascii	D$@H;
+0x00017702	ascii	D$@H;
+0x00017733	ascii	A_A^A\_^[]
+0x00017745	ascii	D$@H;
+0x00017901	ascii	x AUAVAWH
+0x00017b98	ascii	0A_A^A]
+0x00017baa	ascii	UVWATAUAVAWH
+0x00017bf7	ascii	L$(E3
+0x00017e18	ascii	L$0f;
+0x00017e24	ascii	f;\$4
+0x00017e30	ascii	L$8f;
+0x00017e3c	ascii	f;\$<
+0x00017e48	ascii	L$@f;
+0x00017e54	ascii	f;\$D
+0x00017e60	ascii	L$Hf;
+0x00017e6c	ascii	f;\$L
+0x00017e78	ascii	L$Pf;
+0x00017e84	ascii	f;\$T
+0x00017e90	ascii	L$Xf;
+0x00017e9c	ascii	f;\$\
+0x00017ea8	ascii	L$`f;
+0x00017eae	ascii	rsf;\$d
+0x00017ebc	ascii	L$hf;
+0x00017ec2	ascii	r_f;\$l
+0x00017ed0	ascii	L$pf;
+0x00017ed6	ascii	rKf;\$t
+0x00017ee4	ascii	L$xf;
+0x00017eea	ascii	r7f;\$|
+0x000180a6	ascii	D$0f;
+0x000180b2	ascii	f;\$4r
+0x000180ba	ascii	D$8f;
+0x000180c6	ascii	f;\$<r
+0x000180ce	ascii	D$@f;
+0x000180da	ascii	f;\$Dr
+0x000180e2	ascii	D$Hf;
+0x000180ee	ascii	f;\$Lr
+0x000180f6	ascii	D$Pf;
+0x00018102	ascii	f;\$T
+0x0001810e	ascii	D$Xf;
+0x0001811a	ascii	f;\$\
+0x00018126	ascii	D$`f;
+0x0001812c	ascii	rvf;\$d
+0x0001813a	ascii	D$hf;
+0x00018140	ascii	rbf;\$l
+0x0001814e	ascii	D$pf;
+0x00018154	ascii	rNf;\$t
+0x00018162	ascii	D$xf;
+0x00018168	ascii	r:f;\$|
+0x000182eb	ascii	A_A^A]A\_^]
+0x00018edd	ascii	A+P@H
+0x0001900e	ascii	E+A@H
+0x00019154	ascii	D+A@H
+0x00019271	ascii	A+P@H
+0x000193a8	ascii	E+A@H
+0x000194f4	ascii	D+A@H
+0x000196eb	ascii	D$@H;F
+0x0001977c	ascii	D$@H;F
+0x000197b2	ascii	VWAVH
+0x000199bd	ascii	kL@8o(u
+0x00019ad6	ascii	0A^_^
+0x00019b1d	ascii	D$(E3
+0x00019b42	ascii	VWAVH
+0x00019d4a	ascii	kL@8o(u
+0x00019e58	ascii	0A^_^
+0x00019e9f	ascii	D$(E3
+0x00019ecd	ascii	x AVH
+0x0001a17c	ascii	D$(E3
+0x0001a19d	ascii	A9<Fu
+0x0001a21c	ascii	<htl<jt\<lt4<tt$<wt
+0x0001a2f8	ascii	,X< w
+0x0001a4d4	ascii	|$ UATAUAVAWH
+0x0001a51d	ascii	<Ct-<D
+0x0001a531	ascii	<St[@:
+0x0001a538	ascii	t'<Zt
+0x0001a56a	ascii	u<g~l<it[<ntP<ot,<pt
+0x0001a583	ascii	<utK@:
+0x0001a7e1	ascii	D;sHu
+0x0001a88a	ascii	A_A^A]A\]
+0x0001a8a0	ascii	t$ WATAUAVAWH
+0x0001a905	ascii	Stuf;
+0x0001a971	ascii	utKf;
+0x0001aa7d	ascii	|T4fD;
+0x0001abab	ascii	A8m(u
+0x0001abcd	ascii	L$0fD
+0x0001ac62	ascii	u5@8j
+0x0001acc7	ascii	L$@H3
+0x0001ace6	ascii	A_A^A]A\_
+0x0001adf0	ascii	t$ WH
+0x0001ae07	ascii	A9,A$
+0x0001afe9	ascii	,I<%w
+0x0001b03a	ascii	VWATH
+0x0001b246	ascii	,I<%w
+0x0001b395	ascii	D$18F(u
+0x0001b4ad	ascii	HcC H
+0x0001b712	ascii	x AVH
+0x0001b7b4	ascii	WAVAWH
+0x0001b83a	ascii	 A_A^_
+0x0001b844	ascii	@USVWATAVAWH
+0x0001b8ce	ascii	D$(E3
+0x0001b904	ascii	d$IfD
+0x0001b9c4	ascii	D$@H;
+0x0001b9ec	ascii	D$@H;
+0x0001ba02	ascii	D$@H;
+0x0001ba5a	ascii	X D8e
+0x0001ba8a	ascii	A_A^A\_^[]
+0x0001bb3c	ascii	D$(E3
+0x0001bb7a	ascii	X @8u
+0x0001bc50	ascii	D$(E3
+0x0001bc8e	ascii	X @8u
+0x0001bd46	ascii	UVWATAUAVAWH
+0x0001bd97	ascii	L$(E3
+0x0001bde1	ascii	D8i(u
+0x0001bfe4	ascii	L$0f;
+0x0001bff0	ascii	f;\$4
+0x0001bffc	ascii	L$8f;
+0x0001c008	ascii	f;\$<
+0x0001c014	ascii	L$@f;
+0x0001c020	ascii	f;\$D
+0x0001c02c	ascii	L$Hf;
+0x0001c038	ascii	f;\$L
+0x0001c044	ascii	L$Pf;
+0x0001c050	ascii	f;\$T
+0x0001c05c	ascii	L$Xf;
+0x0001c068	ascii	f;\$\
+0x0001c074	ascii	L$`f;
+0x0001c07a	ascii	rsf;\$d
+0x0001c088	ascii	L$hf;
+0x0001c08e	ascii	r_f;\$l
+0x0001c09c	ascii	L$pf;
+0x0001c0a2	ascii	rKf;\$t
+0x0001c0b0	ascii	L$xf;
+0x0001c0b6	ascii	r7f;\$|
+0x0001c272	ascii	D$0f;
+0x0001c27e	ascii	f;\$4r
+0x0001c286	ascii	D$8f;
+0x0001c292	ascii	f;\$<r
+0x0001c29a	ascii	D$@f;
+0x0001c2a6	ascii	f;\$Dr
+0x0001c2ae	ascii	D$Hf;
+0x0001c2ba	ascii	f;\$Lr
+0x0001c2c2	ascii	D$Pf;
+0x0001c2ce	ascii	f;\$T
+0x0001c2da	ascii	D$Xf;
+0x0001c2e6	ascii	f;\$\
+0x0001c2f2	ascii	D$`f;
+0x0001c2f8	ascii	rvf;\$d
+0x0001c306	ascii	D$hf;
+0x0001c30c	ascii	rbf;\$l
+0x0001c31a	ascii	D$pf;
+0x0001c320	ascii	rNf;\$t
+0x0001c32e	ascii	D$xf;
+0x0001c334	ascii	r:f;\$|
+0x0001c4b7	ascii	A_A^A]A\_^]
+0x0001c5f7	ascii	WAVAWH
+0x0001c708	ascii	@A_A^_
+0x0001c733	ascii	D$0@8{
+0x0001c7d2	ascii	UWAVH
+0x0001ca05	ascii	p*W4H
+0x0001ca6e	ascii	p*W4H
+0x0001cded	ascii	f9,Yu
+0x0001ce3a	ascii	l$ E3
+0x0001d183	ascii	98t H
+0x0001d2d3	ascii	L$ WH
+0x0001d40a	ascii	u3HcH<H
+0x0001d5a9	ascii	x ATAVAWH
+0x0001d6d7	ascii	< t=<
+0x0001d74f	ascii	 A_A^A\
+0x0001d7bd	ascii	UVWAVAWH
+0x0001d83b	ascii	D$ E3
+0x0001d935	ascii	0A_A^_^]
+0x0001d94c	ascii	H9=Ed
+0x0001d9c5	ascii	x AVH
+0x0001db93	ascii	L$ WH
+0x0001dbcf	ascii	L$ WH
+0x0001dc10	ascii	t$ WAVAWH
+0x0001ddad	ascii	 A_A^_
+0x0001ddc3	ascii	WAVAWH
+0x0001decd	ascii	 A_A^_
+0x0001e1d3	ascii	p0R^G'
+0x0001e8bb	ascii	WATAUAVAWH
+0x0001e8ff	ascii	L$(E3
+0x0001ea4c	ascii	D8[(u
+0x0001ec0d	ascii	gfffffffH
+0x0001ec56	ascii	A_A^A]A\_
+0x0001ec71	ascii	{ AVH
+0x0001ecc0	ascii	|$@-D
+0x0001ed6d	ascii	{ AUAVAWH
+0x0001eddc	ascii	0A_A^A]
+0x0001edee	ascii	t$xt*3
+0x0001eeaa	ascii	80tWD
+0x0001eee7	ascii	gfffA
+0x0001ef8c	ascii	D$DE3
+0x0001ef93	ascii	|$@-D
+0x0001f027	ascii	WAVAWH
+0x0001f166	ascii	 A_A^_
+0x0001f181	ascii	s AWH
+0x0001f1bf	ascii	|$DE3
+0x0001f1c6	ascii	|$@-D
+0x0001f2d5	ascii	x ATAVAWH
+0x0001f3d2	ascii	 A_A^A\
+0x0001f6d1	ascii	L$ VWAVH
+0x0001f7bf	ascii	@A^_^
+0x0001f811	ascii	9\$hu
+0x0001f855	ascii	|$(E3
+0x0001f885	ascii	x AVH
+0x0001f8c5	ascii	E8q(u
+0x0001f92e	ascii	fD94H}aD
+0x0001fa25	ascii	x AVH
+0x0001fbc7	ascii	L$ WH
+0x0001fc07	ascii	L$ WH
+0x0001fc47	ascii	L$ WH
+0x0001fc8f	ascii	L$ WH
+0x000202e8	ascii	L$ WH
+0x00020399	ascii	x AVH
+0x000203b1	ascii	fD9t$b
+0x00020489	ascii	x AVH
+0x000206ff	ascii	WATAUAVAWH
+0x0002084a	ascii	 A_A^A]A\_
+0x0002092f	ascii	p0R^G'
+0x00020b99	ascii	\$0eH
+0x00020ca3	ascii	T$`fA;
+0x00020e95	ascii	x AVH
+0x00020eac	ascii	u$D8r(t
+0x00020ed2	ascii	D81uUL9r
+0x00020edb	ascii	uED8r(t
+0x00020f6c	ascii	vAD8s(t
+0x00021011	ascii	x AVH
+0x00021028	ascii	u$D8r(t
+0x0002104e	ascii	fD91uTL9r
+0x00021058	ascii	uED8r(t
+0x000210f3	ascii	v@D8s(t
+0x00021191	ascii	UVWATAUAVAWH
+0x000211e9	ascii	EH*?H
+0x000213aa	ascii	PA_A^A]A\_^]
+0x000213df	ascii	WATAUAVAWH
+0x00021401	ascii	@84)u
+0x0002142f	ascii	0A_A^A]A\_
+0x0002149c	ascii	H97u+A
+0x000214cb	ascii	mL+7H
+0x00021547	ascii	t$ E3
+0x00021558	ascii	@USVWATAUAVH
+0x0002159a	ascii	,/<-w
+0x00021623	ascii	t$`L#
+0x000216e9	ascii	D8t$ht
+0x00021706	ascii	I+4$H
+0x00021844	ascii	D8t$ht
+0x0002189a	ascii	A^A]A\_^[]
+0x000218d4	ascii	@8j(t
+0x000218ef	ascii	f9)u4H9j
+0x000218f8	ascii	u%@8j(t
+0x00021971	ascii	@8k(t
+0x00021a82	ascii	8D$@t
+0x00021af7	ascii	L$ WH
+0x00021fd3	ascii	UWAVH
+0x0002227a	ascii	\$0H;
+0x0002229c	ascii	L$0H;
+0x0002236b	ascii	l$ VWATAVAWH
+0x00022453	ascii	L$&8\$&t,8Y
+0x000225fd	ascii	L$8H3
+0x00022618	ascii	A_A^A\_^
+0x000227f1	ascii	x AVH
+0x00022837	ascii	t$8H+
+0x00022a11	ascii	p;Y>u
+0x00022a64	ascii	p;Y>u
+0x00022a93	ascii	L$ WH
+0x00022b26	ascii	\$ VWATAUAVH
+0x00022b3a	ascii	D!l$xA
+0x00022bb8	ascii	@A^A]A\_^
+0x00022cde	ascii	D$(H;
+0x00022e0b	ascii	L$ WH
+0x00022ea7	ascii	L$ VWAVH
+0x00022ed4	ascii	\$8I;
+0x00022f7a	ascii	`A^_^
+0x0002356d	ascii	x ATAVAWH
+0x00023596	ascii	D$(E3
+0x000236d6	ascii	0A_A^A\
+0x000236e5	ascii	SUVWATAVAWH
+0x0002393e	ascii	L$0E;
+0x00023b5e	ascii	A_A^A\_^][
+0x00023b6c	ascii	@USVWATAVAWH
+0x00024147	ascii	svDE3
+0x00024637	ascii	+L$DA
+0x00024d8b	ascii	A_A^A\_^[]
+0x00024f3a	ascii	WATAUAVAWH
+0x000250c7	ascii	0A_A^A]A\_
+0x000254dc	ascii	@UATAUAVAWH
+0x00025669	ascii	e0A_A^A]A\]
+0x000259ab	ascii	WAVAWH
+0x00025a1a	ascii	 A_A^_
+0x00025a50	ascii	ATAUAVH
+0x00025ae2	ascii	L$ fff
+0x00025dbd	ascii	L$ |+L;
+0x00025dd9	ascii	L$ I;
+0x00025e04	ascii	L$ L;
+0x00025e57	ascii	A^A]A\
+0x00025ee3	ascii	L$@H3
+0x00026364	ascii	@UATAUAVAWH
+0x00026391	ascii	Hcu`M
+0x000265de	ascii	H!T$0D
+0x000265f1	ascii	u,!T$(H!T$ 
+0x00026679	ascii	A_A^A]A\]
+0x00026777	ascii	L$ WH
+0x00026893	ascii	UVWATAUAVAWH
+0x00026922	ascii	A8}(u
+0x00026b3a	ascii	fB9<A}1L
+0x00026d0e	ascii	A_A^A]A\_^]
+0x00026d86	ascii	\$@H;
+0x00026e8e	ascii	\$@H;
+0x00026ecf	ascii	D$@H+
+0x00026f46	ascii	VWATAVAW
+0x00026fb1	ascii	D$PI;
+0x00026ff9	ascii	D$PH+
+0x000270a3	ascii	A_A^A\_^
+0x000270be	ascii	AUAVAWH
+0x000271c9	ascii	@A_A^A]
+0x000271d4	ascii	@USVWATAUAVAWH
+0x000272b5	ascii	@8{(u
+0x00027427	ascii	H!D$ I
+0x000274d6	ascii	hA_A^A]A\_^[]
+0x0002759d	ascii	D$49C
+0x00027849	ascii	ot$ H
+0x00027852	ascii	ffffff
+0x0002791e	ascii	ot$ H
+0x000279c2	ascii	ot$ H
+0x00027b06	ascii	ot$ H
+0x00027bb0	ascii	ot$ H
+0x00027c08	ascii	ot$ H
+0x00027c11	ascii	fffffff
+0x00027c36	ascii	ot$ H
+0x00027c72	ascii	ot$ H
+0x00027f90	ascii	@SUVWATAVAWH
+0x0002814f	ascii	L$0H3
+0x0002815d	ascii	@A_A^A\_^][
+0x00028502	ascii	ATAVAWH
+0x000287ae	ascii	 A_A^A\
+0x000288df	ascii	USVWAVH
+0x000289fc	ascii	A^_^[]
+0x00028b3d	ascii	(t$PH
+0x00028b4f	ascii	L$ WH
+0x0002928f	ascii	t$ WH
+0x00029340	ascii	LcA<E3
+0x000293e8	ascii	u HcA<H
+0x00029421	ascii	x AVH
+0x000294a9	ascii	x AVH
+0x0002a9e0	ascii	/:*?"<>|
+0x0002a9f0	utf16le	AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+0x0002b4fc	ascii	2!N!`!p!a!q!b!r!c!s!d!t!e!u!f!v!g!w!h!x!i!y!j!z!k!{!l!|!m!}!n!~!o!
+0x0002b629	ascii	,O, ,P,!,Q,",R,#,S,$,T,%,U,&,V,',W,(,X,),Y,*,Z,+,[,,,\,-,],.,^,`,a,b,k
+0x0002b678	ascii	g,h,i,j,k,l,m,Q
+0x0002b690	ascii	r,s,u,v,
+0x0002b928	utf16le	\Temp
+0x0002b950	utf16le	AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+0x0002c45c	ascii	2!N!`!p!a!q!b!r!c!s!d!t!e!u!f!v!g!w!h!x!i!y!j!z!k!{!l!|!m!}!n!~!o!
+0x0002c589	ascii	,O, ,P,!,Q,",R,#,S,$,T,%,U,&,V,',W,(,X,),Y,*,Z,+,[,,,\,-,],.,^,`,a,b,k
+0x0002c5d8	ascii	g,h,i,j,k,l,m,Q
+0x0002c5f0	ascii	r,s,u,v,
+0x0002c870	ascii	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+0x0002cbb8	utf16le	ComboBox
+0x0002cbe0	utf16le	SysTabControl32
+0x0002cc00	utf16le	SysListView32
+0x0002cc20	utf16le	msctls_progress32
+0x0002cc48	utf16le	msctls_trackbar32
+0x0002cca0	ascii	Unknown exception
+0x0002cce8	ascii	bad array new length
+0x0002d3a0	utf16le	gdiplus.dll
+0x0002d3c0	utf16le	uxtheme.dll
+0x0002d3d8	ascii	IsThemeDialogTextureEnabled
+0x0002d3f8	ascii	EnableThemeDialogTexture
+0x0002d418	ascii	DrawThemeParentBackground
+0x0002d438	ascii	SetWindowTheme
+0x0002d450	utf16le	AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+0x0002df5c	ascii	2!N!`!p!a!q!b!r!c!s!d!t!e!u!f!v!g!w!h!x!i!y!j!z!k!{!l!|!m!}!n!~!o!
+0x0002e089	ascii	,O, ,P,!,Q,",R,#,S,$,T,%,U,&,V,',W,(,X,),Y,*,Z,+,[,,,\,-,],.,^,`,a,b,k
+0x0002e0d8	ascii	g,h,i,j,k,l,m,Q
+0x0002e0f0	ascii	r,s,u,v,
+0x0002e370	ascii	GetModuleFileName() failed
+0x0002e390	utf16le	\StringFileInfo\040904b0\ProductName
+0x0002e3e0	utf16le	AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+0x0002eeec	ascii	2!N!`!p!a!q!b!r!c!s!d!t!e!u!f!v!g!w!h!x!i!y!j!z!k!{!l!|!m!}!n!~!o!
+0x0002f019	ascii	,O, ,P,!,Q,",R,#,S,$,T,%,U,&,V,',W,(,X,),Y,*,Z,+,[,,,\,-,],.,^,`,a,b,k
+0x0002f068	ascii	g,h,i,j,k,l,m,Q
+0x0002f080	ascii	r,s,u,v,
+0x0002f320	ascii	\Line 6\Interposer\
+0x0002f338	ascii	Interposer
+0x0002f344	ascii	64.dll
+0x0002f360	ascii	(unknown)
+0x0002f36c	ascii	(none)
+0x0002f378	ascii	%d Hz; %d bit
+0x0002f388	ascii	ASIO Buffer Size
+0x0002f3a0	ascii	USB Audio transfer size
+0x0002f3b8	ascii	(inactive)
+0x0002f3c4	ascii	%d Hz
+0x0002f3cc	ascii	%d bit
+0x0002f3e0	utf16le	AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+0x0002feec	ascii	2!N!`!p!a!q!b!r!c!s!d!t!e!u!f!v!g!w!h!x!i!y!j!z!k!{!l!|!m!}!n!~!o!
+0x00030019	ascii	,O, ,P,!,Q,",R,#,S,$,T,%,U,&,V,',W,(,X,),Y,*,Z,+,[,,,\,-,],.,^,`,a,b,k
+0x00030068	ascii	g,h,i,j,k,l,m,Q
+0x00030080	ascii	r,s,u,v,
+0x000303e0	ascii	RedLED
+0x000303e8	ascii	Driver2Device::GetStreamState() failed: %08X
+0x00030418	ascii	Driver2Device::GetAsioPreferedFormat() failed: %08X
+0x00030450	ascii	Driver2Device::GetPPU() failed: %08X
+0x00030478	ascii	Driver2Device::GetForceFormat() failed: %08X
+0x000304a8	ascii	Driver2Device::GetDefaultAudioFormat() failed: %08X
+0x000304e0	ascii	Driver2Device::GetSRCState() failed: %08X
+0x00030510	ascii	Driver2Device::GetAudioFormat() failed: %08X
+0x00030540	ascii	Driver2Device::SetForceFormat() failed: %08X
+0x00030570	ascii	Driver2Device::SetDefaultAudioFormat() failed: %08X
+0x000305a8	ascii	Driver2Device::SetAsioPreferedFormat() failed: %08X
+0x000305e0	ascii	Driver2Device::SetPPU() failed: %08X
+0x00030610	utf16le	control.exe /name Microsoft.AudioDevicesAndSoundThemes
+0x00030680	utf16le	Unable to run the Sounds and Audio Devices Control Panel.
+0x000306f4	utf16le	Try running from the main Control Panel window.
+0x00030758	utf16le	Line 6 Audio-MIDI Devices
+0x00030790	utf16le	AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+0x0003129c	ascii	2!N!`!p!a!q!b!r!c!s!d!t!e!u!f!v!g!w!h!x!i!y!j!z!k!{!l!|!m!}!n!~!o!
+0x000313c9	ascii	,O, ,P,!,Q,",R,#,S,$,T,%,U,&,V,',W,(,X,),Y,*,Z,+,[,,,\,-,],.,^,`,a,b,k
+0x00031418	ascii	g,h,i,j,k,l,m,Q
+0x00031430	ascii	r,s,u,v,
+0x00031740	ascii	L6MainDialog::OnInit() ran into issue converting productName to utf8
+0x00031788	ascii	%d.%d%d.%d.%d
+0x000317ac	ascii	P34-1
+0x000317b4	ascii	P34-2
+0x000317bc	ascii	A45-1
+0x000317c4	ascii	A45-2
+0x000317cc	ascii	A45-3
+0x000317d4	ascii	P38-1
+0x000317dc	ascii	P38-2
+0x000317e8	utf16le	L6ControlGrid
+0x00031808	utf16le	Static
+0x00031818	utf16le	Button
+0x00031828	utf16le	L6METER
+0x00031840	utf16le	msctls_updown32
+0x00031860	utf16le	AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+0x0003236c	ascii	2!N!`!p!a!q!b!r!c!s!d!t!e!u!f!v!g!w!h!x!i!y!j!z!k!{!l!|!m!}!n!~!o!
+0x00032499	ascii	,O, ,P,!,Q,",R,#,S,$,T,%,U,&,V,',W,(,X,),Y,*,Z,+,[,,,\,-,],.,^,`,a,b,k
+0x000324e8	ascii	g,h,i,j,k,l,m,Q
+0x00032500	ascii	r,s,u,v,
+0x00032780	ascii	DllMain : DLL_PROCESS_ATTACH
+0x000327a0	ascii	DllMain : DLL_THREAD_ATTACH
+0x000327c0	ascii	DllMain : DLL_THREAD_DETACH
+0x000327e0	ascii	DllMain : DLL_PROCESS_DETACH
+0x00032800	utf16le	Global\L6DriverControlPanel
+0x00032838	ascii	Failed to create sempahore!
+0x00032858	ascii	Failed to wait on sempahore - Control Panel already running?
+0x000328a0	utf16le	\StringFileInfo\040904b0\FileVersion
+0x000328f0	utf16le	IglooModelessDialog
+0x00032a40	ascii	Interposer64.dll
+0x00032a60	ascii	gdiplus.dll
+0x00032a80	utf16le	KERNEL32.DLL
+0x00032aa0	ascii	AcquireSRWLockExclusive
+0x00032ab8	ascii	ReleaseSRWLockExclusive
+0x00032b10	utf16le	api-ms-win-core-synch-l1-2-0.dll
+0x00032b58	utf16le	kernel32.dll
+0x00032b78	ascii	SleepConditionVariableCS
+0x00032b98	ascii	WakeAllConditionVariable
+0x00032cf8	ascii	bad allocation
+0x00032e80	ascii	bad exception
+0x00033590	ascii	__based(
+0x000335a0	ascii	__cdecl
+0x000335a8	ascii	__pascal
+0x000335b8	ascii	__stdcall
+0x000335c8	ascii	__thiscall
+0x000335d8	ascii	__fastcall
+0x000335e8	ascii	__vectorcall
+0x000335f8	ascii	__clrcall
+0x00033604	ascii	__eabi
+0x00033610	ascii	__swift_1
+0x00033620	ascii	__swift_2
+0x00033630	ascii	__ptr64
+0x00033638	ascii	__restrict
+0x00033648	ascii	__unaligned
+0x00033658	ascii	restrict(
+0x00033670	ascii	 delete
+0x00033698	ascii	operator
+0x00033718	ascii	`vftable'
+0x00033728	ascii	`vbtable'
+0x00033738	ascii	`vcall'
+0x00033740	ascii	`typeof'
+0x00033750	ascii	`local static guard'
+0x00033768	ascii	`string'
+0x00033778	ascii	`vbase destructor'
+0x00033790	ascii	`vector deleting destructor'
+0x000337b0	ascii	`default constructor closure'
+0x000337d0	ascii	`scalar deleting destructor'
+0x000337f0	ascii	`vector constructor iterator'
+0x00033810	ascii	`vector destructor iterator'
+0x00033830	ascii	`vector vbase constructor iterator'
+0x00033858	ascii	`virtual displacement map'
+0x00033878	ascii	`eh vector constructor iterator'
+0x000338a0	ascii	`eh vector destructor iterator'
+0x000338c0	ascii	`eh vector vbase constructor iterator'
+0x000338e8	ascii	`copy constructor closure'
+0x00033908	ascii	`udt returning'
+0x0003391c	ascii	`RTTI
+0x00033928	ascii	`local vftable'
+0x00033938	ascii	`local vftable constructor closure'
+0x0003395c	ascii	 new[]
+0x00033968	ascii	 delete[]
+0x00033978	ascii	`omni callsig'
+0x00033988	ascii	`placement delete closure'
+0x000339a8	ascii	`placement delete[] closure'
+0x000339c8	ascii	`managed vector constructor iterator'
+0x000339f0	ascii	`managed vector destructor iterator'
+0x00033a18	ascii	`eh vector copy constructor iterator'
+0x00033a40	ascii	`eh vector vbase copy constructor iterator'
+0x00033a70	ascii	`dynamic initializer for '
+0x00033a90	ascii	`dynamic atexit destructor for '
+0x00033ab8	ascii	`vector copy constructor iterator'
+0x00033ae0	ascii	`vector vbase copy constructor iterator'
+0x00033b10	ascii	`managed vector copy constructor iterator'
+0x00033b40	ascii	`local static thread guard'
+0x00033b60	ascii	operator "" 
+0x00033b70	ascii	operator co_await
+0x00033b88	ascii	operator<=>
+0x00033b98	ascii	 Type Descriptor'
+0x00033bb0	ascii	 Base Class Descriptor at (
+0x00033bd0	ascii	 Base Class Array'
+0x00033be8	ascii	 Class Hierarchy Descriptor'
+0x00033c08	ascii	 Complete Object Locator'
+0x00033c28	ascii	`anonymous namespace'
+0x00033c58	utf16le	api-ms-win-core-fibers-l1-1-1
+0x00033c98	utf16le	api-ms-win-core-synch-l1-2-0
+0x00033cd8	utf16le	kernel32
+0x00033cf0	utf16le	api-ms-
+0x00033d08	ascii	FlsAlloc
+0x00033d20	ascii	FlsFree
+0x00033d30	ascii	FlsGetValue
+0x00033d48	ascii	FlsSetValue
+0x00033d60	ascii	InitializeCriticalSectionEx
+0x00033f80	utf16le	(null)
+0x00033f90	ascii	(null)
+0x000340c8	utf16le	mscoree.dll
+0x000340e0	ascii	CorExitProcess
+0x00034440	ascii	NAN(SNAN)
+0x00034450	ascii	nan(snan)
+0x00034460	ascii	NAN(IND)
+0x00034470	ascii	nan(ind)
+0x0003447c	ascii	e+000
+0x0003476c	ascii	Sunday
+0x00034774	ascii	Monday
+0x00034780	ascii	Tuesday
+0x00034788	ascii	Wednesday
+0x00034798	ascii	Thursday
+0x000347a4	ascii	Friday
+0x000347b0	ascii	Saturday
+0x000347f0	ascii	January
+0x000347f8	ascii	February
+0x00034804	ascii	March
+0x0003480c	ascii	April
+0x00034824	ascii	August
+0x00034830	ascii	September
+0x00034840	ascii	October
+0x00034848	ascii	November
+0x00034858	ascii	December
+0x00034870	ascii	MM/dd/yy
+0x00034880	ascii	dddd, MMMM dd, yyyy
+0x00034898	ascii	HH:mm:ss
+0x000348e0	utf16le	Sunday
+0x000348f0	utf16le	Monday
+0x00034900	utf16le	Tuesday
+0x00034910	utf16le	Wednesday
+0x00034928	utf16le	Thursday
+0x00034940	utf16le	Friday
+0x00034950	utf16le	Saturday
+0x000349c8	utf16le	January
+0x000349d8	utf16le	February
+0x000349f0	utf16le	March
+0x00034a00	utf16le	April
+0x00034a30	utf16le	August
+0x00034a40	utf16le	September
+0x00034a58	utf16le	October
+0x00034a68	utf16le	November
+0x00034a80	utf16le	December
+0x00034aa8	utf16le	MM/dd/yy
+0x00034ac0	utf16le	dddd, MMMM dd, yyyy
+0x00034ae8	utf16le	HH:mm:ss
+0x00034b00	utf16le	en-US
+0x00034bb0	utf16le	api-ms-win-core-datetime-l1-1-1
+0x00034bf0	utf16le	api-ms-win-core-file-l1-2-2
+0x00034c30	utf16le	api-ms-win-core-localization-l1-2-1
+0x00034c80	utf16le	api-ms-win-core-localization-obsolete-l1-2-0
+0x00034ce0	utf16le	api-ms-win-core-processthreads-l1-1-2
+0x00034d30	utf16le	api-ms-win-core-string-l1-1-0
+0x00034d70	utf16le	api-ms-win-core-sysinfo-l1-2-1
+0x00034db0	utf16le	api-ms-win-core-winrt-l1-1-0
+0x00034df0	utf16le	api-ms-win-core-xstate-l2-1-0
+0x00034e30	utf16le	api-ms-win-rtcore-ntuser-window-l1-1-0
+0x00034e80	utf16le	api-ms-win-security-systemfunctions-l1-1-0
+0x00034ee0	utf16le	ext-ms-win-ntuser-dialogbox-l1-1-0
+0x00034f30	utf16le	ext-ms-win-ntuser-windowstation-l1-1-0
+0x00034f80	utf16le	advapi32
+0x00034f98	utf16le	ntdll
+0x00034fb0	utf16le	api-ms-win-appmodel-runtime-l1-1-2
+0x00034ff8	utf16le	user32
+0x00035008	utf16le	ext-ms-
+0x00035020	ascii	AreFileApisANSI
+0x00035040	ascii	LCMapStringEx
+0x00035058	ascii	LocaleNameToLCID
+0x00035070	ascii	AppPolicyGetProcessTerminationMethod
+0x000351a0	utf16le	         (((((                  H
+0x00035440	ascii	 !"#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~
+0x000355c0	ascii	 !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~
+0x000356a2	utf16le	         (((((                  H
+0x000357a0	utf16le	      (                          
+0x000358c8	utf16le	ja-JP
+0x000358d8	utf16le	zh-CN
+0x000358e8	utf16le	ko-KR
+0x000358f8	utf16le	zh-TW
+0x00035a5c	ascii	[aOni*{
+0x00035b33	ascii	eLK(w
+0x00035c3d	ascii	~ $s%r
+0x00035c4c	ascii	@b;zO]
+0x00035d64	ascii	iu+-,
+0x00035dd5	ascii	obwQ4
+0x00036027	ascii	v2!L.2
+0x000361aa	ascii	^<V7w
+0x000362e0	ascii	1#INF
+0x000362e8	ascii	1#QNAN
+0x000362f0	ascii	1#SNAN
+0x000362f8	ascii	1#IND
+0x00037168	utf16le	zh-CHS
+0x00037360	utf16le	ar-SA
+0x00037370	utf16le	bg-BG
+0x00037380	utf16le	ca-ES
+0x00037390	utf16le	cs-CZ
+0x000373a0	utf16le	da-DK
+0x000373b0	utf16le	de-DE
+0x000373c0	utf16le	el-GR
+0x000373d0	utf16le	fi-FI
+0x000373e0	utf16le	fr-FR
+0x000373f0	utf16le	he-IL
+0x00037400	utf16le	hu-HU
+0x00037410	utf16le	is-IS
+0x00037420	utf16le	it-IT
+0x00037430	utf16le	nl-NL
+0x00037440	utf16le	nb-NO
+0x00037450	utf16le	pl-PL
+0x00037460	utf16le	pt-BR
+0x00037470	utf16le	ro-RO
+0x00037480	utf16le	ru-RU
+0x00037490	utf16le	hr-HR
+0x000374a0	utf16le	sk-SK
+0x000374b0	utf16le	sq-AL
+0x000374c0	utf16le	sv-SE
+0x000374d0	utf16le	th-TH
+0x000374e0	utf16le	tr-TR
+0x000374f0	utf16le	ur-PK
+0x00037500	utf16le	id-ID
+0x00037510	utf16le	uk-UA
+0x00037520	utf16le	be-BY
+0x00037530	utf16le	sl-SI
+0x00037540	utf16le	et-EE
+0x00037550	utf16le	lv-LV
+0x00037560	utf16le	lt-LT
+0x00037570	utf16le	fa-IR
+0x00037580	utf16le	vi-VN
+0x00037590	utf16le	hy-AM
+0x000375a0	utf16le	az-AZ-Latn
+0x000375b8	utf16le	eu-ES
+0x000375c8	utf16le	mk-MK
+0x000375d8	utf16le	tn-ZA
+0x000375e8	utf16le	xh-ZA
+0x000375f8	utf16le	zu-ZA
+0x00037608	utf16le	af-ZA
+0x00037618	utf16le	ka-GE
+0x00037628	utf16le	fo-FO
+0x00037638	utf16le	hi-IN
+0x00037648	utf16le	mt-MT
+0x00037658	utf16le	se-NO
+0x00037668	utf16le	ms-MY
+0x00037678	utf16le	kk-KZ
+0x00037688	utf16le	ky-KG
+0x00037698	utf16le	sw-KE
+0x000376a8	utf16le	uz-UZ-Latn
+0x000376c0	utf16le	tt-RU
+0x000376d0	utf16le	bn-IN
+0x000376e0	utf16le	pa-IN
+0x000376f0	utf16le	gu-IN
+0x00037700	utf16le	ta-IN
+0x00037710	utf16le	te-IN
+0x00037720	utf16le	kn-IN
+0x00037730	utf16le	ml-IN
+0x00037740	utf16le	mr-IN
+0x00037750	utf16le	sa-IN
+0x00037760	utf16le	mn-MN
+0x00037770	utf16le	cy-GB
+0x00037780	utf16le	gl-ES
+0x00037790	utf16le	kok-IN
+0x000377a0	utf16le	syr-SY
+0x000377b0	utf16le	div-MV
+0x000377c0	utf16le	quz-BO
+0x000377d0	utf16le	ns-ZA
+0x000377e0	utf16le	mi-NZ
+0x000377f0	utf16le	ar-IQ
+0x00037800	utf16le	de-CH
+0x00037810	utf16le	en-GB
+0x00037820	utf16le	es-MX
+0x00037830	utf16le	fr-BE
+0x00037840	utf16le	it-CH
+0x00037850	utf16le	nl-BE
+0x00037860	utf16le	nn-NO
+0x00037870	utf16le	pt-PT
+0x00037880	utf16le	sr-SP-Latn
+0x00037898	utf16le	sv-FI
+0x000378a8	utf16le	az-AZ-Cyrl
+0x000378c0	utf16le	se-SE
+0x000378d0	utf16le	ms-BN
+0x000378e0	utf16le	uz-UZ-Cyrl
+0x000378f8	utf16le	quz-EC
+0x00037908	utf16le	ar-EG
+0x00037918	utf16le	zh-HK
+0x00037928	utf16le	de-AT
+0x00037938	utf16le	en-AU
+0x00037948	utf16le	es-ES
+0x00037958	utf16le	fr-CA
+0x00037968	utf16le	sr-SP-Cyrl
+0x00037980	utf16le	se-FI
+0x00037990	utf16le	quz-PE
+0x000379a0	utf16le	ar-LY
+0x000379b0	utf16le	zh-SG
+0x000379c0	utf16le	de-LU
+0x000379d0	utf16le	en-CA
+0x000379e0	utf16le	es-GT
+0x000379f0	utf16le	fr-CH
+0x00037a00	utf16le	hr-BA
+0x00037a10	utf16le	smj-NO
+0x00037a20	utf16le	ar-DZ
+0x00037a30	utf16le	zh-MO
+0x00037a40	utf16le	de-LI
+0x00037a50	utf16le	en-NZ
+0x00037a60	utf16le	es-CR
+0x00037a70	utf16le	fr-LU
+0x00037a80	utf16le	bs-BA-Latn
+0x00037a98	utf16le	smj-SE
+0x00037aa8	utf16le	ar-MA
+0x00037ab8	utf16le	en-IE
+0x00037ac8	utf16le	es-PA
+0x00037ad8	utf16le	fr-MC
+0x00037ae8	utf16le	sr-BA-Latn
+0x00037b00	utf16le	sma-NO
+0x00037b10	utf16le	ar-TN
+0x00037b20	utf16le	en-ZA
+0x00037b30	utf16le	es-DO
+0x00037b40	utf16le	sr-BA-Cyrl
+0x00037b58	utf16le	sma-SE
+0x00037b68	utf16le	ar-OM
+0x00037b78	utf16le	en-JM
+0x00037b88	utf16le	es-VE
+0x00037b98	utf16le	sms-FI
+0x00037ba8	utf16le	ar-YE
+0x00037bb8	utf16le	en-CB
+0x00037bc8	utf16le	es-CO
+0x00037bd8	utf16le	smn-FI
+0x00037be8	utf16le	ar-SY
+0x00037bf8	utf16le	en-BZ
+0x00037c08	utf16le	es-PE
+0x00037c18	utf16le	ar-JO
+0x00037c28	utf16le	en-TT
+0x00037c38	utf16le	es-AR
+0x00037c48	utf16le	ar-LB
+0x00037c58	utf16le	en-ZW
+0x00037c68	utf16le	es-EC
+0x00037c78	utf16le	ar-KW
+0x00037c88	utf16le	en-PH
+0x00037c98	utf16le	es-CL
+0x00037ca8	utf16le	ar-AE
+0x00037cb8	utf16le	es-UY
+0x00037cc8	utf16le	ar-BH
+0x00037cd8	utf16le	es-PY
+0x00037ce8	utf16le	ar-QA
+0x00037cf8	utf16le	es-BO
+0x00037d08	utf16le	es-SV
+0x00037d18	utf16le	es-HN
+0x00037d28	utf16le	es-NI
+0x00037d38	utf16le	es-PR
+0x00037d48	utf16le	zh-CHT
+0x00038ba0	utf16le	af-za
+0x00038bb0	utf16le	ar-ae
+0x00038bc0	utf16le	ar-bh
+0x00038bd0	utf16le	ar-dz
+0x00038be0	utf16le	ar-eg
+0x00038bf0	utf16le	ar-iq
+0x00038c00	utf16le	ar-jo
+0x00038c10	utf16le	ar-kw
+0x00038c20	utf16le	ar-lb
+0x00038c30	utf16le	ar-ly
+0x00038c40	utf16le	ar-ma
+0x00038c50	utf16le	ar-om
+0x00038c60	utf16le	ar-qa
+0x00038c70	utf16le	ar-sa
+0x00038c80	utf16le	ar-sy
+0x00038c90	utf16le	ar-tn
+0x00038ca0	utf16le	ar-ye
+0x00038cb0	utf16le	az-az-cyrl
+0x00038cc8	utf16le	az-az-latn
+0x00038ce0	utf16le	be-by
+0x00038cf0	utf16le	bg-bg
+0x00038d00	utf16le	bn-in
+0x00038d10	utf16le	bs-ba-latn
+0x00038d28	utf16le	ca-es
+0x00038d38	utf16le	cs-cz
+0x00038d48	utf16le	cy-gb
+0x00038d58	utf16le	da-dk
+0x00038d68	utf16le	de-at
+0x00038d78	utf16le	de-ch
+0x00038d88	utf16le	de-de
+0x00038d98	utf16le	de-li
+0x00038da8	utf16le	de-lu
+0x00038db8	utf16le	div-mv
+0x00038dc8	utf16le	el-gr
+0x00038dd8	utf16le	en-au
+0x00038de8	utf16le	en-bz
+0x00038df8	utf16le	en-ca
+0x00038e08	utf16le	en-cb
+0x00038e18	utf16le	en-gb
+0x00038e28	utf16le	en-ie
+0x00038e38	utf16le	en-jm
+0x00038e48	utf16le	en-nz
+0x00038e58	utf16le	en-ph
+0x00038e68	utf16le	en-tt
+0x00038e78	utf16le	en-us
+0x00038e88	utf16le	en-za
+0x00038e98	utf16le	en-zw
+0x00038ea8	utf16le	es-ar
+0x00038eb8	utf16le	es-bo
+0x00038ec8	utf16le	es-cl
+0x00038ed8	utf16le	es-co
+0x00038ee8	utf16le	es-cr
+0x00038ef8	utf16le	es-do
+0x00038f08	utf16le	es-ec
+0x00038f18	utf16le	es-es
+0x00038f28	utf16le	es-gt
+0x00038f38	utf16le	es-hn
+0x00038f48	utf16le	es-mx
+0x00038f58	utf16le	es-ni
+0x00038f68	utf16le	es-pa
+0x00038f78	utf16le	es-pe
+0x00038f88	utf16le	es-pr
+0x00038f98	utf16le	es-py
+0x00038fa8	utf16le	es-sv
+0x00038fb8	utf16le	es-uy
+0x00038fc8	utf16le	es-ve
+0x00038fd8	utf16le	et-ee
+0x00038fe8	utf16le	eu-es
+0x00038ff8	utf16le	fa-ir
+0x00039008	utf16le	fi-fi
+0x00039018	utf16le	fo-fo
+0x00039028	utf16le	fr-be
+0x00039038	utf16le	fr-ca
+0x00039048	utf16le	fr-ch
+0x00039058	utf16le	fr-fr
+0x00039068	utf16le	fr-lu
+0x00039078	utf16le	fr-mc
+0x00039088	utf16le	gl-es
+0x00039098	utf16le	gu-in
+0x000390a8	utf16le	he-il
+0x000390b8	utf16le	hi-in
+0x000390c8	utf16le	hr-ba
+0x000390d8	utf16le	hr-hr
+0x000390e8	utf16le	hu-hu
+0x000390f8	utf16le	hy-am
+0x00039108	utf16le	id-id
+0x00039118	utf16le	is-is
+0x00039128	utf16le	it-ch
+0x00039138	utf16le	it-it
+0x00039148	utf16le	ja-jp
+0x00039158	utf16le	ka-ge
+0x00039168	utf16le	kk-kz
+0x00039178	utf16le	kn-in
+0x00039188	utf16le	kok-in
+0x00039198	utf16le	ko-kr
+0x000391a8	utf16le	ky-kg
+0x000391b8	utf16le	lt-lt
+0x000391c8	utf16le	lv-lv
+0x000391d8	utf16le	mi-nz
+0x000391e8	utf16le	mk-mk
+0x000391f8	utf16le	ml-in
+0x00039208	utf16le	mn-mn
+0x00039218	utf16le	mr-in
+0x00039228	utf16le	ms-bn
+0x00039238	utf16le	ms-my
+0x00039248	utf16le	mt-mt
+0x00039258	utf16le	nb-no
+0x00039268	utf16le	nl-be
+0x00039278	utf16le	nl-nl
+0x00039288	utf16le	nn-no
+0x00039298	utf16le	ns-za
+0x000392a8	utf16le	pa-in
+0x000392b8	utf16le	pl-pl
+0x000392c8	utf16le	pt-br
+0x000392d8	utf16le	pt-pt
+0x000392e8	utf16le	quz-bo
+0x000392f8	utf16le	quz-ec
+0x00039308	utf16le	quz-pe
+0x00039318	utf16le	ro-ro
+0x00039328	utf16le	ru-ru
+0x00039338	utf16le	sa-in
+0x00039348	utf16le	se-fi
+0x00039358	utf16le	se-no
+0x00039368	utf16le	se-se
+0x00039378	utf16le	sk-sk
+0x00039388	utf16le	sl-si
+0x00039398	utf16le	sma-no
+0x000393a8	utf16le	sma-se
+0x000393b8	utf16le	smj-no
+0x000393c8	utf16le	smj-se
+0x000393d8	utf16le	smn-fi
+0x000393e8	utf16le	sms-fi
+0x000393f8	utf16le	sq-al
+0x00039408	utf16le	sr-ba-cyrl
+0x00039420	utf16le	sr-ba-latn
+0x00039438	utf16le	sr-sp-cyrl
+0x00039450	utf16le	sr-sp-latn
+0x00039468	utf16le	sv-fi
+0x00039478	utf16le	sv-se
+0x00039488	utf16le	sw-ke
+0x00039498	utf16le	syr-sy
+0x000394a8	utf16le	ta-in
+0x000394b8	utf16le	te-in
+0x000394c8	utf16le	th-th
+0x000394d8	utf16le	tn-za
+0x000394e8	utf16le	tr-tr
+0x000394f8	utf16le	tt-ru
+0x00039508	utf16le	uk-ua
+0x00039518	utf16le	ur-pk
+0x00039528	utf16le	uz-uz-cyrl
+0x00039540	utf16le	uz-uz-latn
+0x00039558	utf16le	vi-vn
+0x00039568	utf16le	xh-za
+0x00039578	utf16le	zh-chs
+0x00039588	utf16le	zh-cht
+0x00039598	utf16le	zh-cn
+0x000395a8	utf16le	zh-hk
+0x000395b8	utf16le	zh-mo
+0x000395c8	utf16le	zh-sg
+0x000395d8	utf16le	zh-tw
+0x000395e8	utf16le	zu-za
+0x00039770	ascii	UUUUUU
+0x000397a0	ascii	UUUUUU
+0x00039821	ascii	TUUUU
+0x0003a0af	ascii	=imb;D
+0x0003a25e	ascii	/>58d%
+0x0003a296	ascii	!>6'Y
+0x0003a2a7	ascii	>jtm}S
+0x0003a2fe	ascii	)>6{1n
+0x0003a30c	ascii	Vr.>T
+0x0003a31c	ascii	+f)>0'
+0x0003a36b	ascii	Lj[;>
+0x0003a38e	ascii	3>fvw
+0x0003a39c	ascii	;H9>&X
+0x0003a3c2	ascii	*StO9>T
+0x0003a40c	ascii	n03>Pu
+0x0003a4e2	ascii	K~Je#>!
+0x0003a51b	ascii	+M<7>
+0x0003a565	ascii	c(>\,
+0x0003a5bb	ascii	bp(=>?g
+0x0003a67c	ascii	BC?>6t9^
+0x0003a6d5	ascii	BF>^G
+0x0003a6e5	ascii	K&>.yC
+0x0003a6f4	ascii	 'L>[
+0x0003a6fc	ascii	.xJ>Hf
+0x0003a703	ascii	y\PD>!
+0x0003a712	ascii	|b=})>
+0x0003a723	ascii	c [1>H'
+0x0003a762	ascii	uzKs@>
+0x0003a77e	ascii	3>N;kU
+0x0003a7ad	ascii	kE>fvw
+0x0003a7ee	ascii	A>pP&
+0x0003a7f4	ascii	V6E>`"(5
+0x0003a86c	ascii	0iN>/
+0x0003a87c	ascii	+h->|
+0x0003a88e	ascii	@>%>b
+0x0003ac8f	ascii	?:kP<
+0x0003ac9f	ascii	?UUUUUU
+0x0003ad27	ascii	?f`Y4
+0x0003ad57	ascii	?QY^&
+0x0003b087	ascii	?7zQ6$
+0x0003b0b0	ascii	log10
+0x0003b0b8	utf16le	CONOUT$
+0x0003c678	ascii	.text$di
+0x0003c68c	ascii	.text$mn
+0x0003c6a0	ascii	.text$mn$00
+0x0003c6b4	ascii	.text$x
+0x0003c6c4	ascii	.text$yd
+0x0003c6d8	ascii	.idata$5
+0x0003c6ec	ascii	.00cfg
+0x0003c6fc	ascii	.CRT$XCA
+0x0003c710	ascii	.CRT$XCU
+0x0003c724	ascii	.CRT$XCZ
+0x0003c738	ascii	.CRT$XIA
+0x0003c74c	ascii	.CRT$XIC
+0x0003c760	ascii	.CRT$XIZ
+0x0003c774	ascii	.CRT$XLA
+0x0003c788	ascii	.CRT$XLZ
+0x0003c79c	ascii	.CRT$XPA
+0x0003c7b0	ascii	.CRT$XPX
+0x0003c7c4	ascii	.CRT$XPXA
+0x0003c7d8	ascii	.CRT$XPZ
+0x0003c7ec	ascii	.CRT$XTA
+0x0003c800	ascii	.CRT$XTZ
+0x0003c814	ascii	.rdata
+0x0003c824	ascii	.rdata$T
+0x0003c838	ascii	.rdata$r
+0x0003c84c	ascii	.rdata$voltmd
+0x0003c864	ascii	.rdata$zzzdbg
+0x0003c87c	ascii	.rtc$IAA
+0x0003c890	ascii	.rtc$IZZ
+0x0003c8a4	ascii	.rtc$TAA
+0x0003c8b8	ascii	.rtc$TZZ
+0x0003c8dc	ascii	.tls$
+0x0003c8ec	ascii	.tls$ZZZ
+0x0003c900	ascii	.xdata
+0x0003c910	ascii	.xdata$x
+0x0003c924	ascii	.didat$2
+0x0003c938	ascii	.didat$3
+0x0003c94c	ascii	.didat$4
+0x0003c960	ascii	.didat$6
+0x0003c974	ascii	.didat$7
+0x0003c988	ascii	.edata
+0x0003c998	ascii	.idata$2
+0x0003c9ac	ascii	.idata$3
+0x0003c9c0	ascii	.idata$4
+0x0003c9d4	ascii	.idata$6
+0x0003c9e8	ascii	.data
+0x0003c9f8	ascii	.data$r
+0x0003ca08	ascii	.data$rs
+0x0003ca1c	ascii	.didat$5
+0x0003ca40	ascii	.pdata
+0x0003ca50	ascii	_RDATA
+0x0003ca60	ascii	.rsrc$01
+0x0003ca74	ascii	.rsrc$02
+0x0003f3f2	ascii	InterposerInit
+0x0003f404	ascii	InterposerCleanup
+0x0003f418	ascii	InterposerGetVersion
+0x0003f430	ascii	InterposerGetDescriptorCount
+0x0003f450	ascii	InterposerGetDescriptors
+0x0003f46c	ascii	InterposerOpenPipe
+0x0003f482	ascii	InterposerClosePipe
+0x0003f498	ascii	InterposerMessage
+0x0003f4ac	ascii	GdipAlloc
+0x0003f4b8	ascii	GdipFree
+0x0003f4c4	ascii	GdipLoadImageFromStream
+0x0003f4de	ascii	GdipCloneImage
+0x0003f4f0	ascii	GdipDisposeImage
+0x0003f504	ascii	GdipGetImageWidth
+0x0003f518	ascii	GdipGetImageHeight
+0x0003f52e	ascii	GdipCreateImageAttributes
+0x0003f54a	ascii	GdipDisposeImageAttributes
+0x0003f568	ascii	GdipSetImageAttributesColorMatrix
+0x0003f58c	ascii	GdipCreateFromHDC
+0x0003f5a0	ascii	GdipDeleteGraphics
+0x0003f5b6	ascii	GdipDrawImageRectRectI
+0x0003f5d0	ascii	GdiplusStartup
+0x0003f5e2	ascii	GdiplusShutdown
+0x0003f6fc	ascii	L6Driver2SpiderVControlPanel.cpl
+0x0003f71d	ascii	CPlApplet
+0x0003f727	ascii	LaunchDialog
+0x0003fee2	ascii	ImageList_Create
+0x0003fef6	ascii	ImageList_Destroy
+0x0003ff0a	ascii	ImageList_ReplaceIcon
+0x0003ff22	ascii	InitCommonControlsEx
+0x0003ff38	ascii	COMCTL32.dll
+0x0003ff48	ascii	GetFileVersionInfoSizeW
+0x0003ff62	ascii	GetFileVersionInfoW
+0x0003ff78	ascii	VerQueryValueW
+0x0003ff88	ascii	VERSION.dll
+0x0003ff96	ascii	BitBlt
+0x0003ffa0	ascii	DeleteObject
+0x0003ffb0	ascii	GetStockObject
+0x0003ffc2	ascii	SelectObject
+0x0003ffd2	ascii	SetBrushOrgEx
+0x0003ffe2	ascii	UnrealizeObject
+0x0003fff4	ascii	CreateCompatibleBitmap
+0x0004000e	ascii	CreateCompatibleDC
+0x00040024	ascii	DeleteDC
+0x00040030	ascii	PatBlt
+0x0004003a	ascii	SetBkMode
+0x00040046	ascii	CreatePen
+0x00040052	ascii	LineTo
+0x0004005c	ascii	Rectangle
+0x00040068	ascii	SetTextColor
+0x00040078	ascii	MoveToEx
+0x00040084	ascii	OffsetWindowOrgEx
+0x00040098	ascii	CreateSolidBrush
+0x000400ac	ascii	RestoreDC
+0x000400b8	ascii	SaveDC
+0x000400c0	ascii	GDI32.dll
+0x000400cc	ascii	CreateFileW
+0x000400da	ascii	FindClose
+0x000400e6	ascii	FindNextFileW
+0x000400f6	ascii	FlushFileBuffers
+0x0004010a	ascii	SetFilePointerEx
+0x0004011e	ascii	WriteFile
+0x0004012a	ascii	GetTempPathW
+0x0004013a	ascii	OutputDebugStringA
+0x00040150	ascii	CloseHandle
+0x0004015e	ascii	GetLastError
+0x0004016e	ascii	SetEvent
+0x0004017a	ascii	WaitForSingleObject
+0x00040190	ascii	CreateEventW
+0x000401a0	ascii	QueryPerformanceCounter
+0x000401ba	ascii	InitializeCriticalSection
+0x000401d6	ascii	EnterCriticalSection
+0x000401ee	ascii	LeaveCriticalSection
+0x00040206	ascii	DeleteCriticalSection
+0x0004021e	ascii	ResetEvent
+0x0004022c	ascii	ReleaseSemaphore
+0x00040240	ascii	CreateMutexW
+0x00040250	ascii	CreateSemaphoreW
+0x00040264	ascii	GetCurrentThreadId
+0x0004027a	ascii	GetTickCount
+0x0004028a	ascii	FreeResource
+0x0004029a	ascii	LoadResource
+0x000402aa	ascii	LockResource
+0x000402ba	ascii	FindResourceW
+0x000402ca	ascii	GlobalFindAtomW
+0x000402dc	ascii	GetAtomNameW
+0x000402ec	ascii	SizeofResource
+0x000402fe	ascii	GlobalAlloc
+0x0004030c	ascii	GlobalUnlock
+0x0004031c	ascii	GlobalLock
+0x0004032a	ascii	GlobalFree
+0x00040338	ascii	GetModuleHandleW
+0x0004034c	ascii	FreeLibrary
+0x0004035a	ascii	GetProcAddress
+0x0004036c	ascii	LoadLibraryW
+0x0004037c	ascii	GetModuleFileNameW
+0x00040392	ascii	GetCurrentDirectoryA
+0x000403aa	ascii	LoadLibraryA
+0x000403ba	ascii	CreateProcessW
+0x000403cc	ascii	MultiByteToWideChar
+0x000403e2	ascii	WideCharToMultiByte
+0x000403f6	ascii	KERNEL32.dll
+0x00040406	ascii	MoveWindow
+0x00040414	ascii	SetWindowPos
+0x00040424	ascii	GetWindowRect
+0x00040434	ascii	ScreenToClient
+0x00040446	ascii	OffsetRect
+0x00040454	ascii	GetWindow
+0x00040460	ascii	SendMessageW
+0x00040470	ascii	PostMessageW
+0x00040480	ascii	IsWindow
+0x0004048c	ascii	DestroyWindow
+0x0004049c	ascii	ShowWindow
+0x000404aa	ascii	IsWindowVisible
+0x000404bc	ascii	CreateDialogParamW
+0x000404d2	ascii	DialogBoxParamW
+0x000404e4	ascii	EndDialog
+0x000404f0	ascii	SendDlgItemMessageW
+0x00040506	ascii	GetDlgCtrlID
+0x00040516	ascii	SetTimer
+0x00040522	ascii	KillTimer
+0x0004052e	ascii	EnableWindow
+0x0004053e	ascii	GetSystemMenu
+0x0004054e	ascii	EnableMenuItem
+0x00040560	ascii	SetForegroundWindow
+0x00040576	ascii	SetWindowTextW
+0x00040588	ascii	CopyRect
+0x00040594	ascii	GetWindowLongW
+0x000405a6	ascii	GetWindowLongPtrW
+0x000405ba	ascii	SetWindowLongPtrW
+0x000405ce	ascii	GetDesktopWindow
+0x000405e2	ascii	GetParent
+0x000405ee	ascii	EnumChildWindows
+0x00040602	ascii	GetClassNameW
+0x00040612	ascii	MonitorFromPoint
+0x00040626	ascii	MonitorFromRect
+0x00040638	ascii	GetMonitorInfoW
+0x0004064a	ascii	SetWindowsHookExW
+0x0004065e	ascii	UnhookWindowsHookEx
+0x00040674	ascii	CallNextHookEx
+0x00040686	ascii	InvalidateRect
+0x00040698	ascii	SetWindowLongW
+0x000406aa	ascii	CallWindowProcW
+0x000406bc	ascii	IsWindowEnabled
+0x000406ce	ascii	GetWindowTextW
+0x000406e0	ascii	GetWindowTextLengthW
+0x000406f8	ascii	SetDlgItemInt
+0x00040708	ascii	GetDlgItemInt
+0x00040718	ascii	LoadImageW
+0x00040726	ascii	BeginPaint
+0x00040734	ascii	EndPaint
+0x00040740	ascii	GetUpdateRect
+0x00040750	ascii	GetClientRect
+0x00040760	ascii	ClientToScreen
+0x00040772	ascii	FillRect
+0x0004077e	ascii	GetClassLongPtrW
+0x00040792	ascii	LoadBitmapW
+0x000407a0	ascii	LoadIconW
+0x000407ac	ascii	SetRect
+0x000407b6	ascii	GetDC
+0x000407be	ascii	ReleaseDC
+0x000407ca	ascii	CreateWindowExW
+0x000407dc	ascii	MessageBoxW
+0x000407ea	ascii	GetForegroundWindow
+0x00040800	ascii	LoadStringW
+0x0004080e	ascii	GetDlgItem
+0x0004081c	ascii	GetAsyncKeyState
+0x00040830	ascii	DestroyIcon
+0x0004083e	ascii	DefWindowProcW
+0x00040850	ascii	UnregisterClassW
+0x00040864	ascii	RegisterClassExW
+0x00040878	ascii	DrawTextW
+0x00040884	ascii	GetWindowDC
+0x00040892	ascii	RedrawWindow
+0x000408a2	ascii	ScrollWindowEx
+0x000408b4	ascii	SetScrollPos
+0x000408c4	ascii	GetScrollPos
+0x000408d4	ascii	EnableScrollBar
+0x000408e6	ascii	GetSysColor
+0x000408f4	ascii	GetSysColorBrush
+0x00040908	ascii	InflateRect
+0x00040916	ascii	MapDialogRect
+0x00040926	ascii	SetScrollInfo
+0x00040936	ascii	GetScrollInfo
+0x00040946	ascii	FindWindowW
+0x00040952	ascii	USER32.dll
+0x00040960	ascii	SHGetFolderPathW
+0x00040974	ascii	SHGetKnownFolderPath
+0x0004098a	ascii	SHELL32.dll
+0x00040998	ascii	CoTaskMemFree
+0x000409a8	ascii	CreateStreamOnHGlobal
+0x000409be	ascii	ole32.dll
+0x000409ca	ascii	RaiseException
+0x000409dc	ascii	GetSystemInfo
+0x000409ec	ascii	VirtualProtect
+0x000409fe	ascii	VirtualQuery
+0x00040a0e	ascii	LoadLibraryExA
+0x00040a20	ascii	RtlCaptureContext
+0x00040a34	ascii	RtlLookupFunctionEntry
+0x00040a4e	ascii	RtlVirtualUnwind
+0x00040a62	ascii	UnhandledExceptionFilter
+0x00040a7e	ascii	SetUnhandledExceptionFilter
+0x00040a9c	ascii	GetCurrentProcess
+0x00040ab0	ascii	TerminateProcess
+0x00040ac4	ascii	IsProcessorFeaturePresent
+0x00040ae0	ascii	InitializeCriticalSectionAndSpinCount
+0x00040b08	ascii	WaitForSingleObjectEx
+0x00040b20	ascii	IsDebuggerPresent
+0x00040b34	ascii	GetStartupInfoW
+0x00040b46	ascii	GetCurrentProcessId
+0x00040b5c	ascii	GetSystemTimeAsFileTime
+0x00040b76	ascii	InitializeSListHead
+0x00040b8c	ascii	RtlPcToFileHeader
+0x00040ba0	ascii	RtlUnwindEx
+0x00040bae	ascii	InterlockedFlushSList
+0x00040bc6	ascii	SetLastError
+0x00040bd6	ascii	EncodePointer
+0x00040be6	ascii	TlsAlloc
+0x00040bf2	ascii	TlsGetValue
+0x00040c00	ascii	TlsSetValue
+0x00040c0e	ascii	TlsFree
+0x00040c18	ascii	LoadLibraryExW
+0x00040c2a	ascii	GetModuleHandleExW
+0x00040c40	ascii	ExitProcess
+0x00040c4e	ascii	HeapFree
+0x00040c5a	ascii	HeapAlloc
+0x00040c66	ascii	GetStdHandle
+0x00040c76	ascii	GetFileType
+0x00040c84	ascii	HeapReAlloc
+0x00040c92	ascii	FlsAlloc
+0x00040c9e	ascii	FlsGetValue
+0x00040cac	ascii	FlsSetValue
+0x00040cba	ascii	FlsFree
+0x00040cc4	ascii	LCMapStringW
+0x00040cd4	ascii	FindFirstFileExW
+0x00040ce8	ascii	IsValidCodePage
+0x00040cfa	ascii	GetACP
+0x00040d04	ascii	GetOEMCP
+0x00040d10	ascii	GetCPInfo
+0x00040d1c	ascii	GetCommandLineA
+0x00040d2e	ascii	GetCommandLineW
+0x00040d40	ascii	GetEnvironmentStringsW
+0x00040d5a	ascii	FreeEnvironmentStringsW
+0x00040d74	ascii	GetProcessHeap
+0x00040d86	ascii	GetStringTypeW
+0x00040d98	ascii	SetStdHandle
+0x00040da8	ascii	HeapSize
+0x00040db4	ascii	GetConsoleOutputCP
+0x00040dca	ascii	GetConsoleMode
+0x00040ddc	ascii	WriteConsoleW
+0x00041c4a	ascii	                          
+0x00041d2a	ascii	abcdefghijklmnopqrstuvwxyz
+0x00041d4a	ascii	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0x00041e62	ascii	                          
+0x00041f51	ascii	abcdefghijklmnopqrstuvwxyz
+0x00041f71	ascii	ABCDEFGHIJKLMNOPQRSTUVWXYZ
+0x000422f8	ascii	.?AW4eL6Exception@@
+0x00042320	ascii	.?AVbad_array_new_length@std@@
+0x00042350	ascii	.?AVbad_alloc@std@@
+0x00042378	ascii	.?AVexception@std@@
+0x000423a0	ascii	.?AVbad_exception@std@@
+0x000423d0	ascii	.?AVL6String@@
+0x000423f0	ascii	.?AVL6Mutex@@
+0x00042410	ascii	.?AVIL6DlgCtrl@@
+0x00042438	ascii	.?AVL6NullCtrl@@
+0x00042460	ascii	.?AVL6Dialog@@
+0x00042480	ascii	.?AV?$L6DlgMap@KPEAVIL6DlgCtrl@@@@
+0x000424c0	ascii	.?AV?$L6Dlg_RedBlackTreeBase@KPEAVIL6DlgCtrl@@@@
+0x00042508	ascii	.?AV?$L6Dlg_BinaryTreeBase@KPEAVIL6DlgCtrl@@@@
+0x00042550	ascii	.?AVNode@?$L6Dlg_BinaryTreeBase@KPEAVIL6DlgCtrl@@@@
+0x000425a0	ascii	.?AVRedBlackNode@?$L6Dlg_RedBlackTreeBase@KPEAVIL6DlgCtrl@@@@
+0x000425f0	ascii	.?AVL6DlgImpl@@
+0x00042610	ascii	.?AVL6DlgImplWin32@@
+0x00042638	ascii	.?AVL6DlgLock@@
+0x00042658	ascii	.?AVL6HWNDButtonAdapter@@
+0x00042688	ascii	.?AVL6HWNDCtrlAdapter@@
+0x000426b0	ascii	.?AVL6HWNDComboBoxAdapter@@
+0x000426e0	ascii	.?AVL6HWNDEditBoxAdapter@@
+0x00042710	ascii	.?AVL6HWNDListViewAdapter@@
+0x00042740	ascii	.?AVL6HWNDProgressAdapter@@
+0x00042770	ascii	.?AVL6HWNDRadioAdapter@@
+0x000427a0	ascii	.?AVL6HWNDSliderAdapter@@
+0x000427d0	ascii	.?AVGdiplusBase@Gdiplus@@
+0x00042800	ascii	.?AVImage@Gdiplus@@
+0x00042828	ascii	.?AVL6HWNDStaticImageAdapter@@
+0x00042858	ascii	.?AVL6HWNDTabAdapter@@
+0x00042880	ascii	.?AVL6HWNDToggleAdapter@@
+0x000428b0	ascii	.?AVDriver2Device@@
+0x000428d8	ascii	.?AVDriver2DeviceBag@@
+0x00042900	ascii	.?AVL6TabController@@
+0x00042928	ascii	.?AVL6DriverTabController@@
+0x00042958	ascii	.?AVL6MainDialog@@
+0x00042980	ascii	.?AVL6HWNDMeterAdapter@@
+0x000429b0	ascii	.?AVL6MemoryDC@@
+0x000429d8	ascii	.?AV?$L6Dictionary@PEAUHWND__@@UMETERINFO@@@@
+0x00042a20	ascii	.?AV?$RedBlackTreeBase@PEAUHWND__@@UMETERINFO@@@@
+0x00042a70	ascii	.?AV?$BinaryTreeBase@PEAUHWND__@@UMETERINFO@@@@
+0x00042ab0	ascii	.?AVNode@?$BinaryTreeBase@PEAUHWND__@@UMETERINFO@@@@
+0x00042b00	ascii	.?AVRedBlackNode@?$RedBlackTreeBase@PEAUHWND__@@UMETERINFO@@@@
+0x00042b50	ascii	.?AVtype_info@@
+0x00045caa	utf16le	DRIVER
+0x00045cc0	utf16le	LEDMULTI16
+0x00045cd6	utf16le	REDLED
+0x00045ce4	utf16le	TONEDIRECT
+0x00045cfa	utf16le	C16_1
+0x00045d10	utf16le	LOCK2
+0x00045d26	utf16le	VS_VERSION_INFO
+0x00045d82	utf16le	StringFileInfo
+0x00045da6	utf16le	040904b0
+0x00045dbe	utf16le	CompanyName
+0x00045dd8	utf16le	Line 6
+0x00045dee	utf16le	FileDescription
+0x00045e10	utf16le	Control Panel
+0x00045e32	utf16le	FileVersion
+0x00045e4c	utf16le	2.00.0.0
+0x00045e66	utf16le	InternalName
+0x00045e80	utf16le	L6Driver.exe
+0x00045ea2	utf16le	LegalCopyright
+0x00045ec0	utf16le	Copyright (C) 2024
+0x00045eee	utf16le	OriginalFilename
+0x00045f10	utf16le	L6Driver.exe
+0x00045f32	utf16le	ProductName
+0x00045f4c	utf16le	Line 6 Spider V Control Panel
+0x00045f8e	utf16le	ProductVersion
+0x00045fac	utf16le	2.00.0.0
+0x00045fc6	utf16le	VarFileInfo
+0x00045fe6	utf16le	Translation
+0x0004602e	utf16le	MS Shell Dlg
+0x00046064	utf16le	&Line 6 Device:
+0x000460c4	utf16le	No devices connected.
+0x00046130	utf16le	Driver Version:
+0x000461f4	utf16le	SysTabControl32
+0x00046214	utf16le	DRIVER
+0x00046264	utf16le	Cancel
+0x00046290	utf16le	&Apply
+0x000462bc	utf16le	Revert
+0x000462f6	utf16le	MS Shell Dlg
+0x0004632c	utf16le	Driver Format
+0x00046368	utf16le	Driver operating at:
+0x000463d0	utf16le	Default &Sample Rate:
+0x0004643c	utf16le	Default &Bit Depth:
+0x000464a4	utf16le	L&ock Format
+0x000464dc	utf16le	The WDM sample rate and bit depth are set in the Sound Control Panel, which can be accessed by clicking the button below.
+0x000465f0	utf16le	Sound &Control Panel
+0x00046638	utf16le	Sample Rate Converter
+0x000466c4	utf16le	Extra Small
+0x000466fc	utf16le	Medium
+0x00046728	utf16le	Extra Large
+0x00046760	utf16le	Bu&ffer Size:
+0x00046798	utf16le	msctls_trackbar32
+0x000467dc	utf16le	Smaller buffers provide lower latency, but increased CPU usage
+0x00046d33	ascii	&RRR(RRR(RRR(RRR(RRR(RRR(RRR(
+0x00046d53	ascii	*EEE0
+0x00046dbf	ascii	5aaa/+++)RRR(RRR(RRR(RRR(RRR(RRR(RRR(
+0x00046ef7	ascii	+aaa/...1...1aaa/
+0x00046f13	ascii	C666O
+0x00046f23	ascii	QSSSL
+0x00046f57	ascii	^ppphYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlYYYlNNNn...t   wBBBp}}}f
+0x00046fdf	ascii	dbbbjQQQm
+0x0004700f	ascii	3...1...1...1aaa/
+0x000470ab	ascii	+aaa/aaa/aaa/
+0x000470c3	ascii	?&&&<
+0x000470cb	ascii	@UUUK
+0x000470e7	ascii	cwwwd
+0x000470f3	ascii	^{{{cYYYiFFFlCCCmcccg
+0x0004710b	ascii	ZRRRs
+0x0004720b	ascii	wCCCmCCCmCCCm***r...rCCCmnnnfqqqe___hMMMlfffh
+0x0004724b	ascii	VcccJ
+0x0004725f	ascii	7...1...1aaa/
+0x000472ab	ascii	avvvg
+0x000472c7	ascii	kxxxw///
+0x00047458	ascii	&&&vBBBpYYYlQQQm<<<q333s)))uBBBp
+0x0004747b	ascii	V+++)fff
+0x0004767f	ascii	x...1HHH
+0x0004b337	ascii	)mmmO
+0x0004f33f	ascii	)555iiii
+0x0004f7a3	ascii	P222jiii
+0x0004fc2f	ascii	6---q
+0x0005057f	ascii	i<<<j
+0x0005152c	ascii	hhh'qqq
+0x000535f3	ascii	)DDDi
+0x000553b3	ascii	AHHHm|||
+0x000571f4	ascii	zzz-JJJ4\\\2XXX4
+0x00057207	ascii	DmmmFmmmFzzzDvvvD
+0x0005721b	ascii	PpppRpppRpppRpppRpppRpppRpppRpppRpppRpppRmmmRfffVRRRKnnnEmmmFnnnElllI
+0x00057263	ascii	<OOO3HHH4
+0x000572c3	ascii	H{{{H
+0x000572cf	ascii	Vvvvc
+0x000572d7	ascii	r!!!n
+0x00057388	ascii	yyywuuuy
+0x0005739b	ascii	WAAANmmmOTTTI
+0x000574ac	ascii	ttt-(((
+0x000575af	ascii	X&&&)
+0x000576af	ascii	R%%%+
+0x000577af	ascii	O"""+
+0x000579af	ascii	O"""+
+0x00057aaf	ascii	O"""+
+0x00057baf	ascii	O!!!+
+0x00057caf	ascii	I"""%
+0x00057edb	ascii	Y%%%`"""cOOO{YYY
+0x00057f78	ascii	OOOv###_$$$_
+0x00057f9f	ascii	7(((&QQQ
+0x000583e0	ascii	+++/nnn
+0x00059157	ascii	)AAAhDDD
+0x0005930b	ascii	)'''l
+0x00059a50	ascii	(((VGGG'NNN
+0x00059a5c	ascii	WWW"pppd
+0x00059c04	ascii	HHH]HHH;ppp
+0x00059d18	ascii	sssKggg
+0x0005a367	ascii	#&&&_
+0x0005ae4c	ascii	NNN$[[[\666N
+0x0005b8d7	ascii	{   }
+0x0005ba5b	ascii	C,,,xvvv
+0x0005bb47	ascii	`&&&q333x555s333v///
+0x0005bb60	ascii	222~222
+0x0005bb70	ascii	:::{777{777{:::z<<<z<<<z>>>w>>>r:::q:::q888p888p555n
+0x0005bd7c	ascii	LLLn___
+0x0005bef4	ascii	UUUx%%%t
+0x0005c12c	ascii	:::JHHH
+0x0005c543	ascii	(333<===
+0x0005c553	ascii	4;;;}aaa
+0x0005c5af	ascii	&www|
+0x0005c7f0	ascii	PPPR333d
+0x0005ca63	ascii	*TTTg777swww
+0x0005ca9b	ascii	&;;;Q
+0x0005cb14	ascii	QQQUUUU
+0x0005cb2b	ascii	(fffi
+0x0005cfdb	ascii	N***x
+0x0005d2b0	ascii	ssswUUU
+0x0005d447	ascii	tKKKe
+0x0005d51c	ascii	sssyttt
+0x0005d5cc	ascii	&&&5***Z
+0x0005d89b	ascii	d}}}fvvvgvvvgjjjibbbjbbbj\\\kQQQmNNNnNNNnNNNnBBBp<<<qBBBpBBBp<<<qBBBpBBBpGGGoBBBpGGGoQQQmGGGo...tvvvgPPP)ZZZk
+0x0005dc0b	ascii	u333{777{;;;}TTT
+0x0005dc68	ascii	999}111{///{
+0x0005ea6c	ascii	III&ggg
+0x0005ebb0	ascii	(((?fff
+0x0005eed4	utf16le	333f3
+0x0005ef60	utf16le	f3fff
+0x0005f454	utf16le	333f3
+0x0005f4e0	utf16le	f3fff
+0x0005f8ed	ascii	tEXtSoftware
+0x0005f8fa	ascii	Adobe ImageReadyq
+0x0005f911	ascii	!IDATx
+0x0005f9d9	ascii	EQDEJ
+0x0005fa08	ascii	D"2aM
+0x0005face	ascii	A6KYX
+0x0005fbdd	ascii	b<Y,Er
+0x0005fda3	ascii	u,}Is
+0x0005fe1e	ascii	>>X^KCX
+0x0005fe90	ascii	CP{8)
+0x0005fee4	ascii	i<(jK
+0x0005ff4f	ascii	KJq<@
+0x0005ff85	ascii	o{O +
+0x0005fff3	ascii	\G_*:
+0x0005fffd	ascii	<E1{,
+0x0006009e	ascii	Pw8B0U
+0x000601fc	ascii	g6KSX
+0x00060300	ascii	3UN1jTM
+0x0006036c	ascii	+tEXtCreation Time
+0x0006037f	ascii	Tue 9 May 2006 09:56:40 -0800
+0x000603c6	ascii	tIDATx
+0x00060679	ascii	$g&'Ls
+0x00060871	ascii	DE3B!JoV
+0x00060a85	ascii	tEXtSoftware
+0x00060a92	ascii	Adobe ImageReadyq
+0x00060aa8	ascii	&0IDATx
+0x00060b73	ascii	ss~m_
+0x00060c54	ascii	%8;U;
+0x00060ce7	ascii	IsnaQ
+0x00060d00	ascii	3M$@x
+0x00060d0f	ascii	NVWysR"Dp
+0x00060d8c	ascii	L$Om]
+0x00060da3	ascii	6qz8v
+0x00060fbd	ascii	.K0?3
+0x0006102b	ascii	$fi f
+0x00061102	ascii	[p#pV
+0x00061110	ascii	PJNC],
+0x00061121	ascii	8<^\l
+0x0006112f	ascii	^+C.>
+0x000611a3	ascii	PNMA-;
+0x00061246	ascii	:asxi
+0x000612b7	ascii	0s~<QR
+0x000612e0	ascii	\(k*^
+0x000613a6	ascii	`'8Q6
+0x00061479	ascii	 |2,s#
+0x0006149e	ascii	^[{3q
+0x00061629	ascii	LL'JgP
+0x00061630	ascii	@9=w#
+0x00061670	ascii	&%XT 
+0x00061685	ascii	C~KLK
+0x00061851	ascii	pC,/B4WC
+0x0006185a	ascii	U3y1V
+0x0006198d	ascii	S<E(R
+0x00061b9e	ascii	^;O]U
+0x00061bc3	ascii	p7rcL
+0x00061bf0	ascii	,0IX@E
+0x00061c03	ascii	+s?|i
+0x00061ca2	ascii	8=~pas
+0x00061d30	ascii	Bg=-m
+0x00061f07	ascii	qjm<U
+0x00062324	ascii	;RTM3j0
+0x000623a7	ascii	YpCtb
+0x0006258d	ascii	GcpzZ
+0x00062681	ascii	n:\0+w
+0x00062a9d	ascii	r]m!O
+0x00062ab9	ascii	d/~f#c
+0x00062b84	ascii	5=N#6
+0x00062bcb	ascii	b.:7q
+0x00062d09	ascii	7X^8r
+0x00062f5e	ascii	[vM$S
+0x00062fe8	ascii	06>nGY
+0x00063125	ascii	tEXtSoftware
+0x00063132	ascii	Adobe ImageReadyq
+0x00063148	ascii	 =IDATx^
+0x00063357	ascii	T]m-PT
+0x000633ae	ascii	B1kqY
+0x000633c0	ascii	P7k**
+0x00063749	ascii	mDMZO8
+0x000637a4	ascii	NB0-Y
+0x00063883	ascii	JQ8hs
+0x000638b4	ascii	G4,D^
+0x0006390b	ascii	-y^iJ
+0x00063929	ascii	OHBiD8
+0x00063936	ascii	]P=`8
+0x00063aa4	ascii	\G9Rm9
+0x00063ad0	ascii	h>(a[
+0x00063c7d	ascii	bsp1F~bV
+0x00063cd0	ascii	i'_Nq
+0x00063d17	ascii	 ,g6"rga
+0x00063d7c	ascii	21iy+
+0x00063dc9	ascii	E8CdZ'
+0x00063ee2	ascii	qMaX*
+0x00063ef9	ascii	ZFt&gIO
+0x00063fea	ascii	VhIP'
+0x00064047	ascii	,XB#`
+0x000641f5	ascii	i,ZR#
+0x0006423c	ascii	L>`K`P_C
+0x00064347	ascii	8z[$lm;
+0x000643b1	ascii	ipePw
+0x00064499	ascii	38^mC
+0x0006452e	ascii	(FW07
+0x0006457a	ascii	v" x,
+0x00064834	ascii	n|{o+|
+0x0006486b	ascii	"]5c'r
+0x0006487a	ascii	doR[v
+0x000648c0	ascii	3e8]i@
+0x00064943	ascii	T8ce97B
+0x00064a12	ascii	29ix*
+0x00064a4c	ascii	~e3s{Y1
+0x00064a58	ascii	=Cwl$
+0x00064a99	ascii	3Q=b<
+0x00064b51	ascii	]gA]6_i
+0x00064ba1	ascii	j`c7KN
+0x00064d69	ascii	?8^"56
+0x00064e9f	ascii	,Fd?Qmc
+0x00064f33	ascii	EX6mD
+0x00064f92	ascii	Jr3IV"i
+0x00064fae	ascii	MJ[L,
+0x00064ff8	ascii	k<Bk@*
+0x000651e7	ascii	{IDATx
+0x000653c0	ascii	IDATx
+0x0006545e	ascii	F7Ns]8y
+0x0006551a	ascii	uaC4%
+0x000655a8	utf16le	Spider V Go Control Panel;Configure Line 6 Spider V devices attached to your computer
+0x00065658	utf16le	Driver

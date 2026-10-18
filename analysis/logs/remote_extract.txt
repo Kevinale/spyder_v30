@@ -1,0 +1,67 @@
+
+7-Zip 26.04 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-05
+ 64-bit locale=C.UTF-8 Threads:5 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 93761728 bytes (90 MiB)
+
+Extracting archive: /workspace/analysis/remote/reconstructed/Spider V Remote 2.01 Installer.exe
+--
+Path = /workspace/analysis/remote/reconstructed/Spider V Remote 2.01 Installer.exe
+Type = PE
+Physical Size = 93761728
+CPU = x86
+Characteristics = Executable 32-bit NoRelocs NoLineNums NoLocalSyms
+Created = 2018-12-15 22:24:41
+Headers Size = 1024
+Checksum = 93812718
+Image Size = 491520
+Section Alignment = 4096
+File Alignment = 512
+Code Size = 25600
+Initialized Data Size = 162816
+Uninitialized Data Size = 1024
+Linker Version = 6.0
+OS Version = 4.0
+Image Version = 6.0
+Subsystem Version = 4.0
+Subsystem = Windows GUI
+DLL Characteristics = Relocated NX-Compatible NoSEH TerminalServerAware
+Stack Reserve = 1048576
+Stack Commit = 4096
+Heap Reserve = 1048576
+Heap Commit = 4096
+Virtual Address = 0x400000
+Comment = 
+{
+
+Data Directories: 16
+{
+index=1 name=IMPORT VA=0x853C Size=160
+index=2 name=RESOURCE VA=0x3D000 Size=241640
+index=4 name=SECURITY VA=0x59693C8 Size=7416
+index=12 name=IAT VA=0x8000 Size=664
+}
+}
+----
+Path = [0]
+Size = 93479368
+Packed Size = 93479368
+Virtual Size = 93479368
+Offset = 274944
+--
+Path = [0]
+Type = Nsis
+Physical Size = 93479363
+Tail Size = 5
+Method = Deflate
+Solid = -
+Headers Size = 36715
+Embedded Stub Size = 0
+SubType = NSIS-3
+
+Everything is Ok
+
+Files: 46
+Size:       106617819
+Compressed: 93761728

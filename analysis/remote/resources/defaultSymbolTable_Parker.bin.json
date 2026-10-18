@@ -1,0 +1,8192 @@
+[
+  {
+    "index": 0,
+    "record_offset": 8,
+    "string_offset": 10928,
+    "pool_offset": 0,
+    "word": "0x4a52fb13",
+    "length": 17,
+    "text": "TNGAIRReflections"
+  },
+  {
+    "index": 1,
+    "record_offset": 20,
+    "string_offset": 10946,
+    "pool_offset": 18,
+    "word": "0x190f7525",
+    "length": 10,
+    "text": "LevelState"
+  },
+  {
+    "index": 2,
+    "record_offset": 32,
+    "string_offset": 10957,
+    "pool_offset": 29,
+    "word": "0x5b2be317",
+    "length": 5,
+    "text": "Level"
+  },
+  {
+    "index": 3,
+    "record_offset": 44,
+    "string_offset": 10963,
+    "pool_offset": 35,
+    "word": "0xa48e3ab0",
+    "length": 9,
+    "text": "Frequency"
+  },
+  {
+    "index": 4,
+    "record_offset": 56,
+    "string_offset": 10973,
+    "pool_offset": 45,
+    "word": "0xce6e8eef",
+    "length": 1,
+    "text": "Q"
+  },
+  {
+    "index": 5,
+    "record_offset": 68,
+    "string_offset": 10975,
+    "pool_offset": 47,
+    "word": "0x94d1751a",
+    "length": 12,
+    "text": "ThresholdLow"
+  },
+  {
+    "index": 6,
+    "record_offset": 80,
+    "string_offset": 10988,
+    "pool_offset": 60,
+    "word": "0xadb0d75c",
+    "length": 13,
+    "text": "ThresholdHigh"
+  },
+  {
+    "index": 7,
+    "record_offset": 92,
+    "string_offset": 11002,
+    "pool_offset": 74,
+    "word": "0xaac53e41",
+    "length": 3,
+    "text": "Low"
+  },
+  {
+    "index": 8,
+    "record_offset": 104,
+    "string_offset": 11006,
+    "pool_offset": 78,
+    "word": "0x51374b6b",
+    "length": 4,
+    "text": "High"
+  },
+  {
+    "index": 9,
+    "record_offset": 116,
+    "string_offset": 11011,
+    "pool_offset": 83,
+    "word": "0x406c280d",
+    "length": 6,
+    "text": "Attack"
+  },
+  {
+    "index": 10,
+    "record_offset": 128,
+    "string_offset": 11018,
+    "pool_offset": 90,
+    "word": "0x7807e8a2",
+    "length": 5,
+    "text": "Decay"
+  },
+  {
+    "index": 11,
+    "record_offset": 140,
+    "string_offset": 11024,
+    "pool_offset": 96,
+    "word": "0x5cf9ffd8",
+    "length": 20,
+    "text": "SpiderV100_Crossover"
+  },
+  {
+    "index": 12,
+    "record_offset": 152,
+    "string_offset": 11045,
+    "pool_offset": 117,
+    "word": "0xe9b07449",
+    "length": 5,
+    "text": "units"
+  },
+  {
+    "index": 13,
+    "record_offset": 164,
+    "string_offset": 11051,
+    "pool_offset": 123,
+    "word": "0xc9a94fd0",
+    "length": 2,
+    "text": "Hz"
+  },
+  {
+    "index": 14,
+    "record_offset": 176,
+    "string_offset": 11054,
+    "pool_offset": 126,
+    "word": "0xd89a9ce0",
+    "length": 2,
+    "text": "dB"
+  },
+  {
+    "index": 15,
+    "record_offset": 188,
+    "string_offset": 11057,
+    "pool_offset": 129,
+    "word": "0x672f6398",
+    "length": 11,
+    "text": "displayName"
+  },
+  {
+    "index": 16,
+    "record_offset": 200,
+    "string_offset": 11069,
+    "pool_offset": 141,
+    "word": "0x101b9fe2",
+    "length": 9,
+    "text": "Thresh Lo"
+  },
+  {
+    "index": 17,
+    "record_offset": 212,
+    "string_offset": 11079,
+    "pool_offset": 151,
+    "word": "0x9d14ffd3",
+    "length": 9,
+    "text": "Thresh Hi"
+  },
+  {
+    "index": 18,
+    "record_offset": 224,
+    "string_offset": 11089,
+    "pool_offset": 161,
+    "word": "0x293fe75a",
+    "length": 7,
+    "text": "Gain Lo"
+  },
+  {
+    "index": 19,
+    "record_offset": 236,
+    "string_offset": 11097,
+    "pool_offset": 169,
+    "word": "0xa430876b",
+    "length": 7,
+    "text": "Gain Hi"
+  },
+  {
+    "index": 20,
+    "record_offset": 248,
+    "string_offset": 11105,
+    "pool_offset": 177,
+    "word": "0xe06b307a",
+    "length": 7,
+    "text": "Seconds"
+  },
+  {
+    "index": 21,
+    "record_offset": 260,
+    "string_offset": 11113,
+    "pool_offset": 185,
+    "word": "0x89041e59",
+    "length": 29,
+    "text": "SpiderV200H_4x12MonoCrossover"
+  },
+  {
+    "index": 22,
+    "record_offset": 272,
+    "string_offset": 11143,
+    "pool_offset": 215,
+    "word": "0xe3e3d10a",
+    "length": 31,
+    "text": "SpiderV200H_4x12StereoCrossover"
+  },
+  {
+    "index": 23,
+    "record_offset": 284,
+    "string_offset": 11175,
+    "pool_offset": 247,
+    "word": "0xcf0b3489",
+    "length": 21,
+    "text": "SpiderV200H_Crossover"
+  },
+  {
+    "index": 24,
+    "record_offset": 296,
+    "string_offset": 11197,
+    "pool_offset": 269,
+    "word": "0xe1339316",
+    "length": 20,
+    "text": "SpiderV200_Crossover"
+  },
+  {
+    "index": 25,
+    "record_offset": 308,
+    "string_offset": 11218,
+    "pool_offset": 290,
+    "word": "0x13a20468",
+    "length": 19,
+    "text": "SpiderV30_Crossover"
+  },
+  {
+    "index": 26,
+    "record_offset": 320,
+    "string_offset": 11238,
+    "pool_offset": 310,
+    "word": "0x8b017378",
+    "length": 19,
+    "text": "SpiderV60_Crossover"
+  },
+  {
+    "index": 27,
+    "record_offset": 332,
+    "string_offset": 11258,
+    "pool_offset": 330,
+    "word": "0xd9904162",
+    "length": 9,
+    "text": "ZenMaster"
+  },
+  {
+    "index": 28,
+    "record_offset": 344,
+    "string_offset": 11268,
+    "pool_offset": 340,
+    "word": "0xfe6a2031",
+    "length": 9,
+    "text": "BassState"
+  },
+  {
+    "index": 29,
+    "record_offset": 356,
+    "string_offset": 11278,
+    "pool_offset": 350,
+    "word": "0xfe8146cd",
+    "length": 8,
+    "text": "MidState"
+  },
+  {
+    "index": 30,
+    "record_offset": 368,
+    "string_offset": 11287,
+    "pool_offset": 359,
+    "word": "0x65399b58",
+    "length": 11,
+    "text": "TrebleState"
+  },
+  {
+    "index": 31,
+    "record_offset": 380,
+    "string_offset": 11299,
+    "pool_offset": 371,
+    "word": "0xc81bb7bb",
+    "length": 9,
+    "text": "GainState"
+  },
+  {
+    "index": 32,
+    "record_offset": 392,
+    "string_offset": 11309,
+    "pool_offset": 381,
+    "word": "0x67f0de68",
+    "length": 13,
+    "text": "PresenceState"
+  },
+  {
+    "index": 33,
+    "record_offset": 404,
+    "string_offset": 11323,
+    "pool_offset": 395,
+    "word": "0x9452e40e",
+    "length": 4,
+    "text": "Bass"
+  },
+  {
+    "index": 34,
+    "record_offset": 416,
+    "string_offset": 11328,
+    "pool_offset": 400,
+    "word": "0x04ab6415",
+    "length": 4,
+    "text": "Hide"
+  },
+  {
+    "index": 35,
+    "record_offset": 428,
+    "string_offset": 11333,
+    "pool_offset": 405,
+    "word": "0x79e3b22e",
+    "length": 3,
+    "text": "Mid"
+  },
+  {
+    "index": 36,
+    "record_offset": 440,
+    "string_offset": 11337,
+    "pool_offset": 409,
+    "word": "0x16f4f1ee",
+    "length": 6,
+    "text": "Treble"
+  },
+  {
+    "index": 37,
+    "record_offset": 452,
+    "string_offset": 11344,
+    "pool_offset": 416,
+    "word": "0x70a7823e",
+    "length": 4,
+    "text": "Gain"
+  },
+  {
+    "index": 38,
+    "record_offset": 464,
+    "string_offset": 11349,
+    "pool_offset": 421,
+    "word": "0xa9dcda8b",
+    "length": 5,
+    "text": "Drive"
+  },
+  {
+    "index": 39,
+    "record_offset": 476,
+    "string_offset": 11355,
+    "pool_offset": 427,
+    "word": "0x9001a5f3",
+    "length": 8,
+    "text": "Presence"
+  },
+  {
+    "index": 40,
+    "record_offset": 488,
+    "string_offset": 11364,
+    "pool_offset": 436,
+    "word": "0xae0bb9a5",
+    "length": 7,
+    "text": "Percent"
+  },
+  {
+    "index": 41,
+    "record_offset": 500,
+    "string_offset": 11372,
+    "pool_offset": 444,
+    "word": "0xf0603bc6",
+    "length": 17,
+    "text": "quickEditCategory"
+  },
+  {
+    "index": 42,
+    "record_offset": 512,
+    "string_offset": 11390,
+    "pool_offset": 462,
+    "word": "0x0e4f5a33",
+    "length": 3,
+    "text": "Amp"
+  },
+  {
+    "index": 43,
+    "record_offset": 524,
+    "string_offset": 11394,
+    "pool_offset": 466,
+    "word": "0xcaf3364a",
+    "length": 10,
+    "text": "Zen Master"
+  },
+  {
+    "index": 44,
+    "record_offset": 536,
+    "string_offset": 11405,
+    "pool_offset": 477,
+    "word": "0xb99acdde",
+    "length": 6,
+    "text": "volume"
+  },
+  {
+    "index": 45,
+    "record_offset": 548,
+    "string_offset": 11412,
+    "pool_offset": 484,
+    "word": "0x60397a54",
+    "length": 4,
+    "text": "0.54"
+  },
+  {
+    "index": 46,
+    "record_offset": 560,
+    "string_offset": 11417,
+    "pool_offset": 489,
+    "word": "0xdfca616d",
+    "length": 3,
+    "text": "mic"
+  },
+  {
+    "index": 47,
+    "record_offset": 572,
+    "string_offset": 11421,
+    "pool_offset": 493,
+    "word": "0x83dcefb7",
+    "length": 1,
+    "text": "1"
+  },
+  {
+    "index": 48,
+    "record_offset": 584,
+    "string_offset": 11423,
+    "pool_offset": 495,
+    "word": "0x70e95d76",
+    "length": 9,
+    "text": "studioCab"
+  },
+  {
+    "index": 49,
+    "record_offset": 596,
+    "string_offset": 11433,
+    "pool_offset": 505,
+    "word": "0x90899f0f",
+    "length": 9,
+    "text": "2x12Line6"
+  },
+  {
+    "index": 50,
+    "record_offset": 608,
+    "string_offset": 11443,
+    "pool_offset": 515,
+    "word": "0x4f12ace8",
+    "length": 16,
+    "text": "WishbookSilver12"
+  },
+  {
+    "index": 51,
+    "record_offset": 620,
+    "string_offset": 11460,
+    "pool_offset": 532,
+    "word": "0x16dbee75",
+    "length": 10,
+    "text": "DriveState"
+  },
+  {
+    "index": 52,
+    "record_offset": 632,
+    "string_offset": 11471,
+    "pool_offset": 543,
+    "word": "0x4d0fd9f2",
+    "length": 13,
+    "text": "Silver Twelve"
+  },
+  {
+    "index": 53,
+    "record_offset": 644,
+    "string_offset": 11485,
+    "pool_offset": 557,
+    "word": "0x35a5552a",
+    "length": 4,
+    "text": "0.69"
+  },
+  {
+    "index": 54,
+    "record_offset": 656,
+    "string_offset": 11490,
+    "pool_offset": 562,
+    "word": "0xcf481037",
+    "length": 12,
+    "text": "2x12Wishbook"
+  },
+  {
+    "index": 55,
+    "record_offset": 668,
+    "string_offset": 11503,
+    "pool_offset": 575,
+    "word": "0x86f10829",
+    "length": 7,
+    "text": "TwoTone"
+  },
+  {
+    "index": 56,
+    "record_offset": 680,
+    "string_offset": 11511,
+    "pool_offset": 583,
+    "word": "0x9c305ddc",
+    "length": 8,
+    "text": "Two-Tone"
+  },
+  {
+    "index": 57,
+    "record_offset": 692,
+    "string_offset": 11520,
+    "pool_offset": 592,
+    "word": "0xa5fdf096",
+    "length": 4,
+    "text": "0.81"
+  },
+  {
+    "index": 58,
+    "record_offset": 704,
+    "string_offset": 11525,
+    "pool_offset": 597,
+    "word": "0x6dd28e9b",
+    "length": 1,
+    "text": "3"
+  },
+  {
+    "index": 59,
+    "record_offset": 716,
+    "string_offset": 11527,
+    "pool_offset": 599,
+    "word": "0xfa551bee",
+    "length": 11,
+    "text": "1x10G-Brand"
+  },
+  {
+    "index": 60,
+    "record_offset": 728,
+    "string_offset": 11539,
+    "pool_offset": 611,
+    "word": "0x296ddc28",
+    "length": 7,
+    "text": "liveCab"
+  },
+  {
+    "index": 61,
+    "record_offset": 740,
+    "string_offset": 11547,
+    "pool_offset": 619,
+    "word": "0x93794865",
+    "length": 15,
+    "text": "1x10G-Brand2x12"
+  },
+  {
+    "index": 62,
+    "record_offset": 752,
+    "string_offset": 11563,
+    "pool_offset": 635,
+    "word": "0x1d9428e7",
+    "length": 9,
+    "text": "TweedBMan"
+  },
+  {
+    "index": 63,
+    "record_offset": 764,
+    "string_offset": 11573,
+    "pool_offset": 645,
+    "word": "0x9f1af2bf",
+    "length": 11,
+    "text": "Tweed B-Man"
+  },
+  {
+    "index": 64,
+    "record_offset": 776,
+    "string_offset": 11585,
+    "pool_offset": 657,
+    "word": "0x698f367f",
+    "length": 4,
+    "text": "0.58"
+  },
+  {
+    "index": 65,
+    "record_offset": 788,
+    "string_offset": 11590,
+    "pool_offset": 662,
+    "word": "0xc73d6458",
+    "length": 9,
+    "text": "4x10Tweed"
+  },
+  {
+    "index": 66,
+    "record_offset": 800,
+    "string_offset": 11600,
+    "pool_offset": 672,
+    "word": "0x69fbb754",
+    "length": 21,
+    "text": "4x10TweedBManLive2x12"
+  },
+  {
+    "index": 67,
+    "record_offset": 812,
+    "string_offset": 11622,
+    "pool_offset": 694,
+    "word": "0x29fa96ba",
+    "length": 14,
+    "text": "TreadplateDual"
+  },
+  {
+    "index": 68,
+    "record_offset": 824,
+    "string_offset": 11637,
+    "pool_offset": 709,
+    "word": "0x14e03c95",
+    "length": 10,
+    "text": "Tread Dual"
+  },
+  {
+    "index": 69,
+    "record_offset": 836,
+    "string_offset": 11648,
+    "pool_offset": 720,
+    "word": "0x10538edb",
+    "length": 4,
+    "text": "0.51"
+  },
+  {
+    "index": 70,
+    "record_offset": 848,
+    "string_offset": 11653,
+    "pool_offset": 725,
+    "word": "0xf4dbdf21",
+    "length": 1,
+    "text": "0"
+  },
+  {
+    "index": 71,
+    "record_offset": 860,
+    "string_offset": 11655,
+    "pool_offset": 727,
+    "word": "0x8305dcd2",
+    "length": 14,
+    "text": "4x12Treadplate"
+  },
+  {
+    "index": 72,
+    "record_offset": 872,
+    "string_offset": 11670,
+    "pool_offset": 742,
+    "word": "0xd68516b3",
+    "length": 9,
+    "text": "TinyTweed"
+  },
+  {
+    "index": 73,
+    "record_offset": 884,
+    "string_offset": 11680,
+    "pool_offset": 752,
+    "word": "0x3fba99ba",
+    "length": 10,
+    "text": "Tiny Tweed"
+  },
+  {
+    "index": 74,
+    "record_offset": 896,
+    "string_offset": 11691,
+    "pool_offset": 763,
+    "word": "0x25082840",
+    "length": 4,
+    "text": "0.75"
+  },
+  {
+    "index": 75,
+    "record_offset": 908,
+    "string_offset": 11696,
+    "pool_offset": 768,
+    "word": "0xfb10cf63",
+    "length": 12,
+    "text": "1x8TinyTweed"
+  },
+  {
+    "index": 76,
+    "record_offset": 920,
+    "string_offset": 11709,
+    "pool_offset": 781,
+    "word": "0xd0700e1e",
+    "length": 13,
+    "text": "SuperOThunder"
+  },
+  {
+    "index": 77,
+    "record_offset": 932,
+    "string_offset": 11723,
+    "pool_offset": 795,
+    "word": "0xd9bbbc09",
+    "length": 13,
+    "text": "Super Thunder"
+  },
+  {
+    "index": 78,
+    "record_offset": 944,
+    "string_offset": 11737,
+    "pool_offset": 809,
+    "word": "0xcc6b8d75",
+    "length": 4,
+    "text": "0.73"
+  },
+  {
+    "index": 79,
+    "record_offset": 956,
+    "string_offset": 11742,
+    "pool_offset": 814,
+    "word": "0xa3332ac6",
+    "length": 11,
+    "text": "1x15Thunder"
+  },
+  {
+    "index": 80,
+    "record_offset": 968,
+    "string_offset": 11754,
+    "pool_offset": 826,
+    "word": "0xd4a35a67",
+    "length": 6,
+    "text": "SuperO"
+  },
+  {
+    "index": 81,
+    "record_offset": 980,
+    "string_offset": 11761,
+    "pool_offset": 833,
+    "word": "0x05069345",
+    "length": 7,
+    "text": "Super O"
+  },
+  {
+    "index": 82,
+    "record_offset": 992,
+    "string_offset": 11769,
+    "pool_offset": 841,
+    "word": "0x689090a1",
+    "length": 3,
+    "text": "0.7"
+  },
+  {
+    "index": 83,
+    "record_offset": 1004,
+    "string_offset": 11773,
+    "pool_offset": 845,
+    "word": "0x0e2421b6",
+    "length": 9,
+    "text": "1x6SuperO"
+  },
+  {
+    "index": 84,
+    "record_offset": 1016,
+    "string_offset": 11783,
+    "pool_offset": 855,
+    "word": "0x946102e0",
+    "length": 11,
+    "text": "Solo100Head"
+  },
+  {
+    "index": 85,
+    "record_offset": 1028,
+    "string_offset": 11795,
+    "pool_offset": 867,
+    "word": "0xdb251e3b",
+    "length": 8,
+    "text": "Solo 100"
+  },
+  {
+    "index": 86,
+    "record_offset": 1040,
+    "string_offset": 11804,
+    "pool_offset": 876,
+    "word": "0x972c2a39",
+    "length": 4,
+    "text": "0.46"
+  },
+  {
+    "index": 87,
+    "record_offset": 1052,
+    "string_offset": 11809,
+    "pool_offset": 881,
+    "word": "0x1ad5be0d",
+    "length": 1,
+    "text": "2"
+  },
+  {
+    "index": 88,
+    "record_offset": 1064,
+    "string_offset": 11811,
+    "pool_offset": 883,
+    "word": "0xa008c499",
+    "length": 11,
+    "text": "4x12BritT75"
+  },
+  {
+    "index": 89,
+    "record_offset": 1076,
+    "string_offset": 11823,
+    "pool_offset": 895,
+    "word": "0x14d6b81d",
+    "length": 10,
+    "text": "SmallTweed"
+  },
+  {
+    "index": 90,
+    "record_offset": 1088,
+    "string_offset": 11834,
+    "pool_offset": 906,
+    "word": "0x0e1644fb",
+    "length": 11,
+    "text": "Small Tweed"
+  },
+  {
+    "index": 91,
+    "record_offset": 1100,
+    "string_offset": 11846,
+    "pool_offset": 918,
+    "word": "0xbc0179fa",
+    "length": 4,
+    "text": "0.76"
+  },
+  {
+    "index": 92,
+    "record_offset": 1112,
+    "string_offset": 11851,
+    "pool_offset": 923,
+    "word": "0xc062801c",
+    "length": 9,
+    "text": "1x12Tweed"
+  },
+  {
+    "index": 93,
+    "record_offset": 1124,
+    "string_offset": 11861,
+    "pool_offset": 933,
+    "word": "0x80028adf",
+    "length": 14,
+    "text": "SilverfaceBass"
+  },
+  {
+    "index": 94,
+    "record_offset": 1136,
+    "string_offset": 11876,
+    "pool_offset": 948,
+    "word": "0x7f755889",
+    "length": 10,
+    "text": "LoMidState"
+  },
+  {
+    "index": 95,
+    "record_offset": 1148,
+    "string_offset": 11887,
+    "pool_offset": 959,
+    "word": "0x05848179",
+    "length": 10,
+    "text": "HiMidState"
+  },
+  {
+    "index": 96,
+    "record_offset": 1160,
+    "string_offset": 11898,
+    "pool_offset": 970,
+    "word": "0xbec6ce3c",
+    "length": 5,
+    "text": "LoMid"
+  },
+  {
+    "index": 97,
+    "record_offset": 1172,
+    "string_offset": 11904,
+    "pool_offset": 976,
+    "word": "0x6e2d3720",
+    "length": 5,
+    "text": "HiMid"
+  },
+  {
+    "index": 98,
+    "record_offset": 1184,
+    "string_offset": 11910,
+    "pool_offset": 982,
+    "word": "0x9cf2144a",
+    "length": 11,
+    "text": "Silver Bass"
+  },
+  {
+    "index": 99,
+    "record_offset": 1196,
+    "string_offset": 11922,
+    "pool_offset": 994,
+    "word": "0xd1c669c2",
+    "length": 13,
+    "text": "2x12Blackface"
+  },
+  {
+    "index": 100,
+    "record_offset": 1208,
+    "string_offset": 11936,
+    "pool_offset": 1008,
+    "word": "0x387655d8",
+    "length": 19,
+    "text": "MississippiCriminal"
+  },
+  {
+    "index": 101,
+    "record_offset": 1220,
+    "string_offset": 11956,
+    "pool_offset": 1028,
+    "word": "0x1658a950",
+    "length": 13,
+    "text": "Miss Criminal"
+  },
+  {
+    "index": 102,
+    "record_offset": 1232,
+    "string_offset": 11970,
+    "pool_offset": 1042,
+    "word": "0x0948bf9a",
+    "length": 4,
+    "text": "0.41"
+  },
+  {
+    "index": 103,
+    "record_offset": 1244,
+    "string_offset": 11975,
+    "pool_offset": 1047,
+    "word": "0x6982462c",
+    "length": 12,
+    "text": "4x12Green25s"
+  },
+  {
+    "index": 104,
+    "record_offset": 1256,
+    "string_offset": 11988,
+    "pool_offset": 1060,
+    "word": "0xcfc83e5c",
+    "length": 10,
+    "text": "MiniDouble"
+  },
+  {
+    "index": 105,
+    "record_offset": 1268,
+    "string_offset": 11999,
+    "pool_offset": 1071,
+    "word": "0xa39844fe",
+    "length": 11,
+    "text": "Mini Double"
+  },
+  {
+    "index": 106,
+    "record_offset": 1280,
+    "string_offset": 12011,
+    "pool_offset": 1083,
+    "word": "0x48c234db",
+    "length": 8,
+    "text": "2x2MiniT"
+  },
+  {
+    "index": 107,
+    "record_offset": 1292,
+    "string_offset": 12020,
+    "pool_offset": 1092,
+    "word": "0xefe9a222",
+    "length": 8,
+    "text": "MatchD30"
+  },
+  {
+    "index": 108,
+    "record_offset": 1304,
+    "string_offset": 12029,
+    "pool_offset": 1101,
+    "word": "0x82a555e5",
+    "length": 10,
+    "text": "Match D-30"
+  },
+  {
+    "index": 109,
+    "record_offset": 1316,
+    "string_offset": 12040,
+    "pool_offset": 1112,
+    "word": "0xa2778ca2",
+    "length": 4,
+    "text": "0.62"
+  },
+  {
+    "index": 110,
+    "record_offset": 1328,
+    "string_offset": 12045,
+    "pool_offset": 1117,
+    "word": "0xa3656383",
+    "length": 9,
+    "text": "2x12Match"
+  },
+  {
+    "index": 111,
+    "record_offset": 1340,
+    "string_offset": 12055,
+    "pool_offset": 1127,
+    "word": "0xafa963f1",
+    "length": 10,
+    "text": "MatchChief"
+  },
+  {
+    "index": 112,
+    "record_offset": 1352,
+    "string_offset": 12066,
+    "pool_offset": 1138,
+    "word": "0x1e3cee2a",
+    "length": 11,
+    "text": "Match Chief"
+  },
+  {
+    "index": 113,
+    "record_offset": 1364,
+    "string_offset": 12078,
+    "pool_offset": 1150,
+    "word": "0xe1890dd6",
+    "length": 19,
+    "text": "0.56999999999999995"
+  },
+  {
+    "index": 114,
+    "record_offset": 1376,
+    "string_offset": 12098,
+    "pool_offset": 1170,
+    "word": "0xb0903cdb",
+    "length": 19,
+    "text": "Line6VariaxAcoustic"
+  },
+  {
+    "index": 115,
+    "record_offset": 1388,
+    "string_offset": 12118,
+    "pool_offset": 1190,
+    "word": "0x2e0ba5d0",
+    "length": 15,
+    "text": "Variax Acoustic"
+  },
+  {
+    "index": 116,
+    "record_offset": 1400,
+    "string_offset": 12134,
+    "pool_offset": 1206,
+    "word": "0x4bf391ba",
+    "length": 4,
+    "text": "0.83"
+  },
+  {
+    "index": 117,
+    "record_offset": 1412,
+    "string_offset": 12139,
+    "pool_offset": 1211,
+    "word": "0xb1363adb",
+    "length": 8,
+    "text": "2x12Jazz"
+  },
+  {
+    "index": 118,
+    "record_offset": 1424,
+    "string_offset": 12148,
+    "pool_offset": 1220,
+    "word": "0x03c66f37",
+    "length": 10,
+    "text": "Line6Twang"
+  },
+  {
+    "index": 119,
+    "record_offset": 1436,
+    "string_offset": 12159,
+    "pool_offset": 1231,
+    "word": "0x8dc97f7e",
+    "length": 8,
+    "text": "L6 Twang"
+  },
+  {
+    "index": 120,
+    "record_offset": 1448,
+    "string_offset": 12168,
+    "pool_offset": 1240,
+    "word": "0x3cf4a12c",
+    "length": 4,
+    "text": "0.82"
+  },
+  {
+    "index": 121,
+    "record_offset": 1460,
+    "string_offset": 12173,
+    "pool_offset": 1245,
+    "word": "0x827706ca",
+    "length": 13,
+    "text": "Line6Throttle"
+  },
+  {
+    "index": 122,
+    "record_offset": 1472,
+    "string_offset": 12187,
+    "pool_offset": 1259,
+    "word": "0x2741bfcb",
+    "length": 11,
+    "text": "L6 Throttle"
+  },
+  {
+    "index": 123,
+    "record_offset": 1484,
+    "string_offset": 12199,
+    "pool_offset": 1271,
+    "word": "0x4b142997",
+    "length": 4,
+    "text": "0.64"
+  },
+  {
+    "index": 124,
+    "record_offset": 1496,
+    "string_offset": 12204,
+    "pool_offset": 1276,
+    "word": "0xe3150d0e",
+    "length": 17,
+    "text": "Line6SuperSparkle"
+  },
+  {
+    "index": 125,
+    "record_offset": 1508,
+    "string_offset": 12222,
+    "pool_offset": 1294,
+    "word": "0x257ba2a7",
+    "length": 13,
+    "text": "Super Sparkle"
+  },
+  {
+    "index": 126,
+    "record_offset": 1520,
+    "string_offset": 12236,
+    "pool_offset": 1308,
+    "word": "0x8f28bda6",
+    "length": 3,
+    "text": "0.9"
+  },
+  {
+    "index": 127,
+    "record_offset": 1532,
+    "string_offset": 12240,
+    "pool_offset": 1312,
+    "word": "0xd31d7d27",
+    "length": 15,
+    "text": "Line6SuperClean"
+  },
+  {
+    "index": 128,
+    "record_offset": 1544,
+    "string_offset": 12256,
+    "pool_offset": 1328,
+    "word": "0x16c6df86",
+    "length": 14,
+    "text": "L6 Super Clean"
+  },
+  {
+    "index": 129,
+    "record_offset": 1556,
+    "string_offset": 12271,
+    "pool_offset": 1343,
+    "word": "0x52e8a0fb",
+    "length": 4,
+    "text": "0.93"
+  },
+  {
+    "index": 130,
+    "record_offset": 1568,
+    "string_offset": 12276,
+    "pool_offset": 1348,
+    "word": "0xf4775d15",
+    "length": 17,
+    "text": "Line6SpinalPuppet"
+  },
+  {
+    "index": 131,
+    "record_offset": 1580,
+    "string_offset": 12294,
+    "pool_offset": 1366,
+    "word": "0x35b89c7b",
+    "length": 13,
+    "text": "Spinal Puppet"
+  },
+  {
+    "index": 132,
+    "record_offset": 1592,
+    "string_offset": 12308,
+    "pool_offset": 1380,
+    "word": "0xe02b1aaf",
+    "length": 4,
+    "text": "0.47"
+  },
+  {
+    "index": 133,
+    "record_offset": 1604,
+    "string_offset": 12313,
+    "pool_offset": 1385,
+    "word": "0xb78a217c",
+    "length": 11,
+    "text": "4x12BritV30"
+  },
+  {
+    "index": 134,
+    "record_offset": 1616,
+    "string_offset": 12325,
+    "pool_offset": 1397,
+    "word": "0xdf6edeb6",
+    "length": 17,
+    "text": "Line6SparkleClean"
+  },
+  {
+    "index": 135,
+    "record_offset": 1628,
+    "string_offset": 12343,
+    "pool_offset": 1415,
+    "word": "0xa1db10f6",
+    "length": 14,
+    "text": "L6 Sparkle Cln"
+  },
+  {
+    "index": 136,
+    "record_offset": 1640,
+    "string_offset": 12358,
+    "pool_offset": 1430,
+    "word": "0x173e4ac2",
+    "length": 4,
+    "text": "0.55"
+  },
+  {
+    "index": 137,
+    "record_offset": 1652,
+    "string_offset": 12363,
+    "pool_offset": 1435,
+    "word": "0xa904a3ca",
+    "length": 9,
+    "text": "1x12Line6"
+  },
+  {
+    "index": 138,
+    "record_offset": 1664,
+    "string_offset": 12373,
+    "pool_offset": 1445,
+    "word": "0x333463cd",
+    "length": 12,
+    "text": "Line6Sparkle"
+  },
+  {
+    "index": 139,
+    "record_offset": 1676,
+    "string_offset": 12386,
+    "pool_offset": 1458,
+    "word": "0x0f3809ea",
+    "length": 10,
+    "text": "L6 Sparkle"
+  },
+  {
+    "index": 140,
+    "record_offset": 1688,
+    "string_offset": 12397,
+    "pool_offset": 1469,
+    "word": "0xe1917551",
+    "length": 10,
+    "text": "Line6Smash"
+  },
+  {
+    "index": 141,
+    "record_offset": 1700,
+    "string_offset": 12408,
+    "pool_offset": 1480,
+    "word": "0x6f9e6518",
+    "length": 8,
+    "text": "L6 Smash"
+  },
+  {
+    "index": 142,
+    "record_offset": 1712,
+    "string_offset": 12417,
+    "pool_offset": 1489,
+    "word": "0x8e371b78",
+    "length": 4,
+    "text": "0.56"
+  },
+  {
+    "index": 143,
+    "record_offset": 1724,
+    "string_offset": 12422,
+    "pool_offset": 1494,
+    "word": "0xcbe4a304",
+    "length": 10,
+    "text": "Line6Recto"
+  },
+  {
+    "index": 144,
+    "record_offset": 1736,
+    "string_offset": 12433,
+    "pool_offset": 1505,
+    "word": "0xaa723b04",
+    "length": 13,
+    "text": "L6 Treadplate"
+  },
+  {
+    "index": 145,
+    "record_offset": 1748,
+    "string_offset": 12447,
+    "pool_offset": 1519,
+    "word": "0x7de3c630",
+    "length": 10,
+    "text": "Line6Purge"
+  },
+  {
+    "index": 146,
+    "record_offset": 1760,
+    "string_offset": 12458,
+    "pool_offset": 1530,
+    "word": "0xf3ecd679",
+    "length": 8,
+    "text": "L6 Purge"
+  },
+  {
+    "index": 147,
+    "record_offset": 1772,
+    "string_offset": 12467,
+    "pool_offset": 1539,
+    "word": "0xf9302bee",
+    "length": 4,
+    "text": "0.57"
+  },
+  {
+    "index": 148,
+    "record_offset": 1784,
+    "string_offset": 12472,
+    "pool_offset": 1544,
+    "word": "0x1cd2acf3",
+    "length": 11,
+    "text": "Line6Octone"
+  },
+  {
+    "index": 149,
+    "record_offset": 1796,
+    "string_offset": 12484,
+    "pool_offset": 1556,
+    "word": "0x135c5ad7",
+    "length": 9,
+    "text": "L6 Octone"
+  },
+  {
+    "index": 150,
+    "record_offset": 1808,
+    "string_offset": 12494,
+    "pool_offset": 1566,
+    "word": "0xe746deb6",
+    "length": 4,
+    "text": "0.43"
+  },
+  {
+    "index": 151,
+    "record_offset": 1820,
+    "string_offset": 12499,
+    "pool_offset": 1571,
+    "word": "0xe393e685",
+    "length": 9,
+    "text": "4x12Line6"
+  },
+  {
+    "index": 152,
+    "record_offset": 1832,
+    "string_offset": 12509,
+    "pool_offset": 1581,
+    "word": "0x3e95658e",
+    "length": 9,
+    "text": "Line6Mood"
+  },
+  {
+    "index": 153,
+    "record_offset": 1844,
+    "string_offset": 12519,
+    "pool_offset": 1591,
+    "word": "0x8f6ad513",
+    "length": 7,
+    "text": "L6 Mood"
+  },
+  {
+    "index": 154,
+    "record_offset": 1856,
+    "string_offset": 12527,
+    "pool_offset": 1599,
+    "word": "0x550a242a",
+    "length": 17,
+    "text": "Line6ModernHiGain"
+  },
+  {
+    "index": 155,
+    "record_offset": 1868,
+    "string_offset": 12545,
+    "pool_offset": 1617,
+    "word": "0x0b6c43fc",
+    "length": 10,
+    "text": "L6 Hi Gain"
+  },
+  {
+    "index": 156,
+    "record_offset": 1880,
+    "string_offset": 12556,
+    "pool_offset": 1628,
+    "word": "0xb1fdc4c4",
+    "length": 12,
+    "text": "Line6Lunatic"
+  },
+  {
+    "index": 157,
+    "record_offset": 1892,
+    "string_offset": 12569,
+    "pool_offset": 1641,
+    "word": "0x8df1aee3",
+    "length": 10,
+    "text": "L6 Lunatic"
+  },
+  {
+    "index": 158,
+    "record_offset": 1904,
+    "string_offset": 12580,
+    "pool_offset": 1652,
+    "word": "0x6dafcfeb",
+    "length": 11,
+    "text": "Line6JTS_45"
+  },
+  {
+    "index": 159,
+    "record_offset": 1916,
+    "string_offset": 12592,
+    "pool_offset": 1664,
+    "word": "0x355485f1",
+    "length": 9,
+    "text": "L6 JTS-45"
+  },
+  {
+    "index": 160,
+    "record_offset": 1928,
+    "string_offset": 12602,
+    "pool_offset": 1674,
+    "word": "0x14f5b269",
+    "length": 12,
+    "text": "4x12Green20s"
+  },
+  {
+    "index": 161,
+    "record_offset": 1940,
+    "string_offset": 12615,
+    "pool_offset": 1687,
+    "word": "0xa5529eec",
+    "length": 11,
+    "text": "Line6Insane"
+  },
+  {
+    "index": 162,
+    "record_offset": 1952,
+    "string_offset": 12627,
+    "pool_offset": 1699,
+    "word": "0xaadc68c8",
+    "length": 9,
+    "text": "L6 Insane"
+  },
+  {
+    "index": 163,
+    "record_offset": 1964,
+    "string_offset": 12637,
+    "pool_offset": 1709,
+    "word": "0x7094073e",
+    "length": 4,
+    "text": "0.48"
+  },
+  {
+    "index": 164,
+    "record_offset": 1976,
+    "string_offset": 12642,
+    "pool_offset": 1714,
+    "word": "0x359f1f5e",
+    "length": 9,
+    "text": "Line6Fuzz"
+  },
+  {
+    "index": 165,
+    "record_offset": 1988,
+    "string_offset": 12652,
+    "pool_offset": 1724,
+    "word": "0x8460afc3",
+    "length": 7,
+    "text": "L6 Fuzz"
+  },
+  {
+    "index": 166,
+    "record_offset": 2000,
+    "string_offset": 12660,
+    "pool_offset": 1732,
+    "word": "0x3b7edd18",
+    "length": 4,
+    "text": "0.61"
+  },
+  {
+    "index": 167,
+    "record_offset": 2012,
+    "string_offset": 12665,
+    "pool_offset": 1737,
+    "word": "0x44f1dd18",
+    "length": 11,
+    "text": "Line6Crunch"
+  },
+  {
+    "index": 168,
+    "record_offset": 2024,
+    "string_offset": 12677,
+    "pool_offset": 1749,
+    "word": "0x4b7f2b3c",
+    "length": 9,
+    "text": "L6 Crunch"
+  },
+  {
+    "index": 169,
+    "record_offset": 2036,
+    "string_offset": 12687,
+    "pool_offset": 1759,
+    "word": "0xaf53f88c",
+    "length": 10,
+    "text": "Line6Clean"
+  },
+  {
+    "index": 170,
+    "record_offset": 2048,
+    "string_offset": 12698,
+    "pool_offset": 1770,
+    "word": "0x215ce8c5",
+    "length": 8,
+    "text": "L6 Clean"
+  },
+  {
+    "index": 171,
+    "record_offset": 2060,
+    "string_offset": 12707,
+    "pool_offset": 1779,
+    "word": "0x65e9ba86",
+    "length": 16,
+    "text": "Line6ClassADrive"
+  },
+  {
+    "index": 172,
+    "record_offset": 2072,
+    "string_offset": 12724,
+    "pool_offset": 1796,
+    "word": "0xd6b426b1",
+    "length": 10,
+    "text": "L6 Class A"
+  },
+  {
+    "index": 173,
+    "record_offset": 2084,
+    "string_offset": 12735,
+    "pool_offset": 1807,
+    "word": "0x3c131901",
+    "length": 4,
+    "text": "0.65"
+  },
+  {
+    "index": 174,
+    "record_offset": 2096,
+    "string_offset": 12740,
+    "pool_offset": 1812,
+    "word": "0xd8d38f51",
+    "length": 13,
+    "text": "Line6ChnkChnk"
+  },
+  {
+    "index": 175,
+    "record_offset": 2108,
+    "string_offset": 12754,
+    "pool_offset": 1826,
+    "word": "0x45ea34a2",
+    "length": 8,
+    "text": "L6 Chunk"
+  },
+  {
+    "index": 176,
+    "record_offset": 2120,
+    "string_offset": 12763,
+    "pool_offset": 1835,
+    "word": "0x6735521f",
+    "length": 14,
+    "text": "Line6ChemicalX"
+  },
+  {
+    "index": 177,
+    "record_offset": 2132,
+    "string_offset": 12778,
+    "pool_offset": 1850,
+    "word": "0x769d624d",
+    "length": 13,
+    "text": "L6 Chemical X"
+  },
+  {
+    "index": 178,
+    "record_offset": 2144,
+    "string_offset": 12792,
+    "pool_offset": 1864,
+    "word": "0x3d1f76d5",
+    "length": 14,
+    "text": "Line6Boutique1"
+  },
+  {
+    "index": 179,
+    "record_offset": 2156,
+    "string_offset": 12807,
+    "pool_offset": 1879,
+    "word": "0x6dbfcb73",
+    "length": 11,
+    "text": "L6 Boutique"
+  },
+  {
+    "index": 180,
+    "record_offset": 2168,
+    "string_offset": 12819,
+    "pool_offset": 1891,
+    "word": "0xf87c8cf5",
+    "length": 14,
+    "text": "Line6BigBottom"
+  },
+  {
+    "index": 181,
+    "record_offset": 2180,
+    "string_offset": 12834,
+    "pool_offset": 1906,
+    "word": "0x15e6d48c",
+    "length": 13,
+    "text": "L6 Big Bottom"
+  },
+  {
+    "index": 182,
+    "record_offset": 2192,
+    "string_offset": 12848,
+    "pool_offset": 1920,
+    "word": "0xbb6cbde3",
+    "length": 4,
+    "text": "0.72"
+  },
+  {
+    "index": 183,
+    "record_offset": 2204,
+    "string_offset": 12853,
+    "pool_offset": 1925,
+    "word": "0x6183b797",
+    "length": 10,
+    "text": "Line6Bayou"
+  },
+  {
+    "index": 184,
+    "record_offset": 2216,
+    "string_offset": 12864,
+    "pool_offset": 1936,
+    "word": "0xef8ca7de",
+    "length": 8,
+    "text": "L6 Bayou"
+  },
+  {
+    "index": 185,
+    "record_offset": 2228,
+    "string_offset": 12873,
+    "pool_offset": 1945,
+    "word": "0x3fb6b995",
+    "length": 9,
+    "text": "Line6Argo"
+  },
+  {
+    "index": 186,
+    "record_offset": 2240,
+    "string_offset": 12883,
+    "pool_offset": 1955,
+    "word": "0xa3118e87",
+    "length": 7,
+    "text": "L6 Agro"
+  },
+  {
+    "index": 187,
+    "record_offset": 2252,
+    "string_offset": 12891,
+    "pool_offset": 1963,
+    "word": "0x52d25db9",
+    "length": 17,
+    "text": "Line6AcousticAmp2"
+  },
+  {
+    "index": 188,
+    "record_offset": 2264,
+    "string_offset": 12909,
+    "pool_offset": 1981,
+    "word": "0x84f7a289",
+    "length": 10,
+    "text": "L6 Piezo 2"
+  },
+  {
+    "index": 189,
+    "record_offset": 2276,
+    "string_offset": 12920,
+    "pool_offset": 1992,
+    "word": "0xe7ae9d7e",
+    "length": 9,
+    "text": "NoCabinet"
+  },
+  {
+    "index": 190,
+    "record_offset": 2288,
+    "string_offset": 12930,
+    "pool_offset": 2002,
+    "word": "0x870ae936",
+    "length": 9,
+    "text": "NoCab4x12"
+  },
+  {
+    "index": 191,
+    "record_offset": 2300,
+    "string_offset": 12940,
+    "pool_offset": 2012,
+    "word": "0x85cfa0c5",
+    "length": 12,
+    "text": "L6TubePreamp"
+  },
+  {
+    "index": 192,
+    "record_offset": 2312,
+    "string_offset": 12953,
+    "pool_offset": 2025,
+    "word": "0xc74411e9",
+    "length": 11,
+    "text": "L6 Tube Pre"
+  },
+  {
+    "index": 193,
+    "record_offset": 2324,
+    "string_offset": 12965,
+    "pool_offset": 2037,
+    "word": "0xa506e980",
+    "length": 9,
+    "text": "JazzClean"
+  },
+  {
+    "index": 194,
+    "record_offset": 2336,
+    "string_offset": 12975,
+    "pool_offset": 2047,
+    "word": "0xa57d18a3",
+    "length": 10,
+    "text": "Jazz Clean"
+  },
+  {
+    "index": 195,
+    "record_offset": 2348,
+    "string_offset": 12986,
+    "pool_offset": 2058,
+    "word": "0xf9000a6d",
+    "length": 8,
+    "text": "Hiway100"
+  },
+  {
+    "index": 196,
+    "record_offset": 2360,
+    "string_offset": 12995,
+    "pool_offset": 2067,
+    "word": "0x2e469803",
+    "length": 9,
+    "text": "Hiway 100"
+  },
+  {
+    "index": 197,
+    "record_offset": 2372,
+    "string_offset": 13005,
+    "pool_offset": 2077,
+    "word": "0x48d2a16f",
+    "length": 4,
+    "text": "0.39"
+  },
+  {
+    "index": 198,
+    "record_offset": 2384,
+    "string_offset": 13010,
+    "pool_offset": 2082,
+    "word": "0xf9419ab1",
+    "length": 11,
+    "text": "GibtoneExpo"
+  },
+  {
+    "index": 199,
+    "record_offset": 2396,
+    "string_offset": 13022,
+    "pool_offset": 2094,
+    "word": "0x234ad6a3",
+    "length": 12,
+    "text": "Gibtone Expo"
+  },
+  {
+    "index": 200,
+    "record_offset": 2408,
+    "string_offset": 13035,
+    "pool_offset": 2107,
+    "word": "0x4c9e55a3",
+    "length": 4,
+    "text": "0.87"
+  },
+  {
+    "index": 201,
+    "record_offset": 2420,
+    "string_offset": 13040,
+    "pool_offset": 2112,
+    "word": "0xf7af3ed0",
+    "length": 11,
+    "text": "1x10Gibtone"
+  },
+  {
+    "index": 202,
+    "record_offset": 2432,
+    "string_offset": 13052,
+    "pool_offset": 2124,
+    "word": "0x3fb33648",
+    "length": 10,
+    "text": "DoubleVerb"
+  },
+  {
+    "index": 203,
+    "record_offset": 2444,
+    "string_offset": 13063,
+    "pool_offset": 2135,
+    "word": "0xce2170e9",
+    "length": 11,
+    "text": "Double Verb"
+  },
+  {
+    "index": 204,
+    "record_offset": 2456,
+    "string_offset": 13075,
+    "pool_offset": 2147,
+    "word": "0x869ef18d",
+    "length": 3,
+    "text": "0.5"
+  },
+  {
+    "index": 205,
+    "record_offset": 2468,
+    "string_offset": 13079,
+    "pool_offset": 2151,
+    "word": "0x9204ddde",
+    "length": 10,
+    "text": "DoubleShow"
+  },
+  {
+    "index": 206,
+    "record_offset": 2480,
+    "string_offset": 13090,
+    "pool_offset": 2162,
+    "word": "0x98585281",
+    "length": 11,
+    "text": "LowMidState"
+  },
+  {
+    "index": 207,
+    "record_offset": 2492,
+    "string_offset": 13102,
+    "pool_offset": 2174,
+    "word": "0xa2707831",
+    "length": 6,
+    "text": "LowMid"
+  },
+  {
+    "index": 208,
+    "record_offset": 2504,
+    "string_offset": 13109,
+    "pool_offset": 2181,
+    "word": "0x63969b7f",
+    "length": 11,
+    "text": "Double Show"
+  },
+  {
+    "index": 209,
+    "record_offset": 2516,
+    "string_offset": 13121,
+    "pool_offset": 2193,
+    "word": "0xf199c11b",
+    "length": 3,
+    "text": "0.4"
+  },
+  {
+    "index": 210,
+    "record_offset": 2528,
+    "string_offset": 13125,
+    "pool_offset": 2197,
+    "word": "0x02702c69",
+    "length": 8,
+    "text": "DeitySon"
+  },
+  {
+    "index": 211,
+    "record_offset": 2540,
+    "string_offset": 13134,
+    "pool_offset": 2206,
+    "word": "0xb98e82a9",
+    "length": 11,
+    "text": "Deity's Son"
+  },
+  {
+    "index": 212,
+    "record_offset": 2552,
+    "string_offset": 13146,
+    "pool_offset": 2218,
+    "word": "0x2ec43dcc",
+    "length": 9,
+    "text": "DeityLead"
+  },
+  {
+    "index": 213,
+    "record_offset": 2564,
+    "string_offset": 13156,
+    "pool_offset": 2228,
+    "word": "0xf1a7260b",
+    "length": 10,
+    "text": "Deity Lead"
+  },
+  {
+    "index": 214,
+    "record_offset": 2576,
+    "string_offset": 13167,
+    "pool_offset": 2239,
+    "word": "0x9041ee20",
+    "length": 4,
+    "text": "0.42"
+  },
+  {
+    "index": 215,
+    "record_offset": 2588,
+    "string_offset": 13172,
+    "pool_offset": 2244,
+    "word": "0x823d853f",
+    "length": 11,
+    "text": "DeityCrunch"
+  },
+  {
+    "index": 216,
+    "record_offset": 2600,
+    "string_offset": 13184,
+    "pool_offset": 2256,
+    "word": "0x8ce3d239",
+    "length": 12,
+    "text": "Deity Crunch"
+  },
+  {
+    "index": 217,
+    "record_offset": 2612,
+    "string_offset": 13197,
+    "pool_offset": 2269,
+    "word": "0xfe5deff7",
+    "length": 4,
+    "text": "0.53"
+  },
+  {
+    "index": 218,
+    "record_offset": 2624,
+    "string_offset": 13202,
+    "pool_offset": 2274,
+    "word": "0x1bea281c",
+    "length": 8,
+    "text": "Connor50"
+  },
+  {
+    "index": 219,
+    "record_offset": 2636,
+    "string_offset": 13211,
+    "pool_offset": 2283,
+    "word": "0x875bfc98",
+    "length": 9,
+    "text": "Connor 50"
+  },
+  {
+    "index": 220,
+    "record_offset": 2648,
+    "string_offset": 13221,
+    "pool_offset": 2293,
+    "word": "0xe5fac40d",
+    "length": 16,
+    "text": "ClassA30TopBoost"
+  },
+  {
+    "index": 221,
+    "record_offset": 2660,
+    "string_offset": 13238,
+    "pool_offset": 2310,
+    "word": "0x61e960f2",
+    "length": 14,
+    "text": "A-30 Top Boost"
+  },
+  {
+    "index": 222,
+    "record_offset": 2672,
+    "string_offset": 13253,
+    "pool_offset": 2325,
+    "word": "0xb78643f4",
+    "length": 10,
+    "text": "2x12ClassA"
+  },
+  {
+    "index": 223,
+    "record_offset": 2684,
+    "string_offset": 13264,
+    "pool_offset": 2336,
+    "word": "0x4f9f176d",
+    "length": 12,
+    "text": "ClassA30Fawn"
+  },
+  {
+    "index": 224,
+    "record_offset": 2696,
+    "string_offset": 13277,
+    "pool_offset": 2349,
+    "word": "0x48a3a0de",
+    "length": 8,
+    "text": "CutState"
+  },
+  {
+    "index": 225,
+    "record_offset": 2708,
+    "string_offset": 13286,
+    "pool_offset": 2358,
+    "word": "0x88bdd21d",
+    "length": 3,
+    "text": "Cut"
+  },
+  {
+    "index": 226,
+    "record_offset": 2720,
+    "string_offset": 13290,
+    "pool_offset": 2362,
+    "word": "0x2cbde693",
+    "length": 9,
+    "text": "A-30 Fawn"
+  },
+  {
+    "index": 227,
+    "record_offset": 2732,
+    "string_offset": 13300,
+    "pool_offset": 2372,
+    "word": "0x520f18d6",
+    "length": 4,
+    "text": "0.74"
+  },
+  {
+    "index": 228,
+    "record_offset": 2744,
+    "string_offset": 13305,
+    "pool_offset": 2377,
+    "word": "0x5f5e710f",
+    "length": 14,
+    "text": "2x12ClassAFawn"
+  },
+  {
+    "index": 229,
+    "record_offset": 2756,
+    "string_offset": 13320,
+    "pool_offset": 2392,
+    "word": "0xe3111e79",
+    "length": 18,
+    "text": "2x12ClassALive2x12"
+  },
+  {
+    "index": 230,
+    "record_offset": 2768,
+    "string_offset": 13339,
+    "pool_offset": 2411,
+    "word": "0x6bc05102",
+    "length": 8,
+    "text": "ClassA15"
+  },
+  {
+    "index": 231,
+    "record_offset": 2780,
+    "string_offset": 13348,
+    "pool_offset": 2420,
+    "word": "0x2235b5e7",
+    "length": 10,
+    "text": "Class A-15"
+  },
+  {
+    "index": 232,
+    "record_offset": 2792,
+    "string_offset": 13359,
+    "pool_offset": 2431,
+    "word": "0x5cb1f8f7",
+    "length": 10,
+    "text": "1x12ClassA"
+  },
+  {
+    "index": 233,
+    "record_offset": 2804,
+    "string_offset": 13370,
+    "pool_offset": 2442,
+    "word": "0x7de6d843",
+    "length": 9,
+    "text": "CitrusD30"
+  },
+  {
+    "index": 234,
+    "record_offset": 2816,
+    "string_offset": 13380,
+    "pool_offset": 2452,
+    "word": "0x4e93052e",
+    "length": 11,
+    "text": "Citrus D-30"
+  },
+  {
+    "index": 235,
+    "record_offset": 2828,
+    "string_offset": 13392,
+    "pool_offset": 2464,
+    "word": "0x8329b3ca",
+    "length": 16,
+    "text": "CaliDiamondPlate"
+  },
+  {
+    "index": 236,
+    "record_offset": 2840,
+    "string_offset": 13409,
+    "pool_offset": 2481,
+    "word": "0x3a6bb360",
+    "length": 13,
+    "text": "Diamond Plate"
+  },
+  {
+    "index": 237,
+    "record_offset": 2852,
+    "string_offset": 13423,
+    "pool_offset": 2495,
+    "word": "0x5dba5117",
+    "length": 10,
+    "text": "CaliCrunch"
+  },
+  {
+    "index": 238,
+    "record_offset": 2864,
+    "string_offset": 13434,
+    "pool_offset": 2506,
+    "word": "0xb989fd17",
+    "length": 11,
+    "text": "Cali Crunch"
+  },
+  {
+    "index": 239,
+    "record_offset": 2876,
+    "string_offset": 13446,
+    "pool_offset": 2518,
+    "word": "0xe8a48342",
+    "length": 6,
+    "text": "Bypass"
+  },
+  {
+    "index": 240,
+    "record_offset": 2888,
+    "string_offset": 13453,
+    "pool_offset": 2525,
+    "word": "0xcece063c",
+    "length": 6,
+    "text": "No Amp"
+  },
+  {
+    "index": 241,
+    "record_offset": 2900,
+    "string_offset": 13460,
+    "pool_offset": 2532,
+    "word": "0x8467ed57",
+    "length": 15,
+    "text": "BritPlexiVariac"
+  },
+  {
+    "index": 242,
+    "record_offset": 2912,
+    "string_offset": 13476,
+    "pool_offset": 2548,
+    "word": "0x0cbb2295",
+    "length": 14,
+    "text": "Plexi Variac'd"
+  },
+  {
+    "index": 243,
+    "record_offset": 2924,
+    "string_offset": 13491,
+    "pool_offset": 2563,
+    "word": "0x732956fc",
+    "length": 16,
+    "text": "BritPlexiLead200"
+  },
+  {
+    "index": 244,
+    "record_offset": 2936,
+    "string_offset": 13508,
+    "pool_offset": 2580,
+    "word": "0x4f0ef545",
+    "length": 14,
+    "text": "Plexi Lead 200"
+  },
+  {
+    "index": 245,
+    "record_offset": 2948,
+    "string_offset": 13523,
+    "pool_offset": 2595,
+    "word": "0x79224b15",
+    "length": 4,
+    "text": "0.44"
+  },
+  {
+    "index": 246,
+    "record_offset": 2960,
+    "string_offset": 13528,
+    "pool_offset": 2600,
+    "word": "0x716fe8a5",
+    "length": 16,
+    "text": "BritPlexiLead100"
+  },
+  {
+    "index": 247,
+    "record_offset": 2972,
+    "string_offset": 13545,
+    "pool_offset": 2617,
+    "word": "0x4d484b1c",
+    "length": 14,
+    "text": "Plexi Lead 100"
+  },
+  {
+    "index": 248,
+    "record_offset": 2984,
+    "string_offset": 13560,
+    "pool_offset": 2632,
+    "word": "0x0bb9d499",
+    "length": 19,
+    "text": "0.56000000000000005"
+  },
+  {
+    "index": 249,
+    "record_offset": 2996,
+    "string_offset": 13580,
+    "pool_offset": 2652,
+    "word": "0x2d81ee3c",
+    "length": 17,
+    "text": "BritPlexiJumpLead"
+  },
+  {
+    "index": 250,
+    "record_offset": 3008,
+    "string_offset": 13598,
+    "pool_offset": 2670,
+    "word": "0x6fbaabbf",
+    "length": 10,
+    "text": "Plexi Jump"
+  },
+  {
+    "index": 251,
+    "record_offset": 3020,
+    "string_offset": 13609,
+    "pool_offset": 2681,
+    "word": "0x6d2f7a2a",
+    "length": 16,
+    "text": "BritPlexiBass100"
+  },
+  {
+    "index": 252,
+    "record_offset": 3032,
+    "string_offset": 13626,
+    "pool_offset": 2698,
+    "word": "0x89fad5e6",
+    "length": 15,
+    "text": "Brit Plexi Bass"
+  },
+  {
+    "index": 253,
+    "record_offset": 3044,
+    "string_offset": 13642,
+    "pool_offset": 2714,
+    "word": "0xc6e07d51",
+    "length": 11,
+    "text": "BritPlexi45"
+  },
+  {
+    "index": 254,
+    "record_offset": 3056,
+    "string_offset": 13654,
+    "pool_offset": 2726,
+    "word": "0x7e73f664",
+    "length": 8,
+    "text": "Plexi 45"
+  },
+  {
+    "index": 255,
+    "record_offset": 3068,
+    "string_offset": 13663,
+    "pool_offset": 2735,
+    "word": "0x41d58f38",
+    "length": 9,
+    "text": "BritJMPre"
+  },
+  {
+    "index": 256,
+    "record_offset": 3080,
+    "string_offset": 13673,
+    "pool_offset": 2745,
+    "word": "0xe2876fb1",
+    "length": 11,
+    "text": "Brit JM Pre"
+  },
+  {
+    "index": 257,
+    "record_offset": 3092,
+    "string_offset": 13685,
+    "pool_offset": 2757,
+    "word": "0x557650fd",
+    "length": 19,
+    "text": "0.55000000000000004"
+  },
+  {
+    "index": 258,
+    "record_offset": 3104,
+    "string_offset": 13705,
+    "pool_offset": 2777,
+    "word": "0x0e3e400f",
+    "length": 15,
+    "text": "BritGainSilverJ"
+  },
+  {
+    "index": 259,
+    "record_offset": 3116,
+    "string_offset": 13721,
+    "pool_offset": 2793,
+    "word": "0xd83d628b",
+    "length": 13,
+    "text": "Brit Silver J"
+  },
+  {
+    "index": 260,
+    "record_offset": 3128,
+    "string_offset": 13735,
+    "pool_offset": 2807,
+    "word": "0xff7cd6db",
+    "length": 16,
+    "text": "BritGainJ900Dist"
+  },
+  {
+    "index": 261,
+    "record_offset": 3140,
+    "string_offset": 13752,
+    "pool_offset": 2824,
+    "word": "0x9b6fccec",
+    "length": 15,
+    "text": "Brit J-900 Dist"
+  },
+  {
+    "index": 262,
+    "record_offset": 3152,
+    "string_offset": 13768,
+    "pool_offset": 2840,
+    "word": "0xc316c1ac",
+    "length": 17,
+    "text": "BritGainJ900Clean"
+  },
+  {
+    "index": 263,
+    "record_offset": 3164,
+    "string_offset": 13786,
+    "pool_offset": 2858,
+    "word": "0x1f5aa28b",
+    "length": 14,
+    "text": "Brit J-900 Cln"
+  },
+  {
+    "index": 264,
+    "record_offset": 3176,
+    "string_offset": 13801,
+    "pool_offset": 2873,
+    "word": "0xa150a864",
+    "length": 12,
+    "text": "BritGainJ800"
+  },
+  {
+    "index": 265,
+    "record_offset": 3188,
+    "string_offset": 13814,
+    "pool_offset": 2886,
+    "word": "0xe4439b5a",
+    "length": 10,
+    "text": "Brit J-800"
+  },
+  {
+    "index": 266,
+    "record_offset": 3200,
+    "string_offset": 13825,
+    "pool_offset": 2897,
+    "word": "0xcd2e0bb7",
+    "length": 15,
+    "text": "BritGainJ2000_2"
+  },
+  {
+    "index": 267,
+    "record_offset": 3212,
+    "string_offset": 13841,
+    "pool_offset": 2913,
+    "word": "0x3ba982bf",
+    "length": 13,
+    "text": "Brit J-2000 2"
+  },
+  {
+    "index": 268,
+    "record_offset": 3224,
+    "string_offset": 13855,
+    "pool_offset": 2927,
+    "word": "0xd118caac",
+    "length": 13,
+    "text": "BritGainJ2000"
+  },
+  {
+    "index": 269,
+    "record_offset": 3236,
+    "string_offset": 13869,
+    "pool_offset": 2941,
+    "word": "0x103cc434",
+    "length": 11,
+    "text": "Brit J-2000"
+  },
+  {
+    "index": 270,
+    "record_offset": 3248,
+    "string_offset": 13881,
+    "pool_offset": 2953,
+    "word": "0x2c249eb6",
+    "length": 10,
+    "text": "BritGain18"
+  },
+  {
+    "index": 271,
+    "record_offset": 3260,
+    "string_offset": 13892,
+    "pool_offset": 2964,
+    "word": "0xa3c520cf",
+    "length": 12,
+    "text": "Brit Gain 18"
+  },
+  {
+    "index": 272,
+    "record_offset": 3272,
+    "string_offset": 13905,
+    "pool_offset": 2977,
+    "word": "0x73b26914",
+    "length": 9,
+    "text": "BomberXTC"
+  },
+  {
+    "index": 273,
+    "record_offset": 3284,
+    "string_offset": 13915,
+    "pool_offset": 2987,
+    "word": "0xab261502",
+    "length": 11,
+    "text": "Bomber X-TC"
+  },
+  {
+    "index": 274,
+    "record_offset": 3296,
+    "string_offset": 13927,
+    "pool_offset": 2999,
+    "word": "0x895adf61",
+    "length": 4,
+    "text": "0.52"
+  },
+  {
+    "index": 275,
+    "record_offset": 3308,
+    "string_offset": 13932,
+    "pool_offset": 3004,
+    "word": "0x67f25b52",
+    "length": 10,
+    "text": "BomberUber"
+  },
+  {
+    "index": 276,
+    "record_offset": 3320,
+    "string_offset": 13943,
+    "pool_offset": 3015,
+    "word": "0xb50900aa",
+    "length": 11,
+    "text": "Bomber Uber"
+  },
+  {
+    "index": 277,
+    "record_offset": 3332,
+    "string_offset": 13955,
+    "pool_offset": 3027,
+    "word": "0x1d966c6c",
+    "length": 14,
+    "text": "BlackfaceVibro"
+  },
+  {
+    "index": 278,
+    "record_offset": 3344,
+    "string_offset": 13970,
+    "pool_offset": 3042,
+    "word": "0x650e855a",
+    "length": 14,
+    "text": "Blackface Vibe"
+  },
+  {
+    "index": 279,
+    "record_offset": 3356,
+    "string_offset": 13985,
+    "pool_offset": 3057,
+    "word": "0xd570bc34",
+    "length": 4,
+    "text": "0.63"
+  },
+  {
+    "index": 280,
+    "record_offset": 3368,
+    "string_offset": 13990,
+    "pool_offset": 3062,
+    "word": "0xa7bb2aa8",
+    "length": 12,
+    "text": "BlackfaceLux"
+  },
+  {
+    "index": 281,
+    "record_offset": 3380,
+    "string_offset": 14003,
+    "pool_offset": 3075,
+    "word": "0xbb926e9a",
+    "length": 13,
+    "text": "Blackface Lux"
+  },
+  {
+    "index": 282,
+    "record_offset": 3392,
+    "string_offset": 14017,
+    "pool_offset": 3089,
+    "word": "0xd5970419",
+    "length": 4,
+    "text": "0.84"
+  },
+  {
+    "index": 283,
+    "record_offset": 3404,
+    "string_offset": 14022,
+    "pool_offset": 3094,
+    "word": "0x6c0c050c",
+    "length": 13,
+    "text": "1x12Blackface"
+  },
+  {
+    "index": 284,
+    "record_offset": 3416,
+    "string_offset": 14036,
+    "pool_offset": 3108,
+    "word": "0xb792acad",
+    "length": 10,
+    "text": "AngelPBall"
+  },
+  {
+    "index": 285,
+    "record_offset": 3428,
+    "string_offset": 14047,
+    "pool_offset": 3119,
+    "word": "0xcd5a608d",
+    "length": 12,
+    "text": "ANGEL P-Ball"
+  },
+  {
+    "index": 286,
+    "record_offset": 3440,
+    "string_offset": 14060,
+    "pool_offset": 3132,
+    "word": "0xf263ee17",
+    "length": 8,
+    "text": "BuzzWave"
+  },
+  {
+    "index": 287,
+    "record_offset": 3452,
+    "string_offset": 14069,
+    "pool_offset": 3141,
+    "word": "0x9f8ae92e",
+    "length": 9,
+    "text": "WaveState"
+  },
+  {
+    "index": 288,
+    "record_offset": 3464,
+    "string_offset": 14079,
+    "pool_offset": 3151,
+    "word": "0xd1d1654a",
+    "length": 11,
+    "text": "FilterState"
+  },
+  {
+    "index": 289,
+    "record_offset": 3476,
+    "string_offset": 14091,
+    "pool_offset": 3163,
+    "word": "0x99d7bda5",
+    "length": 10,
+    "text": "DecayState"
+  },
+  {
+    "index": 290,
+    "record_offset": 3488,
+    "string_offset": 14102,
+    "pool_offset": 3174,
+    "word": "0x8a95842d",
+    "length": 8,
+    "text": "MixState"
+  },
+  {
+    "index": 291,
+    "record_offset": 3500,
+    "string_offset": 14111,
+    "pool_offset": 3183,
+    "word": "0x7a3602b7",
+    "length": 4,
+    "text": "Wave"
+  },
+  {
+    "index": 292,
+    "record_offset": 3512,
+    "string_offset": 14116,
+    "pool_offset": 3188,
+    "word": "0x78685a2b",
+    "length": 6,
+    "text": "Filter"
+  },
+  {
+    "index": 293,
+    "record_offset": 3524,
+    "string_offset": 14123,
+    "pool_offset": 3195,
+    "word": "0x6de2ee61",
+    "length": 3,
+    "text": "Mix"
+  },
+  {
+    "index": 294,
+    "record_offset": 3536,
+    "string_offset": 14127,
+    "pool_offset": 3199,
+    "word": "0x73a9629e",
+    "length": 5,
+    "text": "Smart"
+  },
+  {
+    "index": 295,
+    "record_offset": 3548,
+    "string_offset": 14133,
+    "pool_offset": 3205,
+    "word": "0x31439b3d",
+    "length": 10,
+    "text": "xtCategory"
+  },
+  {
+    "index": 296,
+    "record_offset": 3560,
+    "string_offset": 14144,
+    "pool_offset": 3216,
+    "word": "0x9e119d06",
+    "length": 5,
+    "text": "Stomp"
+  },
+  {
+    "index": 297,
+    "record_offset": 3572,
+    "string_offset": 14150,
+    "pool_offset": 3222,
+    "word": "0xe5d51ea2",
+    "length": 5,
+    "text": "Synth"
+  },
+  {
+    "index": 298,
+    "record_offset": 3584,
+    "string_offset": 14156,
+    "pool_offset": 3228,
+    "word": "0x8acff3b6",
+    "length": 9,
+    "text": "Buzz Wave"
+  },
+  {
+    "index": 299,
+    "record_offset": 3596,
+    "string_offset": 14166,
+    "pool_offset": 3238,
+    "word": "0x55afa881",
+    "length": 3,
+    "text": "mix"
+  },
+  {
+    "index": 300,
+    "record_offset": 3608,
+    "string_offset": 14170,
+    "pool_offset": 3242,
+    "word": "0xf969bc51",
+    "length": 10,
+    "text": "mixDefault"
+  },
+  {
+    "index": 301,
+    "record_offset": 3620,
+    "string_offset": 14181,
+    "pool_offset": 3253,
+    "word": "0x946a4fef",
+    "length": 10,
+    "text": "DoubleBass"
+  },
+  {
+    "index": 302,
+    "record_offset": 3632,
+    "string_offset": 14192,
+    "pool_offset": 3264,
+    "word": "0x0027fcf9",
+    "length": 12,
+    "text": "-1oct GState"
+  },
+  {
+    "index": 303,
+    "record_offset": 3644,
+    "string_offset": 14205,
+    "pool_offset": 3277,
+    "word": "0x99c59af8",
+    "length": 12,
+    "text": "-2oct GState"
+  },
+  {
+    "index": 304,
+    "record_offset": 3656,
+    "string_offset": 14218,
+    "pool_offset": 3290,
+    "word": "0xe015db46",
+    "length": 7,
+    "text": "-1oct G"
+  },
+  {
+    "index": 305,
+    "record_offset": 3668,
+    "string_offset": 14226,
+    "pool_offset": 3298,
+    "word": "0xda04737a",
+    "length": 9,
+    "text": "-1 Octave"
+  },
+  {
+    "index": 306,
+    "record_offset": 3680,
+    "string_offset": 14236,
+    "pool_offset": 3308,
+    "word": "0x6681a9e8",
+    "length": 7,
+    "text": "-2oct G"
+  },
+  {
+    "index": 307,
+    "record_offset": 3692,
+    "string_offset": 14244,
+    "pool_offset": 3316,
+    "word": "0x548b7499",
+    "length": 9,
+    "text": "-2 Octave"
+  },
+  {
+    "index": 308,
+    "record_offset": 3704,
+    "string_offset": 14254,
+    "pool_offset": 3326,
+    "word": "0x65f8094e",
+    "length": 11,
+    "text": "Double Bass"
+  },
+  {
+    "index": 309,
+    "record_offset": 3716,
+    "string_offset": 14266,
+    "pool_offset": 3338,
+    "word": "0x22e18f88",
+    "length": 8,
+    "text": "RezSynth"
+  },
+  {
+    "index": 310,
+    "record_offset": 3728,
+    "string_offset": 14275,
+    "pool_offset": 3347,
+    "word": "0x4ee5b06d",
+    "length": 9,
+    "text": "Rez Synth"
+  },
+  {
+    "index": 311,
+    "record_offset": 3740,
+    "string_offset": 14285,
+    "pool_offset": 3357,
+    "word": "0x9107eeca",
+    "length": 14,
+    "text": "Saturn5RingMod"
+  },
+  {
+    "index": 312,
+    "record_offset": 3752,
+    "string_offset": 14300,
+    "pool_offset": 3372,
+    "word": "0x91353dbe",
+    "length": 15,
+    "text": "OndulationState"
+  },
+  {
+    "index": 313,
+    "record_offset": 3764,
+    "string_offset": 14316,
+    "pool_offset": 3388,
+    "word": "0xc23b522f",
+    "length": 10,
+    "text": "Ondulation"
+  },
+  {
+    "index": 314,
+    "record_offset": 3776,
+    "string_offset": 14327,
+    "pool_offset": 3399,
+    "word": "0x7b636dd2",
+    "length": 11,
+    "text": "Saturn Ring"
+  },
+  {
+    "index": 315,
+    "record_offset": 3788,
+    "string_offset": 14339,
+    "pool_offset": 3411,
+    "word": "0x0d388c54",
+    "length": 12,
+    "text": "SeismicSynth"
+  },
+  {
+    "index": 316,
+    "record_offset": 3800,
+    "string_offset": 14352,
+    "pool_offset": 3424,
+    "word": "0x1d7b6b8d",
+    "length": 9,
+    "text": "waveState"
+  },
+  {
+    "index": 317,
+    "record_offset": 3812,
+    "string_offset": 14362,
+    "pool_offset": 3434,
+    "word": "0xda04ad89",
+    "length": 4,
+    "text": "wave"
+  },
+  {
+    "index": 318,
+    "record_offset": 3824,
+    "string_offset": 14367,
+    "pool_offset": 3439,
+    "word": "0xf240b9f6",
+    "length": 13,
+    "text": "Seismik Synth"
+  },
+  {
+    "index": 319,
+    "record_offset": 3836,
+    "string_offset": 14381,
+    "pool_offset": 3453,
+    "word": "0x95875211",
+    "length": 11,
+    "text": "SynthAnalog"
+  },
+  {
+    "index": 320,
+    "record_offset": 3848,
+    "string_offset": 14393,
+    "pool_offset": 3465,
+    "word": "0x3542b1c5",
+    "length": 12,
+    "text": "Analog Synth"
+  },
+  {
+    "index": 321,
+    "record_offset": 3860,
+    "string_offset": 14406,
+    "pool_offset": 3478,
+    "word": "0xe4742567",
+    "length": 7,
+    "text": "SynthFX"
+  },
+  {
+    "index": 322,
+    "record_offset": 3872,
+    "string_offset": 14414,
+    "pool_offset": 3486,
+    "word": "0xfc9b3ed8",
+    "length": 8,
+    "text": "Synth FX"
+  },
+  {
+    "index": 323,
+    "record_offset": 3884,
+    "string_offset": 14423,
+    "pool_offset": 3495,
+    "word": "0xbb0e47cd",
+    "length": 12,
+    "text": "SynthHarmony"
+  },
+  {
+    "index": 324,
+    "record_offset": 3896,
+    "string_offset": 14436,
+    "pool_offset": 3508,
+    "word": "0x63e73889",
+    "length": 13,
+    "text": "1 m3 3 5State"
+  },
+  {
+    "index": 325,
+    "record_offset": 3908,
+    "string_offset": 14450,
+    "pool_offset": 3522,
+    "word": "0x2eb3ca40",
+    "length": 12,
+    "text": "1 4 5 7State"
+  },
+  {
+    "index": 326,
+    "record_offset": 3920,
+    "string_offset": 14463,
+    "pool_offset": 3535,
+    "word": "0xf43b7fb2",
+    "length": 8,
+    "text": "1 m3 3 5"
+  },
+  {
+    "index": 327,
+    "record_offset": 3932,
+    "string_offset": 14472,
+    "pool_offset": 3544,
+    "word": "0xe0b08d9d",
+    "length": 8,
+    "text": "Interval"
+  },
+  {
+    "index": 328,
+    "record_offset": 3944,
+    "string_offset": 14481,
+    "pool_offset": 3553,
+    "word": "0xd265dd1d",
+    "length": 10,
+    "text": "Interval 1"
+  },
+  {
+    "index": 329,
+    "record_offset": 3956,
+    "string_offset": 14492,
+    "pool_offset": 3564,
+    "word": "0xb5d24ab7",
+    "length": 11,
+    "text": "displayType"
+  },
+  {
+    "index": 330,
+    "record_offset": 3968,
+    "string_offset": 14504,
+    "pool_offset": 3576,
+    "word": "0x44c8f818",
+    "length": 4,
+    "text": "list"
+  },
+  {
+    "index": 331,
+    "record_offset": 3980,
+    "string_offset": 14509,
+    "pool_offset": 3581,
+    "word": "0xedd78230",
+    "length": 5,
+    "text": "-1oct"
+  },
+  {
+    "index": 332,
+    "record_offset": 3992,
+    "string_offset": 14515,
+    "pool_offset": 3587,
+    "word": "0x5f791e86",
+    "length": 7,
+    "text": "-maj6th"
+  },
+  {
+    "index": 333,
+    "record_offset": 4004,
+    "string_offset": 14523,
+    "pool_offset": 3595,
+    "word": "0xe06bc210",
+    "length": 7,
+    "text": "-min6th"
+  },
+  {
+    "index": 334,
+    "record_offset": 4016,
+    "string_offset": 14531,
+    "pool_offset": 3603,
+    "word": "0x5844b02b",
+    "length": 4,
+    "text": "-4th"
+  },
+  {
+    "index": 335,
+    "record_offset": 4028,
+    "string_offset": 14536,
+    "pool_offset": 3608,
+    "word": "0xf3b61b38",
+    "length": 1,
+    "text": "4"
+  },
+  {
+    "index": 336,
+    "record_offset": 4040,
+    "string_offset": 14538,
+    "pool_offset": 3610,
+    "word": "0x94d9a14a",
+    "length": 6,
+    "text": "unison"
+  },
+  {
+    "index": 337,
+    "record_offset": 4052,
+    "string_offset": 14545,
+    "pool_offset": 3617,
+    "word": "0x84b12bae",
+    "length": 1,
+    "text": "5"
+  },
+  {
+    "index": 338,
+    "record_offset": 4064,
+    "string_offset": 14547,
+    "pool_offset": 3619,
+    "word": "0x3b88cdd7",
+    "length": 6,
+    "text": "min3rd"
+  },
+  {
+    "index": 339,
+    "record_offset": 4076,
+    "string_offset": 14554,
+    "pool_offset": 3626,
+    "word": "0x1db87a14",
+    "length": 1,
+    "text": "6"
+  },
+  {
+    "index": 340,
+    "record_offset": 4088,
+    "string_offset": 14556,
+    "pool_offset": 3628,
+    "word": "0x849a1141",
+    "length": 6,
+    "text": "maj3rd"
+  },
+  {
+    "index": 341,
+    "record_offset": 4100,
+    "string_offset": 14563,
+    "pool_offset": 3635,
+    "word": "0x6abf4a82",
+    "length": 1,
+    "text": "7"
+  },
+  {
+    "index": 342,
+    "record_offset": 4112,
+    "string_offset": 14565,
+    "pool_offset": 3637,
+    "word": "0xd5dbabf1",
+    "length": 3,
+    "text": "5th"
+  },
+  {
+    "index": 343,
+    "record_offset": 4124,
+    "string_offset": 14569,
+    "pool_offset": 3641,
+    "word": "0xfa005713",
+    "length": 1,
+    "text": "8"
+  },
+  {
+    "index": 344,
+    "record_offset": 4136,
+    "string_offset": 14571,
+    "pool_offset": 3643,
+    "word": "0x33e04184",
+    "length": 4,
+    "text": "1oct"
+  },
+  {
+    "index": 345,
+    "record_offset": 4148,
+    "string_offset": 14576,
+    "pool_offset": 3648,
+    "word": "0x6fde6300",
+    "length": 7,
+    "text": "1 4 5 7"
+  },
+  {
+    "index": 346,
+    "record_offset": 4160,
+    "string_offset": 14584,
+    "pool_offset": 3656,
+    "word": "0x4b6c8ca7",
+    "length": 10,
+    "text": "Interval 2"
+  },
+  {
+    "index": 347,
+    "record_offset": 4172,
+    "string_offset": 14595,
+    "pool_offset": 3667,
+    "word": "0x5986da1c",
+    "length": 4,
+    "text": "-5th"
+  },
+  {
+    "index": 348,
+    "record_offset": 4184,
+    "string_offset": 14600,
+    "pool_offset": 3672,
+    "word": "0xe1eb00aa",
+    "length": 7,
+    "text": "-maj2nd"
+  },
+  {
+    "index": 349,
+    "record_offset": 4196,
+    "string_offset": 14608,
+    "pool_offset": 3680,
+    "word": "0xd419c1c6",
+    "length": 3,
+    "text": "4th"
+  },
+  {
+    "index": 350,
+    "record_offset": 4208,
+    "string_offset": 14612,
+    "pool_offset": 3684,
+    "word": "0x636d8ea6",
+    "length": 6,
+    "text": "min7th"
+  },
+  {
+    "index": 351,
+    "record_offset": 4220,
+    "string_offset": 14619,
+    "pool_offset": 3691,
+    "word": "0xc24ac55c",
+    "length": 13,
+    "text": "Harmony Synth"
+  },
+  {
+    "index": 352,
+    "record_offset": 4232,
+    "string_offset": 14633,
+    "pool_offset": 3705,
+    "word": "0x5556b6ac",
+    "length": 9,
+    "text": "SynthLead"
+  },
+  {
+    "index": 353,
+    "record_offset": 4244,
+    "string_offset": 14643,
+    "pool_offset": 3715,
+    "word": "0x4ef0c3de",
+    "length": 11,
+    "text": "AttackState"
+  },
+  {
+    "index": 354,
+    "record_offset": 4256,
+    "string_offset": 14655,
+    "pool_offset": 3727,
+    "word": "0x361b6fe9",
+    "length": 10,
+    "text": "Lead Synth"
+  },
+  {
+    "index": 355,
+    "record_offset": 4268,
+    "string_offset": 14666,
+    "pool_offset": 3738,
+    "word": "0xacb57579",
+    "length": 11,
+    "text": "SynthString"
+  },
+  {
+    "index": 356,
+    "record_offset": 4280,
+    "string_offset": 14678,
+    "pool_offset": 3750,
+    "word": "0xd39c21d3",
+    "length": 12,
+    "text": "String Synth"
+  },
+  {
+    "index": 357,
+    "record_offset": 4292,
+    "string_offset": 14691,
+    "pool_offset": 3763,
+    "word": "0x3cd19add",
+    "length": 10,
+    "text": "PitchGlide"
+  },
+  {
+    "index": 358,
+    "record_offset": 4304,
+    "string_offset": 14702,
+    "pool_offset": 3774,
+    "word": "0xee4c0606",
+    "length": 10,
+    "text": "PedalState"
+  },
+  {
+    "index": 359,
+    "record_offset": 4316,
+    "string_offset": 14713,
+    "pool_offset": 3785,
+    "word": "0x1980bdef",
+    "length": 9,
+    "text": "HeelState"
+  },
+  {
+    "index": 360,
+    "record_offset": 4328,
+    "string_offset": 14723,
+    "pool_offset": 3795,
+    "word": "0x35f98a52",
+    "length": 8,
+    "text": "ToeState"
+  },
+  {
+    "index": 361,
+    "record_offset": 4340,
+    "string_offset": 14732,
+    "pool_offset": 3804,
+    "word": "0x4284b887",
+    "length": 8,
+    "text": "MIXState"
+  },
+  {
+    "index": 362,
+    "record_offset": 4352,
+    "string_offset": 14741,
+    "pool_offset": 3813,
+    "word": "0x85f52b8e",
+    "length": 5,
+    "text": "Pedal"
+  },
+  {
+    "index": 363,
+    "record_offset": 4364,
+    "string_offset": 14747,
+    "pool_offset": 3819,
+    "word": "0xbf5a86a3",
+    "length": 8,
+    "text": "Position"
+  },
+  {
+    "index": 364,
+    "record_offset": 4376,
+    "string_offset": 14756,
+    "pool_offset": 3828,
+    "word": "0x6d761494",
+    "length": 4,
+    "text": "Heel"
+  },
+  {
+    "index": 365,
+    "record_offset": 4388,
+    "string_offset": 14761,
+    "pool_offset": 3833,
+    "word": "0x0c9f4c61",
+    "length": 9,
+    "text": "Semitones"
+  },
+  {
+    "index": 366,
+    "record_offset": 4400,
+    "string_offset": 14771,
+    "pool_offset": 3843,
+    "word": "0x4b49bdc1",
+    "length": 3,
+    "text": "Toe"
+  },
+  {
+    "index": 367,
+    "record_offset": 4412,
+    "string_offset": 14775,
+    "pool_offset": 3847,
+    "word": "0xc308ea0b",
+    "length": 3,
+    "text": "MIX"
+  },
+  {
+    "index": 368,
+    "record_offset": 4424,
+    "string_offset": 14779,
+    "pool_offset": 3851,
+    "word": "0xe65e91dd",
+    "length": 5,
+    "text": "Pitch"
+  },
+  {
+    "index": 369,
+    "record_offset": 4436,
+    "string_offset": 14785,
+    "pool_offset": 3857,
+    "word": "0xd3dcc8f5",
+    "length": 10,
+    "text": "Pitch Bend"
+  },
+  {
+    "index": 370,
+    "record_offset": 4448,
+    "string_offset": 14796,
+    "pool_offset": 3868,
+    "word": "0x480a653b",
+    "length": 10,
+    "text": "RotaryDrum"
+  },
+  {
+    "index": 371,
+    "record_offset": 4460,
+    "string_offset": 14807,
+    "pool_offset": 3879,
+    "word": "0x379a1cdb",
+    "length": 10,
+    "text": "SpeedState"
+  },
+  {
+    "index": 372,
+    "record_offset": 4472,
+    "string_offset": 14818,
+    "pool_offset": 3890,
+    "word": "0x968fe93a",
+    "length": 10,
+    "text": "DepthState"
+  },
+  {
+    "index": 373,
+    "record_offset": 4484,
+    "string_offset": 14829,
+    "pool_offset": 3901,
+    "word": "0xe7bc1570",
+    "length": 9,
+    "text": "ToneState"
+  },
+  {
+    "index": 374,
+    "record_offset": 4496,
+    "string_offset": 14839,
+    "pool_offset": 3911,
+    "word": "0xdd84128c",
+    "length": 15,
+    "text": "SyncSelectState"
+  },
+  {
+    "index": 375,
+    "record_offset": 4508,
+    "string_offset": 14855,
+    "pool_offset": 3927,
+    "word": "0xcee7d1f2",
+    "length": 5,
+    "text": "Speed"
+  },
+  {
+    "index": 376,
+    "record_offset": 4520,
+    "string_offset": 14861,
+    "pool_offset": 3933,
+    "word": "0xb5eab98d",
+    "length": 13,
+    "text": "SlowFastSpeed"
+  },
+  {
+    "index": 377,
+    "record_offset": 4532,
+    "string_offset": 14875,
+    "pool_offset": 3947,
+    "word": "0x3b62336d",
+    "length": 5,
+    "text": "Depth"
+  },
+  {
+    "index": 378,
+    "record_offset": 4544,
+    "string_offset": 14881,
+    "pool_offset": 3953,
+    "word": "0xe006180a",
+    "length": 4,
+    "text": "Tone"
+  },
+  {
+    "index": 379,
+    "record_offset": 4556,
+    "string_offset": 14886,
+    "pool_offset": 3958,
+    "word": "0x6f0a8a17",
+    "length": 10,
+    "text": "SyncSelect"
+  },
+  {
+    "index": 380,
+    "record_offset": 4568,
+    "string_offset": 14897,
+    "pool_offset": 3969,
+    "word": "0xd1b59651",
+    "length": 10,
+    "text": "Modulation"
+  },
+  {
+    "index": 381,
+    "record_offset": 4580,
+    "string_offset": 14908,
+    "pool_offset": 3980,
+    "word": "0x6ee4e905",
+    "length": 11,
+    "text": "Rotary Drum"
+  },
+  {
+    "index": 382,
+    "record_offset": 4592,
+    "string_offset": 14920,
+    "pool_offset": 3992,
+    "word": "0x923c763f",
+    "length": 4,
+    "text": "Show"
+  },
+  {
+    "index": 383,
+    "record_offset": 4604,
+    "string_offset": 14925,
+    "pool_offset": 3997,
+    "word": "0x3977ca9e",
+    "length": 15,
+    "text": "RotaryDrum_Horn"
+  },
+  {
+    "index": 384,
+    "record_offset": 4616,
+    "string_offset": 14941,
+    "pool_offset": 4013,
+    "word": "0x11d30fc2",
+    "length": 13,
+    "text": "Rotary w/Horn"
+  },
+  {
+    "index": 385,
+    "record_offset": 4628,
+    "string_offset": 14955,
+    "pool_offset": 4027,
+    "word": "0xf5a28b85",
+    "length": 5,
+    "text": "UVibe"
+  },
+  {
+    "index": 386,
+    "record_offset": 4640,
+    "string_offset": 14961,
+    "pool_offset": 4033,
+    "word": "0xc2aab263",
+    "length": 5,
+    "text": "ModHz"
+  },
+  {
+    "index": 387,
+    "record_offset": 4652,
+    "string_offset": 14967,
+    "pool_offset": 4039,
+    "word": "0x6f8f552a",
+    "length": 4,
+    "text": "Note"
+  },
+  {
+    "index": 388,
+    "record_offset": 4664,
+    "string_offset": 14972,
+    "pool_offset": 4044,
+    "word": "0x17a3ef71",
+    "length": 6,
+    "text": "U-Vibe"
+  },
+  {
+    "index": 389,
+    "record_offset": 4676,
+    "string_offset": 14979,
+    "pool_offset": 4051,
+    "word": "0x67a25c45",
+    "length": 6,
+    "text": "Phaser"
+  },
+  {
+    "index": 390,
+    "record_offset": 4688,
+    "string_offset": 14986,
+    "pool_offset": 4058,
+    "word": "0x49ab2798",
+    "length": 13,
+    "text": "FeedbackState"
+  },
+  {
+    "index": 391,
+    "record_offset": 4700,
+    "string_offset": 15000,
+    "pool_offset": 4072,
+    "word": "0x2b5f260e",
+    "length": 8,
+    "text": "Feedback"
+  },
+  {
+    "index": 392,
+    "record_offset": 4712,
+    "string_offset": 15009,
+    "pool_offset": 4081,
+    "word": "0xeaedfd49",
+    "length": 11,
+    "text": "Phaser Mono"
+  },
+  {
+    "index": 393,
+    "record_offset": 4724,
+    "string_offset": 15021,
+    "pool_offset": 4093,
+    "word": "0x86b9be1a",
+    "length": 15,
+    "text": "L6PingPongDelay"
+  },
+  {
+    "index": 394,
+    "record_offset": 4736,
+    "string_offset": 15037,
+    "pool_offset": 4109,
+    "word": "0x103b066a",
+    "length": 9,
+    "text": "TimeState"
+  },
+  {
+    "index": 395,
+    "record_offset": 4748,
+    "string_offset": 15047,
+    "pool_offset": 4119,
+    "word": "0x122560d8",
+    "length": 11,
+    "text": "OffsetState"
+  },
+  {
+    "index": 396,
+    "record_offset": 4760,
+    "string_offset": 15059,
+    "pool_offset": 4131,
+    "word": "0x2018ca22",
+    "length": 11,
+    "text": "SpreadState"
+  },
+  {
+    "index": 397,
+    "record_offset": 4772,
+    "string_offset": 15071,
+    "pool_offset": 4143,
+    "word": "0xcfa6377b",
+    "length": 4,
+    "text": "Time"
+  },
+  {
+    "index": 398,
+    "record_offset": 4784,
+    "string_offset": 15076,
+    "pool_offset": 4148,
+    "word": "0x68e278cd",
+    "length": 9,
+    "text": "DelayTime"
+  },
+  {
+    "index": 399,
+    "record_offset": 4796,
+    "string_offset": 15086,
+    "pool_offset": 4158,
+    "word": "0x5ea6cfe6",
+    "length": 6,
+    "text": "Offset"
+  },
+  {
+    "index": 400,
+    "record_offset": 4808,
+    "string_offset": 15093,
+    "pool_offset": 4165,
+    "word": "0x7b19a54e",
+    "length": 6,
+    "text": "Spread"
+  },
+  {
+    "index": 401,
+    "record_offset": 4820,
+    "string_offset": 15100,
+    "pool_offset": 4172,
+    "word": "0x735baf9f",
+    "length": 5,
+    "text": "Delay"
+  },
+  {
+    "index": 402,
+    "record_offset": 4832,
+    "string_offset": 15106,
+    "pool_offset": 4178,
+    "word": "0xf468f87b",
+    "length": 9,
+    "text": "Ping Pong"
+  },
+  {
+    "index": 403,
+    "record_offset": 4844,
+    "string_offset": 15116,
+    "pool_offset": 4188,
+    "word": "0xffb65f1e",
+    "length": 11,
+    "text": "BiasTremolo"
+  },
+  {
+    "index": 404,
+    "record_offset": 4856,
+    "string_offset": 15128,
+    "pool_offset": 4200,
+    "word": "0x5a729284",
+    "length": 10,
+    "text": "ShapeState"
+  },
+  {
+    "index": 405,
+    "record_offset": 4868,
+    "string_offset": 15139,
+    "pool_offset": 4211,
+    "word": "0x1cf1d0dc",
+    "length": 5,
+    "text": "Shape"
+  },
+  {
+    "index": 406,
+    "record_offset": 4880,
+    "string_offset": 15145,
+    "pool_offset": 4217,
+    "word": "0xdc49d747",
+    "length": 12,
+    "text": "Bias Tremolo"
+  },
+  {
+    "index": 407,
+    "record_offset": 4892,
+    "string_offset": 15158,
+    "pool_offset": 4230,
+    "word": "0x22da9b61",
+    "length": 11,
+    "text": "OptoTremolo"
+  },
+  {
+    "index": 408,
+    "record_offset": 4904,
+    "string_offset": 15170,
+    "pool_offset": 4242,
+    "word": "0x1c2ed72e",
+    "length": 12,
+    "text": "Opto Tremolo"
+  },
+  {
+    "index": 409,
+    "record_offset": 4916,
+    "string_offset": 15183,
+    "pool_offset": 4255,
+    "word": "0x60def884",
+    "length": 9,
+    "text": "AutoSwell"
+  },
+  {
+    "index": 410,
+    "record_offset": 4928,
+    "string_offset": 15193,
+    "pool_offset": 4265,
+    "word": "0xe3dff77d",
+    "length": 9,
+    "text": "RampState"
+  },
+  {
+    "index": 411,
+    "record_offset": 4940,
+    "string_offset": 15203,
+    "pool_offset": 4275,
+    "word": "0x8903ddf4",
+    "length": 4,
+    "text": "Ramp"
+  },
+  {
+    "index": 412,
+    "record_offset": 4952,
+    "string_offset": 15208,
+    "pool_offset": 4280,
+    "word": "0x2e3f71c2",
+    "length": 8,
+    "text": "Dynamics"
+  },
+  {
+    "index": 413,
+    "record_offset": 4964,
+    "string_offset": 15217,
+    "pool_offset": 4289,
+    "word": "0x3085090f",
+    "length": 10,
+    "text": "Auto Swell"
+  },
+  {
+    "index": 414,
+    "record_offset": 4976,
+    "string_offset": 15228,
+    "pool_offset": 4300,
+    "word": "0xeacf9ef6",
+    "length": 10,
+    "text": "AutoPanner"
+  },
+  {
+    "index": 415,
+    "record_offset": 4988,
+    "string_offset": 15239,
+    "pool_offset": 4311,
+    "word": "0xaff6daea",
+    "length": 8,
+    "text": "Auto Pan"
+  },
+  {
+    "index": 416,
+    "record_offset": 5000,
+    "string_offset": 15248,
+    "pool_offset": 4320,
+    "word": "0xd8b99907",
+    "length": 6,
+    "text": "HiTalk"
+  },
+  {
+    "index": 417,
+    "record_offset": 5012,
+    "string_offset": 15255,
+    "pool_offset": 4327,
+    "word": "0xd2607013",
+    "length": 6,
+    "text": "QState"
+  },
+  {
+    "index": 418,
+    "record_offset": 5024,
+    "string_offset": 15262,
+    "pool_offset": 4334,
+    "word": "0x1ae0306f",
+    "length": 7,
+    "text": "Hi Talk"
+  },
+  {
+    "index": 419,
+    "record_offset": 5036,
+    "string_offset": 15270,
+    "pool_offset": 4342,
+    "word": "0x362c0983",
+    "length": 7,
+    "text": "Sweeper"
+  },
+  {
+    "index": 420,
+    "record_offset": 5048,
+    "string_offset": 15278,
+    "pool_offset": 4350,
+    "word": "0x624aff0d",
+    "length": 10,
+    "text": "RangeState"
+  },
+  {
+    "index": 421,
+    "record_offset": 5060,
+    "string_offset": 15289,
+    "pool_offset": 4361,
+    "word": "0x5246754d",
+    "length": 5,
+    "text": "Range"
+  },
+  {
+    "index": 422,
+    "record_offset": 5072,
+    "string_offset": 15295,
+    "pool_offset": 4367,
+    "word": "0x1d941722",
+    "length": 7,
+    "text": "AutoWah"
+  },
+  {
+    "index": 423,
+    "record_offset": 5084,
+    "string_offset": 15303,
+    "pool_offset": 4375,
+    "word": "0xc79285f7",
+    "length": 9,
+    "text": "SensState"
+  },
+  {
+    "index": 424,
+    "record_offset": 5096,
+    "string_offset": 15313,
+    "pool_offset": 4385,
+    "word": "0x84921034",
+    "length": 4,
+    "text": "Sens"
+  },
+  {
+    "index": 425,
+    "record_offset": 5108,
+    "string_offset": 15318,
+    "pool_offset": 4390,
+    "word": "0x7a0c20e0",
+    "length": 11,
+    "text": "Sensitivity"
+  },
+  {
+    "index": 426,
+    "record_offset": 5120,
+    "string_offset": 15330,
+    "pool_offset": 4402,
+    "word": "0x43da695a",
+    "length": 8,
+    "text": "Auto Wah"
+  },
+  {
+    "index": 427,
+    "record_offset": 5132,
+    "string_offset": 15339,
+    "pool_offset": 4411,
+    "word": "0x24acebea",
+    "length": 10,
+    "text": "CleanSweep"
+  },
+  {
+    "index": 428,
+    "record_offset": 5144,
+    "string_offset": 15350,
+    "pool_offset": 4422,
+    "word": "0xb6aeb697",
+    "length": 11,
+    "text": "Clean Sweep"
+  },
+  {
+    "index": 429,
+    "record_offset": 5156,
+    "string_offset": 15362,
+    "pool_offset": 4434,
+    "word": "0x24bc0a0f",
+    "length": 9,
+    "text": "DingoTron"
+  },
+  {
+    "index": 430,
+    "record_offset": 5168,
+    "string_offset": 15372,
+    "pool_offset": 4444,
+    "word": "0x6c7db5c6",
+    "length": 10,
+    "text": "Dingo Tron"
+  },
+  {
+    "index": 431,
+    "record_offset": 5180,
+    "string_offset": 15383,
+    "pool_offset": 4455,
+    "word": "0xf1ad2a47",
+    "length": 11,
+    "text": "EchoPlatter"
+  },
+  {
+    "index": 432,
+    "record_offset": 5192,
+    "string_offset": 15395,
+    "pool_offset": 4467,
+    "word": "0x326d5697",
+    "length": 10,
+    "text": "HeadsState"
+  },
+  {
+    "index": 433,
+    "record_offset": 5204,
+    "string_offset": 15406,
+    "pool_offset": 4478,
+    "word": "0xc6217e90",
+    "length": 12,
+    "text": "WowflutState"
+  },
+  {
+    "index": 434,
+    "record_offset": 5216,
+    "string_offset": 15419,
+    "pool_offset": 4491,
+    "word": "0x23d1cc96",
+    "length": 5,
+    "text": "Heads"
+  },
+  {
+    "index": 435,
+    "record_offset": 5228,
+    "string_offset": 15425,
+    "pool_offset": 4497,
+    "word": "0x7e329f11",
+    "length": 11,
+    "text": "HeadsValues"
+  },
+  {
+    "index": 436,
+    "record_offset": 5240,
+    "string_offset": 15437,
+    "pool_offset": 4509,
+    "word": "0x93ee2b1a",
+    "length": 7,
+    "text": "Wowflut"
+  },
+  {
+    "index": 437,
+    "record_offset": 5252,
+    "string_offset": 15445,
+    "pool_offset": 4517,
+    "word": "0xe5974716",
+    "length": 7,
+    "text": "Flutter"
+  },
+  {
+    "index": 438,
+    "record_offset": 5264,
+    "string_offset": 15453,
+    "pool_offset": 4525,
+    "word": "0x4b2a9ecf",
+    "length": 12,
+    "text": "Echo Platter"
+  },
+  {
+    "index": 439,
+    "record_offset": 5276,
+    "string_offset": 15466,
+    "pool_offset": 4538,
+    "word": "0x38ee43e7",
+    "length": 14,
+    "text": "MultiHeadDelay"
+  },
+  {
+    "index": 440,
+    "record_offset": 5288,
+    "string_offset": 15481,
+    "pool_offset": 4553,
+    "word": "0x9db610a9",
+    "length": 10,
+    "text": "Multi-Head"
+  },
+  {
+    "index": 441,
+    "record_offset": 5300,
+    "string_offset": 15492,
+    "pool_offset": 4564,
+    "word": "0x6a666623",
+    "length": 13,
+    "text": "L6LowRezDelay"
+  },
+  {
+    "index": 442,
+    "record_offset": 5312,
+    "string_offset": 15506,
+    "pool_offset": 4578,
+    "word": "0xe828050a",
+    "length": 9,
+    "text": "BitsState"
+  },
+  {
+    "index": 443,
+    "record_offset": 5324,
+    "string_offset": 15516,
+    "pool_offset": 4588,
+    "word": "0xd5002371",
+    "length": 4,
+    "text": "Bits"
+  },
+  {
+    "index": 444,
+    "record_offset": 5336,
+    "string_offset": 15521,
+    "pool_offset": 4593,
+    "word": "0xf05635bb",
+    "length": 10,
+    "text": "BitsValues"
+  },
+  {
+    "index": 445,
+    "record_offset": 5348,
+    "string_offset": 15532,
+    "pool_offset": 4604,
+    "word": "0xcbc71303",
+    "length": 7,
+    "text": "Low Rez"
+  },
+  {
+    "index": 446,
+    "record_offset": 5360,
+    "string_offset": 15540,
+    "pool_offset": 4612,
+    "word": "0x9ee3ef5c",
+    "length": 12,
+    "text": "AnalogChorus"
+  },
+  {
+    "index": 447,
+    "record_offset": 5372,
+    "string_offset": 15553,
+    "pool_offset": 4625,
+    "word": "0x2f67686b",
+    "length": 10,
+    "text": "Distortion"
+  },
+  {
+    "index": 448,
+    "record_offset": 5384,
+    "string_offset": 15564,
+    "pool_offset": 4636,
+    "word": "0xed3e70e7",
+    "length": 13,
+    "text": "Analog Chorus"
+  },
+  {
+    "index": 449,
+    "record_offset": 5396,
+    "string_offset": 15578,
+    "pool_offset": 4650,
+    "word": "0xae1e28d7",
+    "length": 18,
+    "text": "AnalogSquareChorus"
+  },
+  {
+    "index": 450,
+    "record_offset": 5408,
+    "string_offset": 15597,
+    "pool_offset": 4669,
+    "word": "0xb3928f59",
+    "length": 13,
+    "text": "Square Chorus"
+  },
+  {
+    "index": 451,
+    "record_offset": 5420,
+    "string_offset": 15611,
+    "pool_offset": 4683,
+    "word": "0x98a3a766",
+    "length": 10,
+    "text": "JetFlanger"
+  },
+  {
+    "index": 452,
+    "record_offset": 5432,
+    "string_offset": 15622,
+    "pool_offset": 4694,
+    "word": "0xcee8cd1a",
+    "length": 11,
+    "text": "ManualState"
+  },
+  {
+    "index": 453,
+    "record_offset": 5444,
+    "string_offset": 15634,
+    "pool_offset": 4706,
+    "word": "0x1777bbf2",
+    "length": 6,
+    "text": "Manual"
+  },
+  {
+    "index": 454,
+    "record_offset": 5456,
+    "string_offset": 15641,
+    "pool_offset": 4713,
+    "word": "0xf0c8ccc4",
+    "length": 11,
+    "text": "Jet Flanger"
+  },
+  {
+    "index": 455,
+    "record_offset": 5468,
+    "string_offset": 15653,
+    "pool_offset": 4725,
+    "word": "0xebbc9fe5",
+    "length": 11,
+    "text": "L6ExpoFlang"
+  },
+  {
+    "index": 456,
+    "record_offset": 5480,
+    "string_offset": 15665,
+    "pool_offset": 4737,
+    "word": "0x3d4386ab",
+    "length": 12,
+    "text": "Pre DlyState"
+  },
+  {
+    "index": 457,
+    "record_offset": 5492,
+    "string_offset": 15678,
+    "pool_offset": 4750,
+    "word": "0x9eb1052f",
+    "length": 7,
+    "text": "Pre Dly"
+  },
+  {
+    "index": 458,
+    "record_offset": 5504,
+    "string_offset": 15686,
+    "pool_offset": 4758,
+    "word": "0x1175fdc3",
+    "length": 9,
+    "text": "Pre Delay"
+  },
+  {
+    "index": 459,
+    "record_offset": 5516,
+    "string_offset": 15696,
+    "pool_offset": 4768,
+    "word": "0x4ca7e4b5",
+    "length": 11,
+    "text": "Expo Flange"
+  },
+  {
+    "index": 460,
+    "record_offset": 5528,
+    "string_offset": 15708,
+    "pool_offset": 4780,
+    "word": "0x8d24eb6f",
+    "length": 12,
+    "text": "L6LumpyPhase"
+  },
+  {
+    "index": 461,
+    "record_offset": 5540,
+    "string_offset": 15721,
+    "pool_offset": 4793,
+    "word": "0x6ecb1d67",
+    "length": 11,
+    "text": "Lumpy Phase"
+  },
+  {
+    "index": 462,
+    "record_offset": 5552,
+    "string_offset": 15733,
+    "pool_offset": 4805,
+    "word": "0x983e824d",
+    "length": 12,
+    "text": "RandomChorus"
+  },
+  {
+    "index": 463,
+    "record_offset": 5564,
+    "string_offset": 15746,
+    "pool_offset": 4818,
+    "word": "0x87888d78",
+    "length": 13,
+    "text": "Random Chorus"
+  },
+  {
+    "index": 464,
+    "record_offset": 5576,
+    "string_offset": 15760,
+    "pool_offset": 4832,
+    "word": "0xa245387f",
+    "length": 11,
+    "text": "AnalogDelay"
+  },
+  {
+    "index": 465,
+    "record_offset": 5588,
+    "string_offset": 15772,
+    "pool_offset": 4844,
+    "word": "0xa02090f7",
+    "length": 6,
+    "text": "Analog"
+  },
+  {
+    "index": 466,
+    "record_offset": 5600,
+    "string_offset": 15779,
+    "pool_offset": 4851,
+    "word": "0xce207134",
+    "length": 15,
+    "text": "AnalogDelay_Mod"
+  },
+  {
+    "index": 467,
+    "record_offset": 5612,
+    "string_offset": 15795,
+    "pool_offset": 4867,
+    "word": "0x75ee1777",
+    "length": 12,
+    "text": "Analog w/Mod"
+  },
+  {
+    "index": 468,
+    "record_offset": 5624,
+    "string_offset": 15808,
+    "pool_offset": 4880,
+    "word": "0x98696140",
+    "length": 12,
+    "text": "L6BubbleEcho"
+  },
+  {
+    "index": 469,
+    "record_offset": 5636,
+    "string_offset": 15821,
+    "pool_offset": 4893,
+    "word": "0x56048696",
+    "length": 11,
+    "text": "Bubble Echo"
+  },
+  {
+    "index": 470,
+    "record_offset": 5648,
+    "string_offset": 15833,
+    "pool_offset": 4905,
+    "word": "0x09f86eb5",
+    "length": 14,
+    "text": "L6DigitalDelay"
+  },
+  {
+    "index": 471,
+    "record_offset": 5660,
+    "string_offset": 15848,
+    "pool_offset": 4920,
+    "word": "0x04f5744b",
+    "length": 7,
+    "text": "Digital"
+  },
+  {
+    "index": 472,
+    "record_offset": 5672,
+    "string_offset": 15856,
+    "pool_offset": 4928,
+    "word": "0x863f656a",
+    "length": 10,
+    "text": "L6PhazeEko"
+  },
+  {
+    "index": 473,
+    "record_offset": 5684,
+    "string_offset": 15867,
+    "pool_offset": 4939,
+    "word": "0xcc9851ad",
+    "length": 9,
+    "text": "Phaze Eko"
+  },
+  {
+    "index": 474,
+    "record_offset": 5696,
+    "string_offset": 15877,
+    "pool_offset": 4949,
+    "word": "0xe554ace0",
+    "length": 9,
+    "text": "SweepEcho"
+  },
+  {
+    "index": 475,
+    "record_offset": 5708,
+    "string_offset": 15887,
+    "pool_offset": 4959,
+    "word": "0x387f5469",
+    "length": 10,
+    "text": "Sweep Echo"
+  },
+  {
+    "index": 476,
+    "record_offset": 5720,
+    "string_offset": 15898,
+    "pool_offset": 4970,
+    "word": "0x550dd0e8",
+    "length": 8,
+    "text": "TapeEcho"
+  },
+  {
+    "index": 477,
+    "record_offset": 5732,
+    "string_offset": 15907,
+    "pool_offset": 4979,
+    "word": "0x36148527",
+    "length": 9,
+    "text": "Tape Echo"
+  },
+  {
+    "index": 478,
+    "record_offset": 5744,
+    "string_offset": 15917,
+    "pool_offset": 4989,
+    "word": "0x8882cba5",
+    "length": 8,
+    "text": "TubeEcho"
+  },
+  {
+    "index": 479,
+    "record_offset": 5756,
+    "string_offset": 15926,
+    "pool_offset": 4998,
+    "word": "0xc1ac0b11",
+    "length": 13,
+    "text": "WowFlutrState"
+  },
+  {
+    "index": 480,
+    "record_offset": 5768,
+    "string_offset": 15940,
+    "pool_offset": 5012,
+    "word": "0x5d0f29a9",
+    "length": 13,
+    "text": "Eko distState"
+  },
+  {
+    "index": 481,
+    "record_offset": 5780,
+    "string_offset": 15954,
+    "pool_offset": 5026,
+    "word": "0x5039c7c8",
+    "length": 8,
+    "text": "WowFlutr"
+  },
+  {
+    "index": 482,
+    "record_offset": 5792,
+    "string_offset": 15963,
+    "pool_offset": 5035,
+    "word": "0x15b5969f",
+    "length": 8,
+    "text": "Eko dist"
+  },
+  {
+    "index": 483,
+    "record_offset": 5804,
+    "string_offset": 15972,
+    "pool_offset": 5044,
+    "word": "0x3ea43711",
+    "length": 9,
+    "text": "Tube Echo"
+  },
+  {
+    "index": 484,
+    "record_offset": 5816,
+    "string_offset": 15982,
+    "pool_offset": 5054,
+    "word": "0xb41936bf",
+    "length": 12,
+    "text": "PODPurpleX_2"
+  },
+  {
+    "index": 485,
+    "record_offset": 5828,
+    "string_offset": 15995,
+    "pool_offset": 5067,
+    "word": "0x8c28a868",
+    "length": 12,
+    "text": "POD Purple X"
+  },
+  {
+    "index": 486,
+    "record_offset": 5840,
+    "string_offset": 16008,
+    "pool_offset": 5080,
+    "word": "0x651a03dd",
+    "length": 13,
+    "text": "SampleAndHold"
+  },
+  {
+    "index": 487,
+    "record_offset": 5852,
+    "string_offset": 16022,
+    "pool_offset": 5094,
+    "word": "0x689dfbf1",
+    "length": 14,
+    "text": "L6 Sample-Hold"
+  },
+  {
+    "index": 488,
+    "record_offset": 5864,
+    "string_offset": 16037,
+    "pool_offset": 5109,
+    "word": "0x8757e212",
+    "length": 9,
+    "text": "TapeEater"
+  },
+  {
+    "index": 489,
+    "record_offset": 5876,
+    "string_offset": 16047,
+    "pool_offset": 5119,
+    "word": "0x439072b6",
+    "length": 9,
+    "text": "DistState"
+  },
+  {
+    "index": 490,
+    "record_offset": 5888,
+    "string_offset": 16057,
+    "pool_offset": 5129,
+    "word": "0x50645685",
+    "length": 12,
+    "text": "FlutterState"
+  },
+  {
+    "index": 491,
+    "record_offset": 5900,
+    "string_offset": 16070,
+    "pool_offset": 5142,
+    "word": "0x214e7fc9",
+    "length": 4,
+    "text": "Dist"
+  },
+  {
+    "index": 492,
+    "record_offset": 5912,
+    "string_offset": 16075,
+    "pool_offset": 5147,
+    "word": "0x8cef2466",
+    "length": 10,
+    "text": "Tape Eater"
+  },
+  {
+    "index": 493,
+    "record_offset": 5924,
+    "string_offset": 16086,
+    "pool_offset": 5158,
+    "word": "0x91d28019",
+    "length": 12,
+    "text": "Warble_Matic"
+  },
+  {
+    "index": 494,
+    "record_offset": 5936,
+    "string_offset": 16099,
+    "pool_offset": 5171,
+    "word": "0x41eea468",
+    "length": 13,
+    "text": "Warble  Matic"
+  },
+  {
+    "index": 495,
+    "record_offset": 5948,
+    "string_offset": 16113,
+    "pool_offset": 5185,
+    "word": "0x02cd473f",
+    "length": 8,
+    "text": "BlueComp"
+  },
+  {
+    "index": 496,
+    "record_offset": 5960,
+    "string_offset": 16122,
+    "pool_offset": 5194,
+    "word": "0xd6301515",
+    "length": 10,
+    "text": "Compressor"
+  },
+  {
+    "index": 497,
+    "record_offset": 5972,
+    "string_offset": 16133,
+    "pool_offset": 5205,
+    "word": "0x9b95d1bb",
+    "length": 12,
+    "text": "SustainState"
+  },
+  {
+    "index": 498,
+    "record_offset": 5984,
+    "string_offset": 16146,
+    "pool_offset": 5218,
+    "word": "0xd9b12054",
+    "length": 7,
+    "text": "Sustain"
+  },
+  {
+    "index": 499,
+    "record_offset": 5996,
+    "string_offset": 16154,
+    "pool_offset": 5226,
+    "word": "0xfcfddba2",
+    "length": 9,
+    "text": "Blue Comp"
+  },
+  {
+    "index": 500,
+    "record_offset": 6008,
+    "string_offset": 16164,
+    "pool_offset": 5236,
+    "word": "0xc4afdfdc",
+    "length": 12,
+    "text": "BlueCompTreb"
+  },
+  {
+    "index": 501,
+    "record_offset": 6020,
+    "string_offset": 16177,
+    "pool_offset": 5249,
+    "word": "0xed797d06",
+    "length": 14,
+    "text": "Treble Sustain"
+  },
+  {
+    "index": 502,
+    "record_offset": 6032,
+    "string_offset": 16192,
+    "pool_offset": 5264,
+    "word": "0x57d1779c",
+    "length": 7,
+    "text": "RedComp"
+  },
+  {
+    "index": 503,
+    "record_offset": 6044,
+    "string_offset": 16200,
+    "pool_offset": 5272,
+    "word": "0xb37735c0",
+    "length": 8,
+    "text": "Red Comp"
+  },
+  {
+    "index": 504,
+    "record_offset": 6056,
+    "string_offset": 16209,
+    "pool_offset": 5281,
+    "word": "0x19f07887",
+    "length": 9,
+    "text": "VettaComp"
+  },
+  {
+    "index": 505,
+    "record_offset": 6068,
+    "string_offset": 16219,
+    "pool_offset": 5291,
+    "word": "0x395cdd23",
+    "length": 10,
+    "text": "Vetta Comp"
+  },
+  {
+    "index": 506,
+    "record_offset": 6080,
+    "string_offset": 16230,
+    "pool_offset": 5302,
+    "word": "0xc84da065",
+    "length": 10,
+    "text": "VettaJuice"
+  },
+  {
+    "index": 507,
+    "record_offset": 6092,
+    "string_offset": 16241,
+    "pool_offset": 5313,
+    "word": "0x45630754",
+    "length": 9,
+    "text": "sensState"
+  },
+  {
+    "index": 508,
+    "record_offset": 6104,
+    "string_offset": 16251,
+    "pool_offset": 5323,
+    "word": "0x565276f5",
+    "length": 10,
+    "text": "levelState"
+  },
+  {
+    "index": 509,
+    "record_offset": 6116,
+    "string_offset": 16262,
+    "pool_offset": 5334,
+    "word": "0x24a0bf0a",
+    "length": 4,
+    "text": "sens"
+  },
+  {
+    "index": 510,
+    "record_offset": 6128,
+    "string_offset": 16267,
+    "pool_offset": 5339,
+    "word": "0x890d7574",
+    "length": 6,
+    "text": "Amount"
+  },
+  {
+    "index": 511,
+    "record_offset": 6140,
+    "string_offset": 16274,
+    "pool_offset": 5346,
+    "word": "0x9aeacc13",
+    "length": 5,
+    "text": "level"
+  },
+  {
+    "index": 512,
+    "record_offset": 6152,
+    "string_offset": 16280,
+    "pool_offset": 5352,
+    "word": "0x19d66b31",
+    "length": 11,
+    "text": "Vetta Juice"
+  },
+  {
+    "index": 513,
+    "record_offset": 6164,
+    "string_offset": 16292,
+    "pool_offset": 5364,
+    "word": "0x5152bdbf",
+    "length": 9,
+    "text": "L6Flanger"
+  },
+  {
+    "index": 514,
+    "record_offset": 6176,
+    "string_offset": 16302,
+    "pool_offset": 5374,
+    "word": "0x18744f0a",
+    "length": 9,
+    "text": "FreqState"
+  },
+  {
+    "index": 515,
+    "record_offset": 6188,
+    "string_offset": 16312,
+    "pool_offset": 5384,
+    "word": "0xf7c6ba8b",
+    "length": 4,
+    "text": "Freq"
+  },
+  {
+    "index": 516,
+    "record_offset": 6200,
+    "string_offset": 16317,
+    "pool_offset": 5389,
+    "word": "0x0f0e57ae",
+    "length": 10,
+    "text": "L6 Flanger"
+  },
+  {
+    "index": 517,
+    "record_offset": 6212,
+    "string_offset": 16328,
+    "pool_offset": 5400,
+    "word": "0xbf95d42e",
+    "length": 12,
+    "text": "L6SineChorus"
+  },
+  {
+    "index": 518,
+    "record_offset": 6224,
+    "string_offset": 16341,
+    "pool_offset": 5413,
+    "word": "0xebc45a16",
+    "length": 11,
+    "text": "Sine Chorus"
+  },
+  {
+    "index": 519,
+    "record_offset": 6236,
+    "string_offset": 16353,
+    "pool_offset": 5425,
+    "word": "0x57cf416a",
+    "length": 23,
+    "text": "StereoExponentialChorus"
+  },
+  {
+    "index": 520,
+    "record_offset": 6248,
+    "string_offset": 16377,
+    "pool_offset": 5449,
+    "word": "0xb7ba79a6",
+    "length": 8,
+    "text": "PreState"
+  },
+  {
+    "index": 521,
+    "record_offset": 6260,
+    "string_offset": 16386,
+    "pool_offset": 5458,
+    "word": "0xb32c7901",
+    "length": 3,
+    "text": "Pre"
+  },
+  {
+    "index": 522,
+    "record_offset": 6272,
+    "string_offset": 16390,
+    "pool_offset": 5462,
+    "word": "0x90293b63",
+    "length": 11,
+    "text": "Expo Chorus"
+  },
+  {
+    "index": 523,
+    "record_offset": 6284,
+    "string_offset": 16402,
+    "pool_offset": 5474,
+    "word": "0x55009b23",
+    "length": 18,
+    "text": "StereoSquareChorus"
+  },
+  {
+    "index": 524,
+    "record_offset": 6296,
+    "string_offset": 16421,
+    "pool_offset": 5493,
+    "word": "0xa5b8e693",
+    "length": 14,
+    "text": "Str Sqr Chorus"
+  },
+  {
+    "index": 525,
+    "record_offset": 6308,
+    "string_offset": 16436,
+    "pool_offset": 5508,
+    "word": "0x898e44f5",
+    "length": 18,
+    "text": "StereoSquareFlange"
+  },
+  {
+    "index": 526,
+    "record_offset": 6320,
+    "string_offset": 16455,
+    "pool_offset": 5527,
+    "word": "0x79363945",
+    "length": 14,
+    "text": "Str Sqr Flange"
+  },
+  {
+    "index": 527,
+    "record_offset": 6332,
+    "string_offset": 16470,
+    "pool_offset": 5542,
+    "word": "0x18adfb62",
+    "length": 11,
+    "text": "StereoDelay"
+  },
+  {
+    "index": 528,
+    "record_offset": 6344,
+    "string_offset": 16482,
+    "pool_offset": 5554,
+    "word": "0xc04f5c58",
+    "length": 11,
+    "text": "FbackLState"
+  },
+  {
+    "index": 529,
+    "record_offset": 6356,
+    "string_offset": 16494,
+    "pool_offset": 5566,
+    "word": "0xf9933fb3",
+    "length": 11,
+    "text": "FbackRState"
+  },
+  {
+    "index": 530,
+    "record_offset": 6368,
+    "string_offset": 16506,
+    "pool_offset": 5578,
+    "word": "0xbb593637",
+    "length": 6,
+    "text": "FbackL"
+  },
+  {
+    "index": 531,
+    "record_offset": 6380,
+    "string_offset": 16513,
+    "pool_offset": 5585,
+    "word": "0xe7b9b8ca",
+    "length": 10,
+    "text": "Feedback L"
+  },
+  {
+    "index": 532,
+    "record_offset": 6392,
+    "string_offset": 16524,
+    "pool_offset": 5596,
+    "word": "0x41560b54",
+    "length": 6,
+    "text": "FbackR"
+  },
+  {
+    "index": 533,
+    "record_offset": 6404,
+    "string_offset": 16531,
+    "pool_offset": 5603,
+    "word": "0x1db685a9",
+    "length": 10,
+    "text": "Feedback R"
+  },
+  {
+    "index": 534,
+    "record_offset": 6416,
+    "string_offset": 16542,
+    "pool_offset": 5614,
+    "word": "0xa980c5d1",
+    "length": 6,
+    "text": "Stereo"
+  },
+  {
+    "index": 535,
+    "record_offset": 6428,
+    "string_offset": 16549,
+    "pool_offset": 5621,
+    "word": "0xdfbe7804",
+    "length": 14,
+    "text": "L6ReverseDelay"
+  },
+  {
+    "index": 536,
+    "record_offset": 6440,
+    "string_offset": 16564,
+    "pool_offset": 5636,
+    "word": "0x65caa88b",
+    "length": 7,
+    "text": "Reverse"
+  },
+  {
+    "index": 537,
+    "record_offset": 6452,
+    "string_offset": 16572,
+    "pool_offset": 5644,
+    "word": "0x41a3d1b7",
+    "length": 13,
+    "text": "BassOverdrive"
+  },
+  {
+    "index": 538,
+    "record_offset": 6464,
+    "string_offset": 16586,
+    "pool_offset": 5658,
+    "word": "0x6252fdff",
+    "length": 5,
+    "text": "State"
+  },
+  {
+    "index": 539,
+    "record_offset": 6476,
+    "string_offset": 16592,
+    "pool_offset": 5664,
+    "word": "0xd29ed251",
+    "length": 7,
+    "text": "CONTROL"
+  },
+  {
+    "index": 540,
+    "record_offset": 6488,
+    "string_offset": 16600,
+    "pool_offset": 5672,
+    "word": "0x830fb4bd",
+    "length": 14,
+    "text": "Bass Overdrive"
+  },
+  {
+    "index": 541,
+    "record_offset": 6500,
+    "string_offset": 16615,
+    "pool_offset": 5687,
+    "word": "0x83852fe0",
+    "length": 17,
+    "text": "ClassicDistortion"
+  },
+  {
+    "index": 542,
+    "record_offset": 6512,
+    "string_offset": 16633,
+    "pool_offset": 5705,
+    "word": "0xe2b75aae",
+    "length": 12,
+    "text": "Classic Dist"
+  },
+  {
+    "index": 543,
+    "record_offset": 6524,
+    "string_offset": 16646,
+    "pool_offset": 5718,
+    "word": "0x6d53c6af",
+    "length": 10,
+    "text": "FacialFuzz"
+  },
+  {
+    "index": 544,
+    "record_offset": 6536,
+    "string_offset": 16657,
+    "pool_offset": 5729,
+    "word": "0xdb66088f",
+    "length": 11,
+    "text": "Facial Fuzz"
+  },
+  {
+    "index": 545,
+    "record_offset": 6548,
+    "string_offset": 16669,
+    "pool_offset": 5741,
+    "word": "0x8ac00ebb",
+    "length": 6,
+    "text": "FuzzPi"
+  },
+  {
+    "index": 546,
+    "record_offset": 6560,
+    "string_offset": 16676,
+    "pool_offset": 5748,
+    "word": "0xe0207991",
+    "length": 7,
+    "text": "Fuzz Pi"
+  },
+  {
+    "index": 547,
+    "record_offset": 6572,
+    "string_offset": 16684,
+    "pool_offset": 5756,
+    "word": "0x0102d8cd",
+    "length": 7,
+    "text": "KillerZ"
+  },
+  {
+    "index": 548,
+    "record_offset": 6584,
+    "string_offset": 16692,
+    "pool_offset": 5764,
+    "word": "0xc8648c38",
+    "length": 12,
+    "text": "ContourState"
+  },
+  {
+    "index": 549,
+    "record_offset": 6596,
+    "string_offset": 16705,
+    "pool_offset": 5777,
+    "word": "0x9fe85406",
+    "length": 12,
+    "text": "Mid AmtState"
+  },
+  {
+    "index": 550,
+    "record_offset": 6608,
+    "string_offset": 16718,
+    "pool_offset": 5790,
+    "word": "0x11035c00",
+    "length": 13,
+    "text": "Mid FreqState"
+  },
+  {
+    "index": 551,
+    "record_offset": 6620,
+    "string_offset": 16732,
+    "pool_offset": 5804,
+    "word": "0x7cbae24c",
+    "length": 7,
+    "text": "Contour"
+  },
+  {
+    "index": 552,
+    "record_offset": 6632,
+    "string_offset": 16740,
+    "pool_offset": 5812,
+    "word": "0xada8acde",
+    "length": 7,
+    "text": "Mid Amt"
+  },
+  {
+    "index": 553,
+    "record_offset": 6644,
+    "string_offset": 16748,
+    "pool_offset": 5820,
+    "word": "0x4db206bc",
+    "length": 8,
+    "text": "Mid Freq"
+  },
+  {
+    "index": 554,
+    "record_offset": 6656,
+    "string_offset": 16757,
+    "pool_offset": 5829,
+    "word": "0x69b87ace",
+    "length": 8,
+    "text": "Killer Z"
+  },
+  {
+    "index": 555,
+    "record_offset": 6668,
+    "string_offset": 16766,
+    "pool_offset": 5838,
+    "word": "0x0fc5e0e5",
+    "length": 13,
+    "text": "L6BoostPlusEQ"
+  },
+  {
+    "index": 556,
+    "record_offset": 6680,
+    "string_offset": 16780,
+    "pool_offset": 5852,
+    "word": "0x7593458d",
+    "length": 8,
+    "text": "Boost+EQ"
+  },
+  {
+    "index": 557,
+    "record_offset": 6692,
+    "string_offset": 16789,
+    "pool_offset": 5861,
+    "word": "0x5406dfae",
+    "length": 17,
+    "text": "Line6BronzeMaster"
+  },
+  {
+    "index": 558,
+    "record_offset": 6704,
+    "string_offset": 16807,
+    "pool_offset": 5879,
+    "word": "0xf6f11a6a",
+    "length": 13,
+    "text": "tonalityState"
+  },
+  {
+    "index": 559,
+    "record_offset": 6716,
+    "string_offset": 16821,
+    "pool_offset": 5893,
+    "word": "0xcd6e9e7c",
+    "length": 12,
+    "text": "mixtureState"
+  },
+  {
+    "index": 560,
+    "record_offset": 6728,
+    "string_offset": 16834,
+    "pool_offset": 5906,
+    "word": "0xf21681a6",
+    "length": 8,
+    "text": "tonality"
+  },
+  {
+    "index": 561,
+    "record_offset": 6740,
+    "string_offset": 16843,
+    "pool_offset": 5915,
+    "word": "0x07e21414",
+    "length": 7,
+    "text": "mixture"
+  },
+  {
+    "index": 562,
+    "record_offset": 6752,
+    "string_offset": 16851,
+    "pool_offset": 5923,
+    "word": "0x6a5c5e2c",
+    "length": 5,
+    "text": "Blend"
+  },
+  {
+    "index": 563,
+    "record_offset": 6764,
+    "string_offset": 16857,
+    "pool_offset": 5929,
+    "word": "0xbf8af27f",
+    "length": 13,
+    "text": "Bronze Master"
+  },
+  {
+    "index": 564,
+    "record_offset": 6776,
+    "string_offset": 16871,
+    "pool_offset": 5943,
+    "word": "0xe9e2e3e4",
+    "length": 10,
+    "text": "OctaveFuzz"
+  },
+  {
+    "index": 565,
+    "record_offset": 6788,
+    "string_offset": 16882,
+    "pool_offset": 5954,
+    "word": "0x3aec21b2",
+    "length": 11,
+    "text": "Octave Fuzz"
+  },
+  {
+    "index": 566,
+    "record_offset": 6800,
+    "string_offset": 16894,
+    "pool_offset": 5966,
+    "word": "0x76f96e24",
+    "length": 8,
+    "text": "Screamer"
+  },
+  {
+    "index": 567,
+    "record_offset": 6812,
+    "string_offset": 16903,
+    "pool_offset": 5975,
+    "word": "0x06e97593",
+    "length": 9,
+    "text": "TubeDrive"
+  },
+  {
+    "index": 568,
+    "record_offset": 6824,
+    "string_offset": 16913,
+    "pool_offset": 5985,
+    "word": "0xca5324fa",
+    "length": 10,
+    "text": "Tube Drive"
+  },
+  {
+    "index": 569,
+    "record_offset": 6836,
+    "string_offset": 16924,
+    "pool_offset": 5996,
+    "word": "0x5685a1ea",
+    "length": 6,
+    "text": "WetDry"
+  },
+  {
+    "index": 570,
+    "record_offset": 6848,
+    "string_offset": 16931,
+    "pool_offset": 6003,
+    "word": "0x58a12a56",
+    "length": 9,
+    "text": "ModWetDry"
+  },
+  {
+    "index": 571,
+    "record_offset": 6860,
+    "string_offset": 16941,
+    "pool_offset": 6013,
+    "word": "0xd950cbe0",
+    "length": 3,
+    "text": "Wet"
+  },
+  {
+    "index": 572,
+    "record_offset": 6872,
+    "string_offset": 16945,
+    "pool_offset": 6017,
+    "word": "0x2330d3c0",
+    "length": 10,
+    "text": "KingSpring"
+  },
+  {
+    "index": 573,
+    "record_offset": 6884,
+    "string_offset": 16956,
+    "pool_offset": 6028,
+    "word": "0x5ee991a2",
+    "length": 5,
+    "text": "Dwell"
+  },
+  {
+    "index": 574,
+    "record_offset": 6896,
+    "string_offset": 16962,
+    "pool_offset": 6034,
+    "word": "0x1fab1de9",
+    "length": 6,
+    "text": "Reverb"
+  },
+  {
+    "index": 575,
+    "record_offset": 6908,
+    "string_offset": 16969,
+    "pool_offset": 6041,
+    "word": "0xef7e7a09",
+    "length": 11,
+    "text": "King Spring"
+  },
+  {
+    "index": 576,
+    "record_offset": 6920,
+    "string_offset": 16981,
+    "pool_offset": 6053,
+    "word": "0x38c855f9",
+    "length": 9,
+    "text": "LuxSpring"
+  },
+  {
+    "index": 577,
+    "record_offset": 6932,
+    "string_offset": 16991,
+    "pool_offset": 6063,
+    "word": "0xb0600a87",
+    "length": 10,
+    "text": "Lux Spring"
+  },
+  {
+    "index": 578,
+    "record_offset": 6944,
+    "string_offset": 17002,
+    "pool_offset": 6074,
+    "word": "0x9e0163c0",
+    "length": 14,
+    "text": "StandardSpring"
+  },
+  {
+    "index": 579,
+    "record_offset": 6956,
+    "string_offset": 17017,
+    "pool_offset": 6089,
+    "word": "0x6c92115f",
+    "length": 6,
+    "text": "Spring"
+  },
+  {
+    "index": 580,
+    "record_offset": 6968,
+    "string_offset": 17024,
+    "pool_offset": 6096,
+    "word": "0xcbba67ca",
+    "length": 10,
+    "text": "BriteRoom1"
+  },
+  {
+    "index": 581,
+    "record_offset": 6980,
+    "string_offset": 17035,
+    "pool_offset": 6107,
+    "word": "0x4c71939d",
+    "length": 13,
+    "text": "PreDelayState"
+  },
+  {
+    "index": 582,
+    "record_offset": 6992,
+    "string_offset": 17049,
+    "pool_offset": 6121,
+    "word": "0xa6b32bc6",
+    "length": 8,
+    "text": "PreDelay"
+  },
+  {
+    "index": 583,
+    "record_offset": 7004,
+    "string_offset": 17058,
+    "pool_offset": 6130,
+    "word": "0x1a028b44",
+    "length": 10,
+    "text": "Brite Room"
+  },
+  {
+    "index": 584,
+    "record_offset": 7016,
+    "string_offset": 17069,
+    "pool_offset": 6141,
+    "word": "0x72e5e8e5",
+    "length": 16,
+    "text": "CavernousChamber"
+  },
+  {
+    "index": 585,
+    "record_offset": 7028,
+    "string_offset": 17086,
+    "pool_offset": 6158,
+    "word": "0x4af2e206",
+    "length": 9,
+    "text": "Cavernous"
+  },
+  {
+    "index": 586,
+    "record_offset": 7040,
+    "string_offset": 17096,
+    "pool_offset": 6168,
+    "word": "0x52b04d20",
+    "length": 9,
+    "text": "DarkHall1"
+  },
+  {
+    "index": 587,
+    "record_offset": 7052,
+    "string_offset": 17106,
+    "pool_offset": 6178,
+    "word": "0x3bca2f02",
+    "length": 9,
+    "text": "Dark Hall"
+  },
+  {
+    "index": 588,
+    "record_offset": 7064,
+    "string_offset": 17116,
+    "pool_offset": 6188,
+    "word": "0x9d7f29b0",
+    "length": 11,
+    "text": "LargePlate1"
+  },
+  {
+    "index": 589,
+    "record_offset": 7076,
+    "string_offset": 17128,
+    "pool_offset": 6200,
+    "word": "0x25d47e4d",
+    "length": 11,
+    "text": "Large Plate"
+  },
+  {
+    "index": 590,
+    "record_offset": 7088,
+    "string_offset": 17140,
+    "pool_offset": 6212,
+    "word": "0x74017069",
+    "length": 10,
+    "text": "MediumHall"
+  },
+  {
+    "index": 591,
+    "record_offset": 7100,
+    "string_offset": 17151,
+    "pool_offset": 6223,
+    "word": "0xdebc5519",
+    "length": 11,
+    "text": "Medium Hall"
+  },
+  {
+    "index": 592,
+    "record_offset": 7112,
+    "string_offset": 17163,
+    "pool_offset": 6235,
+    "word": "0xd6d7b109",
+    "length": 15,
+    "text": "ReallyLargeHall"
+  },
+  {
+    "index": 593,
+    "record_offset": 7124,
+    "string_offset": 17179,
+    "pool_offset": 6251,
+    "word": "0x8f7197c9",
+    "length": 10,
+    "text": "Large Hall"
+  },
+  {
+    "index": 594,
+    "record_offset": 7136,
+    "string_offset": 17190,
+    "pool_offset": 6262,
+    "word": "0x73c2b30c",
+    "length": 12,
+    "text": "RichChamber1"
+  },
+  {
+    "index": 595,
+    "record_offset": 7148,
+    "string_offset": 17203,
+    "pool_offset": 6275,
+    "word": "0xb5995794",
+    "length": 12,
+    "text": "Rich Chamber"
+  },
+  {
+    "index": 596,
+    "record_offset": 7160,
+    "string_offset": 17216,
+    "pool_offset": 6288,
+    "word": "0xeacbe2b6",
+    "length": 12,
+    "text": "RichChamber2"
+  },
+  {
+    "index": 597,
+    "record_offset": 7172,
+    "string_offset": 17229,
+    "pool_offset": 6301,
+    "word": "0x8ce4dc32",
+    "length": 7,
+    "text": "Chamber"
+  },
+  {
+    "index": 598,
+    "record_offset": 7184,
+    "string_offset": 17237,
+    "pool_offset": 6309,
+    "word": "0x32ad0a0a",
+    "length": 10,
+    "text": "SlapPlate1"
+  },
+  {
+    "index": 599,
+    "record_offset": 7196,
+    "string_offset": 17248,
+    "pool_offset": 6320,
+    "word": "0x8a065df7",
+    "length": 10,
+    "text": "Slap Plate"
+  },
+  {
+    "index": 600,
+    "record_offset": 7208,
+    "string_offset": 17259,
+    "pool_offset": 6331,
+    "word": "0xd0749868",
+    "length": 10,
+    "text": "SmallRoom1"
+  },
+  {
+    "index": 601,
+    "record_offset": 7220,
+    "string_offset": 17270,
+    "pool_offset": 6342,
+    "word": "0x01cc74e6",
+    "length": 10,
+    "text": "Small Room"
+  },
+  {
+    "index": 602,
+    "record_offset": 7232,
+    "string_offset": 17281,
+    "pool_offset": 6353,
+    "word": "0x8d8a0072",
+    "length": 10,
+    "text": "TiledRoom1"
+  },
+  {
+    "index": 603,
+    "record_offset": 7244,
+    "string_offset": 17292,
+    "pool_offset": 6364,
+    "word": "0x5c32ecfc",
+    "length": 10,
+    "text": "Tiled Room"
+  },
+  {
+    "index": 604,
+    "record_offset": 7256,
+    "string_offset": 17303,
+    "pool_offset": 6375,
+    "word": "0x9d7f74c1",
+    "length": 12,
+    "text": "VintagePlate"
+  },
+  {
+    "index": 605,
+    "record_offset": 7268,
+    "string_offset": 17316,
+    "pool_offset": 6388,
+    "word": "0xd7893518",
+    "length": 13,
+    "text": "Vintage Plate"
+  },
+  {
+    "index": 606,
+    "record_offset": 7280,
+    "string_offset": 17330,
+    "pool_offset": 6402,
+    "word": "0x181937aa",
+    "length": 4,
+    "text": "Gate"
+  },
+  {
+    "index": 607,
+    "record_offset": 7292,
+    "string_offset": 17335,
+    "pool_offset": 6407,
+    "word": "0xbad95321",
+    "length": 11,
+    "text": "ThreshState"
+  },
+  {
+    "index": 608,
+    "record_offset": 7304,
+    "string_offset": 17347,
+    "pool_offset": 6419,
+    "word": "0x47ce754d",
+    "length": 6,
+    "text": "Thresh"
+  },
+  {
+    "index": 609,
+    "record_offset": 7316,
+    "string_offset": 17354,
+    "pool_offset": 6426,
+    "word": "0x3dca88de",
+    "length": 17,
+    "text": "SharcPodFixedComp"
+  },
+  {
+    "index": 610,
+    "record_offset": 7328,
+    "string_offset": 17372,
+    "pool_offset": 6444,
+    "word": "0x3c6118c8",
+    "length": 13,
+    "text": "Thresh/GState"
+  },
+  {
+    "index": 611,
+    "record_offset": 7340,
+    "string_offset": 17386,
+    "pool_offset": 6458,
+    "word": "0xdec50d94",
+    "length": 8,
+    "text": "Thresh/G"
+  },
+  {
+    "index": 612,
+    "record_offset": 7352,
+    "string_offset": 17395,
+    "pool_offset": 6467,
+    "word": "0x44572b0f",
+    "length": 10,
+    "text": "CompThresh"
+  },
+  {
+    "index": 613,
+    "record_offset": 7364,
+    "string_offset": 17406,
+    "pool_offset": 6478,
+    "word": "0x698ba835",
+    "length": 9,
+    "text": "Threshold"
+  },
+  {
+    "index": 614,
+    "record_offset": 7376,
+    "string_offset": 17416,
+    "pool_offset": 6488,
+    "word": "0xa3958702",
+    "length": 8,
+    "text": "CompGain"
+  },
+  {
+    "index": 615,
+    "record_offset": 7388,
+    "string_offset": 17425,
+    "pool_offset": 6497,
+    "word": "0x6b38c004",
+    "length": 4,
+    "text": "Comp"
+  },
+  {
+    "index": 616,
+    "record_offset": 7400,
+    "string_offset": 17430,
+    "pool_offset": 6502,
+    "word": "0xdfa2aff1",
+    "length": 4,
+    "text": "None"
+  },
+  {
+    "index": 617,
+    "record_offset": 7412,
+    "string_offset": 17435,
+    "pool_offset": 6507,
+    "word": "0x1a37feba",
+    "length": 17,
+    "text": "ParaGraphic4_band"
+  },
+  {
+    "index": 618,
+    "record_offset": 7424,
+    "string_offset": 17453,
+    "pool_offset": 6525,
+    "word": "0xd4b9035c",
+    "length": 8,
+    "text": "LowState"
+  },
+  {
+    "index": 619,
+    "record_offset": 7436,
+    "string_offset": 17462,
+    "pool_offset": 6534,
+    "word": "0x4aea3518",
+    "length": 9,
+    "text": "gainState"
+  },
+  {
+    "index": 620,
+    "record_offset": 7448,
+    "string_offset": 17472,
+    "pool_offset": 6544,
+    "word": "0x450c7d19",
+    "length": 9,
+    "text": "LMidState"
+  },
+  {
+    "index": 621,
+    "record_offset": 7460,
+    "string_offset": 17482,
+    "pool_offset": 6554,
+    "word": "0xed384444",
+    "length": 11,
+    "text": "gain.1State"
+  },
+  {
+    "index": 622,
+    "record_offset": 7472,
+    "string_offset": 17494,
+    "pool_offset": 6566,
+    "word": "0x18e02c15",
+    "length": 9,
+    "text": "HMidState"
+  },
+  {
+    "index": 623,
+    "record_offset": 7484,
+    "string_offset": 17504,
+    "pool_offset": 6576,
+    "word": "0x6103b010",
+    "length": 7,
+    "text": "HiState"
+  },
+  {
+    "index": 624,
+    "record_offset": 7496,
+    "string_offset": 17512,
+    "pool_offset": 6584,
+    "word": "0x6bac36ea",
+    "length": 11,
+    "text": "gain.2State"
+  },
+  {
+    "index": 625,
+    "record_offset": 7508,
+    "string_offset": 17524,
+    "pool_offset": 6596,
+    "word": "0xca5be290",
+    "length": 9,
+    "text": "EqLoShelf"
+  },
+  {
+    "index": 626,
+    "record_offset": 7520,
+    "string_offset": 17534,
+    "pool_offset": 6606,
+    "word": "0xf026376f",
+    "length": 7,
+    "text": "Lo Freq"
+  },
+  {
+    "index": 627,
+    "record_offset": 7532,
+    "string_offset": 17542,
+    "pool_offset": 6614,
+    "word": "0xd0952d00",
+    "length": 4,
+    "text": "gain"
+  },
+  {
+    "index": 628,
+    "record_offset": 7544,
+    "string_offset": 17547,
+    "pool_offset": 6619,
+    "word": "0x7b06ae21",
+    "length": 6,
+    "text": "EqGain"
+  },
+  {
+    "index": 629,
+    "record_offset": 7556,
+    "string_offset": 17554,
+    "pool_offset": 6626,
+    "word": "0x77470fda",
+    "length": 7,
+    "text": "Lo Gain"
+  },
+  {
+    "index": 630,
+    "record_offset": 7568,
+    "string_offset": 17562,
+    "pool_offset": 6634,
+    "word": "0x762453a5",
+    "length": 4,
+    "text": "LMid"
+  },
+  {
+    "index": 631,
+    "record_offset": 7580,
+    "string_offset": 17567,
+    "pool_offset": 6639,
+    "word": "0x33c562e5",
+    "length": 7,
+    "text": "EqLoMid"
+  },
+  {
+    "index": 632,
+    "record_offset": 7592,
+    "string_offset": 17575,
+    "pool_offset": 6647,
+    "word": "0x3d583e4f",
+    "length": 11,
+    "text": "Lo Mid Freq"
+  },
+  {
+    "index": 633,
+    "record_offset": 7604,
+    "string_offset": 17587,
+    "pool_offset": 6659,
+    "word": "0x5edf9709",
+    "length": 6,
+    "text": "gain.1"
+  },
+  {
+    "index": 634,
+    "record_offset": 7616,
+    "string_offset": 17594,
+    "pool_offset": 6666,
+    "word": "0xba3906fa",
+    "length": 11,
+    "text": "Lo Mid Gain"
+  },
+  {
+    "index": 635,
+    "record_offset": 7628,
+    "string_offset": 17606,
+    "pool_offset": 6678,
+    "word": "0xf946c4f2",
+    "length": 4,
+    "text": "HMid"
+  },
+  {
+    "index": 636,
+    "record_offset": 7640,
+    "string_offset": 17611,
+    "pool_offset": 6683,
+    "word": "0xe32e9bf9",
+    "length": 7,
+    "text": "EqHiMid"
+  },
+  {
+    "index": 637,
+    "record_offset": 7652,
+    "string_offset": 17619,
+    "pool_offset": 6691,
+    "word": "0x809f3d8a",
+    "length": 11,
+    "text": "Hi Mid Freq"
+  },
+  {
+    "index": 638,
+    "record_offset": 7664,
+    "string_offset": 17631,
+    "pool_offset": 6703,
+    "word": "0x07fe053f",
+    "length": 11,
+    "text": "Hi Mid Gain"
+  },
+  {
+    "index": 639,
+    "record_offset": 7676,
+    "string_offset": 17643,
+    "pool_offset": 6715,
+    "word": "0x4d170e0e",
+    "length": 2,
+    "text": "Hi"
+  },
+  {
+    "index": 640,
+    "record_offset": 7688,
+    "string_offset": 17646,
+    "pool_offset": 6718,
+    "word": "0xe84d259e",
+    "length": 9,
+    "text": "EqHiShelf"
+  },
+  {
+    "index": 641,
+    "record_offset": 7700,
+    "string_offset": 17656,
+    "pool_offset": 6728,
+    "word": "0xd230f061",
+    "length": 7,
+    "text": "Hi Freq"
+  },
+  {
+    "index": 642,
+    "record_offset": 7712,
+    "string_offset": 17664,
+    "pool_offset": 6736,
+    "word": "0xc7d6c6b3",
+    "length": 6,
+    "text": "gain.2"
+  },
+  {
+    "index": 643,
+    "record_offset": 7724,
+    "string_offset": 17671,
+    "pool_offset": 6743,
+    "word": "0x5551c8d4",
+    "length": 7,
+    "text": "Hi Gain"
+  },
+  {
+    "index": 644,
+    "record_offset": 7736,
+    "string_offset": 17679,
+    "pool_offset": 6751,
+    "word": "0x63daf4c4",
+    "length": 8,
+    "text": "PresetEQ"
+  },
+  {
+    "index": 645,
+    "record_offset": 7748,
+    "string_offset": 17688,
+    "pool_offset": 6760,
+    "word": "0x32b68c2c",
+    "length": 9,
+    "text": "Preset EQ"
+  },
+  {
+    "index": 646,
+    "record_offset": 7760,
+    "string_offset": 17698,
+    "pool_offset": 6770,
+    "word": "0xd69324b2",
+    "length": 20,
+    "text": "1x10G-BrandStudio421"
+  },
+  {
+    "index": 647,
+    "record_offset": 7772,
+    "string_offset": 17719,
+    "pool_offset": 6791,
+    "word": "0x52c7b019",
+    "length": 3,
+    "text": "Cab"
+  },
+  {
+    "index": 648,
+    "record_offset": 7784,
+    "string_offset": 17723,
+    "pool_offset": 6795,
+    "word": "0x7d7f2bb0",
+    "length": 12,
+    "text": "1x10 G Brand"
+  },
+  {
+    "index": 649,
+    "record_offset": 7796,
+    "string_offset": 17736,
+    "pool_offset": 6808,
+    "word": "0xdb1ab4f2",
+    "length": 26,
+    "text": "1x10G-BrandStudio57OffAxis"
+  },
+  {
+    "index": 650,
+    "record_offset": 7808,
+    "string_offset": 17763,
+    "pool_offset": 6835,
+    "word": "0x26838c4c",
+    "length": 25,
+    "text": "1x10G-BrandStudio57OnAxis"
+  },
+  {
+    "index": 651,
+    "record_offset": 7820,
+    "string_offset": 17789,
+    "pool_offset": 6861,
+    "word": "0x1289e594",
+    "length": 20,
+    "text": "1x10G-BrandStudioU67"
+  },
+  {
+    "index": 652,
+    "record_offset": 7832,
+    "string_offset": 17810,
+    "pool_offset": 6882,
+    "word": "0xfd662589",
+    "length": 20,
+    "text": "1x10GibtoneStudio421"
+  },
+  {
+    "index": 653,
+    "record_offset": 7844,
+    "string_offset": 17831,
+    "pool_offset": 6903,
+    "word": "0xcc1b1d50",
+    "length": 12,
+    "text": "1x10 Gibtone"
+  },
+  {
+    "index": 654,
+    "record_offset": 7856,
+    "string_offset": 17844,
+    "pool_offset": 6916,
+    "word": "0x0d6725b8",
+    "length": 26,
+    "text": "1x10GibtoneStudio57OffAxis"
+  },
+  {
+    "index": 655,
+    "record_offset": 7868,
+    "string_offset": 17871,
+    "pool_offset": 6943,
+    "word": "0x8db12eec",
+    "length": 25,
+    "text": "1x10GibtoneStudio57OnAxis"
+  },
+  {
+    "index": 656,
+    "record_offset": 7880,
+    "string_offset": 17897,
+    "pool_offset": 6969,
+    "word": "0x397ce4af",
+    "length": 20,
+    "text": "1x10GibtoneStudioU67"
+  },
+  {
+    "index": 657,
+    "record_offset": 7892,
+    "string_offset": 17918,
+    "pool_offset": 6990,
+    "word": "0xd610f7fc",
+    "length": 22,
+    "text": "1x12BlackfaceStudio421"
+  },
+  {
+    "index": 658,
+    "record_offset": 7904,
+    "string_offset": 17941,
+    "pool_offset": 7013,
+    "word": "0xa971be7d",
+    "length": 14,
+    "text": "1x12 Blackface"
+  },
+  {
+    "index": 659,
+    "record_offset": 7916,
+    "string_offset": 17956,
+    "pool_offset": 7028,
+    "word": "0xdff1c3b2",
+    "length": 28,
+    "text": "1x12BlackfaceStudio57OffAxis"
+  },
+  {
+    "index": 660,
+    "record_offset": 7928,
+    "string_offset": 17985,
+    "pool_offset": 7057,
+    "word": "0x16d2d9ca",
+    "length": 27,
+    "text": "1x12BlackfaceStudio57OnAxis"
+  },
+  {
+    "index": 661,
+    "record_offset": 7940,
+    "string_offset": 18013,
+    "pool_offset": 7085,
+    "word": "0x120a36da",
+    "length": 22,
+    "text": "1x12BlackfaceStudioU67"
+  },
+  {
+    "index": 662,
+    "record_offset": 7952,
+    "string_offset": 18036,
+    "pool_offset": 7108,
+    "word": "0xe30582ed",
+    "length": 19,
+    "text": "1x12ClassAStudio421"
+  },
+  {
+    "index": 663,
+    "record_offset": 7964,
+    "string_offset": 18056,
+    "pool_offset": 7128,
+    "word": "0xdbdd1e51",
+    "length": 12,
+    "text": "1x12 Class A"
+  },
+  {
+    "index": 664,
+    "record_offset": 7976,
+    "string_offset": 18069,
+    "pool_offset": 7141,
+    "word": "0x632efde5",
+    "length": 25,
+    "text": "1x12ClassAStudio57OffAxis"
+  },
+  {
+    "index": 665,
+    "record_offset": 7988,
+    "string_offset": 18095,
+    "pool_offset": 7167,
+    "word": "0xaf6f947b",
+    "length": 24,
+    "text": "1x12ClassAStudio57OnAxis"
+  },
+  {
+    "index": 666,
+    "record_offset": 8000,
+    "string_offset": 18120,
+    "pool_offset": 7192,
+    "word": "0x271f43cb",
+    "length": 19,
+    "text": "1x12ClassAStudioU67"
+  },
+  {
+    "index": 667,
+    "record_offset": 8012,
+    "string_offset": 18140,
+    "pool_offset": 7212,
+    "word": "0x0325a255",
+    "length": 18,
+    "text": "1x12Line6Studio421"
+  },
+  {
+    "index": 668,
+    "record_offset": 8024,
+    "string_offset": 18159,
+    "pool_offset": 7231,
+    "word": "0x7581beba",
+    "length": 11,
+    "text": "1x12 Line 6"
+  },
+  {
+    "index": 669,
+    "record_offset": 8036,
+    "string_offset": 18171,
+    "pool_offset": 7243,
+    "word": "0x5da63c67",
+    "length": 24,
+    "text": "1x12Line6Studio57OffAxis"
+  },
+  {
+    "index": 670,
+    "record_offset": 8048,
+    "string_offset": 18196,
+    "pool_offset": 7268,
+    "word": "0x49d9cd9c",
+    "length": 23,
+    "text": "1x12Line6Studio57OnAxis"
+  },
+  {
+    "index": 671,
+    "record_offset": 8060,
+    "string_offset": 18220,
+    "pool_offset": 7292,
+    "word": "0xc73f6373",
+    "length": 18,
+    "text": "1x12Line6StudioU67"
+  },
+  {
+    "index": 672,
+    "record_offset": 8072,
+    "string_offset": 18239,
+    "pool_offset": 7311,
+    "word": "0xd45cd81e",
+    "length": 18,
+    "text": "1x12TweedStudio421"
+  },
+  {
+    "index": 673,
+    "record_offset": 8084,
+    "string_offset": 18258,
+    "pool_offset": 7330,
+    "word": "0x79c5c055",
+    "length": 10,
+    "text": "1x12 Tweed"
+  },
+  {
+    "index": 674,
+    "record_offset": 8096,
+    "string_offset": 18269,
+    "pool_offset": 7341,
+    "word": "0x15aaf205",
+    "length": 24,
+    "text": "1x12TweedStudio57OffAxis"
+  },
+  {
+    "index": 675,
+    "record_offset": 8108,
+    "string_offset": 18294,
+    "pool_offset": 7366,
+    "word": "0xf721e43b",
+    "length": 23,
+    "text": "1x12TweedStudio57OnAxis"
+  },
+  {
+    "index": 676,
+    "record_offset": 8120,
+    "string_offset": 18318,
+    "pool_offset": 7390,
+    "word": "0x10461938",
+    "length": 18,
+    "text": "1x12TweedStudioU67"
+  },
+  {
+    "index": 677,
+    "record_offset": 8132,
+    "string_offset": 18337,
+    "pool_offset": 7409,
+    "word": "0x653a770a",
+    "length": 20,
+    "text": "1x15ThunderStudio421"
+  },
+  {
+    "index": 678,
+    "record_offset": 8144,
+    "string_offset": 18358,
+    "pool_offset": 7430,
+    "word": "0x9af0426d",
+    "length": 12,
+    "text": "1x15 Thunder"
+  },
+  {
+    "index": 679,
+    "record_offset": 8156,
+    "string_offset": 18371,
+    "pool_offset": 7443,
+    "word": "0xa54b8637",
+    "length": 26,
+    "text": "1x15ThunderStudio57OffAxis"
+  },
+  {
+    "index": 680,
+    "record_offset": 8168,
+    "string_offset": 18398,
+    "pool_offset": 7470,
+    "word": "0xc6cdf441",
+    "length": 25,
+    "text": "1x15ThunderStudio57OnAxis"
+  },
+  {
+    "index": 681,
+    "record_offset": 8180,
+    "string_offset": 18424,
+    "pool_offset": 7496,
+    "word": "0xa120b62c",
+    "length": 20,
+    "text": "1x15ThunderStudioU67"
+  },
+  {
+    "index": 682,
+    "record_offset": 8192,
+    "string_offset": 18445,
+    "pool_offset": 7517,
+    "word": "0xcf0808f9",
+    "length": 18,
+    "text": "1x6SuperOStudio421"
+  },
+  {
+    "index": 683,
+    "record_offset": 8204,
+    "string_offset": 18464,
+    "pool_offset": 7536,
+    "word": "0x5bca7769",
+    "length": 11,
+    "text": "1x6 Super O"
+  },
+  {
+    "index": 684,
+    "record_offset": 8216,
+    "string_offset": 18476,
+    "pool_offset": 7548,
+    "word": "0xc3027202",
+    "length": 24,
+    "text": "1x6SuperOStudio57OffAxis"
+  },
+  {
+    "index": 685,
+    "record_offset": 8228,
+    "string_offset": 18501,
+    "pool_offset": 7573,
+    "word": "0x89020b9b",
+    "length": 23,
+    "text": "1x6SuperOStudio57OnAxis"
+  },
+  {
+    "index": 686,
+    "record_offset": 8240,
+    "string_offset": 18525,
+    "pool_offset": 7597,
+    "word": "0x0b12c9df",
+    "length": 18,
+    "text": "1x6SuperOStudioU67"
+  },
+  {
+    "index": 687,
+    "record_offset": 8252,
+    "string_offset": 18544,
+    "pool_offset": 7616,
+    "word": "0x1eb13237",
+    "length": 21,
+    "text": "1x8TinyTweedStudio421"
+  },
+  {
+    "index": 688,
+    "record_offset": 8264,
+    "string_offset": 18566,
+    "pool_offset": 7638,
+    "word": "0x4f1c4d0d",
+    "length": 14,
+    "text": "1x8 Tiny Tweed"
+  },
+  {
+    "index": 689,
+    "record_offset": 8276,
+    "string_offset": 18581,
+    "pool_offset": 7653,
+    "word": "0xef40f3f6",
+    "length": 27,
+    "text": "1x8TinyTweedStudio57OffAxis"
+  },
+  {
+    "index": 690,
+    "record_offset": 8288,
+    "string_offset": 18609,
+    "pool_offset": 7681,
+    "word": "0x121d7425",
+    "length": 26,
+    "text": "1x8TinyTweedStudio57OnAxis"
+  },
+  {
+    "index": 691,
+    "record_offset": 8300,
+    "string_offset": 18636,
+    "pool_offset": 7708,
+    "word": "0xdaabf311",
+    "length": 21,
+    "text": "1x8TinyTweedStudioU67"
+  },
+  {
+    "index": 692,
+    "record_offset": 8312,
+    "string_offset": 18658,
+    "pool_offset": 7730,
+    "word": "0xef685abc",
+    "length": 22,
+    "text": "2x12BlackfaceStudio421"
+  },
+  {
+    "index": 693,
+    "record_offset": 8324,
+    "string_offset": 18681,
+    "pool_offset": 7753,
+    "word": "0xd5109ba6",
+    "length": 14,
+    "text": "2x12 Blackface"
+  },
+  {
+    "index": 694,
+    "record_offset": 8336,
+    "string_offset": 18696,
+    "pool_offset": 7768,
+    "word": "0xdd2fc495",
+    "length": 28,
+    "text": "2x12BlackfaceStudio57OffAxis"
+  },
+  {
+    "index": 695,
+    "record_offset": 8348,
+    "string_offset": 18725,
+    "pool_offset": 7797,
+    "word": "0xa546f409",
+    "length": 27,
+    "text": "2x12BlackfaceStudio57OnAxis"
+  },
+  {
+    "index": 696,
+    "record_offset": 8360,
+    "string_offset": 18753,
+    "pool_offset": 7825,
+    "word": "0x2b729b9a",
+    "length": 22,
+    "text": "2x12BlackfaceStudioU67"
+  },
+  {
+    "index": 697,
+    "record_offset": 8372,
+    "string_offset": 18776,
+    "pool_offset": 7848,
+    "word": "0xf123d9ce",
+    "length": 23,
+    "text": "2x12ClassAFawnStudio421"
+  },
+  {
+    "index": 698,
+    "record_offset": 8384,
+    "string_offset": 18800,
+    "pool_offset": 7872,
+    "word": "0x22025403",
+    "length": 9,
+    "text": "2x12 Fawn"
+  },
+  {
+    "index": 699,
+    "record_offset": 8396,
+    "string_offset": 18810,
+    "pool_offset": 7882,
+    "word": "0x372ef35b",
+    "length": 29,
+    "text": "2x12ClassAFawnStudio57OffAxis"
+  },
+  {
+    "index": 700,
+    "record_offset": 8408,
+    "string_offset": 18840,
+    "pool_offset": 7912,
+    "word": "0x7136038d",
+    "length": 28,
+    "text": "2x12ClassAFawnStudio57OnAxis"
+  },
+  {
+    "index": 701,
+    "record_offset": 8420,
+    "string_offset": 18869,
+    "pool_offset": 7941,
+    "word": "0x353918e8",
+    "length": 23,
+    "text": "2x12ClassAFawnStudioU67"
+  },
+  {
+    "index": 702,
+    "record_offset": 8432,
+    "string_offset": 18893,
+    "pool_offset": 7965,
+    "word": "0x40530444",
+    "length": 19,
+    "text": "2x12ClassAStudio421"
+  },
+  {
+    "index": 703,
+    "record_offset": 8444,
+    "string_offset": 18913,
+    "pool_offset": 7985,
+    "word": "0xac43cca1",
+    "length": 12,
+    "text": "2x12 Class A"
+  },
+  {
+    "index": 704,
+    "record_offset": 8456,
+    "string_offset": 18926,
+    "pool_offset": 7998,
+    "word": "0x56c34bb6",
+    "length": 25,
+    "text": "2x12ClassAStudio57OffAxis"
+  },
+  {
+    "index": 705,
+    "record_offset": 8468,
+    "string_offset": 18952,
+    "pool_offset": 8024,
+    "word": "0xf7713d53",
+    "length": 24,
+    "text": "2x12ClassAStudio57OnAxis"
+  },
+  {
+    "index": 706,
+    "record_offset": 8480,
+    "string_offset": 18977,
+    "pool_offset": 8049,
+    "word": "0x8449c562",
+    "length": 19,
+    "text": "2x12ClassAStudioU67"
+  },
+  {
+    "index": 707,
+    "record_offset": 8492,
+    "string_offset": 18997,
+    "pool_offset": 8069,
+    "word": "0x58286f30",
+    "length": 17,
+    "text": "2x12JazzStudio421"
+  },
+  {
+    "index": 708,
+    "record_offset": 8504,
+    "string_offset": 19015,
+    "pool_offset": 8087,
+    "word": "0xc7a0418b",
+    "length": 9,
+    "text": "2x12 Jazz"
+  },
+  {
+    "index": 709,
+    "record_offset": 8516,
+    "string_offset": 19025,
+    "pool_offset": 8097,
+    "word": "0x86999768",
+    "length": 23,
+    "text": "2x12JazzStudio57OffAxis"
+  },
+  {
+    "index": 710,
+    "record_offset": 8528,
+    "string_offset": 19049,
+    "pool_offset": 8121,
+    "word": "0xcdbb14b6",
+    "length": 22,
+    "text": "2x12JazzStudio57OnAxis"
+  },
+  {
+    "index": 711,
+    "record_offset": 8540,
+    "string_offset": 19072,
+    "pool_offset": 8144,
+    "word": "0x9c32ae16",
+    "length": 17,
+    "text": "2x12JazzStudioU67"
+  },
+  {
+    "index": 712,
+    "record_offset": 8552,
+    "string_offset": 19090,
+    "pool_offset": 8162,
+    "word": "0xe9a37f37",
+    "length": 18,
+    "text": "2x12Line6Studio421"
+  },
+  {
+    "index": 713,
+    "record_offset": 8564,
+    "string_offset": 19109,
+    "pool_offset": 8181,
+    "word": "0xec63d8bb",
+    "length": 11,
+    "text": "2x12 Line 6"
+  },
+  {
+    "index": 714,
+    "record_offset": 8576,
+    "string_offset": 19121,
+    "pool_offset": 8193,
+    "word": "0x05b8954f",
+    "length": 24,
+    "text": "2x12Line6Studio57OffAxis"
+  },
+  {
+    "index": 715,
+    "record_offset": 8588,
+    "string_offset": 19146,
+    "pool_offset": 8218,
+    "word": "0x3f3cf4a1",
+    "length": 23,
+    "text": "2x12Line6Studio57OnAxis"
+  },
+  {
+    "index": 716,
+    "record_offset": 8600,
+    "string_offset": 19170,
+    "pool_offset": 8242,
+    "word": "0x2db9be11",
+    "length": 18,
+    "text": "2x12Line6StudioU67"
+  },
+  {
+    "index": 717,
+    "record_offset": 8612,
+    "string_offset": 19189,
+    "pool_offset": 8261,
+    "word": "0x87e83409",
+    "length": 18,
+    "text": "2x12MatchStudio421"
+  },
+  {
+    "index": 718,
+    "record_offset": 8624,
+    "string_offset": 19208,
+    "pool_offset": 8280,
+    "word": "0xc878a40c",
+    "length": 10,
+    "text": "2x12 Match"
+  },
+  {
+    "index": 719,
+    "record_offset": 8636,
+    "string_offset": 19219,
+    "pool_offset": 8291,
+    "word": "0x1ab7a3dc",
+    "length": 24,
+    "text": "2x12MatchStudio57OffAxis"
+  },
+  {
+    "index": 720,
+    "record_offset": 8648,
+    "string_offset": 19244,
+    "pool_offset": 8316,
+    "word": "0xea890972",
+    "length": 23,
+    "text": "2x12MatchStudio57OnAxis"
+  },
+  {
+    "index": 721,
+    "record_offset": 8660,
+    "string_offset": 19268,
+    "pool_offset": 8340,
+    "word": "0x43f2f52f",
+    "length": 18,
+    "text": "2x12MatchStudioU67"
+  },
+  {
+    "index": 722,
+    "record_offset": 8672,
+    "string_offset": 19287,
+    "pool_offset": 8359,
+    "word": "0x61e3a496",
+    "length": 21,
+    "text": "2x12WishbookStudio421"
+  },
+  {
+    "index": 723,
+    "record_offset": 8684,
+    "string_offset": 19309,
+    "pool_offset": 8381,
+    "word": "0xc29c61b1",
+    "length": 13,
+    "text": "2x12 Wishbook"
+  },
+  {
+    "index": 724,
+    "record_offset": 8696,
+    "string_offset": 19323,
+    "pool_offset": 8395,
+    "word": "0x5def0b49",
+    "length": 27,
+    "text": "2x12WishbookStudio57OffAxis"
+  },
+  {
+    "index": 725,
+    "record_offset": 8708,
+    "string_offset": 19351,
+    "pool_offset": 8423,
+    "word": "0x00eee39c",
+    "length": 26,
+    "text": "2x12WishbookStudio57OnAxis"
+  },
+  {
+    "index": 726,
+    "record_offset": 8720,
+    "string_offset": 19378,
+    "pool_offset": 8450,
+    "word": "0xa5f965b0",
+    "length": 21,
+    "text": "2x12WishbookStudioU67"
+  },
+  {
+    "index": 727,
+    "record_offset": 8732,
+    "string_offset": 19400,
+    "pool_offset": 8472,
+    "word": "0xef0e2b19",
+    "length": 17,
+    "text": "2x2MiniTStudio421"
+  },
+  {
+    "index": 728,
+    "record_offset": 8744,
+    "string_offset": 19418,
+    "pool_offset": 8490,
+    "word": "0x8e3bfb7c",
+    "length": 10,
+    "text": "2x2 Mini T"
+  },
+  {
+    "index": 729,
+    "record_offset": 8756,
+    "string_offset": 19429,
+    "pool_offset": 8501,
+    "word": "0x4e012568",
+    "length": 23,
+    "text": "2x2MiniTStudio57OffAxis"
+  },
+  {
+    "index": 730,
+    "record_offset": 8768,
+    "string_offset": 19453,
+    "pool_offset": 8525,
+    "word": "0x82589484",
+    "length": 22,
+    "text": "2x2MiniTStudio57OnAxis"
+  },
+  {
+    "index": 731,
+    "record_offset": 8780,
+    "string_offset": 19476,
+    "pool_offset": 8548,
+    "word": "0x2b14ea3f",
+    "length": 17,
+    "text": "2x2MiniTStudioU67"
+  },
+  {
+    "index": 732,
+    "record_offset": 8792,
+    "string_offset": 19494,
+    "pool_offset": 8566,
+    "word": "0x4f597223",
+    "length": 18,
+    "text": "4x10Line6Studio421"
+  },
+  {
+    "index": 733,
+    "record_offset": 8804,
+    "string_offset": 19513,
+    "pool_offset": 8585,
+    "word": "0x46f31585",
+    "length": 11,
+    "text": "4x10 Line 6"
+  },
+  {
+    "index": 734,
+    "record_offset": 8816,
+    "string_offset": 19525,
+    "pool_offset": 8597,
+    "word": "0x5141c662",
+    "length": 24,
+    "text": "4x10Line6Studio57OffAxis"
+  },
+  {
+    "index": 735,
+    "record_offset": 8828,
+    "string_offset": 19550,
+    "pool_offset": 8622,
+    "word": "0x1838f057",
+    "length": 23,
+    "text": "4x10Line6Studio57OnAxis"
+  },
+  {
+    "index": 736,
+    "record_offset": 8840,
+    "string_offset": 19574,
+    "pool_offset": 8646,
+    "word": "0x8b43b305",
+    "length": 18,
+    "text": "4x10Line6StudioU67"
+  },
+  {
+    "index": 737,
+    "record_offset": 8852,
+    "string_offset": 19593,
+    "pool_offset": 8665,
+    "word": "0x98200868",
+    "length": 18,
+    "text": "4x10TweedStudio421"
+  },
+  {
+    "index": 738,
+    "record_offset": 8864,
+    "string_offset": 19612,
+    "pool_offset": 8684,
+    "word": "0x08731a38",
+    "length": 10,
+    "text": "4x10 Tweed"
+  },
+  {
+    "index": 739,
+    "record_offset": 8876,
+    "string_offset": 19623,
+    "pool_offset": 8695,
+    "word": "0x194d0800",
+    "length": 24,
+    "text": "4x10TweedStudio57OffAxis"
+  },
+  {
+    "index": 740,
+    "record_offset": 8888,
+    "string_offset": 19648,
+    "pool_offset": 8720,
+    "word": "0xa6c0d9f0",
+    "length": 23,
+    "text": "4x10TweedStudio57OnAxis"
+  },
+  {
+    "index": 741,
+    "record_offset": 8900,
+    "string_offset": 19672,
+    "pool_offset": 8744,
+    "word": "0x5c3ac94e",
+    "length": 18,
+    "text": "4x10TweedStudioU67"
+  },
+  {
+    "index": 742,
+    "record_offset": 8912,
+    "string_offset": 19691,
+    "pool_offset": 8763,
+    "word": "0x727b4df8",
+    "length": 20,
+    "text": "4x12BritT75Studio421"
+  },
+  {
+    "index": 743,
+    "record_offset": 8924,
+    "string_offset": 19712,
+    "pool_offset": 8784,
+    "word": "0xd3342301",
+    "length": 13,
+    "text": "4x12 Brit T75"
+  },
+  {
+    "index": 744,
+    "record_offset": 8936,
+    "string_offset": 19726,
+    "pool_offset": 8798,
+    "word": "0x2c4114af",
+    "length": 26,
+    "text": "4x12BritT75Studio57OffAxis"
+  },
+  {
+    "index": 745,
+    "record_offset": 8948,
+    "string_offset": 19753,
+    "pool_offset": 8825,
+    "word": "0x1f748cd8",
+    "length": 25,
+    "text": "4x12BritT75Studio57OnAxis"
+  },
+  {
+    "index": 746,
+    "record_offset": 8960,
+    "string_offset": 19779,
+    "pool_offset": 8851,
+    "word": "0xb6618cde",
+    "length": 20,
+    "text": "4x12BritT75StudioU67"
+  },
+  {
+    "index": 747,
+    "record_offset": 8972,
+    "string_offset": 19800,
+    "pool_offset": 8872,
+    "word": "0xc8b06ba1",
+    "length": 20,
+    "text": "4x12BritV30Studio421"
+  },
+  {
+    "index": 748,
+    "record_offset": 8984,
+    "string_offset": 19821,
+    "pool_offset": 8893,
+    "word": "0xc4b6c6e4",
+    "length": 13,
+    "text": "4x12 Brit V30"
+  },
+  {
+    "index": 749,
+    "record_offset": 8996,
+    "string_offset": 19835,
+    "pool_offset": 8907,
+    "word": "0x20c485f5",
+    "length": 26,
+    "text": "4x12BritV30Studio57OffAxis"
+  },
+  {
+    "index": 750,
+    "record_offset": 9008,
+    "string_offset": 19862,
+    "pool_offset": 8934,
+    "word": "0x2cfeee13",
+    "length": 25,
+    "text": "4x12BritV30Studio57OnAxis"
+  },
+  {
+    "index": 751,
+    "record_offset": 9020,
+    "string_offset": 19888,
+    "pool_offset": 8960,
+    "word": "0x0caaaa87",
+    "length": 20,
+    "text": "4x12BritV30StudioU67"
+  },
+  {
+    "index": 752,
+    "record_offset": 9032,
+    "string_offset": 19909,
+    "pool_offset": 8981,
+    "word": "0x0a401c0f",
+    "length": 21,
+    "text": "4x12Green20sStudio421"
+  },
+  {
+    "index": 753,
+    "record_offset": 9044,
+    "string_offset": 19931,
+    "pool_offset": 9003,
+    "word": "0x5145d2f6",
+    "length": 14,
+    "text": "4x12 Green 20s"
+  },
+  {
+    "index": 754,
+    "record_offset": 9056,
+    "string_offset": 19946,
+    "pool_offset": 9018,
+    "word": "0x5c6d9d3d",
+    "length": 27,
+    "text": "4x12Green20sStudio57OffAxis"
+  },
+  {
+    "index": 755,
+    "record_offset": 9068,
+    "string_offset": 19974,
+    "pool_offset": 9046,
+    "word": "0x590991dd",
+    "length": 26,
+    "text": "4x12Green20sStudio57OnAxis"
+  },
+  {
+    "index": 756,
+    "record_offset": 9080,
+    "string_offset": 20001,
+    "pool_offset": 9073,
+    "word": "0xce5add29",
+    "length": 21,
+    "text": "4x12Green20sStudioU67"
+  },
+  {
+    "index": 757,
+    "record_offset": 9092,
+    "string_offset": 20023,
+    "pool_offset": 9095,
+    "word": "0x7b17b04d",
+    "length": 21,
+    "text": "4x12Green25sStudio421"
+  },
+  {
+    "index": 758,
+    "record_offset": 9104,
+    "string_offset": 20045,
+    "pool_offset": 9117,
+    "word": "0x2c3226b3",
+    "length": 14,
+    "text": "4x12 Green 25s"
+  },
+  {
+    "index": 759,
+    "record_offset": 9116,
+    "string_offset": 20060,
+    "pool_offset": 9132,
+    "word": "0xa8c371b1",
+    "length": 27,
+    "text": "4x12Green25sStudio57OffAxis"
+  },
+  {
+    "index": 760,
+    "record_offset": 9128,
+    "string_offset": 20088,
+    "pool_offset": 9160,
+    "word": "0x23504ccb",
+    "length": 26,
+    "text": "4x12Green25sStudio57OnAxis"
+  },
+  {
+    "index": 761,
+    "record_offset": 9140,
+    "string_offset": 20115,
+    "pool_offset": 9187,
+    "word": "0xbf0d716b",
+    "length": 21,
+    "text": "4x12Green25sStudioU67"
+  },
+  {
+    "index": 762,
+    "record_offset": 9152,
+    "string_offset": 20137,
+    "pool_offset": 9209,
+    "word": "0xe7dfc3b2",
+    "length": 18,
+    "text": "4x12Line6Studio421"
+  },
+  {
+    "index": 763,
+    "record_offset": 9164,
+    "string_offset": 20156,
+    "pool_offset": 9228,
+    "word": "0x04d612f8",
+    "length": 11,
+    "text": "4x12 Line 6"
+  },
+  {
+    "index": 764,
+    "record_offset": 9176,
+    "string_offset": 20168,
+    "pool_offset": 9240,
+    "word": "0xb585c71f",
+    "length": 24,
+    "text": "4x12Line6Studio57OffAxis"
+  },
+  {
+    "index": 765,
+    "record_offset": 9188,
+    "string_offset": 20193,
+    "pool_offset": 9265,
+    "word": "0xd2f686db",
+    "length": 23,
+    "text": "4x12Line6Studio57OnAxis"
+  },
+  {
+    "index": 766,
+    "record_offset": 9200,
+    "string_offset": 20217,
+    "pool_offset": 9289,
+    "word": "0x23c50294",
+    "length": 18,
+    "text": "4x12Line6StudioU67"
+  },
+  {
+    "index": 767,
+    "record_offset": 9212,
+    "string_offset": 20236,
+    "pool_offset": 9308,
+    "word": "0x610dece4",
+    "length": 23,
+    "text": "4x12TreadplateStudio421"
+  },
+  {
+    "index": 768,
+    "record_offset": 9224,
+    "string_offset": 20260,
+    "pool_offset": 9332,
+    "word": "0xcc5e3e27",
+    "length": 10,
+    "text": "4x12 Tread"
+  },
+  {
+    "index": 769,
+    "record_offset": 9236,
+    "string_offset": 20271,
+    "pool_offset": 9343,
+    "word": "0x45268200",
+    "length": 29,
+    "text": "4x12TreadplateStudio57OffAxis"
+  },
+  {
+    "index": 770,
+    "record_offset": 9248,
+    "string_offset": 20301,
+    "pool_offset": 9373,
+    "word": "0x7e20dd4b",
+    "length": 28,
+    "text": "4x12TreadplateStudio57OnAxis"
+  },
+  {
+    "index": 771,
+    "record_offset": 9260,
+    "string_offset": 20330,
+    "pool_offset": 9402,
+    "word": "0xa5172dc2",
+    "length": 23,
+    "text": "4x12TreadplateStudioU67"
+  },
+  {
+    "index": 772,
+    "record_offset": 9272,
+    "string_offset": 20354,
+    "pool_offset": 9426,
+    "word": "0x74087b6d",
+    "length": 11,
+    "text": "VolumePedal"
+  },
+  {
+    "index": 773,
+    "record_offset": 9284,
+    "string_offset": 20366,
+    "pool_offset": 9438,
+    "word": "0x93afad1c",
+    "length": 11,
+    "text": "VolumeState"
+  },
+  {
+    "index": 774,
+    "record_offset": 9296,
+    "string_offset": 20378,
+    "pool_offset": 9450,
+    "word": "0xfaf99306",
+    "length": 11,
+    "text": "MinVolState"
+  },
+  {
+    "index": 775,
+    "record_offset": 9308,
+    "string_offset": 20390,
+    "pool_offset": 9462,
+    "word": "0x36f4e809",
+    "length": 11,
+    "text": "MaxVolState"
+  },
+  {
+    "index": 776,
+    "record_offset": 9320,
+    "string_offset": 20402,
+    "pool_offset": 9474,
+    "word": "0xbe36c8e8",
+    "length": 6,
+    "text": "Volume"
+  },
+  {
+    "index": 777,
+    "record_offset": 9332,
+    "string_offset": 20409,
+    "pool_offset": 9481,
+    "word": "0x838f2504",
+    "length": 6,
+    "text": "MinVol"
+  },
+  {
+    "index": 778,
+    "record_offset": 9344,
+    "string_offset": 20416,
+    "pool_offset": 9488,
+    "word": "0xc68d6686",
+    "length": 6,
+    "text": "MaxVol"
+  },
+  {
+    "index": 779,
+    "record_offset": 9356,
+    "string_offset": 20423,
+    "pool_offset": 9495,
+    "word": "0xfe7a81da",
+    "length": 6,
+    "text": "Chrome"
+  },
+  {
+    "index": 780,
+    "record_offset": 9368,
+    "string_offset": 20430,
+    "pool_offset": 9502,
+    "word": "0xa93d52ab",
+    "length": 3,
+    "text": "Wah"
+  },
+  {
+    "index": 781,
+    "record_offset": 9380,
+    "string_offset": 20434,
+    "pool_offset": 9506,
+    "word": "0x76d3abe4",
+    "length": 12,
+    "text": "ChromeCustom"
+  },
+  {
+    "index": 782,
+    "record_offset": 9392,
+    "string_offset": 20447,
+    "pool_offset": 9519,
+    "word": "0x1ebf5660",
+    "length": 13,
+    "text": "Chrome Custom"
+  },
+  {
+    "index": 783,
+    "record_offset": 9404,
+    "string_offset": 20461,
+    "pool_offset": 9533,
+    "word": "0x40ba7693",
+    "length": 8,
+    "text": "Colorful"
+  },
+  {
+    "index": 784,
+    "record_offset": 9416,
+    "string_offset": 20470,
+    "pool_offset": 9542,
+    "word": "0x57067329",
+    "length": 9,
+    "text": "Conductor"
+  },
+  {
+    "index": 785,
+    "record_offset": 9428,
+    "string_offset": 20480,
+    "pool_offset": 9552,
+    "word": "0xbf227dc5",
+    "length": 6,
+    "text": "Fassel"
+  },
+  {
+    "index": 786,
+    "record_offset": 9440,
+    "string_offset": 20487,
+    "pool_offset": 9559,
+    "word": "0xc0b59d36",
+    "length": 10,
+    "text": "Line6Vetta"
+  },
+  {
+    "index": 787,
+    "record_offset": 9452,
+    "string_offset": 20498,
+    "pool_offset": 9570,
+    "word": "0xa5c24318",
+    "length": 9,
+    "text": "Vetta Wah"
+  },
+  {
+    "index": 788,
+    "record_offset": 9464,
+    "string_offset": 20508,
+    "pool_offset": 9580,
+    "word": "0x65991f6a",
+    "length": 7,
+    "text": "Throaty"
+  },
+  {
+    "index": 789,
+    "record_offset": 9476,
+    "string_offset": 20516,
+    "pool_offset": 9588,
+    "word": "0x0f138142",
+    "length": 6,
+    "text": "Weeper"
+  },
+  {
+    "index": 790,
+    "record_offset": 9488,
+    "string_offset": 20523,
+    "pool_offset": 9595,
+    "word": "0x6742cabf",
+    "length": 17,
+    "text": "SpiderVGuitarFlow"
+  },
+  {
+    "index": 791,
+    "record_offset": 9500,
+    "string_offset": 20541,
+    "pool_offset": 9613,
+    "word": "0x7ab0e859",
+    "length": 7,
+    "text": "visible"
+  },
+  {
+    "index": 792,
+    "record_offset": 9512,
+    "string_offset": 20549,
+    "pool_offset": 9621,
+    "word": "0xfdfc4c8d",
+    "length": 4,
+    "text": "true"
+  },
+  {
+    "index": 793,
+    "record_offset": 9524,
+    "string_offset": 20554,
+    "pool_offset": 9626,
+    "word": "0xa8eaff06",
+    "length": 3,
+    "text": "FX1"
+  },
+  {
+    "index": 794,
+    "record_offset": 9536,
+    "string_offset": 20558,
+    "pool_offset": 9630,
+    "word": "0xba94646f",
+    "length": 6,
+    "text": "FX1Mix"
+  },
+  {
+    "index": 795,
+    "record_offset": 9548,
+    "string_offset": 20565,
+    "pool_offset": 9637,
+    "word": "0x31e3aebc",
+    "length": 3,
+    "text": "FX2"
+  },
+  {
+    "index": 796,
+    "record_offset": 9560,
+    "string_offset": 20569,
+    "pool_offset": 9641,
+    "word": "0xa821cb81",
+    "length": 6,
+    "text": "FX2Mix"
+  },
+  {
+    "index": 797,
+    "record_offset": 9572,
+    "string_offset": 20576,
+    "pool_offset": 9648,
+    "word": "0x46e49e2a",
+    "length": 3,
+    "text": "FX3"
+  },
+  {
+    "index": 798,
+    "record_offset": 9584,
+    "string_offset": 20580,
+    "pool_offset": 9652,
+    "word": "0x109dace4",
+    "length": 6,
+    "text": "FX3Mix"
+  },
+  {
+    "index": 799,
+    "record_offset": 9596,
+    "string_offset": 20587,
+    "pool_offset": 9659,
+    "word": "0xd8800b89",
+    "length": 3,
+    "text": "FX4"
+  },
+  {
+    "index": 800,
+    "record_offset": 9608,
+    "string_offset": 20591,
+    "pool_offset": 9663,
+    "word": "0x8d4a945d",
+    "length": 6,
+    "text": "FX4Mix"
+  },
+  {
+    "index": 801,
+    "record_offset": 9620,
+    "string_offset": 20598,
+    "pool_offset": 9670,
+    "word": "0x842dfe1b",
+    "length": 3,
+    "text": "Air"
+  },
+  {
+    "index": 802,
+    "record_offset": 9632,
+    "string_offset": 20602,
+    "pool_offset": 9674,
+    "word": "0xf218dfd5",
+    "length": 9,
+    "text": "StudioCab"
+  },
+  {
+    "index": 803,
+    "record_offset": 9644,
+    "string_offset": 20612,
+    "pool_offset": 9684,
+    "word": "0x866236db",
+    "length": 8,
+    "text": "PostComp"
+  },
+  {
+    "index": 804,
+    "record_offset": 9656,
+    "string_offset": 20621,
+    "pool_offset": 9693,
+    "word": "0x30516719",
+    "length": 13,
+    "text": "ChannelVolume"
+  },
+  {
+    "index": 805,
+    "record_offset": 9668,
+    "string_offset": 20635,
+    "pool_offset": 9707,
+    "word": "0x1d3e5c14",
+    "length": 6,
+    "text": "PostEQ"
+  },
+  {
+    "index": 806,
+    "record_offset": 9680,
+    "string_offset": 20642,
+    "pool_offset": 9714,
+    "word": "0x29442b29",
+    "length": 11,
+    "text": "FX1MixState"
+  },
+  {
+    "index": 807,
+    "record_offset": 9692,
+    "string_offset": 20654,
+    "pool_offset": 9726,
+    "word": "0x731d7dfa",
+    "length": 12,
+    "text": "FX1PostState"
+  },
+  {
+    "index": 808,
+    "record_offset": 9704,
+    "string_offset": 20667,
+    "pool_offset": 9739,
+    "word": "0xb57d5a22",
+    "length": 14,
+    "text": "FX1EnableState"
+  },
+  {
+    "index": 809,
+    "record_offset": 9716,
+    "string_offset": 20682,
+    "pool_offset": 9754,
+    "word": "0x1d244847",
+    "length": 15,
+    "text": "FX1MixTypeState"
+  },
+  {
+    "index": 810,
+    "record_offset": 9728,
+    "string_offset": 20698,
+    "pool_offset": 9770,
+    "word": "0x10c917ec",
+    "length": 11,
+    "text": "FX2MixState"
+  },
+  {
+    "index": 811,
+    "record_offset": 9740,
+    "string_offset": 20710,
+    "pool_offset": 9782,
+    "word": "0x982ac6f9",
+    "length": 12,
+    "text": "FX2PostState"
+  },
+  {
+    "index": 812,
+    "record_offset": 9752,
+    "string_offset": 20723,
+    "pool_offset": 9795,
+    "word": "0xc2e388d2",
+    "length": 14,
+    "text": "FX2EnableState"
+  },
+  {
+    "index": 813,
+    "record_offset": 9764,
+    "string_offset": 20738,
+    "pool_offset": 9810,
+    "word": "0xa0ee2489",
+    "length": 15,
+    "text": "FX2MixTypeState"
+  },
+  {
+    "index": 814,
+    "record_offset": 9776,
+    "string_offset": 20754,
+    "pool_offset": 9826,
+    "word": "0x07b203af",
+    "length": 11,
+    "text": "FX3MixState"
+  },
+  {
+    "index": 815,
+    "record_offset": 9788,
+    "string_offset": 20766,
+    "pool_offset": 9838,
+    "word": "0x77e8adc7",
+    "length": 12,
+    "text": "FX3PostState"
+  },
+  {
+    "index": 816,
+    "record_offset": 9800,
+    "string_offset": 20779,
+    "pool_offset": 9851,
+    "word": "0x5946c4bd",
+    "length": 14,
+    "text": "FX3EnableState"
+  },
+  {
+    "index": 817,
+    "record_offset": 9812,
+    "string_offset": 20794,
+    "pool_offset": 9866,
+    "word": "0x7d78fd0c",
+    "length": 15,
+    "text": "FX3MixTypeState"
+  },
+  {
+    "index": 818,
+    "record_offset": 9824,
+    "string_offset": 20810,
+    "pool_offset": 9882,
+    "word": "0x63d36e66",
+    "length": 11,
+    "text": "FX4MixState"
+  },
+  {
+    "index": 819,
+    "record_offset": 9836,
+    "string_offset": 20822,
+    "pool_offset": 9894,
+    "word": "0x9534b6be",
+    "length": 12,
+    "text": "FX4PostState"
+  },
+  {
+    "index": 820,
+    "record_offset": 9848,
+    "string_offset": 20835,
+    "pool_offset": 9907,
+    "word": "0x2dde2d32",
+    "length": 14,
+    "text": "FX4EnableState"
+  },
+  {
+    "index": 821,
+    "record_offset": 9860,
+    "string_offset": 20850,
+    "pool_offset": 9922,
+    "word": "0x61205541",
+    "length": 14,
+    "text": "AmpEnableState"
+  },
+  {
+    "index": 822,
+    "record_offset": 9872,
+    "string_offset": 20865,
+    "pool_offset": 9937,
+    "word": "0xfad75b74",
+    "length": 14,
+    "text": "CabEnableState"
+  },
+  {
+    "index": 823,
+    "record_offset": 9884,
+    "string_offset": 20880,
+    "pool_offset": 9952,
+    "word": "0xeaba4238",
+    "length": 12,
+    "text": "CabPostState"
+  },
+  {
+    "index": 824,
+    "record_offset": 9896,
+    "string_offset": 20893,
+    "pool_offset": 9965,
+    "word": "0x5cff1500",
+    "length": 15,
+    "text": "GateEnableState"
+  },
+  {
+    "index": 825,
+    "record_offset": 9908,
+    "string_offset": 20909,
+    "pool_offset": 9981,
+    "word": "0xb70df550",
+    "length": 15,
+    "text": "VolumePostState"
+  },
+  {
+    "index": 826,
+    "record_offset": 9920,
+    "string_offset": 20925,
+    "pool_offset": 9997,
+    "word": "0x6c14281b",
+    "length": 22,
+    "text": "VolumePedalEnableState"
+  },
+  {
+    "index": 827,
+    "record_offset": 9932,
+    "string_offset": 20948,
+    "pool_offset": 10020,
+    "word": "0x6ffe0062",
+    "length": 14,
+    "text": "WahEnableState"
+  },
+  {
+    "index": 828,
+    "record_offset": 9944,
+    "string_offset": 20963,
+    "pool_offset": 10035,
+    "word": "0x1b6bb5c2",
+    "length": 18,
+    "text": "ChannelVolumeState"
+  },
+  {
+    "index": 829,
+    "record_offset": 9956,
+    "string_offset": 20982,
+    "pool_offset": 10054,
+    "word": "0xc46d08c6",
+    "length": 19,
+    "text": "PostCompEnableState"
+  },
+  {
+    "index": 830,
+    "record_offset": 9968,
+    "string_offset": 21002,
+    "pool_offset": 10074,
+    "word": "0xd6755e0c",
+    "length": 17,
+    "text": "PostEQEnableState"
+  },
+  {
+    "index": 831,
+    "record_offset": 9980,
+    "string_offset": 21020,
+    "pool_offset": 10092,
+    "word": "0x5a77e2ee",
+    "length": 7,
+    "text": "FX2Post"
+  },
+  {
+    "index": 832,
+    "record_offset": 9992,
+    "string_offset": 21028,
+    "pool_offset": 10100,
+    "word": "0x6717cb5e",
+    "length": 7,
+    "text": "FX3Post"
+  },
+  {
+    "index": 833,
+    "record_offset": 10004,
+    "string_offset": 21036,
+    "pool_offset": 10108,
+    "word": "0x1dd7983e",
+    "length": 7,
+    "text": "FX1Post"
+  },
+  {
+    "index": 834,
+    "record_offset": 10016,
+    "string_offset": 21044,
+    "pool_offset": 10116,
+    "word": "0xd30a6262",
+    "length": 10,
+    "text": "VolumePost"
+  },
+  {
+    "index": 835,
+    "record_offset": 10028,
+    "string_offset": 21055,
+    "pool_offset": 10127,
+    "word": "0xcda80a0c",
+    "length": 9,
+    "text": "AmpEnable"
+  },
+  {
+    "index": 836,
+    "record_offset": 10040,
+    "string_offset": 21065,
+    "pool_offset": 10137,
+    "word": "0x7ccb6e4f",
+    "length": 10,
+    "text": "FX3MixType"
+  },
+  {
+    "index": 837,
+    "record_offset": 10052,
+    "string_offset": 21076,
+    "pool_offset": 10148,
+    "word": "0xb0616ed1",
+    "length": 10,
+    "text": "FX2MixType"
+  },
+  {
+    "index": 838,
+    "record_offset": 10064,
+    "string_offset": 21087,
+    "pool_offset": 10159,
+    "word": "0x11075538",
+    "length": 9,
+    "text": "FX3Enable"
+  },
+  {
+    "index": 839,
+    "record_offset": 10076,
+    "string_offset": 21097,
+    "pool_offset": 10169,
+    "word": "0xb7705e8c",
+    "length": 9,
+    "text": "FX2Enable"
+  },
+  {
+    "index": 840,
+    "record_offset": 10088,
+    "string_offset": 21107,
+    "pool_offset": 10179,
+    "word": "0x86984411",
+    "length": 9,
+    "text": "FX1Enable"
+  },
+  {
+    "index": 841,
+    "record_offset": 10100,
+    "string_offset": 21117,
+    "pool_offset": 10189,
+    "word": "0x5828e83d",
+    "length": 17,
+    "text": "VolumePedalEnable"
+  },
+  {
+    "index": 842,
+    "record_offset": 10112,
+    "string_offset": 21135,
+    "pool_offset": 10207,
+    "word": "0xd6033474",
+    "length": 14,
+    "text": "PostCompEnable"
+  },
+  {
+    "index": 843,
+    "record_offset": 10124,
+    "string_offset": 21150,
+    "pool_offset": 10222,
+    "word": "0x95a210f2",
+    "length": 12,
+    "text": "PostEQEnable"
+  },
+  {
+    "index": 844,
+    "record_offset": 10136,
+    "string_offset": 21163,
+    "pool_offset": 10235,
+    "word": "0xd537174e",
+    "length": 7,
+    "text": "FX4Post"
+  },
+  {
+    "index": 845,
+    "record_offset": 10148,
+    "string_offset": 21171,
+    "pool_offset": 10243,
+    "word": "0x60ae71c7",
+    "length": 10,
+    "text": "GateEnable"
+  },
+  {
+    "index": 846,
+    "record_offset": 10160,
+    "string_offset": 21182,
+    "pool_offset": 10254,
+    "word": "0x44b0ba22",
+    "length": 9,
+    "text": "CabEnable"
+  },
+  {
+    "index": 847,
+    "record_offset": 10172,
+    "string_offset": 21192,
+    "pool_offset": 10264,
+    "word": "0x3eee6932",
+    "length": 10,
+    "text": "FX1MixType"
+  },
+  {
+    "index": 848,
+    "record_offset": 10184,
+    "string_offset": 21203,
+    "pool_offset": 10275,
+    "word": "0xd4a06bb6",
+    "length": 9,
+    "text": "FX4Enable"
+  },
+  {
+    "index": 849,
+    "record_offset": 10196,
+    "string_offset": 21213,
+    "pool_offset": 10285,
+    "word": "0x11ecf611",
+    "length": 9,
+    "text": "WahEnable"
+  },
+  {
+    "index": 850,
+    "record_offset": 10208,
+    "string_offset": 21223,
+    "pool_offset": 10295,
+    "word": "0xa570f310",
+    "length": 9,
+    "text": "headphone"
+  },
+  {
+    "index": 851,
+    "record_offset": 10220,
+    "string_offset": 21233,
+    "pool_offset": 10305,
+    "word": "0x132954e7",
+    "length": 7,
+    "text": "CabPost"
+  },
+  {
+    "index": 852,
+    "record_offset": 10232,
+    "string_offset": 21241,
+    "pool_offset": 10313,
+    "word": "0x85d071ea",
+    "length": 11,
+    "text": "LooperFx500"
+  },
+  {
+    "index": 853,
+    "record_offset": 10244,
+    "string_offset": 21253,
+    "pool_offset": 10325,
+    "word": "0x0ed6032c",
+    "length": 11,
+    "text": "Overdub Lvl"
+  },
+  {
+    "index": 854,
+    "record_offset": 10256,
+    "string_offset": 21265,
+    "pool_offset": 10337,
+    "word": "0x38def78b",
+    "length": 12,
+    "text": "HP Frequency"
+  },
+  {
+    "index": 855,
+    "record_offset": 10268,
+    "string_offset": 21278,
+    "pool_offset": 10350,
+    "word": "0x60328d1a",
+    "length": 10,
+    "text": "LooperHPHz"
+  },
+  {
+    "index": 856,
+    "record_offset": 10280,
+    "string_offset": 21289,
+    "pool_offset": 10361,
+    "word": "0xf145a604",
+    "length": 7,
+    "text": "HP Freq"
+  },
+  {
+    "index": 857,
+    "record_offset": 10292,
+    "string_offset": 21297,
+    "pool_offset": 10369,
+    "word": "0x3bd8ccf4",
+    "length": 12,
+    "text": "LP Frequency"
+  },
+  {
+    "index": 858,
+    "record_offset": 10304,
+    "string_offset": 21310,
+    "pool_offset": 10382,
+    "word": "0xef501a4d",
+    "length": 10,
+    "text": "LooperLPHz"
+  },
+  {
+    "index": 859,
+    "record_offset": 10316,
+    "string_offset": 21321,
+    "pool_offset": 10393,
+    "word": "0x050a8217",
+    "length": 7,
+    "text": "LP Freq"
+  },
+  {
+    "index": 860,
+    "record_offset": 10328,
+    "string_offset": 21329,
+    "pool_offset": 10401,
+    "word": "0x9535dee3",
+    "length": 4,
+    "text": "Slow"
+  },
+  {
+    "index": 861,
+    "record_offset": 10340,
+    "string_offset": 21334,
+    "pool_offset": 10406,
+    "word": "0xdc9a4a23",
+    "length": 7,
+    "text": "Overdub"
+  },
+  {
+    "index": 862,
+    "record_offset": 10352,
+    "string_offset": 21342,
+    "pool_offset": 10414,
+    "word": "0xd372dcee",
+    "length": 4,
+    "text": "Once"
+  },
+  {
+    "index": 863,
+    "record_offset": 10364,
+    "string_offset": 21347,
+    "pool_offset": 10419,
+    "word": "0xec3566d2",
+    "length": 9,
+    "text": "StateNext"
+  },
+  {
+    "index": 864,
+    "record_offset": 10376,
+    "string_offset": 21357,
+    "pool_offset": 10429,
+    "word": "0x430f8bdf",
+    "length": 6,
+    "text": "Looper"
+  },
+  {
+    "index": 865,
+    "record_offset": 10388,
+    "string_offset": 21364,
+    "pool_offset": 10436,
+    "word": "0x2ba00c60",
+    "length": 24,
+    "text": "SpiderV100_OutputLimiter"
+  },
+  {
+    "index": 866,
+    "record_offset": 10400,
+    "string_offset": 21389,
+    "pool_offset": 10461,
+    "word": "0x36cba59f",
+    "length": 17,
+    "text": "StereoOutputState"
+  },
+  {
+    "index": 867,
+    "record_offset": 10412,
+    "string_offset": 21407,
+    "pool_offset": 10479,
+    "word": "0x74ebaeb7",
+    "length": 9,
+    "text": "dB_tenths"
+  },
+  {
+    "index": 868,
+    "record_offset": 10424,
+    "string_offset": 21417,
+    "pool_offset": 10489,
+    "word": "0x52a9078e",
+    "length": 9,
+    "text": "Thresh LF"
+  },
+  {
+    "index": 869,
+    "record_offset": 10436,
+    "string_offset": 21427,
+    "pool_offset": 10499,
+    "word": "0x36c5c28a",
+    "length": 9,
+    "text": "Thresh HF"
+  },
+  {
+    "index": 870,
+    "record_offset": 10448,
+    "string_offset": 21437,
+    "pool_offset": 10509,
+    "word": "0x0815695d",
+    "length": 12,
+    "text": "StereoOutput"
+  },
+  {
+    "index": 871,
+    "record_offset": 10460,
+    "string_offset": 21450,
+    "pool_offset": 10522,
+    "word": "0x82dfa6e8",
+    "length": 14,
+    "text": "Output Limiter"
+  },
+  {
+    "index": 872,
+    "record_offset": 10472,
+    "string_offset": 21465,
+    "pool_offset": 10537,
+    "word": "0x8a675cc7",
+    "length": 25,
+    "text": "SpiderV200H_OutputLimiter"
+  },
+  {
+    "index": 873,
+    "record_offset": 10484,
+    "string_offset": 21491,
+    "pool_offset": 10563,
+    "word": "0x783a57e4",
+    "length": 24,
+    "text": "SpiderV200_OutputLimiter"
+  },
+  {
+    "index": 874,
+    "record_offset": 10496,
+    "string_offset": 21516,
+    "pool_offset": 10588,
+    "word": "0x306f0655",
+    "length": 23,
+    "text": "SpiderV30_OutputLimiter"
+  },
+  {
+    "index": 875,
+    "record_offset": 10508,
+    "string_offset": 21540,
+    "pool_offset": 10612,
+    "word": "0x4a36db43",
+    "length": 23,
+    "text": "SpiderV60_OutputLimiter"
+  },
+  {
+    "index": 876,
+    "record_offset": 10520,
+    "string_offset": 21564,
+    "pool_offset": 10636,
+    "word": "0xb398a760",
+    "length": 5,
+    "text": "Tuner"
+  },
+  {
+    "index": 877,
+    "record_offset": 10532,
+    "string_offset": 21570,
+    "pool_offset": 10642,
+    "word": "0x85d00d9c",
+    "length": 14,
+    "text": "ReferenceState"
+  },
+  {
+    "index": 878,
+    "record_offset": 10544,
+    "string_offset": 21585,
+    "pool_offset": 10657,
+    "word": "0x7fed889d",
+    "length": 11,
+    "text": "PeriodState"
+  },
+  {
+    "index": 879,
+    "record_offset": 10556,
+    "string_offset": 21597,
+    "pool_offset": 10669,
+    "word": "0x6a3fb039",
+    "length": 11,
+    "text": "EnableState"
+  },
+  {
+    "index": 880,
+    "record_offset": 10568,
+    "string_offset": 21609,
+    "pool_offset": 10681,
+    "word": "0x2c52cbb0",
+    "length": 9,
+    "text": "Reference"
+  },
+  {
+    "index": 881,
+    "record_offset": 10580,
+    "string_offset": 21619,
+    "pool_offset": 10691,
+    "word": "0xc2141bf8",
+    "length": 6,
+    "text": "Period"
+  },
+  {
+    "index": 882,
+    "record_offset": 10592,
+    "string_offset": 21626,
+    "pool_offset": 10698,
+    "word": "0xf40ccd04",
+    "length": 6,
+    "text": "Enable"
+  },
+  {
+    "index": 883,
+    "record_offset": 10604,
+    "string_offset": 21633,
+    "pool_offset": 10705,
+    "word": "0xce9a5e4a",
+    "length": 11,
+    "text": "SpiderVMain"
+  },
+  {
+    "index": 884,
+    "record_offset": 10616,
+    "string_offset": 21645,
+    "pool_offset": 10717,
+    "word": "0x184726db",
+    "length": 10,
+    "text": "GuitarProc"
+  },
+  {
+    "index": 885,
+    "record_offset": 10628,
+    "string_offset": 21656,
+    "pool_offset": 10728,
+    "word": "0x34e118b8",
+    "length": 9,
+    "text": "Crossover"
+  },
+  {
+    "index": 886,
+    "record_offset": 10640,
+    "string_offset": 21666,
+    "pool_offset": 10738,
+    "word": "0x7d594c75",
+    "length": 13,
+    "text": "OutputLimiter"
+  },
+  {
+    "index": 887,
+    "record_offset": 10652,
+    "string_offset": 21680,
+    "pool_offset": 10752,
+    "word": "0xbe110a80",
+    "length": 20,
+    "text": "MetroDrumVolumeState"
+  },
+  {
+    "index": 888,
+    "record_offset": 10664,
+    "string_offset": 21701,
+    "pool_offset": 10773,
+    "word": "0x317047c3",
+    "length": 20,
+    "text": "DemoTrackVolumeState"
+  },
+  {
+    "index": 889,
+    "record_offset": 10676,
+    "string_offset": 21722,
+    "pool_offset": 10794,
+    "word": "0xcbd0066f",
+    "length": 19,
+    "text": "TunerReferenceState"
+  },
+  {
+    "index": 890,
+    "record_offset": 10688,
+    "string_offset": 21742,
+    "pool_offset": 10814,
+    "word": "0xfa3efa6b",
+    "length": 13,
+    "text": "GuitInputGain"
+  },
+  {
+    "index": 891,
+    "record_offset": 10700,
+    "string_offset": 21756,
+    "pool_offset": 10828,
+    "word": "0x187a935d",
+    "length": 12,
+    "text": "MasterVolume"
+  },
+  {
+    "index": 892,
+    "record_offset": 10712,
+    "string_offset": 21769,
+    "pool_offset": 10841,
+    "word": "0xd6826900",
+    "length": 16,
+    "text": "GuitarProcEnable"
+  },
+  {
+    "index": 893,
+    "record_offset": 10724,
+    "string_offset": 21786,
+    "pool_offset": 10858,
+    "word": "0x25d10d0c",
+    "length": 15,
+    "text": "DemoTrackVolume"
+  },
+  {
+    "index": 894,
+    "record_offset": 10736,
+    "string_offset": 21802,
+    "pool_offset": 10874,
+    "word": "0xd0691746",
+    "length": 15,
+    "text": "MetroDrumVolume"
+  },
+  {
+    "index": 895,
+    "record_offset": 10748,
+    "string_offset": 21818,
+    "pool_offset": 10890,
+    "word": "0x278171b3",
+    "length": 9,
+    "text": "Headphone"
+  },
+  {
+    "index": 896,
+    "record_offset": 10760,
+    "string_offset": 21828,
+    "pool_offset": 10900,
+    "word": "0xb3ea4de9",
+    "length": 17,
+    "text": "GuitProcInputGain"
+  },
+  {
+    "index": 897,
+    "record_offset": 10772,
+    "string_offset": 21846,
+    "pool_offset": 10918,
+    "word": "0x90c0fd01",
+    "length": 14,
+    "text": "TunerReference"
+  },
+  {
+    "index": 898,
+    "record_offset": 10784,
+    "string_offset": 21861,
+    "pool_offset": 10933,
+    "word": "0x811308da",
+    "length": 11,
+    "text": "TunerEnable"
+  },
+  {
+    "index": 899,
+    "record_offset": 10796,
+    "string_offset": 21873,
+    "pool_offset": 10945,
+    "word": "0xbd42b89b",
+    "length": 18,
+    "text": "GuitProcOutputGain"
+  },
+  {
+    "index": 900,
+    "record_offset": 10808,
+    "string_offset": 21892,
+    "pool_offset": 10964,
+    "word": "0x837ea250",
+    "length": 11,
+    "text": "USBOutLevel"
+  },
+  {
+    "index": 901,
+    "record_offset": 10820,
+    "string_offset": 21904,
+    "pool_offset": 10976,
+    "word": "0xe2b4d7d3",
+    "length": 10,
+    "text": "USBInLevel"
+  },
+  {
+    "index": 902,
+    "record_offset": 10832,
+    "string_offset": 21915,
+    "pool_offset": 10987,
+    "word": "0x01a292f8",
+    "length": 10,
+    "text": "LooperPost"
+  },
+  {
+    "index": 903,
+    "record_offset": 10844,
+    "string_offset": 21926,
+    "pool_offset": 10998,
+    "word": "0xbade615e",
+    "length": 11,
+    "text": "LooperLevel"
+  },
+  {
+    "index": 904,
+    "record_offset": 10856,
+    "string_offset": 21938,
+    "pool_offset": 11010,
+    "word": "0x56a56d48",
+    "length": 26,
+    "text": "SpiderV30_CrossoverBoiling"
+  },
+  {
+    "index": 905,
+    "record_offset": 10868,
+    "string_offset": 21965,
+    "pool_offset": 11037,
+    "word": "0x682fe0f2",
+    "length": 26,
+    "text": "SpiderV60_CrossoverBoiling"
+  },
+  {
+    "index": 906,
+    "record_offset": 10880,
+    "string_offset": 21992,
+    "pool_offset": 11064,
+    "word": "0xfd173ed2",
+    "length": 18,
+    "text": "BypassMonoToStereo"
+  },
+  {
+    "index": 907,
+    "record_offset": 10892,
+    "string_offset": 22011,
+    "pool_offset": 11083,
+    "word": "0x85317d83",
+    "length": 27,
+    "text": "SpiderV100_CrossoverBoiling"
+  },
+  {
+    "index": 908,
+    "record_offset": 10904,
+    "string_offset": 22039,
+    "pool_offset": 11111,
+    "word": "0x2a983049",
+    "length": 27,
+    "text": "SpiderV200_CrossoverBoiling"
+  },
+  {
+    "index": 909,
+    "record_offset": 10916,
+    "string_offset": 22067,
+    "pool_offset": 11139,
+    "word": "0x92a14648",
+    "length": 6,
+    "text": "Line 6"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "original": {
+    "path": "/workspace/attachments/1cef6881-5b69-4396-8afa-a13ba64b248f/SpiderV_30_60_2.05.0.svu",
+    "bytes": 393422,
+    "sha256": "5301e9c582fab5bf1ddcbe321cf642e293dbaf62fc90a70de923b8b4fec6c00b"
+  },
+  "payload": {
+    "bytes": 393192,
+    "sha256": "58b058a7310a8f397d5c029f6dc0c0b07e5128dbd027548c060eba797647a0b4"
+  },
+  "exact_ascii_occurrences": {
+    "GuitProcOutputGain": 0,
+    "USBOutLevel": 0,
+    "USBInLevel": 0,
+    "GuitarProcEnable": 0,
+    "TunerEnable": 0,
+    "AmpEnable": 0,
+    "DirectMonitor": 0,
+    "SpeakerMute": 0
+  },
+  "interpretation": "No verified firmware executable format, ISA, load map, or audio-routine addresses. Missing text is not proof of missing capability."
+}

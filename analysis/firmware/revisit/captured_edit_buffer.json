@@ -1,0 +1,1493 @@
+{
+  "message_index": 18,
+  "channel": 1,
+  "frames": [
+    1281,
+    1351
+  ],
+  "bytes": 1281,
+  "sha256": "21bfd4dcadf6f8d127bda1b8df4c29f424e0d63ffbaa29878eaa6a8be584f686",
+  "fully_consumed": true,
+  "entry_count": 132,
+  "key_hits": [
+    {
+      "payload_offset": 237,
+      "key": "0x328",
+      "type": 1,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX1EnableState"
+    },
+    {
+      "payload_offset": 367,
+      "key": "0x335",
+      "type": 1,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "AmpEnableState"
+    },
+    {
+      "payload_offset": 377,
+      "key": "0x336",
+      "type": 1,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "CabEnableState"
+    }
+  ],
+  "entries": [
+    {
+      "payload_offset": 4,
+      "key": "0x80000000",
+      "type": 2,
+      "value": 2,
+      "section": null,
+      "block_path": []
+    },
+    {
+      "payload_offset": 14,
+      "key": "0x80000001",
+      "type": 2,
+      "value": 1347572560,
+      "section": "PRSP",
+      "block_path": []
+    },
+    {
+      "payload_offset": 24,
+      "key": "0x0",
+      "type": 4,
+      "value": "hard days night",
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 50,
+      "key": "0x1",
+      "type": 2,
+      "value": 3158951,
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 60,
+      "key": "0x2",
+      "type": 2,
+      "value": 0,
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 70,
+      "key": "0x3",
+      "type": 3,
+      "value": 151.2259979248047,
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 80,
+      "key": "0x4",
+      "type": 7,
+      "value": 884,
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 90,
+      "key": "0x5",
+      "type": 7,
+      "value": 798,
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 100,
+      "key": "0x6",
+      "type": 3,
+      "value": 0.800000011920929,
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 110,
+      "key": "0x7",
+      "type": 3,
+      "value": 0.0,
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 120,
+      "key": "0x8",
+      "type": 3,
+      "value": 1.0,
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 130,
+      "key": "0x9",
+      "type": 1,
+      "value": 0,
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 140,
+      "key": "0x4a",
+      "type": 1,
+      "value": 1,
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 150,
+      "key": "0x4b",
+      "type": 4,
+      "value": "",
+      "section": "PRSP",
+      "block_path": [],
+      "symbol": null
+    },
+    {
+      "payload_offset": 161,
+      "key": "0x80000002",
+      "type": 0,
+      "value": null,
+      "section": "PRSP",
+      "block_path": []
+    },
+    {
+      "payload_offset": 167,
+      "key": "0x80000000",
+      "type": 2,
+      "value": 1,
+      "section": "PRSP",
+      "block_path": []
+    },
+    {
+      "payload_offset": 177,
+      "key": "0x80000001",
+      "type": 2,
+      "value": 1196708436,
+      "section": "GTRT",
+      "block_path": []
+    },
+    {
+      "payload_offset": 187,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 884,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ]
+    },
+    {
+      "payload_offset": 197,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 790,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ]
+    },
+    {
+      "payload_offset": 207,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 25,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ]
+    },
+    {
+      "payload_offset": 217,
+      "key": "0x326",
+      "type": 3,
+      "value": 1.0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX1MixState"
+    },
+    {
+      "payload_offset": 227,
+      "key": "0x327",
+      "type": 1,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX1PostState"
+    },
+    {
+      "payload_offset": 237,
+      "key": "0x328",
+      "type": 1,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX1EnableState"
+    },
+    {
+      "payload_offset": 247,
+      "key": "0x329",
+      "type": 2,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX1MixTypeState"
+    },
+    {
+      "payload_offset": 257,
+      "key": "0x32a",
+      "type": 3,
+      "value": 0.25984299182891846,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX2MixState"
+    },
+    {
+      "payload_offset": 267,
+      "key": "0x32b",
+      "type": 1,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX2PostState"
+    },
+    {
+      "payload_offset": 277,
+      "key": "0x32c",
+      "type": 1,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX2EnableState"
+    },
+    {
+      "payload_offset": 287,
+      "key": "0x32d",
+      "type": 2,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX2MixTypeState"
+    },
+    {
+      "payload_offset": 297,
+      "key": "0x32e",
+      "type": 3,
+      "value": 0.0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX3MixState"
+    },
+    {
+      "payload_offset": 307,
+      "key": "0x32f",
+      "type": 1,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX3PostState"
+    },
+    {
+      "payload_offset": 317,
+      "key": "0x330",
+      "type": 1,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX3EnableState"
+    },
+    {
+      "payload_offset": 327,
+      "key": "0x331",
+      "type": 2,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX3MixTypeState"
+    },
+    {
+      "payload_offset": 337,
+      "key": "0x332",
+      "type": 3,
+      "value": 0.5340309739112854,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX4MixState"
+    },
+    {
+      "payload_offset": 347,
+      "key": "0x333",
+      "type": 1,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX4PostState"
+    },
+    {
+      "payload_offset": 357,
+      "key": "0x334",
+      "type": 1,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "FX4EnableState"
+    },
+    {
+      "payload_offset": 367,
+      "key": "0x335",
+      "type": 1,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "AmpEnableState"
+    },
+    {
+      "payload_offset": 377,
+      "key": "0x336",
+      "type": 1,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "CabEnableState"
+    },
+    {
+      "payload_offset": 387,
+      "key": "0x337",
+      "type": 1,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "CabPostState"
+    },
+    {
+      "payload_offset": 397,
+      "key": "0x338",
+      "type": 1,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "GateEnableState"
+    },
+    {
+      "payload_offset": 407,
+      "key": "0x339",
+      "type": 1,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "VolumePostState"
+    },
+    {
+      "payload_offset": 417,
+      "key": "0x33a",
+      "type": 1,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "VolumePedalEnableState"
+    },
+    {
+      "payload_offset": 427,
+      "key": "0x33b",
+      "type": 1,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "WahEnableState"
+    },
+    {
+      "payload_offset": 437,
+      "key": "0x33c",
+      "type": 3,
+      "value": 0.70068359375,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "ChannelVolumeState"
+    },
+    {
+      "payload_offset": 447,
+      "key": "0x33d",
+      "type": 1,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "PostCompEnableState"
+    },
+    {
+      "payload_offset": 457,
+      "key": "0x33e",
+      "type": 1,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ],
+      "symbol": "PostEQEnableState"
+    },
+    {
+      "payload_offset": 467,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 606,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Gate"
+      ]
+    },
+    {
+      "payload_offset": 477,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 606,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Gate"
+      ]
+    },
+    {
+      "payload_offset": 487,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 2,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Gate"
+      ]
+    },
+    {
+      "payload_offset": 497,
+      "key": "0x25f",
+      "type": 3,
+      "value": -66.0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Gate"
+      ],
+      "symbol": "ThreshState"
+    },
+    {
+      "payload_offset": 507,
+      "key": "0x121",
+      "type": 3,
+      "value": 0.6850389838218689,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Gate"
+      ],
+      "symbol": "DecayState"
+    },
+    {
+      "payload_offset": 517,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Gate"
+      ]
+    },
+    {
+      "payload_offset": 523,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 772,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "VolumePedal"
+      ]
+    },
+    {
+      "payload_offset": 533,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 772,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "VolumePedal"
+      ]
+    },
+    {
+      "payload_offset": 543,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 3,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "VolumePedal"
+      ]
+    },
+    {
+      "payload_offset": 553,
+      "key": "0x305",
+      "type": 3,
+      "value": 0.9223560094833374,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "VolumePedal"
+      ],
+      "symbol": "VolumeState"
+    },
+    {
+      "payload_offset": 563,
+      "key": "0x306",
+      "type": 3,
+      "value": 0.0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "VolumePedal"
+      ],
+      "symbol": "MinVolState"
+    },
+    {
+      "payload_offset": 573,
+      "key": "0x307",
+      "type": 3,
+      "value": 1.0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "VolumePedal"
+      ],
+      "symbol": "MaxVolState"
+    },
+    {
+      "payload_offset": 583,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "VolumePedal"
+      ]
+    },
+    {
+      "payload_offset": 589,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 780,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Wah"
+      ]
+    },
+    {
+      "payload_offset": 599,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 786,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Wah"
+      ]
+    },
+    {
+      "payload_offset": 609,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Wah"
+      ]
+    },
+    {
+      "payload_offset": 619,
+      "key": "0x166",
+      "type": 3,
+      "value": 0.4015749990940094,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Wah"
+      ],
+      "symbol": "PedalState"
+    },
+    {
+      "payload_offset": 629,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Wah"
+      ]
+    },
+    {
+      "payload_offset": 635,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 793,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX1"
+      ]
+    },
+    {
+      "payload_offset": 645,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 500,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX1"
+      ]
+    },
+    {
+      "payload_offset": 655,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 2,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX1"
+      ]
+    },
+    {
+      "payload_offset": 665,
+      "key": "0x1",
+      "type": 3,
+      "value": 0.5511130094528198,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX1"
+      ],
+      "symbol": "LevelState"
+    },
+    {
+      "payload_offset": 675,
+      "key": "0x1f1",
+      "type": 3,
+      "value": 0.3799999952316284,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX1"
+      ],
+      "symbol": "SustainState"
+    },
+    {
+      "payload_offset": 685,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX1"
+      ]
+    },
+    {
+      "payload_offset": 691,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 795,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX2"
+      ]
+    },
+    {
+      "payload_offset": 701,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 517,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX2"
+      ]
+    },
+    {
+      "payload_offset": 711,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 5,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX2"
+      ]
+    },
+    {
+      "payload_offset": 721,
+      "key": "0x202",
+      "type": 3,
+      "value": 0.0671427994966507,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX2"
+      ],
+      "symbol": "FreqState"
+    },
+    {
+      "payload_offset": 731,
+      "key": "0x174",
+      "type": 3,
+      "value": 0.7086610198020935,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX2"
+      ],
+      "symbol": "DepthState"
+    },
+    {
+      "payload_offset": 741,
+      "key": "0x1c",
+      "type": 3,
+      "value": 0.5039370059967041,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX2"
+      ],
+      "symbol": "BassState"
+    },
+    {
+      "payload_offset": 751,
+      "key": "0x1e",
+      "type": 3,
+      "value": 0.7874019742012024,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX2"
+      ],
+      "symbol": "TrebleState"
+    },
+    {
+      "payload_offset": 761,
+      "key": "0x176",
+      "type": 2,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX2"
+      ],
+      "symbol": "SyncSelectState"
+    },
+    {
+      "payload_offset": 771,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX2"
+      ]
+    },
+    {
+      "payload_offset": 777,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 797,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX3"
+      ]
+    },
+    {
+      "payload_offset": 787,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 478,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX3"
+      ]
+    },
+    {
+      "payload_offset": 797,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 5,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX3"
+      ]
+    },
+    {
+      "payload_offset": 807,
+      "key": "0x18a",
+      "type": 3,
+      "value": 0.17628000676631927,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX3"
+      ],
+      "symbol": "TimeState"
+    },
+    {
+      "payload_offset": 817,
+      "key": "0x186",
+      "type": 3,
+      "value": 0.31894201040267944,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX3"
+      ],
+      "symbol": "FeedbackState"
+    },
+    {
+      "payload_offset": 827,
+      "key": "0x1df",
+      "type": 3,
+      "value": 0.11142099648714066,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX3"
+      ],
+      "symbol": "WowFlutrState"
+    },
+    {
+      "payload_offset": 837,
+      "key": "0x1e0",
+      "type": 3,
+      "value": 0.4387190043926239,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX3"
+      ],
+      "symbol": "Eko distState"
+    },
+    {
+      "payload_offset": 847,
+      "key": "0x176",
+      "type": 2,
+      "value": 12,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX3"
+      ],
+      "symbol": "SyncSelectState"
+    },
+    {
+      "payload_offset": 857,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX3"
+      ]
+    },
+    {
+      "payload_offset": 863,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 799,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX4"
+      ]
+    },
+    {
+      "payload_offset": 873,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 604,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX4"
+      ]
+    },
+    {
+      "payload_offset": 883,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 3,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX4"
+      ]
+    },
+    {
+      "payload_offset": 893,
+      "key": "0x121",
+      "type": 3,
+      "value": 0.5,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX4"
+      ],
+      "symbol": "DecayState"
+    },
+    {
+      "payload_offset": 903,
+      "key": "0x245",
+      "type": 3,
+      "value": 0.5,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX4"
+      ],
+      "symbol": "PreDelayState"
+    },
+    {
+      "payload_offset": 913,
+      "key": "0x175",
+      "type": 3,
+      "value": 0.5,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX4"
+      ],
+      "symbol": "ToneState"
+    },
+    {
+      "payload_offset": 923,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "FX4"
+      ]
+    },
+    {
+      "payload_offset": 929,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 42,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Amp"
+      ]
+    },
+    {
+      "payload_offset": 939,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 124,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Amp"
+      ]
+    },
+    {
+      "payload_offset": 949,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 5,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Amp"
+      ]
+    },
+    {
+      "payload_offset": 959,
+      "key": "0x1c",
+      "type": 3,
+      "value": 0.4714308977127075,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Amp"
+      ],
+      "symbol": "BassState"
+    },
+    {
+      "payload_offset": 969,
+      "key": "0x1d",
+      "type": 3,
+      "value": 0.48698094487190247,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Amp"
+      ],
+      "symbol": "MidState"
+    },
+    {
+      "payload_offset": 979,
+      "key": "0x1e",
+      "type": 3,
+      "value": 0.4437500238418579,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Amp"
+      ],
+      "symbol": "TrebleState"
+    },
+    {
+      "payload_offset": 989,
+      "key": "0x33",
+      "type": 3,
+      "value": 0.5843137502670288,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Amp"
+      ],
+      "symbol": "DriveState"
+    },
+    {
+      "payload_offset": 999,
+      "key": "0x20",
+      "type": 3,
+      "value": 0.6800000071525574,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Amp"
+      ],
+      "symbol": "PresenceState"
+    },
+    {
+      "payload_offset": 1009,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Amp"
+      ]
+    },
+    {
+      "payload_offset": 1015,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 801,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Air"
+      ]
+    },
+    {
+      "payload_offset": 1025,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Air"
+      ]
+    },
+    {
+      "payload_offset": 1035,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 1,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Air"
+      ]
+    },
+    {
+      "payload_offset": 1045,
+      "key": "0x1",
+      "type": 3,
+      "value": 0.20000000298023224,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Air"
+      ],
+      "symbol": "LevelState"
+    },
+    {
+      "payload_offset": 1055,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "Air"
+      ]
+    },
+    {
+      "payload_offset": 1061,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 802,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "StudioCab"
+      ]
+    },
+    {
+      "payload_offset": 1071,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 709,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "StudioCab"
+      ]
+    },
+    {
+      "payload_offset": 1081,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 0,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "StudioCab"
+      ]
+    },
+    {
+      "payload_offset": 1091,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "StudioCab"
+      ]
+    },
+    {
+      "payload_offset": 1097,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 803,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostComp"
+      ]
+    },
+    {
+      "payload_offset": 1107,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 609,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostComp"
+      ]
+    },
+    {
+      "payload_offset": 1117,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 2,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostComp"
+      ]
+    },
+    {
+      "payload_offset": 1127,
+      "key": "0x262",
+      "type": 3,
+      "value": 0.4193809926509857,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostComp"
+      ],
+      "symbol": "Thresh/GState"
+    },
+    {
+      "payload_offset": 1137,
+      "key": "0x1f",
+      "type": 3,
+      "value": 0.6996650099754333,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostComp"
+      ],
+      "symbol": "GainState"
+    },
+    {
+      "payload_offset": 1147,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostComp"
+      ]
+    },
+    {
+      "payload_offset": 1153,
+      "key": "0x80000003",
+      "type": 7,
+      "value": 805,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ]
+    },
+    {
+      "payload_offset": 1163,
+      "key": "0x80000005",
+      "type": 7,
+      "value": 617,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ]
+    },
+    {
+      "payload_offset": 1173,
+      "key": "0x80000006",
+      "type": 2,
+      "value": 8,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ]
+    },
+    {
+      "payload_offset": 1183,
+      "key": "0x26a",
+      "type": 3,
+      "value": 0.17142899334430695,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ],
+      "symbol": "LowState"
+    },
+    {
+      "payload_offset": 1193,
+      "key": "0x26b",
+      "type": 3,
+      "value": 0.5039370059967041,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ],
+      "symbol": "gainState"
+    },
+    {
+      "payload_offset": 1203,
+      "key": "0x26c",
+      "type": 3,
+      "value": 0.04529999941587448,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ],
+      "symbol": "LMidState"
+    },
+    {
+      "payload_offset": 1213,
+      "key": "0x26d",
+      "type": 3,
+      "value": 0.5039370059967041,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ],
+      "symbol": "gain.1State"
+    },
+    {
+      "payload_offset": 1223,
+      "key": "0x26e",
+      "type": 3,
+      "value": 0.3446429967880249,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ],
+      "symbol": "HMidState"
+    },
+    {
+      "payload_offset": 1233,
+      "key": "0x1f",
+      "type": 3,
+      "value": 0.5039370059967041,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ],
+      "symbol": "GainState"
+    },
+    {
+      "payload_offset": 1243,
+      "key": "0x26f",
+      "type": 3,
+      "value": 0.22321400046348572,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ],
+      "symbol": "HiState"
+    },
+    {
+      "payload_offset": 1253,
+      "key": "0x270",
+      "type": 3,
+      "value": 0.5039370059967041,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ],
+      "symbol": "gain.2State"
+    },
+    {
+      "payload_offset": 1263,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc",
+        "PostEQ"
+      ]
+    },
+    {
+      "payload_offset": 1269,
+      "key": "0x80000004",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": [
+        "GuitarProc"
+      ]
+    },
+    {
+      "payload_offset": 1275,
+      "key": "0x80000002",
+      "type": 0,
+      "value": null,
+      "section": "GTRT",
+      "block_path": []
+    }
+  ],
+  "limit": "Stored preset state does not prove runtime writable support or preservation of physical knob telemetry after disabling Amp."
+}

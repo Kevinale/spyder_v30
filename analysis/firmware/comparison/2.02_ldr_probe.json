@@ -1,0 +1,61 @@
+{
+  "sha256": "273696a7715413625a7cb7ed6c05fe8b1c91118ec5145f5bc4f980b0f001af8f",
+  "hypothesis": "Same bounded generic Blackfin header hypothesis used for 2.05; not exhaustive BF707 validation.",
+  "results": [
+    {
+      "transform": "identity",
+      "header_candidates": 8,
+      "multi_block_candidates": []
+    },
+    {
+      "transform": "xor_ff",
+      "header_candidates": 12,
+      "multi_block_candidates": []
+    },
+    {
+      "transform": "reverse_bits_in_each_byte",
+      "header_candidates": 10,
+      "multi_block_candidates": []
+    },
+    {
+      "transform": "reverse_bytes_in_2_byte_words",
+      "header_candidates": 7,
+      "multi_block_candidates": []
+    },
+    {
+      "transform": "reverse_bytes_in_4_byte_words",
+      "header_candidates": 10,
+      "multi_block_candidates": []
+    },
+    {
+      "transform": "reverse_bytes_in_6_byte_words",
+      "header_candidates": 10,
+      "multi_block_candidates": []
+    },
+    {
+      "transform": "reverse_bytes_in_8_byte_words",
+      "header_candidates": 5,
+      "multi_block_candidates": []
+    },
+    {
+      "transform": "rotate_each_byte_left_1",
+      "header_candidates": 16,
+      "multi_block_candidates": []
+    },
+    {
+      "transform": "rotate_each_byte_left_2",
+      "header_candidates": 10,
+      "multi_block_candidates": []
+    },
+    {
+      "transform": "rotate_each_byte_left_3",
+      "header_candidates": 9,
+      "multi_block_candidates": []
+    },
+    {
+      "transform": "rotate_each_byte_left_4",
+      "header_candidates": 15,
+      "multi_block_candidates": []
+    }
+  ]
+}

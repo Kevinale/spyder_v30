@@ -1,0 +1,56 @@
+{
+  "warning": "Boundaries subsequently corroborated by constructor/destructor object assignments; see monitor_gain_constructors.txt",
+  "rows": [
+    {
+      "candidate": "0x14003abf0",
+      "set": "0x140004680",
+      "get": "0x140004680"
+    },
+    {
+      "candidate": "0x14003b098",
+      "set": "0x140004680",
+      "get": "0x140004680"
+    },
+    {
+      "candidate": "0x14003b558",
+      "set": "0x140004680",
+      "get": "0x140004680"
+    },
+    {
+      "candidate": "0x14003ba20",
+      "set": "0x140004680",
+      "get": "0x140004680"
+    },
+    {
+      "candidate": "0x14003bf30",
+      "set": "0x140004680",
+      "get": "0x140004680"
+    },
+    {
+      "candidate": "0x14003c3c8",
+      "set": "0x140004680",
+      "get": "0x140004680"
+    },
+    {
+      "candidate": "0x14003c890",
+      "set": "0x140004680",
+      "get": "0x140004680"
+    },
+    {
+      "candidate": "0x14003cd60",
+      "set": "0x140004680",
+      "get": "0x140004680"
+    },
+    {
+      "candidate": "0x14003d480",
+      "set": "0x140004680",
+      "get": "0x140004680"
+    },
+    {
+      "candidate": "0x14003d810",
+      "set": "0x140004680",
+      "get": "0x140004680"
+    }
+  ],
+  "result": "All ten tables route both slots to FUN_140004680 returning STATUS_INVALID_DEVICE_REQUEST"
+}

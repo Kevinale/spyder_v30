@@ -1,0 +1,1015 @@
+0x0000004d	ascii	!This program cannot be run in DOS mode.
+0x000001f8	ascii	.text
+0x0000021f	ascii	h.rdata
+0x00000247	ascii	H.data
+0x00000270	ascii	.pdata
+0x00000297	ascii	HPAGE
+0x000002bf	ascii	`INIT
+0x000002e7	ascii	b.rsrc
+0x0000030f	ascii	B.reloc
+0x000004fb	ascii	(|$0D
+0x00000501	ascii	(D$ H
+0x00000529	ascii	x AVH
+0x00000577	ascii	)l$0E
+0x000006ff	ascii	(t$ L
+0x000007ef	ascii	WATAUAVAWH
+0x00000a1d	ascii	A_A^A]A\_
+0x00000ae7	ascii	SUVWATAUAVAWH
+0x00000cc2	ascii	(t$0+
+0x00000cc9	ascii	(|$ D
+0x00000cec	ascii	HA_A^A]A\_^][
+0x00000d0d	ascii	x AVH
+0x00000dbf	ascii	D$ lD
+0x00000e78	ascii	(t$0H
+0x00000e93	ascii	WATAUAVAWH
+0x000012a3	ascii	0A_A^A]A\_
+0x00001651	ascii	x ATAVAWH
+0x00001674	ascii	tX9y rSH
+0x000016e7	ascii	 A_A^A\
+0x000016ff	ascii	WAVAWH
+0x0000171e	ascii	tb9q r]H
+0x00001773	ascii	O0)w 
+0x00001794	ascii	 A_A^_
+0x000017af	ascii	WAVAWH
+0x0000187a	ascii	 A_A^_
+0x000018ff	ascii	WAVAWH
+0x0000198d	ascii	 A_A^_
+0x000019af	ascii	WAVAWH
+0x00001a41	ascii	 A_A^_
+0x00001a61	ascii	x AVH
+0x00001dcf	ascii	WAVAWH
+0x00001eb5	ascii	 A_A^_
+0x00001ecf	ascii	WAVAWH
+0x00001f4d	ascii	 A_A^_
+0x000022f6	ascii	t?E;S
+0x000028bf	ascii	WAUAWH
+0x00002a08	ascii	@A_A]_
+0x00002a1f	ascii	WAUAWH
+0x00002b68	ascii	@A_A]_
+0x00002bff	ascii	WATAUAVAWH
+0x00002d9f	ascii	0A_A^A]A\_
+0x00002e9d	ascii	p WATAUAVAWH
+0x00003429	ascii	A_A^A]A\_
+0x000035cc	ascii	t$ WATAVH
+0x0000366a	ascii	l$XE3
+0x000038e8	ascii	L$`H3
+0x00003907	ascii	A^A\_
+0x00004441	ascii	x AVAWM
+0x000044fb	ascii	|$0A_A^
+0x00004523	ascii	WATAUAVAWH
+0x00004b03	ascii	A_A^A]A\_
+0x00004d95	ascii	x UATAUAVAWH
+0x0000558f	ascii	A_A^A]A\]
+0x00005685	ascii	p AWH
+0x00005825	ascii	p AWH
+0x00005ba1	ascii	x ATH
+0x00005d0a	ascii	VWATAVAWH
+0x00005e4a	ascii	A_A^A\_^
+0x00005e72	ascii	D$HE3
+0x00005ed0	ascii	D$HE3
+0x00006578	ascii	L652H
+0x000065cf	ascii	WAUAWH
+0x00006718	ascii	@A_A]_
+0x0000672f	ascii	WAUAWH
+0x00006878	ascii	@A_A]_
+0x000068cd	ascii	p WATAUAVAWH
+0x00006b87	ascii	A_A^A]A\_
+0x00006baf	ascii	WATAUAVAWH
+0x00006d15	ascii	0A_A^A]A\_
+0x0000700d	ascii	p WATAUAVAWH
+0x00007599	ascii	A_A^A]A\_
+0x00007683	ascii	L$0H3
+0x0000769e	ascii	UATAUAVAWH
+0x00007943	ascii	A_A^A]A\]
+0x0000795c	ascii	d$ UAVAWH
+0x00007c17	ascii	@A_A^]
+0x00007c2c	ascii	t$ WATAVH
+0x00007cca	ascii	l$XE3
+0x00007f62	ascii	L$`H3
+0x00007f81	ascii	A^A\_
+0x00008451	ascii	x AVAWM
+0x00008509	ascii	|$0A_A^
+0x00008521	ascii	x UATAUAVAWH
+0x00008d00	ascii	A_A^A]A\]
+0x00008d1f	ascii	WATAUAVAWH
+0x00008fb8	ascii	0A_A^A]A\_
+0x00008fdf	ascii	WATAUAVAWH
+0x000091d6	ascii	L652E
+0x000091f0	ascii	D$ E3
+0x000093c3	ascii	A_A^A]A\_
+0x0000952a	ascii	UVWATAUAVAWH
+0x00009d28	ascii	PA_A^A]A\_^]
+0x00009d56	ascii	s WATAUAVAWH
+0x00009fd3	ascii	A_A^A]A\_
+0x0000a171	ascii	x AWH
+0x0000a5ae	ascii	L$0H3
+0x0000a5ce	ascii	UWAUAVAWH
+0x0000abb0	ascii	A_A^A]_]
+0x0000ad09	ascii	p AWH
+0x0000aff1	ascii	x ATH
+0x0000b15c	ascii	t$ WATAUAVAWH
+0x0000b3df	ascii	A_A^A]A\_
+0x0000b418	ascii	D$HE3
+0x0000b68f	ascii	L$ WH
+0x0000b92f	ascii	WAUAWH
+0x0000ba78	ascii	@A_A]_
+0x0000ba8f	ascii	WAUAWH
+0x0000bbd8	ascii	@A_A]_
+0x0000bc2f	ascii	WATAUAVAWH
+0x0000bdcf	ascii	0A_A^A]A\_
+0x0000c15d	ascii	p WATAUAVAWH
+0x0000c6e9	ascii	A_A^A]A\_
+0x0000c857	ascii	L$(H3
+0x0000c9d9	ascii	L$(H3
+0x0000cb5c	ascii	t$ WATAUAVAWH
+0x0000cc19	ascii	t$hE3
+0x0000cf63	ascii	L$pH3
+0x0000cf85	ascii	A_A^A]A\_
+0x0000cfa1	ascii	x AVH
+0x0000d4b9	ascii	x UATAUAVAWH
+0x0000dc21	ascii	A_A^A]A\]
+0x0000dc4a	ascii	UVWATAUAVAWH
+0x0000e728	ascii	PA_A^A]A\_^]
+0x0000e751	ascii	x AVH
+0x0000eac2	ascii	UWAUAVAWH
+0x0000f09a	ascii	A_A^A]_]
+0x0000f1a5	ascii	p AWH
+0x0000f371	ascii	x ATH
+0x0000f4da	ascii	VWATAVAWH
+0x0000f626	ascii	A_A^A\_^
+0x0000f65c	ascii	D$HE3
+0x0000fa01	ascii	x AVH
+0x000102de	ascii	UWAWH
+0x000103d5	ascii	T$(E3
+0x00010529	ascii	K UVWATAUAVAWH
+0x00010845	ascii	D$HH;
+0x00010bd6	ascii	PA_A^A]A\_^]
+0x00010be4	ascii	@SUVWATAUAVAWH
+0x00010d4c	ascii	D$HH)E(H
+0x00011078	ascii	L$PH3
+0x00011086	ascii	hA_A^A]A\_^][
+0x0001115f	ascii	WATAWH
+0x00011202	ascii	D$0Hc
+0x000113c0	ascii	A_A\_
+0x0001141f	ascii	l$ VWAVH
+0x000114e5	ascii	D$0L;
+0x000116fc	ascii	L$XH3
+0x0001182c	ascii	@USVWATAUAVAWH
+0x00011c36	ascii	HA_A^A]A\_^[]
+0x00011c46	ascii	\$ UVWATAUAVAWH
+0x00011c8b	ascii	H!uPD
+0x000120b7	ascii	@A_A^A]A\_^]
+0x000120c9	ascii	UVWATAUAVAWH
+0x00012779	ascii	PA_A^A]A\_^]
+0x000128c5	ascii	UVWATAUAVAWH
+0x00012a2b	ascii	VUUUD
+0x00012b2c	ascii	u]D8x
+0x00012ed5	ascii	PA_A^A]A\_^]
+0x00012eee	ascii	VWAVH
+0x0001301b	ascii	0A^_^
+0x0001302e	ascii	VWAVH
+0x0001315b	ascii	0A^_^
+0x0001339f	ascii	WAUAWH
+0x000134e8	ascii	@A_A]_
+0x000134ff	ascii	WAUAWH
+0x00013648	ascii	@A_A]_
+0x0001369f	ascii	WATAUAVAWH
+0x00013805	ascii	0A_A^A]A\_
+0x0001394d	ascii	p WATAUAVAWH
+0x00013ed9	ascii	A_A^A]A\_
+0x00013fc3	ascii	L$0H3
+0x00013fde	ascii	UATAUAVAWH
+0x00014281	ascii	A_A^A]A\]
+0x0001429a	ascii	WAVAWH
+0x000144c7	ascii	@A_A^_
+0x000144dc	ascii	t$ WATAVH
+0x0001457a	ascii	l$XE3
+0x00014812	ascii	L$`H3
+0x00014831	ascii	A^A\_
+0x00014ca9	ascii	x UATAUAVAWH
+0x00015488	ascii	A_A^A]A\]
+0x000154af	ascii	WATAUAVAWH
+0x00015748	ascii	0A_A^A]A\_
+0x0001576a	ascii	UVWATAUAVAWH
+0x00015f68	ascii	PA_A^A]A\_^]
+0x000161e2	ascii	UWAUAVAWH
+0x000167ba	ascii	A_A^A]_]
+0x000168c5	ascii	p AWH
+0x00016a91	ascii	x ATH
+0x00016bfc	ascii	t$ WATAUAVAWH
+0x00016e82	ascii	A_A^A]A\_
+0x00016eb8	ascii	D$HE3
+0x0001705f	ascii	WAUAWH
+0x000171a8	ascii	@A_A]_
+0x000171bf	ascii	WAUAWH
+0x00017308	ascii	@A_A]_
+0x0001735f	ascii	WATAUAVAWH
+0x000174ff	ascii	0A_A^A]A\_
+0x0001781d	ascii	p WATAUAVAWH
+0x00017da9	ascii	A_A^A]A\_
+0x00017f17	ascii	L$(H3
+0x00018097	ascii	L$(H3
+0x0001821c	ascii	t$ WATAUAVAWH
+0x000182d9	ascii	t$hE3
+0x00018623	ascii	L$pH3
+0x00018645	ascii	A_A^A]A\_
+0x00018661	ascii	x AVH
+0x00018b79	ascii	x UATAUAVAWH
+0x0001932e	ascii	A_A^A]A\]
+0x0001934a	ascii	UVWATAUAVAWH
+0x00019b1c	ascii	PA_A^A]A\_^]
+0x00019b41	ascii	x AVH
+0x00019eb2	ascii	UWAUAVAWH
+0x0001a48a	ascii	A_A^A]_]
+0x0001a595	ascii	p AWH
+0x0001a751	ascii	x ATH
+0x0001a8ba	ascii	VWATAVAWH
+0x0001aa03	ascii	A_A^A\_^
+0x0001aa38	ascii	D$HE3
+0x0001abef	ascii	WAUAWH
+0x0001ad38	ascii	@A_A]_
+0x0001ad4f	ascii	WAUAWH
+0x0001ae98	ascii	@A_A]_
+0x0001b1ed	ascii	p WATAUAVAWH
+0x0001b73d	ascii	A_A^A]A\_
+0x0001b8ac	ascii	t$ WATAUAVAWH
+0x0001b969	ascii	t$hE3
+0x0001bcb3	ascii	L$pH3
+0x0001bcd5	ascii	A_A^A]A\_
+0x0001bcef	ascii	WAVAWH
+0x0001c2f8	ascii	@A_A^_
+0x0001c3b9	ascii	x UATAUAVAWH
+0x0001cc5c	ascii	A_A^A]A\]
+0x0001cc7f	ascii	WATAUAVAWH
+0x0001cf18	ascii	0A_A^A]A\_
+0x0001cf3f	ascii	UVWATAUAVAWH
+0x0001d560	ascii	PA_A^A]A\_^]
+0x0001d581	ascii	x AVH
+0x0001d809	ascii	UVWAUAVH
+0x0001db04	ascii	@A^A]_^]
+0x0001dce6	ascii	UWAUAVAWH
+0x0001e2bf	ascii	A_A^A]_]
+0x0001e419	ascii	p AWH
+0x0001e701	ascii	x ATH
+0x0001e86a	ascii	VWATAVAWH
+0x0001e9c3	ascii	A_A^A\_^
+0x0001e9f8	ascii	D$HE3
+0x0001ebe0	ascii	@USVWATH
+0x0001eee1	ascii	0A\_^[]
+0x0001f53f	ascii	UATAUAVAWH
+0x0001f9b0	ascii	0A_A^A]A\]
+0x0001fa48	ascii	T$hE3
+0x0001fbaa	ascii	WATAVH
+0x0001fd34	ascii	0A^A\_
+0x0001fd51	ascii	p AWH
+0x0002001f	ascii	UATAUAVAWH
+0x00020756	ascii	A_A^A]A\]
+0x000207ca	ascii	|$xL;
+0x00020af9	ascii	L$(H3
+0x00020cab	ascii	VWAUH
+0x00020f39	ascii	0A]_^
+0x000212db	ascii	VWAVH
+0x0002153a	ascii	0A^_^
+0x00021761	ascii	x AVH
+0x00021fbf	ascii	T$@E3
+0x00021ff5	ascii	VWAWH
+0x000221ec	ascii	0A__^
+0x000222df	ascii	WATAUAVAWH
+0x0002252c	ascii	0A_A^A]A\_
+0x000225e5	ascii	L$(H3
+0x000226af	ascii	WAVAWH
+0x0002289d	ascii	@A_A^_
+0x00022d4f	ascii	UATAUAVAWH
+0x00023354	ascii	A_A^A]A\]
+0x00023505	ascii	UVWATAUAVAWH
+0x0002362d	ascii	L$0E3
+0x0002388e	ascii	A_A^A]A\_^]
+0x000238a1	ascii	UVWAVAWH
+0x00023b05	ascii	@A_A^_^]
+0x00024557	ascii	|$ UH
+0x000246ef	ascii	UATAUAVAWH
+0x00024b43	ascii	A_A^A]A\]
+0x00024b55	ascii	UVWATAUAVAWH
+0x00024dbf	ascii	PA_A^A]A\_^]
+0x0002552d	ascii	x AVH
+0x0002555a	ascii	D9pHt
+0x000256a1	ascii	x ATAVAWH
+0x00025924	ascii	@A_A^A\
+0x00025960	ascii	D$@`y
+0x00025a87	ascii	t$ WH
+0x00025af9	ascii	D$@E3
+0x00025e1c	ascii	t$ WATAUAVAWH
+0x000261a3	ascii	L$hH3
+0x000261c2	ascii	A_A^A]A\_
+0x000263f9	ascii	)L$PH
+0x000264e3	ascii	WAVAWH
+0x00026694	ascii	A_A^_
+0x000266ab	ascii	WAVAWH
+0x0002685d	ascii	A_A^_
+0x00026883	ascii	VWAUAVAWH
+0x00026a7f	ascii	J,D9z
+0x00026e92	ascii	A_A^A]_^
+0x0002710a	ascii	VWAWH
+0x00027404	ascii	0A__^
+0x000275ba	ascii	UVWATAUAVAWH
+0x00027709	ascii	L$HE;
+0x00027b54	ascii	pA_A^A]A\_^]
+0x00027b7a	ascii	UVWATAUAVAWH
+0x00027e8e	ascii	D$HE;
+0x000281b5	ascii	L$HE3
+0x0002848b	ascii	pA_A^A]A\_^]
+0x00028721	ascii	x AVH
+0x000287c1	ascii	x AVH
+0x00028adf	ascii	WAVAWH
+0x00028c71	ascii	0A_A^_
+0x00028eef	ascii	H9Y(t5
+0x00029015	ascii	UVWATAUAVAWH
+0x00029200	ascii	D$tAi
+0x000296cb	ascii	9sxvU
+0x0002971e	ascii	P(;sxr
+0x0002974a	ascii	A_A^A]A\_^]
+0x000297bf	ascii	A,9A(t
+0x00029b51	ascii	x AVH
+0x00029dfe	ascii	,S8@8{
+0x00029e8b	ascii	zFuDH
+0x00029f4a	ascii	)L$`H
+0x0002a07c	ascii	w,@8{
+0x0002a134	ascii	w,@8s
+0x0002a316	ascii	L$ SH
+0x0002a4fb	ascii	WAVAWH
+0x0002a7f1	ascii	0A_A^_
+0x0002a952	ascii	)t$0H
+0x0002a98c	ascii	(t$0H
+0x0002a9d1	ascii	x AVH
+0x0002aa24	ascii	L652H
+0x0002ab8d	ascii	s WATAUAVAWH
+0x0002abbc	ascii	)t$pH
+0x0002abd9	ascii	)|$`E
+0x0002b11d	ascii	(t$pL
+0x0002b13b	ascii	(|$`I
+0x0002b142	ascii	A_A^A]A\_
+0x0002b155	ascii	X UVWAVAWH
+0x0002b358	ascii	A_A^_^]
+0x0002b37a	ascii	p AWH
+0x0002b57f	ascii	WATAUAVAWH
+0x0002b6c7	ascii	0A_A^A]A\_
+0x0002b6ef	ascii	WAVAWH
+0x0002b841	ascii	0A_A^_
+0x0002bf13	ascii	SVWATAUAVAWH
+0x0002c36c	ascii	`A_A^A]A\_^[
+0x0002c382	ascii	\$ UVWH
+0x0002c449	ascii	L$XH3
+0x0002c62c	ascii	t$ WH
+0x0002c931	ascii	x AVH
+0x0002cb25	ascii	L$(H3
+0x0002cb5a	ascii	UWAUAVAWH
+0x0002cdc6	ascii	t$0E3
+0x0002d073	ascii	A_A^A]_]
+0x0002d193	ascii	L$ E3
+0x0002d25f	ascii	WAVAWH
+0x0002d4c2	ascii	A_A^_
+0x0002d921	ascii	x AVM
+0x0002d9c4	ascii	|$(A^
+0x0002da00	ascii	@USWATAUAVH
+0x0002dc3d	ascii	L652D
+0x0002dc86	ascii	D$ E3
+0x0002dd53	ascii	L652H
+0x0002e102	ascii	A^A]A\_[]
+0x0002e70b	ascii	D$8`y
+0x0002e80e	ascii	L$@H3
+0x0002e8af	ascii	WATAVH
+0x0002eae3	ascii	0A^A\_
+0x0002f77a	ascii	VWATAUAWH
+0x0002fa43	ascii	A_A]A\_^
+0x0002fcb0	ascii	L$PH3
+0x0002fcd7	ascii	t$ UWAVH
+0x0003013a	ascii	L$ SH
+0x0003053f	ascii	WAUAWH
+0x00030688	ascii	@A_A]_
+0x0003069f	ascii	WAUAWH
+0x000307e8	ascii	@A_A]_
+0x00030b3d	ascii	p WATAUAVAWH
+0x0003108d	ascii	A_A^A]A\_
+0x000311fc	ascii	t$ WATAUAVAWH
+0x000312b9	ascii	t$hE3
+0x00031603	ascii	L$pH3
+0x00031625	ascii	A_A^A]A\_
+0x0003163f	ascii	WAVAWH
+0x00031c48	ascii	@A_A^_
+0x00031d09	ascii	x UATAUAVAWH
+0x000325ac	ascii	A_A^A]A\]
+0x000325cf	ascii	WATAUAVAWH
+0x00032868	ascii	0A_A^A]A\_
+0x0003288f	ascii	UVWATAUAVAWH
+0x00032eb0	ascii	PA_A^A]A\_^]
+0x00032ed1	ascii	x AVH
+0x00033159	ascii	UVWAUAVH
+0x00033454	ascii	@A^A]_^]
+0x00033636	ascii	UWAUAVAWH
+0x00033c0f	ascii	A_A^A]_]
+0x00033d69	ascii	p AWH
+0x00033f81	ascii	x ATH
+0x000340ea	ascii	VWATAVAWH
+0x00034243	ascii	A_A^A\_^
+0x00034278	ascii	D$HE3
+0x0003495d	ascii	x AVH
+0x00034a5b	ascii	@8h0t&H
+0x00034ba9	ascii	x AVH
+0x00034deb	ascii	l$ VWATAUAVH
+0x0003501e	ascii	L$`H3
+0x00035039	ascii	A^A]A\_^
+0x000351fd	ascii	^8U)zj
+0x000355c2	ascii	^8U)zj
+0x0003584d	ascii	(t$PH
+0x0003586a	ascii	ATAVAWH
+0x00035b16	ascii	 A_A^A\
+0x00035c5f	ascii	USVWAVH
+0x00035d93	ascii	A^_^[]
+0x00035ebe	ascii	(t$`H
+0x00035ef2	ascii	\$ UVWH
+0x0003610d	ascii	t$Xt)
+0x000362ab	ascii	t$ WH
+0x000364ba	ascii	|$PM3
+0x0003666f	ascii	VD$pf
+0x000366a1	ascii	fffffff
+0x000366c1	ascii	fffffff
+0x00036862	ascii	ffffff
+0x000369b1	ascii	VT$pD
+0x00036a81	ascii	fffffff
+0x00036b00	ascii	uNffffff
+0x00036b2f	ascii	L$PfA
+0x00036b41	ascii	fffffff
+0x00036b8c	ascii	L$PfA
+0x00036bb9	ascii	L$PfA
+0x00036bd2	ascii	ffffff
+0x00036bf4	ascii	L$PfA
+0x00036ca1	ascii	fffffff
+0x00036e12	ascii	-fffffff
+0x00036e22	ascii	fffffff
+0x00036e31	ascii	fffffff
+0x00036eaa	ascii	fffffff
+0x00036ed1	ascii	.fffffff
+0x00036ee1	ascii	fffffff
+0x00036ef0	ascii	fffffff
+0x00037010	ascii	false
+0x00037040	utf16le	AsioPreferredBufferSize
+0x00037070	utf16le	AsioBitDepth
+0x00037090	utf16le	AsioSampleRate
+0x000370b0	utf16le	AsioDebugFlags
+0x000370d0	utf16le	AsioSilenceHead
+0x000370f0	utf16le	InputLatencyAdjustment
+0x00037120	utf16le	OutputLatencyAdjustment
+0x00037150	ascii	Unknown
+0x00037160	ascii	AVSM_AUDIO_CAPTURE_PIN
+0x00037180	ascii	AVSM_AUDIO_RENDER_PIN
+0x000371a0	ascii	AVSM_MIDI_CAPTURE_PIN
+0x000371c0	ascii	AVSM_MIDI_RENDER_PIN
+0x000371e0	utf16le	OutputGateCount
+0x00037200	utf16le	Defeat2ChannelOutputReposition
+0x00037240	utf16le	PacketsPerQuantum
+0x00037270	utf16le	LateInterrupts
+0x00037290	utf16le	VeryLateInterrupts
+0x000372c0	utf16le	ResetRequests
+0x000372e0	utf16le	MeasuredMaxIsocInterruptTime
+0x00037320	utf16le	outChannelLevels00
+0x00037350	utf16le	outChannelLevels01
+0x00037380	utf16le	outChannelLevels02
+0x000373b0	utf16le	outChannelLevels03
+0x000373e0	utf16le	outChannelLevels04
+0x00037410	utf16le	outChannelLevels05
+0x00037440	utf16le	outChannelLevels06
+0x00037470	utf16le	outChannelLevels07
+0x000374a0	utf16le	outChannelLevels08
+0x000374d0	utf16le	outChannelLevels09
+0x00037500	utf16le	outChannelLevels10
+0x00037530	utf16le	outChannelLevels11
+0x00037560	utf16le	outChannelLevels12
+0x00037590	utf16le	outChannelLevels13
+0x000375c0	utf16le	outChannelLevels14
+0x000375f0	utf16le	outChannelLevels15
+0x00037620	utf16le	outChannelLevels16
+0x00037650	utf16le	outChannelLevels17
+0x00037680	utf16le	outChannelLevels18
+0x000376b0	utf16le	outChannelLevels19
+0x000376e0	utf16le	outChannelMutes00
+0x00037710	utf16le	outChannelMutes01
+0x00037740	utf16le	outChannelMutes02
+0x00037770	utf16le	outChannelMutes03
+0x000377a0	utf16le	outChannelMutes04
+0x000377d0	utf16le	outChannelMutes05
+0x00037800	utf16le	outChannelMutes06
+0x00037830	utf16le	outChannelMutes07
+0x00037860	utf16le	outChannelMutes08
+0x00037890	utf16le	outChannelMutes09
+0x000378c0	utf16le	outChannelMutes10
+0x000378f0	utf16le	outChannelMutes11
+0x00037920	utf16le	outChannelMutes12
+0x00037950	utf16le	outChannelMutes13
+0x00037980	utf16le	outChannelMutes14
+0x000379b0	utf16le	outChannelMutes15
+0x000379e0	utf16le	outChannelMutes16
+0x00037a10	utf16le	outChannelMutes17
+0x00037a40	utf16le	outChannelMutes18
+0x00037a70	utf16le	outChannelMutes19
+0x00037aa0	utf16le	SawStep
+0x00037ab0	utf16le	DebugFlags
+0x00037ad0	utf16le	holdOffPeriod
+0x00037af0	utf16le	holdOffMs
+0x00037b10	ascii	Unknown client
+0x00037b20	ascii	AUDIO_CLIENT_ASIO
+0x00037b40	ascii	AUDIO_CLIENT_AVSTREAM
+0x00037b60	ascii	AUDIO_CLIENT_FAUX
+0x00037b80	ascii	Unknown state
+0x00037b90	ascii	StreamIdle
+0x00037ba0	ascii	StreamStarting
+0x00037bb0	ascii	StreamStreaming
+0x00037bc0	ascii	StreamFailure
+0x00037bd0	ascii	Unknown message
+0x00037be0	ascii	AVSM_SET_FORMAT
+0x00037bf0	ascii	AVSM_GET_SHARED_BUFFER
+0x00037c10	ascii	AVSM_SHARED_BUFFER_READY
+0x00037c30	ascii	AVSM_START
+0x00037c40	ascii	AVSM_STOP
+0x00037c50	ascii	AVSM_GET_PID
+0x00037c60	ascii	IM_CALLBACK_L6SPSI
+0x00037c80	ascii	IM_CALLBACK_TERMINATE
+0x00037ca0	ascii	IM_CALLBACK_DEBUG
+0x00037cc0	ascii	IM_ASIO_CALLBACK
+0x00037ce0	ascii	IM_CALLBACK_FROM_VARIAX
+0x00037d00	ascii	IM_CALLBACK_L6LSI
+0x00037d20	ascii	IM_BRANDI_MMREAD
+0x00037d40	ascii	IM_BRANDI_MMWRITE
+0x00037d60	ascii	IM_BRANDI_GETSTATUS
+0x00037d80	ascii	IM_BRANDI_GETVERSION
+0x00037da0	ascii	IM_BRANDI_GETDECRYPTKEY
+0x00037dc0	ascii	IM_BRANDI_GETSHARCFWVERSION
+0x00037de0	ascii	IM_BRANDI_RAWUSB
+0x00037e00	ascii	IM_USB_CONTROL_PACKET
+0x00037e20	ascii	IM_GET_DRIVER_VERSION
+0x00037e40	ascii	IM_AUDIO_GET_FORMAT
+0x00037e60	ascii	IM_AUDIO_GET_PPQ
+0x00037e80	ascii	IM_AUDIO_SET_PPQ
+0x00037ea0	ascii	IM_AUDIO_GET_DEFAULT_FORMAT
+0x00037ec0	ascii	IM_AUDIO_SET_DEFAULT_FORMAT
+0x00037ee0	ascii	IM_AUDIO_SET_FORCE_FORMAT
+0x00037f00	ascii	IM_AUDIO_GET_FORCE_FORMAT
+0x00037f20	ascii	IM_ASIO_GET_CLIENT
+0x00037f40	ascii	IM_ASIO_GET_FORMAT
+0x00037f60	ascii	IM_ASIO_SET_FORMAT
+0x00037f80	ascii	IM_ASIO_GET_BUFFER_BOUNDS
+0x00037fa0	ascii	IM_ASIO_SET_PREFERRED_BUFFER_SIZE
+0x00037fd0	ascii	IM_ASIO_GET_LATENCIES
+0x00037ff0	ascii	IM_ASIO_GET_SHARED_BUFFER
+0x00038010	ascii	IM_ASIO_SHARED_BUFFER_READY
+0x00038030	ascii	IM_ASIO_START
+0x00038040	ascii	IM_ASIO_STOP
+0x00038050	ascii	IM_DEBUG_LOOPBACK
+0x00038070	ascii	IM_SIMULATE_CALLBACK
+0x00038090	ascii	IM_GENERIC_DEBUG
+0x000380b0	ascii	IM_GET_DRIVER_DASHBOARD
+0x000380d0	ascii	IM_BLOCK_AUDIO
+0x000380e0	ascii	IM_HWCFG_SET_ON_BOARD_MONITOR_GAIN
+0x00038110	ascii	IM_HWCFG_GET_ON_BOARD_MONITOR_GAIN
+0x00038140	ascii	IM_HWCFG_GET_BSP_MTU
+0x00038160	ascii	IM_L6_SPSI
+0x00038170	ascii	IM_L6_VARIAX
+0x00038180	ascii	IM_L6_LSI
+0x00038190	ascii	IM_L6_BSP_RAW
+0x000381a0	ascii	Unknown DeviceControl
+0x000381c0	ascii	L6_IOCTL_MESSAGE
+0x000381e0	ascii	L6_IOCTL_DEV_CAPS
+0x00038200	ascii	L6_IOCTL_CALLBACK
+0x00038220	ascii	L6_IOCTL_GET_APP_CONTEXT
+0x00038240	ascii	L6_INTERNAL_IOCTL_MIDI_ACTIVATE
+0x00038260	ascii	L6_INTERNAL_IOCTL_MIDI_DEACTIVATE
+0x00038290	ascii	L6_INTERNAL_IOCTL_AVSTREAM_AUDIO_CAPTURE_THRESHOLD
+0x000382d0	ascii	L6_INTERNAL_IOCTL_AVSTREAM_AUDIO_RENDER_STREAMPOINTER
+0x00038310	ascii	L6_INTERNAL_IOCTL_MIDI_RENDER_STREAMPOINTER
+0x00038340	ascii	L6_INTERNAL_IOCTL_MIDI_RETRIEVE
+0x00038360	ascii	L6_INTERNAL_IOCTL_AVSTREAM_AUDIO_RENDER_GET_CHANNEL_PARAMETERS
+0x000383a0	ascii	L6_INTERNAL_IOCTL_AVSTREAM_AUDIO_RENDER_SET_CHANNEL_PARAMETERS
+0x000383e0	ascii	L6_INTERNAL_IOCTL_AVSTREAM_AUDIO_CAPTURE_GET_CHANNEL_PARAMETERS
+0x00038420	ascii	L6_INTERNAL_IOCTL_AVSTREAM_AUDIO_CAPTURE_SET_CHANNEL_PARAMETERS
+0x00038460	ascii	L6_USBLIB_IOCTL_GET_DEVICE_DESCRIPTOR
+0x00038490	ascii	L6_USBLIB_IOCTL_GET_DEVICE_STATUS
+0x00038ec8	ascii	unknown
+0x00038ed0	ascii	Miscellaneous function codes (future)
+0x00038ef8	ascii	Cable events (future)
+0x00038f10	ascii	2 byte System Common message
+0x00038f30	ascii	3 byte System Common message
+0x00038f50	ascii	SysEx start/continue
+0x00038f68	ascii	1 byte System Common message/SysEx ends with following 1 byte
+0x00038fa8	ascii	SysEx ends with following 2 bytes
+0x00038fd0	ascii	SysEx ends with following 3 bytes
+0x00038ff8	ascii	Note off
+0x00039008	ascii	Note on
+0x00039010	ascii	Poly keypress
+0x00039020	ascii	Control change
+0x00039030	ascii	Program change
+0x00039040	ascii	Channel pressure
+0x00039058	ascii	PitchBend change
+0x00039070	ascii	Single Byte
+0x00039080	ascii	DEVICE_CONTEXT
+0x00039090	ascii	FILE_CONTEXT
+0x000390a0	ascii	REQUEST_CONTEXT
+0x000390b0	ascii	ISOCH_CONTEXT
+0x000390d2	ascii	mC&`CA
+0x00039150	ascii	H_L'H
+0x0003a9b9	ascii	G~5[u
+0x0003b7ef	ascii	IGLOBAL_DATA
+0x0003b90b	ascii	gc:.7Oc
+0x0003ba63	ascii	,K%L>
+0x0003c2d8	utf16le	KmdfLibrary
+0x0003c2f0	ascii	DriverEntry failed 0x%x for driver %wZ
+0x0003c320	ascii	FxStubInitTypes: invalid driver image, the address of symbol __KMDF_TYPE_INIT_START 0x%p is greater than the address of symbol __KMDF_TYPE_INIT_END 0x%p, status 0x%x
+0x0003c3d0	ascii	FxStubInitTypes: WDF_OBJECT_CONTEXT_TYPE_INFO 0x%p, size 0x%x incorrect, expected 0x%x, status 0x%x
+0x0003c440	ascii	FxStubBindClasses: invalid driver image, the address of symbol __KMDF_CLASS_BIND_START 0x%p is greater than the address of symbol __KMDF_CLASS_BIND_END 0x%p, status 0x%x
+0x0003c4f0	ascii	FxStubBindClasses: invalid driver image.
+0x0003c519	ascii	Not enough space for WDF_CLASS_BIND_INFO.Size field.
+0x0003c550	utf16le	(null)
+0x0003c560	ascii	FxStubBindClasses: WDF_CLASS_BIND_INFO 0x%p, class %S, size 0x%x incorrect, expected 0x%Ix, status 0x%x
+0x0003c5d0	ascii	FxStubBindClasses: invalid driver image.
+0x0003c5f9	ascii	Not enough space for WDF_CLASS_BIND_INFO.
+0x0003c630	ascii	FxStubBindClasses: ClientBindClass %p, WDF_CLASS_BIND_INFO 0x%p, class %S, returned status 0x%x
+0x0003c6a0	ascii	FxStubBindClasses: VersionBindClass WDF_CLASS_BIND_INFO 0x%p, class %S, returned status 0x%x
+0x0003c767	ascii	?1/PUUU
+0x0003c777	ascii	?UUUUUU
+0x0003c938	ascii	RSDST
+0x0003c950	ascii	C:\b\SW-DW25-JOB1\build\Release\x64\driver2_5-windows.pdb
+0x0003c998	ascii	.text$mn
+0x0003c9ac	ascii	.text$mn$0
+0x0003c9c0	ascii	.text$mn$00
+0x0003c9d4	ascii	.text$mn$21
+0x0003c9e8	ascii	.text$s
+0x0003c9f8	ascii	.text$x
+0x0003ca08	ascii	.idata$5
+0x0003ca1c	ascii	.00cfg
+0x0003ca2c	ascii	.gfids
+0x0003ca3c	ascii	.rdata
+0x0003ca4c	ascii	.rdata$zzzdbg
+0x0003ca64	ascii	.xdata
+0x0003ca74	ascii	.data
+0x0003ca84	ascii	.data$00
+0x0003ca98	ascii	.kmdfclassbind$a
+0x0003cab4	ascii	.kmdfclassbind$c
+0x0003cad0	ascii	.kmdfclassbind$d
+0x0003caec	ascii	.kmdftypeinit$a
+0x0003cb04	ascii	.kmdftypeinit$c
+0x0003cb2c	ascii	.pdata
+0x0003cb4c	ascii	PAGE$s
+0x0003cb6c	ascii	.idata$2
+0x0003cb80	ascii	.idata$3
+0x0003cb94	ascii	.idata$4
+0x0003cba8	ascii	.idata$6
+0x0003cbbc	ascii	.rsrc$01
+0x0003cbd0	ascii	.rsrc$02
+0x0003e310	ascii	UUUUUU
+0x0003e44f	ascii	?+>^m
+0x0003e547	ascii	?kxG2)
+0x0003e5e7	ascii	?!5WOo
+0x0003e937	ascii	?:kP<
+0x0003e93f	ascii	?UUUUUU
+0x0003eba0	ascii	UUUUUU
+0x0003ebb0	ascii	UUUUUU
+0x0003ebff	ascii	?{Q}<
+0x0003ec0f	ascii	?8bunz8
+0x0003ecd7	ascii	?@En[vP
+0x00040c0c	ascii	t$ WATAUAVAWH
+0x00040ce4	ascii	D$0ubH
+0x00040e6e	ascii	A_A^A]A\_
+0x00040efc	ascii	t$ AWH
+0x00041035	ascii	L652H
+0x000412d3	ascii	L$PH3
+0x00041e1f	ascii	ATAVAWH
+0x00042606	ascii	0A_A^A\
+0x0004283a	ascii	WAVAWH
+0x00042a21	ascii	 A_A^_
+0x00042a30	ascii	@SVWATAUAVAWH
+0x00042b96	ascii	\$ E3
+0x00042bcf	ascii	\$ E3
+0x00042def	ascii	I9] u8H
+0x00042e2d	ascii	I9](u8H
+0x00042e6b	ascii	I9]0u8H
+0x00042ed3	ascii	PA_A^A]A\_^[
+0x00042ee0	utf16le	PsGetVersion
+0x00042f00	utf16le	WmiTraceMessage
+0x00042f20	utf16le	WmiQueryTraceInformation
+0x00042f60	utf16le	EtwRegisterClassicProvider
+0x00042fa0	utf16le	EtwUnregister
+0x00042fc0	ascii	WdfPowerDeviceInvalid
+0x00042fe0	ascii	WdfPowerDeviceD0
+0x00043000	ascii	WdfPowerDeviceD1
+0x00043020	ascii	WdfPowerDeviceD2
+0x00043040	ascii	WdfPowerDeviceD3
+0x00043060	ascii	WdfPowerDeviceD3Final
+0x00043080	ascii	WdfPowerDevicePrepareForHibernation
+0x000430b0	ascii	PowerDeviceMaximum
+0x000430d0	ascii	UnKnown Device Power State
+0x000430f0	utf16le	InterposerDevice
+0x000433c2	ascii	KeInitializeEvent
+0x000433d6	ascii	KeClearEvent
+0x000433e6	ascii	KeSetEvent
+0x000433f4	ascii	KeWaitForSingleObject
+0x0004340c	ascii	KeInitializeSpinLock
+0x00043424	ascii	KeAcquireSpinLockRaiseToDpc
+0x00043442	ascii	KeReleaseSpinLock
+0x00043456	ascii	KeInitializeTimer
+0x0004346a	ascii	KeCancelTimer
+0x0004347a	ascii	KeReadStateTimer
+0x0004348e	ascii	KeSetTimer
+0x0004349c	ascii	KeWaitForMultipleObjects
+0x000434b8	ascii	ExAllocatePool2
+0x000434ca	ascii	ExFreePoolWithTag
+0x000434de	ascii	PsCreateSystemThread
+0x000434f6	ascii	KeDelayExecutionThread
+0x00043510	ascii	PsTerminateSystemThread
+0x0004352a	ascii	ZwClose
+0x00043534	ascii	RtlInitUnicodeString
+0x0004354c	ascii	MmGetSystemRoutineAddress
+0x00043568	ascii	IoWMIRegistrationControl
+0x00043584	ascii	_purecall
+0x00043590	ascii	__C_specific_handler
+0x000435a8	ascii	MmBuildMdlForNonPagedPool
+0x000435c4	ascii	MmMapLockedPagesSpecifyCache
+0x000435e4	ascii	MmUnmapLockedPages
+0x000435fa	ascii	IoAllocateMdl
+0x0004360a	ascii	IoFreeMdl
+0x00043614	ascii	ntoskrnl.exe
+0x00043624	ascii	KeQueryPerformanceCounter
+0x00043640	ascii	KeStallExecutionProcessor
+0x0004365a	ascii	HAL.dll
+0x00043664	ascii	RtlCopyUnicodeString
+0x0004367c	ascii	DbgPrintEx
+0x0004368a	ascii	RtlRaiseException
+0x0004369e	ascii	WdfVersionBind
+0x000436b0	ascii	WdfVersionUnbind
+0x000436c4	ascii	WdfVersionBindClass
+0x000436da	ascii	WdfVersionUnbindClass
+0x000436f0	ascii	WDFLDR.SYS
+0x00043866	utf16le	VS_VERSION_INFO
+0x000438c2	utf16le	StringFileInfo
+0x000438e6	utf16le	040904b0
+0x000438fe	utf16le	CompanyName
+0x00043918	utf16le	Line 6
+0x0004392e	utf16le	FileDescription
+0x00043950	utf16le	Line 6 KMDF Driver 2_5
+0x00043986	utf16le	FileVersion
+0x000439a0	utf16le	1.99.0.1
+0x000439ba	utf16le	InternalName
+0x000439d4	utf16le	Driver2_5
+0x000439ee	utf16le	LegalCopyright
+0x00043a0e	utf16le	 Line 6. All rights reserved.
+0x00043a52	utf16le	OriginalFilename
+0x00043a74	utf16le	Driver2_5
+0x00043a8e	utf16le	ProductName
+0x00043aa8	utf16le	Driver2_5
+0x00043ac2	utf16le	ProductVersion
+0x00043ae0	utf16le	1.99.0.1
+0x00043afa	utf16le	VarFileInfo
+0x00043b1a	utf16le	Translation
+0x00044efe	ascii	7''W'[
+0x00045026	ascii	MlBQC
+0x0004504a	ascii	9le;b
+0x00045187	ascii	[cCi_
+0x000452fb	ascii	5=*[p9
+0x00045310	ascii	+Wdkn#@t
+0x00045569	ascii	081604
+0x00045575	ascii	-WDKTestCert svc-bamboo-bld,1330843118114132600
+0x000455a7	ascii	220923182622Z
+0x000455b6	ascii	320923000000Z081604
+0x000455cf	ascii	-WDKTestCert svc-bamboo-bld,1330843118114132600
+0x0004565a	ascii	4'W~r
+0x00045868	ascii	0L081604
+0x00045876	ascii	-WDKTestCert svc-bamboo-bld,133084311811413260
+0x00045928	ascii	dg@@_`
+0x000459c6	ascii	BCep~
+0x00045b47	ascii	Washington1
+0x00045b5c	ascii	Redmond1
+0x00045b6e	ascii	Microsoft Corporation1806
+0x00045b8d	ascii	/Microsoft Windows Third Party Component CA 20140
+0x00045bc1	ascii	230406191630Z
+0x00045bd0	ascii	240403191630Z0
+0x00045bf8	ascii	Washington1
+0x00045c0d	ascii	Redmond1
+0x00045c1f	ascii	Microsoft Corporation1;09
+0x00045c3e	ascii	2Microsoft Windows Hardware Compatibility Publisher0
+0x00045d46	ascii	bS;z1
+0x00045e06	ascii	Microsoft Corporation1
+0x00045e26	ascii	232147+5008830
+0x00045e5c	ascii	m0k0i
+0x00045e66	ascii	chttp://www.microsoft.com/pkiops/crl/Microsoft%20Windows%20Third%20Party%20Component%20CA%202014.crl0
+0x00045ed8	ascii	u0s0q
+0x00045ee8	ascii	ehttp://www.microsoft.com/pkiops/certs/Microsoft%20Windows%20Third%20Party%20Component%20CA%202014.crt0
+0x000460d5	ascii	IsQSy
+0x000461bc	ascii	Washington1
+0x000461d1	ascii	Redmond1
+0x000461e3	ascii	Microsoft Corporation1200
+0x00046202	ascii	)Microsoft Root Certificate Authority 20100
+0x00046230	ascii	141015203127Z
+0x0004623f	ascii	291015204127Z0
+0x00046267	ascii	Washington1
+0x0004627c	ascii	Redmond1
+0x0004628e	ascii	Microsoft Corporation1806
+0x000462ad	ascii	/Microsoft Windows Third Party Component CA 20140
+0x000463f8	ascii	=)x(0t
+0x0004643b	ascii	R'5s?
+0x0004645e	ascii	uHD3I
+0x0004656e	ascii	3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+0x00046604	ascii	O0M0K
+0x0004660e	ascii	Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+0x00046661	ascii	N0L0J
+0x00046671	ascii	>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+0x0004671b	ascii	iE'?s#2
+0x0004686c	ascii	w*Uu'
+0x00046890	ascii	UYd`3>.
+0x000468ed	ascii	Washington1
+0x00046902	ascii	Redmond1
+0x00046914	ascii	Microsoft Corporation1806
+0x00046933	ascii	/Microsoft Windows Third Party Component CA 2014
+0x00046a1e	utf16le	Line 
+0x00046a2c	ascii	(https://www.microsoft.com/en-us/windows 0
+0x00046c14	ascii	20240119165429.815Z0
+0x00046c4e	ascii	Washington1
+0x00046c63	ascii	Redmond1
+0x00046c75	ascii	Microsoft Corporation1%0#
+0x00046c95	ascii	Microsoft America Operations1'0%
+0x00046cbc	ascii	nShield TSS ESN:8900-05E0-D9471%0#
+0x00046ce5	ascii	Microsoft Time-Stamp Service
+0x00046d50	ascii	Washington1
+0x00046d65	ascii	Redmond1
+0x00046d77	ascii	Microsoft Corporation1&0$
+0x00046d97	ascii	Microsoft Time-Stamp PCA 20100
+0x00046db8	ascii	230525191224Z
+0x00046dc7	ascii	240201191224Z0
+0x00046def	ascii	Washington1
+0x00046e04	ascii	Redmond1
+0x00046e16	ascii	Microsoft Corporation1%0#
+0x00046e36	ascii	Microsoft America Operations1'0%
+0x00046e5d	ascii	nShield TSS ESN:8900-05E0-D9471%0#
+0x00046e86	ascii	Microsoft Time-Stamp Service0
+0x00046f1b	ascii	>^w<>
+0x00046fa2	ascii	^(q`G
+0x00047061	ascii	oo~HX
+0x00047118	ascii	X0V0T
+0x00047122	ascii	Nhttp://www.microsoft.com/pkiops/crl/Microsoft%20Time-Stamp%20PCA%202010(1).crl0l
+0x0004717e	ascii	`0^0\
+0x0004718e	ascii	Phttp://www.microsoft.com/pkiops/certs/Microsoft%20Time-Stamp%20PCA%202010(1).crt0
+0x00047314	ascii	H&So2e
+0x000473e3	ascii	!(>?A
+0x00047420	ascii	JGhGe
+0x00047475	ascii	Washington1
+0x0004748a	ascii	Redmond1
+0x0004749c	ascii	Microsoft Corporation1200
+0x000474bb	ascii	)Microsoft Root Certificate Authority 20100
+0x000474e9	ascii	210930182225Z
+0x000474f8	ascii	300930183225Z0|1
+0x0004751f	ascii	Washington1
+0x00047534	ascii	Redmond1
+0x00047546	ascii	Microsoft Corporation1&0$
+0x00047566	ascii	Microsoft Time-Stamp PCA 20100
+0x0004760a	ascii	q\Q17
+0x00047618	ascii	&S|9a
+0x00047747	ascii	!]_0t
+0x00047811	ascii	U0S0Q
+0x00047833	ascii	3http://www.microsoft.com/pkiops/Docs/Repository.htm0
+0x000478de	ascii	O0M0K
+0x000478e8	ascii	Ehttp://crl.microsoft.com/pki/crl/products/MicRooCerAut_2010-06-23.crl0Z
+0x0004793b	ascii	N0L0J
+0x0004794b	ascii	>http://www.microsoft.com/pki/certs/MicRooCerAut_2010-06-23.crt0
+0x000479b7	ascii	>NGdx
+0x000479e1	ascii	fg:SM
+0x00047a17	ascii	xSu$W
+0x00047a67	ascii	as.,k{n?,
+0x00047a84	ascii	J>f;O
+0x00047aeb	ascii	!TkjE
+0x00047bcd	ascii	Washington1
+0x00047be2	ascii	Redmond1
+0x00047bf4	ascii	Microsoft Corporation1%0#
+0x00047c14	ascii	Microsoft America Operations1'0%
+0x00047c3b	ascii	nShield TSS ESN:8900-05E0-D9471%0#
+0x00047c64	ascii	Microsoft Time-Stamp Service
+0x00047cc7	ascii	Washington1
+0x00047cdc	ascii	Redmond1
+0x00047cee	ascii	Microsoft Corporation1&0$
+0x00047d0e	ascii	Microsoft Time-Stamp PCA 20100
+0x00047d45	ascii	20240119154949Z
+0x00047d56	ascii	20240120154949Z0w0=
+0x00047d75	ascii	1/0-0
+0x00047db4	ascii	1(0&0
+0x00047f1a	ascii	Washington1
+0x00047f2f	ascii	Redmond1
+0x00047f41	ascii	Microsoft Corporation1&0$
+0x00047f61	ascii	Microsoft Time-Stamp PCA 2010
+0x00048053	ascii	Washington1
+0x00048068	ascii	Redmond1
+0x0004807a	ascii	Microsoft Corporation1&0$
+0x0004809a	ascii	Microsoft Time-Stamp PCA 2010
+0x000483d8	ascii	DigiCert Inc1
+0x000483ef	ascii	www.digicert.com1!0
+0x0004840a	ascii	DigiCert Trusted Root G40
+0x00048426	ascii	210429000000Z
+0x00048435	ascii	360428235959Z0i1
+0x0004845c	ascii	DigiCert, Inc.1A0?
+0x00048474	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+0x00048515	ascii	>Mp$d
+0x00048609	ascii	6*f(_
+0x00048665	ascii	[K]taM?
+0x0004868f	ascii	J>@G_
+0x000486ba	ascii	SA|X=G
+0x00048761	ascii	k0i0$
+0x00048772	ascii	http://ocsp.digicert.com0A
+0x00048797	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+0x000487d5	ascii	<0:08
+0x000487df	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+0x000489f6	ascii	jj@0HK4
+0x00048a8c	ascii	DigiCert, Inc.1A0?
+0x00048aa4	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+0x00048ae1	ascii	230519000000Z
+0x00048af0	ascii	250716235959Z0
+0x00048b28	ascii	California1
+0x00048b3d	ascii	Private Organization1
+0x00048b5c	ascii	14289031
+0x00048b7b	ascii	California1
+0x00048b90	ascii	Calabasas1"0 
+0x00048ba4	ascii	Yamaha Guitar Group, Inc.1"0 
+0x00048bc8	ascii	Yamaha Guitar Group, Inc.0
+0x00048c66	ascii	8n8X:n
+0x00048d4b	ascii	\geyh
+0x00048d96	ascii	BZP<l
+0x00048e89	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+0x00048ede	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0=
+0x00048f34	ascii	60402
+0x00048f50	ascii	http://www.digicert.com/CPS0
+0x00048f8c	ascii	http://ocsp.digicert.com0\
+0x00048fb1	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+0x00049028	ascii	j'[&.y
+0x0004910e	ascii	&RibOB3Y
+0x000491fc	ascii	s[[0E
+0x00049218	ascii	nK.v7i
+0x0004922c	ascii	0}0i1
+0x00049248	ascii	DigiCert, Inc.1A0?
+0x00049260	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+0x0004945a	ascii	;bEU1
+0x00049486	ascii	OcSjQS(6O
+0x0004960c	ascii	20240119155746Z
+0x00049667	ascii	DigiCert, Inc.1;09
+0x0004967f	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+0x000496b6	ascii	230714000000Z
+0x000496c5	ascii	341013235959Z0H1
+0x000496ec	ascii	DigiCert, Inc.1 0
+0x00049705	ascii	DigiCert Timestamp 20230
+0x000497dc	ascii	H-^Eu
+0x000499ea	ascii	S0Q0O
+0x000499f4	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+0x00049a5f	ascii	http://ocsp.digicert.com0X
+0x00049a84	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+0x00049b2b	ascii	a7hIw
+0x00049cc1	ascii	l2|X/gGe
+0x00049cff	ascii	(f*^[0
+0x00049d2d	ascii	DigiCert Inc1
+0x00049d44	ascii	www.digicert.com1!0
+0x00049d5f	ascii	DigiCert Trusted Root G40
+0x00049d7b	ascii	220323000000Z
+0x00049d8a	ascii	370322235959Z0c1
+0x00049db1	ascii	DigiCert, Inc.1;09
+0x00049dc9	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+0x00049e24	ascii	=rIQU
+0x00049ec8	ascii	!hn7!
+0x00049f27	ascii	{un'%
+0x00049f53	ascii	+Xt@(
+0x00049fa4	ascii	,W5y+
+0x0004a0b0	ascii	k0i0$
+0x0004a0c1	ascii	http://ocsp.digicert.com0A
+0x0004a0e6	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+0x0004a124	ascii	<0:08
+0x0004a12e	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+0x0004a1d8	ascii	 %41g
+0x0004a2a6	ascii	',=?k
+0x0004a3df	ascii	DigiCert Inc1
+0x0004a3f6	ascii	www.digicert.com1$0"
+0x0004a411	ascii	DigiCert Assured ID Root CA0
+0x0004a430	ascii	220801000000Z
+0x0004a43f	ascii	311109235959Z0b1
+0x0004a466	ascii	DigiCert Inc1
+0x0004a47d	ascii	www.digicert.com1!0
+0x0004a498	ascii	DigiCert Trusted Root G40
+0x0004a4d9	ascii	]J<0"0i3
+0x0004a5fb	ascii	v=Y]Bv
+0x0004a69f	ascii	|Lu?c
+0x0004a74c	ascii	m0k0$
+0x0004a75d	ascii	http://ocsp.digicert.com0C
+0x0004a782	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+0x0004a7c2	ascii	>0<0:
+0x0004a7cc	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+0x0004a8b4	ascii	5FjiT
+0x0004a8ff	ascii	~qj#k"
+0x0004a933	ascii	0w0c1
+0x0004a94f	ascii	DigiCert, Inc.1;09
+0x0004a967	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+0x0004a9eb	ascii	240119155746Z0+
+0x0004aa35	ascii	 I/rg
+0x0004aa64	ascii	/1(0&0$0"
+0x0004aa79	ascii	@WhA6o
+0x0004ac07	ascii	H+-F,
+0x0004ac38	ascii	zV~q}
+0x0004ac3f	ascii	/7jB6l

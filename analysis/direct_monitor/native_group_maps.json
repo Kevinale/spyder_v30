@@ -1,0 +1,302 @@
+{
+  "Parker": [
+    {
+      "entry_va": "0x1018e490",
+      "wire_group": "GuitarProc",
+      "preset_group": null,
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e49c",
+      "wire_group": "Gate",
+      "preset_group": "gate",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e4a8",
+      "wire_group": "VolumePedal",
+      "preset_group": "volume",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e4b4",
+      "wire_group": "Wah",
+      "preset_group": "wah",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e4c0",
+      "wire_group": "FX1",
+      "preset_group": "fx1",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e4cc",
+      "wire_group": "FX2",
+      "preset_group": "fx2",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e4d8",
+      "wire_group": "FX3",
+      "preset_group": "fx3",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e4e4",
+      "wire_group": "FX4",
+      "preset_group": "reverb",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e4f0",
+      "wire_group": "Amp",
+      "preset_group": "amp",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e4fc",
+      "wire_group": "StudioCab",
+      "preset_group": "cab",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e508",
+      "wire_group": "LiveCab",
+      "preset_group": "cab",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e514",
+      "wire_group": "Air",
+      "preset_group": "cab",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e520",
+      "wire_group": "PostComp",
+      "preset_group": "compressor",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e52c",
+      "wire_group": "PostEQ",
+      "preset_group": "eq",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e538",
+      "wire_group": "Looper",
+      "preset_group": "looper",
+      "flag": 0
+    }
+  ],
+  "AEON": [
+    {
+      "entry_va": "0x1018e580",
+      "wire_group": "GuitarProc",
+      "preset_group": null,
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e58c",
+      "wire_group": "Gate",
+      "preset_group": "gate",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e598",
+      "wire_group": "VolumePedal",
+      "preset_group": "volume",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e5a4",
+      "wire_group": "Wah",
+      "preset_group": "wah",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e5b0",
+      "wire_group": "FX1",
+      "preset_group": "fx1",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e5bc",
+      "wire_group": "FX2",
+      "preset_group": "fx2",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e5c8",
+      "wire_group": "FX3",
+      "preset_group": "fx3",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e5d4",
+      "wire_group": "FX4",
+      "preset_group": "fx4",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e5e0",
+      "wire_group": "FX5",
+      "preset_group": "reverb",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e5ec",
+      "wire_group": "FX1Stereo",
+      "preset_group": "fx1",
+      "flag": 1
+    },
+    {
+      "entry_va": "0x1018e5f8",
+      "wire_group": "FX2Stereo",
+      "preset_group": "fx2",
+      "flag": 1
+    },
+    {
+      "entry_va": "0x1018e604",
+      "wire_group": "FX3Stereo",
+      "preset_group": "fx3",
+      "flag": 1
+    },
+    {
+      "entry_va": "0x1018e610",
+      "wire_group": "FX4Stereo",
+      "preset_group": "fx4",
+      "flag": 1
+    },
+    {
+      "entry_va": "0x1018e61c",
+      "wire_group": "Amp",
+      "preset_group": "amp",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e628",
+      "wire_group": "StudioCab",
+      "preset_group": "cab",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e634",
+      "wire_group": "LiveCab",
+      "preset_group": "cab",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e640",
+      "wire_group": "Air",
+      "preset_group": "cab",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e64c",
+      "wire_group": "PostComp",
+      "preset_group": "compressor",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e658",
+      "wire_group": "PostEQ",
+      "preset_group": "eq",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e664",
+      "wire_group": "Looper",
+      "preset_group": "looper",
+      "flag": 0
+    }
+  ],
+  "fallback": [
+    {
+      "entry_va": "0x1018e7e0",
+      "wire_group": "GuitarProc",
+      "preset_group": null,
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e7ec",
+      "wire_group": "Gate",
+      "preset_group": "gate",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e7f8",
+      "wire_group": "VolumePedal",
+      "preset_group": "volume",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e804",
+      "wire_group": "Wah",
+      "preset_group": "wah",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e810",
+      "wire_group": "FX1",
+      "preset_group": "fx1",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e81c",
+      "wire_group": "FX2",
+      "preset_group": "fx2",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e828",
+      "wire_group": "FX3",
+      "preset_group": "fx3",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e834",
+      "wire_group": "FX4",
+      "preset_group": "reverb",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e840",
+      "wire_group": "Amp",
+      "preset_group": "amp",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e84c",
+      "wire_group": "StudioCab",
+      "preset_group": "cab",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e858",
+      "wire_group": "LiveCab",
+      "preset_group": "cab",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e864",
+      "wire_group": "Air",
+      "preset_group": "cab",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e870",
+      "wire_group": "PostComp",
+      "preset_group": "compressor",
+      "flag": 0
+    },
+    {
+      "entry_va": "0x1018e87c",
+      "wire_group": "PostEQ",
+      "preset_group": "eq",
+      "flag": 0
+    }
+  ]
+}

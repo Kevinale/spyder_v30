@@ -1,0 +1,150 @@
+[
+  {
+    "query": "\"spider v\"",
+    "url": "https://github.com/search?q=%22spider+v%22&type=repositories",
+    "count": 622,
+    "results": [
+      {
+        "name": "Samue-l1/Spider-V6",
+        "description": ""
+      },
+      {
+        "name": "eclsnowman/Eustathios-Spider-V2",
+        "description": "Update to Eustathios with a little bit of HercuLien Design Changes"
+      },
+      {
+        "name": "darkdrex2/Spider-V4",
+        "description": ""
+      },
+      {
+        "name": "Samue-l1/Spider-V2",
+        "description": "Config files for my GitHub profile."
+      },
+      {
+        "name": "abhishek-performdigital/Spiderbrain-V3",
+        "description": "SpiderBrain v3 is a multi-platform skill/framework to reduce token usage and AI hallucinations across Claude, Cursor, and other AI tools."
+      },
+      {
+        "name": "KaitoHH/xiaohongshu-spider-visualizer",
+        "description": "A distributed web crawler for xiaohongshu.com and visualization for the crawled content. "
+      },
+      {
+        "name": "Mrtrier/SPIDER-V600-",
+        "description": ""
+      },
+      {
+        "name": "tibaiwan/spider-video",
+        "description": "Node \u6279\u91cf\u722c\u53d6\u5934\u6761\u89c6\u9891"
+      },
+      {
+        "name": "Maxwellmd1/Spider-v7",
+        "description": ""
+      },
+      {
+        "name": "somethingx64/SinaMicroblog_Creeper-Spider_VerificationCode",
+        "description": "A creeper used to catch concerns and fans in sina microblog. It can imitate login. When encountered with verification code,it shall down \u2026"
+      }
+    ]
+  },
+  {
+    "query": "\"spiderv\"",
+    "url": "https://github.com/search?q=%22spiderv%22&type=repositories",
+    "count": 611,
+    "results": [
+      {
+        "name": "micheleambrosio/dio-spiderverse",
+        "description": "Carrossel parallax do Aranhaverso com React, Next.js 13 e Framer Motion feito para Live da DIO"
+      },
+      {
+        "name": "adamb70/Spiderverse-Shader-Unity",
+        "description": "Spider-verse inspired image effect shader"
+      },
+      {
+        "name": "Jager-yoo/Spiderversify",
+        "description": "\ud83d\udd78\ufe0f Brings a Spider-Verse like glitching effect to your SwiftUI views!"
+      },
+      {
+        "name": "SharkSkipper/SpiderVerse",
+        "description": "Browser-based hand-tracking camera app that uses MediaPipe and WebGL to render real-time comic-style effects between your fingers."
+      },
+      {
+        "name": "aniketrajnish/SpiderVersePostProcess-Unreal-Unity",
+        "description": "Spiderverse-insprired stylized post processing-effect for Unreal Engine and Unity"
+      },
+      {
+        "name": "goodluck218/spiderv7",
+        "description": ""
+      },
+      {
+        "name": "krikelin/SpiderView",
+        "description": "A layout engine for live templates"
+      },
+      {
+        "name": "smoothslerp/spiderverse-shader",
+        "description": "a case study of Ben-Day Dots as seen in spiderverse"
+      },
+      {
+        "name": "goodluck-md/spiderv",
+        "description": ""
+      },
+      {
+        "name": "goodluck-md/spiderv6",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "query": "\"line6\" \"spider\"",
+    "url": "https://github.com/search?q=%22line6%22+%22spider%22&type=repositories",
+    "count": 4,
+    "results": [
+      {
+        "name": "stric9r/Line6-FBV3-Clone",
+        "description": "Clone of USB interface between linux (Raspberry Pi 4B or Zero W) and a Line6 Spider V amplifier"
+      },
+      {
+        "name": "claybrooks/spider_mkii",
+        "description": "Reverse engineer line6 spider_mkii communication"
+      },
+      {
+        "name": "codeape2/jam2wav",
+        "description": "Convert Line 6 .JAM files (file format used in Spider Jam amp and JM4 looper) to .WAV"
+      },
+      {
+        "name": "teoriadeladistraccion/Gemini_Line6",
+        "description": "Line 6 Spider IV Preset Creator"
+      }
+    ]
+  },
+  {
+    "query": "\"line 6\" \"firmware\"",
+    "url": "https://github.com/search?q=%22line+6%22+%22firmware%22&type=repositories",
+    "count": 3,
+    "results": [
+      {
+        "name": "chriscore/Helix.CabUpgrade",
+        "description": "A tool to upgrade legacy cab blocks in Line 6 Helix patches built before Firmware 3.50 to new Helix cabs"
+      },
+      {
+        "name": "Jmainguy/line6-tt",
+        "description": "Linux USB control, firmware research, and a Rust GUI for the Line 6 AMPLIFi TT"
+      },
+      {
+        "name": "beepoo304/line6-m5-arduino-midiswitch",
+        "description": "Arduino Nano MIDI foot controller for the Line 6 M5 Stompbox Modeler. Two footswitches, a two-digit LED display and MIDI OUT, with build \u2026"
+      }
+    ]
+  },
+  {
+    "query": "\"spider\" \"blackfin\"",
+    "url": "https://github.com/search?q=%22spider%22+%22blackfin%22&type=repositories",
+    "count": 0,
+    "results": []
+  },
+  {
+    "query": "\"spyder\" \"line6\"",
+    "url": "https://github.com/search?q=%22spyder%22+%22line6%22&type=repositories",
+    "count": 0,
+    "results": []
+  }
+]

@@ -1,0 +1,1466 @@
+[
+  {
+    "symbolicID": "HD_BuzzSaw",
+    "id": 33882124,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Buzz Saw",
+    "shortname": "Buzz Saw",
+    "icon": "dist-m-buzzsaw",
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.52,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_ClassicDistortion",
+    "id": 33882130,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Classic Distortion HD",
+    "shortname": "Classic Distortion HD",
+    "icon": "dist-m-rat",
+    "params": [
+      {
+        "default": 0.78,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.47,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Filter",
+        "tweak": 6,
+        "persist": 0,
+        "symbolicID": "Filter",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.36,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_ColorDrive",
+    "id": 33882123,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Color Drive",
+    "shortname": "Color Drive",
+    "icon": "dist-m-colordrive",
+    "params": [
+      {
+        "default": 0.77,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.64,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_FacialFuzz",
+    "id": 33882128,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Facial Fuzz HD",
+    "shortname": "Facial Fuzz HD",
+    "icon": "dist-m-fuzzface",
+    "params": [
+      {
+        "default": 0.92,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_FuzzPi",
+    "id": 33882129,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Fuzz Pi HD",
+    "shortname": "Fuzz Pi HD",
+    "icon": "dist-m-fuzzpi",
+    "params": [
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.3,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.34,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_HeavyDistortion",
+    "id": 33882131,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Heavy Distortion",
+    "shortname": "Heavy Distortion",
+    "icon": "dist-m-heavydist",
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.31,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.59,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_JumboFuzz",
+    "id": 33882122,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Jumbo Fuzz",
+    "shortname": "Jumbo Fuzz",
+    "icon": "dist-m-jumbofuzz",
+    "params": [
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_Line6Distortion",
+    "id": 33882125,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Line 6 Distortion",
+    "shortname": "Line 6 Distortion",
+    "icon": "dist-m-l6dist",
+    "params": [
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.41,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.88,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_Line6Drive",
+    "id": 33882126,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Line 6 Drive",
+    "shortname": "Line 6 Drive",
+    "icon": "dist-m-l6overdrive",
+    "params": [
+      {
+        "default": 0.92,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.89,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.47,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_OctaveFuzz",
+    "id": 33882133,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Octave Fuzz HD",
+    "shortname": "Octave Fuzz HD",
+    "icon": "dist-m-rocktave",
+    "params": [
+      {
+        "default": 0.14,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.36,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_OverDrive",
+    "id": 33882127,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Overdrive",
+    "shortname": "Overdrive",
+    "icon": "dist-m-overdrive",
+    "params": [
+      {
+        "default": 0.52,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_Screamer",
+    "id": 33882132,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Screamer HD",
+    "shortname": "Screamer HD",
+    "icon": "dist-m-screamer",
+    "params": [
+      {
+        "default": 0.44,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "tweak": 6,
+        "persist": 0,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_TubeDrive",
+    "id": 33882134,
+    "category": 3,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Tube Drive HD",
+    "shortname": "Tube Drive HD",
+    "icon": "dist-tubedriver",
+    "params": [
+      {
+        "default": 0.59,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Output",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Output",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "SmartHarmony",
+    "id": 34209807,
+    "category": 7,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Smart Harmony",
+    "shortname": "Smart Harmony",
+    "icon": "pitch-l6smartharmony",
+    "params": [
+      {
+        "default": 0,
+        "max": 11,
+        "min": 0,
+        "name": "Key",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Key",
+        "valueType": 0
+      },
+      {
+        "default": 0,
+        "max": 8,
+        "min": -8,
+        "name": "Shift",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Shift",
+        "valueType": 0
+      },
+      {
+        "default": 0,
+        "max": 7,
+        "min": 0,
+        "name": "Scale",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Scale",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  }
+]

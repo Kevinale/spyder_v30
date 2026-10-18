@@ -1,0 +1,32 @@
+{
+  "input": "/workspace/attachments/7b5b94c5-7925-4068-a345-574f6364cc53/SpiderV_Bass_Mid_Treble.pcapng",
+  "sha256": "fa12988477ae3c2952b89f81a5b429cb92a4a0123ff2033536eb116e60a05a91",
+  "bytes": 185548,
+  "frames": 2050,
+  "duration_seconds": 174.134747,
+  "interfaces": [
+    {
+      "link_type": 249,
+      "snaplen": 65535,
+      "resolution": 6,
+      "scale": 1e-06,
+      "name": "\\\\.\\USBPcap2"
+    }
+  ],
+  "targets": [
+    [
+      2,
+      4
+    ]
+  ],
+  "target_frames": 2032,
+  "all_usb_status_zero": true,
+  "target_payload_urbs": 1013,
+  "midi_events": 15195,
+  "sysex_messages": 1013,
+  "sysex_counts": {
+    "IN": 1013
+  },
+  "unfinished_sysex": 0,
+  "warnings": []
+}

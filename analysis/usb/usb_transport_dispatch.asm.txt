@@ -1,0 +1,24 @@
+
+/workspace/analysis/driver/extracted/Tools/Driver2 Archive/SpiderV/l6SpiderV.sys:     file format pei-x86-64
+
+
+Disassembly of section .text:
+
+0000000140024215 <.text+0x23215>:
+   140024215:	48 8b 05 ac d1 01 00 	mov    rax,QWORD PTR [rip+0x1d1ac]        # 0x1400413c8
+   14002421c:	48 8d 4d d7          	lea    rcx,[rbp-0x29]
+   140024220:	48 8b 93 b8 00 00 00 	mov    rdx,QWORD PTR [rbx+0xb8]
+   140024227:	4c 8d 4d 07          	lea    r9,[rbp+0x7]
+   14002422b:	48 89 4c 24 30       	mov    QWORD PTR [rsp+0x30],rcx
+   140024230:	45 33 c0             	xor    r8d,r8d
+   140024233:	48 8d 4d ef          	lea    rcx,[rbp-0x11]
+   140024237:	48 8b 80 68 0a 00 00 	mov    rax,QWORD PTR [rax+0xa68]
+   14002423e:	48 89 4c 24 28       	mov    QWORD PTR [rsp+0x28],rcx
+   140024243:	48 8b 0d 86 d1 01 00 	mov    rcx,QWORD PTR [rip+0x1d186]        # 0x1400413d0
+   14002424a:	4c 89 6c 24 20       	mov    QWORD PTR [rsp+0x20],r13
+   14002424f:	ff 15 f3 5e 01 00    	call   QWORD PTR [rip+0x15ef3]        # 0x14003a148
+   140024255:	44 8b f0             	mov    r14d,eax
+   140024258:	85 c0                	test   eax,eax
+   14002425a:	79 3e                	jns    0x14002429a
+   14002425c:	41 3b c7             	cmp    eax,r15d
+   14002425f:	0f                   	.byte 0xf

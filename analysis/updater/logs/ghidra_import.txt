@@ -1,0 +1,294 @@
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode)
+INFO  Using log config file: jar:file:/workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1059 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2166 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /workspace/analysis/remote/native
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /workspace/analysis/updater/ghidra/Updater (HeadlessAnalyzer)  
+INFO  Creating project: /workspace/analysis/updater/ghidra/Updater (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /workspace/analysis/updater/ghidra/Updater (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///workspace/analysis/updater/extracted/Line 6 Updater/Line 6 Updater.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib/x86_64-linux-gnu/jni, /usr/lib/x86_64-linux-gnu, /usr/lib/jni] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///workspace/analysis/updater/extracted/Line 6 Updater/Line 6 Updater.exe?MD5=ed56bf78f38677d5fe2972801e090500...
+[Line 6 Updater.exe]: failed to create TerminatedCString at 009b2d90: Failed to resolve data length for TerminatedCString
+------------------------------------------------
+
+Searching 8 paths for library ADVAPI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library CYUSBSERIAL.DLL...
+Loading file:///workspace/analysis/updater/extracted/Line 6 Updater/cyusbserial.dll?MD5=a5e852954f99ff22ed371a0047827e47...
+[cyusbserial.dll]: failed to create TerminatedCString at 1000c388: Failed to resolve data length for TerminatedCString
+Created exports file: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/symbols/win32/cyusbserial.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 8 paths for library HID.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library INTERPOSER.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library MSVCP120.DLL...
+Loading file:///workspace/analysis/updater/extracted/Line 6 Updater/msvcp120.dll?MD5=fd5cabbe52272bd76007b68186ebaf00...
+Created exports file: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/symbols/win32/msvcp120.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 8 paths for library MSVCR120.DLL...
+Loading file:///workspace/analysis/updater/extracted/Line 6 Updater/msvcr120.dll?MD5=034ccadc1c073e4216e9466b720f9849...
+Created exports file: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/symbols/win32/msvcr120.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 8 paths for library OLE32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library PTHREADVC2.DLL...
+Loading file:///workspace/analysis/updater/extracted/Line 6 Updater/pthreadVC2.dll?MD5=c60b37af4b77e6e04c0a9394db560c85...
+[pthreadVC2.dll]: failed to create TerminatedCString at 1000a454: Failed to resolve data length for TerminatedCString
+Created exports file: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/symbols/win32/pthreadvc2.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 8 paths for library QT5CORE.DLL...
+Loading file:///workspace/analysis/updater/extracted/Line 6 Updater/Qt5Core.dll?MD5=2037745fad56e91f424f1cd1a514e465...
+Created exports file: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/symbols/win32/qt5core.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 8 paths for library QT5GUI.DLL...
+Loading file:///workspace/analysis/updater/extracted/Line 6 Updater/Qt5Gui.dll?MD5=997c79b0a601ffba120579f88af5ab02...
+Created exports file: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/symbols/win32/qt5gui.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 8 paths for library QT5QML.DLL...
+Loading file:///workspace/analysis/updater/extracted/Line 6 Updater/Qt5Qml.dll?MD5=97083ea92130a5bcd6a75e2578537ab1...
+Created exports file: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/symbols/win32/qt5qml.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 8 paths for library QT5WEBENGINE.DLL...
+Loading file:///workspace/analysis/updater/extracted/Line 6 Updater/Qt5WebEngine.dll?MD5=024a2cb99ddf15c28be224e14057b97d...
+Created exports file: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/symbols/win32/qt5webengine.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 8 paths for library QT5WIDGETS.DLL...
+Loading file:///workspace/analysis/updater/extracted/Line 6 Updater/Qt5Widgets.dll?MD5=9dc1f91a0a5cd6091b966a022586d63a...
+Created exports file: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/symbols/win32/qt5widgets.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 8 paths for library SETUPAPI.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library SHELL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library USER32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library WININET.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library WINMM.DLL...
+Library not found.
+------------------------------------------------
+
+Applying cached symbols from QT5WEBENGINE.DLL
+Applying cached symbols from CYUSBSERIAL.DLL
+Applying cached symbols from QT5WIDGETS.DLL
+Applying cached symbols from QT5GUI.DLL
+Applying cached symbols from QT5QML.DLL
+Applying cached symbols from QT5CORE.DLL
+Applying cached symbols from MSVCP120.DLL
+Applying cached symbols from MSVCR120.DLL
+Applying cached symbols from PTHREADVC2.DLL
+Linking the External Programs of 'Line 6 Updater.exe' to imported libraries...
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [OLE32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [QT5WEBENGINE.DLL] -> not found in project
+  [HID.DLL] -> not found in project
+  [WININET.DLL] -> not found in project
+  [SETUPAPI.DLL] -> not found in project
+  [CYUSBSERIAL.DLL] -> not found in project
+  [WINMM.DLL] -> not found in project
+  [QT5WIDGETS.DLL] -> not found in project
+  [QT5GUI.DLL] -> not found in project
+  [QT5QML.DLL] -> not found in project
+  [QT5CORE.DLL] -> not found in project
+  [MSVCP120.DLL] -> not found in project
+  [MSVCR120.DLL] -> not found in project
+  [PTHREADVC2.DLL] -> not found in project
+  [INTERPOSER.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///workspace/analysis/updater/extracted/Line 6 Updater/Line 6 Updater.exe (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  Packed database cache: /tmp/agent-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+WARN  Decompiling 004466c0: Unable to read bytes at ram:06020100 (DecompileCallback)  
+WARN  Decompiling 004928e0, pcode error at 00498dc9: Unable to resolve constructor at 00498dc9 (DecompileCallback)  
+WARN  Decompiling 004928e0, pcode error at 00498dc9: Unable to resolve constructor at 00498dc9 (DecompileCallback)  
+WARN  Decompiling 0048fde0, pcode error at 00498d0c: Unable to resolve constructor at 00498d0c (DecompileCallback)  
+WARN  Decompiling 0048fde0, pcode error at 00498d0c: Unable to resolve constructor at 00498d0c (DecompileCallback)  
+INFO  Unprocessed TypeDescriptor: char * (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char * (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: enum eL6Exception (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: enum eL6Exception (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: enum eL6Exception (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: enum eL6Exception (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char * (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: char * (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * (TypeDescriptorModel)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.628 secs
+    Apply Data Archives                        0.251 secs
+    Call Convention ID                         0.055 secs
+    Call-Fixup Installer                       0.208 secs
+    Create Address Tables                      0.445 secs
+    Create Address Tables - One Time           1.251 secs
+    Create Function                            0.762 secs
+    Data Reference                             0.765 secs
+    Decompiler Switch Analysis                16.561 secs
+    Decompiler Switch Analysis - One Time      2.366 secs
+    Demangler Microsoft                        0.297 secs
+    Disassemble                                2.203 secs
+    Disassemble Entry Points                   0.259 secs
+    Embedded Media                             0.073 secs
+    External Entry References                  0.000 secs
+    Function ID                                1.438 secs
+    Function Start Pre Search                  0.015 secs
+    Function Start Search                      1.121 secs
+    Function Start Search After Code           0.121 secs
+    Function Start Search After Data           0.431 secs
+    Non-Returning Functions - Discovered       1.164 secs
+    Non-Returning Functions - Known            0.005 secs
+    PDB Universal                              0.002 secs
+    Reference                                  2.454 secs
+    Scalar Operand References                  2.345 secs
+    Shared Return Calls                        0.645 secs
+    Stack                                      6.103 secs
+    Subroutine References                      2.845 secs
+    Subroutine References - One Time           0.007 secs
+    Windows x86 PE Exception Handling          3.269 secs
+    Windows x86 PE RTTI Analyzer               1.332 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.012 secs
+    WindowsResourceReference                   0.324 secs
+    X86 Function Callee Purge                  0.126 secs
+    x86 Constant Reference Analyzer           10.838 secs
+-----------------------------------------------------
+     Total Time   60 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///workspace/analysis/updater/extracted/Line 6 Updater/Line 6 Updater.exe (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: TargetEvidence.java '/workspace/analysis/updater/native/parker_converter.txt' '007f8f88' '007f8fd8' '007f9028' '007f90a4' '007f8ce0'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /workspace/analysis/remote/native/TargetEvidence.java (HeadlessAnalyzer)  
+INFO  ANALYZING changes made by post scripts: file:///workspace/analysis/updater/extracted/Line 6 Updater/Line 6 Updater.exe (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///workspace/analysis/updater/extracted/Line 6 Updater/Line 6 Updater.exe (HeadlessAnalyzer)  
+INFO  /Line 6 Updater.exe: file created (agent) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /Line 6 Updater.exe (Updater:/Line 6 Updater.exe) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

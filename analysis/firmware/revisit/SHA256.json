@@ -1,0 +1,162 @@
+[
+  {
+    "path": "/workspace/analysis/firmware/revisit/amp_enable_evidence.json",
+    "bytes": 2423,
+    "sha256": "fbc0403d234abf54a51ba74c627c6beff736cc072d4929e0e82567437408fbf8"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/REVISIT_REPORT.md",
+    "bytes": 8740,
+    "sha256": "e4c8c68d7403d94bf927b3f6d6b2ead4ec5b9a1c0dec900b30f7804a82bd591a"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/captured_edit_buffer.log",
+    "bytes": 632,
+    "sha256": "cc8d7293fd011541d61c7311fa60b377cdf59173510d7aa9445b43a43f979f40"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/consumer.log",
+    "bytes": 4009,
+    "sha256": "d0a2678a0b6d115ad5a50d8ec193712318a98007a0349da4f4f89fada094ac77"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/public_search_4.html",
+    "bytes": 175210,
+    "sha256": "432e37d5784cadf58f4ba11344f4ec83e3e6305e66e036771dd016d20da3b987"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/public_sources.json",
+    "bytes": 6576,
+    "sha256": "dfd16436972d0b005e58c7ab4743cedc7db262b979a6c3d54fb5fcc5d52f45b8"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/captured_edit_buffer.bin",
+    "bytes": 1281,
+    "sha256": "21bfd4dcadf6f8d127bda1b8df4c29f424e0d63ffbaa29878eaa6a8be584f686"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/amp_enable_evidence.py",
+    "bytes": 2493,
+    "sha256": "95df3e247a8e32816a5a85d7175c14b9a79696fd299d8a8424b902d2e29201da"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/read_captured_preset.py",
+    "bytes": 2220,
+    "sha256": "d0d229269accdefa93019c24954e19957ce7971e2e6822716169dc5f6ed72054"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/probe_image.py",
+    "bytes": 5271,
+    "sha256": "77e6c99f3d2cf622abd485c887daa0deff5e38ae247a142b0e4261e3a55158da"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/image_probes.log",
+    "bytes": 1325,
+    "sha256": "afe1b6151f96aaa7f327f2f9ed5ee7dbd6ebd8c5ff0b12003add072922c4b065"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/captured_edit_buffer.json",
+    "bytes": 28317,
+    "sha256": "8b93a991db22bfec13f562ec0aa960e39f3c6b2c4ecf71f3ef95c99fcbc701e6"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/svu_validation.log",
+    "bytes": 1112,
+    "sha256": "4a6e38485a97e0d2f2160ee7492c2f7e95c688d20093fb730764bf9ff28c1023"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/search_public.py",
+    "bytes": 1336,
+    "sha256": "3331cc7fcd1358376d111bd9720192d4c947da3c4d77528682021877184ce96a"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/consumer.txt",
+    "bytes": 72494,
+    "sha256": "4353d02645a1efd3eeabcbe779ba06c6eeb857e8f3e8d977f55a58cf59366b49"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/public_search_2.html",
+    "bytes": 226242,
+    "sha256": "571865a2b55abf496175958e6ffbcb2b96bee2beeb7532dbad1c58e66a47bbe4"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/public_search_1.html",
+    "bytes": 199394,
+    "sha256": "eee148e07b5e9f4eead243bcf62a3e0e91cfdbead857fac65eb24d83fab6a9f8"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/public_search_0.html",
+    "bytes": 213974,
+    "sha256": "18404c61ba0e7147406f67ab57bce93f62bf7923e9bdd4bb9d28c1b142430fc6"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/amp_enable_evidence.log",
+    "bytes": 154,
+    "sha256": "f512eaa9e6ba1d81584193558fd900cf8e1a6a74e8d612e3f254759c6bbfb7f8"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/public_search_3.html",
+    "bytes": 199974,
+    "sha256": "90a34d0c9479596af1452434f145305d1a5453113de0adf3714ddf6f946718d3"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/image_probes.json",
+    "bytes": 4973,
+    "sha256": "a7f4cf9af1a7b074458b61a9168b6a9887b36dd0e2f079760731d51e49f77120"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/string_targets.json",
+    "bytes": 540,
+    "sha256": "ddee28fa4d1a04058e2e2f016910714027f9d2df68210c2f746a9fb9a4705492"
+  },
+  {
+    "path": "/workspace/analysis/firmware/revisit/comparison_formats.json",
+    "bytes": 602,
+    "sha256": "e6eef62c50c1413d27aa6074a9165bb237939da0b74498169f8918e056feab96"
+  },
+  {
+    "path": "/workspace/analysis/captures/device_symbols.json",
+    "bytes": 121895,
+    "sha256": "7b2dc689153634d3d8496cb1dbcca3cfe07d8d3112f27ec334e2b61e2a5954be"
+  },
+  {
+    "path": "/workspace/analysis/captures/logical_messages.json",
+    "bytes": 1306032,
+    "sha256": "abb1a2f61874fcefd5d9feec157d9cbc628450dd8f569dfc70fda335abd2b27d"
+  },
+  {
+    "path": "/workspace/analysis/remote/extracted/Spider V Remote/APIV3EngineDLL.dll",
+    "bytes": 1756160,
+    "sha256": "a46c6161d7e2a8ef4f73ecb5ad277ad1a87d7c82ca13ea4a36b210f9d34f5edf"
+  },
+  {
+    "path": "/workspace/analysis/firmware/data.decompressed.bin",
+    "bytes": 393192,
+    "sha256": "58b058a7310a8f397d5c029f6dc0c0b07e5128dbd027548c060eba797647a0b4"
+  },
+  {
+    "path": "/workspace/attachments/1cef6881-5b69-4396-8afa-a13ba64b248f/SpiderV_30_60_2.05.0.svu",
+    "bytes": 393422,
+    "sha256": "5301e9c582fab5bf1ddcbe321cf642e293dbaf62fc90a70de923b8b4fec6c00b"
+  },
+  {
+    "path": "/workspace/analysis/research/spiderv-web-control/README.md",
+    "bytes": 11938,
+    "sha256": "60b60c78a8885b2bb42ca9a1310d0852dd7dc91dfb833cbc2f14f39369296417"
+  },
+  {
+    "path": "/workspace/analysis/research/spiderv-web-control/PROTOCOL.md",
+    "bytes": 8824,
+    "sha256": "da3e5b6d0ddc74cbf0abdab4a8bfe0fcd9e91fb91fde1ee4bab6c9aa8e2287d3"
+  },
+  {
+    "path": "/workspace/analysis/research/line6-tt/README.md",
+    "bytes": 8353,
+    "sha256": "1cb5be266b6b2d1eb38545e87777db28bc2ff91ac5a50b31404e42b21c2bbaa8"
+  },
+  {
+    "path": "/workspace/analysis/research/podgo/README.md",
+    "bytes": 37877,
+    "sha256": "6ce936b6cd88cee04ebf1fa7aac9772df0084b6022f55fe147d2ca09d2d1f14e"
+  }
+]

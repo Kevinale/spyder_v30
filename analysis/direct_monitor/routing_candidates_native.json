@@ -1,0 +1,17 @@
+[
+  {
+    "name": "@speakermode",
+    "offset": "0x11582c",
+    "va": "0x1011722c"
+  },
+  {
+    "name": "Speaker",
+    "offset": "0x173c64",
+    "va": "0x10175664"
+  },
+  {
+    "name": "TunerEnable",
+    "offset": "0x17346f",
+    "va": "0x10174e6f"
+  }
+]

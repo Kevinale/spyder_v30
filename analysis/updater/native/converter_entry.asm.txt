@@ -1,0 +1,34 @@
+
+/workspace/analysis/updater/extracted/Line 6 Updater/Line 6 Updater.exe:     file format pei-i386
+
+
+Disassembly of section .text:
+
+00497880 <.text+0x96880>:
+  497880:	55                   	push   ebp
+  497881:	8b ec                	mov    ebp,esp
+  497883:	6a ff                	push   0xffffffff
+  497885:	68 33 b9 4e 00       	push   0x4eb933
+  49788a:	64 a1 00 00 00 00    	mov    eax,fs:0x0
+  497890:	50                   	push   eax
+  497891:	81 ec 80 00 00 00    	sub    esp,0x80
+  497897:	53                   	push   ebx
+  497898:	56                   	push   esi
+  497899:	57                   	push   edi
+  49789a:	a1 a0 2f 86 00       	mov    eax,ds:0x862fa0
+  49789f:	33 c5                	xor    eax,ebp
+  4978a1:	50                   	push   eax
+  4978a2:	8d 45 f4             	lea    eax,[ebp-0xc]
+  4978a5:	64 a3 00 00 00 00    	mov    fs:0x0,eax
+  4978ab:	83 79 24 01          	cmp    DWORD PTR [ecx+0x24],0x1
+  4978af:	0f 85 68 03 00 00    	jne    0x497c1d
+  4978b5:	8b 45 10             	mov    eax,DWORD PTR [ebp+0x10]
+  4978b8:	8d 8d 74 ff ff ff    	lea    ecx,[ebp-0x8c]
+  4978be:	8b 5d 0c             	mov    ebx,DWORD PTR [ebp+0xc]
+  4978c1:	ff 30                	push   DWORD PTR [eax]
+  4978c3:	ff 33                	push   DWORD PTR [ebx]
+  4978c5:	e8 e6 24 fc ff       	call   0x459db0
+  4978ca:	c7 45 fc 00 00 00 00 	mov    DWORD PTR [ebp-0x4],0x0
+  4978d1:	c7 45 ec 14 07 58 00 	mov    DWORD PTR [ebp-0x14],0x580714
+  4978d8:	c7 45 f0 00 00 00 00 	mov    DWORD PTR [ebp-0x10],0x0
+  4978df:	8d                   	.byte 0x8d

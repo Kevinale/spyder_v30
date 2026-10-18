@@ -1,0 +1,77 @@
+[
+  {
+    "va": "0x10001000",
+    "rva": "0x1000",
+    "file_offset": "0x400"
+  },
+  {
+    "va": "0x100012a0",
+    "rva": "0x12a0",
+    "file_offset": "0x6a0"
+  },
+  {
+    "va": "0x100012c0",
+    "rva": "0x12c0",
+    "file_offset": "0x6c0"
+  },
+  {
+    "va": "0x10002b10",
+    "rva": "0x2b10",
+    "file_offset": "0x1f10"
+  },
+  {
+    "va": "0x10050660",
+    "rva": "0x50660",
+    "file_offset": "0x4fa60"
+  },
+  {
+    "va": "0x100507c0",
+    "rva": "0x507c0",
+    "file_offset": "0x4fbc0"
+  },
+  {
+    "va": "0x1005bf70",
+    "rva": "0x5bf70",
+    "file_offset": "0x5b370"
+  },
+  {
+    "va": "0x1005c080",
+    "rva": "0x5c080",
+    "file_offset": "0x5b480"
+  },
+  {
+    "va": "0x1005c260",
+    "rva": "0x5c260",
+    "file_offset": "0x5b660"
+  },
+  {
+    "va": "0x1005cf70",
+    "rva": "0x5cf70",
+    "file_offset": "0x5c370"
+  },
+  {
+    "va": "0x1005d140",
+    "rva": "0x5d140",
+    "file_offset": "0x5c540"
+  },
+  {
+    "va": "0x10055150",
+    "rva": "0x55150",
+    "file_offset": "0x54550"
+  },
+  {
+    "va": "0x10052fb0",
+    "rva": "0x52fb0",
+    "file_offset": "0x523b0"
+  },
+  {
+    "va": "0x10052f90",
+    "rva": "0x52f90",
+    "file_offset": "0x52390"
+  },
+  {
+    "va": "0x10078e90",
+    "rva": "0x78e90",
+    "file_offset": "0x78290"
+  }
+]

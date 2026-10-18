@@ -1,0 +1,14 @@
+{
+  "source": "owner observation in chat",
+  "experiment": "activate on-device tuner while observing direct guitar and REAPER input meter",
+  "observation": {
+    "direct_guitar_audible": false,
+    "REAPER_input_meter_moving": false
+  },
+  "conclusion": "Tuner not a usable direct-monitor-only mute in tested configuration",
+  "limits": [
+    "No instrumental capture",
+    "Does not identify exact audio topology",
+    "Exit tuner after test"
+  ]
+}

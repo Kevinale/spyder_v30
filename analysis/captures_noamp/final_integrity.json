@@ -1,0 +1,12 @@
+{
+  "pcap_bytes": 84637284,
+  "pcap_sha256": "4ebbb7faced38403cad610e93d3cf8dc97407b5e07a711e6e03b7f5c85834018",
+  "archive_expected_crc32": "BE6CE0CF",
+  "input_unchanged": true,
+  "independent_sysex_exact": 650,
+  "canonical_roundtrips": 650,
+  "unresolved_float_notifications": 650,
+  "named_notifications": 0,
+  "audio_payloads_exported": false,
+  "zero_stream_residue": true
+}

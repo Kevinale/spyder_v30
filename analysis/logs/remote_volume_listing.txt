@@ -1,0 +1,38 @@
+
+7-Zip 26.04 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-05
+ 64-bit locale=C.UTF-8 Threads:5 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 26214400 bytes (25 MiB)
+
+Listing archive: /workspace/analysis/remote/volumes/Spider V Remote 2.01 Installer.7z.001
+
+--
+Path = /workspace/analysis/remote/volumes/Spider V Remote 2.01 Installer.7z.001
+Type = Split
+Physical Size = 26214400
+Volumes = 4
+Total Physical Size = 91159854
+----
+Path = Spider V Remote 2.01 Installer.7z
+Size = 91159854
+--
+Path = Spider V Remote 2.01 Installer.7z
+Type = 7z
+Physical Size = 91159854
+Headers Size = 194
+Method = LZMA2:25 BCJ
+Solid = -
+Blocks = 1
+
+----------
+Path = Spider V Remote 2.01 Installer.exe
+Size = 93761728
+Packed Size = 91159660
+Modified = 2026-10-15 05:11:51.7126224
+Attributes = A
+CRC = C3C1B3A2
+Encrypted = -
+Method = BCJ LZMA2:25
+Block = 0
+

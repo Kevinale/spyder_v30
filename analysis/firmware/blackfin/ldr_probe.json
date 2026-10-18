@@ -1,0 +1,506 @@
+{
+  "input": "/workspace/analysis/firmware/data.decompressed.bin",
+  "sha256": "58b058a7310a8f397d5c029f6dc0c0b07e5128dbd027548c060eba797647a0b4",
+  "selftests": [
+    "two-block complete stream accepted",
+    "checksum corruption rejected",
+    "truncated data rejected",
+    "missing final rejected",
+    "fill consumes no payload",
+    "target overflow rejected"
+  ],
+  "hypothesis": "16-byte little-endian header, AD signature, XOR checksum, count, fill/final flags based on reviewed public sources",
+  "results": [
+    {
+      "transform": "identity",
+      "candidate_headers": [
+        {
+          "offset": 110844,
+          "code": "0xad18c7fa",
+          "target": "0x7855b6ca",
+          "bytes": 1991789332,
+          "argument": "0x2b2fbdf1",
+          "fill": true,
+          "first": true,
+          "final": true
+        }
+      ],
+      "complete_candidates": [
+        {
+          "start": 110844,
+          "end": 110860,
+          "count": 1,
+          "blocks": [
+            {
+              "offset": 110844,
+              "code": "0xad18c7fa",
+              "target": "0x7855b6ca",
+              "bytes": 1991789332,
+              "argument": "0x2b2fbdf1",
+              "fill": true,
+              "first": true,
+              "final": true
+            }
+          ],
+          "whole_buffer": false
+        }
+      ],
+      "strong_multi_block_candidates": [],
+      "uboot_signature_at_start": false
+    },
+    {
+      "transform": "xor_ff",
+      "candidate_headers": [
+        {
+          "offset": 134322,
+          "code": "0xad7667ff",
+          "target": "0x2a853398",
+          "bytes": 2931867580,
+          "argument": "0xbd95dfdd",
+          "fill": true,
+          "first": true,
+          "final": false
+        },
+        {
+          "offset": 359127,
+          "code": "0xadd6cb2f",
+          "target": "0x93e2f6f2",
+          "bytes": 1401050330,
+          "argument": "0x8b4646d",
+          "fill": true,
+          "first": true,
+          "final": true
+        }
+      ],
+      "complete_candidates": [
+        {
+          "start": 359127,
+          "end": 359143,
+          "count": 1,
+          "blocks": [
+            {
+              "offset": 359127,
+              "code": "0xadd6cb2f",
+              "target": "0x93e2f6f2",
+              "bytes": 1401050330,
+              "argument": "0x8b4646d",
+              "fill": true,
+              "first": true,
+              "final": true
+            }
+          ],
+          "whole_buffer": false
+        }
+      ],
+      "strong_multi_block_candidates": [],
+      "uboot_signature_at_start": false
+    },
+    {
+      "transform": "reverse_bits_in_each_byte",
+      "candidate_headers": [
+        {
+          "offset": 168058,
+          "code": "0xad1edb7e",
+          "target": "0x2eb20f30",
+          "bytes": 1781566200,
+          "argument": "0x5195d881",
+          "fill": true,
+          "first": true,
+          "final": true
+        },
+        {
+          "offset": 335974,
+          "code": "0xad86415b",
+          "target": "0x3ba7759d",
+          "bytes": 2145669363,
+          "argument": "0x2faae018",
+          "fill": true,
+          "first": true,
+          "final": false
+        }
+      ],
+      "complete_candidates": [
+        {
+          "start": 168058,
+          "end": 168074,
+          "count": 1,
+          "blocks": [
+            {
+              "offset": 168058,
+              "code": "0xad1edb7e",
+              "target": "0x2eb20f30",
+              "bytes": 1781566200,
+              "argument": "0x5195d881",
+              "fill": true,
+              "first": true,
+              "final": true
+            }
+          ],
+          "whole_buffer": false
+        }
+      ],
+      "strong_multi_block_candidates": [],
+      "uboot_signature_at_start": false
+    },
+    {
+      "transform": "reverse_bytes_in_2_byte_words",
+      "candidate_headers": [
+        {
+          "offset": 194783,
+          "code": "0xad1aff29",
+          "target": "0x55500885",
+          "bytes": 1626548410,
+          "argument": "0xf02a2416",
+          "fill": true,
+          "first": true,
+          "final": true
+        }
+      ],
+      "complete_candidates": [
+        {
+          "start": 194783,
+          "end": 194799,
+          "count": 1,
+          "blocks": [
+            {
+              "offset": 194783,
+              "code": "0xad1aff29",
+              "target": "0x55500885",
+              "bytes": 1626548410,
+              "argument": "0xf02a2416",
+              "fill": true,
+              "first": true,
+              "final": true
+            }
+          ],
+          "whole_buffer": false
+        }
+      ],
+      "strong_multi_block_candidates": [],
+      "uboot_signature_at_start": false
+    },
+    {
+      "transform": "reverse_bytes_in_4_byte_words",
+      "candidate_headers": [
+        {
+          "offset": 380662,
+          "code": "0xad89815d",
+          "target": "0x80836ace",
+          "bytes": 1962588630,
+          "argument": "0x5028f731",
+          "fill": true,
+          "first": false,
+          "final": true
+        }
+      ],
+      "complete_candidates": [
+        {
+          "start": 380662,
+          "end": 380678,
+          "count": 1,
+          "blocks": [
+            {
+              "offset": 380662,
+              "code": "0xad89815d",
+              "target": "0x80836ace",
+              "bytes": 1962588630,
+              "argument": "0x5028f731",
+              "fill": true,
+              "first": false,
+              "final": true
+            }
+          ],
+          "whole_buffer": false
+        }
+      ],
+      "strong_multi_block_candidates": [],
+      "uboot_signature_at_start": false
+    },
+    {
+      "transform": "reverse_bytes_in_6_byte_words",
+      "candidate_headers": [
+        {
+          "offset": 83566,
+          "code": "0xadf01fae",
+          "target": "0xb927082",
+          "bytes": 474692233,
+          "argument": "0x59c1b54e",
+          "fill": true,
+          "first": false,
+          "final": false
+        }
+      ],
+      "complete_candidates": [],
+      "strong_multi_block_candidates": [],
+      "uboot_signature_at_start": false
+    },
+    {
+      "transform": "reverse_bytes_in_8_byte_words",
+      "candidate_headers": [
+        {
+          "offset": 139151,
+          "code": "0xadb52d72",
+          "target": "0xf4795f9e",
+          "bytes": 28656324,
+          "argument": "0xcf89c8b7",
+          "fill": true,
+          "first": false,
+          "final": false
+        },
+        {
+          "offset": 316825,
+          "code": "0xaddd4f1e",
+          "target": "0x7150c8d4",
+          "bytes": 2341723825,
+          "argument": "0x8e9b1a64",
+          "fill": true,
+          "first": true,
+          "final": false
+        }
+      ],
+      "complete_candidates": [],
+      "strong_multi_block_candidates": [],
+      "uboot_signature_at_start": false
+    },
+    {
+      "transform": "rotate_each_byte_left_1",
+      "candidate_headers": [
+        {
+          "offset": 213211,
+          "code": "0xadd40756",
+          "target": "0xc781260e",
+          "bytes": 101425536,
+          "argument": "0x694891da",
+          "fill": true,
+          "first": false,
+          "final": false
+        },
+        {
+          "offset": 243033,
+          "code": "0xad0c39e5",
+          "target": "0x288a6e0f",
+          "bytes": 295704561,
+          "argument": "0xf9f0a343",
+          "fill": true,
+          "first": false,
+          "final": false
+        },
+        {
+          "offset": 331382,
+          "code": "0xad3dc75b",
+          "target": "0x5a529886",
+          "bytes": 744164071,
+          "argument": "0xb107be88",
+          "fill": true,
+          "first": true,
+          "final": true
+        }
+      ],
+      "complete_candidates": [
+        {
+          "start": 331382,
+          "end": 331398,
+          "count": 1,
+          "blocks": [
+            {
+              "offset": 331382,
+              "code": "0xad3dc75b",
+              "target": "0x5a529886",
+              "bytes": 744164071,
+              "argument": "0xb107be88",
+              "fill": true,
+              "first": true,
+              "final": true
+            }
+          ],
+          "whole_buffer": false
+        }
+      ],
+      "strong_multi_block_candidates": [],
+      "uboot_signature_at_start": false
+    },
+    {
+      "transform": "rotate_each_byte_left_2",
+      "candidate_headers": [
+        {
+          "offset": 79688,
+          "code": "0xad194f24",
+          "target": "0x662c1611",
+          "bytes": 2071707295,
+          "argument": "0xfc84531",
+          "fill": true,
+          "first": true,
+          "final": false
+        },
+        {
+          "offset": 122344,
+          "code": "0xada3ef94",
+          "target": "0x284067f1",
+          "bytes": 379809414,
+          "argument": "0xf54ad6bf",
+          "fill": true,
+          "first": true,
+          "final": true
+        },
+        {
+          "offset": 236331,
+          "code": "0xad0e93d9",
+          "target": "0x8b8281e4",
+          "bytes": 980996258,
+          "argument": "0xfa6e3716",
+          "fill": true,
+          "first": false,
+          "final": true
+        }
+      ],
+      "complete_candidates": [
+        {
+          "start": 122344,
+          "end": 122360,
+          "count": 1,
+          "blocks": [
+            {
+              "offset": 122344,
+              "code": "0xada3ef94",
+              "target": "0x284067f1",
+              "bytes": 379809414,
+              "argument": "0xf54ad6bf",
+              "fill": true,
+              "first": true,
+              "final": true
+            }
+          ],
+          "whole_buffer": false
+        },
+        {
+          "start": 236331,
+          "end": 236347,
+          "count": 1,
+          "blocks": [
+            {
+              "offset": 236331,
+              "code": "0xad0e93d9",
+              "target": "0x8b8281e4",
+              "bytes": 980996258,
+              "argument": "0xfa6e3716",
+              "fill": true,
+              "first": false,
+              "final": true
+            }
+          ],
+          "whole_buffer": false
+        }
+      ],
+      "strong_multi_block_candidates": [],
+      "uboot_signature_at_start": false
+    },
+    {
+      "transform": "rotate_each_byte_left_3",
+      "candidate_headers": [
+        {
+          "offset": 192318,
+          "code": "0xad82f13c",
+          "target": "0xd49fb37",
+          "bytes": 1763206464,
+          "argument": "0xeffc5a77",
+          "fill": true,
+          "first": true,
+          "final": true
+        }
+      ],
+      "complete_candidates": [
+        {
+          "start": 192318,
+          "end": 192334,
+          "count": 1,
+          "blocks": [
+            {
+              "offset": 192318,
+              "code": "0xad82f13c",
+              "target": "0xd49fb37",
+              "bytes": 1763206464,
+              "argument": "0xeffc5a77",
+              "fill": true,
+              "first": true,
+              "final": true
+            }
+          ],
+          "whole_buffer": false
+        }
+      ],
+      "strong_multi_block_candidates": [],
+      "uboot_signature_at_start": false
+    },
+    {
+      "transform": "rotate_each_byte_left_4",
+      "candidate_headers": [
+        {
+          "offset": 14648,
+          "code": "0xad27a310",
+          "target": "0x8d245134",
+          "bytes": 54210475,
+          "argument": "0x4e52184d",
+          "fill": true,
+          "first": false,
+          "final": true
+        },
+        {
+          "offset": 205982,
+          "code": "0xad188dce",
+          "target": "0x126b0efc",
+          "bytes": 3897907645,
+          "argument": "0xc49a4339",
+          "fill": true,
+          "first": false,
+          "final": true
+        }
+      ],
+      "complete_candidates": [
+        {
+          "start": 14648,
+          "end": 14664,
+          "count": 1,
+          "blocks": [
+            {
+              "offset": 14648,
+              "code": "0xad27a310",
+              "target": "0x8d245134",
+              "bytes": 54210475,
+              "argument": "0x4e52184d",
+              "fill": true,
+              "first": false,
+              "final": true
+            }
+          ],
+          "whole_buffer": false
+        },
+        {
+          "start": 205982,
+          "end": 205998,
+          "count": 1,
+          "blocks": [
+            {
+              "offset": 205982,
+              "code": "0xad188dce",
+              "target": "0x126b0efc",
+              "bytes": 3897907645,
+              "argument": "0xc49a4339",
+              "fill": true,
+              "first": false,
+              "final": true
+            }
+          ],
+          "whole_buffer": false
+        }
+      ],
+      "strong_multi_block_candidates": [],
+      "uboot_signature_at_start": false
+    }
+  ],
+  "limits": [
+    "Not an exhaustive BF707 boot-format specification",
+    "Does not exclude headerless code, other wrappers, transforms, encoding or encryption",
+    "No target RAM map inferred from random header candidates",
+    "No code execution and no device IO"
+  ]
+}

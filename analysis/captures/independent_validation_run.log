@@ -1,0 +1,30 @@
+{
+  "all_target_status_zero": true,
+  "bulk_urb_matched_pairs": 3962,
+  "bulk_completion_without_submission": [
+    {
+      "frame": 27,
+      "endpoint": "0x82"
+    }
+  ],
+  "bulk_pending_at_end": [
+    {
+      "frame": 7950,
+      "endpoint": "0x82"
+    }
+  ],
+  "sha256": "101c25061d62c511b61a8635903da0b277a4379d918fde3e5f5a6167cea4c536",
+  "bytes": 664000,
+  "blocks": {
+    "0xa0d0d0a": 1,
+    "0x1": 1,
+    "0x6": 7950
+  },
+  "frames": 7950,
+  "target_frames": 7932,
+  "target_only": true,
+  "independent_matches_root_sysex_exactly": true,
+  "messages": 3219,
+  "nonzero_ignored_padding_events": 12,
+  "first_bulk_time": 60.250494
+}

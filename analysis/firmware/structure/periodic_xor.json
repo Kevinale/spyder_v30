@@ -1,0 +1,258 @@
+{
+  "limits": "Negative results apply only to these periods, modal-zero assumption and same phase; no encryption conclusion.",
+  "results": [
+    {
+      "period": 1,
+      "hypothesis": "2.02 modal phase byte assumed zero plaintext; unverified",
+      "key_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "results": [
+        {
+          "version": "2.02",
+          "entropy": 7.9967336905678845,
+          "zero_fraction": 0.004790148370434655,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        },
+        {
+          "version": "2.05",
+          "entropy": 7.9983435454394085,
+          "zero_fraction": 0.004404972634234674,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "hypothesis": "2.02 modal phase byte assumed zero plaintext; unverified",
+      "key_sha256": "39cc17dc404ef03fcb9a42022d881706525ec601c1ebd53aa02ff93167b2603f",
+      "results": [
+        {
+          "version": "2.02",
+          "entropy": 7.996796089469106,
+          "zero_fraction": 0.004842101548531457,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        },
+        {
+          "version": "2.05",
+          "entropy": 7.9982792253251604,
+          "zero_fraction": 0.004460924942521719,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "hypothesis": "2.02 modal phase byte assumed zero plaintext; unverified",
+      "key_sha256": "57fa29f9cededee47680b85cb9613ef9f003a00b39cc1960b10bd7a71159c74e",
+      "results": [
+        {
+          "version": "2.02",
+          "entropy": 7.996930777251293,
+          "zero_fraction": 0.0049054909608005105,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        },
+        {
+          "version": "2.05",
+          "entropy": 7.998398398488236,
+          "zero_fraction": 0.004585545992797412,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "hypothesis": "2.02 modal phase byte assumed zero plaintext; unverified",
+      "key_sha256": "c93f1336d54fed82e8821036a3a474123f4b9b33bae309b5ca1b33b6be874d90",
+      "results": [
+        {
+          "version": "2.02",
+          "entropy": 7.996751612697231,
+          "zero_fraction": 0.00499371333870074,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        },
+        {
+          "version": "2.05",
+          "entropy": 7.998324267134688,
+          "zero_fraction": 0.004473641376223321,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        }
+      ]
+    },
+    {
+      "period": 16,
+      "hypothesis": "2.02 modal phase byte assumed zero plaintext; unverified",
+      "key_sha256": "f35e4a60d101cb271777e48f1587f0c656d638b0a95f8a1c41e33330e27a3c11",
+      "results": [
+        {
+          "version": "2.02",
+          "entropy": 7.996745069642477,
+          "zero_fraction": 0.005050894509561999,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        },
+        {
+          "version": "2.05",
+          "entropy": 7.998455505310089,
+          "zero_fraction": 0.004483814523184602,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        }
+      ]
+    },
+    {
+      "period": 32,
+      "hypothesis": "2.02 modal phase byte assumed zero plaintext; unverified",
+      "key_sha256": "66dd82d9dbd9320b00484906a6db2b7ec07823f308374d2bbf97381fc50a77db",
+      "results": [
+        {
+          "version": "2.02",
+          "entropy": 7.996788549908482,
+          "zero_fraction": 0.005171138343144533,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        },
+        {
+          "version": "2.05",
+          "entropy": 7.99847264987179,
+          "zero_fraction": 0.004399886060754033,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        }
+      ]
+    },
+    {
+      "period": 64,
+      "hypothesis": "2.02 modal phase byte assumed zero plaintext; unverified",
+      "key_sha256": "1d88f8e7136653193428f75cd356fa027d8d537b55c8a75188c2b612742f8632",
+      "results": [
+        {
+          "version": "2.02",
+          "entropy": 7.996805478602628,
+          "zero_fraction": 0.00535019709532722,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        },
+        {
+          "version": "2.05",
+          "entropy": 7.998408845304575,
+          "zero_fraction": 0.004323587458544426,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        }
+      ]
+    },
+    {
+      "period": 128,
+      "hypothesis": "2.02 modal phase byte assumed zero plaintext; unverified",
+      "key_sha256": "e4e703da7f3c50f90a345a22d8ab87a8bf95ab21833d1e60183c7cc472fa3851",
+      "results": [
+        {
+          "version": "2.02",
+          "entropy": 7.996684188715958,
+          "zero_fraction": 0.0056295679586779454,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        },
+        {
+          "version": "2.05",
+          "entropy": 7.998361280728446,
+          "zero_fraction": 0.004684734175669902,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        }
+      ]
+    },
+    {
+      "period": 256,
+      "hypothesis": "2.02 modal phase byte assumed zero plaintext; unverified",
+      "key_sha256": "3b48a25a42496b9c025d6fc98fdc819928c930a50533691dc2b53a4d8d95b4a2",
+      "results": [
+        {
+          "version": "2.02",
+          "entropy": 7.996763189540816,
+          "zero_fraction": 0.006056956367172388,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        },
+        {
+          "version": "2.05",
+          "entropy": 7.998454286938828,
+          "zero_fraction": 0.004384626340312112,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        }
+      ]
+    },
+    {
+      "period": 512,
+      "hypothesis": "2.02 modal phase byte assumed zero plaintext; unverified",
+      "key_sha256": "ecd8fc89f69a1673a49731a45a98ae058aeb519c9acd2aa7f1189a6dfdca21e7",
+      "results": [
+        {
+          "version": "2.02",
+          "entropy": 7.996796097950498,
+          "zero_fraction": 0.006723525444640784,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        },
+        {
+          "version": "2.05",
+          "entropy": 7.998554679977745,
+          "zero_fraction": 0.004644041587824777,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        }
+      ]
+    },
+    {
+      "period": 1024,
+      "hypothesis": "2.02 modal phase byte assumed zero plaintext; unverified",
+      "key_sha256": "9fa9d00c22df4150459263666fea343915c901957e906656ef403e09dd418bef",
+      "results": [
+        {
+          "version": "2.02",
+          "entropy": 7.996490160416094,
+          "zero_fraction": 0.007754093518334571,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        },
+        {
+          "version": "2.05",
+          "entropy": 7.998718912809529,
+          "zero_fraction": 0.004651671448045738,
+          "multi_block_ldr_candidates": [],
+          "ELF_magic_count": 0,
+          "known_name_hits": []
+        }
+      ]
+    }
+  ]
+}

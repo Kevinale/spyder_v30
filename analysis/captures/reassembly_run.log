@@ -1,0 +1,135 @@
+{
+  "logical_messages": 2307,
+  "streams": [
+    {
+      "direction": "OUT",
+      "channel": 0,
+      "bytes": 19624,
+      "unconsumed": 0
+    },
+    {
+      "direction": "IN",
+      "channel": 0,
+      "bytes": 35512,
+      "unconsumed": 0
+    },
+    {
+      "direction": "OUT",
+      "channel": 1,
+      "bytes": 3088,
+      "unconsumed": 0
+    },
+    {
+      "direction": "IN",
+      "channel": 1,
+      "bytes": 10593,
+      "unconsumed": 0
+    }
+  ],
+  "received_symbol_table": {
+    "logical_index": 8,
+    "first_frame": 47,
+    "last_frame": 1259,
+    "count": 916,
+    "bytes": 22175,
+    "sha256": "f2bbfd4e6efde58a1589374d2f24e6860594c0bdea27faf06ec27d2ccefdb138",
+    "all_crcs_match": true,
+    "editor_prefix_matches": true
+  },
+  "drive_group": 42,
+  "drive_parameter": 38,
+  "directions": {
+    "OUT": {
+      "count": 813,
+      "first_time": 83.74707,
+      "last_time": 97.24546,
+      "first_frame": 2787,
+      "last_frame": 7663,
+      "min": 0.3923438489437103,
+      "max": 0.9017541408538818,
+      "first_event": {
+        "logical_index": 539,
+        "direction": "OUT",
+        "first_frame": 2787,
+        "last_frame": 2789,
+        "time_seconds": 83.74707,
+        "group_index": 42,
+        "group": "Amp",
+        "parameter_index": 38,
+        "parameter": "Drive",
+        "raw_type_field": 4,
+        "value_float32": 0.5830590128898621,
+        "value_bytes_le": "5b43153f",
+        "opcode": 10,
+        "sysex_indices": [
+          638,
+          639
+        ]
+      },
+      "last_event": {
+        "logical_index": 2164,
+        "direction": "OUT",
+        "first_frame": 7661,
+        "last_frame": 7663,
+        "time_seconds": 97.24546,
+        "group_index": 42,
+        "group": "Amp",
+        "parameter_index": 38,
+        "parameter": "Drive",
+        "raw_type_field": 4,
+        "value_float32": 0.8540753722190857,
+        "value_bytes_le": "afa45a3f",
+        "opcode": 10,
+        "sysex_indices": [
+          3075,
+          3076
+        ]
+      }
+    },
+    "IN": {
+      "count": 140,
+      "first_time": 120.693903,
+      "last_time": 131.116743,
+      "first_frame": 7669,
+      "last_frame": 7947,
+      "min": 0.11764705181121826,
+      "max": 1.0,
+      "first_event": {
+        "logical_index": 2167,
+        "direction": "IN",
+        "first_frame": 7669,
+        "last_frame": 7669,
+        "time_seconds": 120.693903,
+        "group_index": 42,
+        "group": "Amp",
+        "parameter_index": 38,
+        "parameter": "Drive",
+        "raw_type_field": 4,
+        "value_float32": 0.8483045697212219,
+        "value_bytes_le": "7d2a593f",
+        "opcode": 4,
+        "sysex_indices": [
+          3079
+        ]
+      },
+      "last_event": {
+        "logical_index": 2306,
+        "direction": "IN",
+        "first_frame": 7947,
+        "last_frame": 7947,
+        "time_seconds": 131.116743,
+        "group_index": 42,
+        "group": "Amp",
+        "parameter_index": 38,
+        "parameter": "Drive",
+        "raw_type_field": 4,
+        "value_float32": 0.11764705181121826,
+        "value_bytes_le": "f0f0f03d",
+        "opcode": 4,
+        "sysex_indices": [
+          3218
+        ]
+      }
+    }
+  }
+}

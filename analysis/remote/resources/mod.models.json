@@ -1,0 +1,2332 @@
+[
+  {
+    "symbolicID": "JetFlanger",
+    "id": 33751047,
+    "category": 8,
+    "name": "Jet Flanger",
+    "shortname": "Jet Flanger",
+    "icon": "mod-l6jetflanger",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.2,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Feedback",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Feedback",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Manual",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Manual",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "AutoPanner",
+    "id": 33751054,
+    "category": 8,
+    "name": "Auto Pan",
+    "shortname": "Auto Pan",
+    "icon": "mod-autopanner",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "AnalogChorus",
+    "id": 33751045,
+    "category": 8,
+    "name": "Analog Chorus",
+    "shortname": "Analog Chorus",
+    "icon": "mod-analogsquare",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "OptoTremolo",
+    "id": 33751050,
+    "category": 8,
+    "name": "Opto Tremolo",
+    "shortname": "Opto Tremolo",
+    "icon": "mod-optotrem",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Shape",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "L6ExpoFlang",
+    "id": 33751059,
+    "category": 8,
+    "name": "Expo Flange",
+    "shortname": "Expo Flange",
+    "icon": "mod-expoflange",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Feedback",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Feedback",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Pre Dly",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "L6Flanger",
+    "id": 33751046,
+    "category": 8,
+    "name": "Line 6 Flanger",
+    "shortname": "Line 6 Flanger",
+    "icon": "mod-l6flanger",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Freq",
+        "valueType": 1
+      },
+      {
+        "default": 0.2,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "L6LumpyPhase",
+    "id": 33751057,
+    "category": 8,
+    "name": "Lumpy Phase",
+    "shortname": "Lumpy Phase",
+    "icon": "mod-lumpyphase",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Time",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "L6SineChorus",
+    "id": 33751044,
+    "category": 8,
+    "name": "Sine Chorus",
+    "shortname": "Sine Chorus",
+    "icon": "mod-sinechorus",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Freq",
+        "valueType": 1
+      },
+      {
+        "default": 0.71,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.79,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "StereoSquareChorus",
+    "id": 33751058,
+    "category": 8,
+    "name": "Stereo Square Chorus",
+    "shortname": "Wide SQ Chorus",
+    "icon": "mod-squarechorus",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Freq",
+        "valueType": 1
+      },
+      {
+        "default": 0.2,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Pre",
+        "valueType": 1
+      },
+      {
+        "default": 0.13,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Feedback",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Feedback",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "RotaryDrum_Horn",
+    "id": 33751052,
+    "category": 8,
+    "name": "Rotary Drum + Horn",
+    "shortname": "Rotary",
+    "icon": "mod-leslie145",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 0,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 0,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.046329,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Phaser",
+    "id": 33751048,
+    "category": 8,
+    "name": "Phaser",
+    "shortname": "Phaser",
+    "icon": "mod-phase90",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Feedback",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Feedback",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "RandomChorus",
+    "id": 33751060,
+    "category": 8,
+    "name": "Random Chorus",
+    "shortname": "Random Chorus",
+    "icon": "mod-randomchorus",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.88,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "AnalogSquareChorus",
+    "id": 33751061,
+    "category": 8,
+    "name": "Analog Square Chorus",
+    "shortname": "Square Chorus",
+    "icon": "mod-analogsquare",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "StereoExponentialChorus",
+    "id": 33751070,
+    "category": 8,
+    "name": "Stereo Expo Chorus",
+    "shortname": "Wide Exp Chorus",
+    "icon": "mod-stereoexpro",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Freq",
+        "valueType": 1
+      },
+      {
+        "default": 0.2,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Feedback",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Feedback",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Pre",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "StereoSquareFlange",
+    "id": 33751071,
+    "category": 8,
+    "name": "Stereo Square Flange",
+    "shortname": "Wide SQ Flange",
+    "icon": "mod-stereosqflange",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Freq",
+        "valueType": 1
+      },
+      {
+        "default": 0.2,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Pre",
+        "valueType": 1
+      },
+      {
+        "default": 0.95,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Feedback",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Feedback",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "UVibe",
+    "id": 33751049,
+    "category": 8,
+    "name": "U-Vibe",
+    "shortname": "U-Vibe",
+    "icon": "mod-univibe",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "RotaryDrum",
+    "id": 33751053,
+    "category": 8,
+    "name": "Rotary Drum",
+    "shortname": "Rotary Drum",
+    "icon": "mod-vibratone",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 0,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 0,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.046329,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "BiasTremolo",
+    "id": 33751051,
+    "category": 8,
+    "name": "Bias Tremolo",
+    "shortname": "Bias Tremolo",
+    "icon": "mod-biastrem",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Shape",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HiTalk",
+    "id": 33751066,
+    "category": 8,
+    "name": "Hi Talk",
+    "shortname": "Hi Talk",
+    "icon": "mod-hitalk",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Q",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Q",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "SampleAndHold",
+    "id": 33751064,
+    "category": 8,
+    "name": "Random S & H",
+    "shortname": "Random S & H",
+    "icon": "mod-randomsh",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Range",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Q",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Q",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Sweeper",
+    "id": 33751067,
+    "category": 8,
+    "name": "Sweeper",
+    "shortname": "Sweeper",
+    "icon": "mod-l6sweeper",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.13,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Q",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Q",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Frequency",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Range",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Warble_Matic",
+    "id": 33751068,
+    "category": 8,
+    "name": "Warble-Matic",
+    "shortname": "Warble-Matic",
+    "icon": "mod-warblematic",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Range",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Q",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Q",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "PODPurpleX_2",
+    "id": 33751063,
+    "category": 8,
+    "name": "POD Purple X",
+    "shortname": "POD Purple X",
+    "icon": "mod-purplex",
+    "params": [
+      {
+        "default": 6,
+        "max": 14,
+        "min": 1,
+        "name": "Note",
+        "persist": 3,
+        "symbolicID": "SyncSelect",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Tempo Sync",
+        "persist": 2,
+        "symbolicID": "@temposync",
+        "valueType": 2
+      },
+      {
+        "default": 0.040225,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Speed",
+        "persist": 1,
+        "tweak": 1,
+        "symbolicID": "Speed",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Feedback",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Feedback",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 8,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 1,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  }
+]

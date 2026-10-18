@@ -1,0 +1,33 @@
+{
+  "input": "/workspace/attachments/61bdc038-8b34-48fc-8c44-f8520be47b2c/SpiderV_USB2perilla.pcapng .pcapng",
+  "sha256": "101c25061d62c511b61a8635903da0b277a4379d918fde3e5f5a6167cea4c536",
+  "bytes": 664000,
+  "frames": 7950,
+  "duration_seconds": 133.188961,
+  "interfaces": [
+    {
+      "link_type": 249,
+      "snaplen": 65535,
+      "resolution": 6,
+      "scale": 1e-06,
+      "name": "\\\\.\\USBPcap2"
+    }
+  ],
+  "targets": [
+    [
+      2,
+      4
+    ]
+  ],
+  "target_frames": 7932,
+  "all_usb_status_zero": true,
+  "target_payload_urbs": 3963,
+  "midi_events": 46308,
+  "sysex_messages": 3219,
+  "sysex_counts": {
+    "OUT": 1901,
+    "IN": 1318
+  },
+  "unfinished_sysex": 0,
+  "warnings": []
+}

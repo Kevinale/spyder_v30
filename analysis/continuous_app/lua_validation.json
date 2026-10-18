@@ -1,0 +1,13 @@
+{
+  "passed": [
+    "old state not replayed",
+    "four controls reach actual Gateway parameter host calls",
+    "Input bounded-12..+6dB",
+    "heartbeat stale>1.5s disables monitor and restores FX",
+    "OFF disables monitor and restores FX",
+    "Escape disables monitor and restores FX",
+    "session change stops bridge",
+    "out-of-range state rejected"
+  ],
+  "real_windows_reaper_browser_test": "PENDING"
+}

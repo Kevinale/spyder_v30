@@ -1,0 +1,97 @@
+[
+  {
+    "query": "\"Spider V\" NAM",
+    "url": "https://github.com/search?q=%22Spider+V%22+NAM&type=repositories",
+    "count": 0,
+    "results": []
+  },
+  {
+    "query": "\"Spider V\" firmware",
+    "url": "https://github.com/search?q=%22Spider+V%22+firmware&type=repositories",
+    "count": 0,
+    "results": []
+  },
+  {
+    "query": "\"Blackfin\" \"NAM\"",
+    "url": "https://github.com/search?q=%22Blackfin%22+%22NAM%22&type=repositories",
+    "count": 0,
+    "results": []
+  },
+  {
+    "query": "\"Neural Amp Modeler\" embedded",
+    "url": "https://github.com/search?q=%22Neural+Amp+Modeler%22+embedded&type=repositories",
+    "count": 2,
+    "results": [
+      {
+        "name": "oyama/pico-neural-amp-modeler-demo",
+        "description": "Real-time Neural Amp Modeler (NAM A2-Lite) on a Raspberry Pi Pico 2 (RP2350) \u2014 driverless USB audio, dual Cortex-M33"
+      },
+      {
+        "name": "rolaca11/neural-amp-modeler-embedded",
+        "description": "Goal is to implement Neural Amp Modeler DSP to be flashed on STM32N6"
+      }
+    ]
+  },
+  {
+    "query": "\"Neural Amp Modeler\" pedal",
+    "url": "https://github.com/search?q=%22Neural+Amp+Modeler%22+pedal&type=repositories",
+    "count": 9,
+    "results": [
+      {
+        "name": "GuitarML/Mercury",
+        "description": "Mercury is a Amp emulator running Neural Amp Modeler (NAM) for the Funbox pedal with Daisy Seed."
+      },
+      {
+        "name": "aisk/nam.cpp",
+        "description": "Neural Amp Modeler inference in GGML"
+      },
+      {
+        "name": "Roccccky/NAMplify",
+        "description": "Free guitar pedalboard for macOS \u2014 amplify Neural Amp Modeler (NAM) captures from TONE3000, simplify everything else. Drag pedals, wheel \u2026"
+      },
+      {
+        "name": "O-Chavez/linux-guitar-dsp",
+        "description": "This is the main structure for a Linux based guitar pedal using the Neural Amp Modeler. "
+      },
+      {
+        "name": "fabiohl/nam-rs",
+        "description": "NAM-rs was a real-time Neural Amp Modeler (NAM) client for simulating guitar amplifiers, pedals, and studio gear. It aims to maintain par\u2026"
+      },
+      {
+        "name": "TTeuber/PistompPedalboard",
+        "description": "Live multi-effect guitar pedalboard in C++17 for the pi-Stomp (Raspberry Pi 5): 30+ JUCE-DSP effects, Neural Amp Modeler, lock-free RCU c\u2026"
+      },
+      {
+        "name": "MACAVELLESWAG/neural-bean-pod",
+        "description": "Neural Bean Pod - Quantum Amp: Aesthetic JUCE + Neural Amp Modeler plugin with stunning red metallic pod GUI. Inspired by hardware bean p\u2026"
+      },
+      {
+        "name": "Yahiake/LiveSPICE-Generator",
+        "description": "A high-throughput, multi-threaded dataset generation engine and batch simulator for LiveSPICE circuit schematics (.schx). Built specifica\u2026"
+      },
+      {
+        "name": "CatastrophicCoder/ampsim",
+        "description": "An open-source guitar amp plugin for macOS (AU, VST3, standalone). A Neural Amp Modeler capture is the amp; around it sit Gain, a three-b\u2026"
+      }
+    ]
+  },
+  {
+    "query": "\"line6\" firmware",
+    "url": "https://github.com/search?q=%22line6%22+firmware&type=repositories",
+    "count": 3,
+    "results": [
+      {
+        "name": "Jmainguy/line6-tt",
+        "description": "Linux USB control, firmware research, and a Rust GUI for the Line 6 AMPLIFi TT"
+      },
+      {
+        "name": "MarByteBeep/podgo",
+        "description": "Possibly futile attempt at decoding the Line6 Pod Go firmware"
+      },
+      {
+        "name": "beepoo304/line6-m5-arduino-midiswitch",
+        "description": "Arduino Nano MIDI foot controller for the Line 6 M5 Stompbox Modeler. Two footswitches, a two-digit LED display and MIDI OUT, with build \u2026"
+      }
+    ]
+  }
+]

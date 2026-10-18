@@ -1,0 +1,63 @@
+{
+  "note": "Arithmetic examples, not NAM model classes or measured performance; activation and overhead costs excluded.",
+  "profiles": [
+    {
+      "kind": "hypothetical_1_layer_LSTM",
+      "input": 1,
+      "hidden": 8,
+      "sample_rate": 48000,
+      "dense_mac_per_sample": 296,
+      "dense_mac_per_second": 14208000,
+      "weight_count_with_bias_and_mono_head": 329,
+      "float32_weight_bytes": 1316
+    },
+    {
+      "kind": "hypothetical_1_layer_LSTM",
+      "input": 1,
+      "hidden": 16,
+      "sample_rate": 48000,
+      "dense_mac_per_sample": 1104,
+      "dense_mac_per_second": 52992000,
+      "weight_count_with_bias_and_mono_head": 1169,
+      "float32_weight_bytes": 4676
+    },
+    {
+      "kind": "hypothetical_1_layer_LSTM",
+      "input": 1,
+      "hidden": 32,
+      "sample_rate": 48000,
+      "dense_mac_per_sample": 4256,
+      "dense_mac_per_second": 204288000,
+      "weight_count_with_bias_and_mono_head": 4385,
+      "float32_weight_bytes": 17540
+    },
+    {
+      "kind": "hypothetical_dense_causal_conv_stack",
+      "layers": 10,
+      "kernel": 3,
+      "channels": 16,
+      "dilations": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256,
+        512
+      ],
+      "dense_mac_per_sample": 7680,
+      "dense_mac_per_second": 368640000,
+      "float32_conv_weight_bytes_excluding_bias": 30720,
+      "receptive_field_samples": 2047,
+      "float32_history_bytes_excluding_scratch": 130944
+    }
+  ],
+  "block_duration_ms_at_48k": {
+    "64": 1.3333333333333333,
+    "128": 2.6666666666666665,
+    "256": 5.333333333333333
+  }
+}

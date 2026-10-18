@@ -1,0 +1,12 @@
+{
+  "nam_train_configs.txt": "09bfe613ceec7ae48e7ffd70b1cdf016b44e95a367810b8642ad2740a87d8d6b",
+  "nam_lstm.txt": "4ad02a89648d387952bc98d681ea35b8e08ec8228da856d30765355cbe6e0c30",
+  "core_NAM_dsp.h": "5210558dadf4267035403aa0270564fa9fbea8b5bdf574b3c39ab18cf6d7b8ad",
+  "core_NAM_lstm.cpp": "aa1402eb3f724108a7b45f21acdd5e2faae1589fbbcde4f5423f14ed02fedc6f",
+  "core_NAM_convnet.h": "169d1152bf479a19771922d5d14d360bce4a32f8821743153586024a0f9c7013",
+  "core_CMakeLists.txt": "0ee1f31ac3b73dad755c74bd8218cd8b5c2173713d2527413788be1044d14144",
+  "nam_configs.txt": "384595b85335c08041f7cb94a8819c90299965228ec2dd89b7b4d49c7f118848",
+  "core_NAM_wavenet_model.cpp": "d58fe1220d0d77b43d952cb9c6127831d15da85cebb6248a774545b9ab6a5659",
+  "core_NAM_wavenet_model.h": "6eedff903c22e53834d74543ff1f4cc5f12bf83edd0e396dc28f594e0ce4efcc",
+  "nam_readme.txt": "113213c7c2dec7a38404a7b0a574aaa58191c9af474bbf99bb1216acf2dd4d87"
+}

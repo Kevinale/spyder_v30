@@ -1,0 +1,647 @@
+{
+  "usb": [
+    {
+      "capture": "captures",
+      "config_descriptor_instances": 1,
+      "descriptor": {
+        "frame": 22,
+        "payload_offset": 2784,
+        "hex": "09022201050100c00009040000000101000009240100010900010109040100020103000007240100014100062402010100062402020200092403010301020100092403020401010100090502024000000000052501010109058202400000000005250101030904020000010100000a240100013d000203040c24020101010202030000000924060501020300000924030201030105000c2402030102040203000000092403040101030300090403000001020000090403010101020000072401040201000e2402010202100280bb0044ac0009058325c40001000007250101000000090404000001020000090404010201020000072401010201000e2402010202100280bb0044ac0009050405c40001008407250101000000090584110400010400"
+      },
+      "interfaces": [
+        {
+          "interface": 0,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 1,
+          "configuration_offset": 9
+        },
+        {
+          "interface": 1,
+          "alternate": 0,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 3,
+          "configuration_offset": 27
+        },
+        {
+          "interface": 2,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 1,
+          "configuration_offset": 101
+        },
+        {
+          "interface": 3,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 171
+        },
+        {
+          "interface": 3,
+          "alternate": 1,
+          "endpoints": 1,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 180
+        },
+        {
+          "interface": 4,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 226
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 235
+        }
+      ],
+      "formats": [
+        {
+          "interface": 3,
+          "alternate": 1,
+          "endpoints": 1,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 196,
+          "channels": 2,
+          "subframe_bytes": 2,
+          "resolution_bits": 16,
+          "rates_hz": [
+            48000,
+            44100
+          ]
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 251,
+          "channels": 2,
+          "subframe_bytes": 2,
+          "resolution_bits": 16,
+          "rates_hz": [
+            48000,
+            44100
+          ]
+        }
+      ],
+      "endpoints": [
+        {
+          "interface": 1,
+          "alternate": 0,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 3,
+          "configuration_offset": 73,
+          "address": "0x2",
+          "attributes": "0x2",
+          "transfer": "bulk",
+          "usage": 0,
+          "max_packet": 64
+        },
+        {
+          "interface": 1,
+          "alternate": 0,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 3,
+          "configuration_offset": 87,
+          "address": "0x82",
+          "attributes": "0x2",
+          "transfer": "bulk",
+          "usage": 0,
+          "max_packet": 64
+        },
+        {
+          "interface": 3,
+          "alternate": 1,
+          "endpoints": 1,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 210,
+          "address": "0x83",
+          "attributes": "0x25",
+          "transfer": "isochronous",
+          "usage": 2,
+          "max_packet": 196
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 265,
+          "address": "0x4",
+          "attributes": "0x5",
+          "transfer": "isochronous",
+          "usage": 0,
+          "max_packet": 196
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 281,
+          "address": "0x84",
+          "attributes": "0x11",
+          "transfer": "isochronous",
+          "usage": 1,
+          "max_packet": 4
+        }
+      ],
+      "standard_selector_units": []
+    },
+    {
+      "capture": "captures_tone",
+      "config_descriptor_instances": 1,
+      "descriptor": {
+        "frame": 22,
+        "payload_offset": 2784,
+        "hex": "09022201050100c00009040000000101000009240100010900010109040100020103000007240100014100062402010100062402020200092403010301020100092403020401010100090502024000000000052501010109058202400000000005250101030904020000010100000a240100013d000203040c24020101010202030000000924060501020300000924030201030105000c2402030102040203000000092403040101030300090403000001020000090403010101020000072401040201000e2402010202100280bb0044ac0009058325c40001000007250101000000090404000001020000090404010201020000072401010201000e2402010202100280bb0044ac0009050405c40001008407250101000000090584110400010400"
+      },
+      "interfaces": [
+        {
+          "interface": 0,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 1,
+          "configuration_offset": 9
+        },
+        {
+          "interface": 1,
+          "alternate": 0,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 3,
+          "configuration_offset": 27
+        },
+        {
+          "interface": 2,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 1,
+          "configuration_offset": 101
+        },
+        {
+          "interface": 3,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 171
+        },
+        {
+          "interface": 3,
+          "alternate": 1,
+          "endpoints": 1,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 180
+        },
+        {
+          "interface": 4,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 226
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 235
+        }
+      ],
+      "formats": [
+        {
+          "interface": 3,
+          "alternate": 1,
+          "endpoints": 1,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 196,
+          "channels": 2,
+          "subframe_bytes": 2,
+          "resolution_bits": 16,
+          "rates_hz": [
+            48000,
+            44100
+          ]
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 251,
+          "channels": 2,
+          "subframe_bytes": 2,
+          "resolution_bits": 16,
+          "rates_hz": [
+            48000,
+            44100
+          ]
+        }
+      ],
+      "endpoints": [
+        {
+          "interface": 1,
+          "alternate": 0,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 3,
+          "configuration_offset": 73,
+          "address": "0x2",
+          "attributes": "0x2",
+          "transfer": "bulk",
+          "usage": 0,
+          "max_packet": 64
+        },
+        {
+          "interface": 1,
+          "alternate": 0,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 3,
+          "configuration_offset": 87,
+          "address": "0x82",
+          "attributes": "0x2",
+          "transfer": "bulk",
+          "usage": 0,
+          "max_packet": 64
+        },
+        {
+          "interface": 3,
+          "alternate": 1,
+          "endpoints": 1,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 210,
+          "address": "0x83",
+          "attributes": "0x25",
+          "transfer": "isochronous",
+          "usage": 2,
+          "max_packet": 196
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 265,
+          "address": "0x4",
+          "attributes": "0x5",
+          "transfer": "isochronous",
+          "usage": 0,
+          "max_packet": 196
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 281,
+          "address": "0x84",
+          "attributes": "0x11",
+          "transfer": "isochronous",
+          "usage": 1,
+          "max_packet": 4
+        }
+      ],
+      "standard_selector_units": []
+    },
+    {
+      "capture": "captures_noamp",
+      "config_descriptor_instances": 1,
+      "descriptor": {
+        "frame": 22,
+        "payload_offset": 2784,
+        "hex": "09022201050100c00009040000000101000009240100010900010109040100020103000007240100014100062402010100062402020200092403010301020100092403020401010100090502024000000000052501010109058202400000000005250101030904020000010100000a240100013d000203040c24020101010202030000000924060501020300000924030201030105000c2402030102040203000000092403040101030300090403000001020000090403010101020000072401040201000e2402010202100280bb0044ac0009058325c40001000007250101000000090404000001020000090404010201020000072401010201000e2402010202100280bb0044ac0009050405c40001008407250101000000090584110400010400"
+      },
+      "interfaces": [
+        {
+          "interface": 0,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 1,
+          "configuration_offset": 9
+        },
+        {
+          "interface": 1,
+          "alternate": 0,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 3,
+          "configuration_offset": 27
+        },
+        {
+          "interface": 2,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 1,
+          "configuration_offset": 101
+        },
+        {
+          "interface": 3,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 171
+        },
+        {
+          "interface": 3,
+          "alternate": 1,
+          "endpoints": 1,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 180
+        },
+        {
+          "interface": 4,
+          "alternate": 0,
+          "endpoints": 0,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 226
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 235
+        }
+      ],
+      "formats": [
+        {
+          "interface": 3,
+          "alternate": 1,
+          "endpoints": 1,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 196,
+          "channels": 2,
+          "subframe_bytes": 2,
+          "resolution_bits": 16,
+          "rates_hz": [
+            48000,
+            44100
+          ]
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 251,
+          "channels": 2,
+          "subframe_bytes": 2,
+          "resolution_bits": 16,
+          "rates_hz": [
+            48000,
+            44100
+          ]
+        }
+      ],
+      "endpoints": [
+        {
+          "interface": 1,
+          "alternate": 0,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 3,
+          "configuration_offset": 73,
+          "address": "0x2",
+          "attributes": "0x2",
+          "transfer": "bulk",
+          "usage": 0,
+          "max_packet": 64
+        },
+        {
+          "interface": 1,
+          "alternate": 0,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 3,
+          "configuration_offset": 87,
+          "address": "0x82",
+          "attributes": "0x2",
+          "transfer": "bulk",
+          "usage": 0,
+          "max_packet": 64
+        },
+        {
+          "interface": 3,
+          "alternate": 1,
+          "endpoints": 1,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 210,
+          "address": "0x83",
+          "attributes": "0x25",
+          "transfer": "isochronous",
+          "usage": 2,
+          "max_packet": 196
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 265,
+          "address": "0x4",
+          "attributes": "0x5",
+          "transfer": "isochronous",
+          "usage": 0,
+          "max_packet": 196
+        },
+        {
+          "interface": 4,
+          "alternate": 1,
+          "endpoints": 2,
+          "class": 1,
+          "subclass": 2,
+          "configuration_offset": 281,
+          "address": "0x84",
+          "attributes": "0x11",
+          "transfer": "isochronous",
+          "usage": 1,
+          "max_packet": 4
+        }
+      ],
+      "standard_selector_units": []
+    }
+  ],
+  "same_configuration_all_captures": true,
+  "no_amp": {
+    "symbolicID": "Bypass",
+    "id": 131072,
+    "category": 1,
+    "name": "No Amp",
+    "shortname": "No Amp",
+    "icon": "amp-gtr-bypass",
+    "cablink": "@NoCabinet",
+    "params": [
+      {
+        "default": 0.57,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  "amp_asset_count": 79,
+  "amp_assets_with_enabled_param": [],
+  "symbol_candidates": [
+    {
+      "index": 239,
+      "text": "Bypass",
+      "crc32": "e8a48342",
+      "string_offset": 13518,
+      "record_offset": 2876
+    },
+    {
+      "index": 569,
+      "text": "WetDry",
+      "crc32": "5685a1ea",
+      "string_offset": 16996,
+      "record_offset": 6836
+    },
+    {
+      "index": 570,
+      "text": "ModWetDry",
+      "crc32": "58a12a56",
+      "string_offset": 17003,
+      "record_offset": 6848
+    },
+    {
+      "index": 890,
+      "text": "GuitInputGain",
+      "crc32": "fa3efa6b",
+      "string_offset": 21814,
+      "record_offset": 10688
+    },
+    {
+      "index": 896,
+      "text": "GuitProcInputGain",
+      "crc32": "b3ea4de9",
+      "string_offset": 21900,
+      "record_offset": 10760
+    },
+    {
+      "index": 899,
+      "text": "GuitProcOutputGain",
+      "crc32": "bd42b89b",
+      "string_offset": 21945,
+      "record_offset": 10796
+    },
+    {
+      "index": 900,
+      "text": "USBOutLevel",
+      "crc32": "837ea250",
+      "string_offset": 21964,
+      "record_offset": 10808
+    },
+    {
+      "index": 901,
+      "text": "USBInLevel",
+      "crc32": "e2b4d7d3",
+      "string_offset": 21976,
+      "record_offset": 10820
+    },
+    {
+      "index": 906,
+      "text": "BypassMonoToStereo",
+      "crc32": "fd173ed2",
+      "string_offset": 22064,
+      "record_offset": 10880
+    }
+  ],
+  "managed_routing_literal_hits": [],
+  "inputs": [
+    {
+      "path": "captures/target_frames.json",
+      "bytes": 4283099,
+      "sha256": "9ecc3be0c3f9ef12e5867b5b0bd7c64d3f1858c84d9c37acb1c976ab19ba5ff4"
+    },
+    {
+      "path": "captures_tone/target_frames.json",
+      "bytes": 1123411,
+      "sha256": "201d490f2395b5073b1db332f06a6415067bf821693f3eabf3a4d94145a87882"
+    },
+    {
+      "path": "captures_noamp/target_frames.json",
+      "bytes": 734765,
+      "sha256": "a076b51f1b1641fbbb9d3ad43eea8eb3c46f9f378a548c811dabc429b2295634"
+    },
+    {
+      "path": "remote/resources/fixed.models.json",
+      "bytes": 12733,
+      "sha256": "e0004bd6c13cbbe53cccd0f3342803fb74c5a47972dc33895d3e9491f094955d"
+    },
+    {
+      "path": "remote/resources/assets.json",
+      "bytes": 850492,
+      "sha256": "66fc935fe40bb10620e16a593d07d430344e08640fd0d4aed3c7df429d6f99e8"
+    },
+    {
+      "path": "remote/resources/amps.models.json",
+      "bytes": 108058,
+      "sha256": "6c9ea7401072b85c1b0ec4478d5d032c170f537ecf8e4a1f129781a6d79bd426"
+    },
+    {
+      "path": "captures/device_symbols.json",
+      "bytes": 121895,
+      "sha256": "7b2dc689153634d3d8496cb1dbcca3cfe07d8d3112f27ec334e2b61e2a5954be"
+    },
+    {
+      "path": "remote/managed/Spider_V_Remote.il.txt",
+      "bytes": 3768586,
+      "sha256": "abc9b3281ce2473825ffbb784102c89abe99c1f859c0c2d4c6a5f3821dffc869"
+    },
+    {
+      "path": "remote/native/audio_bypass_targets.txt",
+      "bytes": 2735,
+      "sha256": "cdf1bf79851cec9a4ee3a14518d2470190d53e416351b3aa14c747c01b4efb93"
+    }
+  ],
+  "limitations": [
+    "No hardware access or vendor requests executed.",
+    "Absent descriptors or strings do not exclude undocumented firmware routing.",
+    "USBInLevel/USBOutLevel/Guit*Gain names alone do not establish tap points or writable semantics.",
+    "Reported live tests are owner observations, not local instrumented measurements."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "longest_same_offset_equal_run": {
+    "offset": 209813,
+    "bytes": 163
+  },
+  "equal_byte_fraction_of_shorter": 0.07967100042727217,
+  "version_202_hex": "0x2020030",
+  "product_hex": "0x220000"
+}

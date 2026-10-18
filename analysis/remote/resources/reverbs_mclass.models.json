@@ -1,0 +1,949 @@
+[
+  {
+    "symbolicID": "HD_ReverbParticle",
+    "id": 33816604,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Particle Verb",
+    "shortname": "Particle Verb",
+    "icon": "verb-m-particle",
+    "params": [
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "name": "Condition",
+        "persist": 0,
+        "symbolicID": "Condition",
+        "valueType": 0
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Dwell",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Dwell",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Gain",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 4,
+        "max": 4,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_VerbzillaReverb63Spring",
+    "id": 33816593,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "63 Spring",
+    "shortname": "63 Spring",
+    "icon": "verb-m-63spring",
+    "params": [
+      {
+        "default": 0.39,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 0.2,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "Predelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.2,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 3,
+        "max": 3,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_VerbzillaReverbCave",
+    "id": 33816601,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Cave",
+    "shortname": "Cave",
+    "icon": "verb-m-cave",
+    "params": [
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.178,
+        "max": 0.2,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "Predelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.15,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 3,
+        "max": 3,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_VerbzillaReverbChamber",
+    "id": 33816597,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Chamber",
+    "shortname": "Chamber",
+    "icon": "verb-m-chamber",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.014,
+        "max": 0.2,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "Predelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.25,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 3,
+        "max": 3,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_VerbzillaReverbDucking",
+    "id": 33816599,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Ducking",
+    "shortname": "Ducking",
+    "icon": "verb-m-ducking",
+    "params": [
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.08,
+        "max": 0.2,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "Predelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.15,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 3,
+        "max": 3,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_VerbzillaReverbEcho",
+    "id": 33816603,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Echo",
+    "shortname": "Echo",
+    "icon": "verb-m-echo",
+    "params": [
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.2,
+        "max": 0.2,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "Predelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.3,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 3,
+        "max": 3,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_VerbzillaReverbHall",
+    "id": 33816598,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Hall",
+    "shortname": "Hall",
+    "icon": "verb-m-hall",
+    "params": [
+      {
+        "default": 0.58,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.082,
+        "max": 0.2,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "Predelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.4,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.15,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 3,
+        "max": 3,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_VerbzillaReverbOcto",
+    "id": 33816600,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Octo",
+    "shortname": "Octo",
+    "icon": "verb-m-octo",
+    "params": [
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.014,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "Predelay",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.52,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 3,
+        "max": 3,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_VerbzillaReverbPlate",
+    "id": 33816595,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Plate",
+    "shortname": "Plate",
+    "icon": "verb-m-plate",
+    "params": [
+      {
+        "default": 0.33,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.004,
+        "max": 0.2,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "Predelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.17,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 3,
+        "max": 3,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_VerbzillaReverbRoom",
+    "id": 33816596,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Room",
+    "shortname": "Room",
+    "icon": "verb-m-room",
+    "params": [
+      {
+        "default": 0.3,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.006,
+        "max": 0.2,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "Predelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.23,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 3,
+        "max": 3,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_VerbzillaReverbSpring",
+    "id": 33816594,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Spring",
+    "shortname": "Spring",
+    "icon": "verb-m-spring",
+    "params": [
+      {
+        "default": 0.36,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 0.2,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "Predelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.93,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.15,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 3,
+        "max": 3,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "HD_VerbzillaReverbTile",
+    "id": 33816602,
+    "category": 10,
+    "devices": [
+      2097156,
+      2097158
+    ],
+    "name": "Tile",
+    "shortname": "Tile",
+    "icon": "verb-m-tile",
+    "params": [
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.018,
+        "max": 0.2,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "Predelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.85,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.3,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 3,
+        "max": 3,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  }
+]

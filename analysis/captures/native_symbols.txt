@@ -1,0 +1,550 @@
+EXTERNAL:000000d4 API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL::_invalid_parameter_noinfo_noreturn
+100b5520 APIV3EngineInterface::Functions::setFloatParamValue
+100b5520 ?setFloatParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1M@Z
+100b56c0 APIV3EngineInterface::Functions::setIntParamValue
+100b56c0 ?setIntParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1H@Z
+100b5860 APIV3EngineInterface::Functions::setBoolParamValue
+100b5860 ?setBoolParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1_N@Z
+100b5a00 APIV3EngineInterface::Functions::setStringParamValue
+100b5a00 ?setStringParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@11@Z
+100b61f0 APIV3EngineInterface::Functions::bindAssetParamToExternalControl
+100b61f0 ?bindAssetParamToExternalControl@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z
+100b68f0 APIV3EngineInterface::Functions::getFloatParamValue
+100b68f0 ?getFloatParamValue@Functions@APIV3EngineInterface@@SAMPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z
+100b6ab0 APIV3EngineInterface::Functions::getIntParamValue
+100b6ab0 ?getIntParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z
+100b6c70 APIV3EngineInterface::Functions::getBoolParamValue
+100b6c70 ?getBoolParamValue@Functions@APIV3EngineInterface@@SA_NPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z
+100b6e30 APIV3EngineInterface::Functions::getStringParamValue
+100b6e30 ?getStringParamValue@Functions@APIV3EngineInterface@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVAPIV3Engine@@V34@1@Z
+100b6ff0 APIV3EngineInterface::Functions::getStringArrayParamValue
+100b6ff0 ?getStringArrayParamValue@Functions@APIV3EngineInterface@@SA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z
+100b71b0 APIV3EngineInterface::Functions::getIntArrayParamValue
+100b71b0 ?getIntArrayParamValue@Functions@APIV3EngineInterface@@SA?AV?$vector@HV?$allocator@H@std@@@std@@PAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z
+10110340 PTR__invalid_parameter_noinfo_noreturn_10110340
+10117154 s_assetParamBinding_BoundToPedal_10117154
+10117184 s_assetParamBinding_GroupIDKey_10117184
+101171b0 s_assetParamBinding_ParamIDKey_101171b0
+101171d0 s_@tweakparam_101171d0
+101171d1 s_tweakparam_101171d0+1
+101171d2 s_weakparam_101171d0+2
+101171d3 s_eakparam_101171d0+3
+101171dc s_assetParamBinding_RangeMin_101171dc
+10117204 s_assetParamBinding_RangeMax_10117204
+10171cb8 s_EditBuffer_ParamChanged_10171cb8
+10172468 s_param_10172468
+101728e4 s_assetParamBindingChanged_101728e4
+10172914 s_paramID_10172914
+10173500 L6LibUsbControlEndpointItf::vftable_meta_ptr
+10173504 L6LibUsbControlEndpointItf::vftable
+ VTABLE 10173504 10052d50 FUN_10052d50
+ VTABLE 10173508 10052e10 FUN_10052e10
+ VTABLE 1017350c 10052f40 FUN_10052f40
+ VTABLE 10173510 10052fa0 FUN_10052fa0
+ VTABLE 10173514 10052fa0 FUN_10052fa0
+ VTABLE 10173518 10052fb0 FUN_10052fb0
+ VTABLE 1017351c 10052dd0 FUN_10052dd0
+ VTABLE 10173520 10052df0 FUN_10052df0
+ VTABLE 10173524 10052f90 FUN_10052f90
+ VTABLE 10173528 10052dc0 FUN_10052dc0
+1017352c L6UsbControlEndpointItf::vftable_meta_ptr
+10173530 L6UsbControlEndpointItf::vftable
+ VTABLE 10173530 10052d20 `scalar_deleting_destructor'
+ VTABLE 10173534 100c0445 purecall
+ VTABLE 10173538 100c0445 purecall
+ VTABLE 1017353c 100c0445 purecall
+ VTABLE 10173540 100c0445 purecall
+ VTABLE 10173544 100c0445 purecall
+ VTABLE 10173548 100c0445 purecall
+ VTABLE 1017354c 100c0445 purecall
+ VTABLE 10173550 10049170 FUN_10049170
+101735f0 L6MsgPort::vftable_meta_ptr
+101735f4 L6MsgPort::vftable
+ VTABLE 101735f4 10053680 FUN_10053680
+ VTABLE 101735f8 10049140 FUN_10049140
+ VTABLE 101735fc 10049140 FUN_10049140
+ VTABLE 10173600 100534e0 FUN_100534e0
+ VTABLE 10173604 100534e0 FUN_100534e0
+ VTABLE 10173608 100534e0 FUN_100534e0
+ VTABLE 1017360c 100534f0 FUN_100534f0
+ VTABLE 10173610 1004cd60 FUN_1004cd60
+ VTABLE 10173614 10049140 FUN_10049140
+ VTABLE 10173618 100538d0 FUN_100538d0
+ VTABLE 1017361c 100539b0 FUN_100539b0
+ VTABLE 10173620 10053aa0 FUN_10053aa0
+ VTABLE 10173624 10053500 FUN_10053500
+10173664 L6MsgPortMultiplexor::vftable_meta_ptr
+10173668 L6MsgPortMultiplexor::vftable
+ VTABLE 10173668 10053d30 FUN_10053d30
+ VTABLE 1017366c 10053d00 FUN_10053d00
+ VTABLE 10173670 10053dc0 FUN_10053dc0
+ VTABLE 10173674 10053e10 FUN_10053e10
+ VTABLE 10173678 10053cf0 FUN_10053cf0
+1017367c L6MultiplexedClientMsgPort::vftable_meta_ptr
+10173680 L6MultiplexedClientMsgPort::vftable
+ VTABLE 10173680 10053f20 FUN_10053f20
+ VTABLE 10173684 100540c0 FUN_100540c0
+ VTABLE 10173688 10054110 FUN_10054110
+ VTABLE 1017368c 10054140 FUN_10054140
+ VTABLE 10173690 10053e60 FUN_10053e60
+ VTABLE 10173694 10054370 FUN_10054370
+ VTABLE 10173698 100534f0 FUN_100534f0
+ VTABLE 1017369c 1004cd60 FUN_1004cd60
+ VTABLE 101736a0 10049140 FUN_10049140
+ VTABLE 101736a4 100538d0 FUN_100538d0
+ VTABLE 101736a8 100539b0 FUN_100539b0
+ VTABLE 101736ac 10053aa0 FUN_10053aa0
+ VTABLE 101736b0 10053500 FUN_10053500
+ VTABLE 101736b4 10054030 FUN_10054030
+ VTABLE 101736b8 10054310 FUN_10054310
+1017371c L6ParkerDevice::vftable_meta_ptr
+10173720 L6ParkerDevice::vftable
+ VTABLE 10173720 100573c0 FUN_100573c0
+ VTABLE 10173724 10056be0 FUN_10056be0
+ VTABLE 10173728 10056dc0 FUN_10056dc0
+1017372c L6ParkerDevice::vftable_meta_ptr
+10173730 L6ParkerDevice::vftable
+ VTABLE 10173730 100545d0 FUN_100545d0
+ VTABLE 10173734 10049130 FUN_10049130
+ VTABLE 10173738 100543a0 FUN_100543a0
+ VTABLE 1017373c 10054b30 FUN_10054b30
+ VTABLE 10173740 10054df0 FUN_10054df0
+ VTABLE 10173744 10049140 FUN_10049140
+ VTABLE 10173748 10055bf0 FUN_10055bf0
+ VTABLE 1017374c 10055c40 FUN_10055c40
+ VTABLE 10173750 10054f70 FUN_10054f70
+ VTABLE 10173754 10055080 FUN_10055080
+ VTABLE 10173758 1004a510 FUN_1004a510
+ VTABLE 1017375c 100684a0 FUN_100684a0
+ VTABLE 10173760 10049160 FUN_10049160
+ VTABLE 10173764 100684b0 FUN_100684b0
+ VTABLE 10173768 100550e0 FUN_100550e0
+ VTABLE 1017376c 10068440 FUN_10068440
+ VTABLE 10173770 1004b3c0 FUN_1004b3c0
+ VTABLE 10173774 10049140 FUN_10049140
+ VTABLE 10173778 10052fa0 FUN_10052fa0
+ VTABLE 1017377c 10049140 FUN_10049140
+ VTABLE 10173780 10049140 FUN_10049140
+ VTABLE 10173784 1004ccc0 FUN_1004ccc0
+ VTABLE 10173788 1004cb60 FUN_1004cb60
+ VTABLE 1017378c 1004c990 FUN_1004c990
+ VTABLE 10173790 10049180 FUN_10049180
+ VTABLE 10173794 100572d0 FUN_100572d0
+ VTABLE 10173798 10056ee0 FUN_10056ee0
+ VTABLE 1017379c 100665a0 FUN_100665a0
+ VTABLE 101737a0 10049190 FUN_10049190
+ VTABLE 101737a4 10056ec0 FUN_10056ec0
+ VTABLE 101737a8 10054e60 FUN_10054e60
+ VTABLE 101737ac 10049170 FUN_10049170
+ VTABLE 101737b0 10055150 FUN_10055150
+ VTABLE 101737b4 10049150 guard_check_icall
+ VTABLE 101737b8 10067350 FUN_10067350
+101737d4 L6ParkerDevice::vftable_meta_ptr
+101737d8 L6ParkerDevice::vftable
+ VTABLE 101737d8 100573cb FUN_100573cb
+ VTABLE 101737dc 100569f0 FUN_100569f0
+101737e0 L6List<ParkerMessageFragmentContext*>::vftable_meta_ptr
+101737e4 L6List<ParkerMessageFragmentContext*>::vftable
+ VTABLE 101737e4 10057dc0 FUN_10057dc0
+101737e8 L6ParkerMidiMsgPortMultiplexor::vftable_meta_ptr
+101737ec L6ParkerMidiMsgPortMultiplexor::vftable
+ VTABLE 101737ec 10053d30 FUN_10053d30
+ VTABLE 101737f0 10057530 FUN_10057530
+ VTABLE 101737f4 10053dc0 FUN_10053dc0
+ VTABLE 101737f8 10053e10 FUN_10053e10
+ VTABLE 101737fc 10057810 FUN_10057810
+ VTABLE 10173800 10057800 FUN_10057800
+ VTABLE 10173804 10049140 FUN_10049140
+ VTABLE 10173808 10057aa0 FUN_10057aa0
+10173948 L6SystemMidiMsgPort::vftable_meta_ptr
+1017394c L6SystemMidiMsgPort::vftable
+ VTABLE 1017394c 10059cf0 FUN_10059cf0
+ VTABLE 10173950 10059fa0 FUN_10059fa0
+ VTABLE 10173954 1005a1c0 FUN_1005a1c0
+ VTABLE 10173958 100534e0 FUN_100534e0
+ VTABLE 1017395c 100534e0 FUN_100534e0
+ VTABLE 10173960 100534e0 FUN_100534e0
+ VTABLE 10173964 100534f0 FUN_100534f0
+ VTABLE 10173968 1004cd60 FUN_1004cd60
+ VTABLE 1017396c 10049140 FUN_10049140
+ VTABLE 10173970 100538d0 FUN_100538d0
+ VTABLE 10173974 100539b0 FUN_100539b0
+ VTABLE 10173978 10053aa0 FUN_10053aa0
+ VTABLE 1017397c 10053500 FUN_10053500
+ VTABLE 10173980 10059ea0 FUN_10059ea0
+ VTABLE 10173984 10068890 FUN_10068890
+ VTABLE 10173988 10049140 FUN_10049140
+ VTABLE 1017398c 1005a3c0 FUN_1005a3c0
+ VTABLE 10173990 1005a430 FUN_1005a430
+ VTABLE 10173994 1005a4a0 FUN_1005a4a0
+ VTABLE 10173998 1005a360 FUN_1005a360
+ VTABLE 1017399c 10049140 FUN_10049140
+ VTABLE 101739a0 1005a640 FUN_1005a640
+ VTABLE 101739a4 1005a5e0 FUN_1005a5e0
+ VTABLE 101739a8 1005a610 FUN_1005a610
+101739ac L6SystemMidiMsgPort::vftable_meta_ptr
+101739b0 L6SystemMidiMsgPort::vftable
+ VTABLE 101739b0 1005a657 FUN_1005a657
+ VTABLE 101739b4 1005a4c0 FUN_1005a4c0
+ VTABLE 101739b8 1005a580 FUN_1005a580
+101739ec L6UsbControlEndpointMsgPort::vftable_meta_ptr
+101739f0 L6UsbControlEndpointMsgPort::vftable
+ VTABLE 101739f0 1005acc0 FUN_1005acc0
+ VTABLE 101739f4 1005ad30 FUN_1005ad30
+ VTABLE 101739f8 1005af00 FUN_1005af00
+ VTABLE 101739fc 100534e0 FUN_100534e0
+ VTABLE 10173a00 100534e0 FUN_100534e0
+ VTABLE 10173a04 100534e0 FUN_100534e0
+ VTABLE 10173a08 100534f0 FUN_100534f0
+ VTABLE 10173a0c 1004cd60 FUN_1004cd60
+ VTABLE 10173a10 1005aca0 FUN_1005aca0
+ VTABLE 10173a14 100538d0 FUN_100538d0
+ VTABLE 10173a18 100539b0 FUN_100539b0
+ VTABLE 10173a1c 10053aa0 FUN_10053aa0
+ VTABLE 10173a20 10053500 FUN_10053500
+ VTABLE 10173a24 10068fe0 FUN_10068fe0
+ VTABLE 10173a28 1005b0a0 FUN_1005b0a0
+ VTABLE 10173a2c 1005b0d0 FUN_1005b0d0
+ VTABLE 10173a30 1005b0e0 FUN_1005b0e0
+ VTABLE 10173a34 1005acb0 FUN_1005acb0
+10173af8 L6AmplifiUsbControlPortUpdateEngine::vftable_meta_ptr
+10173afc L6AmplifiUsbControlPortUpdateEngine::vftable
+ VTABLE 10173afc 1005cc60 FUN_1005cc60
+ VTABLE 10173b00 1004cd70 FUN_1004cd70
+ VTABLE 10173b04 1004cd70 FUN_1004cd70
+ VTABLE 10173b08 1005ccc0 FUN_1005ccc0
+ VTABLE 10173b0c 10049190 FUN_10049190
+10173b48 L6AmplifiUsbControlPortUpdateEngine::vftable_meta_ptr
+10173b4c L6AmplifiUsbControlPortUpdateEngine::vftable
+ VTABLE 10173b4c 1005c5b0 FUN_1005c5b0
+ VTABLE 10173b50 10049170 FUN_10049170
+ VTABLE 10173b54 10049170 FUN_10049170
+ VTABLE 10173b58 10049170 FUN_10049170
+ VTABLE 10173b5c 1005c680 FUN_1005c680
+ VTABLE 10173b60 1005ceb0 FUN_1005ceb0
+ VTABLE 10173b64 1005cf10 FUN_1005cf10
+ VTABLE 10173b68 1005cf50 FUN_1005cf50
+ VTABLE 10173b6c 1005c300 FUN_1005c300
+ VTABLE 10173b70 1005cf70 FUN_1005cf70
+ VTABLE 10173b74 1005d140 FUN_1005d140
+ VTABLE 10173b78 1005c610 FUN_1005c610
+10174f3c s_symbolicID_10174f3c
+10174fcc s_@global_params_AEON_10174fcc
+10174fe0 s_@global_params_10174fe0
+10175040 ToneMatchEditorDelegate::vftable_meta_ptr
+10175044 ToneMatchEditorDelegate::vftable
+ VTABLE 10175044 10069440 `scalar_deleting_destructor'
+ VTABLE 10175048 1002cfb0 FUN_1002cfb0
+ VTABLE 1017504c 10069430 FUN_10069430
+ VTABLE 10175050 1004cd70 FUN_1004cd70
+ VTABLE 10175054 10069430 FUN_10069430
+ VTABLE 10175058 1004cd70 FUN_1004cd70
+ VTABLE 1017505c 10069430 FUN_10069430
+ VTABLE 10175060 10069430 FUN_10069430
+ VTABLE 10175064 1004cd70 FUN_1004cd70
+101750c0 IL6EditorLibrarian::vftable_meta_ptr
+101750c4 IL6EditorLibrarian::vftable
+ VTABLE 101750c4 100759d0 `scalar_deleting_destructor'
+ VTABLE 101750c8 100c0445 purecall
+ VTABLE 101750cc 100c0445 purecall
+ VTABLE 101750d0 100c0445 purecall
+ VTABLE 101750d4 100c0445 purecall
+ VTABLE 101750d8 100c0445 purecall
+ VTABLE 101750dc 100c0445 purecall
+ VTABLE 101750e0 100c0445 purecall
+ VTABLE 101750e4 100c0445 purecall
+ VTABLE 101750e8 100c0445 purecall
+ VTABLE 101750ec 100c0445 purecall
+ VTABLE 101750f0 100c0445 purecall
+ VTABLE 101750f4 100c0445 purecall
+ VTABLE 101750f8 100c0445 purecall
+ VTABLE 101750fc 100c0445 purecall
+ VTABLE 10175100 100c0445 purecall
+ VTABLE 10175104 10075900 FUN_10075900
+ VTABLE 10175108 100c0445 purecall
+ VTABLE 1017510c 100c0445 purecall
+ VTABLE 10175110 100c0445 purecall
+ VTABLE 10175114 100c0445 purecall
+ VTABLE 10175118 100c0445 purecall
+ VTABLE 1017511c 100c0445 purecall
+ VTABLE 10175120 100c0445 purecall
+ VTABLE 10175124 100c0445 purecall
+ VTABLE 10175128 10075920 FUN_10075920
+ VTABLE 1017512c 100c0445 purecall
+ VTABLE 10175130 100c0445 purecall
+ VTABLE 10175134 10075930 FUN_10075930
+ VTABLE 10175138 100c0445 purecall
+ VTABLE 1017513c 100c0445 purecall
+ VTABLE 10175140 10075950 FUN_10075950
+ VTABLE 10175144 100c0445 purecall
+ VTABLE 10175148 100c0445 purecall
+ VTABLE 1017514c 100c0445 purecall
+1017526c A36EditorLibrarian::vftable_meta_ptr
+10175270 A36EditorLibrarian::vftable
+ VTABLE 10175270 10076cf0 FUN_10076cf0
+ VTABLE 10175274 10049140 FUN_10049140
+ VTABLE 10175278 10078650 FUN_10078650
+ VTABLE 1017527c 10078c90 FUN_10078c90
+ VTABLE 10175280 10078e60 FUN_10078e60
+ VTABLE 10175284 10076120 FUN_10076120
+ VTABLE 10175288 10076150 FUN_10076150
+ VTABLE 1017528c 10078e90 FUN_10078e90
+ VTABLE 10175290 100798f0 FUN_100798f0
+ VTABLE 10175294 10079940 FUN_10079940
+ VTABLE 10175298 10079950 FUN_10079950
+ VTABLE 1017529c 10079970 FUN_10079970
+ VTABLE 101752a0 100799a0 FUN_100799a0
+ VTABLE 101752a4 10049150 guard_check_icall
+ VTABLE 101752a8 10049150 guard_check_icall
+ VTABLE 101752ac 10079a50 FUN_10079a50
+ VTABLE 101752b0 10075900 FUN_10075900
+ VTABLE 101752b4 10079f30 FUN_10079f30
+ VTABLE 101752b8 1007a4a0 FUN_1007a4a0
+ VTABLE 101752bc 1007a500 FUN_1007a500
+ VTABLE 101752c0 1007a630 FUN_1007a630
+ VTABLE 101752c4 10076160 FUN_10076160
+ VTABLE 101752c8 1007aa90 FUN_1007aa90
+ VTABLE 101752cc 1007ab10 FUN_1007ab10
+ VTABLE 101752d0 10049170 FUN_10049170
+ VTABLE 101752d4 10049170 FUN_10049170
+ VTABLE 101752d8 10076170 FUN_10076170
+ VTABLE 101752dc 1007ab80 FUN_1007ab80
+ VTABLE 101752e0 10075930 FUN_10075930
+ VTABLE 101752e4 1007af60 FUN_1007af60
+ VTABLE 101752e8 1007b120 FUN_1007b120
+ VTABLE 101752ec 10075950 FUN_10075950
+ VTABLE 101752f0 10076180 FUN_10076180
+ VTABLE 101752f4 1007b510 FUN_1007b510
+ VTABLE 101752f8 1007b780 FUN_1007b780
+1017543c A36EditorLibrarian::vftable_meta_ptr
+10175440 A36EditorLibrarian::vftable
+ VTABLE 10175440 1008387c FUN_1008387c
+ VTABLE 10175444 10077a10 FUN_10077a10
+10175470 A36EditorLibrarian::vftable_meta_ptr
+10175474 A36EditorLibrarian::vftable
+ VTABLE 10175474 10083884 FUN_10083884
+ VTABLE 10175478 10076fc0 FUN_10076fc0
+101754f8 s_default_preset_parker.json_101754f8
+10175530 s_defaultSymbolTable.bin_10175530
+10175548 s_defaultSymbolTable_FX100.bin_10175548
+10175568 s_defaultSymbolTable_TT.bin_10175568
+10175584 s_defaultSymbolTable_Dio.bin_10175584
+101755a0 s_defaultSymbolTable_AEON.bin_101755a0
+101755bc s_defaultSymbolTable_Firebird.bin_101755bc
+101755dc s_defaultSymbolTable_Parker.bin_101755dc
+101755fc s_cachedSymbolTable.bin_101755fc
+10175b14 s_Editor_10175b14
+10175b1c FirmwareServiceInterfaceEditor::vftable_meta_ptr
+10175b20 FirmwareServiceInterfaceEditor::vftable
+ VTABLE 10175b20 10084b10 FUN_10084b10
+ VTABLE 10175b24 1009e120 FUN_1009e120
+ VTABLE 10175b28 1009e2b0 FUN_1009e2b0
+ VTABLE 10175b2c 1009e450 FUN_1009e450
+ VTABLE 10175b30 10084c40 FUN_10084c40
+ VTABLE 10175b34 10084c30 FUN_10084c30
+ VTABLE 10175b38 10084cd0 FUN_10084cd0
+ VTABLE 10175b3c 10084ce0 FUN_10084ce0
+ VTABLE 10175b40 10084b90 FUN_10084b90
+ VTABLE 10175b44 10085080 FUN_10085080
+ VTABLE 10175b48 10085180 FUN_10085180
+ VTABLE 10175b4c 10085130 FUN_10085130
+ VTABLE 10175b50 100851a0 FUN_100851a0
+ VTABLE 10175b54 100851b0 FUN_100851b0
+ VTABLE 10175b58 10085200 FUN_10085200
+10175bfc s_Symbol_Lookup_in_HandleAsset()_f_10175bfc
+10175c24 s_<no_symbol>_10175c24
+10175c44 s_Symbol_Lookup_in_HandleStateValu_10175c44
+10175cfc s_Symbol_Lookup_in_HandlePSKey()_f_10175cfc
+10175d68 s_<PS_KEY_%d_(Tweak_Param)>_=_%d/"_10175d68
+10175d90 s_<PS_KEY_%d_(Tweak_Param)>_=_%s_10175d90
+10175e48 s_<PS_KEY_%d_(FS_%d_Symbol)>_=_%d/_10175e48
+10175e70 s_<PS_KEY_%d_(FS_%d_Symbol)>_=_%s_10175e70
+10175f5c s_Symbol_Lookup_in_HandleSlotStart_10175f5c
+10176230 ToneMatchEditorService::vftable_meta_ptr
+10176234 ToneMatchEditorService::vftable
+ VTABLE 10176234 10097a00 FUN_10097a00
+ VTABLE 10176238 1009bfc0 FUN_1009bfc0
+ VTABLE 1017623c 10097a40 FUN_10097a40
+ VTABLE 10176240 100984d0 FUN_100984d0
+ VTABLE 10176244 10098420 FUN_10098420
+101762f0 L6List<toneMatchEditorXferToken*>::vftable_meta_ptr
+101762f4 L6List<toneMatchEditorXferToken*>::vftable
+ VTABLE 101762f4 1009bdc0 FUN_1009bdc0
+101764b4 s_params_101764b4
+101764d4 L6HashTable<L6String,L6EdLibModelDefs::ParamDef*>::vftable_meta_ptr
+101764d8 L6HashTable<L6String,L6EdLibModelDefs::ParamDef*>::vftable
+ VTABLE 101764d8 100a32e0 FUN_100a32e0
+101764e4 L6Array<L6EdLibModelDefs::ParamDef*>::vftable_meta_ptr
+101764e8 L6Array<L6EdLibModelDefs::ParamDef*>::vftable
+ VTABLE 101764e8 100a3310 FUN_100a3310
+10176540 BinaryTreeBase<L6Variant,L6EdLibParamGroup>::Node::vftable_meta_ptr
+10176544 BinaryTreeBase<L6Variant,L6EdLibParamGroup>::Node::vftable
+ VTABLE 10176544 100aa330 FUN_100aa330
+10176548 L6Array<L6EdLibParamGroup::PARAM*>::vftable_meta_ptr
+1017654c L6Array<L6EdLibParamGroup::PARAM*>::vftable
+ VTABLE 1017654c 100a9cf0 FUN_100a9cf0
+10176550 L6HashTable<L6Variant,L6EdLibParamGroup::PARAM*>::vftable_meta_ptr
+10176554 L6HashTable<L6Variant,L6EdLibParamGroup::PARAM*>::vftable
+ VTABLE 10176554 100a9cb0 FUN_100a9cb0
+10176558 RedBlackTreeBase<L6Variant,L6EdLibParamGroup>::RedBlackNode::vftable_meta_ptr
+1017655c RedBlackTreeBase<L6Variant,L6EdLibParamGroup>::RedBlackNode::vftable
+ VTABLE 1017655c 100aa300 FUN_100aa300
+10176560 L6Dictionary<L6Variant,L6EdLibParamGroup>::vftable_meta_ptr
+10176564 L6Dictionary<L6Variant,L6EdLibParamGroup>::vftable
+ VTABLE 10176564 100a9c20 FUN_100a9c20
+ VTABLE 10176568 100a9590 FUN_100a9590
+ VTABLE 1017656c 100a9320 FUN_100a9320
+ VTABLE 10176570 100a9030 FUN_100a9030
+10176574 BinaryTreeBase<L6Variant,L6EdLibParamGroup>::vftable_meta_ptr
+10176578 BinaryTreeBase<L6Variant,L6EdLibParamGroup>::vftable
+ VTABLE 10176578 100a9c20 FUN_100a9c20
+ VTABLE 1017657c 100a8fc0 FUN_100a8fc0
+ VTABLE 10176580 100a8f40 FUN_100a8f40
+ VTABLE 10176584 100a8e10 FUN_100a8e10
+10178198 L6UsbControlEndpointItf::RTTI_Class_Hierarchy_Descriptor
+101781a8 L6UsbControlEndpointItf::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+101781c4 L6LibUsbControlEndpointItf::RTTI_Complete_Object_Locator
+101781d8 L6UsbControlEndpointItf::RTTI_Complete_Object_Locator
+101781ec L6LibUsbControlEndpointItf::RTTI_Base_Class_Array
+101781f8 L6UsbControlEndpointItf::RTTI_Base_Class_Array
+10178200 L6LibUsbControlEndpointItf::RTTI_Class_Hierarchy_Descriptor
+10178210 L6LibUsbControlEndpointItf::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017826c L6MsgPort::RTTI_Complete_Object_Locator
+10178280 L6MsgPort::RTTI_Class_Hierarchy_Descriptor
+10178290 L6MsgPort::RTTI_Base_Class_Array
+101782e4 L6MsgPort::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017831c L6MsgPortMultiplexor::RTTI_Base_Class_Array
+10178324 L6MsgPortMultiplexor::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+10178340 L6MsgPortMultiplexor::RTTI_Class_Hierarchy_Descriptor
+10178350 L6MsgPortMultiplexor::RTTI_Complete_Object_Locator
+10178364 L6MultiplexedClientMsgPort::RTTI_Base_Class_Array
+10178374 L6MultiplexedClientMsgPort::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+10178390 L6MultiplexedClientMsgPort::RTTI_Complete_Object_Locator
+101783a4 L6MultiplexedClientMsgPort::RTTI_Class_Hierarchy_Descriptor
+101783b4 L6ParkerDevice::RTTI_Class_Hierarchy_Descriptor
+101783c4 L6ParkerDevice::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+101783e0 L6ParkerDevice::RTTI_Complete_Object_Locator
+101783f4 L6ParkerDevice::RTTI_Base_Class_Array
+1017840c L6ParkerDevice::RTTI_Complete_Object_Locator
+10178420 L6ParkerDevice::RTTI_Complete_Object_Locator
+10178434 L6List<ParkerMessageFragmentContext*>::RTTI_Class_Hierarchy_Descriptor
+10178444 L6List<ParkerMessageFragmentContext*>::RTTI_Complete_Object_Locator
+10178458 L6List<ParkerMessageFragmentContext*>::RTTI_Base_Class_Array
+10178460 L6ParkerMidiMsgPortMultiplexor::RTTI_Complete_Object_Locator
+10178474 L6List<ParkerMessageFragmentContext*>::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+10178490 L6ParkerMidiMsgPortMultiplexor::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+101784ac L6ParkerMidiMsgPortMultiplexor::RTTI_Class_Hierarchy_Descriptor
+101784bc L6ParkerMidiMsgPortMultiplexor::RTTI_Base_Class_Array
+10178558 L6SystemMidiMsgPort::RTTI_Base_Class_Array
+1017859c L6SystemMidiMsgPort::RTTI_Class_Hierarchy_Descriptor
+101785ac L6SystemMidiMsgPort::RTTI_Complete_Object_Locator
+101785c0 L6SystemMidiMsgPort::RTTI_Complete_Object_Locator
+101785d4 L6SystemMidiMsgPort::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+101786a8 L6UsbControlEndpointMsgPort::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+101786c4 L6UsbControlEndpointMsgPort::RTTI_Complete_Object_Locator
+101786d8 L6UsbControlEndpointMsgPort::RTTI_Class_Hierarchy_Descriptor
+101786e8 L6UsbControlEndpointMsgPort::RTTI_Base_Class_Array
+101787fc L6AmplifiUsbControlPortUpdateEngine::RTTI_Base_Class_Array
+10178950 L6AmplifiUsbControlPortUpdateEngine::RTTI_Complete_Object_Locator
+1017897c L6AmplifiUsbControlPortUpdateEngine::RTTI_Class_Hierarchy_Descriptor
+101789c8 L6AmplifiUsbControlPortUpdateEngine::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+10178a4c L6AmplifiUsbControlPortUpdateEngine::RTTI_Complete_Object_Locator
+101790b8 ToneMatchEditorDelegate::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017914c ToneMatchEditorDelegate::RTTI_Complete_Object_Locator
+1017918c ToneMatchEditorDelegate::RTTI_Class_Hierarchy_Descriptor
+101791c0 ToneMatchEditorDelegate::RTTI_Base_Class_Array
+101792e4 IL6EditorLibrarian::RTTI_Complete_Object_Locator
+10179314 IL6EditorLibrarian::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+10179354 A36EditorLibrarian::RTTI_Complete_Object_Locator
+10179368 A36EditorLibrarian::RTTI_Complete_Object_Locator
+10179488 A36EditorLibrarian::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017952c IL6EditorLibrarian::RTTI_Base_Class_Array
+101795d8 A36EditorLibrarian::RTTI_Complete_Object_Locator
+10179644 IL6EditorLibrarian::RTTI_Class_Hierarchy_Descriptor
+101796c8 A36EditorLibrarian::RTTI_Class_Hierarchy_Descriptor
+101797b0 A36EditorLibrarian::RTTI_Base_Class_Array
+101797ec FirmwareServiceInterfaceEditor::RTTI_Class_Hierarchy_Descriptor
+101797fc FirmwareServiceInterfaceEditor::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+10179834 FirmwareServiceInterfaceEditor::RTTI_Complete_Object_Locator
+10179858 FirmwareServiceInterfaceEditor::RTTI_Base_Class_Array
+10179b74 ToneMatchEditorService::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+10179bb4 ToneMatchEditorService::RTTI_Base_Class_Array
+10179bc0 ToneMatchEditorService::RTTI_Complete_Object_Locator
+10179bd4 ToneMatchEditorService::RTTI_Class_Hierarchy_Descriptor
+10179c74 L6List<toneMatchEditorXferToken*>::RTTI_Complete_Object_Locator
+10179c88 L6List<toneMatchEditorXferToken*>::RTTI_Class_Hierarchy_Descriptor
+10179c98 L6List<toneMatchEditorXferToken*>::RTTI_Base_Class_Array
+10179ca0 L6List<toneMatchEditorXferToken*>::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+10179e18 L6Array<L6EdLibModelDefs::ParamDef*>::RTTI_Complete_Object_Locator
+10179e2c L6Array<L6EdLibModelDefs::ParamDef*>::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+10179e48 L6HashTable<L6String,L6EdLibModelDefs::ParamDef*>::RTTI_Class_Hierarchy_Descriptor
+10179e94 L6HashTable<L6String,L6EdLibModelDefs::ParamDef*>::RTTI_Complete_Object_Locator
+10179ea8 L6Array<L6EdLibModelDefs::ParamDef*>::RTTI_Base_Class_Array
+10179eb0 L6Array<L6EdLibModelDefs::ParamDef*>::RTTI_Class_Hierarchy_Descriptor
+10179ef0 L6HashTable<L6String,L6EdLibModelDefs::ParamDef*>::RTTI_Base_Class_Array
+10179f24 L6HashTable<L6String,L6EdLibModelDefs::ParamDef*>::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017a090 BinaryTreeBase<L6Variant,L6EdLibParamGroup>::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017a0ac BinaryTreeBase<L6Variant,L6EdLibParamGroup>::RTTI_Base_Class_Array
+1017a0b4 L6HashTable<L6Variant,L6EdLibParamGroup::PARAM*>::RTTI_Base_Class_Array
+1017a0d0 RedBlackTreeBase<L6Variant,L6EdLibParamGroup>::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017a0ec RedBlackTreeBase<L6Variant,L6EdLibParamGroup>::RedBlackNode::RTTI_Class_Hierarchy_Descriptor
+1017a0fc BinaryTreeBase<L6Variant,L6EdLibParamGroup>::Node::RTTI_Base_Class_Array
+1017a104 BinaryTreeBase<L6Variant,L6EdLibParamGroup>::RTTI_Class_Hierarchy_Descriptor
+1017a114 L6Dictionary<L6Variant,L6EdLibParamGroup>::RTTI_Class_Hierarchy_Descriptor
+1017a124 BinaryTreeBase<L6Variant,L6EdLibParamGroup>::Node::RTTI_Complete_Object_Locator
+1017a138 L6Array<L6EdLibParamGroup::PARAM*>::RTTI_Complete_Object_Locator
+1017a14c BinaryTreeBase<L6Variant,L6EdLibParamGroup>::Node::RTTI_Class_Hierarchy_Descriptor
+1017a15c BinaryTreeBase<L6Variant,L6EdLibParamGroup>::RTTI_Complete_Object_Locator
+1017a170 L6HashTable<L6Variant,L6EdLibParamGroup::PARAM*>::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017a18c RedBlackTreeBase<L6Variant,L6EdLibParamGroup>::RTTI_Class_Hierarchy_Descriptor
+1017a19c L6Array<L6EdLibParamGroup::PARAM*>::RTTI_Class_Hierarchy_Descriptor
+1017a1ac L6Dictionary<L6Variant,L6EdLibParamGroup>::RTTI_Base_Class_Array
+1017a1bc L6HashTable<L6Variant,L6EdLibParamGroup::PARAM*>::RTTI_Class_Hierarchy_Descriptor
+1017a1cc RedBlackTreeBase<L6Variant,L6EdLibParamGroup>::RedBlackNode::RTTI_Base_Class_Array
+1017a1d8 L6HashTable<L6Variant,L6EdLibParamGroup::PARAM*>::RTTI_Complete_Object_Locator
+1017a1ec L6Dictionary<L6Variant,L6EdLibParamGroup>::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017a208 L6Dictionary<L6Variant,L6EdLibParamGroup>::RTTI_Complete_Object_Locator
+1017a21c BinaryTreeBase<L6Variant,L6EdLibParamGroup>::Node::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017a238 L6Array<L6EdLibParamGroup::PARAM*>::RTTI_Base_Class_Array
+1017a240 RedBlackTreeBase<L6Variant,L6EdLibParamGroup>::RedBlackNode::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017a25c L6Array<L6EdLibParamGroup::PARAM*>::RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+1017a278 RedBlackTreeBase<L6Variant,L6EdLibParamGroup>::RedBlackNode::RTTI_Complete_Object_Locator
+1017a28c RedBlackTreeBase<L6Variant,L6EdLibParamGroup>::RTTI_Base_Class_Array
+101871e9 s_?bindAssetParamToExternalControl_101871e9
+101874c3 s_?getBoolParamValue@Functions@API_101874c3
+1018754c s_?getFloatParamValue@Functions@AP_1018754c
+101875d5 s_?getIntArrayParamValue@Functions_101875d5
+10187684 s_?getIntParamValue@Functions@APIV_10187684
+1018770b s_?getStringArrayParamValue@Functi_1018770b
+10187834 s_?getStringParamValue@Functions@A_10187834
+10187d31 s_?setBoolParamValue@Functions@API_10187d31
+10187dbb s_?setFloatParamValue@Functions@AP_10187dbb
+10187ecc s_?setIntParamValue@Functions@APIV_10187ecc
+10187fe5 s_?setStringParamValue@Functions@A_10187fe5
+1018ebe0 PTR_s_@tweakparam_1018ebe0
+10190ee8 L6LibUsbControlEndpointItf::RTTI_Type_Descriptor
+10190f14 L6UsbControlEndpointItf::RTTI_Type_Descriptor
+10190f3c L6MsgPort::RTTI_Type_Descriptor
+10190fa4 L6MsgPortMultiplexor::RTTI_Type_Descriptor
+10190fc8 L6MultiplexedClientMsgPort::RTTI_Type_Descriptor
+10190ff4 L6ParkerDevice::RTTI_Type_Descriptor
+10191014 L6ParkerMidiMsgPortMultiplexor::RTTI_Type_Descriptor
+10191044 L6List<ParkerMessageFragmentContext*>::RTTI_Type_Descriptor
+101910a4 L6SystemMidiMsgPort::RTTI_Type_Descriptor
+10191128 L6UsbControlEndpointMsgPort::RTTI_Type_Descriptor
+101912c4 L6AmplifiUsbControlPortUpdateEngine::RTTI_Type_Descriptor
+101916c4 ToneMatchEditorDelegate::RTTI_Type_Descriptor
+10191794 A36EditorLibrarian::RTTI_Type_Descriptor
+101917b8 IL6EditorLibrarian::RTTI_Type_Descriptor
+10191b48 FirmwareServiceInterfaceEditor::RTTI_Type_Descriptor
+10191cdc ToneMatchEditorService::RTTI_Type_Descriptor
+10191d80 L6List<toneMatchEditorXferToken*>::RTTI_Type_Descriptor
+10191e40 L6Array<L6EdLibModelDefs::ParamDef*>::RTTI_Type_Descriptor
+10191ef8 L6HashTable<L6String,L6EdLibModelDefs::ParamDef*>::RTTI_Type_Descriptor
+101920a0 BinaryTreeBase<L6Variant,L6EdLibParamGroup>::Node::RTTI_Type_Descriptor
+101920e8 BinaryTreeBase<L6Variant,L6EdLibParamGroup>::RTTI_Type_Descriptor
+10192128 L6HashTable<L6Variant,L6EdLibParamGroup::PARAM*>::RTTI_Type_Descriptor
+10192170 RedBlackTreeBase<L6Variant,L6EdLibParamGroup>::RedBlackNode::RTTI_Type_Descriptor
+101921c0 L6Dictionary<L6Variant,L6EdLibParamGroup>::RTTI_Type_Descriptor
+10192200 L6Array<L6EdLibParamGroup::PARAM*>::RTTI_Type_Descriptor
+10192238 RedBlackTreeBase<L6Variant,L6EdLibParamGroup>::RTTI_Type_Descriptor

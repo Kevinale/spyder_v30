@@ -1,0 +1,19 @@
+
+Scan Time:     2026-10-15 05:56:41
+Target File:   /workspace/attachments/1cef6881-5b69-4396-8afa-a13ba64b248f/SpiderV_30_60_2.05.0.svu
+MD5 Checksum:  bc1275d49205c38b712379cc55725ce9
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+104           0x68            Zlib compressed data, best compression
+
+
+Scan Time:     2026-10-15 05:56:41
+Target File:   /workspace/analysis/firmware/data.decompressed.bin
+MD5 Checksum:  b81b5f67e318dbe1c690a7f2ab422259
+Signatures:    411
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+

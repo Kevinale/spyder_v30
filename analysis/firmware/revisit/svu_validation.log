@@ -1,0 +1,42 @@
+{
+  "original_sha256_before": "5301e9c582fab5bf1ddcbe321cf642e293dbaf62fc90a70de923b8b4fec6c00b",
+  "original_sha256_after": "5301e9c582fab5bf1ddcbe321cf642e293dbaf62fc90a70de923b8b4fec6c00b",
+  "original_unchanged": true,
+  "cases": [
+    {
+      "case": "original",
+      "expected_accept": true,
+      "exit_code": 0,
+      "passed": true,
+      "diagnostic": "accepted"
+    },
+    {
+      "case": "truncated",
+      "expected_accept": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "AssertionError"
+    },
+    {
+      "case": "bad_md5",
+      "expected_accept": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "AssertionError: Payload MD5 mismatch"
+    },
+    {
+      "case": "bad_declared_payload_size",
+      "expected_accept": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "AssertionError: Payload length mismatch"
+    },
+    {
+      "case": "bad_adler",
+      "expected_accept": false,
+      "exit_code": 1,
+      "passed": true,
+      "diagnostic": "zlib.error: Error -3 while decompressing data: incorrect data check"
+    }
+  ]
+}

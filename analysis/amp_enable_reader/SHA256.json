@@ -1,0 +1,47 @@
+[
+  {
+    "file": "test_fixture.json",
+    "bytes": 276719,
+    "sha256": "0677aff7426ed265d6c04c9505e8cde3d9f78bfe2c1cfa0473691cd878b4b41f"
+  },
+  {
+    "file": "ui.js",
+    "bytes": 1048,
+    "sha256": "fbf116936ba5b5a73310b336c0b04613979e7dceaa05c9c509ed2e8953b3ae1f"
+  },
+  {
+    "file": "Start_Reader.ps1",
+    "bytes": 9569,
+    "sha256": "2d52c243d26311c70007c0d75f58b2189f28093abe32f296f6d719e7a553ba7e"
+  },
+  {
+    "file": "LEEME.md",
+    "bytes": 2975,
+    "sha256": "dda5030c82cebafef047fdd90d0ad46307a03d69cef0b6d6f7f26f668fa8d1b0"
+  },
+  {
+    "file": "test_reader.js",
+    "bytes": 4602,
+    "sha256": "c93ccdacfc4c732893b0092c7e194048ce6d91355e7370649e600ee0893d8827"
+  },
+  {
+    "file": "Spider_AmpEnable.html",
+    "bytes": 8610,
+    "sha256": "061a1afa7ee559ad974309668b2ac66c3587bd247f379f48dbd661c78fff91fc"
+  },
+  {
+    "file": "reader.js",
+    "bytes": 6665,
+    "sha256": "2d8a0f61e799407338a0d08fd1a73dbe76fdc67b5bff8fa81e0ef215d48c086a"
+  },
+  {
+    "file": "validation.log",
+    "bytes": 601,
+    "sha256": "e1fcced0eb3a74a41bbfafbf2bcfa1a89e5456fdd1d9f10c1fdfe8a9bf48750f"
+  },
+  {
+    "file": "validation.json",
+    "bytes": 710,
+    "sha256": "00d4eb1c4a345f2f8e2e59c7d9193609c0e3fdc57852c990277b9b0b347e7bb0"
+  }
+]

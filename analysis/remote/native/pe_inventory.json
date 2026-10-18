@@ -1,0 +1,1971 @@
+[
+  {
+    "file": "APIV3EngineDLL.dll",
+    "clr": false,
+    "imports": {
+      "libusb-1.0.dll": [
+        {
+          "name": "libusb_get_device_list",
+          "iatva": "0x101103e4"
+        },
+        {
+          "name": "libusb_control_transfer",
+          "iatva": "0x101103e8"
+        },
+        {
+          "name": "libusb_close",
+          "iatva": "0x101103ec"
+        },
+        {
+          "name": "libusb_free_device_list",
+          "iatva": "0x101103f0"
+        },
+        {
+          "name": "libusb_release_interface",
+          "iatva": "0x101103f4"
+        },
+        {
+          "name": "libusb_unref_device",
+          "iatva": "0x101103f8"
+        },
+        {
+          "name": "libusb_open",
+          "iatva": "0x101103fc"
+        },
+        {
+          "name": "libusb_ref_device",
+          "iatva": "0x10110400"
+        },
+        {
+          "name": "libusb_exit",
+          "iatva": "0x10110404"
+        },
+        {
+          "name": "libusb_get_device_descriptor",
+          "iatva": "0x10110408"
+        },
+        {
+          "name": "libusb_claim_interface",
+          "iatva": "0x1011040c"
+        },
+        {
+          "name": "libusb_init",
+          "iatva": "0x10110410"
+        },
+        {
+          "name": "libusb_reset_device",
+          "iatva": "0x10110414"
+        }
+      ],
+      "WININET.dll": [
+        {
+          "name": "HttpOpenRequestW",
+          "iatva": "0x10110258"
+        },
+        {
+          "name": "HttpQueryInfoA",
+          "iatva": "0x1011025c"
+        },
+        {
+          "name": "InternetOpenW",
+          "iatva": "0x10110260"
+        },
+        {
+          "name": "InternetCrackUrlW",
+          "iatva": "0x10110264"
+        },
+        {
+          "name": "HttpSendRequestW",
+          "iatva": "0x10110268"
+        },
+        {
+          "name": "InternetReadFile",
+          "iatva": "0x1011026c"
+        },
+        {
+          "name": "InternetSetOptionW",
+          "iatva": "0x10110270"
+        },
+        {
+          "name": "InternetConnectW",
+          "iatva": "0x10110274"
+        },
+        {
+          "name": "InternetCloseHandle",
+          "iatva": "0x10110278"
+        }
+      ],
+      "SETUPAPI.dll": [
+        {
+          "name": "CM_Get_Child",
+          "iatva": "0x10110198"
+        },
+        {
+          "name": "CM_Get_Sibling",
+          "iatva": "0x1011019c"
+        },
+        {
+          "name": "SetupDiGetDeviceRegistryPropertyW",
+          "iatva": "0x101101a0"
+        },
+        {
+          "name": "SetupDiEnumDeviceInfo",
+          "iatva": "0x101101a4"
+        },
+        {
+          "name": "SetupDiDestroyDeviceInfoList",
+          "iatva": "0x101101a8"
+        },
+        {
+          "name": "SetupDiGetClassDevsW",
+          "iatva": "0x101101ac"
+        }
+      ],
+      "SHLWAPI.dll": [
+        {
+          "name": "UrlCreateFromPathW",
+          "iatva": "0x101101bc"
+        },
+        {
+          "name": "PathCreateFromUrlW",
+          "iatva": "0x101101c0"
+        }
+      ],
+      "Interposer.dll": [
+        {
+          "name": "InterposerGetApplicationId",
+          "iatva": "0x10110010"
+        },
+        {
+          "name": "InterposerGetDescriptorCount",
+          "iatva": "0x10110014"
+        },
+        {
+          "name": "InterposerRegisterCallback",
+          "iatva": "0x10110018"
+        },
+        {
+          "name": "InterposerGetDescriptors",
+          "iatva": "0x1011001c"
+        },
+        {
+          "name": "InterposerInit",
+          "iatva": "0x10110020"
+        },
+        {
+          "name": "InterposerCleanup",
+          "iatva": "0x10110024"
+        },
+        {
+          "name": "InterposerOpenPipe",
+          "iatva": "0x10110028"
+        },
+        {
+          "name": "InterposerClosePipe",
+          "iatva": "0x1011002c"
+        },
+        {
+          "name": "InterposerMessage",
+          "iatva": "0x10110030"
+        }
+      ],
+      "WINMM.dll": [
+        {
+          "name": "midiOutGetDevCapsW",
+          "iatva": "0x10110280"
+        },
+        {
+          "name": "timeGetTime",
+          "iatva": "0x10110284"
+        },
+        {
+          "name": "midiOutGetNumDevs",
+          "iatva": "0x10110288"
+        },
+        {
+          "name": "midiInGetNumDevs",
+          "iatva": "0x1011028c"
+        },
+        {
+          "name": "midiInStop",
+          "iatva": "0x10110290"
+        },
+        {
+          "name": "midiInAddBuffer",
+          "iatva": "0x10110294"
+        },
+        {
+          "name": "midiOutMessage",
+          "iatva": "0x10110298"
+        },
+        {
+          "name": "midiInMessage",
+          "iatva": "0x1011029c"
+        },
+        {
+          "name": "midiOutReset",
+          "iatva": "0x101102a0"
+        },
+        {
+          "name": "midiInClose",
+          "iatva": "0x101102a4"
+        },
+        {
+          "name": "midiOutClose",
+          "iatva": "0x101102a8"
+        },
+        {
+          "name": "midiOutLongMsg",
+          "iatva": "0x101102ac"
+        },
+        {
+          "name": "midiOutShortMsg",
+          "iatva": "0x101102b0"
+        },
+        {
+          "name": "midiOutUnprepareHeader",
+          "iatva": "0x101102b4"
+        },
+        {
+          "name": "midiOutOpen",
+          "iatva": "0x101102b8"
+        },
+        {
+          "name": "midiInUnprepareHeader",
+          "iatva": "0x101102bc"
+        },
+        {
+          "name": "midiInOpen",
+          "iatva": "0x101102c0"
+        },
+        {
+          "name": "midiInReset",
+          "iatva": "0x101102c4"
+        },
+        {
+          "name": "midiInPrepareHeader",
+          "iatva": "0x101102c8"
+        },
+        {
+          "name": "midiInGetDevCapsW",
+          "iatva": "0x101102cc"
+        },
+        {
+          "name": "midiInStart",
+          "iatva": "0x101102d0"
+        },
+        {
+          "name": "midiOutPrepareHeader",
+          "iatva": "0x101102d4"
+        }
+      ],
+      "KERNEL32.dll": [
+        {
+          "name": "VerifyVersionInfoW",
+          "iatva": "0x10110038"
+        },
+        {
+          "name": "VerSetConditionMask",
+          "iatva": "0x1011003c"
+        },
+        {
+          "name": "OutputDebugStringA",
+          "iatva": "0x10110040"
+        },
+        {
+          "name": "UnlockFile",
+          "iatva": "0x10110044"
+        },
+        {
+          "name": "LockFile",
+          "iatva": "0x10110048"
+        },
+        {
+          "name": "GetModuleHandleW",
+          "iatva": "0x1011004c"
+        },
+        {
+          "name": "GetCurrentDirectoryA",
+          "iatva": "0x10110050"
+        },
+        {
+          "name": "WideCharToMultiByte",
+          "iatva": "0x10110054"
+        },
+        {
+          "name": "GetCurrentThreadId",
+          "iatva": "0x10110058"
+        },
+        {
+          "name": "QueryPerformanceCounter",
+          "iatva": "0x1011005c"
+        },
+        {
+          "name": "InitializeCriticalSectionAndSpinCount",
+          "iatva": "0x10110060"
+        },
+        {
+          "name": "ReleaseSemaphore",
+          "iatva": "0x10110064"
+        },
+        {
+          "name": "ReleaseMutex",
+          "iatva": "0x10110068"
+        },
+        {
+          "name": "CreateMutexW",
+          "iatva": "0x1011006c"
+        },
+        {
+          "name": "DeleteCriticalSection",
+          "iatva": "0x10110070"
+        },
+        {
+          "name": "InitializeCriticalSection",
+          "iatva": "0x10110074"
+        },
+        {
+          "name": "LeaveCriticalSection",
+          "iatva": "0x10110078"
+        },
+        {
+          "name": "EnterCriticalSection",
+          "iatva": "0x1011007c"
+        },
+        {
+          "name": "InitializeSListHead",
+          "iatva": "0x10110080"
+        },
+        {
+          "name": "SetEvent",
+          "iatva": "0x10110084"
+        },
+        {
+          "name": "CreateEventW",
+          "iatva": "0x10110088"
+        },
+        {
+          "name": "WaitForSingleObject",
+          "iatva": "0x1011008c"
+        },
+        {
+          "name": "WaitForSingleObjectEx",
+          "iatva": "0x10110090"
+        },
+        {
+          "name": "GetProcAddress",
+          "iatva": "0x10110094"
+        },
+        {
+          "name": "UnhandledExceptionFilter",
+          "iatva": "0x10110098"
+        },
+        {
+          "name": "SetUnhandledExceptionFilter",
+          "iatva": "0x1011009c"
+        },
+        {
+          "name": "GetCurrentProcess",
+          "iatva": "0x101100a0"
+        },
+        {
+          "name": "TerminateProcess",
+          "iatva": "0x101100a4"
+        },
+        {
+          "name": "IsProcessorFeaturePresent",
+          "iatva": "0x101100a8"
+        },
+        {
+          "name": "IsDebuggerPresent",
+          "iatva": "0x101100ac"
+        },
+        {
+          "name": "CreateSemaphoreW",
+          "iatva": "0x101100b0"
+        },
+        {
+          "name": "GetSystemTimeAsFileTime",
+          "iatva": "0x101100b4"
+        },
+        {
+          "name": "MultiByteToWideChar",
+          "iatva": "0x101100b8"
+        },
+        {
+          "name": "FlushFileBuffers",
+          "iatva": "0x101100bc"
+        },
+        {
+          "name": "SetFilePointerEx",
+          "iatva": "0x101100c0"
+        },
+        {
+          "name": "CloseHandle",
+          "iatva": "0x101100c4"
+        },
+        {
+          "name": "CreateFileW",
+          "iatva": "0x101100c8"
+        },
+        {
+          "name": "SetEndOfFile",
+          "iatva": "0x101100cc"
+        },
+        {
+          "name": "WriteFile",
+          "iatva": "0x101100d0"
+        },
+        {
+          "name": "GetFileSizeEx",
+          "iatva": "0x101100d4"
+        },
+        {
+          "name": "ReadFile",
+          "iatva": "0x101100d8"
+        },
+        {
+          "name": "MoveFileExW",
+          "iatva": "0x101100dc"
+        },
+        {
+          "name": "DeleteFileW",
+          "iatva": "0x101100e0"
+        },
+        {
+          "name": "FindFirstFileW",
+          "iatva": "0x101100e4"
+        },
+        {
+          "name": "GetLastError",
+          "iatva": "0x101100e8"
+        },
+        {
+          "name": "SetFileAttributesW",
+          "iatva": "0x101100ec"
+        },
+        {
+          "name": "GetFileAttributesW",
+          "iatva": "0x101100f0"
+        },
+        {
+          "name": "FindClose",
+          "iatva": "0x101100f4"
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "iatva": "0x101100f8"
+        },
+        {
+          "name": "GetModuleFileNameW",
+          "iatva": "0x101100fc"
+        },
+        {
+          "name": "ResetEvent",
+          "iatva": "0x10110100"
+        },
+        {
+          "name": "LoadLibraryA",
+          "iatva": "0x10110104"
+        },
+        {
+          "name": "Sleep",
+          "iatva": "0x10110108"
+        },
+        {
+          "name": "CreateDirectoryW",
+          "iatva": "0x1011010c"
+        },
+        {
+          "name": "FindNextFileW",
+          "iatva": "0x10110110"
+        }
+      ],
+      "USER32.dll": [
+        {
+          "name": "IsWindow",
+          "iatva": "0x101101c8"
+        },
+        {
+          "name": "RegisterDeviceNotificationW",
+          "iatva": "0x101101cc"
+        },
+        {
+          "name": "DispatchMessageW",
+          "iatva": "0x101101d0"
+        },
+        {
+          "name": "UnregisterPowerSettingNotification",
+          "iatva": "0x101101d4"
+        },
+        {
+          "name": "UnregisterClassW",
+          "iatva": "0x101101d8"
+        },
+        {
+          "name": "GetWindowLongW",
+          "iatva": "0x101101dc"
+        },
+        {
+          "name": "GetMessageW",
+          "iatva": "0x101101e0"
+        },
+        {
+          "name": "RegisterClassW",
+          "iatva": "0x101101e4"
+        },
+        {
+          "name": "UnregisterDeviceNotification",
+          "iatva": "0x101101e8"
+        },
+        {
+          "name": "TranslateMessage",
+          "iatva": "0x101101ec"
+        },
+        {
+          "name": "SetWindowLongW",
+          "iatva": "0x101101f0"
+        },
+        {
+          "name": "RegisterPowerSettingNotification",
+          "iatva": "0x101101f4"
+        },
+        {
+          "name": "DefWindowProcW",
+          "iatva": "0x101101f8"
+        },
+        {
+          "name": "PostMessageW",
+          "iatva": "0x101101fc"
+        },
+        {
+          "name": "DestroyWindow",
+          "iatva": "0x10110200"
+        },
+        {
+          "name": "CreateWindowExW",
+          "iatva": "0x10110204"
+        }
+      ],
+      "ADVAPI32.dll": [
+        {
+          "name": "RegQueryValueExW",
+          "iatva": "0x10110000"
+        },
+        {
+          "name": "RegCloseKey",
+          "iatva": "0x10110004"
+        },
+        {
+          "name": "RegOpenKeyW",
+          "iatva": "0x10110008"
+        }
+      ],
+      "SHELL32.dll": [
+        {
+          "name": "SHGetFolderPathW",
+          "iatva": "0x101101b4"
+        }
+      ],
+      "MSVCP140.dll": [
+        {
+          "name": "?_Xlength_error@std@@YAXPBD@Z",
+          "iatva": "0x10110118"
+        },
+        {
+          "name": "??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ",
+          "iatva": "0x1011011c"
+        },
+        {
+          "name": "??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ",
+          "iatva": "0x10110120"
+        },
+        {
+          "name": "??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z",
+          "iatva": "0x10110124"
+        },
+        {
+          "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z",
+          "iatva": "0x10110128"
+        },
+        {
+          "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_K@Z",
+          "iatva": "0x1011012c"
+        },
+        {
+          "name": "?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ",
+          "iatva": "0x10110130"
+        },
+        {
+          "name": "??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ",
+          "iatva": "0x10110134"
+        },
+        {
+          "name": "??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ",
+          "iatva": "0x10110138"
+        },
+        {
+          "name": "?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ",
+          "iatva": "0x1011013c"
+        },
+        {
+          "name": "?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ",
+          "iatva": "0x10110140"
+        },
+        {
+          "name": "?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ",
+          "iatva": "0x10110144"
+        },
+        {
+          "name": "?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ",
+          "iatva": "0x10110148"
+        },
+        {
+          "name": "?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z",
+          "iatva": "0x1011014c"
+        },
+        {
+          "name": "?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z",
+          "iatva": "0x10110150"
+        },
+        {
+          "name": "?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z",
+          "iatva": "0x10110154"
+        },
+        {
+          "name": "?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ",
+          "iatva": "0x10110158"
+        },
+        {
+          "name": "?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z",
+          "iatva": "0x1011015c"
+        },
+        {
+          "name": "??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ",
+          "iatva": "0x10110160"
+        },
+        {
+          "name": "?_Xbad_alloc@std@@YAXXZ",
+          "iatva": "0x10110164"
+        },
+        {
+          "name": "?_Xout_of_range@std@@YAXPBD@Z",
+          "iatva": "0x10110168"
+        },
+        {
+          "name": "?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z",
+          "iatva": "0x1011016c"
+        },
+        {
+          "name": "?uncaught_exception@std@@YA_NXZ",
+          "iatva": "0x10110170"
+        },
+        {
+          "name": "?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z",
+          "iatva": "0x10110174"
+        },
+        {
+          "name": "?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z",
+          "iatva": "0x10110178"
+        },
+        {
+          "name": "??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z",
+          "iatva": "0x1011017c"
+        },
+        {
+          "name": "??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ",
+          "iatva": "0x10110180"
+        },
+        {
+          "name": "?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ",
+          "iatva": "0x10110184"
+        },
+        {
+          "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@P6AAAVios_base@1@AAV21@@Z@Z",
+          "iatva": "0x10110188"
+        },
+        {
+          "name": "?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ",
+          "iatva": "0x1011018c"
+        },
+        {
+          "name": "?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z",
+          "iatva": "0x10110190"
+        }
+      ],
+      "VCRUNTIME140.dll": [
+        {
+          "name": "__std_type_info_destroy_list",
+          "iatva": "0x1011020c"
+        },
+        {
+          "name": "_except_handler4_common",
+          "iatva": "0x10110210"
+        },
+        {
+          "name": "memset",
+          "iatva": "0x10110214"
+        },
+        {
+          "name": "memcpy",
+          "iatva": "0x10110218"
+        },
+        {
+          "name": "_CxxThrowException",
+          "iatva": "0x1011021c"
+        },
+        {
+          "name": "memmove",
+          "iatva": "0x10110220"
+        },
+        {
+          "name": "strchr",
+          "iatva": "0x10110224"
+        },
+        {
+          "name": "strrchr",
+          "iatva": "0x10110228"
+        },
+        {
+          "name": "strstr",
+          "iatva": "0x1011022c"
+        },
+        {
+          "name": "__RTDynamicCast",
+          "iatva": "0x10110230"
+        },
+        {
+          "name": "__std_exception_copy",
+          "iatva": "0x10110234"
+        },
+        {
+          "name": "__std_exception_destroy",
+          "iatva": "0x10110238"
+        },
+        {
+          "name": "wcsrchr",
+          "iatva": "0x1011023c"
+        },
+        {
+          "name": "wcschr",
+          "iatva": "0x10110240"
+        },
+        {
+          "name": "_purecall",
+          "iatva": "0x10110244"
+        },
+        {
+          "name": "__std_terminate",
+          "iatva": "0x10110248"
+        },
+        {
+          "name": "__CxxFrameHandler3",
+          "iatva": "0x1011024c"
+        },
+        {
+          "name": "wcsstr",
+          "iatva": "0x10110250"
+        }
+      ],
+      "api-ms-win-crt-convert-l1-1-0.dll": [
+        {
+          "name": "wcstol",
+          "iatva": "0x101102dc"
+        },
+        {
+          "name": "strtol",
+          "iatva": "0x101102e0"
+        },
+        {
+          "name": "atoi",
+          "iatva": "0x101102e4"
+        },
+        {
+          "name": "_strtoi64",
+          "iatva": "0x101102e8"
+        },
+        {
+          "name": "strtoul",
+          "iatva": "0x101102ec"
+        },
+        {
+          "name": "_strtoui64",
+          "iatva": "0x101102f0"
+        }
+      ],
+      "api-ms-win-crt-stdio-l1-1-0.dll": [
+        {
+          "name": "__stdio_common_vswscanf",
+          "iatva": "0x1011035c"
+        },
+        {
+          "name": "__stdio_common_vswprintf_s",
+          "iatva": "0x10110360"
+        },
+        {
+          "name": "__stdio_common_vsprintf_s",
+          "iatva": "0x10110364"
+        },
+        {
+          "name": "__stdio_common_vsscanf",
+          "iatva": "0x10110368"
+        },
+        {
+          "name": "__stdio_common_vfprintf",
+          "iatva": "0x1011036c"
+        },
+        {
+          "name": "__stdio_common_vsnprintf_s",
+          "iatva": "0x10110370"
+        },
+        {
+          "name": "__stdio_common_vsprintf",
+          "iatva": "0x10110374"
+        },
+        {
+          "name": "fflush",
+          "iatva": "0x10110378"
+        },
+        {
+          "name": "__acrt_iob_func",
+          "iatva": "0x1011037c"
+        }
+      ],
+      "api-ms-win-crt-heap-l1-1-0.dll": [
+        {
+          "name": "malloc",
+          "iatva": "0x10110300"
+        },
+        {
+          "name": "free",
+          "iatva": "0x10110304"
+        },
+        {
+          "name": "realloc",
+          "iatva": "0x10110308"
+        },
+        {
+          "name": "_callnewh",
+          "iatva": "0x1011030c"
+        }
+      ],
+      "api-ms-win-crt-runtime-l1-1-0.dll": [
+        {
+          "name": "_initterm_e",
+          "iatva": "0x10110324"
+        },
+        {
+          "name": "_initterm",
+          "iatva": "0x10110328"
+        },
+        {
+          "name": "terminate",
+          "iatva": "0x1011032c"
+        },
+        {
+          "name": "_cexit",
+          "iatva": "0x10110330"
+        },
+        {
+          "name": "_configure_narrow_argv",
+          "iatva": "0x10110334"
+        },
+        {
+          "name": "_beginthreadex",
+          "iatva": "0x10110338"
+        },
+        {
+          "name": "_crt_atexit",
+          "iatva": "0x1011033c"
+        },
+        {
+          "name": "_invalid_parameter_noinfo_noreturn",
+          "iatva": "0x10110340"
+        },
+        {
+          "name": "_seh_filter_dll",
+          "iatva": "0x10110344"
+        },
+        {
+          "name": "_execute_onexit_table",
+          "iatva": "0x10110348"
+        },
+        {
+          "name": "_initialize_narrow_environment",
+          "iatva": "0x1011034c"
+        },
+        {
+          "name": "_register_onexit_function",
+          "iatva": "0x10110350"
+        },
+        {
+          "name": "_initialize_onexit_table",
+          "iatva": "0x10110354"
+        }
+      ],
+      "api-ms-win-crt-utility-l1-1-0.dll": [
+        {
+          "name": "rand",
+          "iatva": "0x101103dc"
+        }
+      ],
+      "api-ms-win-crt-string-l1-1-0.dll": [
+        {
+          "name": "isdigit",
+          "iatva": "0x10110384"
+        },
+        {
+          "name": "isalnum",
+          "iatva": "0x10110388"
+        },
+        {
+          "name": "_strdup",
+          "iatva": "0x1011038c"
+        },
+        {
+          "name": "strpbrk",
+          "iatva": "0x10110390"
+        },
+        {
+          "name": "_strnicmp",
+          "iatva": "0x10110394"
+        },
+        {
+          "name": "strtok_s",
+          "iatva": "0x10110398"
+        },
+        {
+          "name": "wcscpy_s",
+          "iatva": "0x1011039c"
+        },
+        {
+          "name": "towlower",
+          "iatva": "0x101103a0"
+        },
+        {
+          "name": "strcpy_s",
+          "iatva": "0x101103a4"
+        },
+        {
+          "name": "isalpha",
+          "iatva": "0x101103a8"
+        },
+        {
+          "name": "strncmp",
+          "iatva": "0x101103ac"
+        },
+        {
+          "name": "strncpy_s",
+          "iatva": "0x101103b0"
+        },
+        {
+          "name": "wcsncpy_s",
+          "iatva": "0x101103b4"
+        },
+        {
+          "name": "wcscat_s",
+          "iatva": "0x101103b8"
+        },
+        {
+          "name": "wcsncat_s",
+          "iatva": "0x101103bc"
+        },
+        {
+          "name": "wcsspn",
+          "iatva": "0x101103c0"
+        },
+        {
+          "name": "strcat_s",
+          "iatva": "0x101103c4"
+        }
+      ],
+      "api-ms-win-crt-time-l1-1-0.dll": [
+        {
+          "name": "strftime",
+          "iatva": "0x101103cc"
+        },
+        {
+          "name": "_time64",
+          "iatva": "0x101103d0"
+        },
+        {
+          "name": "_localtime64",
+          "iatva": "0x101103d4"
+        }
+      ],
+      "api-ms-win-crt-math-l1-1-0.dll": [
+        {
+          "name": "_libm_sse2_pow_precise",
+          "iatva": "0x10110314"
+        },
+        {
+          "name": "log2",
+          "iatva": "0x10110318"
+        },
+        {
+          "name": "_except1",
+          "iatva": "0x1011031c"
+        }
+      ],
+      "api-ms-win-crt-environment-l1-1-0.dll": [
+        {
+          "name": "getenv",
+          "iatva": "0x101102f8"
+        }
+      ]
+    },
+    "exports": [
+      {
+        "name": "?bindAssetParamToExternalControl@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+        "va": "0x100b61f0"
+      },
+      {
+        "name": "?createAccount@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@111_N@Z",
+        "va": "0x100b5e30"
+      },
+      {
+        "name": "?createEngine@Functions@APIV3EngineInterface@@SAPAVAPIV3Engine@@P6GXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0M_N@ZP6GX00H1@ZP6GX0011@ZP6GX0001@Z@Z",
+        "va": "0x100b5290"
+      },
+      {
+        "name": "?exportDeviceTone@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+        "va": "0x100b6390"
+      },
+      {
+        "name": "?exportImpulseResponse@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+        "va": "0x100b6570"
+      },
+      {
+        "name": "?getBoolParamValue@Functions@APIV3EngineInterface@@SA_NPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+        "va": "0x100b6c70"
+      },
+      {
+        "name": "?getFloatParamValue@Functions@APIV3EngineInterface@@SAMPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+        "va": "0x100b68f0"
+      },
+      {
+        "name": "?getIntArrayParamValue@Functions@APIV3EngineInterface@@SA?AV?$vector@HV?$allocator@H@std@@@std@@PAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z",
+        "va": "0x100b71b0"
+      },
+      {
+        "name": "?getIntParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+        "va": "0x100b6ab0"
+      },
+      {
+        "name": "?getStringArrayParamValue@Functions@APIV3EngineInterface@@SA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z",
+        "va": "0x100b6ff0"
+      },
+      {
+        "name": "?getStringParamValue@Functions@APIV3EngineInterface@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVAPIV3Engine@@V34@1@Z",
+        "va": "0x100b6e30"
+      },
+      {
+        "name": "?importDeviceTone@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+        "va": "0x100b6480"
+      },
+      {
+        "name": "?importImpulseResponse@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+        "va": "0x100b6660"
+      },
+      {
+        "name": "?initialize@Functions@APIV3EngineInterface@@SA_NPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+        "va": "0x100b5340"
+      },
+      {
+        "name": "?logIn@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+        "va": "0x100b5d40"
+      },
+      {
+        "name": "?moveSlotAssetToSlot@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+        "va": "0x100b6750"
+      },
+      {
+        "name": "?ratePreset@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z",
+        "va": "0x100b60d0"
+      },
+      {
+        "name": "?reorderDevicePreset@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HH@Z",
+        "va": "0x100b5d30"
+      },
+      {
+        "name": "?resetPassword@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+        "va": "0x100b5fe0"
+      },
+      {
+        "name": "?searchCloud@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z",
+        "va": "0x100b6160"
+      },
+      {
+        "name": "?setBoolParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1_N@Z",
+        "va": "0x100b5860"
+      },
+      {
+        "name": "?setFloatParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1M@Z",
+        "va": "0x100b5520"
+      },
+      {
+        "name": "?setIRNameAtIndex@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+        "va": "0x100b5c40"
+      },
+      {
+        "name": "?setIntParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1H@Z",
+        "va": "0x100b56c0"
+      },
+      {
+        "name": "?setPresetNameAtDeviceIndex@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+        "va": "0x100b5b50"
+      },
+      {
+        "name": "?setStringParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@11@Z",
+        "va": "0x100b5a00"
+      },
+      {
+        "name": "?start@Functions@APIV3EngineInterface@@SA_NPAVAPIV3Engine@@@Z",
+        "va": "0x100b53d0"
+      }
+    ]
+  },
+  {
+    "file": "Interposer.dll",
+    "clr": false,
+    "imports": {
+      "USER32.dll": [
+        {
+          "name": "DestroyWindow",
+          "iatva": "0x1002e1a0"
+        },
+        {
+          "name": "GetMessageA",
+          "iatva": "0x1002e1a4"
+        },
+        {
+          "name": "RegisterClassExA",
+          "iatva": "0x1002e1a8"
+        },
+        {
+          "name": "PostQuitMessage",
+          "iatva": "0x1002e1ac"
+        },
+        {
+          "name": "SendMessageA",
+          "iatva": "0x1002e1b0"
+        },
+        {
+          "name": "TranslateMessage",
+          "iatva": "0x1002e1b4"
+        },
+        {
+          "name": "SetWindowLongA",
+          "iatva": "0x1002e1b8"
+        },
+        {
+          "name": "UnregisterClassA",
+          "iatva": "0x1002e1bc"
+        },
+        {
+          "name": "GetWindowLongA",
+          "iatva": "0x1002e1c0"
+        },
+        {
+          "name": "CreateWindowExA",
+          "iatva": "0x1002e1c4"
+        },
+        {
+          "name": "DefWindowProcA",
+          "iatva": "0x1002e1c8"
+        },
+        {
+          "name": "DispatchMessageA",
+          "iatva": "0x1002e1cc"
+        },
+        {
+          "name": "RegisterDeviceNotificationA",
+          "iatva": "0x1002e1d0"
+        }
+      ],
+      "SETUPAPI.dll": [
+        {
+          "name": "SetupDiDestroyDeviceInfoList",
+          "iatva": "0x1002e17c"
+        },
+        {
+          "name": "SetupDiEnumDeviceInfo",
+          "iatva": "0x1002e180"
+        },
+        {
+          "name": "SetupDiGetDeviceInstanceIdA",
+          "iatva": "0x1002e184"
+        },
+        {
+          "name": "CM_Get_Parent",
+          "iatva": "0x1002e188"
+        },
+        {
+          "name": "SetupDiGetDeviceRegistryPropertyA",
+          "iatva": "0x1002e18c"
+        },
+        {
+          "name": "SetupDiGetDeviceInterfaceDetailA",
+          "iatva": "0x1002e190"
+        },
+        {
+          "name": "SetupDiEnumDeviceInterfaces",
+          "iatva": "0x1002e194"
+        },
+        {
+          "name": "SetupDiGetClassDevsA",
+          "iatva": "0x1002e198"
+        }
+      ],
+      "ADVAPI32.dll": [
+        {
+          "name": "GetTraceEnableLevel",
+          "iatva": "0x1002e000"
+        },
+        {
+          "name": "UnregisterTraceGuids",
+          "iatva": "0x1002e004"
+        },
+        {
+          "name": "RegisterTraceGuidsA",
+          "iatva": "0x1002e008"
+        },
+        {
+          "name": "GetTraceLoggerHandle",
+          "iatva": "0x1002e00c"
+        },
+        {
+          "name": "GetTraceEnableFlags",
+          "iatva": "0x1002e010"
+        },
+        {
+          "name": "TraceMessage",
+          "iatva": "0x1002e014"
+        }
+      ],
+      "KERNEL32.dll": [
+        {
+          "name": "GetConsoleMode",
+          "iatva": "0x1002e01c"
+        },
+        {
+          "name": "GetConsoleCP",
+          "iatva": "0x1002e020"
+        },
+        {
+          "name": "LCMapStringW",
+          "iatva": "0x1002e024"
+        },
+        {
+          "name": "IsProcessorFeaturePresent",
+          "iatva": "0x1002e028"
+        },
+        {
+          "name": "GetSystemTimeAsFileTime",
+          "iatva": "0x1002e02c"
+        },
+        {
+          "name": "SetStdHandle",
+          "iatva": "0x1002e030"
+        },
+        {
+          "name": "FlushFileBuffers",
+          "iatva": "0x1002e034"
+        },
+        {
+          "name": "WriteConsoleW",
+          "iatva": "0x1002e038"
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "iatva": "0x1002e03c"
+        },
+        {
+          "name": "GetTickCount",
+          "iatva": "0x1002e040"
+        },
+        {
+          "name": "QueryPerformanceCounter",
+          "iatva": "0x1002e044"
+        },
+        {
+          "name": "GetEnvironmentStringsW",
+          "iatva": "0x1002e048"
+        },
+        {
+          "name": "FreeEnvironmentStringsW",
+          "iatva": "0x1002e04c"
+        },
+        {
+          "name": "GetStringTypeW",
+          "iatva": "0x1002e050"
+        },
+        {
+          "name": "GetModuleFileNameA",
+          "iatva": "0x1002e054"
+        },
+        {
+          "name": "GetStartupInfoW",
+          "iatva": "0x1002e058"
+        },
+        {
+          "name": "GetModuleHandleExA",
+          "iatva": "0x1002e05c"
+        },
+        {
+          "name": "FreeLibrary",
+          "iatva": "0x1002e060"
+        },
+        {
+          "name": "FormatMessageA",
+          "iatva": "0x1002e064"
+        },
+        {
+          "name": "GetWindowsDirectoryA",
+          "iatva": "0x1002e068"
+        },
+        {
+          "name": "Sleep",
+          "iatva": "0x1002e06c"
+        },
+        {
+          "name": "GetLastError",
+          "iatva": "0x1002e070"
+        },
+        {
+          "name": "LocalAlloc",
+          "iatva": "0x1002e074"
+        },
+        {
+          "name": "GetModuleHandleA",
+          "iatva": "0x1002e078"
+        },
+        {
+          "name": "LocalFree",
+          "iatva": "0x1002e07c"
+        },
+        {
+          "name": "GetProcAddress",
+          "iatva": "0x1002e080"
+        },
+        {
+          "name": "LoadLibraryA",
+          "iatva": "0x1002e084"
+        },
+        {
+          "name": "GetCurrentDirectoryA",
+          "iatva": "0x1002e088"
+        },
+        {
+          "name": "WideCharToMultiByte",
+          "iatva": "0x1002e08c"
+        },
+        {
+          "name": "MultiByteToWideChar",
+          "iatva": "0x1002e090"
+        },
+        {
+          "name": "CloseHandle",
+          "iatva": "0x1002e094"
+        },
+        {
+          "name": "CreateFileW",
+          "iatva": "0x1002e098"
+        },
+        {
+          "name": "FindClose",
+          "iatva": "0x1002e09c"
+        },
+        {
+          "name": "FindNextFileW",
+          "iatva": "0x1002e0a0"
+        },
+        {
+          "name": "FindFirstFileW",
+          "iatva": "0x1002e0a4"
+        },
+        {
+          "name": "InitializeCriticalSection",
+          "iatva": "0x1002e0a8"
+        },
+        {
+          "name": "DeleteCriticalSection",
+          "iatva": "0x1002e0ac"
+        },
+        {
+          "name": "EnterCriticalSection",
+          "iatva": "0x1002e0b0"
+        },
+        {
+          "name": "LeaveCriticalSection",
+          "iatva": "0x1002e0b4"
+        },
+        {
+          "name": "CreateEventW",
+          "iatva": "0x1002e0b8"
+        },
+        {
+          "name": "SetEvent",
+          "iatva": "0x1002e0bc"
+        },
+        {
+          "name": "ResetEvent",
+          "iatva": "0x1002e0c0"
+        },
+        {
+          "name": "WaitForSingleObject",
+          "iatva": "0x1002e0c4"
+        },
+        {
+          "name": "GetModuleFileNameW",
+          "iatva": "0x1002e0c8"
+        },
+        {
+          "name": "LoadLibraryW",
+          "iatva": "0x1002e0cc"
+        },
+        {
+          "name": "GetCurrentProcess",
+          "iatva": "0x1002e0d0"
+        },
+        {
+          "name": "GetModuleHandleW",
+          "iatva": "0x1002e0d4"
+        },
+        {
+          "name": "GetFileType",
+          "iatva": "0x1002e0d8"
+        },
+        {
+          "name": "SetFilePointer",
+          "iatva": "0x1002e0dc"
+        },
+        {
+          "name": "ReadFile",
+          "iatva": "0x1002e0e0"
+        },
+        {
+          "name": "WriteFile",
+          "iatva": "0x1002e0e4"
+        },
+        {
+          "name": "GetFileSize",
+          "iatva": "0x1002e0e8"
+        },
+        {
+          "name": "TerminateThread",
+          "iatva": "0x1002e0ec"
+        },
+        {
+          "name": "EncodePointer",
+          "iatva": "0x1002e0f0"
+        },
+        {
+          "name": "DecodePointer",
+          "iatva": "0x1002e0f4"
+        },
+        {
+          "name": "HeapFree",
+          "iatva": "0x1002e0f8"
+        },
+        {
+          "name": "GetCurrentThreadId",
+          "iatva": "0x1002e0fc"
+        },
+        {
+          "name": "GetCommandLineA",
+          "iatva": "0x1002e100"
+        },
+        {
+          "name": "RtlUnwind",
+          "iatva": "0x1002e104"
+        },
+        {
+          "name": "RaiseException",
+          "iatva": "0x1002e108"
+        },
+        {
+          "name": "HeapAlloc",
+          "iatva": "0x1002e10c"
+        },
+        {
+          "name": "HeapReAlloc",
+          "iatva": "0x1002e110"
+        },
+        {
+          "name": "ExitThread",
+          "iatva": "0x1002e114"
+        },
+        {
+          "name": "CreateThread",
+          "iatva": "0x1002e118"
+        },
+        {
+          "name": "TerminateProcess",
+          "iatva": "0x1002e11c"
+        },
+        {
+          "name": "UnhandledExceptionFilter",
+          "iatva": "0x1002e120"
+        },
+        {
+          "name": "SetUnhandledExceptionFilter",
+          "iatva": "0x1002e124"
+        },
+        {
+          "name": "IsDebuggerPresent",
+          "iatva": "0x1002e128"
+        },
+        {
+          "name": "GetCPInfo",
+          "iatva": "0x1002e12c"
+        },
+        {
+          "name": "InterlockedIncrement",
+          "iatva": "0x1002e130"
+        },
+        {
+          "name": "InterlockedDecrement",
+          "iatva": "0x1002e134"
+        },
+        {
+          "name": "GetACP",
+          "iatva": "0x1002e138"
+        },
+        {
+          "name": "GetOEMCP",
+          "iatva": "0x1002e13c"
+        },
+        {
+          "name": "IsValidCodePage",
+          "iatva": "0x1002e140"
+        },
+        {
+          "name": "TlsAlloc",
+          "iatva": "0x1002e144"
+        },
+        {
+          "name": "TlsGetValue",
+          "iatva": "0x1002e148"
+        },
+        {
+          "name": "TlsSetValue",
+          "iatva": "0x1002e14c"
+        },
+        {
+          "name": "TlsFree",
+          "iatva": "0x1002e150"
+        },
+        {
+          "name": "SetLastError",
+          "iatva": "0x1002e154"
+        },
+        {
+          "name": "HeapSize",
+          "iatva": "0x1002e158"
+        },
+        {
+          "name": "ExitProcess",
+          "iatva": "0x1002e15c"
+        },
+        {
+          "name": "HeapCreate",
+          "iatva": "0x1002e160"
+        },
+        {
+          "name": "HeapDestroy",
+          "iatva": "0x1002e164"
+        },
+        {
+          "name": "SetHandleCount",
+          "iatva": "0x1002e168"
+        },
+        {
+          "name": "GetStdHandle",
+          "iatva": "0x1002e16c"
+        },
+        {
+          "name": "InitializeCriticalSectionAndSpinCount",
+          "iatva": "0x1002e170"
+        },
+        {
+          "name": "SetEndOfFile",
+          "iatva": "0x1002e174"
+        }
+      ],
+      "VERSION.dll": [
+        {
+          "name": "GetFileVersionInfoSizeW",
+          "iatva": "0x1002e1d8"
+        },
+        {
+          "name": "VerQueryValueW",
+          "iatva": "0x1002e1dc"
+        },
+        {
+          "name": "GetFileVersionInfoW",
+          "iatva": "0x1002e1e0"
+        }
+      ]
+    },
+    "exports": [
+      {
+        "name": "InterposerCleanup",
+        "va": "0x10001510"
+      },
+      {
+        "name": "InterposerClosePipe",
+        "va": "0x10001850"
+      },
+      {
+        "name": "InterposerGetApplicationId",
+        "va": "0x10001960"
+      },
+      {
+        "name": "InterposerGetDescriptorCount",
+        "va": "0x10001f10"
+      },
+      {
+        "name": "InterposerGetDescriptors",
+        "va": "0x10002040"
+      },
+      {
+        "name": "InterposerGetDevCaps",
+        "va": "0x10001dd0"
+      },
+      {
+        "name": "InterposerGetDevCapsSize",
+        "va": "0x10001ca0"
+      },
+      {
+        "name": "InterposerGetVersion",
+        "va": "0x10001660"
+      },
+      {
+        "name": "InterposerInit",
+        "va": "0x100013f0"
+      },
+      {
+        "name": "InterposerMessage",
+        "va": "0x10001a10"
+      },
+      {
+        "name": "InterposerOpenPipe",
+        "va": "0x10001730"
+      },
+      {
+        "name": "InterposerRegisterCallback",
+        "va": "0x10001b70"
+      }
+    ]
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "clr": true,
+    "imports": {
+      "VCRUNTIME140.dll": [
+        {
+          "name": "memmove",
+          "iatva": "0x100090c4"
+        },
+        {
+          "name": "__FrameUnwindFilter",
+          "iatva": "0x100090c8"
+        },
+        {
+          "name": "_except_handler4_common",
+          "iatva": "0x100090cc"
+        },
+        {
+          "name": "memset",
+          "iatva": "0x100090d0"
+        },
+        {
+          "name": "__std_type_info_destroy_list",
+          "iatva": "0x100090d4"
+        },
+        {
+          "name": "_CxxThrowException",
+          "iatva": "0x100090d8"
+        },
+        {
+          "name": "__std_exception_destroy",
+          "iatva": "0x100090dc"
+        },
+        {
+          "name": "__std_exception_copy",
+          "iatva": "0x100090e0"
+        }
+      ],
+      "api-ms-win-crt-runtime-l1-1-0.dll": [
+        {
+          "name": "_crt_at_quick_exit",
+          "iatva": "0x100090f8"
+        },
+        {
+          "name": "_crt_atexit",
+          "iatva": "0x100090fc"
+        },
+        {
+          "name": "_execute_onexit_table",
+          "iatva": "0x10009100"
+        },
+        {
+          "name": "_register_onexit_function",
+          "iatva": "0x10009104"
+        },
+        {
+          "name": "_cexit",
+          "iatva": "0x10009108"
+        },
+        {
+          "name": "_initialize_narrow_environment",
+          "iatva": "0x1000910c"
+        },
+        {
+          "name": "_configure_narrow_argv",
+          "iatva": "0x10009110"
+        },
+        {
+          "name": "_seh_filter_dll",
+          "iatva": "0x10009114"
+        },
+        {
+          "name": "_initterm_e",
+          "iatva": "0x10009118"
+        },
+        {
+          "name": "_initterm",
+          "iatva": "0x1000911c"
+        },
+        {
+          "name": "terminate",
+          "iatva": "0x10009120"
+        },
+        {
+          "name": "_invalid_parameter_noinfo_noreturn",
+          "iatva": "0x10009124"
+        },
+        {
+          "name": "abort",
+          "iatva": "0x10009128"
+        },
+        {
+          "name": "_initialize_onexit_table",
+          "iatva": "0x1000912c"
+        }
+      ],
+      "api-ms-win-crt-heap-l1-1-0.dll": [
+        {
+          "name": "free",
+          "iatva": "0x100090e8"
+        },
+        {
+          "name": "malloc",
+          "iatva": "0x100090ec"
+        },
+        {
+          "name": "_callnewh",
+          "iatva": "0x100090f0"
+        }
+      ],
+      "KERNEL32.dll": [
+        {
+          "name": "DisableThreadLibraryCalls",
+          "iatva": "0x10009070"
+        },
+        {
+          "name": "UnhandledExceptionFilter",
+          "iatva": "0x10009074"
+        },
+        {
+          "name": "SetUnhandledExceptionFilter",
+          "iatva": "0x10009078"
+        },
+        {
+          "name": "GetStartupInfoW",
+          "iatva": "0x1000907c"
+        },
+        {
+          "name": "IsProcessorFeaturePresent",
+          "iatva": "0x10009080"
+        },
+        {
+          "name": "GetModuleHandleW",
+          "iatva": "0x10009084"
+        },
+        {
+          "name": "GetCurrentProcess",
+          "iatva": "0x10009088"
+        },
+        {
+          "name": "TerminateProcess",
+          "iatva": "0x1000908c"
+        },
+        {
+          "name": "Sleep",
+          "iatva": "0x10009090"
+        },
+        {
+          "name": "GetSystemTimeAsFileTime",
+          "iatva": "0x10009094"
+        },
+        {
+          "name": "GetCurrentThreadId",
+          "iatva": "0x10009098"
+        },
+        {
+          "name": "WideCharToMultiByte",
+          "iatva": "0x1000909c"
+        },
+        {
+          "name": "GetCurrentProcessId",
+          "iatva": "0x100090a0"
+        },
+        {
+          "name": "QueryPerformanceCounter",
+          "iatva": "0x100090a4"
+        },
+        {
+          "name": "InitializeSListHead",
+          "iatva": "0x100090a8"
+        },
+        {
+          "name": "IsDebuggerPresent",
+          "iatva": "0x100090ac"
+        }
+      ],
+      "APIV3EngineDLL.dll": [
+        {
+          "name": "?initialize@Functions@APIV3EngineInterface@@SA_NPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+          "iatva": "0x10009000"
+        },
+        {
+          "name": "?searchCloud@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@I@Z",
+          "iatva": "0x10009004"
+        },
+        {
+          "name": "?ratePreset@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z",
+          "iatva": "0x10009008"
+        },
+        {
+          "name": "?resetPassword@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+          "iatva": "0x1000900c"
+        },
+        {
+          "name": "?createAccount@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@111_N@Z",
+          "iatva": "0x10009010"
+        },
+        {
+          "name": "?logIn@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+          "iatva": "0x10009014"
+        },
+        {
+          "name": "?setIRNameAtIndex@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+          "iatva": "0x10009018"
+        },
+        {
+          "name": "?reorderDevicePreset@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HH@Z",
+          "iatva": "0x1000901c"
+        },
+        {
+          "name": "?setPresetNameAtDeviceIndex@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+          "iatva": "0x10009020"
+        },
+        {
+          "name": "?importImpulseResponse@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+          "iatva": "0x10009024"
+        },
+        {
+          "name": "?exportImpulseResponse@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+          "iatva": "0x10009028"
+        },
+        {
+          "name": "?importDeviceTone@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+          "iatva": "0x1000902c"
+        },
+        {
+          "name": "?exportDeviceTone@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z",
+          "iatva": "0x10009030"
+        },
+        {
+          "name": "?setStringParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@11@Z",
+          "iatva": "0x10009034"
+        },
+        {
+          "name": "?setBoolParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1_N@Z",
+          "iatva": "0x10009038"
+        },
+        {
+          "name": "?getIntArrayParamValue@Functions@APIV3EngineInterface@@SA?AV?$vector@HV?$allocator@H@std@@@std@@PAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z",
+          "iatva": "0x1000903c"
+        },
+        {
+          "name": "?getStringArrayParamValue@Functions@APIV3EngineInterface@@SA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@PAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@1@Z",
+          "iatva": "0x10009040"
+        },
+        {
+          "name": "?getStringParamValue@Functions@APIV3EngineInterface@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAVAPIV3Engine@@V34@1@Z",
+          "iatva": "0x10009044"
+        },
+        {
+          "name": "?getBoolParamValue@Functions@APIV3EngineInterface@@SA_NPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+          "iatva": "0x10009048"
+        },
+        {
+          "name": "?getIntParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+          "iatva": "0x1000904c"
+        },
+        {
+          "name": "?getFloatParamValue@Functions@APIV3EngineInterface@@SAMPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+          "iatva": "0x10009050"
+        },
+        {
+          "name": "?moveSlotAssetToSlot@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+          "iatva": "0x10009054"
+        },
+        {
+          "name": "?setIntParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1H@Z",
+          "iatva": "0x10009058"
+        },
+        {
+          "name": "?setFloatParamValue@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1M@Z",
+          "iatva": "0x1000905c"
+        },
+        {
+          "name": "?createEngine@Functions@APIV3EngineInterface@@SAPAVAPIV3Engine@@P6GXV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0M_N@ZP6GX00H1@ZP6GX0011@ZP6GX0001@Z@Z",
+          "iatva": "0x10009060"
+        },
+        {
+          "name": "?start@Functions@APIV3EngineInterface@@SA_NPAVAPIV3Engine@@@Z",
+          "iatva": "0x10009064"
+        },
+        {
+          "name": "?bindAssetParamToExternalControl@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@1@Z",
+          "iatva": "0x10009068"
+        }
+      ],
+      "MSVCP140.dll": [
+        {
+          "name": "?__ExceptionPtrCopy@@YAXPAXPBX@Z",
+          "iatva": "0x100090b4"
+        },
+        {
+          "name": "?_Xlength_error@std@@YAXPBD@Z",
+          "iatva": "0x100090b8"
+        },
+        {
+          "name": "?__ExceptionPtrDestroy@@YAXPAX@Z",
+          "iatva": "0x100090bc"
+        }
+      ],
+      "mscoree.dll": [
+        {
+          "name": "_CorDllMain",
+          "iatva": "0x10009134"
+        }
+      ]
+    },
+    "exports": []
+  }
+]

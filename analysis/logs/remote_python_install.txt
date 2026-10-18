@@ -1,0 +1,18 @@
+WARNING: The directory '/home/agent/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Collecting dnfile
+  Downloading dnfile-0.18.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting dncil
+  Downloading dncil-1.0.2-py3-none-any.whl.metadata (6.9 kB)
+Collecting pefile>=2019.4.18 (from dnfile)
+  Downloading pefile-2024.8.26-py3-none-any.whl.metadata (1.4 kB)
+Downloading dnfile-0.18.0-py3-none-any.whl (48 kB)
+Downloading dncil-1.0.2-py3-none-any.whl (27 kB)
+Downloading pefile-2024.8.26-py3-none-any.whl (74 kB)
+Installing collected packages: pefile, dncil, dnfile
+
+Successfully installed dncil-1.0.2 dnfile-0.18.0 pefile-2024.8.26
+WARNING: Target directory /workspace/analysis/tools/python/__pycache__ already exists. Specify --upgrade to force replacement.
+WARNING: Target directory /workspace/analysis/tools/python/pefile-2024.8.26.dist-info already exists. Specify --upgrade to force replacement.
+WARNING: Target directory /workspace/analysis/tools/python/ordlookup already exists. Specify --upgrade to force replacement.
+WARNING: Target directory /workspace/analysis/tools/python/peutils.py already exists. Specify --upgrade to force replacement.
+WARNING: Target directory /workspace/analysis/tools/python/pefile.py already exists. Specify --upgrade to force replacement.

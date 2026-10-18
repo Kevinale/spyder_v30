@@ -1,0 +1,905 @@
+XREF 10084b90 10175b40
+XREF 10085080 10175b44
+XREF 10085180 10175b48
+XREF 10085130 10175b4c
+XREF 100851a0 10175b50
+XREF 100851b0 10175b54
+XREF 10085200 10175b58
+XREF 10084c40 10175b30
+XREF 1009e120 10175b24
+XREF 1009e120 10175b74
+XREF 1009e120 10175bbc
+XREF 1009e120 1017638c
+XREF 1009e2b0 10175b28
+XREF 1009e2b0 10175b78
+XREF 1009e2b0 10175bc0
+XREF 1009e2b0 10176390
+XREF 1009e450 1009dfdb
+XREF 1009e450 10084b51
+XREF 1009e450 1008552c
+XREF 1009e450 10175b2c
+XREF 1009e450 10175b7c
+XREF 1009e450 10175bc4
+XREF 1009e450 10176394
+FUNCTION 10084b90 FUN_10084b90
+
+undefined4 __fastcall FUN_10084b90(int param_1)
+
+{
+  undefined8 *puVar1;
+  uint uVar2;
+  DWORD DVar3;
+  
+  if ((HANDLE)**(undefined4 **)(param_1 + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)(param_1 + 8),0xffffffff);
+  }
+  if (*(undefined8 **)(param_1 + 0x58) != (undefined8 *)0x0) {
+    FUN_1009b4a0(*(undefined8 **)(param_1 + 0x58));
+    FUN_10047e30();
+    Sleep(500);
+    if (*(undefined4 **)(param_1 + 0x58) != (undefined4 *)0x0) {
+      (**(code **)**(undefined4 **)(param_1 + 0x58))(1);
+    }
+    *(undefined4 *)(param_1 + 0x58) = 0;
+  }
+  if ((HANDLE)**(undefined4 **)(param_1 + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)(param_1 + 8));
+  }
+  if (*(char *)(param_1 + 0x30) != '\0') {
+    *(undefined1 *)(param_1 + 0x30) = 0;
+  }
+  if (*(char *)(param_1 + 0x38) != '\0') {
+    uVar2 = *(uint *)(param_1 + 0x3c);
+    puVar1 = FUN_10047e30();
+    FUN_10048440(puVar1,uVar2);
+    DVar3 = 0xffffffff;
+    uVar2 = *(uint *)(param_1 + 0x3c);
+    puVar1 = FUN_10047e30();
+    FUN_100484b0(puVar1,uVar2,DVar3);
+    *(undefined4 *)(param_1 + 0x3c) = 0;
+    *(undefined1 *)(param_1 + 0x38) = 0;
+  }
+  return 0;
+}
+
+
+FUNCTION 10085080 FUN_10085080
+
+undefined4 __fastcall FUN_10085080(int param_1)
+
+{
+  undefined4 *puVar1;
+  undefined4 uVar2;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_100c8c92;
+  local_10 = ExceptionList;
+  ExceptionList = &local_10;
+  if ((HANDLE)**(undefined4 **)(param_1 + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)(param_1 + 8),0xffffffff);
+  }
+  puVar1 = (undefined4 *)FUN_100bee66(0xec);
+  local_8 = 0;
+  memset(puVar1,0,0xec);
+  puVar1 = FUN_1009b920(puVar1);
+  local_8 = 0xffffffff;
+  *(undefined4 **)(param_1 + 0x58) = puVar1;
+  if (puVar1 == (undefined4 *)0x0) {
+    uVar2 = 0xffffffff;
+  }
+  else {
+    uVar2 = FUN_1009b5c0(puVar1,*(uint *)(param_1 + 0x10));
+  }
+  if ((HANDLE)**(undefined4 **)(param_1 + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)(param_1 + 8));
+  }
+  ExceptionList = local_10;
+  return uVar2;
+}
+
+
+FUNCTION 10085180 FUN_10085180
+
+void __fastcall FUN_10085180(int param_1)
+
+{
+  if ((*(int *)(param_1 + 0x58) != 0) && (*(int *)(param_1 + 0x44) != 0)) {
+    *(int *)(*(int *)(param_1 + 0x58) + 0xe8) = *(int *)(param_1 + 0x44);
+  }
+  return;
+}
+
+
+FUNCTION 10085130 FUN_10085130
+
+undefined4 __thiscall FUN_10085130(void *this,undefined4 param_1,undefined4 param_2)
+
+{
+  undefined4 uVar1;
+  
+  if ((HANDLE)**(undefined4 **)((int)this + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 8),0xffffffff);
+  }
+  if (*(int **)((int)this + 0x58) == (int *)0x0) {
+    uVar1 = 0xffffffff;
+  }
+  else {
+    uVar1 = (**(code **)(**(int **)((int)this + 0x58) + 0x14))(param_1,param_2);
+  }
+  if ((HANDLE)**(undefined4 **)((int)this + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 8));
+  }
+  return uVar1;
+}
+
+
+FUNCTION 100851a0 FUN_100851a0
+
+undefined4 __fastcall FUN_100851a0(int param_1)
+
+{
+  void *this;
+  int *piVar1;
+  int iVar2;
+  int *piVar3;
+  undefined4 *puVar4;
+  int iVar5;
+  undefined4 uVar6;
+  code *pcVar7;
+  undefined4 *puVar8;
+  int iVar9;
+  undefined1 auStack_24 [4];
+  undefined4 uStack_20;
+  int iStack_1c;
+  int *piStack_18;
+  int aiStack_14 [4];
+  
+  this = *(void **)(param_1 + 0x58);
+  if (this == (void *)0x0) {
+    return 0xffffffff;
+  }
+  aiStack_14[2] = DAT_1018a29c ^ (uint)auStack_24;
+  aiStack_14[0] = 0;
+  aiStack_14[1] = 0;
+  if ((*(int **)((int)this + 4) == (int *)0x0) ||
+     (iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))(aiStack_14,8), iVar5 < 0)) {
+LAB_1009b3df:
+    uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+    return uVar6;
+  }
+  if (iVar5 != 8) {
+    uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+    return uVar6;
+  }
+  if (aiStack_14[0] != 0) {
+    if (aiStack_14[0] == 1) {
+      FUN_1009ac30(this,aiStack_14);
+      uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+      return uVar6;
+    }
+    if (aiStack_14[0] == 2) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      piStack_18 = *(int **)((int)this + 0xd0);
+      iStack_1c = *piStack_18;
+      iVar5 = piStack_18[1];
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar9 = *(int *)((int)this + 0x5c); iVar9 != 0; iVar9 = *(int *)(iVar9 + 4)) {
+        if (iVar9 == 0) {
+          iStack_1c = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&iStack_1c,(ThrowInfo *)&DAT_10186f18);
+        }
+        piVar1 = *(int **)(iVar9 + 8);
+        if (((*piVar1 == iStack_1c) && (piVar1[1] == iVar5)) &&
+           (pcVar7 = (code *)piVar1[2], pcVar7 != (code *)0x0)) {
+          if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+            pcVar7 = (code *)piVar1[2];
+          }
+          (*pcVar7)(piStack_18 + 2,piVar1[3]);
+          uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+          return uVar6;
+        }
+      }
+    }
+    else if (aiStack_14[0] == 3) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      iVar5 = *(int *)((int)this + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar9 = *(int *)((int)this + 0x6c); iVar9 != 0; iVar9 = *(int *)(iVar9 + 4)) {
+        if (iVar9 == 0) {
+          piStack_18 = (int *)0x3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&piStack_18,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar2 = *(int *)(iVar9 + 8);
+        if (*(int *)(iVar2 + 8) != 0) {
+          if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+          }
+          iVar9 = *(int *)(iVar2 + 0xc);
+          *(undefined4 *)(iVar9 + 8) = *(undefined4 *)(iVar5 + 8);
+          *(undefined4 *)(iVar9 + 0xc) = *(undefined4 *)(iVar5 + 0xc);
+          (**(code **)(iVar2 + 8))(iVar5,*(undefined4 *)(iVar2 + 0xc));
+          uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+          return uVar6;
+        }
+      }
+    }
+    else if (aiStack_14[0] == 4) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      piVar1 = *(int **)((int)this + 0xd0);
+      iStack_1c = piVar1[1];
+      piStack_18 = (int *)*piVar1;
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)this + 0x7c); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        if (*(int *)(iVar9 + 8) != 0) {
+          if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+          }
+          piVar3 = *(int **)(iVar9 + 0xc);
+          *piVar3 = (int)piStack_18;
+          piVar3[1] = iStack_1c;
+          (**(code **)(iVar9 + 8))(piVar1 + 2,*(undefined4 *)(iVar9 + 0xc));
+          uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+          return uVar6;
+        }
+      }
+    }
+    else if (aiStack_14[0] == 5) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      uVar6 = *(undefined4 *)((int)this + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)this + 0x8c); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        pcVar7 = *(code **)(iVar9 + 8);
+        if (pcVar7 != (code *)0x0) {
+LAB_1009b1f6:
+          if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+            pcVar7 = *(code **)(iVar9 + 8);
+          }
+          (*pcVar7)(uVar6,*(undefined4 *)(iVar9 + 0xc));
+          uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+          return uVar6;
+        }
+      }
+    }
+    else if (aiStack_14[0] == 6) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      uVar6 = *(undefined4 *)((int)this + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)this + 0x9c); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        pcVar7 = *(code **)(iVar9 + 8);
+        if (pcVar7 != (code *)0x0) goto LAB_1009b1f6;
+      }
+    }
+    else if (aiStack_14[0] == 7) {
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) {
+LAB_1009af2d:
+        uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+        return uVar6;
+      }
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      puVar8 = *(undefined4 **)((int)this + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)this + 0xac); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        if (*(int *)(iVar9 + 8) != 0) {
+LAB_1009b30f:
+          if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+          }
+          puVar4 = *(undefined4 **)(iVar9 + 0xc);
+          *puVar4 = *puVar8;
+          puVar4[1] = puVar8[1];
+          puVar4[2] = puVar8[2];
+          (**(code **)(iVar9 + 8))(puVar8 + 1,*(undefined4 *)(iVar9 + 0xc));
+          uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+          return uVar6;
+        }
+      }
+    }
+    else {
+      if (aiStack_14[0] != 8) {
+        uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+        return uVar6;
+      }
+      if (*(uint *)((int)this + 0xd4) < (uint)aiStack_14[1]) goto LAB_1009af2d;
+      iVar5 = (**(code **)(**(int **)((int)this + 4) + 0x10))
+                        (*(undefined4 *)((int)this + 0xd0),aiStack_14[1]);
+      if (iVar5 < 0) goto LAB_1009b3df;
+      puVar8 = *(undefined4 **)((int)this + 0xd0);
+      if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+        WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0x14),0xffffffff);
+      }
+      for (iVar5 = *(int *)((int)this + 0xbc); iVar5 != 0; iVar5 = *(int *)(iVar5 + 4)) {
+        if (iVar5 == 0) {
+          uStack_20 = 3;
+                    /* WARNING: Subroutine does not return */
+          _CxxThrowException(&uStack_20,(ThrowInfo *)&DAT_10186f18);
+        }
+        iVar9 = *(int *)(iVar5 + 8);
+        if (*(int *)(iVar9 + 8) != 0) goto LAB_1009b30f;
+      }
+    }
+    if ((HANDLE)**(undefined4 **)((int)this + 0x14) != (HANDLE)0x0) {
+      ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0x14));
+    }
+  }
+  uVar6 = __security_check_cookie(aiStack_14[2] ^ (uint)auStack_24);
+  return uVar6;
+}
+
+
+FUNCTION 100851b0 FUN_100851b0
+
+undefined4 __fastcall FUN_100851b0(int param_1)
+
+{
+  undefined4 uVar1;
+  
+  if ((HANDLE)**(undefined4 **)(param_1 + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)(param_1 + 8),0xffffffff);
+  }
+  if (*(int **)(param_1 + 0x58) == (int *)0x0) {
+    uVar1 = 0xffffffff;
+  }
+  else {
+    uVar1 = (**(code **)(**(int **)(param_1 + 0x58) + 4))(param_1 + 0x18);
+  }
+  if ((HANDLE)**(undefined4 **)(param_1 + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)(param_1 + 8));
+  }
+  return uVar1;
+}
+
+
+FUNCTION 10085200 FUN_10085200
+
+void __fastcall FUN_10085200(int param_1)
+
+{
+  int iVar1;
+  void *_Memory;
+  undefined4 *puVar2;
+  size_t local_c;
+  uint local_8;
+  
+  local_8 = DAT_1018a29c ^ (uint)&stack0xfffffffc;
+  local_c = 0;
+  if ((HANDLE)**(undefined4 **)(param_1 + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)(param_1 + 8),0xffffffff);
+  }
+  iVar1 = (**(code **)(**(int **)(param_1 + 0x58) + 8))(&local_c);
+  if ((iVar1 == 0) && (_Memory = (void *)FUN_100beea4(local_c), _Memory != (void *)0x0)) {
+    iVar1 = (**(code **)(**(int **)(param_1 + 0x58) + 0xc))(_Memory,local_c);
+    if (iVar1 == 0) {
+      puVar2 = (undefined4 *)FUN_100bee66(0x1c);
+      *puVar2 = 0;
+      puVar2[1] = 0;
+      puVar2[2] = 0;
+      puVar2[3] = 0;
+      *(undefined8 *)(puVar2 + 4) = 0;
+      puVar2[6] = 0;
+      puVar2 = FUN_100ac550(puVar2);
+      *(undefined4 **)(param_1 + 0x50) = puVar2;
+      if (puVar2 != (undefined4 *)0x0) {
+        FUN_100ac5d0(puVar2,_Memory,local_c);
+        free(_Memory);
+        goto LAB_100852b5;
+      }
+    }
+    free(_Memory);
+  }
+LAB_100852b5:
+  if ((HANDLE)**(undefined4 **)(param_1 + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)(param_1 + 8));
+  }
+  __security_check_cookie(local_8 ^ (uint)&stack0xfffffffc);
+  return;
+}
+
+
+FUNCTION 10084c40 FUN_10084c40
+
+undefined4 __fastcall FUN_10084c40(int param_1)
+
+{
+  int iVar1;
+  HANDLE hMutex;
+  undefined4 *puVar2;
+  undefined4 uVar3;
+  
+  if ((HANDLE)**(undefined4 **)(param_1 + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)(param_1 + 8),0xffffffff);
+  }
+  if ((*(char *)(param_1 + 0x40) == '\0') || (iVar1 = *(int *)(param_1 + 0x58), iVar1 == 0)) {
+    uVar3 = 0xffffffff;
+  }
+  else {
+    if (*(char *)(iVar1 + 0xdc) != '\0') {
+      while( true ) {
+        puVar2 = *(undefined4 **)(iVar1 + 0xc);
+        if ((HANDLE)*puVar2 != (HANDLE)0x0) {
+          WaitForSingleObject((HANDLE)*puVar2,0xffffffff);
+          puVar2 = *(undefined4 **)(iVar1 + 0xc);
+        }
+        hMutex = (HANDLE)*puVar2;
+        if (*(int *)(iVar1 + 0x38) == 0) break;
+        if (hMutex != (HANDLE)0x0) {
+          ReleaseMutex(hMutex);
+        }
+        Sleep(100);
+      }
+      if (hMutex != (HANDLE)0x0) {
+        ReleaseMutex(hMutex);
+      }
+    }
+    uVar3 = 0;
+  }
+  if ((HANDLE)**(undefined4 **)(param_1 + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)(param_1 + 8));
+  }
+  return uVar3;
+}
+
+
+FUNCTION 1009e120 FUN_1009e120
+
+void __thiscall FUN_1009e120(void *this,int param_1,void *param_2)
+
+{
+  int iVar1;
+  int *piVar2;
+  uint uVar3;
+  undefined **local_10;
+  int *local_c;
+  char local_5;
+  
+  local_10 = L6String::vftable;
+  local_c = (int *)0x0;
+  FUN_1001d100(&local_10,"WillClose");
+  uVar3 = FUN_1001d4d0(param_2,(int)&local_10);
+  piVar2 = local_c;
+  local_5 = (char)uVar3;
+  if (local_c != (int *)0x0) {
+    LOCK();
+    iVar1 = *local_c;
+    *local_c = *local_c + -1;
+    UNLOCK();
+    if (iVar1 == 1 || iVar1 + -1 < 0) {
+      if (local_c[3] != 0) {
+        free((void *)local_c[4]);
+      }
+      FUN_100bee96(piVar2);
+    }
+  }
+  if (local_5 == '\0') {
+    local_10 = L6String::vftable;
+    local_c = (int *)0x0;
+    FUN_1001d100(&local_10,"WillDestroy");
+    uVar3 = FUN_1001d4d0(param_2,(int)&local_10);
+    piVar2 = local_c;
+    if (local_c != (int *)0x0) {
+      LOCK();
+      iVar1 = *local_c;
+      *local_c = *local_c + -1;
+      UNLOCK();
+      if (iVar1 == 1 || iVar1 + -1 < 0) {
+        if (local_c[3] != 0) {
+          free((void *)local_c[4]);
+        }
+        FUN_100bee96(piVar2);
+      }
+    }
+    if ((char)uVar3 == '\0') {
+      return;
+    }
+    if ((HANDLE)**(undefined4 **)((int)this + 8) != (HANDLE)0x0) {
+      WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 8),0xffffffff);
+    }
+    if (param_1 == *(int *)((int)this + 0x10)) {
+      (**(code **)(*(int *)this + 0x1c))();
+      *(undefined4 *)((int)this + 0x10) = 0;
+    }
+  }
+  else {
+    *(undefined1 *)((int)this + 0x40) = 0;
+    (**(code **)(*(int *)this + 0x14))();
+    if ((HANDLE)**(undefined4 **)((int)this + 8) != (HANDLE)0x0) {
+      WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 8),0xffffffff);
+    }
+    (**(code **)(*(int *)this + 0x14))();
+  }
+  if ((HANDLE)**(undefined4 **)((int)this + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 8));
+  }
+  return;
+}
+
+
+FUNCTION 1009e2b0 FUN_1009e2b0
+
+int __thiscall FUN_1009e2b0(void *this,undefined4 *param_1,undefined4 *param_2)
+
+{
+  char cVar1;
+  int iVar2;
+  undefined8 *puVar3;
+  undefined4 *puVar4;
+  code *pcVar5;
+  void *pvVar6;
+  uint *puVar7;
+  
+  if ((HANDLE)**(undefined4 **)((int)this + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 8),0xffffffff);
+  }
+  if ((*(char *)((int)this + 0xc) == '\0') && (*(int **)((int)this + 0x10) != (int *)0x0)) {
+    iVar2 = (**(code **)(**(int **)((int)this + 0x10) + 4))();
+    if (-1 < iVar2) {
+      iVar2 = (**(code **)(*(int *)this + 0x24))();
+      if (iVar2 == 0) {
+        puVar7 = (uint *)((int)this + 0x3c);
+        pcVar5 = FUN_1009de00;
+        pvVar6 = this;
+        puVar3 = FUN_10047e30();
+        cVar1 = FUN_10048260(puVar3,(uintptr_t)pcVar5,(uintptr_t)pvVar6,puVar7);
+        iVar2 = (cVar1 != '\0') - 1;
+        if (cVar1 != '\0') {
+          iVar2 = 0;
+          do {
+            if (*(char *)((int)this + 0x38) != '\0') break;
+            Sleep(10);
+            iVar2 = iVar2 + 1;
+          } while (iVar2 < 100);
+          if ((param_1 != (undefined4 *)0x0) && (param_1[1] != 0)) {
+            puVar4 = (undefined4 *)FUN_100bee66(0x1c);
+            *puVar4 = 0;
+            puVar4[1] = 0;
+            puVar4[2] = 0;
+            puVar4[3] = 0;
+            *(undefined8 *)(puVar4 + 4) = 0;
+            puVar4[6] = 0;
+            puVar4 = FUN_100ac550(puVar4);
+            *(undefined4 **)((int)this + 0x48) = puVar4;
+            if (puVar4 != (undefined4 *)0x0) {
+              FUN_100ac5d0(puVar4,(void *)*param_1,param_1[1]);
+            }
+          }
+          if ((param_2 != (undefined4 *)0x0) && (param_2[1] != 0)) {
+            puVar4 = (undefined4 *)FUN_100bee66(0x1c);
+            *puVar4 = 0;
+            puVar4[1] = 0;
+            puVar4[2] = 0;
+            puVar4[3] = 0;
+            *(undefined8 *)(puVar4 + 4) = 0;
+            puVar4[6] = 0;
+            puVar4 = FUN_100ac550(puVar4);
+            *(undefined4 **)((int)this + 0x4c) = puVar4;
+            if (puVar4 != (undefined4 *)0x0) {
+              FUN_100ac5d0(puVar4,(void *)*param_2,param_2[1]);
+            }
+          }
+          *(undefined1 *)((int)this + 0x30) = 0;
+          if ((*(byte *)((int)this + 0x27) & 1) == 0) {
+            puVar7 = (uint *)((int)this + 0x34);
+            pcVar5 = FUN_1009dde0;
+            pvVar6 = this;
+            puVar3 = FUN_10047e30();
+            cVar1 = FUN_10048260(puVar3,(uintptr_t)pcVar5,(uintptr_t)pvVar6,puVar7);
+            iVar2 = (cVar1 != '\0') - 1;
+          }
+          else {
+            iVar2 = FUN_1009e4d0(this);
+          }
+        }
+      }
+    }
+  }
+  else {
+    iVar2 = -1;
+  }
+  *(undefined2 *)((int)this + 0x54) = 1;
+  if ((HANDLE)**(undefined4 **)((int)this + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 8));
+  }
+  if (((iVar2 != 0) && (iVar2 != -0x7d6)) && (iVar2 != -0x7d8)) {
+    (**(code **)(*(int *)this + 0x20))();
+  }
+  return iVar2;
+}
+
+
+FUNCTION 1009e450 FUN_1009e450
+
+undefined4 __fastcall FUN_1009e450(int *param_1)
+
+{
+  if (*(HANDLE *)param_1[2] != (HANDLE)0x0) {
+    WaitForSingleObject(*(HANDLE *)param_1[2],0xffffffff);
+  }
+  if ((char)param_1[0x10] == '\0') {
+    if ((char)param_1[3] == '\0') {
+      if (*(HANDLE *)param_1[2] != (HANDLE)0x0) {
+        ReleaseMutex(*(HANDLE *)param_1[2]);
+      }
+      return 0xffffffff;
+    }
+  }
+  else if ((char)param_1[3] == '\0') goto LAB_1009e4a2;
+  if (((int *)param_1[4] != (int *)0x0) && ((char)param_1[0x15] != '\0')) {
+    *(undefined1 *)((int)param_1 + 0x55) = 1;
+    (**(code **)(*(int *)param_1[4] + 8))();
+  }
+LAB_1009e4a2:
+  *(undefined1 *)(param_1 + 3) = 0;
+  *(undefined1 *)(param_1 + 0x10) = 0;
+  if (*(HANDLE *)param_1[2] != (HANDLE)0x0) {
+    ReleaseMutex(*(HANDLE *)param_1[2]);
+  }
+  (**(code **)(*param_1 + 0x20))();
+  return 0;
+}
+
+
+FUNCTION 1009dfb0 FUN_1009dfb0
+
+void __fastcall FUN_1009dfb0(int *param_1)
+
+{
+  int iVar1;
+  int *piVar2;
+  uint uVar3;
+  void *pvVar4;
+  undefined4 *puVar5;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 uStack_8;
+  
+  uStack_8 = 0xffffffff;
+  puStack_c = &LAB_100c0da0;
+  local_10 = ExceptionList;
+  uVar3 = DAT_1018a29c ^ (uint)&stack0xfffffffc;
+  ExceptionList = &local_10;
+  *param_1 = (int)FirmwareServiceInterfaceBase::vftable;
+  FUN_1009e450(param_1);
+  if ((int *)param_1[4] != (int *)0x0) {
+    (**(code **)(*(int *)param_1[4] + 0x28))(param_1,uVar3);
+  }
+  if ((undefined4 *)param_1[0x12] != (undefined4 *)0x0) {
+    FUN_1009e0c0((undefined4 *)param_1[0x12]);
+    param_1[0x12] = 0;
+  }
+  if ((undefined4 *)param_1[0x13] != (undefined4 *)0x0) {
+    FUN_1009e0c0((undefined4 *)param_1[0x13]);
+    param_1[0x13] = 0;
+  }
+  if ((undefined4 *)param_1[0x14] != (undefined4 *)0x0) {
+    FUN_1009e0c0((undefined4 *)param_1[0x14]);
+    param_1[0x14] = 0;
+  }
+  param_1[0x11] = 0;
+  piVar2 = (int *)param_1[8];
+  param_1[7] = (int)L6String::vftable;
+  if (piVar2 != (int *)0x0) {
+    LOCK();
+    iVar1 = *piVar2;
+    *piVar2 = *piVar2 + -1;
+    UNLOCK();
+    if (iVar1 == 1 || iVar1 + -1 < 0) {
+      pvVar4 = (void *)param_1[8];
+      if (*(int *)((int)pvVar4 + 0xc) != 0) {
+        free(*(void **)((int)pvVar4 + 0x10));
+        pvVar4 = (void *)param_1[8];
+      }
+      FUN_100bee96(pvVar4);
+    }
+    param_1[8] = 0;
+  }
+  puVar5 = (undefined4 *)param_1[2];
+  param_1[1] = (int)L6Mutex::vftable;
+  if ((HANDLE)*puVar5 != (HANDLE)0x0) {
+    CloseHandle((HANDLE)*puVar5);
+    puVar5 = (undefined4 *)param_1[2];
+  }
+  FUN_100bee96(puVar5);
+  param_1[2] = 0;
+  *param_1 = (int)IDevicePortObserver::vftable;
+  ExceptionList = local_10;
+  return;
+}
+
+
+FUNCTION 10084b10 FUN_10084b10
+
+int * __thiscall FUN_10084b10(void *this,byte param_1)
+
+{
+  uint uVar1;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  puStack_c = &LAB_100c3f80;
+  local_10 = ExceptionList;
+  uVar1 = DAT_1018a29c ^ (uint)&stack0xfffffffc;
+  ExceptionList = &local_10;
+  local_8 = 0;
+  *(undefined ***)this = FirmwareServiceInterfaceEditor::vftable;
+  if (*(int **)((int)this + 0x10) != (int *)0x0) {
+    (**(code **)(**(int **)((int)this + 0x10) + 0x28))(this,uVar1);
+  }
+  FUN_1009e450(this);
+  FUN_1009dfb0(this);
+  if ((param_1 & 1) != 0) {
+    FUN_100bee96(this);
+  }
+  ExceptionList = local_10;
+  return this;
+}
+
+
+FUNCTION 100854f0 FUN_100854f0
+
+void __fastcall FUN_100854f0(int *param_1)
+
+{
+  int *piVar1;
+  uint uVar2;
+  void *pvVar3;
+  int iVar4;
+  void *pvVar5;
+  undefined4 *puVar6;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 uStack_8;
+  
+  uStack_8 = 0xffffffff;
+  puStack_c = &LAB_100c8d00;
+  local_10 = ExceptionList;
+  uVar2 = DAT_1018a29c ^ (uint)&stack0xfffffffc;
+  ExceptionList = &local_10;
+  *param_1 = (int)FirmwareServiceInterfaceLibrarian::vftable;
+  if ((int *)param_1[4] != (int *)0x0) {
+    (**(code **)(*(int *)param_1[4] + 0x28))(param_1,uVar2);
+  }
+  FUN_1009e450(param_1);
+  if ((void *)param_1[0x1e] != (void *)0x0) {
+    free((void *)param_1[0x1e]);
+    param_1[0x1e] = 0;
+  }
+  if ((void *)param_1[0x1f] != (void *)0x0) {
+    free((void *)param_1[0x1f]);
+    param_1[0x1f] = 0;
+  }
+  if (*(HANDLE *)param_1[0x23] != (HANDLE)0x0) {
+    WaitForSingleObject(*(HANDLE *)param_1[0x23],0xffffffff);
+  }
+  pvVar5 = (void *)param_1[0x20];
+  if (pvVar5 != (void *)0x0) {
+    uVar2 = 0;
+    if (param_1[0x21] != 0) {
+      do {
+        iVar4 = *(int *)((int)pvVar5 + uVar2 * 4);
+        if (iVar4 != 0) {
+          FUN_100867e0(iVar4);
+          iVar4 = param_1[0x20];
+          pvVar5 = *(void **)(iVar4 + uVar2 * 4);
+          if (pvVar5 != (void *)0x0) {
+            piVar1 = *(int **)((int)pvVar5 + 0x1c);
+            *(undefined ***)((int)pvVar5 + 0x18) = L6String::vftable;
+            if (piVar1 != (int *)0x0) {
+              LOCK();
+              iVar4 = *piVar1;
+              *piVar1 = *piVar1 + -1;
+              UNLOCK();
+              if (iVar4 == 1 || iVar4 + -1 < 0) {
+                pvVar3 = *(void **)((int)pvVar5 + 0x1c);
+                if (*(int *)((int)pvVar3 + 0xc) != 0) {
+                  free(*(void **)((int)pvVar3 + 0x10));
+                  pvVar3 = *(void **)((int)pvVar5 + 0x1c);
+                }
+                FUN_100bee96(pvVar3);
+              }
+              *(undefined4 *)((int)pvVar5 + 0x1c) = 0;
+            }
+            FUN_100bee96(pvVar5);
+            iVar4 = param_1[0x20];
+          }
+          *(undefined4 *)(iVar4 + uVar2 * 4) = 0;
+          pvVar5 = (void *)param_1[0x20];
+        }
+        uVar2 = uVar2 + 1;
+      } while (uVar2 < (uint)param_1[0x21]);
+    }
+    free(pvVar5);
+    param_1[0x20] = 0;
+  }
+  if (*(HANDLE *)param_1[0x23] != (HANDLE)0x0) {
+    ReleaseMutex(*(HANDLE *)param_1[0x23]);
+  }
+  puVar6 = (undefined4 *)param_1[0x23];
+  param_1[0x22] = (int)L6Mutex::vftable;
+  if ((HANDLE)*puVar6 != (HANDLE)0x0) {
+    CloseHandle((HANDLE)*puVar6);
+    puVar6 = (undefined4 *)param_1[0x23];
+  }
+  FUN_100bee96(puVar6);
+  param_1[0x23] = 0;
+  puVar6 = (undefined4 *)param_1[0x19];
+  param_1[0x18] = (int)L6Mutex::vftable;
+  if ((HANDLE)*puVar6 != (HANDLE)0x0) {
+    CloseHandle((HANDLE)*puVar6);
+    puVar6 = (undefined4 *)param_1[0x19];
+  }
+  FUN_100bee96(puVar6);
+  param_1[0x19] = 0;
+  puVar6 = (undefined4 *)param_1[0x17];
+  param_1[0x16] = (int)L6Event::vftable;
+  if ((HANDLE)*puVar6 != (HANDLE)0x0) {
+    CloseHandle((HANDLE)*puVar6);
+    puVar6 = (undefined4 *)param_1[0x17];
+  }
+  FUN_100bee96(puVar6);
+  param_1[0x17] = 0;
+  FUN_1009dfb0(param_1);
+  ExceptionList = local_10;
+  return;
+}
+
+

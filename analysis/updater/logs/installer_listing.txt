@@ -1,0 +1,290 @@
+
+7-Zip 26.04 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-10-05
+ 64-bit locale=C.UTF-8 Threads:5 OPEN_MAX:16384, ASM
+
+Scanning the drive for archives:
+1 file, 52976568 bytes (51 MiB)
+
+Listing archive: /workspace/analysis/updater/reconstructed/Line 6 Updater v1.28 Installer.exe
+
+--
+Path = /workspace/analysis/updater/reconstructed/Line 6 Updater v1.28 Installer.exe
+Type = PE
+Physical Size = 52976568
+CPU = x86
+Characteristics = Executable 32-bit NoRelocs NoLineNums NoLocalSyms
+Created = 2016-07-25 00:55:54
+Headers Size = 1024
+Checksum = 52984549
+Image Size = 483328
+Section Alignment = 4096
+File Alignment = 512
+Code Size = 24576
+Initialized Data Size = 162816
+Uninitialized Data Size = 1024
+Linker Version = 6.0
+OS Version = 4.0
+Image Version = 6.0
+Subsystem Version = 4.0
+Subsystem = Windows GUI
+DLL Characteristics = Relocated NX-Compatible NoSEH TerminalServerAware
+Stack Reserve = 1048576
+Stack Commit = 4096
+Heap Reserve = 1048576
+Heap Commit = 4096
+Virtual Address = 0x400000
+Comment = 
+{
+
+Data Directories: 16
+{
+index=1 name=IMPORT VA=0x7534 Size=160
+index=2 name=RESOURCE VA=0x3B000 Size=241640
+index=4 name=SECURITY VA=0x3283220 Size=10648
+index=12 name=IAT VA=0x7000 Size=664
+}
+}
+----
+Path = [0]
+Size = 52692000
+Packed Size = 52692000
+Virtual Size = 52692000
+Offset = 273920
+--
+Path = [0]
+Type = Nsis
+Physical Size = 52691998
+Tail Size = 2
+Method = Deflate
+Solid = -
+Headers Size = 60275
+Embedded Stub Size = 0
+SubType = NSIS-3
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+                    .....                      6427  $PLUGINSDIR/System.dll
+                    .....                      8002  $PLUGINSDIR/InstallOptions.dll
+2023-10-05 11:51:38 .....                     14895  Line 6 Updater/LICENSE
+2023-10-05 11:51:40 .....                   2201655  Line 6 Updater/Line 6 Updater.exe
+2023-10-05 11:51:40 .....                   2150250  Line 6 Updater/Qt5Core.dll
+2023-10-05 11:51:38 .....                   1668488  Line 6 Updater/Qt5Gui.dll
+2023-10-05 11:51:40 .....                    192459  Line 6 Updater/Qt5Multimedia.dll
+2023-10-05 11:51:38 .....                     32493  Line 6 Updater/Qt5MultimediaWidgets.dll
+2023-10-05 11:51:40 .....                    348217  Line 6 Updater/Qt5Network.dll
+2023-10-05 11:51:40 .....                    105330  Line 6 Updater/Qt5OpenGL.dll
+2023-10-05 11:51:40 .....                     68083  Line 6 Updater/Qt5Positioning.dll
+2023-10-05 11:51:38 .....                    119496  Line 6 Updater/Qt5PrintSupport.dll
+2023-10-05 11:51:38 .....                    957059  Line 6 Updater/Qt5Qml.dll
+2023-10-05 11:51:40 .....                    934001  Line 6 Updater/Qt5Quick.dll
+2023-10-05 11:51:38 .....                     48618  Line 6 Updater/Qt5Sensors.dll
+2023-10-05 11:51:38 .....                     66311  Line 6 Updater/Qt5Sql.dll
+2023-10-05 11:51:40 .....                     37577  Line 6 Updater/Qt5WebChannel.dll
+2023-10-05 11:51:40 .....                     80166  Line 6 Updater/Qt5WebEngine.dll
+2023-10-05 11:51:38 .....                  20706998  Line 6 Updater/Qt5WebEngineCore.dll
+2023-10-05 11:51:38 .....                   2042309  Line 6 Updater/Qt5Widgets.dll
+2023-10-05 11:51:38 .....                      6313  Line 6 Updater/QtWebEngineProcess.exe
+2023-10-05 11:51:46 .....                    153524  Line 6 Updater/Uninstall.exe
+2023-10-05 11:51:38 .....                     17316  Line 6 Updater/cyusbserial.dll
+2023-10-05 11:51:38 .....                   1465333  Line 6 Updater/d3dcompiler_47.dll
+2023-10-05 11:51:40 .....                   4456120  Line 6 Updater/icudtl.dat
+2023-10-05 11:51:38 .....                      4641  Line 6 Updater/libEGL.dll
+2023-10-05 11:51:38 .....                    783424  Line 6 Updater/libGLESv2.dll
+2023-10-05 11:51:40 .....                     15952  Line 6 Updater/pthreadVC2.dll
+2023-10-05 11:51:38 .....                        42  Line 6 Updater/qt.conf
+2023-10-05 11:51:40 .....                    902983  Line 6 Updater/qtwebengine_resources.pak
+2023-10-05 11:51:38 .....                    240250  Line 6 Updater/images/bg-login-page.png
+2023-10-05 11:51:38 .....                       949  Line 6 Updater/images/btn-less.png
+2023-10-05 11:51:40 .....                       949  Line 6 Updater/images/btn-scrollbar-less.png
+2023-10-05 11:51:38 .....                       965  Line 6 Updater/images/btn-more.png
+2023-10-05 11:51:38 .....                       965  Line 6 Updater/images/btn-scrollbar-more.png
+2023-10-05 11:51:38 .....                      3316  Line 6 Updater/images/device-logo-amplifi-150.png
+2023-10-05 11:51:38 .....                      2727  Line 6 Updater/images/device-logo-amplifi-30.png
+2023-10-05 11:51:38 .....                      4228  Line 6 Updater/images/device-logo-amplifi-75-150.png
+2023-10-05 11:51:40 .....                      3161  Line 6 Updater/images/device-logo-amplifi-75.png
+2023-10-05 11:51:40 .....                      3683  Line 6 Updater/images/device-logo-amplifi-fx100.png
+2023-10-05 11:51:40 .....                      2637  Line 6 Updater/images/device-logo-amplifi-tt.png
+2023-10-05 11:51:38 .....         4426         4426  Line 6 Updater/images/device-logo-catalyst-100.png
+2023-10-05 11:51:38 .....         4863         4863  Line 6 Updater/images/device-logo-catalyst-200.png
+2023-10-05 11:51:38 .....         4298         4298  Line 6 Updater/images/device-logo-catalyst-60.png
+2023-10-05 11:51:38 .....          978          978  Line 6 Updater/images/device-logo-dl4mkii.png
+2023-10-05 11:51:40 .....                      3517  Line 6 Updater/images/device-logo-fbv3.png
+2023-10-05 11:51:38 .....                      2845  Line 6 Updater/images/device-logo-g10.png
+2023-10-05 11:51:38 .....                      2025  Line 6 Updater/images/device-logo-g10s.png
+2023-10-05 11:51:38 .....                      2893  Line 6 Updater/images/device-logo-g10t.png
+2023-10-05 11:51:38 .....         1637         1637  Line 6 Updater/images/device-logo-g10tII.png
+2023-10-05 11:51:38 .....                      2947  Line 6 Updater/images/device-logo-g70.png
+2023-10-05 11:51:38 .....                      2930  Line 6 Updater/images/device-logo-g75.png
+2023-10-05 11:51:40 .....                      3101  Line 6 Updater/images/device-logo-helix-control.png
+2023-10-05 11:51:40 .....                      2355  Line 6 Updater/images/device-logo-helix-floor.png
+2023-10-05 11:51:38 .....                      2208  Line 6 Updater/images/device-logo-helix-lt.png
+2023-10-05 11:51:38 .....         2627         2627  Line 6 Updater/images/device-logo-helix-rack.png
+2023-10-05 11:51:38 .....                      2186  Line 6 Updater/images/device-logo-hx-effects.png
+2023-10-05 11:51:38 .....         3044         3044  Line 6 Updater/images/device-logo-hx-stomp-xl.png
+2023-10-05 11:51:40 .....                      2209  Line 6 Updater/images/device-logo-hx-stomp.png
+2023-10-05 11:51:38 .....                      1115  Line 6 Updater/images/device-logo-no-device.png
+2023-10-05 11:51:40 .....                      5313  Line 6 Updater/images/device-logo-phoenix-amp.png
+2023-10-05 11:51:40 .....                      4733  Line 6 Updater/images/device-logo-phoenix-floor.png
+2023-10-05 11:51:40 .....                      4471  Line 6 Updater/images/device-logo-pod-go-wireless.png
+2023-10-05 11:51:40 .....         2649         2649  Line 6 Updater/images/device-logo-pod-go.png
+2023-10-05 11:51:38 .....                      4186  Line 6 Updater/images/device-logo-powercab-112-plus.png
+2023-10-05 11:51:38 .....                      3247  Line 6 Updater/images/device-logo-powercab-112.png
+2023-10-05 11:51:40 .....                      4140  Line 6 Updater/images/device-logo-powercab212plus.png
+2023-10-05 11:51:38 .....                      8661  Line 6 Updater/images/device-logo-relay-unknown.png
+2023-10-05 11:51:38 .....                      2431  Line 6 Updater/images/device-logo-spider-v-120.png
+2023-10-05 11:51:38 .....                      2523  Line 6 Updater/images/device-logo-spider-v-240.png
+2023-10-05 11:51:40 .....         2295         2295  Line 6 Updater/images/device-logo-spider-v-240HC.png
+2023-10-05 11:51:40 .....                      2376  Line 6 Updater/images/device-logo-spider-v-30.png
+2023-10-05 11:51:40 .....                      2413  Line 6 Updater/images/device-logo-spider-v-60.png
+2023-10-05 11:51:40 .....         1461         1461  Line 6 Updater/images/device-logo-spiderv20.png
+2023-10-05 11:51:38 .....                      3404  Line 6 Updater/images/device-logo-tb516g.png
+2023-10-05 11:51:40 .....                      2837  Line 6 Updater/images/device-logo-tx.png
+2023-10-05 11:51:38 .....        12355        12355  Line 6 Updater/images/device-render-amplifi-150-small.png
+2023-10-05 11:51:40 .....                    476615  Line 6 Updater/images/device-render-amplifi-150.png
+2023-10-05 11:51:38 .....                     11312  Line 6 Updater/images/device-render-amplifi-30-small.png
+2023-10-05 11:51:38 .....                    190165  Line 6 Updater/images/device-render-amplifi-30.png
+2023-10-05 11:51:38 .....                     14702  Line 6 Updater/images/device-render-amplifi-75-150-small.png
+2023-10-05 11:51:40 .....                    488256  Line 6 Updater/images/device-render-amplifi-75-150.png
+2023-10-05 11:51:38 .....         8176         8176  Line 6 Updater/images/device-render-amplifi-75-small.png
+2023-10-05 11:51:38 .....                    333735  Line 6 Updater/images/device-render-amplifi-75.png
+2023-10-05 11:51:38 .....                      5395  Line 6 Updater/images/device-render-amplifi-fx100-small.png
+2023-10-05 11:51:38 .....                    144250  Line 6 Updater/images/device-render-amplifi-fx100.png
+2023-10-05 11:51:40 .....                      6495  Line 6 Updater/images/device-render-amplifi-tt-small.png
+2023-10-05 11:51:38 .....                    161584  Line 6 Updater/images/device-render-amplifi-tt.png
+2023-10-05 11:51:38 .....                     13195  Line 6 Updater/images/device-render-catalyst-100-small.png
+2023-10-05 11:51:40 .....                    536589  Line 6 Updater/images/device-render-catalyst-100.png
+2023-10-05 11:51:38 .....                      9838  Line 6 Updater/images/device-render-catalyst-200-small.png
+2023-10-05 11:51:38 .....                    416120  Line 6 Updater/images/device-render-catalyst-200.png
+2023-10-05 11:51:38 .....                     11519  Line 6 Updater/images/device-render-catalyst-60-small.png
+2023-10-05 11:51:38 .....                    433404  Line 6 Updater/images/device-render-catalyst-60.png
+2023-10-05 11:51:38 .....                      8617  Line 6 Updater/images/device-render-dl4mkii-small.png
+2023-10-05 11:51:38 .....                     15930  Line 6 Updater/images/device-render-dl4mkii.png
+2023-10-05 11:51:38 .....                      6036  Line 6 Updater/images/device-render-fbv3-small.png
+2023-10-05 11:51:38 .....                    118632  Line 6 Updater/images/device-render-fbv3.png
+2023-10-05 11:51:38 .....                      7007  Line 6 Updater/images/device-render-g10-small.png
+2023-10-05 11:51:38 .....                     38305  Line 6 Updater/images/device-render-g10.png
+2023-10-05 11:51:38 .....                      9704  Line 6 Updater/images/device-render-g10s-small.png
+2023-10-05 11:51:40 .....                    225496  Line 6 Updater/images/device-render-g10s.png
+2023-10-05 11:51:38 .....                      6112  Line 6 Updater/images/device-render-g10t-small.png
+2023-10-05 11:51:38 .....                     32134  Line 6 Updater/images/device-render-g10t.png
+2023-10-05 11:51:40 .....         6500         6500  Line 6 Updater/images/device-render-g10tII-small.png
+2023-10-05 11:51:38 .....                     40996  Line 6 Updater/images/device-render-g10tII.png
+2023-10-05 11:51:40 .....                      8668  Line 6 Updater/images/device-render-g70-small.png
+2023-10-05 11:51:40 .....                    261417  Line 6 Updater/images/device-render-g70.png
+2023-10-05 11:51:38 .....                      7898  Line 6 Updater/images/device-render-g75-small.png
+2023-10-05 11:51:38 .....                    210283  Line 6 Updater/images/device-render-g75.png
+2023-10-05 11:51:38 .....                      7299  Line 6 Updater/images/device-render-helix-control-small.png
+2023-10-05 11:51:38 .....                    128338  Line 6 Updater/images/device-render-helix-control.png
+2023-10-05 11:51:40 .....                      5831  Line 6 Updater/images/device-render-helix-floor-small.png
+2023-10-05 11:51:40 .....                     85272  Line 6 Updater/images/device-render-helix-floor.png
+2023-10-05 11:51:38 .....                      6541  Line 6 Updater/images/device-render-helix-lt-small.png
+2023-10-05 11:51:40 .....                    159271  Line 6 Updater/images/device-render-helix-lt.png
+2023-10-05 11:51:40 .....                      6905  Line 6 Updater/images/device-render-helix-rack-small.png
+2023-10-05 11:51:38 .....                    106312  Line 6 Updater/images/device-render-helix-rack.png
+2023-10-05 11:51:40 .....                      8462  Line 6 Updater/images/device-render-hx-effects-small.png
+2023-10-05 11:51:40 .....                    221037  Line 6 Updater/images/device-render-hx-effects.png
+2023-10-05 11:51:38 .....                     11180  Line 6 Updater/images/device-render-hx-stomp-small.png
+2023-10-05 11:51:38 .....                      6435  Line 6 Updater/images/device-render-hx-stomp-xl-small.png
+2023-10-05 11:51:40 .....                     47850  Line 6 Updater/images/device-render-hx-stomp-xl.png
+2023-10-05 11:51:38 .....                    352080  Line 6 Updater/images/device-render-hx-stomp.png
+2023-10-05 11:51:38 .....                      2521  Line 6 Updater/images/device-render-line6relay-small.png
+2023-10-05 11:51:38 .....                     39152  Line 6 Updater/images/device-render-line6relay.png
+2023-10-05 11:51:40 .....                      6029  Line 6 Updater/images/device-render-no-device-small.png
+2023-10-05 11:51:38 .....                     22240  Line 6 Updater/images/device-render-no-device.png
+2023-10-05 11:51:38 .....                     11935  Line 6 Updater/images/device-render-phoenix-amp-small.png
+2023-10-05 11:51:38 .....                    514016  Line 6 Updater/images/device-render-phoenix-amp.png
+2023-10-05 11:51:40 .....                      5754  Line 6 Updater/images/device-render-phoenix-floor-small.png
+2023-10-05 11:51:38 .....                    151887  Line 6 Updater/images/device-render-phoenix-floor.png
+2023-10-05 11:51:38 .....         9677         9677  Line 6 Updater/images/device-render-pod-go-small.png
+2023-10-05 11:51:40 .....                      9734  Line 6 Updater/images/device-render-pod-go-wireless-small.png
+2023-10-05 11:51:40 .....                     65833  Line 6 Updater/images/device-render-pod-go-wireless.png
+2023-10-05 11:51:40 .....                     67790  Line 6 Updater/images/device-render-pod-go.png
+2023-10-05 11:51:40 .....                      9303  Line 6 Updater/images/device-render-powercab112-small.png
+2023-10-05 11:51:38 .....                    466296  Line 6 Updater/images/device-render-powercab112.png
+2023-10-05 11:51:38 .....                      8854  Line 6 Updater/images/device-render-powercab112plus-small.png
+2023-10-05 11:51:40 .....                    467142  Line 6 Updater/images/device-render-powercab112plus.png
+2023-10-05 11:51:38 .....         9836         9836  Line 6 Updater/images/device-render-powercab212plus-small.png
+2023-10-05 11:51:40 .....                    431278  Line 6 Updater/images/device-render-powercab212plus.png
+2023-10-05 11:51:38 .....                     10947  Line 6 Updater/images/device-render-spiderv120-small.png
+2023-10-05 11:51:40 .....                    474386  Line 6 Updater/images/device-render-spiderv120.png
+2023-10-05 11:51:38 .....                      7450  Line 6 Updater/images/device-render-spiderv20-small.png
+2023-10-05 11:51:38 .....                    322540  Line 6 Updater/images/device-render-spiderv20.png
+2023-10-05 11:51:38 .....                     11029  Line 6 Updater/images/device-render-spiderv240-small.png
+2023-10-05 11:51:38 .....                    488422  Line 6 Updater/images/device-render-spiderv240.png
+2023-10-05 11:51:38 .....                      4103  Line 6 Updater/images/device-render-spiderv240HC-small.png
+2023-10-05 11:51:38 .....                    126572  Line 6 Updater/images/device-render-spiderv240HC.png
+2023-10-05 11:51:40 .....                     10991  Line 6 Updater/images/device-render-spiderv30-small.png
+2023-10-05 11:51:40 .....                    289461  Line 6 Updater/images/device-render-spiderv30.png
+2023-10-05 11:51:40 .....                     12772  Line 6 Updater/images/device-render-spiderv60-small.png
+2023-10-05 11:51:38 .....                    370957  Line 6 Updater/images/device-render-spiderv60.png
+2023-10-05 11:51:40 .....                      9056  Line 6 Updater/images/device-render-tx-small.png
+2023-10-05 11:51:38 .....                    283998  Line 6 Updater/images/device-render-tx.png
+2023-10-05 11:51:38 .....                      1401  Line 6 Updater/images/icon-failure.png
+2023-10-05 11:51:38 .....                      1527  Line 6 Updater/images/icon-firmware.png
+2023-10-05 11:51:38 .....                      1530  Line 6 Updater/images/icon-success.png
+2023-10-05 11:51:40 .....                     11032  Line 6 Updater/images/logo-line6.png
+2023-10-05 11:51:40 .....                      1124  Line 6 Updater/images/readytorock.png
+2023-10-05 11:51:38 .....                     19434  Line 6 Updater/plugins/mediaservice/qtmedia_audioengine.dll
+2023-10-05 11:51:38 .....                    515802  Line 6 Updater/plugins/platforms/qwindows.dll
+2023-10-05 11:51:38 .....                    120658  Line 6 Updater/qml/L6QmlControls/l6qmlcontrols.dll
+2023-10-05 11:51:40 .....                        72  Line 6 Updater/qml/L6QmlControls/qmldir
+2023-10-05 11:51:38 .....                        92  Line 6 Updater/qml/Qt/labs/folderlistmodel/qmldir
+2023-10-05 11:51:40 .....                     19421  Line 6 Updater/qml/Qt/labs/folderlistmodel/qmlfolderlistmodelplugin.dll
+2023-10-05 11:51:40 .....                        79  Line 6 Updater/qml/Qt/labs/settings/qmldir
+2023-10-05 11:51:40 .....                     10299  Line 6 Updater/qml/Qt/labs/settings/qmlsettingsplugin.dll
+2023-10-05 11:51:38 .....                       125  Line 6 Updater/qml/QtQuick/Controls/qmldir
+2023-10-05 11:51:38 .....                    335280  Line 6 Updater/qml/QtQuick/Controls/qtquickcontrolsplugin.dll
+2023-10-05 11:51:38 .....                     77275  Line 6 Updater/qml/QtQuick/Dialogs/dialogplugin.dll
+2023-10-05 11:51:40 .....                       145  Line 6 Updater/qml/QtQuick/Dialogs/qmldir
+2023-10-05 11:51:40 .....                     14825  Line 6 Updater/qml/QtQuick/Dialogs/Private/dialogsprivateplugin.dll
+2023-10-05 11:51:40 .....                        89  Line 6 Updater/qml/QtQuick/Dialogs/Private/qmldir
+2023-10-05 11:51:38 .....                        93  Line 6 Updater/qml/QtQuick/Layouts/qmldir
+2023-10-05 11:51:40 .....                     27278  Line 6 Updater/qml/QtQuick/Layouts/qquicklayoutsplugin.dll
+2023-10-05 11:51:40 .....                        82  Line 6 Updater/qml/QtQuick/PrivateWidgets/qmldir
+2023-10-05 11:51:38 .....                     35747  Line 6 Updater/qml/QtQuick/PrivateWidgets/widgetsplugin.dll
+2023-10-05 11:51:38 .....                        91  Line 6 Updater/qml/QtQuick/Window.2/qmldir
+2023-10-05 11:51:38 .....                      6190  Line 6 Updater/qml/QtQuick/Window.2/windowplugin.dll
+2023-10-05 11:51:38 .....                        84  Line 6 Updater/qml/QtQuick.2/qmldir
+2023-10-05 11:51:38 .....                      6226  Line 6 Updater/qml/QtQuick.2/qtquick2plugin.dll
+2023-10-05 11:51:38 .....                        60  Line 6 Updater/qml/QtWebEngine/qmldir
+2023-10-05 11:51:40 .....                     13506  Line 6 Updater/qml/QtWebEngine/qtwebengineplugin.dll
+2023-10-05 11:51:38 .....                      1261  Line 6 Updater/qmlsource/About.qml
+2023-10-05 11:51:38 .....                       279  Line 6 Updater/qmlsource/MainMenu.qml
+2023-10-05 11:51:40 .....                      1597  Line 6 Updater/qmlsource/main.qml
+2023-10-05 11:51:40 .....                       344  Line 6 Updater/qmlsource/ColorScheme/ColorScheme.qml
+2023-10-05 11:51:40 .....                       329  Line 6 Updater/qmlsource/Components/FirmwareUpdate/FirmwareUpdate.qml
+2023-10-05 11:51:40 .....                      1000  Line 6 Updater/qmlsource/Components/FirmwareUpdate/FirmwareUpdateHeader.qml
+2023-10-05 11:51:40 .....                       659  Line 6 Updater/qmlsource/Components/FirmwareUpdate/FirmwareUpdateNoDevice.qml
+2023-10-05 11:51:38 .....                       652  Line 6 Updater/qmlsource/Components/FirmwareUpdate/FirmwareUpdateStackView.qml
+2023-10-05 11:51:38 .....                       702  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/ComponentDelegate.qml
+2023-10-05 11:51:38 .....                      1480  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/DeviceListDelegate.qml
+2023-10-05 11:51:38 .....                       798  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/EULAPage.qml
+2023-10-05 11:51:40 .....                       445  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/ExpandableLabel.qml
+2023-10-05 11:51:38 .....                       331  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/MultiLineText.qml
+2023-10-05 11:51:38 .....                       950  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/PreUpdatePage.qml
+2023-10-05 11:51:38 .....                       977  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/SelectFileEntry.qml
+2023-10-05 11:51:38 .....                       456  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/StartPage.qml
+2023-10-05 11:51:38 .....                       942  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdateCompletedPage.qml
+2023-10-05 11:51:38 .....                       788  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdateConfirmPage.qml
+2023-10-05 11:51:38 .....                       539  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdateDonePage.qml
+2023-10-05 11:51:38 .....                      1009  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdateInProgressPage.qml
+2023-10-05 11:51:38 .....                       711  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdateSuspendedPage.qml
+2023-10-05 11:51:38 .....                       758  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdatesListDelegate.qml
+2023-10-05 11:51:38 .....                      1252  Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdatesListPage.qml
+2023-10-05 11:51:38 .....                       336  Line 6 Updater/qmlsource/Components/Login/Login.qml
+2023-10-05 11:51:40 .....                      1127  Line 6 Updater/qmlsource/Components/Login/LoginDialog.qml
+2023-10-05 11:51:38 .....                       404  Line 6 Updater/qmlsource/Styles/FirmwareUpdate/DefaultButtonStyle.qml
+2023-10-05 11:51:40 .....                       413  Line 6 Updater/qmlsource/Styles/FirmwareUpdate/MoreLessButtonStyle.qml
+2023-10-05 11:51:38 .....                       409  Line 6 Updater/qmlsource/Styles/FirmwareUpdate/UpdaterScrollViewStyle.qml
+2015-04-16 21:23:22 .....                    135764  Line 6 Updater/msvcp100.dll
+2015-04-16 21:23:22 .....                    414789  Line 6 Updater/msvcr100.dll
+2014-09-22 22:29:12 .....                    160183  Line 6 Updater/msvcp120.dll
+2014-09-22 22:29:12 .....                    520271  Line 6 Updater/msvcr120.dll
+2007-11-14 20:12:38 .....                       134  $PLUGINSDIR/ioSpecial.ini
+2010-05-05 21:44:12 .....                     63770  $PLUGINSDIR/modern-wizard.bmp
+2010-05-05 21:44:12 .....                     14580  $PLUGINSDIR/modern-header.bmp
+2022-10-12 17:48:34 .....                       838  $PLUGINSDIR/page_line6updater_readme.ini
+                    .....                      4546  $PLUGINSDIR/nsDialogs.dll
+                    .....                      1324  $PLUGINSDIR/UserInfo.dll
+------------------- ----- ------------ ------------  ------------------------
+2023-10-05 11:51:46              74822     52676584  223 files

@@ -1,0 +1,22 @@
+{
+  "range_inclusive": [
+    0,
+    10
+  ],
+  "mapping": {
+    "cab": "CabEnable",
+    "gate": "GateEnable",
+    "compressor": "PostCompEnable",
+    "eq": "PostEQEnable",
+    "wah": "WahEnable",
+    "volume": "VolumePedalEnable",
+    "fx1": "FX1Enable",
+    "fx2": "FX2Enable",
+    "fx3": "FX3Enable",
+    "reverb": "FX4Enable",
+    "looper": "LooperEnable"
+  },
+  "amp_mapping": null,
+  "meaning": "This examined client translation does not resolve amp/@enabled. It is not proof that no undocumented firmware bypass exists.",
+  "source": "captures_noamp/native_reserved.txt FUN_10084570; dry_input/enable_dispatch.txt FUN_10083c50"
+}

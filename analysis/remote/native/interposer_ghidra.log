@@ -1,0 +1,147 @@
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1-1-deb13u1-Debian)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1-1-deb13u1-Debian, mixed mode)
+INFO  Using log config file: jar:file:/workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /workspace/analysis/usb/config/agent-ghidra/ghidra_12.1.4_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (2524 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (6230 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/DATA/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FileFormats/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/JVM/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/PIC/ghidra_scripts
+    /workspace/analysis/remote/native
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BSim/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/8051/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Processors/Atmel/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PyGhidra/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/PDB/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Decompiler/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/VersionTracking/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/FunctionID/ghidra_scripts
+    /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /workspace/analysis/remote/ghidra/Interposer (HeadlessAnalyzer)  
+INFO  Creating project: /workspace/analysis/remote/ghidra/Interposer (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /workspace/analysis/remote/ghidra/Interposer (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///workspace/analysis/remote/extracted/Spider V Remote/Interposer.dll (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib/x86_64-linux-gnu/jni, /usr/lib/x86_64-linux-gnu, /usr/lib/jni] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///workspace/analysis/remote/extracted/Spider V Remote/Interposer.dll?MD5=85036dcc020d44bafa6ebe4a7845a826...
+[Interposer.dll]: failed to create TerminatedCString at 1003b370: Failed to resolve data length for TerminatedCString
+------------------------------------------------
+
+Searching 8 paths for library ADVAPI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library SETUPAPI.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library USER32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 8 paths for library VERSION.DLL...
+Library not found.
+------------------------------------------------
+
+Linking the External Programs of 'Interposer.dll' to imported libraries...
+  [USER32.DLL] -> not found in project
+  [SETUPAPI.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [VERSION.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///workspace/analysis/remote/extracted/Spider V Remote/Interposer.dll (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: /workspace/analysis/tools/ghidra_12.1.4_PUBLIC/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: failed to locate PDB file in configured locations (PdbUniversalAnalyzer)  
+INFO  Use a script to set the PDB file location. I.e.,
+    PdbAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb")); or
+    PdbUniversalAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb"));
+Or set the symbol server search configuration using:    PdbPlugin.saveSymbolServerServiceConfig(...);
+ This must be done using a pre-script (prior to analysis). (PdbUniversalAnalyzer)  
+INFO  Packed database cache: /workspace/analysis/usb/cache/agent-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: int (TypeDescriptorModel)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.622 secs
+    Apply Data Archives                        0.215 secs
+    Call Convention ID                         0.787 secs
+    Call-Fixup Installer                       0.052 secs
+    Create Address Tables                      0.125 secs
+    Create Address Tables - One Time           0.231 secs
+    Create Function                            0.537 secs
+    Data Reference                             0.261 secs
+    Decompiler Parameter ID                    4.168 secs
+    Decompiler Switch Analysis                30.841 secs
+    Demangler Microsoft                        0.097 secs
+    Disassemble                                1.719 secs
+    Disassemble Entry Points                   0.294 secs
+    Embedded Media                             0.006 secs
+    External Entry References                  0.001 secs
+    Function ID                                0.480 secs
+    Function Start Pre Search                  0.020 secs
+    Function Start Search                      0.309 secs
+    Function Start Search After Code           0.080 secs
+    Function Start Search After Data           0.094 secs
+    Function Start Search delayed - One Time   0.015 secs
+    Non-Returning Functions - Discovered       0.206 secs
+    Non-Returning Functions - Known            0.008 secs
+    PDB Universal                              0.013 secs
+    Reference                                  0.389 secs
+    Scalar Operand References                  1.263 secs
+    Shared Return Calls                        0.322 secs
+    Stack                                      1.788 secs
+    Subroutine References                      0.282 secs
+    Subroutine References - One Time           0.018 secs
+    Windows x86 PE Exception Handling          3.188 secs
+    Windows x86 PE RTTI Analyzer               1.402 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.035 secs
+    WindowsResourceReference                   0.327 secs
+    X86 Function Callee Purge                  0.190 secs
+    x86 Constant Reference Analyzer            4.600 secs
+-----------------------------------------------------
+     Total Time   54 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///workspace/analysis/remote/extracted/Spider V Remote/Interposer.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: RemoteEvidence.java '/workspace/analysis/remote/native/interposer_ghidra.txt'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /workspace/analysis/remote/native/RemoteEvidence.java (HeadlessAnalyzer)  
+INFO  ANALYZING changes made by post scripts: file:///workspace/analysis/remote/extracted/Spider V Remote/Interposer.dll (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///workspace/analysis/remote/extracted/Spider V Remote/Interposer.dll (HeadlessAnalyzer)  
+INFO  /Interposer.dll: file created (agent) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /Interposer.dll (Interposer:/Interposer.dll) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

@@ -1,0 +1,124 @@
+{
+  "data": {
+    "device": 2228228,
+    "meta": {
+      "style": "Undefined",
+      "band": "Undefined",
+      "appversion": true,
+      "song": "Undefined",
+      "author": "drbloxton",
+      "application": "Spider Remote",
+      "tnid": 3183347,
+      "modifieddate": 1503719980,
+      "name": "Deity Crunch"
+    },
+    "tone": {
+      "fx3": {
+        "@temposync": false,
+        "@mix": 0.398871,
+        "Bass": 0.5,
+        "@mixtype": 1,
+        "SyncSelect": 6,
+        "Depth": 0.71,
+        "@model": "L6SineChorus",
+        "Treble": 0.79,
+        "@enabled": false,
+        "Freq": 0.298694,
+        "@post": true
+      },
+      "gate": {
+        "@model": "Gate",
+        "@enabled": false,
+        "Decay": 0.449791,
+        "Thresh": -50
+      },
+      "reverb": {
+        "PreDelay": 0.5,
+        "@mix": 0.3,
+        "@model": "MediumHall",
+        "@enabled": false,
+        "Tone": 0.5,
+        "Decay": 0.5,
+        "@post": true
+      },
+      "global": {
+        "@tweakparam": "@mix",
+        "@tempo": 103.806,
+        "@tweakmin": 0,
+        "@pedal2assign": false,
+        "@tweakmax": 1,
+        "@tweakgroup": "fx2"
+      },
+      "fx2": {
+        "@temposync": true,
+        "@mix": 0.242857,
+        "Bass": 0.5,
+        "Treble": 0.5,
+        "@enabled": false,
+        "@post": true,
+        "@mixtype": 0,
+        "Feedback": 0.39,
+        "Time": 0.184343,
+        "SyncSelect": 9,
+        "@model": "L6DigitalDelay"
+      },
+      "compressor": {
+        "@model": "SharcPodFixedComp",
+        "@enabled": false,
+        "Thresh/G": 0.773101,
+        "Gain": 0.167351
+      },
+      "eq": {
+        "gain": 0.503937,
+        "HMid": 0.344643,
+        "Low": 0.171429,
+        "LMid": 0.0453,
+        "Gain": 0.6376306,
+        "Hi": 0.5716348,
+        "gain.1": 0.503937,
+        "@model": "ParaGraphic4_band",
+        "@enabled": false,
+        "gain.2": 0.5348432
+      },
+      "volume": {
+        "@model": "VolumePedal",
+        "@enabled": true,
+        "MinVol": 0,
+        "@post": true,
+        "MaxVol": 1
+      },
+      "cab": {
+        "@mic": 1,
+        "@model": "4x12BritV30Studio",
+        "Level": 0
+      },
+      "fx1": {
+        "@mix": 1,
+        "Gain": 0.43,
+        "@mixtype": 0,
+        "Drive": 0.68,
+        "@enabled": false,
+        "Tone": 0.5,
+        "@model": "ClassicDistortion",
+        "@post": false
+      },
+      "amp": {
+        "Presence": 0.74,
+        "Mid": 0.35,
+        "Bass": 0.63,
+        "Gain": 0.68,
+        "@model": "BomberXTC",
+        "Treble": 1,
+        "@volume": 0.3710801
+      },
+      "wah": {
+        "@model": "Weeper",
+        "@enabled": false,
+        "Pedal": 0.4
+      }
+    },
+    "device_version": 17039360
+  },
+  "schema": "L6Preset",
+  "version": 5
+}

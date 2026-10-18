@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/tmp/codex-remote-attachments/01a13e1f-0848-754c-8947-93c713c0c0da/406aca71-6009-4e21-b0bb-35b0ee599bfb/1-1000275191.jpg",
+    "bytes": 115242,
+    "sha256": "a3a2d9ae3e22cf4e0ec1e05681d944e5a28a7a5bdfbd3296ea64c87053019e2d"
+  },
+  {
+    "path": "/tmp/codex-remote-attachments/01a13e1f-0848-754c-8947-93c713c0c0da/406aca71-6009-4e21-b0bb-35b0ee599bfb/2-1000275183.jpg",
+    "bytes": 210242,
+    "sha256": "b22e2c1a0089e4a07f03ea14985da9b580db2955a6edea45b195bd4cfeb734ce"
+  },
+  {
+    "path": "/tmp/codex-remote-attachments/01a13e1f-0848-754c-8947-93c713c0c0da/406aca71-6009-4e21-b0bb-35b0ee599bfb/3-1000275184.jpg",
+    "bytes": 184531,
+    "sha256": "ce75822f12d0f05fe91a143f04c1f95a0ada5e8de94901233b5a912c65bafad6"
+  },
+  {
+    "path": "/tmp/codex-remote-attachments/01a13e1f-0848-754c-8947-93c713c0c0da/406aca71-6009-4e21-b0bb-35b0ee599bfb/4-1000275185.jpg",
+    "bytes": 133430,
+    "sha256": "4356e3b218e46d1cb2a4af190008471d85f0910f15c0772c1c8c99bf8ec945c4"
+  },
+  {
+    "path": "/tmp/codex-remote-attachments/01a13e1f-0848-754c-8947-93c713c0c0da/406aca71-6009-4e21-b0bb-35b0ee599bfb/5-1000275186.jpg",
+    "bytes": 120610,
+    "sha256": "9d8900fb5217c1efde9a8927fb5cc008b994b19409eab53be5ecaaf07afd29cc"
+  }
+]

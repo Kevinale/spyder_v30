@@ -1,0 +1,41 @@
+{
+  "patterns": [
+    {
+      "pattern": "AES_SBOX_prefix16",
+      "occurrences": []
+    },
+    {
+      "pattern": "AES_inverse_SBOX_prefix16",
+      "occurrences": []
+    },
+    {
+      "pattern": "ChaCha_sigma",
+      "occurrences": []
+    },
+    {
+      "pattern": "TEA_delta_LE",
+      "occurrences": []
+    },
+    {
+      "pattern": "TEA_negative_delta_LE",
+      "occurrences": []
+    },
+    {
+      "pattern": "Blowfish_P_prefix_LE",
+      "occurrences": []
+    },
+    {
+      "pattern": "Blowfish_P_prefix_BE",
+      "occurrences": []
+    },
+    {
+      "pattern": "MD5_constants_LE",
+      "occurrences": []
+    },
+    {
+      "pattern": "SHA256_constants_LE",
+      "occurrences": []
+    }
+  ],
+  "limits": "Presence is not proof of use for SVU. Short immediate constants can have unrelated purposes. Missing canonical tables does not exclude implementations."
+}

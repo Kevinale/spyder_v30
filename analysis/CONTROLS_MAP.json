@@ -1,0 +1,98 @@
+{
+  "scope": "Four physical controls identified across owner bypass trials with an Amp model retained and AmpEnable0. No Amp model remains a separate, unresolved-control case. USB audio recording under AmpEnable0 and full NAM integration still pending.",
+  "protocol": "Parker SysEx via USB MIDI",
+  "notification_opcode": 4,
+  "parameter_layout": "group_index:uint32LE, parameter_index:uint32LE, type:uint32LE, float32LE",
+  "symbol_source": "captures/device_symbols.json from first capture; second capture did not include a new symbol table.",
+  "warning": "Resolve current session symbols before assuming these indices on another firmware/model. These controls are not automatically internal parameters of a NAM model.",
+  "controls": [
+    {
+      "group": "Amp",
+      "group_index": 42,
+      "parameter": "Drive",
+      "parameter_index": 38,
+      "type": 4,
+      "encoding": "float32LE",
+      "observed_min": 0.11764705181121826,
+      "observed_max": 1.0,
+      "incoming_events": 140,
+      "capture_sha256": "101c25061d62c511b61a8635903da0b277a4379d918fde3e5f5a6167cea4c536",
+      "parameter_variants": [
+        {
+          "name": "Drive",
+          "index": 38,
+          "provenance": "Original capture"
+        },
+        {
+          "name": "Gain",
+          "index": 37,
+          "provenance": "Owner Line6BigBottom bypass diagnostic"
+        }
+      ]
+    },
+    {
+      "group": "Amp",
+      "group_index": 42,
+      "parameter": "Bass",
+      "parameter_index": 33,
+      "type": 4,
+      "encoding": "float32LE",
+      "observed_min": 0.0,
+      "observed_max": 1.0,
+      "incoming_events": 293,
+      "capture_sha256": "fa12988477ae3c2952b89f81a5b429cb92a4a0123ff2033536eb116e60a05a91"
+    },
+    {
+      "group": "Amp",
+      "group_index": 42,
+      "parameter": "Mid",
+      "parameter_index": 35,
+      "type": 4,
+      "encoding": "float32LE",
+      "observed_min": 0.0,
+      "observed_max": 1.0,
+      "incoming_events": 356,
+      "capture_sha256": "fa12988477ae3c2952b89f81a5b429cb92a4a0123ff2033536eb116e60a05a91"
+    },
+    {
+      "group": "Amp",
+      "group_index": 42,
+      "parameter": "Treble",
+      "parameter_index": 36,
+      "type": 4,
+      "encoding": "float32LE",
+      "observed_min": 0.0,
+      "observed_max": 1.0,
+      "incoming_events": 357,
+      "capture_sha256": "fa12988477ae3c2952b89f81a5b429cb92a4a0123ff2033536eb116e60a05a91"
+    }
+  ],
+  "no_amp_observation": {
+    "capture_sha256": "4ebbb7faced38403cad610e93d3cf8dc97407b5e07a711e6e03b7f5c85834018",
+    "events": 650,
+    "parameter_index": 4294967295,
+    "parameter_name": null,
+    "type": 4,
+    "named_drive_bass_mid_treble_events": 0,
+    "independent_four_controls_demonstrated": false,
+    "note": "Do not label this parameter Volume; unresolved float identifier."
+  },
+  "owner_bypass_gain_observation": {
+    "provenance": "Owner pasted diagnostic output; not a newly supplied PCAP",
+    "model": "Line6BigBottom",
+    "model_index": 180,
+    "group": "Amp",
+    "group_index": 42,
+    "parameter": "Gain",
+    "parameter_index": 37,
+    "type": 4,
+    "encoding": "float32LE",
+    "observed_min": 0.0,
+    "observed_max": 1.0,
+    "physical_action": "Owner instructed to move only physical Drive in AMP mode",
+    "AmpEnable_before_and_after_movement": 0,
+    "AmpEnable_restored": 1,
+    "bridge_destination": "Gateway Input; same bounded mapping as Amp.Drive38",
+    "old_counter_limitation": "Drive0 in old summary ignored parameter Gain37; it is not absence of physical events."
+  }
+}

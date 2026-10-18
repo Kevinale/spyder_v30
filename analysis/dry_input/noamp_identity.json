@@ -1,0 +1,42 @@
+{
+  "notifications": 650,
+  "metadata_patterns": [
+    {
+      "group": 42,
+      "parameter": "0xffffffff",
+      "type": 4,
+      "count": 650
+    }
+  ],
+  "only_variable_payload_bytes": "12..15: float32; bytes 0..11 are identical in all 650 notification payloads",
+  "conclusion": "The observed notification body does not carry four distinct parameter IDs. Transport sequence/time cannot be assumed to identify a physical knob. This does not exclude other firmware telemetry channels.",
+  "first_examples": [
+    {
+      "first_frame": 63398,
+      "last_frame": 63398,
+      "time": 15.844476,
+      "group": 42,
+      "parameter": "0xffffffff",
+      "type": 4,
+      "value": 0.2043166160583496
+    },
+    {
+      "first_frame": 63639,
+      "last_frame": 63639,
+      "time": 15.904045,
+      "group": 42,
+      "parameter": "0xffffffff",
+      "type": 4,
+      "value": 0.18859995901584625
+    },
+    {
+      "first_frame": 63909,
+      "last_frame": 63909,
+      "time": 15.9708,
+      "group": 42,
+      "parameter": "0xffffffff",
+      "type": 4,
+      "value": 0.16502496600151062
+    }
+  ]
+}

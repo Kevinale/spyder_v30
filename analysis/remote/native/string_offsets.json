@@ -1,0 +1,1077 @@
+[
+  {
+    "file": "APIV3EngineDLL.dll",
+    "imagebase": "0x10000000",
+    "machine": "0x14c",
+    "size": 1756160
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x115368",
+    "rva": "0x116d68",
+    "va": "0x10116d68",
+    "string": "currentPresetName"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x11537c",
+    "rva": "0x116d7c",
+    "va": "0x10116d7c",
+    "string": "currentPresetData_iDKey"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1153ec",
+    "rva": "0x116dec",
+    "va": "0x10116dec",
+    "string": "currentPresetLabel"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x115410",
+    "rva": "0x116e10",
+    "va": "0x10116e10",
+    "string": "currentPresetRating"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x11542c",
+    "rva": "0x116e2c",
+    "va": "0x10116e2c",
+    "string": "currentPresetAuthor"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x115448",
+    "rva": "0x116e48",
+    "va": "0x10116e48",
+    "string": "currentPresetPostedDate"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x115470",
+    "rva": "0x116e70",
+    "va": "0x10116e70",
+    "string": "currentPresetSong"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x11548c",
+    "rva": "0x116e8c",
+    "va": "0x10116e8c",
+    "string": "currentPresetBand"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1154a8",
+    "rva": "0x116ea8",
+    "va": "0x10116ea8",
+    "string": "currentPresetGuitarist"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1154cc",
+    "rva": "0x116ecc",
+    "va": "0x10116ecc",
+    "string": "currentPresetAmp"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1154e4",
+    "rva": "0x116ee4",
+    "va": "0x10116ee4",
+    "string": "currentPresetStyle"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x115500",
+    "rva": "0x116f00",
+    "va": "0x10116f00",
+    "string": "currentPresetSubStyle"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x115524",
+    "rva": "0x116f24",
+    "va": "0x10116f24",
+    "string": "currentPresetPresetType"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x115544",
+    "rva": "0x116f44",
+    "va": "0x10116f44",
+    "string": "currentPresetPickupType"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x115568",
+    "rva": "0x116f68",
+    "va": "0x10116f68",
+    "string": "currentPresetPickupPosition"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x115594",
+    "rva": "0x116f94",
+    "va": "0x10116f94",
+    "string": "currentPresetInstument"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1155b8",
+    "rva": "0x116fb8",
+    "va": "0x10116fb8",
+    "string": "currentPresetNotes"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x11583c",
+    "rva": "0x11723c",
+    "va": "0x1011723c",
+    "string": "currentPresetDirtyState"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x129790",
+    "rva": "0x12b190",
+    "va": "0x1012b190",
+    "string": "kUsbControlEndpointMode"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x12c570",
+    "rva": "0x12df70",
+    "va": "0x1012df70",
+    "string": "UI processor firmware"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x12c5b8",
+    "rva": "0x12dfb8",
+    "va": "0x1012dfb8",
+    "string": "User presets"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x12c5c8",
+    "rva": "0x12dfc8",
+    "va": "0x1012dfc8",
+    "string": "Factory presets"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x12c604",
+    "rva": "0x12e004",
+    "va": "0x1012e004",
+    "string": "Wireless receiver firmware"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x12c620",
+    "rva": "0x12e020",
+    "va": "0x1012e020",
+    "string": "Wireless transmitter firmware"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x138b78",
+    "rva": "0x13a578",
+    "va": "0x1013a578",
+    "string": "kMKSysexOpcode_FileDumpDataPacket"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x138b9c",
+    "rva": "0x13a59c",
+    "va": "0x1013a59c",
+    "string": "kMKSysexOpcode_HandshakeNAK"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x138bbc",
+    "rva": "0x13a5bc",
+    "va": "0x1013a5bc",
+    "string": "kMKSysexOpcode_HandshakeWait"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x138bdc",
+    "rva": "0x13a5dc",
+    "va": "0x1013a5dc",
+    "string": "kMKSysexOpcode_FileDumpHeader"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x138bfc",
+    "rva": "0x13a5fc",
+    "va": "0x1013a5fc",
+    "string": "kMKSysexOpcode_HandshakeACK"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x138c18",
+    "rva": "0x13a618",
+    "va": "0x1013a618",
+    "string": "kMKSysexOpcode_HandshakeCancel"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x138c40",
+    "rva": "0x13a640",
+    "va": "0x1013a640",
+    "string": "kMKSysexOpcode_HandshakeEOF"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1702e8",
+    "rva": "0x171ce8",
+    "va": "0x10171ce8",
+    "string": "EditBuffer_PresetChanged"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170304",
+    "rva": "0x171d04",
+    "va": "0x10171d04",
+    "string": "EditBuffer_PresetContentsWillChange"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170328",
+    "rva": "0x171d28",
+    "va": "0x10171d28",
+    "string": "EditBuffer_PresetContentsDidChange"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x17034c",
+    "rva": "0x171d4c",
+    "va": "0x10171d4c",
+    "string": "EditBuffer_PresetSavedToDevice"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x17036c",
+    "rva": "0x171d6c",
+    "va": "0x10171d6c",
+    "string": "EditBuffer_DevicePresetChanged"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1705bc",
+    "rva": "0x171fbc",
+    "va": "0x10171fbc",
+    "string": "Librarian_HelixPresetChanged"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1705dc",
+    "rva": "0x171fdc",
+    "va": "0x10171fdc",
+    "string": "Librarian_HelixPresetRenamed"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1705fc",
+    "rva": "0x171ffc",
+    "va": "0x10171ffc",
+    "string": "Librarian_HelixPresetMoved"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1706b4",
+    "rva": "0x1720b4",
+    "va": "0x101720b4",
+    "string": "DeviceFirmwareVersion"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1706cc",
+    "rva": "0x1720cc",
+    "va": "0x101720cc",
+    "string": "DeviceFirmwareVersionString"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170710",
+    "rva": "0x172110",
+    "va": "0x10172110",
+    "string": "updateDeviceFirmware"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170788",
+    "rva": "0x172188",
+    "va": "0x10172188",
+    "string": "loadUserCloudPreset"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x17079c",
+    "rva": "0x17219c",
+    "va": "0x1017219c",
+    "string": "loadCloudSearchPreset"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1707b4",
+    "rva": "0x1721b4",
+    "va": "0x101721b4",
+    "string": "saveUserCloudPreset"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1707c8",
+    "rva": "0x1721c8",
+    "va": "0x101721c8",
+    "string": "saveCurrentPresetToUserCloud"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1707e8",
+    "rva": "0x1721e8",
+    "va": "0x101721e8",
+    "string": "currentPresetData_sourceKey"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170804",
+    "rva": "0x172204",
+    "va": "0x10172204",
+    "string": "deleteUserCloudPreset"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170834",
+    "rva": "0x172234",
+    "va": "0x10172234",
+    "string": "unrateCloudSearchPreset"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x17084c",
+    "rva": "0x17224c",
+    "va": "0x1017224c",
+    "string": "publishPresetWithID"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170870",
+    "rva": "0x172270",
+    "va": "0x10172270",
+    "string": "incrementDevicePresetIndex"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x17088c",
+    "rva": "0x17228c",
+    "va": "0x1017228c",
+    "string": "decrementDevicePresetIndex"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1708a8",
+    "rva": "0x1722a8",
+    "va": "0x101722a8",
+    "string": "l6device://0x%08x:/preset/0/%d"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1708c8",
+    "rva": "0x1722c8",
+    "va": "0x101722c8",
+    "string": "savePresetToPath"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1708dc",
+    "rva": "0x1722dc",
+    "va": "0x101722dc",
+    "string": "loadPresetFromPath"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1708f0",
+    "rva": "0x1722f0",
+    "va": "0x101722f0",
+    "string": "exportBinaryDevicePresetsToPath"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170910",
+    "rva": "0x172310",
+    "va": "0x10172310",
+    "string": "l6device://0x%08x:/presetBinary/0/%d"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x17095c",
+    "rva": "0x17235c",
+    "va": "0x1017235c",
+    "string": "l6device://0x%08x:/preset/0"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1709bc",
+    "rva": "0x1723bc",
+    "va": "0x101723bc",
+    "string": "currentDevicePresetIndex"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1709d8",
+    "rva": "0x1723d8",
+    "va": "0x101723d8",
+    "string": "currentPresetColorIndex"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1709f0",
+    "rva": "0x1723f0",
+    "va": "0x101723f0",
+    "string": "currentPresetColorIndex_2"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170a20",
+    "rva": "0x172420",
+    "va": "0x10172420",
+    "string": "saveCurrentPresetToDeviceAtIndex"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170a70",
+    "rva": "0x172470",
+    "va": "0x10172470",
+    "string": "cloudSearchPresetDownloadStatus"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170a90",
+    "rva": "0x172490",
+    "va": "0x10172490",
+    "string": "offlineUserCloudPresetsAvailable"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170af0",
+    "rva": "0x1724f0",
+    "va": "0x101724f0",
+    "string": "cloudSearchPresetCommunityRating"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170b14",
+    "rva": "0x172514",
+    "va": "0x10172514",
+    "string": "cloudSearchPresetUserRating"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170b3c",
+    "rva": "0x17253c",
+    "va": "0x1017253c",
+    "string": "currentDeviceFirmwareVersion"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170b9c",
+    "rva": "0x17259c",
+    "va": "0x1017259c",
+    "string": "currentDevicePresetCount"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170be4",
+    "rva": "0x1725e4",
+    "va": "0x101725e4",
+    "string": "devicePresetData_colorIndicesKey"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170c1c",
+    "rva": "0x17261c",
+    "va": "0x1017261c",
+    "string": "cloudSearchResultsPresetData_currentCloudSearchStringKey"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170cfc",
+    "rva": "0x1726fc",
+    "va": "0x101726fc",
+    "string": "currentDeviceFirmwareVersionString"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170d20",
+    "rva": "0x172720",
+    "va": "0x10172720",
+    "string": "devicePresetData_namesListKey"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170d64",
+    "rva": "0x172764",
+    "va": "0x10172764",
+    "string": "userCloudPresetData"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170d78",
+    "rva": "0x172778",
+    "va": "0x10172778",
+    "string": "cloudSearchResultsPresetData"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170d98",
+    "rva": "0x172798",
+    "va": "0x10172798",
+    "string": "presetListChanged"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170ddc",
+    "rva": "0x1727dc",
+    "va": "0x101727dc",
+    "string": "syncingDevicePresets"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170e44",
+    "rva": "0x172844",
+    "va": "0x10172844",
+    "string": "firmwareUpdateStarted"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170e6c",
+    "rva": "0x17286c",
+    "va": "0x1017286c",
+    "string": "firmwareUpdateFailed"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170e84",
+    "rva": "0x172884",
+    "va": "0x10172884",
+    "string": "firmwareUpdateCompleted"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170f50",
+    "rva": "0x172950",
+    "va": "0x10172950",
+    "string": "presetWillChange"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170f64",
+    "rva": "0x172964",
+    "va": "0x10172964",
+    "string": "presetDidChange"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x170f74",
+    "rva": "0x172974",
+    "va": "0x10172974",
+    "string": "presetIndex"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x17103c",
+    "rva": "0x172a3c",
+    "va": "0x10172a3c",
+    "string": "UserCloudPresets"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x171050",
+    "rva": "0x172a50",
+    "va": "0x10172a50",
+    "string": "SearchCloudPresets"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x171090",
+    "rva": "0x172a90",
+    "va": "0x10172a90",
+    "string": "userPresetInfo.json"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1710d4",
+    "rva": "0x172ad4",
+    "va": "0x10172ad4",
+    "string": "userCloudPresetListChanged"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1710f8",
+    "rva": "0x172af8",
+    "va": "0x10172af8",
+    "string": "cloudSearchPresetRatingChanged"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x171178",
+    "rva": "0x172b78",
+    "va": "0x10172b78",
+    "string": "userCloudPresetSyncStarted"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x171194",
+    "rva": "0x172b94",
+    "va": "0x10172b94",
+    "string": "userCloudPresetSyncEnded"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1715cc",
+    "rva": "0x172fcc",
+    "va": "0x10172fcc",
+    "string": "DeviceFirmwareBuild"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x171d08",
+    "rva": "0x173708",
+    "va": "0x10173708",
+    "string": "BootedFirmwareType"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x172950",
+    "rva": "0x174350",
+    "va": "0x10174350",
+    "string": "L6DeviceCenter_Win::instanceDeviceHelper(VERIFYING) -  rejecting device (interlock) %s, model %s (midi 0x%x), firmware %s"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1729d0",
+    "rva": "0x1743d0",
+    "va": "0x101743d0",
+    "string": "L6DeviceCenter_Win::instanceDeviceHelper(VERIFYING) -  rejecting device %s, model %s (midi 0x%x), firmware %s"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x172aa0",
+    "rva": "0x1744a0",
+    "va": "0x101744a0",
+    "string": "L6DeviceCenter_Win::instanceDeviceHelper(CONNECT) -  rejecting device (interlock) %s, model %s (midi 0x%x), firmware %s"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x172b18",
+    "rva": "0x174518",
+    "va": "0x10174518",
+    "string": "L6DeviceCenter_Win::instanceDeviceHelper(CONNECT) -  rejecting device %s, model %s (midi 0x%x), firmware %s"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x172bf8",
+    "rva": "0x1745f8",
+    "va": "0x101745f8",
+    "string": "L6DeviceCenter_Win::instanceDeviceHelper(initializeResponse failed) -  rejecting device %s, model %s (midi 0x%x), firmware %s"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1734e4",
+    "rva": "0x174ee4",
+    "va": "0x10174ee4",
+    "string": "l6device://0x%08x:/preset//%d"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x173ab4",
+    "rva": "0x1754b4",
+    "va": "0x101754b4",
+    "string": "L6Preset"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x173ae4",
+    "rva": "0x1754e4",
+    "va": "0x101754e4",
+    "string": "default_preset.json"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x173af8",
+    "rva": "0x1754f8",
+    "va": "0x101754f8",
+    "string": "default_preset_parker.json"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x173b14",
+    "rva": "0x175514",
+    "va": "0x10175514",
+    "string": "default_preset_AEON.json"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x173bbc",
+    "rva": "0x1755bc",
+    "va": "0x101755bc",
+    "string": "defaultSymbolTable_Firebird.bin"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x173cc0",
+    "rva": "0x1756c0",
+    "va": "0x101756c0",
+    "string": "preset"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x173cf8",
+    "rva": "0x1756f8",
+    "va": "0x101756f8",
+    "string": "presetBinary"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x173f74",
+    "rva": "0x175974",
+    "va": "0x10175974",
+    "string": "@toneknob"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x174500",
+    "rva": "0x175f00",
+    "va": "0x10175f00",
+    "string": "<PS KEY %d (Tone Knob)> = %s"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x174618",
+    "rva": "0x176018",
+    "va": "0x10176018",
+    "string": "Preset"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x174bd4",
+    "rva": "0x1765d4",
+    "va": "0x101765d4",
+    "string": "presets"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x174be4",
+    "rva": "0x1765e4",
+    "va": "0x101765e4",
+    "string": "New Preset"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x174bfc",
+    "rva": "0x1765fc",
+    "va": "0x101765fc",
+    "string": "presetResults"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x175090",
+    "rva": "0x176a90",
+    "va": "0x10176a90",
+    "string": "Content-Disposition: form-data; name=\"upload\"; filename=\"L6Preset.l6t\""
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x18615d",
+    "rva": "0x187b5d",
+    "va": "0x10187b5d",
+    "string": "?ratePreset@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1861de",
+    "rva": "0x187bde",
+    "va": "0x10187bde",
+    "string": "?reorderDevicePreset@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HH@Z"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x186554",
+    "rva": "0x187f54",
+    "va": "0x10187f54",
+    "string": "?setPresetNameAtDeviceIndex@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x186d8a",
+    "rva": "0x18878a",
+    "va": "0x1018878a",
+    "string": "libusb_control_transfer"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1884d8",
+    "rva": "0x189ed8",
+    "va": "0x10189ed8",
+    "string": "IsProcessorFeaturePresent"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x18f0d4",
+    "rva": "0x190ad4",
+    "va": "0x10190ad4",
+    "string": ".?AVRedBlackNode@?$RedBlackTreeBase@IPAUTHREADINFO@@@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x18f114",
+    "rva": "0x190b14",
+    "va": "0x10190b14",
+    "string": ".?AV?$RedBlackTreeBase@IPAUTHREADINFO@@@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x18f148",
+    "rva": "0x190b48",
+    "va": "0x10190b48",
+    "string": ".?AV?$BinaryTreeBase@IPAUTHREADINFO@@@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x18f194",
+    "rva": "0x190b94",
+    "va": "0x10190b94",
+    "string": ".?AVNode@?$BinaryTreeBase@IPAUTHREADINFO@@@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x18f1cc",
+    "rva": "0x190bcc",
+    "va": "0x10190bcc",
+    "string": ".?AV?$L6Dictionary@IPAUTHREADINFO@@@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x18f4f0",
+    "rva": "0x190ef0",
+    "va": "0x10190ef0",
+    "string": ".?AVL6LibUsbControlEndpointItf@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x18f51c",
+    "rva": "0x190f1c",
+    "va": "0x10190f1c",
+    "string": ".?AVL6UsbControlEndpointItf@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x18f730",
+    "rva": "0x191130",
+    "va": "0x10191130",
+    "string": ".?AVL6UsbControlEndpointMsgPort@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x18f8cc",
+    "rva": "0x1912cc",
+    "va": "0x101912cc",
+    "string": ".?AVL6AmplifiUsbControlPortUpdateEngine@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x190124",
+    "rva": "0x191b24",
+    "va": "0x10191b24",
+    "string": ".?AVFirmwareServiceInterfaceBase@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x190150",
+    "rva": "0x191b50",
+    "va": "0x10191b50",
+    "string": ".?AVFirmwareServiceInterfaceEditor@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x190180",
+    "rva": "0x191b80",
+    "va": "0x10191b80",
+    "string": ".?AVFirmwareServiceInterfaceLibrarian@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1901b0",
+    "rva": "0x191bb0",
+    "va": "0x10191bb0",
+    "string": ".?AVFirmwareServiceInterfaceLibrarianV2@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x1901e4",
+    "rva": "0x191be4",
+    "va": "0x10191be4",
+    "string": ".?AVL6A36Preset@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x190220",
+    "rva": "0x191c20",
+    "va": "0x10191c20",
+    "string": ".?AVL6SPePresetParserDelegate@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x190264",
+    "rva": "0x191c64",
+    "va": "0x10191c64",
+    "string": ".?AVL6EdLibPresetV5@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x19029c",
+    "rva": "0x191c9c",
+    "va": "0x10191c9c",
+    "string": ".?AV?$L6Array@PAVL6A36Preset@@@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x19030c",
+    "rva": "0x191d0c",
+    "va": "0x10191d0c",
+    "string": ".?AVToneMatchFirmwareService@@"
+  },
+  {
+    "file": "APIV3EngineDLL.dll",
+    "offset": "0x190884",
+    "rva": "0x192284",
+    "va": "0x10192284",
+    "string": ".?AV?$L6Array@PAVL6EdLibPresetV5@@@@"
+  },
+  {
+    "file": "Interposer.dll",
+    "imagebase": "0x10000000",
+    "machine": "0x14c",
+    "size": 243200
+  },
+  {
+    "file": "Interposer.dll",
+    "offset": "0x35150",
+    "rva": "0x36b50",
+    "va": "0x10036b50",
+    "string": "IsProcessorFeaturePresent"
+  },
+  {
+    "file": "Interposer.dll",
+    "offset": "0x357b0",
+    "rva": "0x373b0",
+    "va": "0x100373b0",
+    "string": ".?AV?$BinaryTree@IPAUTHREADINFO@L6ThreadManager@@@@"
+  },
+  {
+    "file": "Interposer.dll",
+    "offset": "0x357f0",
+    "rva": "0x373f0",
+    "va": "0x100373f0",
+    "string": ".?AVNode@?$BinaryTree@IPAUTHREADINFO@L6ThreadManager@@@@"
+  },
+  {
+    "file": "Interposer.dll",
+    "offset": "0x35834",
+    "rva": "0x37434",
+    "va": "0x10037434",
+    "string": ".?AV?$RedBlackTree@IPAUTHREADINFO@L6ThreadManager@@@@"
+  },
+  {
+    "file": "Interposer.dll",
+    "offset": "0x35878",
+    "rva": "0x37478",
+    "va": "0x10037478",
+    "string": ".?AVRedBlackNode@?$RedBlackTree@IPAUTHREADINFO@L6ThreadManager@@@@"
+  },
+  {
+    "file": "Interposer.dll",
+    "offset": "0x358c4",
+    "rva": "0x374c4",
+    "va": "0x100374c4",
+    "string": ".?AV?$L6Map@IPAUTHREADINFO@L6ThreadManager@@@@"
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "imagebase": "0x10000000",
+    "machine": "0x14c",
+    "size": 176128
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "offset": "0x102ee",
+    "rva": "0x11aee",
+    "va": "0x10011aee",
+    "string": "_FIRMWARE_TYPE"
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "offset": "0x102fd",
+    "rva": "0x11afd",
+    "va": "0x10011afd",
+    "string": "_LOGICAL_PROCESSOR_RELATIONSHIP"
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "offset": "0x1031d",
+    "rva": "0x11b1d",
+    "va": "0x10011b1d",
+    "string": "_PROCESSOR_CACHE_TYPE"
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "offset": "0x184a1",
+    "rva": "0x19ca1",
+    "va": "0x10019ca1",
+    "string": "APIV3EngineInterface.Functions.ratePreset"
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "offset": "0x1857a",
+    "rva": "0x19d7a",
+    "va": "0x10019d7a",
+    "string": "APIV3EngineInterface.Functions.reorderDevicePreset"
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "offset": "0x185ad",
+    "rva": "0x19dad",
+    "va": "0x10019dad",
+    "string": "APIV3EngineInterface.Functions.setPresetNameAtDeviceIndex"
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "offset": "0x1ed46",
+    "rva": "0x20546",
+    "va": "0x10020546",
+    "string": "IsProcessorFeaturePresent"
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "offset": "0x1f37c",
+    "rva": "0x20b7c",
+    "va": "0x10020b7c",
+    "string": "?setPresetNameAtDeviceIndex@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z"
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "offset": "0x1f410",
+    "rva": "0x20c10",
+    "va": "0x10020c10",
+    "string": "?reorderDevicePreset@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@HH@Z"
+  },
+  {
+    "file": "EngineCLIWrapper.dll",
+    "offset": "0x1f678",
+    "rva": "0x20e78",
+    "va": "0x10020e78",
+    "string": "?ratePreset@Functions@APIV3EngineInterface@@SAHPAVAPIV3Engine@@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z"
+  }
+]

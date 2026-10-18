@@ -1,0 +1,412 @@
+XREF 10057530 101737f0
+XREF 10057810 101737fc
+XREF 10057aa0 10173808
+XREF 100569f0 101737dc
+XREF 100569f0 10173864
+FUNCTION 10057530 FUN_10057530
+
+undefined4 * __thiscall FUN_10057530(void *this,byte param_1)
+
+{
+  undefined8 *puVar1;
+  uint uVar2;
+  DWORD DVar3;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  puStack_c = &LAB_100c4cc0;
+  local_10 = ExceptionList;
+  ExceptionList = &local_10;
+  local_8 = 0;
+  uVar2 = *(uint *)((int)this + 0x74);
+  *(undefined ***)this = L6ParkerMidiMsgPortMultiplexor::vftable;
+  *(undefined1 *)((int)this + 0x70) = 0;
+  puVar1 = FUN_10047e30();
+  FUN_10048440(puVar1,uVar2);
+  DVar3 = 0xffffffff;
+  uVar2 = *(uint *)((int)this + 0x74);
+  puVar1 = FUN_10047e30();
+  FUN_100484b0(puVar1,uVar2,DVar3);
+  *(undefined4 *)((int)this + 0x74) = 0;
+  FUN_10057d80((int)this + 0x40);
+  if (*(void **)((int)this + 0x54) != (void *)0x0) {
+    free(*(void **)((int)this + 0x54));
+  }
+  if (*(void **)((int)this + 0x50) != (void *)0x0) {
+    free(*(void **)((int)this + 0x50));
+  }
+  FUN_10057d80((int)this + 0x58);
+  if (*(void **)((int)this + 0x6c) != (void *)0x0) {
+    free(*(void **)((int)this + 0x6c));
+  }
+  if (*(void **)((int)this + 0x68) != (void *)0x0) {
+    free(*(void **)((int)this + 0x68));
+  }
+  *(undefined ***)((int)this + 0x58) = L6List<ParkerMessageFragmentContext*>::vftable;
+  FUN_10057d80((int)this + 0x58);
+  *(undefined ***)((int)this + 0x40) = L6List<ParkerMessageFragmentContext*>::vftable;
+  FUN_10057d80((int)this + 0x40);
+  FUN_10053d50(this);
+  if ((param_1 & 1) != 0) {
+    FUN_100bee96(this);
+  }
+  ExceptionList = local_10;
+  return this;
+}
+
+
+FUNCTION 10057810 FUN_10057810
+
+undefined4 __thiscall FUN_10057810(void *this,int param_1,byte *param_2,uint param_3)
+
+{
+  byte bVar1;
+  void *pvVar2;
+  undefined1 *puVar3;
+  undefined4 *puVar4;
+  uint uVar5;
+  uint uVar6;
+  undefined4 uVar7;
+  undefined8 *puVar8;
+  uint uVar9;
+  byte *local_10;
+  int local_c;
+  
+  local_10 = param_2;
+  if (param_3 == 0) {
+    return 0;
+  }
+  if ((HANDLE)**(undefined4 **)((int)this + 0xc) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined4 **)((int)this + 0xc),0xffffffff);
+  }
+  bVar1 = *(byte *)((int)this + param_1 + 0x38);
+  *(byte *)((int)this + param_1 + 0x38) = bVar1 + 1;
+  uVar9 = param_3 / 0xd2;
+  if (param_3 != uVar9 * 0xd2) {
+    uVar9 = uVar9 + 1;
+  }
+  local_c = 0;
+  if (uVar9 == 0) {
+    uVar7 = 0;
+  }
+  else {
+    do {
+      uVar5 = param_3 & 0xffff;
+      if (0xd2 < (int)param_3) {
+        uVar5 = 0xd2;
+      }
+      pvVar2 = *(void **)((int)this + 0x44);
+      if (pvVar2 == (void *)0x0) {
+LAB_10057a4d:
+        uVar7 = 0xffffdbab;
+        break;
+      }
+      puVar3 = *(undefined1 **)((int)pvVar2 + 8);
+      puVar4 = *(undefined4 **)((int)pvVar2 + 4);
+      *(undefined4 **)((int)this + 0x44) = puVar4;
+      if (puVar4 == (undefined4 *)0x0) {
+        *(undefined4 *)((int)this + 0x48) = 0;
+      }
+      else {
+        *puVar4 = 0;
+      }
+      FUN_100bee96(pvVar2);
+      *(int *)((int)this + 0x4c) = *(int *)((int)this + 0x4c) + -1;
+      if (puVar3 == (undefined1 *)0x0) goto LAB_10057a4d;
+      *puVar3 = *(undefined1 *)((int)this + 4);
+      puVar3[2] = bVar1 & 0x7f;
+      *(undefined2 *)(puVar3 + 6) = 0;
+      puVar3[1] = (char)param_1;
+      puVar3[3] = 0;
+      **(undefined1 **)(puVar3 + 8) = 0xf0;
+      *(undefined1 *)(*(int *)(puVar3 + 8) + 1) = 0;
+      *(undefined1 *)(*(int *)(puVar3 + 8) + 2) = 1;
+      *(undefined1 *)(*(int *)(puVar3 + 8) + 3) = 0xc;
+      *(undefined1 *)(*(int *)(puVar3 + 8) + 4) = 0x22;
+      *(undefined1 *)(*(int *)(puVar3 + 8) + 5) = *puVar3;
+      *(undefined1 *)(*(int *)(puVar3 + 8) + 6) = 0x4d;
+      *(char *)(*(int *)(puVar3 + 8) + 7) = (char)param_1;
+      *(undefined1 *)(*(int *)(puVar3 + 8) + 8) = puVar3[2];
+      *(undefined1 *)(*(int *)(puVar3 + 8) + 9) = 0;
+      *(undefined1 *)(*(int *)(puVar3 + 8) + 10) = 0;
+      *(undefined1 *)(*(int *)(puVar3 + 8) + 0xb) = 0;
+      *(short *)(puVar3 + 4) = (short)uVar5;
+      uVar6 = FUN_1005b470((byte *)(*(int *)(puVar3 + 8) + 0xc),local_10,uVar5);
+      *(short *)(puVar3 + 6) = (short)uVar6;
+      param_3 = param_3 - uVar5;
+      local_10 = local_10 + uVar5;
+      *(char *)(*(int *)(puVar3 + 8) + 9) = (char)local_c;
+      *(byte *)(*(int *)(puVar3 + 8) + 0xb) = (char)uVar5 - 1U & 0xf;
+      *(byte *)(*(int *)(puVar3 + 8) + 10) = (byte)((int)(uVar5 - 1) >> 4) & 0xf;
+      *(undefined1 *)((uVar6 & 0xffff) + 0xc + *(int *)(puVar3 + 8)) = 0xf7;
+      uVar7 = (**(code **)(**(int **)((int)this + 0x34) + 0x40))
+                        (*(undefined4 *)(puVar3 + 8),(uVar6 & 0xffff) + 0xd);
+      puVar8 = (undefined8 *)FUN_100bee66(0xc);
+      *puVar8 = 0;
+      *(undefined4 *)(puVar8 + 1) = 0;
+      *(undefined4 *)puVar8 = 0;
+      *(undefined4 *)((int)puVar8 + 4) = 0;
+      *(undefined1 **)(puVar8 + 1) = puVar3;
+      if (*(int *)((int)this + 0x48) == 0) {
+        *(undefined8 **)((int)this + 0x44) = puVar8;
+      }
+      else {
+        *(undefined8 **)(*(int *)((int)this + 0x48) + 4) = puVar8;
+        *(undefined4 *)puVar8 = *(undefined4 *)((int)this + 0x48);
+        *(undefined4 *)((int)puVar8 + 4) = 0;
+      }
+      *(int *)((int)this + 0x4c) = *(int *)((int)this + 0x4c) + 1;
+      *(undefined8 **)((int)this + 0x48) = puVar8;
+      if ((1 < uVar9) && (local_c != uVar9 - 1)) {
+        FUN_10047e30();
+        Sleep(5);
+      }
+      local_c = local_c + 1;
+    } while (local_c < (int)uVar9);
+  }
+  if ((HANDLE)**(undefined4 **)((int)this + 0xc) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined4 **)((int)this + 0xc));
+  }
+  return uVar7;
+}
+
+
+FUNCTION 10057aa0 FUN_10057aa0
+
+undefined4 __fastcall FUN_10057aa0(int param_1)
+
+{
+  char cVar1;
+  void *pvVar2;
+  undefined4 *puVar3;
+  byte bVar4;
+  void *_Dst;
+  int iVar5;
+  uint uVar6;
+  undefined8 *puVar7;
+  short sVar8;
+  short sVar9;
+  char *pcVar10;
+  byte *pbVar11;
+  char *local_10;
+  
+  *(undefined1 *)(param_1 + 0x70) = 1;
+  _Dst = (void *)FUN_100beea4(0x200);
+  if (_Dst != (void *)0x0) {
+    cVar1 = *(char *)(param_1 + 0x70);
+    while (cVar1 != '\0') {
+      FUN_10047e30();
+      Sleep(1);
+      if (*(int *)(param_1 + 0x34) != 0) {
+        memset(_Dst,0,0x200);
+        iVar5 = (**(code **)(**(int **)(param_1 + 0x34) + 0x4c))(_Dst,0x200);
+        if (((((0 < iVar5) && (0x14 < iVar5)) && (*(char *)((int)_Dst + 1) == '\0')) &&
+            ((*(char *)((int)_Dst + 2) == '\x01' && (*(char *)((int)_Dst + 3) == '\f')))) &&
+           (*(char *)((int)_Dst + 6) == 'M')) {
+          local_10 = (char *)0x0;
+          if ((HANDLE)**(undefined4 **)(param_1 + 0x14) != (HANDLE)0x0) {
+            WaitForSingleObject((HANDLE)**(undefined4 **)(param_1 + 0x14),0xffffffff);
+          }
+          pvVar2 = *(void **)(param_1 + 0x5c);
+          if (pvVar2 != (void *)0x0) {
+            local_10 = *(char **)((int)pvVar2 + 8);
+            puVar3 = *(undefined4 **)((int)pvVar2 + 4);
+            *(undefined4 **)(param_1 + 0x5c) = puVar3;
+            if (puVar3 == (undefined4 *)0x0) {
+              *(undefined4 *)(param_1 + 0x60) = 0;
+            }
+            else {
+              *puVar3 = 0;
+            }
+            FUN_100bee96(pvVar2);
+            *(int *)(param_1 + 100) = *(int *)(param_1 + 100) + -1;
+          }
+          if ((HANDLE)**(undefined4 **)(param_1 + 0x14) != (HANDLE)0x0) {
+            ReleaseMutex((HANDLE)**(undefined4 **)(param_1 + 0x14));
+          }
+          if (local_10 != (char *)0x0) {
+            cVar1 = *(char *)((int)_Dst + 5);
+            *local_10 = cVar1;
+            bVar4 = *(byte *)((int)_Dst + 7);
+            local_10[1] = bVar4;
+            local_10[2] = *(char *)((int)_Dst + 8);
+            local_10[3] = *(char *)((int)_Dst + 9);
+            sVar8 = ((ushort)(*(byte *)((int)_Dst + 10) & 0xf) << 4 |
+                    (ushort)(*(byte *)((int)_Dst + 0xb) & 0xf)) + 1;
+            *(short *)(local_10 + 4) = sVar8;
+            sVar9 = (short)(iVar5 - 0xdU);
+            *(short *)(local_10 + 6) = sVar9;
+            if (((cVar1 == *(char *)(param_1 + 4)) &&
+                (*(int *)(param_1 + 0x1c + (uint)bVar4 * 4) != 0)) && (sVar9 != 0)) {
+              pbVar11 = *(byte **)(local_10 + 8);
+              uVar6 = iVar5 - 0xdU & 0xffff;
+              if (7 < uVar6) {
+                uVar6 = uVar6 >> 3;
+                pcVar10 = (char *)((int)_Dst + 0xc);
+                do {
+                  cVar1 = *pcVar10;
+                  *pbVar11 = (pcVar10[1] ^ cVar1 * '\x02') & 0x7fU ^ cVar1 * '\x02';
+                  pbVar11[1] = (pcVar10[2] ^ cVar1 * '\x04') & 0x7fU ^ cVar1 * '\x04';
+                  pbVar11[2] = (pcVar10[3] ^ cVar1 * '\b') & 0x7fU ^ cVar1 * '\b';
+                  pbVar11[3] = (pcVar10[4] ^ cVar1 * '\x10') & 0x7fU ^ cVar1 * '\x10';
+                  pbVar11[4] = (pcVar10[5] ^ cVar1 * ' ') & 0x7fU ^ cVar1 * ' ';
+                  pbVar11[5] = (pcVar10[6] ^ cVar1 * '@') & 0x7fU ^ cVar1 * '@';
+                  pbVar11[6] = pcVar10[7] & 0x7fU | cVar1 * -0x80;
+                  uVar6 = uVar6 - 1;
+                  pcVar10 = pcVar10 + 8;
+                  pbVar11 = pbVar11 + 7;
+                } while (uVar6 != 0);
+                sVar8 = *(short *)(local_10 + 4);
+                pbVar11 = *(byte **)(local_10 + 8);
+                bVar4 = local_10[1];
+              }
+              (**(code **)(**(int **)(param_1 + 0x1c + (uint)bVar4 * 4) + 0x38))(pbVar11,sVar8);
+            }
+            if ((HANDLE)**(undefined4 **)(param_1 + 0x14) != (HANDLE)0x0) {
+              WaitForSingleObject((HANDLE)**(undefined4 **)(param_1 + 0x14),0xffffffff);
+            }
+            puVar7 = (undefined8 *)FUN_100bee66(0xc);
+            *puVar7 = 0;
+            *(undefined4 *)(puVar7 + 1) = 0;
+            *(undefined4 *)puVar7 = 0;
+            *(undefined4 *)((int)puVar7 + 4) = 0;
+            *(char **)(puVar7 + 1) = local_10;
+            if (*(int *)(param_1 + 0x60) == 0) {
+              *(undefined8 **)(param_1 + 0x5c) = puVar7;
+            }
+            else {
+              *(undefined8 **)(*(int *)(param_1 + 0x60) + 4) = puVar7;
+              *(undefined4 *)puVar7 = *(undefined4 *)(param_1 + 0x60);
+              *(undefined4 *)((int)puVar7 + 4) = 0;
+            }
+            *(int *)(param_1 + 100) = *(int *)(param_1 + 100) + 1;
+            *(undefined8 **)(param_1 + 0x60) = puVar7;
+            if ((HANDLE)**(undefined4 **)(param_1 + 0x14) != (HANDLE)0x0) {
+              ReleaseMutex((HANDLE)**(undefined4 **)(param_1 + 0x14));
+            }
+          }
+        }
+      }
+      cVar1 = *(char *)(param_1 + 0x70);
+    }
+    free(_Dst);
+    return 0;
+  }
+  return 0xfffffffe;
+}
+
+
+FUNCTION 100569f0 FUN_100569f0
+
+void FUN_100569f0(int param_1,void *param_2)
+
+{
+  int iVar1;
+  bool bVar2;
+  int *piVar3;
+  uint uVar4;
+  undefined4 uVar5;
+  undefined4 uVar6;
+  undefined **local_2c;
+  int *local_28;
+  undefined **local_24;
+  int *local_20;
+  undefined4 local_1c;
+  int local_18;
+  char local_11;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_100c4199;
+  local_10 = ExceptionList;
+  ExceptionList = &local_10;
+  local_1c = 0;
+  local_2c = L6String::vftable;
+  local_28 = (int *)0x0;
+  FUN_1001d100(&local_2c,"HandshakeFailed");
+  local_8 = 0;
+  bVar2 = false;
+  local_1c = 1;
+  uVar4 = FUN_1001d4d0(param_2,(int)&local_2c);
+  if ((char)uVar4 == '\0') {
+    local_24 = L6String::vftable;
+    local_20 = (int *)0x0;
+    FUN_1001d100(&local_24,"ConnectionFailed");
+    bVar2 = true;
+    uVar4 = FUN_1001d4d0(param_2,(int)&local_24);
+    local_11 = '\0';
+    if ((char)uVar4 == '\0') goto LAB_10056a95;
+  }
+  local_11 = '\x01';
+LAB_10056a95:
+  piVar3 = local_20;
+  if ((bVar2) && (local_20 != (int *)0x0)) {
+    LOCK();
+    iVar1 = *local_20;
+    *local_20 = *local_20 + -1;
+    UNLOCK();
+    if (iVar1 == 1 || iVar1 + -1 < 0) {
+      if (local_20[3] != 0) {
+        free((void *)local_20[4]);
+      }
+      FUN_100bee96(piVar3);
+    }
+  }
+  piVar3 = local_28;
+  local_8 = 0xffffffff;
+  if (local_28 != (int *)0x0) {
+    LOCK();
+    iVar1 = *local_28;
+    *local_28 = *local_28 + -1;
+    UNLOCK();
+    if (iVar1 == 1 || iVar1 + -1 < 0) {
+      if (local_28[3] != 0) {
+        free((void *)local_28[4]);
+      }
+      FUN_100bee96(piVar3);
+    }
+  }
+  if (local_11 == '\0') {
+    local_2c = L6String::vftable;
+    local_28 = (int *)0x0;
+    FUN_1001d100(&local_2c,"HandshakeSucceeded");
+    uVar4 = FUN_1001d4d0(param_2,(int)&local_2c);
+    piVar3 = local_28;
+    if (((char)uVar4 == '\0') || (param_1 != *(int *)(local_18 + 0xc))) {
+      bVar2 = false;
+    }
+    else {
+      bVar2 = true;
+    }
+    if (local_28 != (int *)0x0) {
+      LOCK();
+      iVar1 = *local_28;
+      *local_28 = *local_28 + -1;
+      UNLOCK();
+      if (iVar1 == 1 || iVar1 + -1 < 0) {
+        if (local_28[3] != 0) {
+          free((void *)local_28[4]);
+        }
+        FUN_100bee96(piVar3);
+      }
+    }
+    if (!bVar2) {
+      ExceptionList = local_10;
+      return;
+    }
+    uVar6 = 6;
+    uVar5 = 2;
+  }
+  else {
+    uVar6 = 5;
+    uVar5 = 4;
+  }
+  (**(code **)(*(int *)(local_18 + -0xa4) + 0x28))(uVar5,uVar6);
+  ExceptionList = local_10;
+  return;
+}
+
+

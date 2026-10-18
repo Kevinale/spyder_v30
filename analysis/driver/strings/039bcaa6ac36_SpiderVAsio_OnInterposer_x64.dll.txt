@@ -1,0 +1,500 @@
+0x0000004d	ascii	!This program cannot be run in DOS mode.
+0x000000ff	ascii	eRich4
+0x00000218	ascii	.text
+0x0000023f	ascii	`.rdata
+0x00000267	ascii	@.data
+0x00000290	ascii	.pdata
+0x000002b7	ascii	@.rsrc
+0x000002df	ascii	@.reloc
+0x000007fc	ascii	L$ SVWH
+0x00000850	ascii	@USVWAVAWH
+0x000009e0	ascii	L$PE3
+0x00000ba5	ascii	D$(E3
+0x00000cc5	ascii	D$(E3
+0x00000fc7	ascii	D$`E3
+0x00001050	ascii	A_A^_^[]
+0x00001067	ascii	t$ WH
+0x00001120	ascii	D$`E3
+0x000012a8	ascii	L$ E3
+0x00001387	ascii	L$ SUVWH
+0x000013d2	ascii	8_^][
+0x0000158c	ascii	t$ WH
+0x0000184a	ascii	VWATAVAWH
+0x000018d6	ascii	L$3fA;
+0x00001a67	ascii	L$8H3
+0x00001a82	ascii	@A_A^A\_^
+0x00001b07	ascii	D$ E3
+0x00001c27	ascii	L$ SUVWH
+0x00001c72	ascii	8_^][
+0x00001ceb	ascii	)D$0H
+0x000020ac	ascii	t$ WH
+0x00003668	ascii	L$@H3
+0x000038e5	ascii	SVWATAUAVAWH
+0x00003928	ascii	t D8y
+0x0000414d	ascii	H98tv
+0x00004a8b	ascii	uPfA;
+0x00004c23	ascii	E;7sQH
+0x00004f1f	ascii	A_A^A]A\_^[
+0x00005147	ascii	L$HH3
+0x00005308	ascii	)t$0H
+0x00005330	ascii	zVuTH
+0x000053d7	ascii	(t$0H
+0x0000541c	ascii	t$ WH
+0x0000578a	ascii	T$HE3
+0x00005973	ascii	L$XH3
+0x00005acd	ascii	L$@H3
+0x00005b70	ascii	@SVWH
+0x00005c44	ascii	L$HH3
+0x00005c60	ascii	@SVWAVAWH
+0x00005d79	ascii	l$Xt)
+0x00005db2	ascii	L$HH3
+0x00005dc0	ascii	`A_A^_^[
+0x00005e53	ascii	(t$ H
+0x00005ef2	ascii	(t$0H;
+0x00005f37	ascii	t$ WH
+0x00005f40	ascii	)t$PH
+0x0000610b	ascii	L$HH3
+0x00006124	ascii	(t$PI
+0x00006231	ascii	|$ AVH
+0x00006645	ascii	VWAVH
+0x00006725	ascii	 A^_^
+0x00006738	ascii	 A^_^
+0x00006742	ascii	\$ UVWATAUAVAWH
+0x000067ad	ascii	t#@8y
+0x0000681f	ascii	D$ E3
+0x00006894	ascii	D$ E3
+0x00006906	ascii	D$ E3
+0x0000697a	ascii	t-@8y
+0x00006b99	ascii	|$@L9
+0x00006e8a	ascii	t"D8a
+0x00006fa6	ascii	t"D8a
+0x00007273	ascii	|$`D9`
+0x0000733e	ascii	A_A^A]A\_^]
+0x00007464	ascii	ttE8b
+0x0000746a	ascii	wnD9"
+0x0000749b	ascii	t=E8b
+0x000074a1	ascii	w7D9"
+0x00007697	ascii	|$@I;
+0x00007aa6	ascii	|$pM;
+0x00007ab8	ascii	\$`t(A
+0x00007d51	ascii	D$PE3
+0x00007d66	ascii	D$pE3
+0x00007fd0	ascii	t$Ht^L
+0x0000810d	ascii	t$Ht^L
+0x000086a1	ascii	|$ AVH
+0x000086bf	ascii	)|$PH
+0x0000897d	ascii	(t$`L
+0x00008997	ascii	(|$PI
+0x00008b90	ascii	@SUWAUH
+0x00009049	ascii	l$HA+
+0x000090ab	ascii	xA]_][
+0x00009102	ascii	xA]_][I
+0x00009137	ascii	A9A$sh
+0x0000914b	ascii	A+A$H
+0x000091b8	ascii	q E+q$D;
+0x0000924f	ascii	|$HA+
+0x000092c2	ascii	oD$ f
+0x000092c8	ascii	oL$0f
+0x000092ce	ascii	oT$@f
+0x000092d4	ascii	o\$PH
+0x000094ef	ascii	D$DDtRH
+0x00009724	ascii	|$ UATAUAVAWH
+0x00009904	ascii	t-A9^
+0x0000990a	ascii	t'HcG<
+0x0000991a	ascii	M09L8
+0x00009922	ascii	H;|80u
+0x000099e4	ascii	A_A^A]A\]
+0x00009b98	ascii	@SVWH
+0x00009ff0	ascii	|$ AVH
+0x0000a192	ascii	VWAVH
+0x0000a2ab	ascii	@A^_^
+0x0000a4b5	ascii	ntelA
+0x0000a4bc	ascii	ineID
+0x0000aa59	ascii	x AVH
+0x0000b200	ascii	Interposer64.dll
+0x0000b238	utf16le	KERNEL32.DLL
+0x0000b258	ascii	AcquireSRWLockExclusive
+0x0000b270	ascii	ReleaseSRWLockExclusive
+0x0000b438	ascii	Unknown exception
+0x0000b468	ascii	bad allocation
+0x0000b490	ascii	bad array new length
+0x0000b500	ascii	CLSID
+0x0000b508	ascii	%s\%s
+0x0000b510	ascii	InprocServer32
+0x0000b520	ascii	%s\%s\%s
+0x0000b530	ascii	ThreadingModel
+0x0000b548	ascii	SOFTWARE
+0x0000b558	ascii	Description
+0x0000b580	utf16le	AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+0x0000c08c	ascii	2!N!`!p!a!q!b!r!c!s!d!t!e!u!f!v!g!w!h!x!i!y!j!z!k!{!l!|!m!}!n!~!o!
+0x0000c1b9	ascii	,O, ,P,!,Q,",R,#,S,$,T,%,U,&,V,',W,(,X,),Y,*,Z,+,[,,,\,-,],.,^,`,a,b,k
+0x0000c208	ascii	g,h,i,j,k,l,m,Q
+0x0000c220	ascii	r,s,u,v,
+0x0000c4a0	ascii	ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+0x0000c4f0	utf16le	AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+0x0000cffc	ascii	2!N!`!p!a!q!b!r!c!s!d!t!e!u!f!v!g!w!h!x!i!y!j!z!k!{!l!|!m!}!n!~!o!
+0x0000d129	ascii	,O, ,P,!,Q,",R,#,S,$,T,%,U,&,V,',W,(,X,),Y,*,Z,+,[,,,\,-,],.,^,`,a,b,k
+0x0000d178	ascii	g,h,i,j,k,l,m,Q
+0x0000d190	ascii	r,s,u,v,
+0x0000d4d0	utf16le	AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+0x0000dfdc	ascii	2!N!`!p!a!q!b!r!c!s!d!t!e!u!f!v!g!w!h!x!i!y!j!z!k!{!l!|!m!}!n!~!o!
+0x0000e109	ascii	,O, ,P,!,Q,",R,#,S,$,T,%,U,&,V,',W,(,X,),Y,*,Z,+,[,,,\,-,],.,^,`,a,b,k
+0x0000e158	ascii	g,h,i,j,k,l,m,Q
+0x0000e170	ascii	r,s,u,v,
+0x0000e418	ascii	false
+0x0000e420	ascii	Register Server failed ! (%d)
+0x0000e440	ascii	Unregister Server failed ! (%d)
+0x0000e46b	ascii	`,r&-
+0x0000e4b0	ascii	\Line 6\Interposer\
+0x0000e4c8	ascii	Interposer64
+0x0000e4e0	ascii	Internal
+0x0000e4f0	utf16le	sonar
+0x0000e500	utf16le	HostPrefs
+0x0000e518	utf16le	SOFTWARE\ASIO
+0x0000e538	utf16le	%s\%s\%s
+0x0000e550	utf16le	debugFlags
+0x0000e568	utf16le	inputLatency
+0x0000e588	utf16le	outputLatency
+0x0000e5a8	ascii	c:\mike\channel1out.dat
+0x0000e5c0	ascii	c:\mike\channel2out.dat
+0x0000e5d8	ascii	c:\mike\channel1in.dat
+0x0000e5f0	ascii	c:\mike\channel2in.dat
+0x0000f0d8	ascii	RSDS`
+0x0000f0f0	ascii	C:\build\SW-IN25ASIO-JOB1\projects\Release\SpiderVAsio_OnInterposer_x64.pdb
+0x0000f15c	ascii	.text$di
+0x0000f170	ascii	.text$mn
+0x0000f184	ascii	.text$mn$00
+0x0000f198	ascii	.text$x
+0x0000f1a8	ascii	.text$yd
+0x0000f1bc	ascii	.idata$5
+0x0000f1d0	ascii	.00cfg
+0x0000f1e0	ascii	.CRT$XCA
+0x0000f1f4	ascii	.CRT$XCU
+0x0000f208	ascii	.CRT$XCZ
+0x0000f21c	ascii	.CRT$XIA
+0x0000f230	ascii	.CRT$XIZ
+0x0000f244	ascii	.CRT$XLA
+0x0000f258	ascii	.CRT$XLZ
+0x0000f26c	ascii	.CRT$XPA
+0x0000f280	ascii	.CRT$XPZ
+0x0000f294	ascii	.CRT$XTA
+0x0000f2a8	ascii	.CRT$XTZ
+0x0000f2bc	ascii	.rdata
+0x0000f2cc	ascii	.rdata$T
+0x0000f2e0	ascii	.rdata$r
+0x0000f2f4	ascii	.rdata$voltmd
+0x0000f30c	ascii	.rdata$zzzdbg
+0x0000f324	ascii	.rtc$IAA
+0x0000f338	ascii	.rtc$IZZ
+0x0000f34c	ascii	.rtc$TAA
+0x0000f360	ascii	.rtc$TZZ
+0x0000f384	ascii	.tls$
+0x0000f394	ascii	.tls$ZZZ
+0x0000f3a8	ascii	.xdata
+0x0000f3b8	ascii	.xdata$x
+0x0000f3cc	ascii	.didat$2
+0x0000f3e0	ascii	.didat$3
+0x0000f3f4	ascii	.didat$4
+0x0000f408	ascii	.didat$6
+0x0000f41c	ascii	.didat$7
+0x0000f430	ascii	.edata
+0x0000f440	ascii	.idata$2
+0x0000f454	ascii	.idata$3
+0x0000f468	ascii	.idata$4
+0x0000f47c	ascii	.idata$6
+0x0000f490	ascii	.data
+0x0000f4a0	ascii	.data$r
+0x0000f4b0	ascii	.data$rs
+0x0000f4c4	ascii	.didat$5
+0x0000f4e8	ascii	.pdata
+0x0000f4f8	ascii	.rsrc$01
+0x0000f50c	ascii	.rsrc$02
+0x000100f2	ascii	InterposerCleanup
+0x00010106	ascii	InterposerGetDevCaps
+0x0001011e	ascii	InterposerGetVersion
+0x00010136	ascii	InterposerInit
+0x00010148	ascii	InterposerGetDevCapsSize
+0x00010164	ascii	InterposerGetDescriptors
+0x00010180	ascii	InterposerRegisterCallback
+0x0001019e	ascii	InterposerMessage
+0x000101b2	ascii	InterposerGetDescriptorCount
+0x000101d2	ascii	InterposerClosePipe
+0x000101e8	ascii	InterposerOpenPipe
+0x000102ba	ascii	SpiderVAsio_OnInterposer_x64.dll
+0x000102db	ascii	DllRegisterServer
+0x000102ed	ascii	DllUnregisterServer
+0x00010301	ascii	DllCanUnloadNow
+0x00010311	ascii	DllGetClassObject
+0x00010323	ascii	DllMain
+0x000107ba	ascii	timeGetDevCaps
+0x000107cc	ascii	timeKillEvent
+0x000107dc	ascii	timeEndPeriod
+0x000107ec	ascii	timeGetTime
+0x000107fa	ascii	timeSetEvent
+0x0001080a	ascii	timeBeginPeriod
+0x0001081a	ascii	WINMM.dll
+0x00010826	ascii	GetFileVersionInfoSizeW
+0x00010840	ascii	VerQueryValueW
+0x00010852	ascii	GetFileVersionInfoW
+0x00010866	ascii	VERSION.dll
+0x00010874	ascii	RegOpenKeyExA
+0x00010884	ascii	RegSetValueExA
+0x00010896	ascii	RegQueryValueExA
+0x000108aa	ascii	RegDeleteKeyA
+0x000108ba	ascii	RegOpenKeyA
+0x000108c8	ascii	RegCloseKey
+0x000108d6	ascii	RegEnumKeyA
+0x000108e4	ascii	RegCreateKeyA
+0x000108f4	ascii	TraceMessage
+0x00010904	ascii	UnregisterTraceGuids
+0x0001091c	ascii	RegisterTraceGuidsW
+0x00010932	ascii	GetTraceEnableLevel
+0x00010948	ascii	GetTraceEnableFlags
+0x0001095e	ascii	GetTraceLoggerHandle
+0x00010976	ascii	RegGetValueW
+0x00010986	ascii	RegOpenKeyExW
+0x00010994	ascii	ADVAPI32.dll
+0x000109a4	ascii	DisableThreadLibraryCalls
+0x000109c0	ascii	GetModuleFileNameA
+0x000109d6	ascii	GetModuleHandleA
+0x000109ea	ascii	WideCharToMultiByte
+0x00010a00	ascii	WaitForSingleObject
+0x00010a16	ascii	GetLastError
+0x00010a26	ascii	CloseHandle
+0x00010a34	ascii	CreateMutexW
+0x00010a44	ascii	GetCurrentThreadId
+0x00010a5a	ascii	QueryPerformanceCounter
+0x00010a74	ascii	GetModuleFileNameW
+0x00010a8a	ascii	GetCurrentDirectoryA
+0x00010aa2	ascii	LoadLibraryA
+0x00010ab2	ascii	QueryPerformanceFrequency
+0x00010ace	ascii	CreateProcessW
+0x00010ae0	ascii	FreeLibrary
+0x00010aec	ascii	KERNEL32.dll
+0x00010afc	ascii	CharLowerA
+0x00010b0a	ascii	MessageBoxW
+0x00010b16	ascii	USER32.dll
+0x00010b24	ascii	SHGetFolderPathW
+0x00010b36	ascii	SHELL32.dll
+0x00010b44	ascii	StringFromCLSID
+0x00010b54	ascii	ole32.dll
+0x00010b60	ascii	__CxxFrameHandler4
+0x00010b76	ascii	_purecall
+0x00010b82	ascii	__C_specific_handler
+0x00010b9a	ascii	__std_exception_copy
+0x00010bb2	ascii	__std_exception_destroy
+0x00010bcc	ascii	_CxxThrowException
+0x00010be2	ascii	memset
+0x00010bec	ascii	__std_type_info_destroy_list
+0x00010c0a	ascii	VCRUNTIME140_1.dll
+0x00010c1e	ascii	VCRUNTIME140.dll
+0x00010c32	ascii	memcpy
+0x00010c3c	ascii	__stdio_common_vsprintf
+0x00010c56	ascii	wcscpy_s
+0x00010c62	ascii	__stdio_common_vsprintf_s
+0x00010c86	ascii	malloc
+0x00010c90	ascii	__stdio_common_vswprintf_s
+0x00010cae	ascii	strcpy_s
+0x00010cba	ascii	wcsnlen
+0x00010cc4	ascii	fclose
+0x00010cce	ascii	fwrite
+0x00010cd8	ascii	fopen_s
+0x00010ce2	ascii	_wcsnicmp
+0x00010cee	ascii	_invalid_parameter_noinfo_noreturn
+0x00010d14	ascii	_callnewh
+0x00010d20	ascii	_seh_filter_dll
+0x00010d32	ascii	_configure_narrow_argv
+0x00010d4c	ascii	_initialize_narrow_environment
+0x00010d6e	ascii	_initialize_onexit_table
+0x00010d8a	ascii	_register_onexit_function
+0x00010da6	ascii	_execute_onexit_table
+0x00010dbe	ascii	_crt_atexit
+0x00010dcc	ascii	_cexit
+0x00010dd6	ascii	_initterm
+0x00010de2	ascii	_initterm_e
+0x00010dee	ascii	api-ms-win-crt-stdio-l1-1-0.dll
+0x00010e0e	ascii	api-ms-win-crt-runtime-l1-1-0.dll
+0x00010e30	ascii	api-ms-win-crt-heap-l1-1-0.dll
+0x00010e50	ascii	api-ms-win-crt-string-l1-1-0.dll
+0x00010e74	ascii	RaiseException
+0x00010e86	ascii	GetSystemInfo
+0x00010e96	ascii	VirtualProtect
+0x00010ea8	ascii	VirtualQuery
+0x00010eb8	ascii	GetModuleHandleW
+0x00010ecc	ascii	GetProcAddress
+0x00010ede	ascii	LoadLibraryExA
+0x00010ef0	ascii	RtlCaptureContext
+0x00010f04	ascii	RtlLookupFunctionEntry
+0x00010f1e	ascii	RtlVirtualUnwind
+0x00010f32	ascii	UnhandledExceptionFilter
+0x00010f4e	ascii	SetUnhandledExceptionFilter
+0x00010f6c	ascii	GetCurrentProcess
+0x00010f80	ascii	TerminateProcess
+0x00010f94	ascii	IsProcessorFeaturePresent
+0x00010fb0	ascii	IsDebuggerPresent
+0x00010fc4	ascii	GetCurrentProcessId
+0x00010fda	ascii	GetSystemTimeAsFileTime
+0x00010ff4	ascii	InitializeSListHead
+0x00011270	ascii	t=o2ASIO Spider V
+0x00011294	utf16le	ASIO Spider V
+0x000112d4	utf16le	Rundll32.exe shell32.dll,Control_RunDLL L6Driver2SpiderVControlPanel.cpl,0,
+0x000114d4	ascii	L6SpiderVAsio_OnInterposer_x64.dll
+0x00011514	ascii	ASIO Spider V
+0x00011554	ascii	ASIO Spider V
+0x00011594	ascii	Apartment
+0x000115d4	ascii	L6SpiderVAsio_OnInterposer_x64.dll
+0x00011614	ascii	ASIO Spider V
+0x0001165c	ascii	Spider V (Left)
+0x000116dc	ascii	Spider V (Right)
+0x0001205c	ascii	Spider V (Left)/Spider V (Right)
+0x000120dc	ascii	Spider V (Left)/Spider V (Right)
+0x00012a60	ascii	Spider V (Left)
+0x00012ae0	ascii	Spider V (Right)
+0x00013460	ascii	Spider V (Left)/Spider V (Right)
+0x000134e0	ascii	Spider V (Left)/Spider V (Right)
+0x00013e98	ascii	.?AVbad_alloc@std@@
+0x00013ec0	ascii	.?AVexception@std@@
+0x00013ee8	ascii	.?AVbad_array_new_length@std@@
+0x00013f18	ascii	.?AW4eL6Exception@@
+0x00013f40	ascii	.?AVtype_info@@
+0x00013f60	ascii	.?AVCBaseObject@@
+0x00013f88	ascii	.?AUINonDelegatingUnknown@@
+0x00013fb8	ascii	.?AVCUnknown@@
+0x00013fd8	ascii	.?AUIClassFactory@@
+0x00014000	ascii	.?AUIUnknown@@
+0x00014020	ascii	.?AVCClassFactory@@
+0x00014048	ascii	.?AVL6String@@
+0x00014068	ascii	.?AVL6Mutex@@
+0x00014088	ascii	.?AVAsioOnInterposerDrv@@
+0x000140b8	ascii	.?AUIASIO@@
+0x00014ca6	utf16le	VS_VERSION_INFO
+0x00014d02	utf16le	StringFileInfo
+0x00014d26	utf16le	040904b0
+0x00014d3e	utf16le	CompanyName
+0x00014d58	utf16le	Yamaha Guitar Group
+0x00014d86	utf16le	FileDescription
+0x00014da8	utf16le	ASIO dll
+0x00014dc2	utf16le	FileVersion
+0x00014ddc	utf16le	2.00.0.0
+0x00014df6	utf16le	InternalName
+0x00014e10	utf16le	Asio_OnInterposer2_5
+0x00014e42	utf16le	LegalCopyright
+0x00014e60	utf16le	Copyright (C) 2024
+0x00014e8e	utf16le	OriginalFilename
+0x00014eb0	utf16le	Asio_OnInterposer2_5.dll
+0x00014eea	utf16le	ProductName
+0x00014f04	utf16le	Asio_OnInterposer2_5
+0x00014f36	utf16le	ProductVersion
+0x00014f54	utf16le	2.00.0.0
+0x00014f6e	utf16le	VarFileInfo
+0x00014f8e	utf16le	Translation
+0x00014fb0	ascii	<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+0x00014fe9	ascii	<assembly xmlns='urn:schemas-microsoft-com:asm.v1' manifestVersion='1.0'>
+0x00015034	ascii	</assembly>
+0x000154dd	ascii	DigiCert Inc1
+0x000154f4	ascii	www.digicert.com1!0
+0x0001550f	ascii	DigiCert Trusted Root G40
+0x0001552b	ascii	210429000000Z
+0x0001553a	ascii	360428235959Z0i1
+0x00015561	ascii	DigiCert, Inc.1A0?
+0x00015579	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+0x0001561a	ascii	>Mp$d
+0x0001570e	ascii	6*f(_
+0x0001576a	ascii	[K]taM?
+0x00015794	ascii	J>@G_
+0x000157bf	ascii	SA|X=G
+0x00015866	ascii	k0i0$
+0x00015877	ascii	http://ocsp.digicert.com0A
+0x0001589c	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+0x000158da	ascii	<0:08
+0x000158e4	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0
+0x00015afb	ascii	jj@0HK4
+0x00015b91	ascii	DigiCert, Inc.1A0?
+0x00015ba9	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA10
+0x00015be6	ascii	230519000000Z
+0x00015bf5	ascii	250716235959Z0
+0x00015c2d	ascii	California1
+0x00015c42	ascii	Private Organization1
+0x00015c61	ascii	14289031
+0x00015c80	ascii	California1
+0x00015c95	ascii	Calabasas1"0 
+0x00015ca9	ascii	Yamaha Guitar Group, Inc.1"0 
+0x00015ccd	ascii	Yamaha Guitar Group, Inc.0
+0x00015d6b	ascii	8n8X:n
+0x00015e50	ascii	\geyh
+0x00015e9b	ascii	BZP<l
+0x00015f8e	ascii	Mhttp://crl3.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0S
+0x00015fe3	ascii	Mhttp://crl4.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crl0=
+0x00016039	ascii	60402
+0x00016055	ascii	http://www.digicert.com/CPS0
+0x00016091	ascii	http://ocsp.digicert.com0\
+0x000160b6	ascii	Phttp://cacerts.digicert.com/DigiCertTrustedG4CodeSigningRSA4096SHA3842021CA1.crt0
+0x0001612d	ascii	j'[&.y
+0x00016213	ascii	&RibOB3Y
+0x00016301	ascii	s[[0E
+0x0001631d	ascii	nK.v7i
+0x00016331	ascii	0}0i1
+0x0001634d	ascii	DigiCert, Inc.1A0?
+0x00016365	ascii	8DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1
+0x0001648e	ascii	3<#_3
+0x00016510	ascii	^WI?!
+0x0001658a	ascii	hM3lS
+0x000165b7	ascii	_>rSl
+0x000166fe	ascii	20240119154617Z
+0x00016759	ascii	DigiCert, Inc.1;09
+0x00016771	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+0x000167a8	ascii	230714000000Z
+0x000167b7	ascii	341013235959Z0H1
+0x000167de	ascii	DigiCert, Inc.1 0
+0x000167f7	ascii	DigiCert Timestamp 20230
+0x000168ce	ascii	H-^Eu
+0x00016adc	ascii	S0Q0O
+0x00016ae6	ascii	Ihttp://crl3.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crl0
+0x00016b51	ascii	http://ocsp.digicert.com0X
+0x00016b76	ascii	Lhttp://cacerts.digicert.com/DigiCertTrustedG4RSA4096SHA256TimeStampingCA.crt0
+0x00016c1d	ascii	a7hIw
+0x00016db3	ascii	l2|X/gGe
+0x00016df1	ascii	(f*^[0
+0x00016e1f	ascii	DigiCert Inc1
+0x00016e36	ascii	www.digicert.com1!0
+0x00016e51	ascii	DigiCert Trusted Root G40
+0x00016e6d	ascii	220323000000Z
+0x00016e7c	ascii	370322235959Z0c1
+0x00016ea3	ascii	DigiCert, Inc.1;09
+0x00016ebb	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA0
+0x00016f16	ascii	=rIQU
+0x00016fba	ascii	!hn7!
+0x00017019	ascii	{un'%
+0x00017045	ascii	+Xt@(
+0x00017096	ascii	,W5y+
+0x000171a2	ascii	k0i0$
+0x000171b3	ascii	http://ocsp.digicert.com0A
+0x000171d8	ascii	5http://cacerts.digicert.com/DigiCertTrustedRootG4.crt0C
+0x00017216	ascii	<0:08
+0x00017220	ascii	2http://crl3.digicert.com/DigiCertTrustedRootG4.crl0 
+0x000172ca	ascii	 %41g
+0x00017398	ascii	',=?k
+0x000174d1	ascii	DigiCert Inc1
+0x000174e8	ascii	www.digicert.com1$0"
+0x00017503	ascii	DigiCert Assured ID Root CA0
+0x00017522	ascii	220801000000Z
+0x00017531	ascii	311109235959Z0b1
+0x00017558	ascii	DigiCert Inc1
+0x0001756f	ascii	www.digicert.com1!0
+0x0001758a	ascii	DigiCert Trusted Root G40
+0x000175cb	ascii	]J<0"0i3
+0x000176ed	ascii	v=Y]Bv
+0x00017791	ascii	|Lu?c
+0x0001783e	ascii	m0k0$
+0x0001784f	ascii	http://ocsp.digicert.com0C
+0x00017874	ascii	7http://cacerts.digicert.com/DigiCertAssuredIDRootCA.crt0E
+0x000178b4	ascii	>0<0:
+0x000178be	ascii	4http://crl3.digicert.com/DigiCertAssuredIDRootCA.crl0
+0x000179a6	ascii	5FjiT
+0x000179f1	ascii	~qj#k"
+0x00017a25	ascii	0w0c1
+0x00017a41	ascii	DigiCert, Inc.1;09
+0x00017a59	ascii	2DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA
+0x00017add	ascii	240119154617Z0+
+0x00017b56	ascii	/1(0&0$0"
+0x00017b6b	ascii	@WhA6o

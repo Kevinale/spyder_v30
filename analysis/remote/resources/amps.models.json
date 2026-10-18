@@ -1,0 +1,5244 @@
+[
+  {
+    "symbolicID": "ClassA30Fawn",
+    "id": 131149,
+    "category": 1,
+    "name": "Class A-30 Fawn",
+    "shortname": "Class A-30 Fawn",
+    "icon": "amp-gtr-vox-classa30fawn",
+    "cablink": "2x12ClassAFawnStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.95,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Cut",
+        "persist": 0,
+        "symbolicID": "Cut",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BlackfaceLux",
+    "id": 131092,
+    "category": 1,
+    "name": "1964 Blackface 'Lux",
+    "shortname": "Blackface 'Lux",
+    "icon": "amp-gtr-fender-deluxe-1964",
+    "cablink": "1x12BlackfaceStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.89,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.49,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.84,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BomberUber",
+    "id": 131119,
+    "category": 1,
+    "name": "2002 Bomber Uber",
+    "shortname": "Bomber Uber",
+    "icon": "amp-gtr-bogner-uberschall-2002",
+    "cablink": "4x12Line6Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.52,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.31,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.71,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.57,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "ClassA30TopBoost",
+    "id": 131117,
+    "category": 1,
+    "name": "1967 Class A-30 Top Boost",
+    "shortname": "Class A-30 TB",
+    "icon": "amp-gtr-vox-ac30topboost-1967",
+    "cablink": "2x12ClassAStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.39,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.88,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "ClassA15",
+    "id": 131116,
+    "category": 1,
+    "name": "1960 Class A-15",
+    "shortname": "Class A-15",
+    "icon": "amp-gtr-vox-ac15-1960",
+    "cablink": "1x12ClassAStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.49,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.49,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.54,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "SuperOThunder",
+    "id": 131115,
+    "category": 1,
+    "name": "1962 Super O Thunder",
+    "shortname": "Super O Thunder",
+    "icon": "amp-gtr-supro-thunderbolt-1962",
+    "cablink": "1x15ThunderStudio",
+    "cabER": 0.0,
+    "cabmic": 2,
+    "params": [
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.71,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.95,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "SuperO",
+    "id": 131114,
+    "category": 1,
+    "name": "1960s Super O",
+    "shortname": "Super O",
+    "icon": "amp-gtr-supros6616-1960s",
+    "cablink": "1x6SuperOStudio",
+    "cabER": 0.0,
+    "cabmic": 2,
+    "params": [
+      {
+        "default": 0.68,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.51,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.79,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.23,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.79,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Solo100Head",
+    "id": 131113,
+    "category": 1,
+    "name": "1993 Solo 100 Head",
+    "shortname": "Solo 100 Head",
+    "icon": "amp-gtr-soldano-solo100-1993",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 2,
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.77,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.56,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.46,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "WishbookSilver12",
+    "id": 131112,
+    "category": 1,
+    "name": "1967 Wishbook Silver 12",
+    "shortname": "Wishbook 12",
+    "icon": "amp-gtr-fender-silvertone-twin12-1967",
+    "cablink": "2x12WishbookStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.51,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.58,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.81,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.85,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "JazzClean",
+    "id": 131111,
+    "category": 1,
+    "name": "1987 Jazz Clean",
+    "shortname": "Jazz Clean",
+    "icon": "amp-gtr-roland-jc120-1987",
+    "cablink": "2x12JazzStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.33,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "MississippiCriminal",
+    "id": 131145,
+    "category": 1,
+    "name": "2002 Mississippi Criminal",
+    "shortname": "Criminal",
+    "icon": "amp-gtr-peavy-5150-2002",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.93,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.41,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "CitrusD30",
+    "id": 131146,
+    "category": 1,
+    "name": "Citrus D-30",
+    "shortname": "Citrus D-30",
+    "icon": "amp-gtr-orange-d30",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.64,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.45,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "CaliDiamondPlate",
+    "id": 131109,
+    "category": 1,
+    "name": "2001 Cali Diamond Plate",
+    "shortname": "Diamond Plate",
+    "icon": "amp-gtr-mesaboogie-triplerectifier-2001",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.51,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "TreadplateDual",
+    "id": 131108,
+    "category": 1,
+    "name": "2001 Treadplate Dual",
+    "shortname": "Tread Dual",
+    "icon": "amp-gtr-mesaboogie-dualrectifier-2001",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.35,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.31,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "CaliCrunch",
+    "id": 131110,
+    "category": 1,
+    "name": "1985 Cali Crunch",
+    "shortname": "Cali Crunch",
+    "icon": "amp-gtr-mesaboogie-markiic-1985",
+    "cablink": "1x12Line6Studio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.95,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.4,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "MatchD30",
+    "id": 131107,
+    "category": 1,
+    "name": "1993 Match D-30",
+    "shortname": "Match D-30",
+    "icon": "amp-gtr-matchless-dc30-1993",
+    "cablink": "2x12MatchStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "MatchChief",
+    "id": 131106,
+    "category": 1,
+    "name": "1996 Match Chief",
+    "shortname": "Match Chief",
+    "icon": "amp-gtr-matchless-chieftan-1996",
+    "cablink": "2x12MatchStudio",
+    "cabER": 0.0,
+    "cabmic": 2,
+    "params": [
+      {
+        "default": 0.47,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.94,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.57,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritGainSilverJ",
+    "id": 131141,
+    "category": 1,
+    "name": "1987 Brit Gain Silver J",
+    "shortname": "Brit Silver J",
+    "icon": "amp-gtr-brit-gain-silverj-1987",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritPlexi45",
+    "id": 131098,
+    "category": 1,
+    "name": "1965 Plexi 45",
+    "shortname": "Plexi 45",
+    "icon": "amp-gtr-marshall-plexi-45-1965",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.28,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.95,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.94,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.57,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritJMPre",
+    "id": 131105,
+    "category": 1,
+    "name": "1996 Brit JM Pre",
+    "shortname": "Brit JM Pre",
+    "icon": "amp-gtr-marshall-jmpre-1996",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.57,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.88,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.93,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritGainJ900Dist",
+    "id": 131143,
+    "category": 1,
+    "name": "1992 Brit Gain J-900 Dist",
+    "shortname": "Brit J-900 Dist",
+    "icon": "amp-gtr-brit-gain-j900dist-1992",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.31,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.68,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.85,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.92,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.54,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritGainJ900Clean",
+    "id": 131142,
+    "category": 1,
+    "name": "1992 Brit Gain J-900 Clean",
+    "shortname": "Brit J-900 Cln",
+    "icon": "amp-gtr-brit-gain-j900clean-1992",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 2,
+    "params": [
+      {
+        "default": 0.37,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.43,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.94,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.93,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.42,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritGainJ2000",
+    "id": 131144,
+    "category": 1,
+    "name": "2003 Brit Gain J-2000",
+    "shortname": "Brit Gain J-2K",
+    "icon": "amp-gtr-brit-j2000-2003",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.71,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritGainJ2000_2",
+    "id": 131151,
+    "category": 1,
+    "name": "Brit J-2000 #2",
+    "shortname": "Brit J-2000 #2",
+    "icon": "amp-gtr-brit-j2000-2003",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.56,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.47,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritGainJ800",
+    "id": 131104,
+    "category": 1,
+    "name": "1990 Brit J-800",
+    "shortname": "Brit J-800",
+    "icon": "amp-gtr-marshall-j800-1990",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.77,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.79,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.37,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.51,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritPlexiLead200",
+    "id": 131103,
+    "category": 1,
+    "name": "1969 Brit Plexi Lead 200",
+    "shortname": "Plexi Lead 200",
+    "icon": "amp-gtr-marshall-lead200-1969",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.35,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.68,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.32,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.44,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritPlexiVariac",
+    "id": 131102,
+    "category": 1,
+    "name": "1968 Plexi Variac'd",
+    "shortname": "Plexi Variac'd",
+    "icon": "amp-gtr-marshall-superlead-variacd-1968",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.27,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.78,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.35,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.94,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.52,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritPlexiJumpLead",
+    "id": 131101,
+    "category": 1,
+    "name": "1968 Plexi Jump Lead",
+    "shortname": "Plexi Jump",
+    "icon": "amp-gtr-marshall-superleadjumped-1968",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.57,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.95,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.54,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritPlexiLead100",
+    "id": 131099,
+    "category": 1,
+    "name": "1968 Plexi Lead 100",
+    "shortname": "Plexi Lead 100",
+    "icon": "amp-gtr-marshall-superlead-100",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.56,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritPlexiBass100",
+    "id": 131100,
+    "category": 1,
+    "name": "1968 Brit Plexi Bass 100",
+    "shortname": "Plexi Bass 100",
+    "icon": "amp-gtr-marshall-superleadbass-1968",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BritGain18",
+    "id": 131150,
+    "category": 1,
+    "name": "Brit Gain 18",
+    "shortname": "Brit Gain 18",
+    "icon": "amp-gtr-brit-gain-18",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6ModernHiGain",
+    "id": 131147,
+    "category": 1,
+    "name": "Line 6 Modern Hi Gain",
+    "shortname": "Line 6 Hi Gain",
+    "icon": "amp-gtr-line6-modernhigain",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.78,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.47,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Boutique1",
+    "id": 131148,
+    "category": 1,
+    "name": "Line 6 Boutique #1",
+    "shortname": "Line 6 Boutique",
+    "icon": "amp-gtr-line6-boutique1",
+    "cablink": "2x12MatchStudio",
+    "cabER": 0.0,
+    "cabmic": 2,
+    "params": [
+      {
+        "default": 0.47,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.58,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.95,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6VariaxAcoustic",
+    "id": 131122,
+    "category": 1,
+    "name": "Line 6 Variax Acoustic",
+    "shortname": "Line 6 Acoustic",
+    "icon": "amp-gtr-line6-variaxacoustic",
+    "cablink": "2x12JazzStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Twang",
+    "id": 131075,
+    "category": 1,
+    "name": "Line 6 Twang",
+    "shortname": "Line 6 Twang",
+    "icon": "amp-gtr-line6-twang",
+    "cablink": "2x12BlackfaceStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.71,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.44,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Throttle",
+    "id": 131081,
+    "category": 1,
+    "name": "Line 6 Throttle",
+    "shortname": "Line 6 Throttle",
+    "icon": "amp-gtr-line6-throttle",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.93,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.84,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.86,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.46,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.44,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6SpinalPuppet",
+    "id": 131080,
+    "category": 1,
+    "name": "Line 6 Spinal Puppet",
+    "shortname": "Line 6 Puppet",
+    "icon": "amp-gtr-line6-spinalpuppet",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.25,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.84,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.47,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6SparkleClean",
+    "id": 131125,
+    "category": 1,
+    "name": "Line 6 Sparkle Clean",
+    "shortname": "Line 6 Sp Clean",
+    "icon": "amp-gtr-line6-sparkleclean",
+    "cablink": "1x12ClassAStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.64,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.2,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Sparkle",
+    "id": 131074,
+    "category": 1,
+    "name": "Line 6 Sparkle",
+    "shortname": "Line 6 Sparkle",
+    "icon": "amp-gtr-line6-sparkle",
+    "cablink": "1x12ClassAStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.3,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.85,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.36,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.93,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Smash",
+    "id": 131127,
+    "category": 1,
+    "name": "Line 6 Smash",
+    "shortname": "Line 6 Smash",
+    "icon": "amp-gtr-line6-smash",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.16,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.99,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.86,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.46,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.44,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Recto",
+    "id": 131131,
+    "category": 1,
+    "name": "Line 6 Treadplate",
+    "shortname": "Line 6 Tread",
+    "icon": "amp-gtr-line6-treadplate",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.64,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.42,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.71,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.46,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Purge",
+    "id": 131083,
+    "category": 1,
+    "name": "Line 6 Purge",
+    "shortname": "Line 6 Purge",
+    "icon": "amp-gtr-line6-purge",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.94,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.88,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.56,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.57,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Octone",
+    "id": 131085,
+    "category": 1,
+    "name": "Line 6 Octone",
+    "shortname": "Line 6 Octone",
+    "icon": "amp-gtr-line6-octone",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.95,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.92,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.43,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Mood",
+    "id": 131079,
+    "category": 1,
+    "name": "Line 6 Mood",
+    "shortname": "Line 6 Mood",
+    "icon": "amp-gtr-line6-mood",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.46,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.86,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Lunatic",
+    "id": 131132,
+    "category": 1,
+    "name": "Line 6 Lunatic",
+    "shortname": "Line 6 Lunatic",
+    "icon": "amp-gtr-line6-lunatic",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.49,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.43,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6JTS_45",
+    "id": 131077,
+    "category": 1,
+    "name": "Line 6 JTS-45",
+    "shortname": "Line 6 JTS-45",
+    "icon": "amp-gtr-line6-jts45",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.54,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.92,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.46,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Insane",
+    "id": 131084,
+    "category": 1,
+    "name": "Line 6 Insane",
+    "shortname": "Line 6 Insane",
+    "icon": "amp-gtr-line6-insane",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.77,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.88,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.79,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.64,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Fuzz",
+    "id": 131128,
+    "category": 1,
+    "name": "Line 6 Fuzz",
+    "shortname": "Line 6 Fuzz",
+    "icon": "amp-gtr-line6-fuzz",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.64,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.96,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Crunch",
+    "id": 131126,
+    "category": 1,
+    "name": "Line 6 Crunch",
+    "shortname": "Line 6 Crunch",
+    "icon": "amp-gtr-line6-crunch",
+    "cablink": "4x12Green20sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.52,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Clean",
+    "id": 131073,
+    "category": 1,
+    "name": "Line 6 21st Century Clean",
+    "shortname": "Line 6 Clean",
+    "icon": "amp-gtr-line6-clean",
+    "cablink": "2x12Line6Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.2,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6ClassADrive",
+    "id": 131078,
+    "category": 1,
+    "name": "Line 6 Class A",
+    "shortname": "Line 6 Class A",
+    "icon": "amp-gtr-line6-classadrive",
+    "cablink": "1x12ClassAStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.45,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.24,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.84,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6ChnkChnk",
+    "id": 131129,
+    "category": 1,
+    "name": "Line 6 Chunk Chunk",
+    "shortname": "Line 6 Chunk",
+    "icon": "amp-gtr-line6-chunkchunk",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.96,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.51,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6ChemicalX",
+    "id": 131082,
+    "category": 1,
+    "name": "Line 6 Chemical X",
+    "shortname": "Line 6 Chem X",
+    "icon": "amp-gtr-line6-chemicalx",
+    "cablink": "4x12BritT75Studio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.81,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.64,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.86,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.58,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.46,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6BigBottom",
+    "id": 131130,
+    "category": 1,
+    "name": "Line 6 Big Bottom",
+    "shortname": "Line 6 Big Bot",
+    "icon": "amp-gtr-line6-bigbottom",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.54,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.68,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.37,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.72,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Bayou",
+    "id": 131076,
+    "category": 1,
+    "name": "Line 6 Bayou",
+    "shortname": "Line 6 Bayou",
+    "icon": "amp-gtr-line6-bayou",
+    "cablink": "2x12Line6Studio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.77,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.37,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.31,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.27,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6Argo",
+    "id": 131133,
+    "category": 1,
+    "name": "Line 6 Agro",
+    "shortname": "Line 6 Agro",
+    "icon": "amp-gtr-line6-agro",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.45,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.74,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.54,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6AcousticAmp2",
+    "id": 131087,
+    "category": 1,
+    "name": "Line 6 Piezacoustic 2",
+    "shortname": "Line 6 Piezo 2",
+    "icon": "amp-gtr-line6-acoustic2",
+    "cablink": "@NoCabinet",
+    "params": [
+      {
+        "default": 0.68,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.86,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.22,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.31,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.58,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "L6TubePreamp",
+    "id": 131118,
+    "category": 1,
+    "name": "Tube Instrument Preamp",
+    "shortname": "Tube Pre",
+    "icon": "amp-gtr-tubepreamp",
+    "cablink": "@NoCabinet",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.25,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6SuperSparkle",
+    "id": 131124,
+    "category": 1,
+    "name": "Line 6 Super Sparkle",
+    "shortname": "Line 6 Super Sp",
+    "icon": "amp-gtr-line6-supersparkle",
+    "cablink": "2x12JazzStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.59,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.28,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.68,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6SuperClean",
+    "id": 131123,
+    "category": 1,
+    "name": "Line 6 Super Clean",
+    "shortname": "Line 6 Super Cl",
+    "icon": "amp-gtr-line6-superclean",
+    "cablink": "2x12WishbookStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.56,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.86,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.13,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.93,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Hiway100",
+    "id": 131097,
+    "category": 1,
+    "name": "1973 Hiway 100",
+    "shortname": "Hiway 100",
+    "icon": "amp-gtr-hiwattcustom-100-1973",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.59,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.51,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.84,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.39,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "TwoTone",
+    "id": 131096,
+    "category": 1,
+    "name": "1960 Two-Tone",
+    "shortname": "Two-Tone",
+    "icon": "amp-gtr-gretsch-1960",
+    "cablink": "1x10G-BrandStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.94,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.44,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.95,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.81,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "GibtoneExpo",
+    "id": 131095,
+    "category": 1,
+    "name": "1960 Gibtone Expo",
+    "shortname": "Gibtone Expo",
+    "icon": "amp-gtr-gibson-explorer-1960",
+    "cablink": "1x10GibtoneStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.54,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.85,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.57,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "MiniDouble",
+    "id": 131094,
+    "category": 1,
+    "name": "1996 Mini Double",
+    "shortname": "Mini Double",
+    "icon": "amp-gtr-fender-minitwin-1996",
+    "cablink": "2x2MiniTStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.36,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.36,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BlackfaceVibro",
+    "id": 131138,
+    "category": 1,
+    "name": "1963 Blackface Vibro",
+    "shortname": "Blackface Vibro",
+    "icon": "amp-gtr-fender-vibrolux-1963",
+    "cablink": "2x12BlackfaceStudio",
+    "cabER": 0.0,
+    "cabmic": 2,
+    "params": [
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.68,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "DoubleShow",
+    "id": 131139,
+    "category": 1,
+    "name": "1967 Double Show",
+    "shortname": "Double Show",
+    "icon": "amp-gtr-fender-dualshowman-1967",
+    "cablink": "4x12Line6Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.68,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "LowMid",
+        "valueType": 1
+      },
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "HiMid",
+        "valueType": 1
+      },
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "SilverfaceBass",
+    "id": 131140,
+    "category": 1,
+    "name": "1972 Silverface Bass",
+    "shortname": "Silverface Bass",
+    "icon": "amp-gtr-fender-silverbasshead-1972",
+    "cablink": "2x12BlackfaceStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "LoMid",
+        "valueType": 1
+      },
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.86,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "HiMid",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "TinyTweed",
+    "id": 131091,
+    "category": 1,
+    "name": "1960 Tiny Tweed",
+    "shortname": "Tiny Tweed",
+    "icon": "amp-gtr-tweedchamp-1960",
+    "cablink": "1x8TinyTweedStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.82,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.67,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "TweedBMan",
+    "id": 131090,
+    "category": 1,
+    "name": "1958 Tweed B-Man",
+    "shortname": "Tweed B-Man",
+    "icon": "amp-gtr-fender-bassman-1958",
+    "cablink": "4x10TweedStudio",
+    "cabER": 0.0,
+    "cabmic": 3,
+    "params": [
+      {
+        "default": 0.64,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.86,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.77,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.54,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.58,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "SmallTweed",
+    "id": 131089,
+    "category": 1,
+    "name": "1953 Small Tweed",
+    "shortname": "Small Tweed",
+    "icon": "amp-gtr-tweeddeluxe-1953",
+    "cablink": "1x12TweedStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.93,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.79,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.42,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "DoubleVerb",
+    "id": 131093,
+    "category": 1,
+    "name": "1965 Double Verb",
+    "shortname": "Double Verb",
+    "icon": "amp-gtr-fender-twinreverb-1965",
+    "cablink": "2x12BlackfaceStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.75,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.78,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.37,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "AngelPBall",
+    "id": 131121,
+    "category": 1,
+    "name": "2002 ANGEL P-Ball",
+    "shortname": "ANGEL P-Ball",
+    "icon": "amp-gtr-engl-pball-2002",
+    "cablink": "4x12Line6Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.65,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.6,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.69,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.77,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.66,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.47,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "DeityCrunch",
+    "id": 131135,
+    "category": 1,
+    "name": "2003 Deity Crunch",
+    "shortname": "Deity Crunch",
+    "icon": "amp-gtr-deisel-crunch-2003",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.79,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.04,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.94,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.4,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "DeitySon",
+    "id": 131137,
+    "category": 1,
+    "name": "2003 Deity's Son",
+    "shortname": "Deity's Son",
+    "icon": "amp-gtr-deisel-son-2003",
+    "cablink": "4x12TreadplateStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.35,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.94,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.37,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "DeityLead",
+    "id": 131136,
+    "category": 1,
+    "name": "2003 Deity Lead",
+    "shortname": "Deity Lead",
+    "icon": "amp-gtr-deisel-lead-2003",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 0,
+    "params": [
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.58,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.97,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.92,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.85,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.42,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Connor50",
+    "id": 131134,
+    "category": 1,
+    "name": "2003 Connor 50",
+    "shortname": "Connor 50",
+    "icon": "amp-gtr-connor-50-2003",
+    "cablink": "4x12Green25sStudio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.73,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.68,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.7,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.81,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.36,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "ZenMaster",
+    "id": 131088,
+    "category": 1,
+    "name": "2001 Zen Master",
+    "shortname": "Zen Master",
+    "icon": "amp-gtr-budda-twinmaster-2001",
+    "cablink": "2x12Line6Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.61,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.48,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.79,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.81,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "BomberXTC",
+    "id": 131120,
+    "category": 1,
+    "name": "2002 Bomber X-TC",
+    "shortname": "Bomber X-TC",
+    "icon": "amp-gtr-bogner-xtc-2002",
+    "cablink": "4x12Line6Studio",
+    "cabER": 0.0,
+    "cabmic": 1,
+    "params": [
+      {
+        "default": 0.42,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.53,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "persist": 0,
+        "symbolicID": "Mid",
+        "valueType": 1
+      },
+      {
+        "default": 0.62,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.43,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.46,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Presence",
+        "persist": 0,
+        "symbolicID": "Presence",
+        "valueType": 1
+      },
+      {
+        "default": 0.52,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "Bypass",
+    "id": 131072,
+    "category": 1,
+    "name": "No Amp",
+    "shortname": "No Amp",
+    "icon": "amp-gtr-bypass",
+    "cablink": "@NoCabinet",
+    "params": [
+      {
+        "default": 0.57,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Volume",
+        "persist": 0,
+        "symbolicID": "@volume",
+        "valueType": 1
+      }
+    ]
+  }
+]

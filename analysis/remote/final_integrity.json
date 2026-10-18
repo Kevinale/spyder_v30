@@ -1,0 +1,261 @@
+{
+  "files_checked": 51,
+  "all_match": true,
+  "checks": [
+    {
+      "path": "/workspace/attachments/067d4da3-31b0-44f2-a065-a4c6276cc2c3/Spider V Remote 2.01 Installer.7z.003",
+      "sha256": "90823d1d7cfb3b90f4d3789ff20c5d5cd629ebd500ef72ad108b1ee2a17dc187",
+      "matches": true
+    },
+    {
+      "path": "/workspace/attachments/6642b5a1-4fcc-46ec-a290-3ef980da81b5/Spider V Remote 2.01 Installer.7z.002",
+      "sha256": "b22161ff6e34f0e9d83878873c392b6aa797780b129b7319e80e10d9ab602c16",
+      "matches": true
+    },
+    {
+      "path": "/workspace/attachments/c62c2dda-7cbc-4b62-a473-59098fc12531/Spider V Remote 2.01 Installer.7z.004",
+      "sha256": "18e2eb7a89e19c45a9628c8cc106ca088bbbb7de9d49fcf2161a5e61a34ca9b8",
+      "matches": true
+    },
+    {
+      "path": "/workspace/attachments/ff7a1d90-e573-4389-849a-a63f40db5673/Spider V Remote 2.01 Installer.7z.001",
+      "sha256": "5301d4ffa31891d10346382eecc62af272d815a8953f18bf1a1054796a49b941",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/reconstructed/Spider V Remote 2.01 Installer.exe",
+      "sha256": "1f8291548abbd72ba73322e8d8916fdc8083badc2dc15d49933a87c4dc17a613",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/$PLUGINSDIR/DotNetChecker.dll",
+      "sha256": "45e15d319084e019d4db5a3081533ba8c032308cf35384abf8b65ddbac6c5f9d",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/$PLUGINSDIR/InstallOptions.dll",
+      "sha256": "78012f560bb917218435f4b3ef2e3491bab15647e11ccb90bc117731181134c4",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/$PLUGINSDIR/System.dll",
+      "sha256": "a1390a78533c47e55cc364e97af431117126d04a7faed49390210ea3e89dd0e1",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/$PLUGINSDIR/UserInfo.dll",
+      "sha256": "11adf8916947b5a20a071b494fa034cf62769dcc6293a1340b29a5bb29ac8e87",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/$PLUGINSDIR/ioSpecial.ini",
+      "sha256": "d95aed234f932a1c48a2b1b0d98c60ca31f962310c03158e2884ab4ddd3ea1e0",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/$PLUGINSDIR/modern-header.bmp",
+      "sha256": "e9f494a0df913cb48f927c37bc4b5024c33b3f5b9021bf44dab93339ec71a4b4",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/$PLUGINSDIR/modern-wizard.bmp",
+      "sha256": "4bc5255b7425e01bb0bd757c097b734284d51f6704c1c98fe8fe514900decfad",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/$PLUGINSDIR/nsDialogs.dll",
+      "sha256": "3cdf3e24c87666ed5c582b8b028c01ee6ac16d5a9b8d8d684ae67605376786ea",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/$PLUGINSDIR/page_spider_remote_readme.ini",
+      "sha256": "29310f3bb4837f3d5555150abc887c9c224365c5c032da4a87cc18de5c8fe23f",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/$TEMP/dotNETInstaller.exe",
+      "sha256": "28886593e3b32f018241a4c0b745e564526dbb3295cb2635944e3a393f4278d4",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/$TEMP/redist.exe",
+      "sha256": "2da11e22a276be85970eaed255daf3d92af84e94142ec04252326a882e57303e",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/APIV3EngineDLL.dll",
+      "sha256": "a46c6161d7e2a8ef4f73ecb5ad277ad1a87d7c82ca13ea4a36b210f9d34f5edf",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/AssetDefs.plist",
+      "sha256": "a5c1bbe71a701a58db25eb4865d0032bcd87089bdf5cefa00334d8ebebbf76f6",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/EngineCLIWrapper.dll",
+      "sha256": "1f22c601e72bb6540a5f52adbb1e661ef3117d3d398839406b49ac98b3a99a61",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/Interposer.dll",
+      "sha256": "86efd2f9a9d5f5b1de9d60a92a3857e574f299f3a689b144a97b0e324e5eb037",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/Microsoft.Toolkit.Wpf.UI.Controls.WebView.dll",
+      "sha256": "dc7dd762ba71efb34d0c6f1c6050d36a6132dce7314acc6ac8f983b7117513c2",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/Microsoft.Toolkit.Wpf.UI.Controls.WebView.xml",
+      "sha256": "eeb0a590d70f314ca860839fdabf7ee5acdee77824880315094e09b61f658269",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/Newtonsoft.Json.dll",
+      "sha256": "b66749b81e1489fcd8d754b2ad39ebe0db681344e392a3f49dc9235643bdbd06",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/Newtonsoft.Json.xml",
+      "sha256": "bfb2b3619bb456629cb3b3bb321ff751d06e1c04c8749e2114e85f4578efd4b0",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/Spider V Remote Uninstaller.exe",
+      "sha256": "a724b98a12c1ed16018ea76fa06f655853bdaa67821be651effa66875fe399ee",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/Spider V Remote.exe",
+      "sha256": "5e708108639106bf422c77931a2b98a7b3687c64ae512ac27e92533ca57fc0d5",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/System.ValueTuple.dll",
+      "sha256": "e4774aead2793f440e0ced6c097048423d118e0b6ed238c6fe5b456acb07817f",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/System.ValueTuple.xml",
+      "sha256": "b5c69cb0668b009900333ba825e11e70a5c0bef1d06f934f9cf60889a027aa73",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/libusb-1.0.dll",
+      "sha256": "1ca58b8f7d38a74c862fc4dac47642fc78248568a7c6337117bcae1471848284",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/msvcr120.dll",
+      "sha256": "86e39b5995af0e042fcdaa85fe2aefd7c9ddc7ad65e6327bd5e7058bc3ab615f",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/amps.models",
+      "sha256": "968ff7d4eaa870a50521f01e7d5950eec8e3dbc379a4ed7da569df04ad40535e",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/amps_hd.models",
+      "sha256": "041dcead7f10f89e2957c3c108545fb30bb6f30058946c28513f26ea36e86a17",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/cabs.models",
+      "sha256": "1d770255bc66d7252c74fc961c1b27b259dd3601c35419cc8765a860ec32c5c9",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable.bin",
+      "sha256": "45d0f3e16a2d9d4b3c987acb41369f8e260ba0eb91178ed8bd0879b1163b6666",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_AEON.bin",
+      "sha256": "fb14b18317f3fed81586c321c32858bf0a4eb51ac9599c477a8e82d245d0b415",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_Dio.bin",
+      "sha256": "4383c924a7b43e4017585c525312b06d6315984122751632c63a6ce502d13fae",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_FX100.bin",
+      "sha256": "d4e6db29dd2b226e76c7e539bcd137bd4d313e3b3a04b630e36229626c09293c",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_Firebird.bin",
+      "sha256": "9bdd8e8c1ea6a6b78f111cee7541212a7422528f754e2e0ded7fd936a4f1be22",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_Parker.bin",
+      "sha256": "cff12f33ba3645bcc842ef117badfca14d6d6929f6d24a3500f726ff7ae109b4",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/defaultSymbolTable_TT.bin",
+      "sha256": "4383c924a7b43e4017585c525312b06d6315984122751632c63a6ce502d13fae",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/default_preset.json",
+      "sha256": "48c2b8b25706399a332b9a18dcebced92a35997f82c6801f7abbda6f9ccf5e20",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/default_preset_AEON.json",
+      "sha256": "f844206796a56afce94e8de1f4ad10699008b7a3ba94e846773b7464f2d45936",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/default_preset_parker.json",
+      "sha256": "3311d4ba8f3c4874e53df49337a3b6710bbe423337667f199678eba92c69f7c9",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/delay.models",
+      "sha256": "1587838a393671c5953b22ef60979a413f9624700db471ac0e80ec8c2eae6e7e",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/fixed.models",
+      "sha256": "0f790e48f397e486ee920f1b433776942b8a29a036db047032f81b1f0ea23392",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/mod.models",
+      "sha256": "0a5d7c94b255704c096e38fac851ccec299fc07bfdca5b9cc9a1ff458714178b",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/reverbs.models",
+      "sha256": "7c7a4845613735facc83ea2642a658cc9bf24c9d87118b4eac84b09c86737901",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/reverbs_mclass.models",
+      "sha256": "cbe0317e4773562d46697be922c22dd1dcdd01be9310dd5719d012cb5c62feb0",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/stomps.models",
+      "sha256": "c351d237bdcf22a2396b7e43ecc95f358e2b4d85b87860c615cbba7ce11abcf7",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/stomps_hd.models",
+      "sha256": "094381323c401eaf56897e6295a13129ca1ef952693a4210d2784c53db2f8538",
+      "matches": true
+    },
+    {
+      "path": "/workspace/analysis/remote/extracted/Spider V Remote/res/wahs.models",
+      "sha256": "4cbe9fbeaed7f03e4b0aeaf9aead421649b47c279988106547ce6ee57eaa6fec",
+      "matches": true
+    }
+  ]
+}

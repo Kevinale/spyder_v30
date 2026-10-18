@@ -1,0 +1,7 @@
+PASS: Actual capture: every IN/channel0 reply and notification reassembled byte-for-byte, including fragmented 22175-byte symbol table.
+PASS: All 916 symbol entry CRCs validated; IDs match the device capture.
+PASS: Damaged symbol table rejected.
+PASS: Model/preset/parameter setters and query before verified session blocked before transport.
+PASS: Mock sessions read boolean0 and1 using only identity / GET1,2,3 / handshake4 / GET9; disconnect releases ports.
+PASS: Negative device status and unexpected float type rejected.
+PASS: Other firmware version stops before table/handshake/parameter query.

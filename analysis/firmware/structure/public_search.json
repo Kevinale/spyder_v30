@@ -1,0 +1,14 @@
+[
+  {
+    "query": "\"line6\" \"decrypt\"",
+    "url": "https://github.com/search?q=%22line6%22+%22decrypt%22&type=repositories"
+  },
+  {
+    "query": "\"L6FF\"",
+    "url": "https://github.com/search?q=%22L6FF%22&type=repositories"
+  },
+  {
+    "query": "\"Blackfin\" \"scramble\"",
+    "url": "https://github.com/search?q=%22Blackfin%22+%22scramble%22&type=repositories"
+  }
+]

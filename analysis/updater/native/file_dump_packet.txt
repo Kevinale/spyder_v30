@@ -1,0 +1,168 @@
+XREF 004cf4b0 004cf0c7
+XREF 004cf4b0 004cf16e
+FUNCTION 004cf4b0 FUN_004cf4b0
+
+uint __thiscall FUN_004cf4b0(int param_1,int param_2,uint param_3,uint param_4,uint *param_5)
+
+{
+  byte *pbVar1;
+  byte bVar2;
+  undefined1 *puVar3;
+  uint uVar4;
+  uint uVar5;
+  byte bVar6;
+  
+  if (((param_2 == 0) || (param_3 == 0)) || (0x7f < param_4)) {
+    return 0xfffffffc;
+  }
+  puVar3 = *(undefined1 **)(param_1 + 0x140);
+  uVar4 = 0xfffffffb;
+  if (puVar3 != (undefined1 *)0x0) {
+    *puVar3 = 0xf0;
+    *(undefined2 *)(puVar3 + 1) = DAT_00828188;
+    puVar3[3] = DAT_0082818a;
+    puVar3[4] = *(byte *)(param_1 + 0x15a) & 0x7f;
+    puVar3[5] = *(byte *)(param_1 + 0x158) & 0x7f;
+    uVar4 = 0;
+  }
+  if ((uVar4 & 0x80000000) == 0) {
+    puVar3[6] = 2;
+    uVar4 = 0;
+    bVar6 = 0;
+    *param_5 = 0;
+    *(char *)(*(int *)(param_1 + 0x140) + 7) = (char)param_4;
+    *(undefined1 *)(*(int *)(param_1 + 0x140) + 8) = 0;
+    if (*(int *)(param_1 + 0x13c) == 0) {
+      bVar6 = 0;
+    }
+    else {
+      param_4 = 0xffffffff;
+      do {
+        if (param_3 <= *param_5) break;
+        uVar5 = uVar4;
+        if ((uVar4 & 7) == 0) {
+          uVar5 = uVar4 + 1;
+          param_4 = param_4 + 1;
+          *(undefined1 *)(*(int *)(param_1 + 0x140) + 9 + (uVar4 & 0xfffffff8)) = 0;
+        }
+        bVar2 = *(byte *)(param_2 + *param_5);
+        *(byte *)(*(int *)(param_1 + 0x140) + 9 + uVar5) = bVar2 & 0x7f;
+        if (0x7f < bVar2) {
+          pbVar1 = (byte *)(*(int *)(param_1 + 0x140) + (uVar5 & 0xfffffff8) + 9);
+          *pbVar1 = *pbVar1 | '\x01' << (7 - ((byte)uVar5 & 7) & 0x1f);
+        }
+        param_4 = param_4 + 1;
+        uVar4 = uVar5 + 1;
+        bVar6 = bVar6 ^ *(byte *)(*(int *)(param_1 + 0x140) + 9 + uVar5);
+        *param_5 = *param_5 + 1;
+        if (param_3 <= *param_5) {
+          bVar6 = bVar6 ^ *(byte *)(*(int *)(param_1 + 0x140) + 9 + (uVar5 & 0xfffffff8));
+          break;
+        }
+        if ((uVar4 & 7) == 0) {
+          bVar6 = bVar6 ^ *(byte *)(*(int *)(param_1 + 0x140) + 9 + (param_4 & 0xfffffff8));
+        }
+      } while (uVar4 < *(uint *)(param_1 + 0x13c));
+    }
+    *(char *)(*(int *)(param_1 + 0x140) + 8) = (char)uVar4 + -1;
+    *(byte *)(*(int *)(param_1 + 0x140) + 9 + uVar4) = bVar6;
+    *(undefined1 *)(*(int *)(param_1 + 0x140) + 10 + uVar4) = 0xf7;
+    uVar4 = (**(code **)(**(int **)(param_1 + 0x2c) + 0x40))
+                      (*(undefined4 *)(param_1 + 0x140),uVar4 + 0xb);
+  }
+  return uVar4;
+}
+
+
+FUNCTION 004cf090 FUN_004cf090
+
+int __thiscall
+FUN_004cf090(int *param_1,int param_2,int param_3,int param_4,uint param_5,undefined4 param_6)
+
+{
+  int iVar1;
+  char cVar2;
+  int iVar3;
+  uint uVar4;
+  
+  param_1[0x4d] = 5;
+  FUN_0046b250();
+  param_3 = param_3 + (param_2 - param_4);
+  iVar3 = FUN_004cf4b0(param_3,param_4,param_5,param_6);
+  if (-1 < iVar3) {
+    if ((char)param_1[0x4c] == '\0') {
+      FUN_0046b270();
+      FUN_0046b320(0x20);
+      return 0;
+    }
+    cVar2 = FUN_0046b360(3000);
+    if (cVar2 == '\0') {
+      param_1[0x4d] = 5;
+    }
+    iVar1 = param_1[0x4d];
+    switch(iVar1) {
+    case 1:
+      FUN_0046b250();
+      cVar2 = FUN_0046b360(10000);
+      if (cVar2 == '\0') {
+        (**(code **)(*param_1 + 0x30))(7);
+        return -0x23f7;
+      }
+      if (param_1[0x4d] != 4) {
+        (**(code **)(*param_1 + 0x30))(6);
+        return -5;
+      }
+      if (*(byte *)(param_1 + 0x4e) != param_5) {
+        (**(code **)(*param_1 + 0x30))(5);
+        return -0x23f6;
+      }
+      break;
+    default:
+      (**(code **)(*param_1 + 0x30))(8);
+      return -5;
+    case 3:
+      if (*(byte *)(param_1 + 0x4e) != param_5) {
+        (**(code **)(*param_1 + 0x30))(3);
+        return -0x23f6;
+      }
+      for (uVar4 = 0; (iVar1 == 3 && (uVar4 < 2)); uVar4 = uVar4 + 1) {
+        FUN_0046b250();
+        iVar3 = FUN_004cf4b0(param_3,param_4,param_5,param_6);
+        if (iVar3 < 0) {
+          return iVar3;
+        }
+        cVar2 = FUN_0046b360(0x32);
+        if (cVar2 == '\0') {
+          param_1[0x4d] = 5;
+        }
+        iVar1 = param_1[0x4d];
+      }
+      if ((-1 < iVar3) && (param_1[0x4d] != 4)) {
+        FUN_0046b250();
+        (**(code **)(*param_1 + 0x30))(2);
+        return -5;
+      }
+      break;
+    case 4:
+      if (*(byte *)(param_1 + 0x4e) != param_5) {
+        (**(code **)(*param_1 + 0x30))(4);
+        return -0x23f6;
+      }
+      break;
+    case 5:
+      if ((char)param_1[0x4c] != '\0') {
+        (**(code **)(*param_1 + 0x30))(1);
+        iVar3 = -0x23f7;
+      }
+      break;
+    case 6:
+      FUN_004d00b0(
+                  "L6MidiFileDumpUpdateEngine::HandleFileDumpDataPacket() noting L6ERR_DEVLIB_UPDATER_EXCEPTION \n"
+                  );
+      return -0x23f8;
+    }
+  }
+  return iVar3;
+}
+
+

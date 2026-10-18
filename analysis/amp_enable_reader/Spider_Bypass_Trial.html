@@ -1,0 +1,154 @@
+<!doctype html><html lang="es"><meta charset="utf-8"><title>Spider: prueba temporal de bypass</title>
+<style>body{font:18px system-ui;background:#20242b;color:#eee;max-width:850px;margin:25px auto;padding:15px}button{font:inherit;padding:10px;margin:5px}pre{white-space:pre-wrap;background:#111;padding:15px}</style>
+<h1>Prueba temporal de AmpEnable</h1>
+<p>Con Remote: selecciona un Amp distorsionado, No Cabinet y efectos apagados. Cierra Remote y REAPER. Conecta aqui. El boton de prueba cambia un parametro de audio durante20 segundos: no modifica firmware ni guarda presets.</p>
+<p>Manten esta pagina visible. Durante la prueba toca la guitarra y mueve Drive/Bass/Mid/Treble. Usa Restaurar antes de cerrar. Si se pierde USB o se cierra el navegador no se garantiza restauracion; exige el mensaje de confirmacion.</p>
+<button id="connect">Conectar y leer</button><button id="trial" disabled>Probar bypass20 segundos</button><button id="restore" disabled>Restaurar ahora</button><button id="disconnect">Restaurar y desconectar</button>
+<pre id="log">Preparado. Conectar solo lee; la prueba activa requiere otro clic y confirmacion.
+</pre>
+<script>'use strict';
+// Consulta acotada: identidad, version, tabla, handshake y GetDspModelParam.
+// No setters, carga de modelos, presets, actualizacion ni acceso a memoria.
+const U32=(b,o=0)=>(b[o]|b[o+1]<<8|b[o+2]<<16|b[o+3]<<24)>>>0;
+const LE=n=>[n&255,n>>>8&255,n>>>16&255,n>>>24&255];
+const CRC=b=>{let c=0xffffffff;for(const v of b){c^=v;for(let i=0;i<8;i++)c=c&1?(c>>>1)^0xedb88320:c>>>1;}return(c^0xffffffff)>>>0;};
+function unpack(b){const a=[];for(let i=0;i<b.length;i+=8)for(let j=1;j<8&&i+j<b.length;j++)a.push(b[i+j]|((b[i]>>(7-j)&1)<<7));return a;}
+function frame(raw,q){const a=[240,0,1,12,34,0,77,0,q,0,(raw.length-1)>>4,(raw.length-1)&15];for(let i=0;i<raw.length;i+=7){let mask=0,g=[];for(let j=0;j<7;j++){const v=raw[i+j]||0;mask|=(v>>7)<<(6-j);g.push(v&127);}a.push(mask,...g);}return[...a,247];}
+class SpiderReadOnly {
+ constructor(log=()=>{}){this.log=log;this.q=0;this.stream=[];this.rx=[];this.seq=-1;this.end=-1;this.pending=null;this.ready=false;this.seen=false;this.ids=null;}
+ abort(reason){if(this.pending){clearTimeout(this.pending.timer);this.pending.reject(Error(reason));this.pending=null;}}
+ feed(bytes){for(const v of bytes){if(v>=248)continue;if(v===240)this.rx=[v];else if(this.rx.length){this.rx.push(v);if(this.rx.length>200000){this.rx=[];this.abort('SysEx demasiado largo');}else if(v===247){const s=this.rx;this.rx=[];try{this.packet(s);}catch(e){this.abort(e.message);}}}}}
+ packet(s){
+  if(s.length===17&&s[0]===240&&s[1]===126&&s[3]===6&&s[4]===2&&s.slice(5,12).join(',')==='0,1,12,34,0,0,0')this.seen=true;
+  if(s.length<14||s.slice(0,8).join(',')!=='240,0,1,12,34,0,77,0'||s.at(-1)!==247)return;
+  if(s.slice(1,-1).some(v=>v>127))throw Error('SysEx no valido');
+  const q=s[8],end=(s[9]<<8)|(s[10]<<4)|s[11];
+  if(s[10]>15||s[11]>15)throw Error('Cabecera de fragmento no valida');
+  if(q!==this.seq){this.stream=[];this.end=-1;this.seq=q;}
+  const n=end-this.end,raw=unpack(s.slice(12,-1));
+  if(n<=0||n>raw.length)throw Error('Fragmento incompleto o fuera de orden');
+  this.end=end;this.stream.push(...raw.slice(0,n));
+  while(this.stream.length>=8){
+   const size=U32(this.stream,4);if(size>131072)throw Error('Respuesta fuera de limites');
+   if(this.stream.length<8+size)break;
+   const kind=U32(this.stream),body=this.stream.slice(8,8+size);this.stream.splice(0,8+size);
+   if(this.onmessage)this.onmessage(kind,body);
+   if(kind===1&&this.pending){const p=this.pending;this.pending=null;clearTimeout(p.timer);p.resolve(body);}
+  }
+ }
+ request(op,body=[]){
+  const allowed=(op===1||op===2||op===3)?body.length===0:op===4?body.length===4&&this.table&&U32(body)===CRC(this.table):op===9?this.ready&&this.ids&&body.length===8&&U32(body)===this.ids.GuitarProc&&U32(body,4)===this.ids.AmpEnable:false;
+  if(!allowed)throw Error('Operacion bloqueada por lista de solo lectura');
+  if(this.pending)throw Error('Ya hay una consulta pendiente');
+  if(!this.output)throw Error('Puerto MIDI cerrado');
+  return new Promise((resolve,reject)=>{const timer=setTimeout(()=>{this.pending=null;reject(Error('Sin respuesta; cierra Remote y libera el MIDI del Spider en REAPER.'));},10000);this.pending={resolve,reject,timer};try{this.output.send(frame([...LE(op),...LE(body.length),...body],this.q));this.q=(this.q+1)&127;}catch(e){this.abort(e.message);}});
+ }
+ parseSymbols(table){
+  if(table.length<8||U32(table,4)!==table.length)throw Error('Tamano de tabla incorrecto');
+  const n=U32(table),pool=8+12*n;if(n>4096||pool>table.length)throw Error('Tabla fuera de limites');
+  const ids={};const decoder=new TextDecoder('utf-8',{fatal:true});
+  for(let i=0;i<n;i++){const o=8+12*i,p=pool+U32(table,o),len=U32(table,o+8);if(p<pool||p+len>=table.length||table[p+len]!==0)throw Error('Cadena fuera de tabla');const bytes=table.slice(p,p+len);if(CRC(bytes)!==U32(table,o+4))throw Error('CRC de simbolo incorrecto');const name=decoder.decode(Uint8Array.from(bytes));if(Object.hasOwn(ids,name))throw Error('Simbolo duplicado');ids[name]=i;}
+  for(const k of ['GuitarProc','AmpEnable','AmpEnableState'])if(!Object.hasOwn(ids,k))throw Error('Falta simbolo '+k);
+  return ids;
+ }
+ async connect(){
+  if(this.input||this.output)throw Error('Desconecta primero');
+  if(!navigator.requestMIDIAccess)throw Error('Abre esta pagina en Edge o Chrome con Web MIDI.');
+  const access=await navigator.requestMIDIAccess({sysex:true});
+  const ins=[...access.inputs.values()].filter(p=>/spider\s*v/i.test(p.name||''));
+  const outs=[...access.outputs.values()].filter(p=>/spider\s*v/i.test(p.name||''));
+  if(ins.length!==1||outs.length!==1)throw Error('Necesito exactamente una entrada y salida MIDI Spider V. Cierra Remote y deshabilita su MIDI en REAPER.');
+  this.input=ins[0];this.output=outs[0];await this.input.open();await this.output.open();
+  this.input.onmidimessage=e=>this.feed(e.data);this.seen=false;
+  this.output.send([240,126,127,6,1,247]);
+  for(let i=0;i<60&&!this.seen;i++)await new Promise(r=>setTimeout(r,50));
+  if(!this.seen)throw Error('No se verifico identidad Spider V30; no se consultan parametros.');
+  const version=await this.request(1);if(version.length!==4||U32(version)!==0x02050030)throw Error('Version distinta de la captura 2.05.0; consulta detenida.');
+  this.log('Identidad y version coinciden con tu Spider V30 / 2.05.0.');
+  const size=await this.request(2);if(size.length!==4||U32(size)>131072)throw Error('Tamano de simbolos incorrecto');
+  this.table=await this.request(3);if(this.table.length!==U32(size))throw Error('Tabla incompleta');
+  this.ids=this.parseSymbols(this.table);this.log('Tabla recibida; CRC de todos los simbolos valido.');
+  const status=await this.request(4,LE(CRC(this.table)));if(status.length!==4||U32(status)!==0)throw Error('Sesion rechazada; no se cambian parametros.');
+  this.ready=true;this.log('Sesion de consulta abierta.');return this.read();
+ }
+ async read(){
+  if(!this.ready)throw Error('Conecta primero');
+  const b=await this.request(9,[...LE(this.ids.GuitarProc),...LE(this.ids.AmpEnable)]);
+  if(b.length!==12)throw Error('Respuesta de parametro inesperada');
+  const status=U32(b)|0;if(status!==0)throw Error('AmpEnable no pudo leerse: estado '+status);
+  const type=U32(b,4),value=U32(b,8);if(type!==3||value>1)throw Error('AmpEnable respondio con tipo/valor inesperado: '+type+'/'+value);
+  this.log('AmpEnable = '+value+' (booleano).');return value;
+ }
+ async close(){this.ready=false;this.abort('Consulta cancelada');const input=this.input,output=this.output;this.input=null;this.output=null;if(input){input.onmidimessage=null;await input.close();}if(output)await output.close();}
+}
+if(typeof module!=='undefined')module.exports={SpiderReadOnly,U32,LE,CRC,frame};
+
+'use strict';
+// Separate experimental component. NEVER loaded by the read-only page.
+// A start(true) user action is required; connecting/reading never sets a value.
+const Base=typeof module!=='undefined'?require('./reader.js').SpiderReadOnly:SpiderReadOnly;
+const U=typeof module!=='undefined'?require('./reader.js').U32:U32;
+const L=typeof module!=='undefined'?require('./reader.js').LE:LE;
+const F=typeof module!=='undefined'?require('./reader.js').frame:frame;
+class SpiderBypassTrial extends Base {
+ constructor(log){super(log);this.stage='idle';this.attempted=false;this.original=null;this.model=null;this.timer=null;this.restoring=null;this.counts={Drive:0,Bass:0,Mid:0,Treble:0};this.onmessage=(kind,body)=>this.observe(kind,body);}
+ experimental(op,body){
+  const modelRead=op===7&&this.ready&&this.ids&&body.length===4&&U(body)===this.ids.Amp;
+  const value=body.length===16?U(body,12):-1;
+  const write=op===10&&this.ready&&this.ids&&body.length===16&&U(body)===this.ids.GuitarProc&&U(body,4)===this.ids.AmpEnable&&U(body,8)===3&&((this.stage==='applying'&&value===0)||(this.stage==='restoring'&&this.original===1&&value===1));
+  if(!modelRead&&!write)throw Error('Operacion experimental bloqueada');
+  if(this.pending)throw Error('Consulta pendiente');
+  if(!this.output)throw Error('Puerto cerrado');
+  return new Promise((resolve,reject)=>{const timer=setTimeout(()=>{this.pending=null;reject(Error('Tiempo de respuesta agotado'));},10000);this.pending={resolve,reject,timer};try{this.output.send(F([...L(op),...L(body.length),...body],this.q));this.q=(this.q+1)&127;}catch(e){this.abort(e.message);}});
+ }
+ async getModel(){const b=await this.experimental(7,L(this.ids.Amp));if(b.length!==8||(U(b)|0)!==0)throw Error('No se pudo verificar modelo Amp');return U(b,4);}
+ async write(value){const b=await this.experimental(10,[...L(this.ids.GuitarProc),...L(this.ids.AmpEnable),...L(3),...L(value)]);if(b.length!==4||(U(b)|0)!==0)throw Error('El equipo no confirmo el cambio de AmpEnable');}
+ observe(kind,b){if(this.stage!=='active'||kind!==4||b.length!==16||U(b)!==this.ids.Amp||U(b,8)!==4)return;const names=['Drive','Bass','Mid','Treble'];const name=names.find(n=>this.ids[n]===U(b,4));if(name){this.counts[name]++;this.log('Perilla '+name+': '+this.counts[name]+' eventos identificados');}}
+ async start(consent){
+  if(consent!==true)throw Error('Falta accion explicita para iniciar prueba activa');
+  if(this.stage!=='idle'||!this.ready)throw Error('Conecta y termina cualquier prueba anterior');
+  for(const n of ['Amp','Bypass','GuitarProc','AmpEnable','Drive','Bass','Mid','Treble'])if(!Object.hasOwn(this.ids,n))throw Error('Falta simbolo '+n);
+  this.stage='checking';
+  try{
+   this.model=await this.getModel();if(this.model===this.ids.Bypass)throw Error('Selecciona un Amp activo, no No Amp');
+   this.original=await this.read();if(this.original!==1)throw Error('La prueba exige AmpEnable inicial1; no se cambio');
+   this.counts={Drive:0,Bass:0,Mid:0,Treble:0};this.stage='applying';this.attempted=true;
+   await this.write(0);
+   const value=await this.read();if(value!==0)throw Error('Lectura posterior distinta de0');
+   if(await this.getModel()!==this.model)throw Error('El modelo cambio; prueba detenida');
+   this.stage='active';this.log('AmpEnable=0 verificado; mismo modelo. Prueba20 segundos: toca y mueve las cuatro perillas.');
+   this.timer=setTimeout(()=>{this.finish().catch(e=>this.log('RESTAURACION NO CONFIRMADA: '+e.message));},20000);
+  }catch(e){if(this.attempted){try{await this.finish();}catch(r){throw Error(e.message+'; RESTAURACION NO CONFIRMADA: '+r.message);}}else this.stage='idle';throw e;}
+ }
+ async finish(){
+  if(this.restoring)return this.restoring;
+  clearTimeout(this.timer);this.timer=null;
+  if(!this.attempted){this.stage='idle';return;}
+  this.restoring=(async()=>{
+   this.stage='restoring';
+   try{this.beforeRestore=await this.read();this.log('Antes de restaurar: AmpEnable='+this.beforeRestore+(this.beforeRestore===0?' (seguia desactivado).':' (se reactivo o cambio durante la prueba).'));}catch(e){this.log('No se pudo leer estado al final; se intenta restaurar igualmente: '+e.message);}
+   try{await this.write(this.original);const value=await this.read();if(value!==this.original)throw Error('Lectura final no coincide con valor inicial');this.attempted=false;this.stage='idle';this.log('Restauracion confirmada: AmpEnable='+value+'. Eventos: '+JSON.stringify(this.counts));}
+   catch(e){this.stage='restore_failed';this.log('No se confirmo la restauracion. Conserva la pagina abierta y reintenta Restaurar.');throw e;}
+  })();
+  try{return await this.restoring;}finally{this.restoring=null;}
+ }
+ async close(){if(this.attempted)await this.finish();return super.close();}
+}
+if(typeof module!=='undefined')module.exports={SpiderBypassTrial};
+
+const trialLog=s=>{document.getElementById('log').textContent+=s+'\n';};
+let trial=null;
+const button=id=>document.getElementById(id);
+button('connect').onclick=async()=>{button('connect').disabled=true;try{trial=new SpiderBypassTrial(trialLog);await trial.connect();button('trial').disabled=false;}catch(e){trialLog('ERROR: '+e.message);if(trial)await trial.close().catch(()=>{});trial=null;button('connect').disabled=false;}};
+button('trial').onclick=async()=>{
+ if(!confirm('Prueba activa: cambiar AmpEnable de1 a0 durante20 segundos y restaurar1. No cambia modelo ni guarda preset. Mantene esta pagina visible y usa Restaurar antes de cerrarla. Continuar?'))return;
+ button('trial').disabled=true;button('restore').disabled=false;
+ try{await trial.start(true);}catch(e){trialLog('ERROR: '+e.message);}
+};
+button('restore').onclick=async()=>{try{await trial.finish();button('trial').disabled=false;}catch(e){trialLog('RESTAURACION NO CONFIRMADA: '+e.message);}};
+button('disconnect').onclick=async()=>{try{if(trial)await trial.close();trial=null;button('trial').disabled=true;button('restore').disabled=true;button('connect').disabled=false;trialLog('Puertos cerrados.');}catch(e){trialLog('No cierres todavia: '+e.message);}};
+window.addEventListener('beforeunload',e=>{if(trial?.attempted){e.preventDefault();e.returnValue='';}});
+// Timers can be throttled in background. Restore as soon as the tab is hidden,
+// but never claim this guarantees restoration on browser/USB/process failure.
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&trial?.attempted)trial.finish().catch(e=>trialLog('RESTAURACION NO CONFIRMADA: '+e.message));});
+</script></html>

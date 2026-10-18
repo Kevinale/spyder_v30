@@ -1,0 +1,36 @@
+PASS: parsed 132 entries and consumed all 1281 bytes; root matches:
+[
+  {
+    "payload_offset": 237,
+    "key": "0x328",
+    "type": 1,
+    "value": 0,
+    "section": "GTRT",
+    "block_path": [
+      "GuitarProc"
+    ],
+    "symbol": "FX1EnableState"
+  },
+  {
+    "payload_offset": 367,
+    "key": "0x335",
+    "type": 1,
+    "value": 1,
+    "section": "GTRT",
+    "block_path": [
+      "GuitarProc"
+    ],
+    "symbol": "AmpEnableState"
+  },
+  {
+    "payload_offset": 377,
+    "key": "0x336",
+    "type": 1,
+    "value": 1,
+    "section": "GTRT",
+    "block_path": [
+      "GuitarProc"
+    ],
+    "symbol": "CabEnableState"
+  }
+]

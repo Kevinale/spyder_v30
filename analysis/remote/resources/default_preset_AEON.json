@@ -1,0 +1,167 @@
+{
+  "version": 5,
+  "data": {
+    "device_version": 0,
+    "tone": {
+      "variax": {
+        "@variaxmodel": 19,
+        "@string3tuning": 0,
+        "@toneknob": 127,
+        "@string1tuning": 0,
+        "@string2tuning": 0,
+        "@modelmagmode": 1,
+        "@string4tuning": 0,
+        "@string6tuning": 0,
+        "@string5tuning": 0
+      },
+      "volume": {
+        "MinVol": 0,
+        "MaxVol": 1,
+        "Volume": 1,
+        "@enabled": true,
+        "@post": true,
+        "@model": "VolumePedal"
+      },
+      "global": {
+        "@fs3group": "fx2",
+        "@tweakmax": 1,
+        "@tweakgroup": "fx3",
+        "@tempo": 171.473,
+        "@fs1group": "compressor",
+        "@tweakparam": "@mix",
+        "@tweakmin": 0,
+        "@fs4group": "fx3",
+        "@fs2group": "fx1",
+        "@pedal2assign": false,
+        "@fs5group": "reverb"
+      },
+      "fx2": {
+        "@post": true,
+        "Freq": 0.066376,
+        "@model": "StereoSquareChorus",
+        "Pre": 0.5,
+        "SyncSelect": 6,
+        "@enabled": false,
+        "@mix": 0.924025,
+        "@stereo": false,
+        "@temposync": false,
+        "Depth": 0.2,
+        "@mixtype": 1,
+        "Feedback": 0.13
+      },
+      "gate": {
+        "Thresh": -73.28131,
+        "@enabled": true,
+        "@model": "Gate",
+        "Decay": 0
+      },
+      "amp": {
+        "@model": "HD_AmpBomberUber",
+        "Bass": 0.3896304,
+        "Presence": 0.6216633,
+        "Drive": 0.5985627,
+        "BiasExcursion": 0.5,
+        "Bias": 0.5,
+        "Master": 0.5,
+        "Mid": 0.6529774,
+        "Treble": 0.5462012,
+        "Sag": 0.5,
+        "Hum": 0.5,
+        "@volume": 0.7228412
+      },
+      "compressor": {
+        "Gain": 0,
+        "@enabled": false,
+        "@model": "SharcPodFixedComp",
+        "Thresh/G": 0.806982
+      },
+      "fx3": {
+        "Time": 0.220892,
+        "Offset": 0.502053,
+        "@post": true,
+        "@model": "StereoDelay",
+        "SyncSelect": 6,
+        "FbackL": 0.14271,
+        "FbackR": 0.225873,
+        "@mix": 0,
+        "@enabled": true,
+        "@temposync": true,
+        "@stereo": false,
+        "@mixtype": 0
+      },
+      "wah": {
+        "@enabled": false,
+        "@model": "Line6Vetta",
+        "Pedal": 0.570329
+      },
+      "reverb": {
+        "@mix": 0.136037,
+        "@post": true,
+        "@enabled": true,
+        "Decay": 0.2777207,
+        "@model": "HD_VerbzillaReverbChamber",
+        "Predelay": 0.05,
+        "Tone": 0.5097536,
+        "@mixtype": 2
+      },
+      "eq": {
+        "gain.2": 0.406571,
+        "@model": "ParaGraphic4_band",
+        "gain": 0.50154,
+        "Hi": 0.515729,
+        "HMid": 0.305695,
+        "Gain": 0.505133,
+        "LMid": 0.288098,
+        "Low": 0.12956,
+        "@enabled": false,
+        "gain.1": 0.50308
+      },
+      "cab": {
+        "@mic": 3,
+        "Level": 0,
+        "@model": "4x12BritT75Studio"
+      },
+      "fx1": {
+        "Gain": 0.3857143,
+        "@mix": 1,
+        "@post": false,
+        "@enabled": false,
+        "@model": "Screamer",
+        "@stereo": false,
+        "@mixtype": 0,
+        "Drive": 0.7875,
+        "Tone": 0.7321429
+      },
+      "fx4": {
+        "Return": 0,
+        "@stereo": true,
+        "@mix": 0.5,
+        "@post": true,
+        "@enabled": false,
+        "@model": "FXLoop",
+        "Send": 0
+      }
+    },
+    "device": 2097156,
+    "meta": {
+      "tnid": 626952,
+      "pickupconfig": "",
+      "band": null,
+      "appversion": true,
+      "author": "fhpresets1",
+      "comments": "",
+      "rating": 0,
+      "guitarist": "",
+      "ptyp": "",
+      "song": null,
+      "application": "Firehawk",
+      "style": "",
+      "name": "HD Rhythm",
+      "modifieddate": 1421478136,
+      "instrument": "",
+      "substyle": "",
+      "pickuptype": ""
+    }
+  },
+  "schema": "L6Preset"
+}

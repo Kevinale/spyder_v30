@@ -1,0 +1,196 @@
+{
+  "input": "/workspace/analysis/firmware/data.decompressed.bin",
+  "bytes": 393192,
+  "sha256": "58b058a7310a8f397d5c029f6dc0c0b07e5128dbd027548c060eba797647a0b4",
+  "entropy": 7.9983435454394085,
+  "moduli": {
+    "2": 0,
+    "3": 0,
+    "4": 0,
+    "6": 0,
+    "8": 0,
+    "16": 8,
+    "32": 8,
+    "256": 232
+  },
+  "aligned_block_collisions": [
+    {
+      "size": 4,
+      "full_blocks": 98298,
+      "distinct": 98295,
+      "extra_duplicates": 3,
+      "remainder": 0
+    },
+    {
+      "size": 6,
+      "full_blocks": 65532,
+      "distinct": 65532,
+      "extra_duplicates": 0,
+      "remainder": 0
+    },
+    {
+      "size": 8,
+      "full_blocks": 49149,
+      "distinct": 49149,
+      "extra_duplicates": 0,
+      "remainder": 0
+    },
+    {
+      "size": 16,
+      "full_blocks": 24574,
+      "distinct": 24574,
+      "extra_duplicates": 0,
+      "remainder": 8
+    },
+    {
+      "size": 32,
+      "full_blocks": 12287,
+      "distinct": 12287,
+      "extra_duplicates": 0,
+      "remainder": 8
+    }
+  ],
+  "byte_lanes": [
+    {
+      "lane": 0,
+      "stride": 4,
+      "entropy": 7.994952897026392,
+      "zero_fraction": 0.00436428004638955
+    },
+    {
+      "lane": 1,
+      "stride": 4,
+      "entropy": 7.995498457545265,
+      "zero_fraction": 0.004191336548047773
+    },
+    {
+      "lane": 2,
+      "stride": 4,
+      "entropy": 7.992153777691197,
+      "zero_fraction": 0.004791552218763352
+    },
+    {
+      "lane": 3,
+      "stride": 4,
+      "entropy": 7.995863574350259,
+      "zero_fraction": 0.004272721723738021
+    }
+  ],
+  "probes": [
+    {
+      "transform": "identity",
+      "sha256": "58b058a7310a8f397d5c029f6dc0c0b07e5128dbd027548c060eba797647a0b4",
+      "hits": {
+        "elf": [],
+        "pe": [],
+        "cortex_m_vector_candidates": [],
+        "a32_vector_candidates": []
+      }
+    },
+    {
+      "transform": "xor_ff",
+      "sha256": "98209691c55f6d07737a7ff286167bbc7e126b6d0a0d8f4de15ecc54bffb86b2",
+      "hits": {
+        "elf": [],
+        "pe": [],
+        "cortex_m_vector_candidates": [],
+        "a32_vector_candidates": []
+      }
+    },
+    {
+      "transform": "reverse_bits_in_each_byte",
+      "sha256": "e3fb0d6151e906ff7d66afc238e4bb2954137fa742688e128bb01018ae605edd",
+      "hits": {
+        "elf": [],
+        "pe": [],
+        "cortex_m_vector_candidates": [],
+        "a32_vector_candidates": []
+      }
+    },
+    {
+      "transform": "reverse_bytes_in_2_byte_words",
+      "sha256": "a33a85c9f447b31a3d4d104718f5990df8f3d79629004813c4993ce2c9e2efe3",
+      "hits": {
+        "elf": [],
+        "pe": [],
+        "cortex_m_vector_candidates": [],
+        "a32_vector_candidates": []
+      }
+    },
+    {
+      "transform": "reverse_bytes_in_4_byte_words",
+      "sha256": "03600a67287453cdafeafd9a3cb6c5b2d59393b5c34b38189b4c514deddaf00d",
+      "hits": {
+        "elf": [],
+        "pe": [],
+        "cortex_m_vector_candidates": [],
+        "a32_vector_candidates": []
+      }
+    },
+    {
+      "transform": "reverse_bytes_in_6_byte_words",
+      "sha256": "68b678121be6cd116f31f186786e4cfe88445bb1ed63fa5ee6ec90e2e3f497f1",
+      "hits": {
+        "elf": [],
+        "pe": [],
+        "cortex_m_vector_candidates": [],
+        "a32_vector_candidates": []
+      }
+    },
+    {
+      "transform": "reverse_bytes_in_8_byte_words",
+      "sha256": "f3ca7078c5273e60b63ecf2624ec4dc2ff2bcc931f6055de19b8cbc9f0901d99",
+      "hits": {
+        "elf": [],
+        "pe": [],
+        "cortex_m_vector_candidates": [],
+        "a32_vector_candidates": []
+      }
+    },
+    {
+      "transform": "rotate_each_byte_left_1",
+      "sha256": "0719240376b8c2efcba14f6c37c2a56bdbac1c6e9c2b812d8fb315f72de2d514",
+      "hits": {
+        "elf": [],
+        "pe": [],
+        "cortex_m_vector_candidates": [],
+        "a32_vector_candidates": []
+      }
+    },
+    {
+      "transform": "rotate_each_byte_left_2",
+      "sha256": "13602582598016a457cf28ea48a97b11da9d5d90f454200491259b183e6858a2",
+      "hits": {
+        "elf": [],
+        "pe": [],
+        "cortex_m_vector_candidates": [],
+        "a32_vector_candidates": []
+      }
+    },
+    {
+      "transform": "rotate_each_byte_left_3",
+      "sha256": "f28ff0d5b05df9bdddedaf95343f1cbfa6e17adb71fac4bc9e3f489c913ddb16",
+      "hits": {
+        "elf": [],
+        "pe": [],
+        "cortex_m_vector_candidates": [],
+        "a32_vector_candidates": []
+      }
+    },
+    {
+      "transform": "rotate_each_byte_left_4",
+      "sha256": "5a7eedfc0277f3cd298db426d9445cb238f360800f6f55c2f4b24c2c3352de4e",
+      "hits": {
+        "elf": [],
+        "pe": [],
+        "cortex_m_vector_candidates": [],
+        "a32_vector_candidates": []
+      }
+    }
+  ],
+  "limits": [
+    "Negative probes cannot exclude headerless code, another ISA, other byte transforms, compression or encryption.",
+    "Entropy and block alignment do not identify cipher or CPU.",
+    "No extracted payload is executed; no architecture is selected in Ghidra without evidence."
+  ]
+}

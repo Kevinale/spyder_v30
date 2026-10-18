@@ -1,0 +1,50 @@
+{
+  "input": "/workspace/attachments/17bb55a3-25ed-48e3-83dc-c8e003ecbd62/SpiderV_30_60_2.02.0 (1).svu",
+  "bytes": 3061494,
+  "sha256": "a87d0d5460d63688e5b78d8ba8712fb8cc944f097b31dd655a5446868cf675dc",
+  "form_type": "L6FF",
+  "form_size": 3061486,
+  "chunks": [
+    {
+      "name": "HEAD",
+      "header_offset": 12,
+      "payload_offset": 20,
+      "size": 52,
+      "sha256": "ad91dffbbeb145562e04b89de83d62c63473e99bb30170e7fc756ad49d373499",
+      "entropy": 3.0777096689408294
+    },
+    {
+      "name": "dinf",
+      "header_offset": 72,
+      "payload_offset": 80,
+      "size": 16,
+      "sha256": "0c5a7f9e76cd75c8f258d89fd880a5daa440a5e5c04978abc2e266510a6e0bf8",
+      "entropy": 0.9933927290103626
+    },
+    {
+      "name": "data",
+      "header_offset": 96,
+      "payload_offset": 104,
+      "size": 3061389,
+      "sha256": "bf7d24345ef0cacfc3b9fb8ad2a912120f9f4ba4ed6fd6e25c16bbd71151bc81",
+      "entropy": 7.9967084104401795
+    }
+  ],
+  "decompression": {
+    "format": "zlib/DEFLATE",
+    "compressed_bytes": 3061389,
+    "decompressed_bytes": 3060448,
+    "sha256": "273696a7715413625a7cb7ed6c05fe8b1c91118ec5145f5bc4f980b0f001af8f",
+    "entropy": 7.9967336905678845,
+    "md5": "860b5885e04734bf26477a0eb98a643a",
+    "header_md5": "860b5885e04734bf26477a0eb98a643a",
+    "md5_matches": true,
+    "adler32": "13689b9d",
+    "trailer": "13689b9d",
+    "adler32_matches": true,
+    "head_length_at_0x24": 3060448,
+    "dinf_length_at_0x5c": 3060448
+  },
+  "embedded_zlib_valid": [],
+  "embedded_zlib_candidates": 3049
+}

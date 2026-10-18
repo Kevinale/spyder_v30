@@ -1,0 +1,9 @@
+{
+  "file": "/workspace/analysis/remote/reconstructed/Spider V Remote 2.01 Installer.exe",
+  "bytes": 93761728,
+  "sha256": "1f8291548abbd72ba73322e8d8916fdc8083badc2dc15d49933a87c4dc17a613",
+  "crc32": "C3C1B3A2",
+  "archive_expected_crc32": "C3C1B3A2",
+  "crc_matches": true,
+  "user_original_sha256_supplied": false
+}

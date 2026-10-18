@@ -1,0 +1,1097 @@
+[
+  {
+    "symbolicID": "BriteRoom1",
+    "id": 33816583,
+    "category": 10,
+    "name": "Brite Room",
+    "shortname": "Brite Room",
+    "icon": "verb-briteroom",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "CavernousChamber",
+    "id": 33816589,
+    "category": 10,
+    "name": "Cavernous",
+    "shortname": "Cavernous",
+    "icon": "verb-cavernous",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "DarkHall1",
+    "id": 33816584,
+    "category": 10,
+    "name": "Dark Hall",
+    "shortname": "Dark Hall",
+    "icon": "verb-darkhall",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "LargePlate1",
+    "id": 33816592,
+    "category": 10,
+    "name": "Large Plate",
+    "shortname": "Large Plate",
+    "icon": "verb-largeplate",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "MediumHall",
+    "id": 33816585,
+    "category": 10,
+    "name": "Medium Hall",
+    "shortname": "Medium Hall",
+    "icon": "verb-mediumhall",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "ReallyLargeHall",
+    "id": 33816586,
+    "category": 10,
+    "name": "Large Hall",
+    "shortname": "Large Hall",
+    "icon": "verb-largehall",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "RichChamber1",
+    "id": 33816587,
+    "category": 10,
+    "name": "Rich Chamber",
+    "shortname": "Rich Chamber",
+    "icon": "verb-richchamber",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "RichChamber2",
+    "id": 33816588,
+    "category": 10,
+    "name": "Chamber",
+    "shortname": "Chamber",
+    "icon": "verb-chamber",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "SlapPlate1",
+    "id": 33816590,
+    "category": 10,
+    "name": "Slap Plate",
+    "shortname": "Slap Plate",
+    "icon": "verb-slapplate",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "SmallRoom1",
+    "id": 33816581,
+    "category": 10,
+    "name": "Small Room",
+    "shortname": "Small Room",
+    "icon": "verb-smallroom",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "TiledRoom1",
+    "id": 33816582,
+    "category": 10,
+    "name": "Tiled Room",
+    "shortname": "Tiled Room",
+    "icon": "verb-tiledroom",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "VintagePlate",
+    "id": 33816591,
+    "category": 10,
+    "name": "Vintage Plate",
+    "shortname": "Vintage Plate",
+    "icon": "verb-vintageplate",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Pre Delay",
+        "persist": 0,
+        "tweak": 200,
+        "symbolicID": "PreDelay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "LuxSpring",
+    "id": 33816578,
+    "category": 10,
+    "name": "'Lux Spring",
+    "shortname": "'Lux Spring",
+    "icon": "verb-spring",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Dwell",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Time",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "KingSpring",
+    "id": 33816580,
+    "category": 10,
+    "name": "King Spring",
+    "shortname": "King Spring",
+    "icon": "verb-kingspring",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Dwell",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Time",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "StandardSpring",
+    "id": 33816579,
+    "category": 10,
+    "name": "Standard Spring",
+    "shortname": "Standard Spring",
+    "icon": "verb-spring",
+    "params": [
+      {
+        "default": 0.25,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Dwell",
+        "persist": 0,
+        "tweak": 201,
+        "symbolicID": "Time",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "persist": 0,
+        "tweak": 202,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 4,
+        "tweak": 203,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 2,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  }
+]

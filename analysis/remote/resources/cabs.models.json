@@ -1,0 +1,736 @@
+[
+  {
+    "symbolicID": "1x6SuperOStudio",
+    "id": 16908289,
+    "category": 2,
+    "name": "1x6 Super O",
+    "shortname": "1x6 Super O",
+    "icon": "cab-gtr-1x6-supro",
+    "cablink": "1x6SuperOLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "1x8TinyTweedStudio",
+    "id": 16908290,
+    "name": "1x8 Tiny Tweed",
+    "shortname": "1x8 Tiny Tweed",
+    "icon": "cab-gtr-1x8-61-fender-champ",
+    "cablink": "1x8TinyTweedLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "1x10GibtoneStudio",
+    "id": 16908291,
+    "category": 2,
+    "name": "1x10 Gibtone",
+    "shortname": "1x10 Gibtone",
+    "icon": "cab-gtr-1x10-gibson",
+    "cablink": "1x10GibtoneLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "1x10G-BrandStudio",
+    "id": 16908292,
+    "category": 2,
+    "name": "1x10 G-Brand",
+    "shortname": "1x10 G-Brand",
+    "icon": "cab-gtr-1x10-gretch",
+    "cablink": "1x10G-Brand2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "1x12TweedStudio",
+    "id": 16908294,
+    "category": 2,
+    "name": "1x12 Tweed",
+    "shortname": "1x12 Tweed",
+    "icon": "cab-gtr-1x12-53-fender-tweed",
+    "cablink": "1x12TweedLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "1x12BlackfaceStudio",
+    "id": 16908295,
+    "category": 2,
+    "name": "1x12 Blackface",
+    "shortname": "1x12 Blackface",
+    "icon": "cab-gtr-1x12-fender-vibrolux",
+    "cablink": "1x12BlackfaceLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "1x12Line6Studio",
+    "id": 16908293,
+    "category": 2,
+    "name": "1x12 Line 6",
+    "shortname": "1x12 Line 6",
+    "icon": "cab-gtr-1x12-line6",
+    "cablink": "1x12Line6Live2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "1x12ClassAStudio",
+    "id": 16908296,
+    "category": 2,
+    "name": "1x12 Class A",
+    "shortname": "1x12 Class A",
+    "icon": "cab-gtr-1x12-classa-15",
+    "cablink": "1x12ClassALive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "1x15ThunderStudio",
+    "id": 16908312,
+    "category": 2,
+    "name": "1x15 Thunder",
+    "shortname": "1x15 Thunder",
+    "icon": "cab-gtr-1x15-thunder",
+    "cablink": "1x15ThunderLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "2x2MiniTStudio",
+    "id": 16908297,
+    "category": 2,
+    "name": "2x2 Mini T",
+    "shortname": "2x2 Mini T",
+    "icon": "cab-gtr-2x2-fender",
+    "cablink": "2x2MiniTLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "2x12BlackfaceStudio",
+    "id": 16908299,
+    "category": 2,
+    "name": "2x12 Blackface",
+    "shortname": "2x12 Blackface",
+    "icon": "cab-gtr-2x12-fender-twin",
+    "cablink": "2x12BlackfaceLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "2x12Line6Studio",
+    "id": 16908298,
+    "category": 2,
+    "name": "2x12 Line 6",
+    "shortname": "2x12 Line 6",
+    "icon": "cab-gtr-2x12-line6",
+    "cablink": "2x12Line6Live2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "2x12MatchStudio",
+    "id": 16908300,
+    "category": 2,
+    "name": "2x12 Match",
+    "shortname": "2x12 Match",
+    "icon": "cab-gtr-2x12-matchless",
+    "cablink": "2x12MatchLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "2x12JazzStudio",
+    "id": 16908301,
+    "category": 2,
+    "name": "2x12 Jazz",
+    "shortname": "2x12 Jazz",
+    "icon": "cab-gtr-2x12-roland-jc120",
+    "cablink": "2x12JazzLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "2x12WishbookStudio",
+    "id": 16908314,
+    "category": 2,
+    "name": "2x12 Wishbook",
+    "shortname": "2x12 Wishbook",
+    "icon": "cab-gtr-2x12-wishbook",
+    "cablink": "2x12WishbookLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "2x12ClassAStudio",
+    "id": 16908302,
+    "category": 2,
+    "name": "2x12 Class A",
+    "shortname": "2x12 Class A",
+    "icon": "cab-gtr-2x12-vox-classa30",
+    "cablink": "2x12ClassALive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "4x10TweedStudio",
+    "id": 16908304,
+    "category": 2,
+    "name": "4x10 Tweed",
+    "shortname": "4x10 Tweed",
+    "icon": "cab-gtr-4x10-bassman-combo",
+    "cablink": "4x10TweedBManLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "4x10Line6Studio",
+    "id": 16908303,
+    "category": 2,
+    "name": "4x10 Line 6",
+    "shortname": "4x10 Line 6",
+    "icon": "cab-gtr-4x10-line6",
+    "cablink": "4x10Line6Live2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "4x12Line6Studio",
+    "id": 16908305,
+    "category": 2,
+    "name": "4x12 Line 6",
+    "shortname": "4x12 Line 6",
+    "icon": "cab-gtr-4x12-line6",
+    "cablink": "4x12Line6Live2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "4x12Green20sStudio",
+    "id": 16908306,
+    "category": 2,
+    "name": "4x12 Green 20's",
+    "shortname": "4x12 Green 20's",
+    "icon": "cab-gtr-4x12-67-marshall-greenback20s",
+    "cablink": "4x12Green20sLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "4x12Green25sStudio",
+    "id": 16908307,
+    "category": 2,
+    "name": "4x12 Green 25's",
+    "shortname": "4x12 Green 25's",
+    "icon": "cab-gtr-4x12-68-marshall-greenback25s",
+    "cablink": "4x12Green25sLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "4x12BritT75Studio",
+    "id": 16908308,
+    "category": 2,
+    "name": "4x12 Brit T75",
+    "shortname": "4x12 Brit T75",
+    "icon": "cab-gtr-4x12-marshall-g70",
+    "cablink": "4x12BritT75Live2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "4x12BritV30Studio",
+    "id": 16908309,
+    "category": 2,
+    "name": "4x12 Brit V30",
+    "shortname": "4x12 Brit V30",
+    "icon": "cab-gtr-4x12-marshall-v30",
+    "cablink": "4x12BritV30Live2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "4x12TreadplateStudio",
+    "id": 16908310,
+    "category": 2,
+    "name": "4x12 Treadplate",
+    "shortname": "4x12 Treadplate",
+    "icon": "cab-gtr-4x12-mesaboogie",
+    "cablink": "4x12TreadplateLive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "2x12ClassAFawnStudio",
+    "id": 16908320,
+    "category": 2,
+    "name": "2x12 Fawn",
+    "shortname": "2x12 Fawn",
+    "icon": "cab-gtr-2x12-vox-classa30-fawn",
+    "cablink": "2x12ClassALive2x12",
+    "params": [
+      {
+        "default": 0,
+        "max": 3,
+        "min": 0,
+        "name": "Mic",
+        "persist": 1,
+        "symbolicID": "@mic",
+        "valueType": 0
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Early Reflections",
+        "persist": 2,
+        "symbolicID": "Level",
+        "valueType": 1
+      }
+    ]
+  },
+  {
+    "symbolicID": "@NoCabinet",
+    "id": 16908288,
+    "category": 2,
+    "name": "No Cabinet",
+    "shortname": "No Cabinet",
+    "icon": "cab-gtr-nocabinet",
+    "cablink": "NoCab4x12",
+    "params": []
+  }
+]

@@ -1,0 +1,2584 @@
+[
+  {
+    "symbolicID": "AutoSwell",
+    "id": 33554439,
+    "category": 4,
+    "name": "Auto Swell",
+    "shortname": "Auto Swell",
+    "icon": "dyn-autoswell",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Ramp",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Ramp",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Depth",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Depth",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "BassOverdrive",
+    "id": 33882120,
+    "category": 3,
+    "name": "Bass Overdrive",
+    "shortname": "Bass Overdrive",
+    "icon": "dist-bassoverdrive",
+    "params": [
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.87,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.55,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Gain",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "FuzzPi",
+    "id": 33882114,
+    "category": 3,
+    "name": "Fuzz Pi",
+    "shortname": "Fuzz Pi",
+    "icon": "dist-bugmuffpi",
+    "params": [
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.43,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Gain",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "FacialFuzz",
+    "id": 33882112,
+    "category": 3,
+    "name": "Facial Fuzz",
+    "shortname": "Facial Fuzz",
+    "icon": "dist-facialfuzz",
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Gain",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "KillerZ",
+    "id": 33882118,
+    "category": 3,
+    "name": "Killer Z",
+    "shortname": "Killer Z",
+    "icon": "dist-mtzone",
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Dist",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Contour",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Contour",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Gain",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid Amt",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid Freq",
+        "tweak": 6,
+        "persist": 0,
+        "symbolicID": "Mid Freq",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "L6BoostPlusEQ",
+    "id": 33882119,
+    "category": 3,
+    "name": "Boost + EQ",
+    "shortname": "Boost + EQ",
+    "icon": "dist-l6boosteq",
+    "params": [
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Gain",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid",
+        "tweak": 7,
+        "persist": 0,
+        "symbolicID": "Mid Amt",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mid Freq",
+        "tweak": 6,
+        "persist": 0,
+        "symbolicID": "Mid Freq",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Line6BronzeMaster",
+    "id": 33882121,
+    "category": 3,
+    "name": "Bronze Master",
+    "shortname": "Bronze Master",
+    "icon": "dist-bronzemaster",
+    "params": [
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Blend",
+        "tweak": 8,
+        "persist": 0,
+        "symbolicID": "mixture",
+        "valueType": 1
+      },
+      {
+        "default": 0.13,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "tonality",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "OctaveFuzz",
+    "id": 33882116,
+    "category": 3,
+    "name": "Octave Fuzz",
+    "shortname": "Octave Fuzz",
+    "icon": "dist-octavefuzz",
+    "params": [
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Gain",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "ClassicDistortion",
+    "id": 33882117,
+    "category": 3,
+    "name": "Classic Distortion",
+    "shortname": "Classic Distortion",
+    "icon": "dist-rat",
+    "params": [
+      {
+        "default": 0.68,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.43,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Gain",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "TubeDrive",
+    "id": 33882113,
+    "category": 3,
+    "name": "Tube Drive",
+    "shortname": "Tube Drive",
+    "icon": "dist-tubedriver",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Treble",
+        "tweak": 5,
+        "persist": 0,
+        "symbolicID": "Treble",
+        "valueType": 1
+      },
+      {
+        "default": 0.9,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Gain",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Bass",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Bass",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Screamer",
+    "id": 33882115,
+    "category": 3,
+    "name": "Screamer",
+    "shortname": "Screamer",
+    "icon": "dist-tubescreamer",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Drive",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Drive",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Gain",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tone",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Tone",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "BuzzWave",
+    "id": 34209797,
+    "category": 5,
+    "name": "Buzz Wave",
+    "shortname": "Buzz Wave",
+    "icon": "filter-buzzwave",
+    "params": [
+      {
+        "default": 0.8,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Wave",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Filter",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Filter",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "Mix",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "DoubleBass",
+    "id": 34209800,
+    "category": 5,
+    "name": "Double Bass",
+    "shortname": "Double Bass",
+    "icon": "filter-doublebass",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "-1 Octave",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "-1oct G",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "-2 Octave",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "-2oct G",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "Mix",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "RezSynth",
+    "id": 34209798,
+    "category": 5,
+    "name": "Rez Synth",
+    "shortname": "Rez Synth",
+    "icon": "filter-synthrez",
+    "params": [
+      {
+        "default": 0.375,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Wave",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Filter",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Filter",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "Mix",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Saturn5RingMod",
+    "id": 34209799,
+    "category": 5,
+    "name": "Saturn 5 Ring Mod",
+    "shortname": "S5 Ring Mod",
+    "icon": "filter-saturn5",
+    "params": [
+      {
+        "default": 0.375,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Ondulation",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "Mix",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "SeismicSynth",
+    "id": 34209804,
+    "category": 5,
+    "name": "Seismik Synth",
+    "shortname": "Seismik Synth",
+    "icon": "filter-synthseismik",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "wave",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "Mix",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "SynthAnalog",
+    "id": 34209795,
+    "category": 5,
+    "name": "Synth Analog",
+    "shortname": "Synth Analog",
+    "icon": "filter-synthanalog",
+    "params": [
+      {
+        "default": 0.125,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Wave",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Filter",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Filter",
+        "valueType": 1
+      },
+      {
+        "default": 0.88,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "Mix",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "SynthFX",
+    "id": 34209796,
+    "category": 5,
+    "name": "Synth FX",
+    "shortname": "Synth FX",
+    "icon": "filter-synthfx",
+    "params": [
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Wave",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Filter",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Filter",
+        "valueType": 1
+      },
+      {
+        "default": 0.13,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "Mix",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "SynthHarmony",
+    "id": 34209801,
+    "category": 5,
+    "name": "Synth Harmony",
+    "shortname": "Synth Harmony",
+    "icon": "filter-synthharmony",
+    "params": [
+      {
+        "default": 0.125,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Interval 1",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "1 m3 3 5",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Interval 2",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "1 4 5 7",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Wave",
+        "valueType": 1
+      },
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "Mix",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "SynthLead",
+    "id": 34209793,
+    "category": 5,
+    "name": "Synth Lead",
+    "shortname": "Synth Lead",
+    "icon": "filter-synthlead",
+    "params": [
+      {
+        "default": 0.125,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Wave",
+        "valueType": 1
+      },
+      {
+        "default": 0.13,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Filter",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Filter",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Attack",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "Mix",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "SynthString",
+    "id": 34209794,
+    "category": 5,
+    "name": "Synth String",
+    "shortname": "Synth String",
+    "icon": "filter-synthstring",
+    "params": [
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Wave",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Wave",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Filter",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Filter",
+        "valueType": 1
+      },
+      {
+        "default": 0.63,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Attack",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Attack",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "Mix",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "CleanSweep",
+    "id": 34209803,
+    "category": 6,
+    "name": "Clean Sweep",
+    "shortname": "Clean Sweep",
+    "icon": "filter-sparklesweep",
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sensitivity",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Sens",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Q",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Q",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "DingoTron",
+    "id": 34209802,
+    "category": 6,
+    "name": "Dingo Tron",
+    "shortname": "Dingo Tron",
+    "icon": "filter-dingotron",
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sensitivity",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Sens",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Q",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Q",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "AutoWah",
+    "id": 34209792,
+    "category": 6,
+    "name": "Auto Wah",
+    "shortname": "Auto Wah",
+    "icon": "filter-autowah",
+    "params": [
+      {
+        "default": 0.32,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sensitivity",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Sens",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Q",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Q",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "PitchGlide",
+    "id": 34209806,
+    "category": 7,
+    "name": "Pitch Bend",
+    "shortname": "Pitch Bend",
+    "icon": "filter-whammy",
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Position",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Pedal",
+        "valueType": 1
+      },
+      {
+        "default": 0.125984,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Heel",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Heel",
+        "valueType": 1
+      },
+      {
+        "default": 0.692913,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Toe",
+        "tweak": 0,
+        "persist": 0,
+        "symbolicID": "Toe",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 8,
+        "symbolicID": "MIX",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "VettaComp",
+    "id": 33554437,
+    "category": 4,
+    "name": "Vetta Comp",
+    "shortname": "Vetta Comp",
+    "icon": "dyn-vettacomp",
+    "params": [
+      {
+        "default": 0.31,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sensitivity",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Sens",
+        "valueType": 1
+      },
+      {
+        "default": 0.79,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Level",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Level",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "VettaJuice",
+    "id": 33554438,
+    "category": 4,
+    "name": "Vetta Juice",
+    "shortname": "Vetta Juice",
+    "icon": "dyn-vettajuice",
+    "params": [
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Amount",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "sens",
+        "valueType": 1
+      },
+      {
+        "default": 0.59,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Level",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "level",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "BlueCompTreb",
+    "id": 33554435,
+    "category": 4,
+    "name": "Blue Comp Treb",
+    "shortname": "Blue Comp Treb",
+    "icon": "dyn-bluecomptreb",
+    "params": [
+      {
+        "default": 0.38,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sustain",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Sustain",
+        "valueType": 1
+      },
+      {
+        "default": 0.88,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Level",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Level",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "BlueComp",
+    "id": 33554434,
+    "category": 4,
+    "name": "Blue Comp",
+    "shortname": "Blue Comp",
+    "icon": "dyn-bluecomp",
+    "params": [
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sustain",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Sustain",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Level",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Level",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "RedComp",
+    "id": 33554436,
+    "category": 4,
+    "name": "Red Comp",
+    "shortname": "Red Comp",
+    "icon": "dyn-dynamcomp",
+    "params": [
+      {
+        "default": 0.3,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Sustain",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Sustain",
+        "valueType": 1
+      },
+      {
+        "default": 0.83,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Level",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Level",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "TapeEater",
+    "id": 33751065,
+    "category": 6,
+    "name": "Tape Eater",
+    "shortname": "Tape Eater",
+    "icon": "filter-tapeeater",
+    "params": [
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Feedback",
+        "tweak": 3,
+        "persist": 0,
+        "symbolicID": "Feedback",
+        "valueType": 1
+      },
+      {
+        "default": 0.76,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Flutter",
+        "tweak": 4,
+        "persist": 0,
+        "symbolicID": "Flutter",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Distortion",
+        "tweak": 2,
+        "persist": 0,
+        "symbolicID": "Dist",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  }
+]

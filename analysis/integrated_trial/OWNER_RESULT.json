@@ -1,0 +1,29 @@
+{
+  "source": "Owner live report in chat, Windows10; screenshot shows integrated Lua waiting with track armed; subsequent owner confirms audio and all controls",
+  "setup": "Spider V30 firmware2.05.0, active amp model retained, AmpEnable0 during bounded20s trial, Gateway/NAM in REAPER",
+  "owner_audio_report": "cuando active el bypass se escucho el gateway",
+  "owner_control_report": "las perillas se movian perfectamente",
+  "functional_result": "Simultaneous Gateway audio and four physical knob controls reported working in the integrated trial",
+  "routing": {
+    "physical_Drive_or_Gain": "Gateway Input (-12..+6dB mapping)",
+    "physical_Bass": "Gateway Bass",
+    "physical_Mid": "Gateway Middle",
+    "physical_Treble": "Gateway Treble"
+  },
+  "confirmed_scope": [
+    "Integrated browser/Windows local state file/ReaScript pipeline works in owner environment",
+    "Gateway audible during bypass",
+    "Four physical controls move Gateway during same integrated trial",
+    "Earlier separate recording established distorted-clean-distorted USB input around AmpEnable1-0-1"
+  ],
+  "limits": [
+    "20-second trial, not continuous-use version",
+    "NAM runs on PC, not Spider DSP",
+    "No objective latency/noise/transparency measurements",
+    "Direct monitor contribution not isolated",
+    "Restoration was verified in earlier device trials; no final restoration log supplied for this particular integrated run",
+    "Current server still derives its page from the prior local trial page when starting"
+  ],
+  "firmware_modified": false,
+  "next_engineering_step": "Package standalone start-up and deliberately controlled continuous session with verified restoration, without extending the current20s write authorization silently."
+}

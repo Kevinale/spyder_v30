@@ -1,0 +1,65 @@
+[
+  {
+    "index": 850,
+    "text": "headphone",
+    "crc32": "a570f310",
+    "string_offset": 21295,
+    "record_offset": 10208
+  },
+  {
+    "index": 870,
+    "text": "StereoOutput",
+    "crc32": "0815695d",
+    "string_offset": 21509,
+    "record_offset": 10448
+  },
+  {
+    "index": 886,
+    "text": "OutputLimiter",
+    "crc32": "7d594c75",
+    "string_offset": 21738,
+    "record_offset": 10640
+  },
+  {
+    "index": 892,
+    "text": "GuitarProcEnable",
+    "crc32": "d6826900",
+    "string_offset": 21841,
+    "record_offset": 10712
+  },
+  {
+    "index": 895,
+    "text": "Headphone",
+    "crc32": "278171b3",
+    "string_offset": 21890,
+    "record_offset": 10748
+  },
+  {
+    "index": 898,
+    "text": "TunerEnable",
+    "crc32": "811308da",
+    "string_offset": 21933,
+    "record_offset": 10784
+  },
+  {
+    "index": 899,
+    "text": "GuitProcOutputGain",
+    "crc32": "bd42b89b",
+    "string_offset": 21945,
+    "record_offset": 10796
+  },
+  {
+    "index": 900,
+    "text": "USBOutLevel",
+    "crc32": "837ea250",
+    "string_offset": 21964,
+    "record_offset": 10808
+  },
+  {
+    "index": 901,
+    "text": "USBInLevel",
+    "crc32": "e2b4d7d3",
+    "string_offset": 21976,
+    "record_offset": 10820
+  }
+]

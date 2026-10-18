@@ -1,0 +1,1222 @@
+[
+  {
+    "offset": "0x17fd90",
+    "va": "0x580b90",
+    "text": "Spider V 20"
+  },
+  {
+    "offset": "0x17fd9c",
+    "va": "0x580b9c",
+    "text": "Spider V 30"
+  },
+  {
+    "offset": "0x17fda8",
+    "va": "0x580ba8",
+    "text": "Spider V 60"
+  },
+  {
+    "offset": "0x17fdb4",
+    "va": "0x580bb4",
+    "text": "Spider V 120"
+  },
+  {
+    "offset": "0x17fdc4",
+    "va": "0x580bc4",
+    "text": "Spider V 240"
+  },
+  {
+    "offset": "0x17fdd4",
+    "va": "0x580bd4",
+    "text": "Spider V 240HC"
+  },
+  {
+    "offset": "0x17fe64",
+    "va": "0x580c64",
+    "text": "Spider V"
+  },
+  {
+    "offset": "0x180200",
+    "va": "0x581000",
+    "text": "firmware_old"
+  },
+  {
+    "offset": "0x180210",
+    "va": "0x581010",
+    "text": "DeviceFirmwareVersionString"
+  },
+  {
+    "offset": "0x18022c",
+    "va": "0x58102c",
+    "text": "firmware_new"
+  },
+  {
+    "offset": "0x181874",
+    "va": "0x582674",
+    "text": "DeviceFirmwareVersion"
+  },
+  {
+    "offset": "0x188a88",
+    "va": "0x589888",
+    "text": "IsDownloadingFirmwareImage"
+  },
+  {
+    "offset": "0x188c34",
+    "va": "0x589a34",
+    "text": "Installing Firmware update"
+  },
+  {
+    "offset": "0x188d50",
+    "va": "0x589b50",
+    "text": "Firmware update has been canceled"
+  },
+  {
+    "offset": "0x188f64",
+    "va": "0x589d64",
+    "text": "Downloading firmware update image..."
+  },
+  {
+    "offset": "0x188fc8",
+    "va": "0x589dc8",
+    "text": "Installing firmware update..."
+  },
+  {
+    "offset": "0x18904c",
+    "va": "0x589e4c",
+    "text": "Error while downloading firmware update: %1"
+  },
+  {
+    "offset": "0x189078",
+    "va": "0x589e78",
+    "text": "void __thiscall UpdatesController::installFirmwareImage(const class QString &)"
+  },
+  {
+    "offset": "0x1890d0",
+    "va": "0x589ed0",
+    "text": "Failed to start firmware update. Error code: %1"
+  },
+  {
+    "offset": "0x189100",
+    "va": "0x589f00",
+    "text": "Failed to start firmware update.Error code: "
+  },
+  {
+    "offset": "0x189130",
+    "va": "0x589f30",
+    "text": "Firmware update failed: no data read from archive."
+  },
+  {
+    "offset": "0x189180",
+    "va": "0x589f80",
+    "text": "Firmware update failed: archive file appears to have no data."
+  },
+  {
+    "offset": "0x1891e8",
+    "va": "0x589fe8",
+    "text": "Firmware update failed: failed to open image archive file"
+  },
+  {
+    "offset": "0x1893e0",
+    "va": "0x58a1e0",
+    "text": "Firmware update completed."
+  },
+  {
+    "offset": "0x1893fc",
+    "va": "0x58a1fc",
+    "text": "Error while installing firmware update"
+  },
+  {
+    "offset": "0x18e714",
+    "va": "0x58f514",
+    "text": "FirmwareUpdatesModel"
+  },
+  {
+    "offset": "0x32f889",
+    "va": "0x730689",
+    "text": "7.2. No Reverse Engineering or Modification. You agree that you will not, directly or indirectly, reverse engineer, decompile, disassemble or otherwise attempt to discover the source code or underlying ideas or algorithms of the Software, copy, decrypt, modify, translate or create derivative works based on the Software or any party thereof, except as and only to the extent that applicable law expressly permits. "
+  },
+  {
+    "offset": "0x348bb0",
+    "va": "0x7499b0",
+    "text": "        <h1>G70 Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x348f01",
+    "va": "0x749d01",
+    "text": "        <h1>G75 Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x349254",
+    "va": "0x74a054",
+    "text": "        <h1>P34 Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3494e5",
+    "va": "0x74a2e5",
+    "text": "        <h1>P34 Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x349774",
+    "va": "0x74a574",
+    "text": "        <h1>P34 Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3499fd",
+    "va": "0x74a7fd",
+    "text": "        <h1>P34 Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x349a55",
+    "va": "0x74a855",
+    "text": "        <h2 class=\"fail\">You are about to update P34 firmware using a direct connection to Updater app.</h2>"
+  },
+  {
+    "offset": "0x3b4ab5",
+    "va": "0x7b58b5",
+    "text": "        <h2 class=\"fail\">In order to update DL4 MkII firmware the device must be manually booted into bootloader. Restart the device"
+  },
+  {
+    "offset": "0x3b4d06",
+    "va": "0x7b5b06",
+    "text": "        <h1>HX Stomp XL Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b4fa7",
+    "va": "0x7b5da7",
+    "text": "        <h1>HX Stomp XL Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b5246",
+    "va": "0x7b6046",
+    "text": "        <h1>HX Stomp XL Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b54e7",
+    "va": "0x7b62e7",
+    "text": "        <h1>HX Stomp XL Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b5547",
+    "va": "0x7b6347",
+    "text": "        <h2 class=\"fail\">You are about to update HX Stomp XL firmware using a direct connection to Updater app.</h2>"
+  },
+  {
+    "offset": "0x3b5791",
+    "va": "0x7b6591",
+    "text": "        <h1>HX Effects Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b5a30",
+    "va": "0x7b6830",
+    "text": "        <h1>HX Effects Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b5ccd",
+    "va": "0x7b6acd",
+    "text": "        <h1>HX Effects Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b5f6b",
+    "va": "0x7b6d6b",
+    "text": "        <h1>HX Effects Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b5fca",
+    "va": "0x7b6dca",
+    "text": "        <h2 class=\"fail\">You are about to update HX Effects firmware using a direct connection to Updater app.</h2>"
+  },
+  {
+    "offset": "0x3b6213",
+    "va": "0x7b7013",
+    "text": "        <h1>HX Stomp Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b64ae",
+    "va": "0x7b72ae",
+    "text": "        <h1>HX Stomp Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b6747",
+    "va": "0x7b7547",
+    "text": "        <h1>HX Stomp Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b69df",
+    "va": "0x7b77df",
+    "text": "        <h1>HX Stomp Firmware Update Suspended</h1>"
+  },
+  {
+    "offset": "0x3b6a3c",
+    "va": "0x7b783c",
+    "text": "        <h2 class=\"fail\">You are about to update HX Stomp firmware using a direct connection to Updater app.</h2>"
+  },
+  {
+    "offset": "0x3b6dc1",
+    "va": "0x7b7bc1",
+    "text": "    <h2>Updating to Helix 2.80 (or greater) Firmware</h2>"
+  },
+  {
+    "offset": "0x3b7292",
+    "va": "0x7b8092",
+    "text": "    <h2>Updating to Helix 2.80 (or greater) Firmware</h2>"
+  },
+  {
+    "offset": "0x3b773c",
+    "va": "0x7b853c",
+    "text": "    <h2>Regressing from Helix 3.50 (or greater) Firmware</h2>"
+  },
+  {
+    "offset": "0x3b7a69",
+    "va": "0x7b8869",
+    "text": "        <h1>Helix Firmware Update Information</h1>"
+  },
+  {
+    "offset": "0x3b7ac5",
+    "va": "0x7b88c5",
+    "text": "        <h2>This Helix firmware update will be done in two parts.  The device will reset in the middle and at the end of the update.</h2>"
+  },
+  {
+    "offset": "0x3b7e61",
+    "va": "0x7b8c61",
+    "text": "    <h2>Updating to Helix 3.50 (or greater) Firmware</h2>"
+  },
+  {
+    "offset": "0x3b8310",
+    "va": "0x7b9110",
+    "text": "    <h2>Regressing from Helix 3.50 (or greater) Firmware</h2>"
+  },
+  {
+    "offset": "0x3b878b",
+    "va": "0x7b958b",
+    "text": "    <h2>Updating to Helix 2.80 (or greater) Firmware</h2>"
+  },
+  {
+    "offset": "0x3b8c02",
+    "va": "0x7b9a02",
+    "text": "    <h2>Updating to Helix 3.50 (or greater) Firmware</h2>"
+  },
+  {
+    "offset": "0x3c5600",
+    "va": "0x7c6400",
+    "text": "L6DeviceCenter_Win::instanceDeviceHelper(VERIFYING) -  rejecting device (interlock) %s, model %s (midi 0x%x), firmware %s"
+  },
+  {
+    "offset": "0x3c5680",
+    "va": "0x7c6480",
+    "text": "L6DeviceCenter_Win::instanceDeviceHelper(VERIFYING) -  rejecting device %s, model %s (midi 0x%x), firmware %s"
+  },
+  {
+    "offset": "0x3c5750",
+    "va": "0x7c6550",
+    "text": "L6DeviceCenter_Win::instanceDeviceHelper(CONNECT) -  rejecting device (interlock) %s, model %s (midi 0x%x), firmware %s"
+  },
+  {
+    "offset": "0x3c57c8",
+    "va": "0x7c65c8",
+    "text": "L6DeviceCenter_Win::instanceDeviceHelper(CONNECT) -  rejecting device %s, model %s (midi 0x%x), firmware %s"
+  },
+  {
+    "offset": "0x3c58a8",
+    "va": "0x7c66a8",
+    "text": "L6DeviceCenter_Win::instanceDeviceHelper(initializeResponse failed) -  rejecting device %s, model %s (midi 0x%x), firmware %s"
+  },
+  {
+    "offset": "0x3d6b90",
+    "va": "0x7d7990",
+    "text": "L6ParkerDevice::refreshDeviceInfo() - SUCCEEDED connect, response %d"
+  },
+  {
+    "offset": "0x3d6bd8",
+    "va": "0x7d79d8",
+    "text": "L6ParkerDevice::refreshDeviceInfo() - FAILED to connect, response %d"
+  },
+  {
+    "offset": "0x3d6c20",
+    "va": "0x7d7a20",
+    "text": "L6ParkerDevice::refreshDeviceInfo() - prepareForDeviceInfo() failed"
+  },
+  {
+    "offset": "0x3d6c68",
+    "va": "0x7d7a68",
+    "text": "L6ParkerDevice::refreshDeviceInfo() - device opened, just moving from transitioning to connected list"
+  },
+  {
+    "offset": "0x3df478",
+    "va": "0x7e0278",
+    "text": "firmwareRevision  : 0x%x, (v%s)n"
+  },
+  {
+    "offset": "0x3dfb18",
+    "va": "0x7e0918",
+    "text": "L6AmplifiDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x3dfb68",
+    "va": "0x7e0968",
+    "text": "L6AmplifiDevice::firmwareUpdateProgress() %0.2f"
+  },
+  {
+    "offset": "0x3e1d28",
+    "va": "0x7e2b28",
+    "text": "firmwareRevision  : 0x%x, (v%s)"
+  },
+  {
+    "offset": "0x3e1f00",
+    "va": "0x7e2d00",
+    "text": "L6CatalystDevice::connectWithObjHelper() - blocking instancing of editor/librarian ports due to currentFirmwareMode (%d), not necessarily an error "
+  },
+  {
+    "offset": "0x3e2718",
+    "va": "0x7e3518",
+    "text": "L6CatalystDevice::forceFirmwareUpdate() force-- "
+  },
+  {
+    "offset": "0x3e2750",
+    "va": "0x7e3550",
+    "text": "L6CatalystDevice::forceFirmwareUpdate() force-- bypassing due to currentFirmwareMode"
+  },
+  {
+    "offset": "0x3e2ac0",
+    "va": "0x7e38c0",
+    "text": "L6CatalystDevice::finishUpdate() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x3e2b00",
+    "va": "0x7e3900",
+    "text": "L6CatalystDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x3e2b50",
+    "va": "0x7e3950",
+    "text": "BootedFirmwareType"
+  },
+  {
+    "offset": "0x3e3e50",
+    "va": "0x7e4c50",
+    "text": "L6Dl4MkIIDevice::connectWithObjHelper() - blocking instancing of editor/librarian ports due to currentFirmwareMode (%d), not necessarily an error "
+  },
+  {
+    "offset": "0x3e45b0",
+    "va": "0x7e53b0",
+    "text": "L6Dl4MkIIDevice::forceFirmwareUpdate() force-- "
+  },
+  {
+    "offset": "0x3e45e8",
+    "va": "0x7e53e8",
+    "text": "L6Dl4MkIIDevice::forceFirmwareUpdate() force-- bypassing due to currentFirmwareMode"
+  },
+  {
+    "offset": "0x3e48b8",
+    "va": "0x7e56b8",
+    "text": "L6Dl4MkIIDevice::finishUpdate() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x3e48f8",
+    "va": "0x7e56f8",
+    "text": "L6Dl4MkIIDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x3e5c75",
+    "va": "0x7e6a75",
+    "text": "firmwareMode : unknown "
+  },
+  {
+    "offset": "0x3e5c91",
+    "va": "0x7e6a91",
+    "text": "firmwareMode : Catalyst_Main??? "
+  },
+  {
+    "offset": "0x3e5cb5",
+    "va": "0x7e6ab5",
+    "text": "firmwareMode : Catalyst_Bootloader "
+  },
+  {
+    "offset": "0x3e5cdd",
+    "va": "0x7e6add",
+    "text": "firmwareMode : Freescale_Bootloader??? "
+  },
+  {
+    "offset": "0x3e5d34",
+    "va": "0x7e6b34",
+    "text": "DeviceFirmwareBuild"
+  },
+  {
+    "offset": "0x3e5f48",
+    "va": "0x7e6d48",
+    "text": "L6NxpHidDevice::finishUpdate() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x3e5fd0",
+    "va": "0x7e6dd0",
+    "text": "L6NxpHidDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x3e601c",
+    "va": "0x7e6e1c",
+    "text": "L6NxpHidDevice::firmwareUpdateProgress(progress %f)"
+  },
+  {
+    "offset": "0x3edf48",
+    "va": "0x7eed48",
+    "text": "L6FbvMkIIIDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x3f7120",
+    "va": "0x7f7f20",
+    "text": "L6ParkerDevice::initialize() "
+  },
+  {
+    "offset": "0x3f7140",
+    "va": "0x7f7f40",
+    "text": "L6ParkerDevice::initialize() - base class initialized, response %d"
+  },
+  {
+    "offset": "0x3f7184",
+    "va": "0x7f7f84",
+    "text": "L6ParkerDevice::initialize() - SUCCEEDED connect, response %d"
+  },
+  {
+    "offset": "0x3f71c4",
+    "va": "0x7f7fc4",
+    "text": "L6ParkerDevice::initialize() - FAILED to connect, response %d"
+  },
+  {
+    "offset": "0x3f7204",
+    "va": "0x7f8004",
+    "text": "L6ParkerDevice::initialize() - Unsupported product! %s"
+  },
+  {
+    "offset": "0x3f7240",
+    "va": "0x7f8040",
+    "text": "L6ParkerDevice::initialize() - Unable to obtain deviceInfo from the device"
+  },
+  {
+    "offset": "0x3f728c",
+    "va": "0x7f808c",
+    "text": "L6ParkerDevice::G10TxConnected() connected %s, track %d"
+  },
+  {
+    "offset": "0x3f72c8",
+    "va": "0x7f80c8",
+    "text": "L6ParkerDevice::handleG10TxProcess()+++ "
+  },
+  {
+    "offset": "0x3f72f4",
+    "va": "0x7f80f4",
+    "text": "L6ParkerDevice::handleG10TxProcess()--- "
+  },
+  {
+    "offset": "0x3f7320",
+    "va": "0x7f8120",
+    "text": "L6ParkerDevice::connectWithObj() "
+  },
+  {
+    "offset": "0x3f7348",
+    "va": "0x7f8148",
+    "text": "L6ParkerDevice::connectWithObj() - currentFirmwareMode == SpiderV_Updater, declaring this device active "
+  },
+  {
+    "offset": "0x3f73b4",
+    "va": "0x7f81b4",
+    "text": "L6ParkerDevice::connectWithObjHelper() : mode %s"
+  },
+  {
+    "offset": "0x3f73e8",
+    "va": "0x7f81e8",
+    "text": "L6ParkerDevice::connectWithObjHelper() unable to initialize base msg port (response %d) attempt %d of %d "
+  },
+  {
+    "offset": "0x3f7458",
+    "va": "0x7f8258",
+    "text": "L6ParkerDevice::connectWithObjHelper() - blocking instancing of editor/librarian ports due to currentFirmwareMode (%d), not necessarily an error "
+  },
+  {
+    "offset": "0x3f74ec",
+    "va": "0x7f82ec",
+    "text": "L6ParkerDevice::disconnect()"
+  },
+  {
+    "offset": "0x3f750c",
+    "va": "0x7f830c",
+    "text": "L6ParkerDevice::disconnectHelper() "
+  },
+  {
+    "offset": "0x3f7534",
+    "va": "0x7f8334",
+    "text": "L6ParkerDevice::openHelper() no system midi message port"
+  },
+  {
+    "offset": "0x3f7570",
+    "va": "0x7f8370",
+    "text": "L6ParkerDevice::openHelper() pMidiMsgPort failed to open %d "
+  },
+  {
+    "offset": "0x3f75b0",
+    "va": "0x7f83b0",
+    "text": "L6ParkerDevice::openHelper() pEditorPort failed to open %d "
+  },
+  {
+    "offset": "0x3f75f0",
+    "va": "0x7f83f0",
+    "text": "L6ParkerDevice::openHelper() pLibrarianPort failed to open %d "
+  },
+  {
+    "offset": "0x3f7630",
+    "va": "0x7f8430",
+    "text": "L6ParkerDevice::openHelper() pEchoPort failed to open %d "
+  },
+  {
+    "offset": "0x3f766c",
+    "va": "0x7f846c",
+    "text": "L6ParkerDevice::open() open-- calling openHelper()"
+  },
+  {
+    "offset": "0x3f76a0",
+    "va": "0x7f84a0",
+    "text": "L6ParkerDevice::open() was not able to open msg port(s)"
+  },
+  {
+    "offset": "0x3f76dc",
+    "va": "0x7f84dc",
+    "text": "L6ParkerDevice::open() open-- Need to force update"
+  },
+  {
+    "offset": "0x3f7710",
+    "va": "0x7f8510",
+    "text": "L6ParkerDevice::closeHelper() close--"
+  },
+  {
+    "offset": "0x3f7738",
+    "va": "0x7f8538",
+    "text": "L6ParkerDevice::close() close--"
+  },
+  {
+    "offset": "0x3f7760",
+    "va": "0x7f8560",
+    "text": "L6ParkerDevice::prepareForDeviceInfo() - platformObject.type kInterposerObject"
+  },
+  {
+    "offset": "0x3f77b0",
+    "va": "0x7f85b0",
+    "text": "L6ParkerDevice::prepareForDeviceInfo() - platformObject.type kAndroidObject"
+  },
+  {
+    "offset": "0x3f7800",
+    "va": "0x7f8600",
+    "text": "L6ParkerDevice::prepareForDeviceInfo() - platformObject.type kiOsEaAccessoryObject"
+  },
+  {
+    "offset": "0x3f7858",
+    "va": "0x7f8658",
+    "text": "L6ParkerDevice::prepareForDeviceInfo() - platformObject.type kMidiObject"
+  },
+  {
+    "offset": "0x3f78a8",
+    "va": "0x7f86a8",
+    "text": "L6ParkerDevice::prepareForDeviceInfo() - platformObject.type kUsbObject"
+  },
+  {
+    "offset": "0x3f78f4",
+    "va": "0x7f86f4",
+    "text": "L6ParkerDevice::prepareForDeviceInfo() status obtained!"
+  },
+  {
+    "offset": "0x3f7930",
+    "va": "0x7f8730",
+    "text": "L6ParkerDevice::prepareForDeviceInfo() status obtained, L6ERR_DEVLIB_DEVICE_FORCE_UPDATE!"
+  },
+  {
+    "offset": "0x3f798c",
+    "va": "0x7f878c",
+    "text": "L6ParkerDevice::prepareForDeviceInfo() unable to open"
+  },
+  {
+    "offset": "0x3f79c4",
+    "va": "0x7f87c4",
+    "text": "L6ParkerDevice::prepareForDeviceInfo() unable to connect"
+  },
+  {
+    "offset": "0x3f7a00",
+    "va": "0x7f8800",
+    "text": "L6ParkerDevice::prepareForDeviceInfo() -----------------------------------"
+  },
+  {
+    "offset": "0x3f7a50",
+    "va": "0x7f8850",
+    "text": "L6ParkerDevice::surpriseRemoval() environment-- surprise-- stopping Tx thread."
+  },
+  {
+    "offset": "0x3f7aa0",
+    "va": "0x7f88a0",
+    "text": "L6ParkerDevice::surpriseRemoval() environment-- surprise-- Tx thread stopped."
+  },
+  {
+    "offset": "0x3f7af0",
+    "va": "0x7f88f0",
+    "text": "L6ParkerDevice::surpriseArrival() environment-- surprise-- starting Tx thread."
+  },
+  {
+    "offset": "0x3f7b40",
+    "va": "0x7f8940",
+    "text": "********** componentFirmware **********"
+  },
+  {
+    "offset": "0x3f7bd8",
+    "va": "0x7f89d8",
+    "text": "L6ParkerDevice::getFirmwareComponentInfo() malformatted"
+  },
+  {
+    "offset": "0x3f7c14",
+    "va": "0x7f8a14",
+    "text": "L6ParkerDevice::getFirmwareComponentInfo() unexpected size"
+  },
+  {
+    "offset": "0x3f7c50",
+    "va": "0x7f8a50",
+    "text": "L6ParkerDevice::getWirelessTraceIdInfo() malformatted"
+  },
+  {
+    "offset": "0x3f7c88",
+    "va": "0x7f8a88",
+    "text": "L6ParkerDevice::getWirelessTraceIdInfo() unexpected size"
+  },
+  {
+    "offset": "0x3f7cc8",
+    "va": "0x7f8ac8",
+    "text": "L6ParkerDevice::getWirelessTraceIdInfo() - fwVersion 0x%08x doesn't support unique id info"
+  },
+  {
+    "offset": "0x3f7d24",
+    "va": "0x7f8b24",
+    "text": "L6ParkerDevice::getDeviceQueryInfo() malformatted"
+  },
+  {
+    "offset": "0x3f7d58",
+    "va": "0x7f8b58",
+    "text": "L6ParkerDevice::getDeviceQueryInfo() unexpected size %d"
+  },
+  {
+    "offset": "0x3f7d94",
+    "va": "0x7f8b94",
+    "text": "PARKER UNKNOWN "
+  },
+  {
+    "offset": "0x3f7da8",
+    "va": "0x7f8ba8",
+    "text": "L6MIDI_PRODID_PARKER_25 "
+  },
+  {
+    "offset": "0x3f7dc4",
+    "va": "0x7f8bc4",
+    "text": "L6MIDI_PRODID_PARKER_50 "
+  },
+  {
+    "offset": "0x3f7de0",
+    "va": "0x7f8be0",
+    "text": "L6MIDI_PRODID_PARKER_100 "
+  },
+  {
+    "offset": "0x3f7dfc",
+    "va": "0x7f8bfc",
+    "text": "L6MIDI_PRODID_PARKER_200 "
+  },
+  {
+    "offset": "0x3f7e18",
+    "va": "0x7f8c18",
+    "text": "L6MIDI_PRODID_PARKER_HD "
+  },
+  {
+    "offset": "0x3f7e34",
+    "va": "0x7f8c34",
+    "text": "L6MIDI_PRODID_PARKER_20 "
+  },
+  {
+    "offset": "0x3f7e58",
+    "va": "0x7f8c58",
+    "text": "L6ParkerDevice::handlePortNotification() -- %s"
+  },
+  {
+    "offset": "0x3f7e88",
+    "va": "0x7f8c88",
+    "text": "L6ParkerDevice::changeToState() Device %s changing state (tracker %d) from %d to %d"
+  },
+  {
+    "offset": "0x3f7ee0",
+    "va": "0x7f8ce0",
+    "text": "L6ParkerDevice::forceFirmwareUpdate() force-- "
+  },
+  {
+    "offset": "0x3f7f10",
+    "va": "0x7f8d10",
+    "text": "L6ParkerDevice::forceFirmwareUpdate() force-- bypassing due to currentFirmwareMode"
+  },
+  {
+    "offset": "0x3f7f68",
+    "va": "0x7f8d68",
+    "text": "L6ParkerDevice::prepareForUpdating() update-- rebootDevice() failed response %d"
+  },
+  {
+    "offset": "0x3f7fc0",
+    "va": "0x7f8dc0",
+    "text": "L6ParkerDevice::prepareForUpdating() update-- rebootDevice(update)"
+  },
+  {
+    "offset": "0x3f8008",
+    "va": "0x7f8e08",
+    "text": "L6ParkerDevice::prepareForUpdating() G10Tx-- updater has hwToken"
+  },
+  {
+    "offset": "0x3f8050",
+    "va": "0x7f8e50",
+    "text": "L6ParkerDevice::prepareForUpdating() update--: unable to put device into update mode, response %d"
+  },
+  {
+    "offset": "0x3f80b8",
+    "va": "0x7f8eb8",
+    "text": "L6ParkerDevice::prepareForUpdating() update--: connectWithObjHelper() failed, response %d"
+  },
+  {
+    "offset": "0x3f8118",
+    "va": "0x7f8f18",
+    "text": "L6ParkerDevice::prepareForUpdating() G10Tx-- updater unable to grab hwToken"
+  },
+  {
+    "offset": "0x3f8188",
+    "va": "0x7f8f88",
+    "text": "L6ParkerDevice::convertUpdateImage() - make_update() failed, response %d"
+  },
+  {
+    "offset": "0x3f81d8",
+    "va": "0x7f8fd8",
+    "text": "L6ParkerDevice::convertUpdateImage() - failed to save tmp.l6logic, response %d"
+  },
+  {
+    "offset": "0x3f8228",
+    "va": "0x7f9028",
+    "text": "update-- L6ParkerDevice::startUpdate() : imageSize %d, COMPHANDLE %d"
+  },
+  {
+    "offset": "0x3f8270",
+    "va": "0x7f9070",
+    "text": "update-- L6ParkerDevice::handleStartUpdate()++ "
+  },
+  {
+    "offset": "0x3f82a4",
+    "va": "0x7f90a4",
+    "text": "Spider V.bin"
+  },
+  {
+    "offset": "0x3f82b4",
+    "va": "0x7f90b4",
+    "text": "Spider V G10Tx.bin"
+  },
+  {
+    "offset": "0x3f82c8",
+    "va": "0x7f90c8",
+    "text": "update-- L6ParkerDevice::startUpdate() unable to obtain the update port from the device"
+  },
+  {
+    "offset": "0x3f8328",
+    "va": "0x7f9128",
+    "text": "L6ParkerDevice::startUpdate() - prepareForUpdating() failed, response %d"
+  },
+  {
+    "offset": "0x3f8378",
+    "va": "0x7f9178",
+    "text": "L6ParkerDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x3f83c4",
+    "va": "0x7f91c4",
+    "text": "Waiting for Spider V to reset..."
+  },
+  {
+    "offset": "0x3f83e8",
+    "va": "0x7f91e8",
+    "text": "L6ParkerDevice::getDeviceCompositeInfo() isG10TxConnected() %s G10T_productId 0x%08x"
+  },
+  {
+    "offset": "0x3f84c8",
+    "va": "0x7f92c8",
+    "text": "EmbeddedWirelessReceiverFirmwareVersion"
+  },
+  {
+    "offset": "0x3f84f0",
+    "va": "0x7f92f0",
+    "text": "EmbeddedWirelessReceiverFirmwareVersionString"
+  },
+  {
+    "offset": "0x3f8554",
+    "va": "0x7f9354",
+    "text": "UI processor firmware"
+  },
+  {
+    "offset": "0x3f85b4",
+    "va": "0x7f93b4",
+    "text": "Wireless receiver firmware"
+  },
+  {
+    "offset": "0x3f85d0",
+    "va": "0x7f93d0",
+    "text": "Wireless transmitter firmware"
+  },
+  {
+    "offset": "0x3faa58",
+    "va": "0x7fb858",
+    "text": "L6PoweredCabDevice::connectWithObj() - currentFirmwareMode == SpiderV_Updater, declaring this device active "
+  },
+  {
+    "offset": "0x3fab70",
+    "va": "0x7fb970",
+    "text": "L6PoweredCabDevice::connectWithObjHelper() - blocking instancing of editor/librarian ports due to currentFirmwareMode (%d), not necessarily an error "
+  },
+  {
+    "offset": "0x3fb1e0",
+    "va": "0x7fbfe0",
+    "text": "L6PoweredCabDevice::getFirmwareComponentInfo() malformatted"
+  },
+  {
+    "offset": "0x3fb220",
+    "va": "0x7fc020",
+    "text": "L6PoweredCabDevice::getFirmwareComponentInfo() unexpected size"
+  },
+  {
+    "offset": "0x3fb3ec",
+    "va": "0x7fc1ec",
+    "text": "L6PoweredCabDevice::forceFirmwareUpdate() force-- "
+  },
+  {
+    "offset": "0x3fb420",
+    "va": "0x7fc220",
+    "text": "L6PoweredCabDevice::forceFirmwareUpdate() force-- bypassing due to currentFirmwareMode"
+  },
+  {
+    "offset": "0x3fb718",
+    "va": "0x7fc518",
+    "text": "L6PoweredCabDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x3fc6e0",
+    "va": "0x7fd4e0",
+    "text": "L6ParkerMidiMsgPortMultiplexor::initialize() freeWriteMessagePacketList initialized with %d contexts. "
+  },
+  {
+    "offset": "0x3fc748",
+    "va": "0x7fd548",
+    "text": "L6ParkerMidiMsgPortMultiplexor::initialize() freeReadMessagePacketList initialized with %d contexts. "
+  },
+  {
+    "offset": "0x3fc7b0",
+    "va": "0x7fd5b0",
+    "text": "L6ParkerMidiMsgPortMultiplexor::write() FAILED SendSysEx() returned %d "
+  },
+  {
+    "offset": "0x3fc800",
+    "va": "0x7fd600",
+    "text": "L6ParkerMidiMsgPortMultiplexor::write() FAILED insufficient ParkerMessageFragmentContext resources "
+  },
+  {
+    "offset": "0x3fc868",
+    "va": "0x7fd668",
+    "text": "L6ParkerMidiMsgPortMultiplexor::handleReceive() received a message for destination with no client."
+  },
+  {
+    "offset": "0x3fc8d0",
+    "va": "0x7fd6d0",
+    "text": "L6ParkerMidiMsgPortMultiplexor::handleReceive() no free context resources."
+  },
+  {
+    "offset": "0x3fc920",
+    "va": "0x7fd720",
+    "text": "L6ParkerMidiMsgPortMultiplexor::handleReceive() unexpected message size (%d)."
+  },
+  {
+    "offset": "0x404980",
+    "va": "0x805780",
+    "text": "L6WirelessRelayDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x406cf8",
+    "va": "0x807af8",
+    "text": "L6WirelessRelayTxDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x406d50",
+    "va": "0x807b50",
+    "text": "L6WirelessRelayTxDevice::firmwareUpdateProgress() %0.2f"
+  },
+  {
+    "offset": "0x4099e0",
+    "va": "0x80a7e0",
+    "text": "L6HxDeviceShim::firmwareUpdateStateChange(UpdateEngineState, reason %d)"
+  },
+  {
+    "offset": "0x40b6e8",
+    "va": "0x80c4e8",
+    "text": "L6HelixControlDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x40c820",
+    "va": "0x80d620",
+    "text": "L6NxpDfuDevice::prepareForDeviceInfo() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x40c879",
+    "va": "0x80d679",
+    "text": "firmwareMode : eHxFirmwareMode_Dfu "
+  },
+  {
+    "offset": "0x40c94d",
+    "va": "0x80d74d",
+    "text": "firmwareMode : eHxFirmwareMode_UpdaterApp "
+  },
+  {
+    "offset": "0x40c9b0",
+    "va": "0x80d7b0",
+    "text": "L6NxpDfuDevice::prepareForDeviceInfoDfu(eHxFirmwareMode_Dfu) unable to connect"
+  },
+  {
+    "offset": "0x40dfb8",
+    "va": "0x80edb8",
+    "text": "L6HxEffectsDevice::prepareForDeviceInfo() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x40e00d",
+    "va": "0x80ee0d",
+    "text": "firmwareMode : eHxFirmwareMode_Main "
+  },
+  {
+    "offset": "0x40e038",
+    "va": "0x80ee38",
+    "text": "L6HxEffectsDevice::prepareForDeviceInfoDfu(eHxFirmwareMode_Dfu) unable to connect"
+  },
+  {
+    "offset": "0x40f4a8",
+    "va": "0x8102a8",
+    "text": "L6HXOneDevice::connectWithObjHelper() - blocking instancing of editor/librarian ports due to currentFirmwareMode (%d), not necessarily an error "
+  },
+  {
+    "offset": "0x40fbe4",
+    "va": "0x8109e4",
+    "text": "L6HXOneDevice::forceFirmwareUpdate() force-- "
+  },
+  {
+    "offset": "0x40fc18",
+    "va": "0x810a18",
+    "text": "L6HXOneDevice::forceFirmwareUpdate() force-- bypassing due to currentFirmwareMode"
+  },
+  {
+    "offset": "0x40fd80",
+    "va": "0x810b80",
+    "text": "L6HXOneDevice::finishUpdate() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x40fdc0",
+    "va": "0x810bc0",
+    "text": "L6HXOneDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x4110d0",
+    "va": "0x811ed0",
+    "text": "L6PODExpressDevice::connectWithObjHelper() - blocking instancing of editor/librarian ports due to currentFirmwareMode (%d), not necessarily an error "
+  },
+  {
+    "offset": "0x4118c4",
+    "va": "0x8126c4",
+    "text": "L6PODExpressDevice::forceFirmwareUpdate() force-- "
+  },
+  {
+    "offset": "0x4118f8",
+    "va": "0x8126f8",
+    "text": "L6PODExpressDevice::forceFirmwareUpdate() force-- bypassing due to currentFirmwareMode"
+  },
+  {
+    "offset": "0x411a74",
+    "va": "0x812874",
+    "text": "L6PODExpressDevice::finishUpdate() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x411ab8",
+    "va": "0x8128b8",
+    "text": "L6PODExpressDevice::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x412c40",
+    "va": "0x813a40",
+    "text": "L6HxStompDevice::prepareForDeviceInfo() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x412c88",
+    "va": "0x813a88",
+    "text": "L6HxStompDevice::prepareForDeviceInfoDfu(eHxFirmwareMode_Dfu) unable to connect"
+  },
+  {
+    "offset": "0x413f38",
+    "va": "0x814d38",
+    "text": "L6PodGoDevice::prepareForDeviceInfo() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x413f91",
+    "va": "0x814d91",
+    "text": " g10tProductId : -x%08x, firmwareRevision : 0x%08x"
+  },
+  {
+    "offset": "0x414040",
+    "va": "0x814e40",
+    "text": "L6PodGoDevice::prepareForDeviceInfoDfu(eHxFirmwareMode_Dfu) unable to connect"
+  },
+  {
+    "offset": "0x4146d0",
+    "va": "0x8154d0",
+    "text": "L6PodGoDevice::firmwareUpdateStateChangeG10T(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x415c00",
+    "va": "0x816a00",
+    "text": "L6HxDeviceShim::closeHelper() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x416428",
+    "va": "0x817228",
+    "text": "L6HxDeviceShim::disconnectHelper() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x416598",
+    "va": "0x817398",
+    "text": "L6HxDeviceShim::firmwareUpdateStateChange(UpdateEngineState %s, reason %d)"
+  },
+  {
+    "offset": "0x416ae8",
+    "va": "0x8178e8",
+    "text": "L6HxDeviceShim::prepareForUpdating() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x416cb8",
+    "va": "0x817ab8",
+    "text": "L6HxDeviceShim::finishUpdate() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x417268",
+    "va": "0x818068",
+    "text": "L6HxDeviceShim::refreshDeviceInfo() - fromDisconnect %s, firmwareMode %d, expectingDisconnect %s"
+  },
+  {
+    "offset": "0x417604",
+    "va": "0x818404",
+    "text": "L6HxDeviceShim::openHelper() - unknown firmwareMode %d"
+  },
+  {
+    "offset": "0x418a90",
+    "va": "0x819890",
+    "text": "L6BspMsgPort::open() mode %s - MsgRouter_AddRoutingEntry()-- Binding firmware service to local address 0x%lx"
+  },
+  {
+    "offset": "0x418c38",
+    "va": "0x819a38",
+    "text": "L6BspMsgPort::open() mode %s - Failed to bind firmware service, response = %d!"
+  },
+  {
+    "offset": "0x432ce0",
+    "va": "0x833ae0",
+    "text": "FirmwareUpdatesModel"
+  },
+  {
+    "offset": "0x434eb0",
+    "va": "0x835cb0",
+    "text": "DownloadFirmwareWorker"
+  },
+  {
+    "offset": "0x4351d3",
+    "va": "0x835fd3",
+    "text": "firmwareVersionChanged"
+  },
+  {
+    "offset": "0x4351ea",
+    "va": "0x835fea",
+    "text": "firmwareVersionStringChanged"
+  },
+  {
+    "offset": "0x43526d",
+    "va": "0x83606d",
+    "text": "firmwareVersion"
+  },
+  {
+    "offset": "0x43527d",
+    "va": "0x83607d",
+    "text": "firmwareVersionString"
+  },
+  {
+    "offset": "0x435e7a",
+    "va": "0x836c7a",
+    "text": "installFirmwareImage"
+  },
+  {
+    "offset": "0x435e8f",
+    "va": "0x836c8f",
+    "text": "getUpdatedFirmwareVersion"
+  },
+  {
+    "offset": "0x436163",
+    "va": "0x836f63",
+    "text": "FirmwareUpdatesModel*"
+  },
+  {
+    "offset": "0x4365e5",
+    "va": "0x8373e5",
+    "text": "firmwareVersionChanged"
+  },
+  {
+    "offset": "0x4365fc",
+    "va": "0x8373fc",
+    "text": "firmwareVersionStringChanged"
+  },
+  {
+    "offset": "0x4366e4",
+    "va": "0x8374e4",
+    "text": "firmwareVersion"
+  },
+  {
+    "offset": "0x4366f4",
+    "va": "0x8374f4",
+    "text": "firmwareVersionString"
+  },
+  {
+    "offset": "0x461858",
+    "va": "0x863458",
+    "text": ".?AVDownloadFirmwareWorker@@"
+  },
+  {
+    "offset": "0x4618a4",
+    "va": "0x8634a4",
+    "text": ".?AVFirmwareUpdatesModel@@"
+  },
+  {
+    "offset": "0x46253c",
+    "va": "0x86413c",
+    "text": ".?AVL6ParkerDevice@@"
+  },
+  {
+    "offset": "0x462580",
+    "va": "0x864180",
+    "text": ".?AVL6ParkerMidiMsgPortMultiplexor@@"
+  },
+  {
+    "offset": "0x4625b0",
+    "va": "0x8641b0",
+    "text": ".?AV?$L6List@PAUParkerMessageFragmentContext@@@@"
+  },
+  {
+    "offset": "0x462ab0",
+    "va": "0x8646b0",
+    "text": ".?AVImageArchive@L6UUE@@"
+  },
+  {
+    "offset": "0x462ad4",
+    "va": "0x8646d4",
+    "text": ".?AVImage@ImageArchive@L6UUE@@"
+  },
+  {
+    "offset": "0x462afc",
+    "va": "0x8646fc",
+    "text": ".?AVNode@ImageArchive@L6UUE@@"
+  }
+]

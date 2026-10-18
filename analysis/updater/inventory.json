@@ -1,0 +1,1117 @@
+[
+  {
+    "file": "$PLUGINSDIR/nsDialogs.dll",
+    "bytes": 9728,
+    "sha256": "cb958e21c3935ef7697a2f14d64cae0f9264c91a92d2deeb821ba58852dac911"
+  },
+  {
+    "file": "$PLUGINSDIR/modern-wizard.bmp",
+    "bytes": 154544,
+    "sha256": "c025bce9de2a5edf28f5d81a83b9357ffd6ea10ecc251d258ef14b2e2dc1d464"
+  },
+  {
+    "file": "$PLUGINSDIR/page_line6updater_readme.ini",
+    "bytes": 1920,
+    "sha256": "115391b1bce10dd5e627fa466f707a76f5e7212c2f718a5a870723cea2eb5a1f"
+  },
+  {
+    "file": "$PLUGINSDIR/InstallOptions.dll",
+    "bytes": 14848,
+    "sha256": "478f3d2e6e4f7acb08e915a22a3e49033bc00eb0e5139d5008ca427d2d3dee4e"
+  },
+  {
+    "file": "$PLUGINSDIR/UserInfo.dll",
+    "bytes": 4096,
+    "sha256": "77b40d42606d48f817b901f1e5abea114b4288b344b8c193bf3e3c52e469a926"
+  },
+  {
+    "file": "$PLUGINSDIR/modern-header.bmp",
+    "bytes": 25820,
+    "sha256": "4433f16e12477463414867c9fadab41e76761d20f68b25a2c36dba6f3a2fd076"
+  },
+  {
+    "file": "$PLUGINSDIR/ioSpecial.ini",
+    "bytes": 211,
+    "sha256": "d95aed234f932a1c48a2b1b0d98c60ca31f962310c03158e2884ab4ddd3ea1e0"
+  },
+  {
+    "file": "$PLUGINSDIR/System.dll",
+    "bytes": 11264,
+    "sha256": "681382f3134de5c6272a49dd13651c8c201b89c247b471191496e7335702fa59"
+  },
+  {
+    "file": "Line 6 Updater/msvcr100.dll",
+    "bytes": 773968,
+    "sha256": "8793353461826fbd48f25ea8b835be204b758ce7510db2af631b28850355bd18"
+  },
+  {
+    "file": "Line 6 Updater/msvcp100.dll",
+    "bytes": 421200,
+    "sha256": "b2ad109c15eaa92079582787b7772ba0a2f034f7d075907ff87028df0eaea671"
+  },
+  {
+    "file": "Line 6 Updater/msvcr120.dll",
+    "bytes": 970912,
+    "sha256": "86e39b5995af0e042fcdaa85fe2aefd7c9ddc7ad65e6327bd5e7058bc3ab615f"
+  },
+  {
+    "file": "Line 6 Updater/Qt5Gui.dll",
+    "bytes": 4878848,
+    "sha256": "0fdfaf79e0c69b2d63237cf34ec0206e9343b78247cedd7f97d69281b31c94ee"
+  },
+  {
+    "file": "Line 6 Updater/Qt5Positioning.dll",
+    "bytes": 171520,
+    "sha256": "d72edd7c13dd925783e8e6fa0d381df929f1f0b268bae1154054f948e5718b0d"
+  },
+  {
+    "file": "Line 6 Updater/Qt5Quick.dll",
+    "bytes": 2595840,
+    "sha256": "1a78b67098a3a5db1e1dc192129ce80635160cc652fefeae8a6043a9fd652e08"
+  },
+  {
+    "file": "Line 6 Updater/Qt5Core.dll",
+    "bytes": 4681728,
+    "sha256": "c6a90a8bfc25185c9f930e45a67389dd8f0c3531203093d1a44732aa0819e376"
+  },
+  {
+    "file": "Line 6 Updater/Qt5Widgets.dll",
+    "bytes": 4495360,
+    "sha256": "a2cf4438f7253f817515bdef6105ed48ba90abd6c9c7fd1a6af60388e60e8adf"
+  },
+  {
+    "file": "Line 6 Updater/Qt5MultimediaWidgets.dll",
+    "bytes": 82432,
+    "sha256": "1966e954c9299c6991213f01fa0a7e83b078f6351b37f8a45d13af58fd7bee56"
+  },
+  {
+    "file": "Line 6 Updater/Qt5WebEngine.dll",
+    "bytes": 231936,
+    "sha256": "8589cb197c481474b9090548bd935c07b668b5475bf6ae09cc5045ded738a997"
+  },
+  {
+    "file": "Line 6 Updater/Qt5Sensors.dll",
+    "bytes": 148480,
+    "sha256": "619bc5de6b5f1992ef2f1a72acad265422feb9efee09ea8d96cbb163f59614ed"
+  },
+  {
+    "file": "Line 6 Updater/LICENSE",
+    "bytes": 46431,
+    "sha256": "f62335fc575c9c885d33f9fe778b1ab75879f0099d1d31e4dae45ca56085f6c0"
+  },
+  {
+    "file": "Line 6 Updater/QtWebEngineProcess.exe",
+    "bytes": 12288,
+    "sha256": "01068bfc1fc31a665ac1a69966c8a6189186545815f2ae7cbf1e494913133fdf"
+  },
+  {
+    "file": "Line 6 Updater/libEGL.dll",
+    "bytes": 11264,
+    "sha256": "6540ecc9586b94a16cf1d7e693f72e3719186e04c8ec754043c6fc18544f70b4"
+  },
+  {
+    "file": "Line 6 Updater/qt.conf",
+    "bytes": 47,
+    "sha256": "c62c72a5439d7321e2be335262779189bbc94f084de9e1209b8c62634f308167"
+  },
+  {
+    "file": "Line 6 Updater/pthreadVC2.dll",
+    "bytes": 32768,
+    "sha256": "7e544116c6596ff4fa50ce052f49e2988926bea12a12af3003d56f157a43a7b3"
+  },
+  {
+    "file": "Line 6 Updater/Qt5Sql.dll",
+    "bytes": 155136,
+    "sha256": "6797749694ff1570750225f3cdc7d4599dc0801f02b261100c11041bff3fb4ac"
+  },
+  {
+    "file": "Line 6 Updater/Line 6 Updater.exe",
+    "bytes": 4961792,
+    "sha256": "120ac3b62d9eebe38901374523a6f564f2ac4f954686f913c0e707de8cf9ad3a"
+  },
+  {
+    "file": "Line 6 Updater/icudtl.dat",
+    "bytes": 10207936,
+    "sha256": "2857fbe46d007307b1e204c6eb1b7e4988973b958ec8edb07445988f332c1ab5"
+  },
+  {
+    "file": "Line 6 Updater/Qt5Network.dll",
+    "bytes": 848896,
+    "sha256": "7434819e802f24dcb6f637a6ff383c8c74beef35c77eb10ae4045d7077f20459"
+  },
+  {
+    "file": "Line 6 Updater/qtwebengine_resources.pak",
+    "bytes": 2943673,
+    "sha256": "eb8b522bb4e765ad367860ea5d6e809e767f226b3d9bb8854a388a9ff9f63a64"
+  },
+  {
+    "file": "Line 6 Updater/Uninstall.exe",
+    "bytes": 296584,
+    "sha256": "8f35f7c8147a327fb2eb8717278e524fd6b47f31d6244315a265b0ab01919ee7"
+  },
+  {
+    "file": "Line 6 Updater/Qt5WebEngineCore.dll",
+    "bytes": 46416384,
+    "sha256": "bdae83a0ec0c85fed8fc52eb7fd5e53cb4f5e9199a2afe5f67a2ee4b65d415e5"
+  },
+  {
+    "file": "Line 6 Updater/libGLESv2.dll",
+    "bytes": 1990144,
+    "sha256": "53641105a19bc9a6d461ac8c34ca49d03d2c4ed00b7f53f20213c26e9c579d22"
+  },
+  {
+    "file": "Line 6 Updater/cyusbserial.dll",
+    "bytes": 39936,
+    "sha256": "3c82cb7a77486c085f2bc9196d5417a0f2cb7c4226ae74f0028ceaf502c812ab"
+  },
+  {
+    "file": "Line 6 Updater/Qt5PrintSupport.dll",
+    "bytes": 266752,
+    "sha256": "9a4d0de6b7bf27cc2d8703a2abffa8ec2099578c78b01fd9d943adb5f994f382"
+  },
+  {
+    "file": "Line 6 Updater/msvcp120.dll",
+    "bytes": 455328,
+    "sha256": "87c42ca155473e4e71857d03497c8cbc28fa8ff7f2c8d72e8a1f39b71078f608"
+  },
+  {
+    "file": "Line 6 Updater/Qt5WebChannel.dll",
+    "bytes": 83456,
+    "sha256": "56f41f3f610b00178e550ff2214a6c0b3b1b7319e2610d389417b863c773b2a2"
+  },
+  {
+    "file": "Line 6 Updater/Qt5Qml.dll",
+    "bytes": 2512896,
+    "sha256": "f71aa77defe6319bb1167b0f2599f32af20d6c13b0b44e2c63399f927185be36"
+  },
+  {
+    "file": "Line 6 Updater/Qt5OpenGL.dll",
+    "bytes": 270848,
+    "sha256": "fc19c43401c0c791cc4ade00cae1c3e8db3d9f94f2ff5c56c85d66c3c5568c85"
+  },
+  {
+    "file": "Line 6 Updater/Qt5Multimedia.dll",
+    "bytes": 570368,
+    "sha256": "a3aad808b819850dc63a18dd3aee22a74716e6a204c51fed6e90bc8f85cf5e82"
+  },
+  {
+    "file": "Line 6 Updater/d3dcompiler_47.dll",
+    "bytes": 3466856,
+    "sha256": "efbdbbcd0d954f8fdc53467de5d89ad525e4e4a9cfff8a15d07c6fdb350c407f"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-helix-rack-small.png",
+    "bytes": 7638,
+    "sha256": "24576f0fe9fb2c103f5f6cc1d549084e9d2d21cae860cfd1634ec77d9113d83e"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g10s-small.png",
+    "bytes": 9747,
+    "sha256": "1f897dc2523a157ac03a2eb4d3281fd8c0784ce92d81f6d622de7448d98457b7"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-powercab-112.png",
+    "bytes": 3308,
+    "sha256": "2c23d5be36deb8c0be92e4e6b47bd3828bd256ffed6e1e14e87d130af434c17d"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-helix-control-small.png",
+    "bytes": 8007,
+    "sha256": "ac83535ae8a9cd8fbfa64d09e3655eec1a32eacfeba83b06642c8367b3656f50"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-hx-effects.png",
+    "bytes": 2245,
+    "sha256": "955ee3da732ada166c5ca521db47998d8e83e4fb884b56989d65ace0699aa11d"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g70-small.png",
+    "bytes": 8890,
+    "sha256": "4dc1887a8f9d24608ba4457586b306a8f48f9b25983718c4fcd92e3d1b51847f"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-75-small.png",
+    "bytes": 8176,
+    "sha256": "57b09072c14e57d8af22fb70d8e29bcd6c46f5e7ae1a109bbed7fea04d438bca"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-75-150.png",
+    "bytes": 488431,
+    "sha256": "9c682eb3d240c29e978844250754d94f05dc0de31d3cd69743510eb384c6f1aa"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-pod-go.png",
+    "bytes": 68130,
+    "sha256": "45e5909a16d61e85b7a338556cde06bd359ee02f6295d0ca4ea597d1ce726960"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-powercab-112-plus.png",
+    "bytes": 4252,
+    "sha256": "cfd12c93a8bd7cc0ef67d59d8c2ef20aaaab5fb3d5ea316920aa648a17ab8d0f"
+  },
+  {
+    "file": "Line 6 Updater/images/bg-login-page.png",
+    "bytes": 240442,
+    "sha256": "6e6b36b730d5239a88779f22945c0d6fbc7caf67f2414938addf9095a9792fd1"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-pod-go-wireless.png",
+    "bytes": 66416,
+    "sha256": "2b93a96cecb28bcee76ba606cce2369de28a3feddf26799e36e19327c4451a4a"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g10s.png",
+    "bytes": 226542,
+    "sha256": "58510f3bb9a2db97a3422ebde98d5f8d558ce566d5bc25903b8a16218bd96739"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-catalyst-100.png",
+    "bytes": 4426,
+    "sha256": "53f78d05c60ce098d7d4d4b45dc2f565936023c2172d41570172f19e831ffe67"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv120-small.png",
+    "bytes": 10959,
+    "sha256": "5b661ad75ff94695ba22473c36c88288304e1d2decde836f185193d735b583f3"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-75-150-small.png",
+    "bytes": 14938,
+    "sha256": "5593f20bcbfcb65c3c1b6434675586ad9aa6ea285efdd8ac0f3a381fd71459e1"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-powercab112.png",
+    "bytes": 468176,
+    "sha256": "b0b1e9851edd0b74a5d2c51110b64d2107acabc101577b1a17a2ef589c2233c6"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-pod-go-wireless.png",
+    "bytes": 4749,
+    "sha256": "74a4b2a909d40759a48dff87c8965f1d1031fb37d9d9709fb0b856e5fec123f4"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-phoenix-floor.png",
+    "bytes": 153754,
+    "sha256": "fdca6f238767b0b2555c1ee1f63d73ebfb8072de8cf4b03bd765bdc7c495f363"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-relay-unknown.png",
+    "bytes": 8891,
+    "sha256": "abc41ffae77f7339b8cf3f2a018ffacbc35c4ddd2e380674ccc6fa2a7affd125"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g10-small.png",
+    "bytes": 7308,
+    "sha256": "6a81425527be9db5c56263bf09b9714890da5c48655e805b176168aed1871a3d"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-amplifi-tt.png",
+    "bytes": 2900,
+    "sha256": "728842d914784c3ac5d79fba92d1e1e174e78f2360c9addedde69b48594e935d"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv20-small.png",
+    "bytes": 7515,
+    "sha256": "7bf8b80505c351720681f69c5c791010a65b1ec4f37f5bfb51d075d86d1cdeac"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-g10t.png",
+    "bytes": 3150,
+    "sha256": "36a5c5a3f46c95f69e787cc61457c481248b03a5efa18a1870a6f2e10387ebc9"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g75.png",
+    "bytes": 212629,
+    "sha256": "41b8f094d32bdd88e8099450af41b711776bcada276d802391a27994c6885fdb"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-hx-stomp-xl-small.png",
+    "bytes": 6459,
+    "sha256": "06235aa3e1ea132e549ddbb817dcd0e38bd1f6fa13f12e27816ff4b02967895a"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g10tII.png",
+    "bytes": 41480,
+    "sha256": "632b24b42aec8e51a64092f9db930e6f4e9e79d63ff0c1a2b17ed872755133e5"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-hx-stomp-xl.png",
+    "bytes": 48349,
+    "sha256": "1deb059df2e635c88c501a51ca82f7048eebd1ceb194880306712391ed543010"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-g75.png",
+    "bytes": 3195,
+    "sha256": "0e682301768bd788a8051f00de36fee1d0ed04813ebbd15fd1f65b8b8b390238"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-g10s.png",
+    "bytes": 2047,
+    "sha256": "d23c563600615742c2c7beaf12487bee3a13a0985be8fb7d37cc496e1f5473d2"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-powercab212plus.png",
+    "bytes": 431710,
+    "sha256": "b2c2e830676466ebb99847094263913c024a253b2d14f678c9c839de855f2f5a"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-fbv3.png",
+    "bytes": 3773,
+    "sha256": "a3e5d874041308ed3c47344b62e460f199522185f988c681739fdedb6ee726a3"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-spider-v-240HC.png",
+    "bytes": 2295,
+    "sha256": "6c8b3bd2fe33eebd9a9f45b3afcae7675d3762f2cceb0e8cfb31a2b8f28da97f"
+  },
+  {
+    "file": "Line 6 Updater/images/btn-less.png",
+    "bytes": 1339,
+    "sha256": "3421bd8d08d1e5bbfee14a102f1b9af5be7643443efff118fef015461dbe913a"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-hx-stomp.png",
+    "bytes": 2265,
+    "sha256": "d22296808fce7d7373f3e05b4c1c8e07d703b21a6c748af22a2c7f10b2551776"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-catalyst-60-small.png",
+    "bytes": 11531,
+    "sha256": "fbfc1b1cf7f0f513f2410bf83b5b5ca8ea197f5e775c38abe34fbb96271e5ff1"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-phoenix-amp.png",
+    "bytes": 5547,
+    "sha256": "171fa7ed7bf17676449fb09b964224f3a6a7439b1c4e64cfa40a46da8dfaaadd"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-150-small.png",
+    "bytes": 12355,
+    "sha256": "9c01c012b18036015ed4cb036e43aaa47b72900840c825e54c1d6c4148efb26f"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-tx.png",
+    "bytes": 2946,
+    "sha256": "7c63a85dd3e9433381710428c5ea3924aeb30b59a4ba0e917ecf83cead02f041"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-pod-go-small.png",
+    "bytes": 9677,
+    "sha256": "8bb3b721b0d059143abfd8a9b6fcb36035124cc539d38bf8e1153b65f49e04f2"
+  },
+  {
+    "file": "Line 6 Updater/images/btn-more.png",
+    "bytes": 1363,
+    "sha256": "4627e5d0714a513287af661656534669ecbae14ffd5eb9633572bebcd8c6ee56"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-catalyst-60.png",
+    "bytes": 434343,
+    "sha256": "19fee0ce8a3cb869bd86a627ab109b2cd81f2d4ab2205d0a8b3af1bf5e99d80f"
+  },
+  {
+    "file": "Line 6 Updater/images/readytorock.png",
+    "bytes": 1437,
+    "sha256": "e017aeb0c549ed2604f678b3c24f2094224b5fb620aee370771c130f8d087b84"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-catalyst-100-small.png",
+    "bytes": 13225,
+    "sha256": "2420adc7b76905b1c3dde620cb896f482be44e77ff7d8329fd85688a0b4d3bd5"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-powercab212plus-small.png",
+    "bytes": 9836,
+    "sha256": "8db9b7c2494cb65ea7c3d0792c596596031fd77ac24983db835e62695b7adfa5"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-fx100.png",
+    "bytes": 146107,
+    "sha256": "8dcb79bf8e95d30539985a00718f8d0b576f57903ee27c55349c2749926abf32"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-hx-stomp-xl.png",
+    "bytes": 3044,
+    "sha256": "383e0df8a3ec594d3763a4d1951ebdee3c94dbb6367160a2ad05888c2a7cb60f"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-helix-lt-small.png",
+    "bytes": 6608,
+    "sha256": "fcc4ebc0cd3b3955d87c901e3450d337d2d7056fccaaa038b31ae782ea1fe5c3"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv120.png",
+    "bytes": 480609,
+    "sha256": "77fdd96cce63e62f9e4675d37ee27a12e93b14cc0dace8c3d26fcb0ed7989c4d"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-catalyst-200-small.png",
+    "bytes": 9865,
+    "sha256": "40c6126be62a5d2d8ee950e15e203c384d5818a286490fe493f922c7dfde0562"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-helix-lt.png",
+    "bytes": 160350,
+    "sha256": "d908e20fe6e26d52f920f5e2ae12f6d5c9b7bc52c67fadbc2a9215c51fe8a420"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-powercab112-small.png",
+    "bytes": 9339,
+    "sha256": "a76a6606fc11ac0a301b5360162ddb1e88507e74e52dbccf33cc5b15b650b0a9"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-spider-v-240.png",
+    "bytes": 2795,
+    "sha256": "40ce7926892e2b4511fa7a3edeb0cc06e7f0ebb0e62f910d2007bccb6ef43bd6"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-pod-go.png",
+    "bytes": 2649,
+    "sha256": "324f14493a4140945aa8163b2aee17d8c44b3cdd86fa29c2db7858de2c5bf6f3"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g10t.png",
+    "bytes": 33071,
+    "sha256": "47211f4b22eda23fdb8c4097520414a9f7ad197fbc0d362b3f3df9bb27da51c4"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-pod-go-wireless-small.png",
+    "bytes": 10018,
+    "sha256": "5fc3b4f7ecbb05d48cf3419dc89e5b93108da8f8a55cd227dc47016ed8cb3d45"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-tx-small.png",
+    "bytes": 22671,
+    "sha256": "8efb275ad07b66266014f8c9a678602662c9b2c6b3f2b29629f8ca24d5627e98"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g10tII-small.png",
+    "bytes": 6500,
+    "sha256": "2066c0fe2daddd9ae805a21140ea6a71188ff5d8a9db9dfd868c857b4844627e"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-fbv3-small.png",
+    "bytes": 6040,
+    "sha256": "c3728b36f710ef831063c269a8285b74308496f104150cc8463f337f45c0de74"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-amplifi-30.png",
+    "bytes": 2999,
+    "sha256": "01b633e2adc53a29c4f9071776c94f160589e174795c6c45d0ceffa1ff1f7302"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-hx-effects.png",
+    "bytes": 221756,
+    "sha256": "646521c55172f117ec661fd3b62e1f5f0a2d5328a5bbb001a151a86a4db9c124"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-helix-control.png",
+    "bytes": 130918,
+    "sha256": "5ec259029176b197cb1f934f6308a31efe391ce2e8904d4abbb4e43319e4a264"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-spiderv20.png",
+    "bytes": 1461,
+    "sha256": "00a153c0cbd3b120b354c23f07b397a3a3e0acb47f9a0d45a8704e96438c1679"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-hx-stomp.png",
+    "bytes": 353334,
+    "sha256": "5e3f4967b39095c4bffac6f8541966219e9f4f0cd6da4a3a9b2dc300737d463f"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-hx-stomp-small.png",
+    "bytes": 11235,
+    "sha256": "59feb53628fe4dd607eb1eaa58fcd38dc9ff2f72a876da301f9e8edea0d4172e"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-tt.png",
+    "bytes": 164225,
+    "sha256": "3bfa0daedda5158ec439a1ae7d9d535d0d8e84833d6a6f619d940fc7bfcdc42b"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-helix-floor-small.png",
+    "bytes": 6157,
+    "sha256": "7418501d8caf62d490fe79004aee1645b3ff2537fd5d2181ba731cbdb937b436"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-line6relay.png",
+    "bytes": 41115,
+    "sha256": "3b2d4ada7db8237c3baf7b2aac470b0d738f4f5c399290b4d54ab00502075d8e"
+  },
+  {
+    "file": "Line 6 Updater/images/btn-scrollbar-less.png",
+    "bytes": 1339,
+    "sha256": "3421bd8d08d1e5bbfee14a102f1b9af5be7643443efff118fef015461dbe913a"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-no-device.png",
+    "bytes": 23120,
+    "sha256": "36a0d43aee5e6ea219119d12bc8ebdb344d1383cc4f8519d1a31b1a439bc086d"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-line6relay-small.png",
+    "bytes": 2806,
+    "sha256": "4d652f6138409f4d74c726c69a1e4bf39d232958ad6706dfd0be1e1e69680659"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-catalyst-100.png",
+    "bytes": 537401,
+    "sha256": "bb719b63e0f9dd0fcdfdf896ec945839d1bdc4f45b0e1bbbcd25b46a559f4096"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-tt-small.png",
+    "bytes": 6515,
+    "sha256": "9e19d965e993404d164a742b27193cc6ae10d5711cc84afbbda09d355d8ffca4"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv20.png",
+    "bytes": 346321,
+    "sha256": "866e55d9de7e0887595071f4294062a4dfb453af4f8088c5389df8dd67fdc41d"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv240-small.png",
+    "bytes": 11057,
+    "sha256": "b5d8e9097eca0b6fca672f10c6f9a34b7cb397cab87733591f649fea6e208fb7"
+  },
+  {
+    "file": "Line 6 Updater/images/btn-scrollbar-more.png",
+    "bytes": 1363,
+    "sha256": "4627e5d0714a513287af661656534669ecbae14ffd5eb9633572bebcd8c6ee56"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-30.png",
+    "bytes": 191450,
+    "sha256": "c0e4dced96754d146b666969df703d6f1ca8966e69e2aea3f5eb068edd9e9a1b"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g10t-small.png",
+    "bytes": 6433,
+    "sha256": "1f622b1e363a2e1904ab7de4b990c5a9eba355154d0b6e465401c669c59c78ab"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-spider-v-30.png",
+    "bytes": 2645,
+    "sha256": "b5cdd6e2cb87ce30d799b1419404e40b622d58f82a9ae4a7119dae6d48997e6a"
+  },
+  {
+    "file": "Line 6 Updater/images/icon-failure.png",
+    "bytes": 1707,
+    "sha256": "c809bbb9f8e0821c6007c484afc1dc1cbe0eed7e1b6412d18e8a0ca1148c0d07"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-helix-rack.png",
+    "bytes": 109769,
+    "sha256": "1832b789875c82c700757fc8374ea3149ea25359e6c3e56a3301e542b79a3ca3"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-catalyst-60.png",
+    "bytes": 4298,
+    "sha256": "6855a200deb7377a5bd8c65dec62e6ae8dcc3a80484b140b1fbe6eb632a5e85c"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-helix-control.png",
+    "bytes": 3391,
+    "sha256": "fcf98b0c03da1064ee25d1b9eeccb223fd82df035ea9cfe9dfffe630eff5703a"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g70.png",
+    "bytes": 262497,
+    "sha256": "b7acaf702dd838e073cedc61f2b68d162b57285fac907930200c1981bf7cf626"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-phoenix-amp.png",
+    "bytes": 514521,
+    "sha256": "8772f0606b89b3e48bb857ed2e5aabbdfcc4eb14c5c54e580853548aabc0c29f"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g75-small.png",
+    "bytes": 8190,
+    "sha256": "aa1bad81f688a5845b9f510d2f2d293e0ee22ddbe80af81649ec26fd2142f9c0"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-fx100-small.png",
+    "bytes": 5397,
+    "sha256": "efbf0dbc49cab085e00b4546dd8a752f22d56e542aa2e4f73132862979e96e12"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-dl4mkii-small.png",
+    "bytes": 8884,
+    "sha256": "34bec6873f6003077254788b540cdf4a561352666064860697ebf0d5a535b56f"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-helix-floor.png",
+    "bytes": 87117,
+    "sha256": "eb3c98ad92e0fc5f6ffb3171ff2b0fc5fcfdf83b735fb21a5725f3b1047fe7e3"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-no-device-small.png",
+    "bytes": 6276,
+    "sha256": "b0a00feb47b8e5027447b6751c7e58a7dac863345e2796c74efcaab79363b64b"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-fbv3.png",
+    "bytes": 119736,
+    "sha256": "beabe8cfbedeac53219d76b79532cc0246076e31f73d91f49d2d05f74a169f5d"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-powercab212plus.png",
+    "bytes": 4153,
+    "sha256": "1599c25d71afcbab494e506e96dab1f7d4198c9e0e167c07a01fbc8ff52bd5bc"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-catalyst-200.png",
+    "bytes": 4863,
+    "sha256": "bc4af39d53c114836681d5087475c5f98cadb66de5d3f6c2a89625c1a89944fd"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-150.png",
+    "bytes": 476784,
+    "sha256": "65e7e47b9b5007ef71718d5f41cb5ff36709998a0d672e60cd0fb9387f67fe9a"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-phoenix-floor.png",
+    "bytes": 4971,
+    "sha256": "79808ee0cb01371fe829acb5775aa74c701f436ee87ca73aacf96b3130ad25a2"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-dl4mkii.png",
+    "bytes": 16306,
+    "sha256": "f72703840084e1c14e30e005c016bd8377d93f034b3ac71a2ad9df124a7fa2e9"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv30.png",
+    "bytes": 293879,
+    "sha256": "43f46da7ebe29181371fee6c44189c0c38d21ada7accd0f0376edaf931b49819"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-spider-v-120.png",
+    "bytes": 2696,
+    "sha256": "1ac6b24dd3247c687966a2a8c1ba6f389978a994fdc9f7c3df5656d1d5ae9c5c"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-g70.png",
+    "bytes": 3209,
+    "sha256": "0bf5abd51a417abe14b36342162a3a6fb545cf2a3c55c3f34f987f69a3443b02"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-75.png",
+    "bytes": 334794,
+    "sha256": "11a03f5f2ef73af569995d1093414c12a8625de1faafbd82ee5d2846e084a922"
+  },
+  {
+    "file": "Line 6 Updater/images/icon-success.png",
+    "bytes": 1818,
+    "sha256": "88f66e53ef68234bbd65b94b74202941fc19ec815b3f888680a6aea2e4e1372a"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-helix-rack.png",
+    "bytes": 2627,
+    "sha256": "0f9d63901fa32b83f8f67d2ac91efb7ad9f282d5b5a251e08f3e6d530f72d103"
+  },
+  {
+    "file": "Line 6 Updater/images/logo-line6.png",
+    "bytes": 11287,
+    "sha256": "1ebf38abba00b89c7be9a291cd3f99ed7840b41609acca25f63cb44e23fb4a7f"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-phoenix-floor-small.png",
+    "bytes": 5764,
+    "sha256": "fbb954be9827c93b7c58c01ce28d707ffe9e4b2c7cf31761770ad907fd561b65"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv30-small.png",
+    "bytes": 10994,
+    "sha256": "70ccc4203d5d18fc635cf89a915b64b9bd3d49a0a2fbe37e62063e969cf1e79d"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-tb516g.png",
+    "bytes": 3656,
+    "sha256": "59936cde3d21b43a30b30a3b98ab03137fcd7e7aff22af3745d872179daf0b1f"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-amplifi-75.png",
+    "bytes": 3421,
+    "sha256": "f64fa23048931a43e1946b0917505e54918b0ce29ded655ba251fb1227d5545e"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-dl4mkii.png",
+    "bytes": 978,
+    "sha256": "e88988607f3f98228fc7a048d1d3cb2e059194a1eba064ec14cd8e1c76f72332"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-amplifi-75-150.png",
+    "bytes": 4495,
+    "sha256": "cc8b73537611bfe3ac79b3df120a38e7272a064068d6f36a2c2e2eae447903fd"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-hx-effects-small.png",
+    "bytes": 8512,
+    "sha256": "e607d9f091930e0983df3363af02d0d0895d0e04acbd7a38efa35454c2c0af11"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-powercab112plus-small.png",
+    "bytes": 8886,
+    "sha256": "ed2ae2f375e0db613ebebdf26b9475837cb2c586c3f86f43d9290afc6888364d"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-helix-lt.png",
+    "bytes": 2244,
+    "sha256": "6a8453d3e723a60308ac21dbed43f0f2d800c92a57619d3ac39dea6610fde58b"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv240HC-small.png",
+    "bytes": 4140,
+    "sha256": "6033a1344e6e885b1fbc82742a71a96867e8d986f295cfe861872a85ae6bd458"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-tx.png",
+    "bytes": 298494,
+    "sha256": "0d433e03f809621c2520fce84cf131e9867903ada5782d0d6370f43ff5082e13"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-helix-floor.png",
+    "bytes": 2640,
+    "sha256": "503606cf4d42cc7ceebf79ca5b25565b32b89b88c6a7a24ba8970931184ce0cd"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-no-device.png",
+    "bytes": 14643,
+    "sha256": "248cdfc3d3bf010a42e6c0bd60d014b1a1d3b58d7c318ca1b19124fa39a3ed26"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv240.png",
+    "bytes": 498526,
+    "sha256": "5402cfdf4514fc766587e869aaeda545437140299ae08b957ba679c7a041cfd6"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-powercab112plus.png",
+    "bytes": 468717,
+    "sha256": "0dfeefef232737cc6ff5df1869eacee296da08af44343fd366f1e8d316e59d50"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv60.png",
+    "bytes": 377267,
+    "sha256": "60dfbb6a4873edfd5c86f813c43ee5bcf5db762ceca6d3efb1a0da8fcda5bbe1"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-amplifi-30-small.png",
+    "bytes": 11569,
+    "sha256": "ec2007d989611284a4a16cf385f0a77a0fd3716a54e29b91d3c0401ef1f817e2"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-spider-v-60.png",
+    "bytes": 2684,
+    "sha256": "3eca0c700eab8d07b7eb86a6bd0e32d3cb34b74e55ba57b8a787bac85a8112f3"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-amplifi-fx100.png",
+    "bytes": 3931,
+    "sha256": "acef4d78a15ad24e34b5387471921e4782a4d6486ed27bcaf07c84678e03eaa5"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-g10tII.png",
+    "bytes": 1637,
+    "sha256": "e4f6ca92a15bb76e22a813c0b1c1825f87919a871dab381c227ca1a5e95a0167"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-g10.png",
+    "bytes": 38765,
+    "sha256": "5176982d795ba22a709cc3d1d9a367b64fa73f2866895866ec0b8e90059219f7"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-g10.png",
+    "bytes": 3098,
+    "sha256": "de384568c4f255501f9410b1c2ca0247e56046f771d12fe4f3073ae993070ae3"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-catalyst-200.png",
+    "bytes": 417440,
+    "sha256": "dff6862f44ccaea1ac29db30c199450df4e2cbeeff64abff4f9d7b5b3d04a5b7"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv60-small.png",
+    "bytes": 12818,
+    "sha256": "0ce9c137333fe4e7d079f6095da29109938d409f88119168dfe517765b54f0c3"
+  },
+  {
+    "file": "Line 6 Updater/images/icon-firmware.png",
+    "bytes": 1908,
+    "sha256": "37a7a637ca2344dfd4a64c1c31edf98c441328de89c8636816b567eaaccc2044"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-spiderv240HC.png",
+    "bytes": 128963,
+    "sha256": "eb969e8b79012a6bc4fd8fd2f2a5b975e12dd57afb655b8db07d461efb0da65a"
+  },
+  {
+    "file": "Line 6 Updater/images/device-render-phoenix-amp-small.png",
+    "bytes": 12172,
+    "sha256": "3a1c39d2f0e0b19e3d6183a5685815af50e188706a2d8312cc4a8d4ebbace76b"
+  },
+  {
+    "file": "Line 6 Updater/images/device-logo-amplifi-150.png",
+    "bytes": 3575,
+    "sha256": "1fb3d8e91554ecd959b65596919925a65f5e2e7fc29bb8f7811c3ec312b98e64"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/About.qml",
+    "bytes": 5073,
+    "sha256": "fe750d31df8f6848de5149065ae2794f6bf47ee19ef763a8b29c509b8c48991e"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/MainMenu.qml",
+    "bytes": 685,
+    "sha256": "c366abf607811b4e69ef56b6da61b75670586f293534cfaeae50587e8437cde8"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/main.qml",
+    "bytes": 5220,
+    "sha256": "e37f190344804b68668ab37e24735a37a9fc848c84c2144fd17ff01b9e2b5db9"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtWebEngine/qmldir",
+    "bytes": 73,
+    "sha256": "5cd59f85a72c23fd9167d1839174a387bc741aa7f450cf1663f0472fe64f81bd"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtWebEngine/qtwebengineplugin.dll",
+    "bytes": 45056,
+    "sha256": "607c5f327a9476346ad59805e5d841ed016aa5f3640373d27c4f0651d8f5dd9c"
+  },
+  {
+    "file": "Line 6 Updater/qml/L6QmlControls/l6qmlcontrols.dll",
+    "bytes": 299008,
+    "sha256": "aa0c463a1eacc385cbf3369ae4021d033c57f3637bb256d723a67da9b1200726"
+  },
+  {
+    "file": "Line 6 Updater/qml/L6QmlControls/qmldir",
+    "bytes": 108,
+    "sha256": "f7574f78ccc718664f8f95406ef94f4df799564c6c2fb9abba37f462d8d18fc2"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick.2/qmldir",
+    "bytes": 111,
+    "sha256": "7e844000c1f61db37173ee953012981d533c950e7fb772c2672ca74dcfdb914b"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick.2/qtquick2plugin.dll",
+    "bytes": 13312,
+    "sha256": "811bf8f99441d86d060a848bca6eeee3d5683ef7a0f61c6d94cf481d8d1cea9c"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/PrivateWidgets/widgetsplugin.dll",
+    "bytes": 96768,
+    "sha256": "b18fdfc3474bd7fd190b3041099de6555cac272b9b0901a6f8224ce561b1e5c7"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/PrivateWidgets/qmldir",
+    "bytes": 120,
+    "sha256": "d7b049361ac87b285138c2091d489f84cc71ccc517a3d68749f5fcbf963347f3"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/Controls/qmldir",
+    "bytes": 192,
+    "sha256": "2f81b564579bb4f13cc8f1e5ae48bb343871e812e6b3e56e751348c7f6f44bc2"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/Controls/qtquickcontrolsplugin.dll",
+    "bytes": 710656,
+    "sha256": "9cd8826487e76d7b2c426d636096bdf6ec7ce0f09abdcf8a73799fcadc1c9f4e"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/Layouts/qmldir",
+    "bytes": 130,
+    "sha256": "cb585c2fc06edca4b95c9ee04017cd384cae70356e8dd468abd7c4fd1e640b59"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/Layouts/qquicklayoutsplugin.dll",
+    "bytes": 69120,
+    "sha256": "35e0fba14ffba6027d062cd493b417ca9e9b65b77f095f861a424e6d66994f63"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/Window.2/qmldir",
+    "bytes": 122,
+    "sha256": "8d88b81547e1573f8c91df998ea82608e0a79770b014c82f760a67388b41945a"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/Window.2/windowplugin.dll",
+    "bytes": 13312,
+    "sha256": "34d67b47c90bef97dea3302a7628bd4ca6cb18995566fe8c5c246e25958cdbac"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/Dialogs/qmldir",
+    "bytes": 275,
+    "sha256": "7a7b3a36d54a70bb906e5657125781dd28e741c271edf3049372c8b064f7eedc"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/Dialogs/dialogplugin.dll",
+    "bytes": 172032,
+    "sha256": "80e73deaf62c6afe3823ae45011d93e9e09a1fb9531080ae9120ff75f783f9d5"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/Dialogs/Private/qmldir",
+    "bytes": 128,
+    "sha256": "328ce7281ff10ef0d90a753a716912656d3f97476624a584a8b50847127fa00d"
+  },
+  {
+    "file": "Line 6 Updater/qml/QtQuick/Dialogs/Private/dialogsprivateplugin.dll",
+    "bytes": 34816,
+    "sha256": "1875d7e87cfd4cd9ab78bb6b0e2bfe6b01ca83cd078274151501c533cc759c57"
+  },
+  {
+    "file": "Line 6 Updater/qml/Qt/labs/folderlistmodel/qmldir",
+    "bytes": 128,
+    "sha256": "f75bb323dfc225d171db112e509e34cc7450786cb7120df4b1f085a510dfb739"
+  },
+  {
+    "file": "Line 6 Updater/qml/Qt/labs/folderlistmodel/qmlfolderlistmodelplugin.dll",
+    "bytes": 45056,
+    "sha256": "bfdf9c545b1c226793ef327132b25d9537fb67c100765b45a5de36325eb1636f"
+  },
+  {
+    "file": "Line 6 Updater/qml/Qt/labs/settings/qmlsettingsplugin.dll",
+    "bytes": 22016,
+    "sha256": "7cf47a581cd6aafdc6c16204642f28f2421f951ac905e951c9a218205f93bf62"
+  },
+  {
+    "file": "Line 6 Updater/qml/Qt/labs/settings/qmldir",
+    "bytes": 107,
+    "sha256": "49522af40488e52e8a1deda8b51f591df1acca1605336784eb7d4299e5af02ec"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/ColorScheme/ColorScheme.qml",
+    "bytes": 1476,
+    "sha256": "c5d1e404f7962e9f10b86bec40d1e853262bfcdbee890507f11a36e3fe589acc"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Styles/FirmwareUpdate/DefaultButtonStyle.qml",
+    "bytes": 868,
+    "sha256": "ad32219c484d64dd75545648d74122c6e5bf01e36fb4a7e682d09b508c95a224"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Styles/FirmwareUpdate/UpdaterScrollViewStyle.qml",
+    "bytes": 1009,
+    "sha256": "15e27c087d675954483114b71d17893da3034eebd62334e15d3e776d61b866e1"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Styles/FirmwareUpdate/MoreLessButtonStyle.qml",
+    "bytes": 1170,
+    "sha256": "aab7aa0dd68c8347e241d730698006c879ca5538284e9a5779e362f2e2708254"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/Login/Login.qml",
+    "bytes": 712,
+    "sha256": "0da0407b62a21f6a2249102f8e50c73005360f1c3e0eb64126a297a35a57d57c"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/Login/LoginDialog.qml",
+    "bytes": 4086,
+    "sha256": "00cc96287aa78d077dc40f0aa4eb9b620dc91db5d48a46a247c1803a0be12db8"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/FirmwareUpdate.qml",
+    "bytes": 732,
+    "sha256": "083d7fa7d9bcc00d85d9b8d986eaa43ac8387770c606f862ea8c34db4c796efa"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/FirmwareUpdateHeader.qml",
+    "bytes": 3322,
+    "sha256": "4756947e616acf7c5f8f43f27f5bb3a63f5049c3b7d903901610ad6a47a238f4"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/FirmwareUpdateStackView.qml",
+    "bytes": 3283,
+    "sha256": "3c056afda706455e8033d27a1fa9d038de4af13ffc53671b0febd0cb21adfcf3"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/FirmwareUpdateNoDevice.qml",
+    "bytes": 1770,
+    "sha256": "3119f84375e1590649dfd92101acc8fa2fb58fa5269caf45e9fdb0b541f010d7"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/EULAPage.qml",
+    "bytes": 2431,
+    "sha256": "b08c065b5dc453fd9f44190830a5b09590fa031b42fe0b2930fe377b04f4c820"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdatesListDelegate.qml",
+    "bytes": 2243,
+    "sha256": "27cd60c602c3d9c5efe4063606a272759012c996e3128d9755e96d87c81ba9cb"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdateInProgressPage.qml",
+    "bytes": 3592,
+    "sha256": "ab7e98e7bf9563dba15aba8903653b909cf7599d4b533719927217508c7692ed"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/DeviceListDelegate.qml",
+    "bytes": 5354,
+    "sha256": "a23061f3e7085ede703baa60c9cad1689930a70d5ed59274c6880c4735d20653"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/SelectFileEntry.qml",
+    "bytes": 3092,
+    "sha256": "997c4365e094dc61cce4bd36a58b098fda6a436344bb3b6254b385ba0e4167c6"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/StartPage.qml",
+    "bytes": 1050,
+    "sha256": "c72fa889284043274e1b3baf2e6810db58ececb0b7e27ef42f7fb70b09056060"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/ExpandableLabel.qml",
+    "bytes": 972,
+    "sha256": "82bca9238265bf5a2d0323caa127e90bbc60e98fc77c22c89cd2e3cd7082b1b1"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdateDonePage.qml",
+    "bytes": 1440,
+    "sha256": "0a11ed0485384b2bc0a9c20734ed10706db0cf6957e5684aa5b99848a1c9b5db"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdateSuspendedPage.qml",
+    "bytes": 1990,
+    "sha256": "50f20cd81c9f982dd304a993a19a3f64d4845b1778d9174291a486259a14dc25"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdatesListPage.qml",
+    "bytes": 4638,
+    "sha256": "eb966b411526a3be433b47e984ae7d098078fdc911c5052827aa611ae53bf71b"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/PreUpdatePage.qml",
+    "bytes": 2913,
+    "sha256": "d04e9ab1db83169feaa2073f6b5e7905a34d09caa650375d7189097c1f7cd4e6"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdateConfirmPage.qml",
+    "bytes": 2260,
+    "sha256": "92d30b779b0f61178bd14630a8ea912a0306becd5920f0f33577368bf3963184"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/UpdateCompletedPage.qml",
+    "bytes": 2818,
+    "sha256": "e7ffe0f01a5d2da65eebcd7b041e6ef7f51a3dbaba1510bf197809e8db23ed5c"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/MultiLineText.qml",
+    "bytes": 945,
+    "sha256": "a70da06a5e0a7b1f42c7429beb8cfb41f4cf870a25daaa6fbee76138b13a0437"
+  },
+  {
+    "file": "Line 6 Updater/qmlsource/Components/FirmwareUpdate/Pages/ComponentDelegate.qml",
+    "bytes": 1983,
+    "sha256": "831101e0eff7570c1fc880d71dd55b3d817d2645a5bbee07ef1b896f2f4d0994"
+  },
+  {
+    "file": "Line 6 Updater/plugins/mediaservice/qtmedia_audioengine.dll",
+    "bytes": 45568,
+    "sha256": "37361c32c64159a0b1062fcedf7c43b91eae94ae7a35ed4656181c16dd6b0573"
+  },
+  {
+    "file": "Line 6 Updater/plugins/platforms/qwindows.dll",
+    "bytes": 1063936,
+    "sha256": "6678668044663dee68c834a3a7dd2816e3908bc6d6fe73d877a633fd4d15577a"
+  }
+]

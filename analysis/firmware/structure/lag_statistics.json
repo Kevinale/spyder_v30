@@ -1,0 +1,152 @@
+[
+  {
+    "version": "2.02",
+    "lag": 1,
+    "equal_byte_fraction": 0.003861527417400138
+  },
+  {
+    "version": "2.02",
+    "lag": 2,
+    "equal_byte_fraction": 0.0038775394174574555
+  },
+  {
+    "version": "2.02",
+    "lag": 4,
+    "equal_byte_fraction": 0.004412758410217602
+  },
+  {
+    "version": "2.02",
+    "lag": 8,
+    "equal_byte_fraction": 0.003646534485237417
+  },
+  {
+    "version": "2.02",
+    "lag": 16,
+    "equal_byte_fraction": 0.004448391599617309
+  },
+  {
+    "version": "2.02",
+    "lag": 32,
+    "equal_byte_fraction": 0.0037374004056964804
+  },
+  {
+    "version": "2.02",
+    "lag": 64,
+    "equal_byte_fraction": 0.00442852923031881
+  },
+  {
+    "version": "2.02",
+    "lag": 128,
+    "equal_byte_fraction": 0.0036920975584252627
+  },
+  {
+    "version": "2.02",
+    "lag": 256,
+    "equal_byte_fraction": 0.00444481914860244
+  },
+  {
+    "version": "2.02",
+    "lag": 512,
+    "equal_byte_fraction": 0.003712169143406921
+  },
+  {
+    "version": "2.02",
+    "lag": 1024,
+    "equal_byte_fraction": 0.004307673601305344
+  },
+  {
+    "version": "2.02",
+    "lag": 4096,
+    "equal_byte_fraction": 0.0043506114478960535
+  },
+  {
+    "version": "2.02",
+    "lag": 16384,
+    "equal_byte_fraction": 0.004305757040587846
+  },
+  {
+    "version": "2.02",
+    "lag": 32768,
+    "equal_byte_fraction": 0.0037058077471859643
+  },
+  {
+    "version": "2.02",
+    "lag": 65536,
+    "equal_byte_fraction": 0.004305301791838959
+  },
+  {
+    "version": "2.05",
+    "lag": 1,
+    "equal_byte_fraction": 0.003982797164736731
+  },
+  {
+    "version": "2.05",
+    "lag": 2,
+    "equal_byte_fraction": 0.003881075307103436
+  },
+  {
+    "version": "2.05",
+    "lag": 4,
+    "equal_byte_fraction": 0.0037844491693541002
+  },
+  {
+    "version": "2.05",
+    "lag": 8,
+    "equal_byte_fraction": 0.003784487669895011
+  },
+  {
+    "version": "2.05",
+    "lag": 16,
+    "equal_byte_fraction": 0.004199137282031457
+  },
+  {
+    "version": "2.05",
+    "lag": 32,
+    "equal_byte_fraction": 0.0038177841082510937
+  },
+  {
+    "version": "2.05",
+    "lag": 64,
+    "equal_byte_fraction": 0.004019047231436072
+  },
+  {
+    "version": "2.05",
+    "lag": 128,
+    "equal_byte_fraction": 0.0037754665906824334
+  },
+  {
+    "version": "2.05",
+    "lag": 256,
+    "equal_byte_fraction": 0.00387594926400228
+  },
+  {
+    "version": "2.05",
+    "lag": 512,
+    "equal_byte_fraction": 0.0039599674034837525
+  },
+  {
+    "version": "2.05",
+    "lag": 1024,
+    "equal_byte_fraction": 0.003980436955590461
+  },
+  {
+    "version": "2.05",
+    "lag": 4096,
+    "equal_byte_fraction": 0.003981022678207949
+  },
+  {
+    "version": "2.05",
+    "lag": 16384,
+    "equal_byte_fraction": 0.004100231417591983
+  },
+  {
+    "version": "2.05",
+    "lag": 32768,
+    "equal_byte_fraction": 0.00393702972055135
+  },
+  {
+    "version": "2.05",
+    "lag": 65536,
+    "equal_byte_fraction": 0.004089655004028615
+  }
+]

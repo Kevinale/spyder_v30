@@ -1,0 +1,17 @@
+{
+  "source": "synthetic USB/MIDI frames built from owner reported group42/param37/type4/float; not a device capture",
+  "samples": [
+    0.7648134231567383,
+    0.0,
+    1.0,
+    0.7283464670181274
+  ],
+  "checks": [
+    "Gain37 reaches logical Drive",
+    "unknown -1 remains ignored",
+    "actual ReaScript writes Gateway Input only",
+    "-12..+6 dB bounds and mapping validated",
+    "Escape restores Input"
+  ],
+  "passed": true
+}

@@ -1,0 +1,327 @@
+SCALAR 1400233f1 MOV RAX,qword ptr [RAX + 0x280] FUN_1400232a0
+SCALAR 140023c66 MOV EAX,0x280 FUN_140023940
+SCALAR 140023dbb SUB ECX,0x281 FUN_140023940
+SCALAR 14003522b MOV EAX,0x280 FUN_1400350c4
+SCALAR 14003530c SUB ECX,0x281 FUN_1400350c4
+FUNCTION_XREFS 1400232a0
+From: 140042ff0 To: 1400232a0 Type: DATA Op: 0 DEFAULT
+From: 14003a514 To: 1400232a0 Type: DATA Op: 0 DEFAULT
+From: 14003aca0 To: 1400232a0 Type: DATA Op: 0 DEFAULT
+From: 14003b148 To: 1400232a0 Type: DATA Op: 0 DEFAULT
+From: 14003b608 To: 1400232a0 Type: DATA Op: 0 DEFAULT
+From: 14003bb20 To: 1400232a0 Type: DATA Op: 0 DEFAULT
+From: 14003bfe0 To: 1400232a0 Type: DATA Op: 0 DEFAULT
+From: 14003c478 To: 1400232a0 Type: DATA Op: 0 DEFAULT
+From: 14003c940 To: 1400232a0 Type: DATA Op: 0 DEFAULT
+From: 14003ce10 To: 1400232a0 Type: DATA Op: 0 DEFAULT
+From: 14003d8c0 To: 1400232a0 Type: DATA Op: 0 DEFAULT
+FUNCTION_XREFS 140023940
+From: 140043020 To: 140023940 Type: DATA Op: 0 DEFAULT
+From: 14003a524 To: 140023940 Type: DATA Op: 0 DEFAULT
+From: 14003aca8 To: 140023940 Type: DATA Op: 0 DEFAULT
+From: 14003b150 To: 140023940 Type: DATA Op: 0 DEFAULT
+From: 14003b610 To: 140023940 Type: DATA Op: 0 DEFAULT
+From: 14003bb28 To: 140023940 Type: DATA Op: 0 DEFAULT
+From: 14003bfe8 To: 140023940 Type: DATA Op: 0 DEFAULT
+From: 14003c480 To: 140023940 Type: DATA Op: 0 DEFAULT
+From: 14003c948 To: 140023940 Type: DATA Op: 0 DEFAULT
+From: 14003ce18 To: 140023940 Type: DATA Op: 0 DEFAULT
+From: 14003d8c8 To: 140023940 Type: DATA Op: 0 DEFAULT
+FUNCTION_XREFS 1400350c4
+From: 140025383 To: 1400350c4 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+From: 140020cb3 To: 1400350c4 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+From: 1400239da To: 1400350c4 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+From: 140023ec5 To: 1400350c4 Type: UNCONDITIONAL_CALL Op: 0 DEFAULT
+DECOMPILE 1400232a0 FUN_1400232a0
+
+int FUN_1400232a0(longlong *param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                 undefined8 param_5,undefined4 *param_6)
+
+{
+  undefined4 *puVar1;
+  int iVar2;
+  char *pcVar3;
+  
+  puVar1 = param_6;
+  param_6 = (undefined4 *)0x0;
+  *puVar1 = 0;
+  iVar2 = (*(code *)PTR__guard_dispatch_icall_14003a148)(DAT_1400413d0,param_3,0xc,&param_6,0);
+  if (iVar2 < 0) {
+    if ((((undefined **)PTR_LOOP_1400400a0 != &PTR_LOOP_1400400a0) &&
+        ((*(uint *)(PTR_LOOP_1400400a0 + 300) & 0x20) != 0)) &&
+       ((byte)PTR_LOOP_1400400a0[0x129] < 7)) {
+      FUN_140006b94(*(undefined8 *)(PTR_LOOP_1400400a0 + 0x118),0x1c,&DAT_14003cd50,iVar2);
+    }
+  }
+  else {
+    if ((((undefined **)PTR_LOOP_1400400a0 != &PTR_LOOP_1400400a0) &&
+        ((*(uint *)(PTR_LOOP_1400400a0 + 300) & 0x20) != 0)) && (PTR_LOOP_1400400a0[0x129] == '\0'))
+    {
+      pcVar3 = FUN_14003505c(param_6[1]);
+      FUN_1400259cc(*(undefined8 *)(PTR_LOOP_1400400a0 + 0x118),0x1b,&DAT_14003cd50,pcVar3);
+    }
+    iVar2 = param_6[1];
+    if (((iVar2 == -0x70000000) || (iVar2 == -0x6fffffff)) ||
+       ((iVar2 == -0x6ffffffe ||
+        (((iVar2 == -0x6ffffffd || (iVar2 == -0x6ffffffc)) || (iVar2 == -0x6ffffffb)))))) {
+      iVar2 = (*(code *)PTR__guard_dispatch_icall_14003a148)
+                        (param_1,param_2,param_3,param_4,param_5,puVar1);
+    }
+    else {
+      iVar2 = -0x3ffffff0;
+    }
+  }
+  return iVar2;
+}
+
+
+DECOMPILE 140023940 FUN_140023940
+
+int FUN_140023940(longlong *param_1,undefined8 param_2,undefined8 param_3,undefined8 param_4,
+                 undefined8 param_5,undefined8 param_6,undefined4 *param_7)
+
+{
+  undefined4 *puVar1;
+  int iVar2;
+  uint uVar3;
+  char *pcVar4;
+  
+  puVar1 = param_7;
+  param_7 = (undefined4 *)0x0;
+  *puVar1 = 0;
+  iVar2 = (*(code *)PTR__guard_dispatch_icall_14003a148)(DAT_1400413d0,param_4,0xc,&param_7,0);
+  if (iVar2 < 0) {
+    if ((undefined **)PTR_LOOP_1400400a0 == &PTR_LOOP_1400400a0) {
+      return iVar2;
+    }
+    if ((*(uint *)(PTR_LOOP_1400400a0 + 300) & 0x10) == 0) {
+      return iVar2;
+    }
+    if (6 < (byte)PTR_LOOP_1400400a0[0x129]) {
+      return iVar2;
+    }
+    FUN_140006b94(*(undefined8 *)(PTR_LOOP_1400400a0 + 0x118),0x1a,&DAT_14003cd50,iVar2);
+    return iVar2;
+  }
+  if ((((undefined **)PTR_LOOP_1400400a0 != &PTR_LOOP_1400400a0) &&
+      ((*(uint *)(PTR_LOOP_1400400a0 + 300) & 0x10) != 0)) && ((byte)PTR_LOOP_1400400a0[0x129] < 2))
+  {
+    pcVar4 = FUN_1400350c4(param_7[1]);
+    FUN_1400259cc(*(undefined8 *)(PTR_LOOP_1400400a0 + 0x118),0x17,&DAT_14003cd50,pcVar4);
+  }
+  uVar3 = FUN_1400307b0((longlong)param_1,param_7[1]);
+  if ((int)uVar3 < 0) {
+    if ((((undefined **)PTR_LOOP_1400400a0 != &PTR_LOOP_1400400a0) &&
+        ((*(uint *)(PTR_LOOP_1400400a0 + 300) & 0x10) != 0)) &&
+       ((byte)PTR_LOOP_1400400a0[0x129] < 2)) {
+      pcVar4 = FUN_1400350c4(param_7[1]);
+      WPP_SF_s(*(undefined8 *)(PTR_LOOP_1400400a0 + 0x118),0x19,&DAT_14003cd50,pcVar4);
+    }
+LAB_140023eec:
+    iVar2 = -0x3ffffff0;
+  }
+  else {
+    iVar2 = param_7[1];
+    if (iVar2 < 0x24b) {
+      if (iVar2 != 0x24a) {
+        if (iVar2 < 0x241) {
+          if ((((iVar2 != 0x240) && (iVar2 != -0x10000000)) &&
+              ((iVar2 != 0x200 && (((iVar2 != 0x201 && (iVar2 != 0x202)) && (iVar2 != 0x203)))))) &&
+             (((iVar2 != 0x204 && (iVar2 != 0x205)) && ((iVar2 != 0x206 && (iVar2 != 0x207)))))) {
+LAB_140023deb:
+            if ((((undefined **)PTR_LOOP_1400400a0 != &PTR_LOOP_1400400a0) &&
+                ((*(uint *)(PTR_LOOP_1400400a0 + 300) & 0x10) != 0)) &&
+               ((byte)PTR_LOOP_1400400a0[0x129] < 7)) {
+              FUN_140006b6c(*(undefined8 *)(PTR_LOOP_1400400a0 + 0x118),0x18,&DAT_14003cd50);
+            }
+            goto LAB_140023eec;
+          }
+        }
+        else if (((((iVar2 != 0x241) && (iVar2 != 0x242)) &&
+                  ((iVar2 != 0x243 && (((iVar2 != 0x244 && (iVar2 != 0x245)) && (iVar2 != 0x246)))))
+                  ) && ((iVar2 != 0x247 && (iVar2 != 0x248)))) && (iVar2 != 0x249))
+        goto LAB_140023deb;
+      }
+    }
+    else if (iVar2 < 0x281) {
+      if (iVar2 != 0x280) {
+        if (iVar2 < 0x252) {
+          if ((iVar2 != 0x251) &&
+             (((((iVar2 != 0x24b && (iVar2 != 0x24c)) && (iVar2 != 0x24d)) &&
+               ((iVar2 != 0x24e && (iVar2 != 0x24f)))) && (iVar2 != 0x250)))) goto LAB_140023deb;
+        }
+        else if (((iVar2 != 0x252) && (iVar2 != 0x253)) &&
+                ((iVar2 != 0x254 && ((iVar2 != 0x255 && (iVar2 != 0x256)))))) goto LAB_140023deb;
+      }
+    }
+    else if (((iVar2 != 0x281) && (iVar2 != 0x286)) &&
+            ((iVar2 != 0x480 && (((iVar2 != 0x481 && (iVar2 != 0x482)) && (iVar2 != 0x483))))))
+    goto LAB_140023deb;
+    iVar2 = (*(code *)PTR__guard_dispatch_icall_14003a148)
+                      (param_1,param_2,param_3,param_4,param_5,param_6,puVar1);
+  }
+  return iVar2;
+}
+
+
+DECOMPILE 1400350c4 FUN_1400350c4
+
+char * FUN_1400350c4(int param_1)
+
+{
+  if (param_1 < 0x249) {
+    if (param_1 == 0x248) {
+      return "IM_ASIO_GET_CLIENT";
+    }
+    if (param_1 < 0x206) {
+      if (param_1 == 0x205) {
+        return "IM_BRANDI_GETSHARCFWVERSION";
+      }
+      if (param_1 < 6) {
+        if (param_1 == 5) {
+          return "IM_CALLBACK_L6LSI";
+        }
+        if (param_1 == 0) {
+          return "IM_CALLBACK_L6SPSI";
+        }
+        if (param_1 == 1) {
+          return "IM_CALLBACK_TERMINATE";
+        }
+        if (param_1 == 2) {
+          return "IM_CALLBACK_DEBUG";
+        }
+        if (param_1 == 3) {
+          return "IM_ASIO_CALLBACK";
+        }
+        if (param_1 == 4) {
+          return "IM_CALLBACK_FROM_VARIAX";
+        }
+      }
+      else {
+        if (param_1 == 0x200) {
+          return "IM_BRANDI_MMREAD";
+        }
+        if (param_1 == 0x201) {
+          return "IM_BRANDI_MMWRITE";
+        }
+        if (param_1 == 0x202) {
+          return "IM_BRANDI_GETSTATUS";
+        }
+        if (param_1 == 0x203) {
+          return "IM_BRANDI_GETVERSION";
+        }
+        if (param_1 == 0x204) {
+          return "IM_BRANDI_GETDECRYPTKEY";
+        }
+      }
+    }
+    else if (param_1 < 0x244) {
+      if (param_1 == 0x243) {
+        return "IM_AUDIO_SET_PPQ";
+      }
+      if (param_1 == 0x206) {
+        return "IM_BRANDI_RAWUSB";
+      }
+      if (param_1 == 0x207) {
+        return "IM_USB_CONTROL_PACKET";
+      }
+      if (param_1 == 0x240) {
+        return "IM_GET_DRIVER_VERSION";
+      }
+      if (param_1 == 0x241) {
+        return "IM_AUDIO_GET_FORMAT";
+      }
+      if (param_1 == 0x242) {
+        return "IM_AUDIO_GET_PPQ";
+      }
+    }
+    else {
+      if (param_1 == 0x244) {
+        return "IM_AUDIO_SET_DEFAULT_FORMAT";
+      }
+      if (param_1 == 0x245) {
+        return "IM_AUDIO_GET_DEFAULT_FORMAT";
+      }
+      if (param_1 == 0x246) {
+        return "IM_AUDIO_SET_FORCE_FORMAT";
+      }
+      if (param_1 == 0x247) {
+        return "IM_AUDIO_GET_FORCE_FORMAT";
+      }
+    }
+  }
+  else if (param_1 < 0x281) {
+    if (param_1 == 0x280) {
+      return "IM_HWCFG_SET_ON_BOARD_MONITOR_GAIN";
+    }
+    if (param_1 < 0x251) {
+      if (param_1 == 0x250) {
+        return "IM_ASIO_START";
+      }
+      if (param_1 == 0x249) {
+        return "IM_ASIO_GET_FORMAT";
+      }
+      if (param_1 == 0x24a) {
+        return "IM_ASIO_SET_FORMAT";
+      }
+      if (param_1 == 0x24b) {
+        return "IM_ASIO_GET_BUFFER_BOUNDS";
+      }
+      if (param_1 == 0x24c) {
+        return "IM_ASIO_GET_LATENCIES";
+      }
+      if (param_1 == 0x24d) {
+        return "IM_ASIO_SET_PREFERRED_BUFFER_SIZE";
+      }
+      if (param_1 == 0x24e) {
+        return "IM_ASIO_GET_SHARED_BUFFER";
+      }
+      if (param_1 == 0x24f) {
+        return "IM_ASIO_SHARED_BUFFER_READY";
+      }
+    }
+    else {
+      if (param_1 == 0x251) {
+        return "IM_ASIO_STOP";
+      }
+      if (param_1 == 0x252) {
+        return "IM_DEBUG_LOOPBACK";
+      }
+      if (param_1 == 0x253) {
+        return "IM_SIMULATE_CALLBACK";
+      }
+      if (param_1 == 0x254) {
+        return "IM_GENERIC_DEBUG";
+      }
+      if (param_1 == 0x255) {
+        return "IM_GET_DRIVER_DASHBOARD";
+      }
+      if (param_1 == 0x256) {
+        return "IM_BLOCK_AUDIO";
+      }
+    }
+  }
+  else {
+    if (param_1 == 0x281) {
+      return "IM_HWCFG_GET_ON_BOARD_MONITOR_GAIN";
+    }
+    if (param_1 == 0x286) {
+      return "IM_HWCFG_GET_BSP_MTU";
+    }
+    if (param_1 == 0x480) {
+      return "IM_L6_SPSI";
+    }
+    if (param_1 == 0x481) {
+      return "IM_L6_VARIAX";
+    }
+    if (param_1 == 0x482) {
+      return "IM_L6_LSI";
+    }
+    if (param_1 == 0x483) {
+      return "IM_L6_BSP_RAW";
+    }
+  }
+  return "Unknown message";
+}
+
+

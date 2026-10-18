@@ -1,0 +1,1618 @@
+PROGRAM InterposerBackEnd64.dll IMAGEBASE 180000000
+FUNCTION 180001000 FUN_180001000
+FUNCTION 180001040 FUN_180001040
+FUNCTION 180001070 FUN_180001070
+FUNCTION 180001080 FUN_180001080
+FUNCTION 1800010d0 FUN_1800010d0
+FUNCTION 1800011a0 FUN_1800011a0
+FUNCTION 1800011e0 FUN_1800011e0
+FUNCTION 180001350 FUN_180001350
+FUNCTION 1800014b0 FUN_1800014b0
+FUNCTION 180001520 FUN_180001520
+FUNCTION 180001590 FUN_180001590
+FUNCTION 1800015f0 FUN_1800015f0
+FUNCTION 180001630 FUN_180001630
+FUNCTION 1800016f0 FUN_1800016f0
+FUNCTION 1800018d0 FUN_1800018d0
+FUNCTION 180001b40 FUN_180001b40
+FUNCTION 180001bb0 FUN_180001bb0
+FUNCTION 180001c70 FUN_180001c70
+FUNCTION 180001cc0 FUN_180001cc0
+FUNCTION 180001d20 FUN_180001d20
+FUNCTION 180001d70 FUN_180001d70
+FUNCTION 1800020d0 FUN_1800020d0
+FUNCTION 180002100 FUN_180002100
+FUNCTION 180002160 FUN_180002160
+FUNCTION 1800021c0 FUN_1800021c0
+FUNCTION 1800021d0 FUN_1800021d0
+FUNCTION 1800021e0 FUN_1800021e0
+FUNCTION 1800021f0 FUN_1800021f0
+FUNCTION 180002210 FUN_180002210
+FUNCTION 180002270 FUN_180002270
+FUNCTION 1800022d0 FUN_1800022d0
+FUNCTION 180002300 FUN_180002300
+FUNCTION 180002340 FUN_180002340
+FUNCTION 180002480 FUN_180002480
+FUNCTION 180002580 FUN_180002580
+FUNCTION 1800025e0 FUN_1800025e0
+FUNCTION 180002900 FUN_180002900
+FUNCTION 180002b30 FUN_180002b30
+FUNCTION 180002c10 FUN_180002c10
+FUNCTION 180002cb0 FUN_180002cb0
+FUNCTION 180002d40 FUN_180002d40
+FUNCTION 180002d90 FUN_180002d90
+FUNCTION 180002ff0 FUN_180002ff0
+FUNCTION 180003070 FUN_180003070
+FUNCTION 1800030f0 FUN_1800030f0
+FUNCTION 180003140 FUN_180003140
+FUNCTION 180003190 FUN_180003190
+FUNCTION 180003200 FUN_180003200
+FUNCTION 180003270 FUN_180003270
+FUNCTION 1800032e0 FUN_1800032e0
+FUNCTION 180003310 FUN_180003310
+FUNCTION 180003390 FUN_180003390
+FUNCTION 180003400 FUN_180003400
+FUNCTION 1800034c0 FUN_1800034c0
+FUNCTION 180003520 FUN_180003520
+FUNCTION 1800035b0 FUN_1800035b0
+FUNCTION 1800037a0 InterposerBackendInit
+FUNCTION 180003890 InterposerBackendEnableCallbacks
+FUNCTION 180003980 InterposerBackendCleanup
+FUNCTION 180003b60 InterposerBackendGetVersion
+FUNCTION 180003bf0 InterposerBackendGetDevCapsSize
+FUNCTION 180003ce0 InterposerBackendGetDevCaps
+FUNCTION 180003de0 InterposerBackendGetAppId
+FUNCTION 180003ed0 InterposerBackendMessage
+FUNCTION 180004000 InterposerBackendRegisterCallback
+FUNCTION 180004120 InterposerBackendSurpriseRemoval
+FUNCTION 180004200 InterposerBackendDeviceControl
+FUNCTION 180004340 FUN_180004340
+FUNCTION 180004350 FUN_180004350
+FUNCTION 180004390 FUN_180004390
+FUNCTION 180004440 thunk_FUN_180002900
+FUNCTION 180004450 FUN_180004450
+FUNCTION 1800044c0 FUN_1800044c0
+FUNCTION 180004540 FUN_180004540
+FUNCTION 1800045f0 FUN_1800045f0
+FUNCTION 180004820 FUN_180004820
+FUNCTION 1800048c0 FUN_1800048c0
+FUNCTION 180004b60 FUN_180004b60
+FUNCTION 180004bc0 FUN_180004bc0
+FUNCTION 180004d20 FUN_180004d20
+FUNCTION 180004e50 FUN_180004e50
+FUNCTION 180005010 FUN_180005010
+FUNCTION 180005080 FUN_180005080
+FUNCTION 1800053f0 FUN_1800053f0
+FUNCTION 180005510 FUN_180005510
+FUNCTION 180005660 FUN_180005660
+FUNCTION 180005720 FUN_180005720
+FUNCTION 180005a90 __security_check_cookie
+FUNCTION 180005ab0 free
+FUNCTION 180005ab8 __raise_securityfailure
+FUNCTION 180005aec FUN_180005aec
+FUNCTION 180005bc0 capture_previous_context
+FUNCTION 180005c34 FUN_180005c34
+FUNCTION 180005c70 thunk_FUN_180005c34
+FUNCTION 180005c78 FUN_180005c78
+FUNCTION 180005ca4 __scrt_acquire_startup_lock
+FUNCTION 180005ce0 __scrt_dllmain_after_initialize_c
+FUNCTION 180005d14 FUN_180005d14
+FUNCTION 180005d2c FUN_180005d2c
+FUNCTION 180005d54 FUN_180005d54
+FUNCTION 180005d6c __scrt_dllmain_exception_filter
+FUNCTION 180005dcc __scrt_dllmain_uninitialize_c
+FUNCTION 180005dfc FUN_180005dfc
+FUNCTION 180005e10 __scrt_initialize_crt
+FUNCTION 180005e5c FUN_180005e5c
+FUNCTION 180005ee8 FUN_180005ee8
+FUNCTION 180005f80 __scrt_release_startup_lock
+FUNCTION 180005fa4 __scrt_uninitialize_crt
+FUNCTION 180005fd0 _onexit
+FUNCTION 18000600c atexit
+FUNCTION 180006024 FUN_180006024
+FUNCTION 180006074 FUN_180006074
+FUNCTION 18000618c FUN_18000618c
+FUNCTION 180006210 dllmain_dispatch
+FUNCTION 180006344 entry
+FUNCTION 180006384 free
+FUNCTION 18000638c FUN_18000638c
+FUNCTION 1800063c8 FUN_1800063c8
+FUNCTION 1800063e8 FUN_1800063e8
+FUNCTION 180006424 FUN_180006424
+FUNCTION 180006444 exception
+FUNCTION 18000648c FUN_18000648c
+FUNCTION 1800064d0 FUN_1800064d0
+FUNCTION 1800064f0 FUN_1800064f0
+FUNCTION 180006510 FUN_180006510
+FUNCTION 180006524 FUN_180006524
+FUNCTION 1800066d0 FUN_1800066d0
+FUNCTION 1800066d8 __scrt_is_ucrt_dll_in_use
+FUNCTION 1800066e4 FUN_1800066e4
+FUNCTION 1800066ec FUN_1800066ec
+FUNCTION 180006838 _guard_check_icall
+FUNCTION 18000683c __security_init_cookie
+FUNCTION 1800068e8 FUN_1800068e8
+FUNCTION 1800068f8 FUN_1800068f8
+FUNCTION 180006904 FUN_180006904
+FUNCTION 18000690c FUN_18000690c
+FUNCTION 180006928 FUN_180006928
+FUNCTION 180006930 FUN_180006930
+FUNCTION 18000696c FUN_18000696c
+FUNCTION 1800069b0 __CxxFrameHandler4
+FUNCTION 1800069b6 _purecall
+FUNCTION 1800069c8 __std_exception_copy
+FUNCTION 1800069ce __std_exception_destroy
+FUNCTION 1800069d4 _CxxThrowException
+FUNCTION 1800069da memset
+FUNCTION 1800069e0 __std_type_info_destroy_list
+FUNCTION 1800069e6 free
+FUNCTION 1800069ec malloc
+FUNCTION 1800069f2 _callnewh
+FUNCTION 1800069f8 _seh_filter_dll
+FUNCTION 1800069fe _configure_narrow_argv
+FUNCTION 180006a04 _initialize_narrow_environment
+FUNCTION 180006a0a _initialize_onexit_table
+FUNCTION 180006a10 _register_onexit_function
+FUNCTION 180006a16 _execute_onexit_table
+FUNCTION 180006a1c _crt_atexit
+FUNCTION 180006a22 _cexit
+FUNCTION 180006a28 _initterm
+FUNCTION 180006a2e _initterm_e
+FUNCTION 180006a34 FUN_180006a34
+FUNCTION 180006a38 __GSHandlerCheck
+FUNCTION 180006a58 __GSHandlerCheckCommon
+FUNCTION 180006ab4 FID_conflict:__GSHandlerCheck_EH
+FUNCTION 180006b50 __chkstk
+FUNCTION 180006b9e memcpy
+FUNCTION 180006bc0 _guard_dispatch_icall
+FUNCTION 180006be0 _guard_dispatch_icall
+FUNCTION 180006bf0 FUN_180006bf0
+FUNCTION 180006c0d FUN_180006c0d
+FUNCTION 180006c30 FUN_180006c30
+FUNCTION 180006c4d FUN_180006c4d
+FUNCTION 180006c90 FUN_180006c90
+FUNCTION 180006cad FUN_180006cad
+FUNCTION 180006ce0 FUN_180006ce0
+FUNCTION 180006d10 FUN_180006d10
+FUNCTION 180006d2d FUN_180006d2d
+FUNCTION 180006d60 FUN_180006d60
+FUNCTION 180006dc0 FUN_180006dc0
+FUNCTION 180006de5 FUN_180006de5
+FUNCTION 180006dfd FUN_180006dfd
+FUNCTION 180006e14 FUN_180006e14
+FUNCTION 180006e2d FUN_180006e2d
+FUNCTION 180006e41 FUN_180006e41
+FUNCTION 180006e80 FUN_180006e80
+FUNCTION 180006ed0 FUN_180006ed0
+SYMBOL 18000e7d0 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000e7b8 
+ SYMBOL_XREF 18000e810 
+SYMBOL 18000e7f8 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000e7e8 
+SYMBOL 18000e848 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000e830 
+ SYMBOL_XREF 18000e888 
+SYMBOL 18000e870 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000e860 
+ SYMBOL_XREF 18000e8dc 
+ SYMBOL_XREF 18000e960 
+SYMBOL 18000e8c0 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000e8a8 
+ SYMBOL_XREF 18000e908 
+SYMBOL 18000e8f0 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000e8d8 
+ SYMBOL_XREF 18000e95c 
+SYMBOL 18000e940 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000e928 
+ SYMBOL_XREF 18000e990 
+SYMBOL 18000e978 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000e958 
+SYMBOL 18000e9d8 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000eb00 
+SYMBOL 18000ea18 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000e9c0 
+ SYMBOL_XREF 18000ed70 
+SYMBOL 18000ea30 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000eb20 
+ SYMBOL_XREF 18000eac8 
+SYMBOL 18000ea48 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000eaa0 
+ SYMBOL_XREF 18000ed90 
+SYMBOL 18000ea88 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000ec18 
+ SYMBOL_XREF 18000ea04 
+ SYMBOL_XREF 18000ed30 
+SYMBOL 18000eab0 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000e9a0 
+SYMBOL 18000ead8 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000ed44 
+ SYMBOL_XREF 18000eb50 
+SYMBOL 18000eb38 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000ec48 
+SYMBOL 18000eb98 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000eb70 
+ SYMBOL_XREF 18000ec70 
+SYMBOL 18000ebb0 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000ed40 
+SYMBOL 18000ec30 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000ec14 
+ SYMBOL_XREF 18000ea00 
+SYMBOL 18000ec58 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000ec00 
+SYMBOL 18000ec80 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000ebe8 
+ SYMBOL_XREF 18000ebc8 
+SYMBOL 18000ec98 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000eaf0 
+ SYMBOL_XREF 18000ed18 
+SYMBOL 18000ecb0 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000eb88 
+SYMBOL 18000ecd8 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000ea70 
+ SYMBOL_XREF 18000e9f0 
+SYMBOL 18000ecf0 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000edb8 
+ SYMBOL_XREF 18000ecc8 
+SYMBOL 18000ed58 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000ec10 
+SYMBOL 18000ede0 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000efd8 
+ SYMBOL_XREF 18000eeb8 
+SYMBOL 18000edf8 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000ef58 
+ SYMBOL_XREF 18000ef38 
+SYMBOL 18000ee10 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000ef80 
+ SYMBOL_XREF 18000f008 
+SYMBOL 18000ee50 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000edd0 
+SYMBOL 18000ee78 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000ef00 
+SYMBOL 18000eea0 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000f018 
+SYMBOL 18000ef20 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000ef10 
+ SYMBOL_XREF 18000f07c 
+ SYMBOL_XREF 18000f0d8 
+SYMBOL 18000ef98 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000eee8 
+ SYMBOL_XREF 18000ee68 
+SYMBOL 18000efb0 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000ee38 
+ SYMBOL_XREF 18000ee90 
+SYMBOL 18000eff0 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000eec8 
+SYMBOL 18000f028 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000f078 
+ SYMBOL_XREF 18000f0d4 
+SYMBOL 18000f090 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000f060 
+ SYMBOL_XREF 18000f040 
+SYMBOL 18000f0f0 RTTI_Class_Hierarchy_Descriptor
+ SYMBOL_XREF 18000f0b8 
+ SYMBOL_XREF 18000f120 
+SYMBOL 18000f108 RTTI_Base_Class_Descriptor_at_(0,-1,0,64)
+ SYMBOL_XREF 18000f0d0 
+SYMBOL 180011078 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000e8a4 
+ SYMBOL_XREF 18000e8f0 
+SYMBOL 180011079 RTTI_Type_Descriptor.pVFTable+1
+ SYMBOL_XREF 18000504a FUN_180005010
+ SYMBOL_XREF 1800055db FUN_180005510
+ SYMBOL_XREF 180005620 FUN_180005510
+ SYMBOL_XREF 1800040e5 InterposerBackendRegisterCallback
+ SYMBOL_XREF 1800040b3 InterposerBackendRegisterCallback
+ SYMBOL_XREF 180004040 InterposerBackendRegisterCallback
+ SYMBOL_XREF 1800042fa InterposerBackendDeviceControl
+ SYMBOL_XREF 1800042c8 InterposerBackendDeviceControl
+ SYMBOL_XREF 18000423d InterposerBackendDeviceControl
+ SYMBOL_XREF 1800041ce InterposerBackendSurpriseRemoval
+ SYMBOL_XREF 18000419c InterposerBackendSurpriseRemoval
+ SYMBOL_XREF 180004146 InterposerBackendSurpriseRemoval
+ SYMBOL_XREF 180004da6 FUN_180004d20
+ SYMBOL_XREF 180004dd3 FUN_180004d20
+ SYMBOL_XREF 180004e18 FUN_180004d20
+ SYMBOL_XREF 180004f15 FUN_180004e50
+ SYMBOL_XREF 180004f64 FUN_180004e50
+ SYMBOL_XREF 180004f8e FUN_180004e50
+ SYMBOL_XREF 180004fd6 FUN_180004e50
+ SYMBOL_XREF 180003bce InterposerBackendGetVersion
+ SYMBOL_XREF 180003b86 InterposerBackendGetVersion
+ SYMBOL_XREF 180005686 FUN_180005660
+ SYMBOL_XREF 180003946 InterposerBackendEnableCallbacks
+ SYMBOL_XREF 180003914 InterposerBackendEnableCallbacks
+ SYMBOL_XREF 1800038bd InterposerBackendEnableCallbacks
+ SYMBOL_XREF 1800050cf FUN_180005080
+ SYMBOL_XREF 18000533d FUN_180005080
+ SYMBOL_XREF 1800052d5 FUN_180005080
+ SYMBOL_XREF 180005257 FUN_180005080
+ SYMBOL_XREF 1800051f8 FUN_180005080
+ SYMBOL_XREF 18000519b FUN_180005080
+ SYMBOL_XREF 1800025b1 FUN_180002580
+ SYMBOL_XREF 1800053b6 FUN_180005080
+ SYMBOL_XREF 180003b2c InterposerBackendCleanup
+ SYMBOL_XREF 180003aeb InterposerBackendCleanup
+ SYMBOL_XREF 1800039af InterposerBackendCleanup
+ SYMBOL_XREF 180003859 InterposerBackendInit
+ SYMBOL_XREF 180003827 InterposerBackendInit
+ SYMBOL_XREF 1800037c6 InterposerBackendInit
+ SYMBOL_XREF 180003fb8 InterposerBackendMessage
+ SYMBOL_XREF 180003f86 InterposerBackendMessage
+ SYMBOL_XREF 180003f10 InterposerBackendMessage
+ SYMBOL_XREF 180004b3b FUN_1800048c0
+ SYMBOL_XREF 180004c7a FUN_180004bc0
+ SYMBOL_XREF 180004cdd FUN_180004bc0
+ SYMBOL_XREF 180004ad2 FUN_1800048c0
+ SYMBOL_XREF 1800049f3 FUN_1800048c0
+ SYMBOL_XREF 18000549b FUN_1800053f0
+ SYMBOL_XREF 1800054d4 FUN_1800053f0
+ SYMBOL_XREF 180003caa InterposerBackendGetDevCapsSize
+ SYMBOL_XREF 180003c78 InterposerBackendGetDevCapsSize
+ SYMBOL_XREF 180003c1e InterposerBackendGetDevCapsSize
+ SYMBOL_XREF 1800028a6 FUN_1800025e0
+ SYMBOL_XREF 180003da5 InterposerBackendGetDevCaps
+ SYMBOL_XREF 180003d73 InterposerBackendGetDevCaps
+ SYMBOL_XREF 18000266c FUN_1800025e0
+ SYMBOL_XREF 180003d16 InterposerBackendGetDevCaps
+ SYMBOL_XREF 1800026e5 FUN_1800025e0
+ SYMBOL_XREF 180003e9a InterposerBackendGetAppId
+ SYMBOL_XREF 180003e68 InterposerBackendGetAppId
+ SYMBOL_XREF 180003e0e InterposerBackendGetAppId
+SYMBOL 18001107c RTTI_Type_Descriptor.pVFTable+4
+ SYMBOL_XREF 180005043 FUN_180005010
+ SYMBOL_XREF 1800055d5 FUN_180005510
+ SYMBOL_XREF 18000561a FUN_180005510
+ SYMBOL_XREF 1800040df InterposerBackendRegisterCallback
+ SYMBOL_XREF 1800040ad InterposerBackendRegisterCallback
+ SYMBOL_XREF 180004039 InterposerBackendRegisterCallback
+ SYMBOL_XREF 1800042f4 InterposerBackendDeviceControl
+ SYMBOL_XREF 1800042c2 InterposerBackendDeviceControl
+ SYMBOL_XREF 180004237 InterposerBackendDeviceControl
+ SYMBOL_XREF 1800041c8 InterposerBackendSurpriseRemoval
+ SYMBOL_XREF 180004196 InterposerBackendSurpriseRemoval
+ SYMBOL_XREF 180004140 InterposerBackendSurpriseRemoval
+ SYMBOL_XREF 180004da0 FUN_180004d20
+ SYMBOL_XREF 180004dcd FUN_180004d20
+ SYMBOL_XREF 180004e12 FUN_180004d20
+ SYMBOL_XREF 180004f0b FUN_180004e50
+ SYMBOL_XREF 180004f5a FUN_180004e50
+ SYMBOL_XREF 180004f88 FUN_180004e50
+ SYMBOL_XREF 180004fd0 FUN_180004e50
+ SYMBOL_XREF 180003bc8 InterposerBackendGetVersion
+ SYMBOL_XREF 180003b80 InterposerBackendGetVersion
+ SYMBOL_XREF 180005680 FUN_180005660
+ SYMBOL_XREF 180003940 InterposerBackendEnableCallbacks
+ SYMBOL_XREF 18000390e InterposerBackendEnableCallbacks
+ SYMBOL_XREF 1800038b7 InterposerBackendEnableCallbacks
+ SYMBOL_XREF 1800050c9 FUN_180005080
+ SYMBOL_XREF 180005336 FUN_180005080
+ SYMBOL_XREF 1800052ce FUN_180005080
+ SYMBOL_XREF 180005250 FUN_180005080
+ SYMBOL_XREF 1800051ed FUN_180005080
+ SYMBOL_XREF 1800025ab FUN_180002580
+ SYMBOL_XREF 180005194 FUN_180005080
+ SYMBOL_XREF 1800053b0 FUN_180005080
+ SYMBOL_XREF 180003b26 InterposerBackendCleanup
+ SYMBOL_XREF 180003ae5 InterposerBackendCleanup
+ SYMBOL_XREF 1800039a9 InterposerBackendCleanup
+ SYMBOL_XREF 180003853 InterposerBackendInit
+ SYMBOL_XREF 180003821 InterposerBackendInit
+ SYMBOL_XREF 1800037c0 InterposerBackendInit
+ SYMBOL_XREF 180003fb2 InterposerBackendMessage
+ SYMBOL_XREF 180003f80 InterposerBackendMessage
+ SYMBOL_XREF 180003f09 InterposerBackendMessage
+ SYMBOL_XREF 180004b35 FUN_1800048c0
+ SYMBOL_XREF 180004c73 FUN_180004bc0
+ SYMBOL_XREF 180004cd7 FUN_180004bc0
+ SYMBOL_XREF 180004acc FUN_1800048c0
+ SYMBOL_XREF 1800049ed FUN_1800048c0
+ SYMBOL_XREF 180005495 FUN_1800053f0
+ SYMBOL_XREF 1800054ce FUN_1800053f0
+ SYMBOL_XREF 180003ca4 InterposerBackendGetDevCapsSize
+ SYMBOL_XREF 180003c72 InterposerBackendGetDevCapsSize
+ SYMBOL_XREF 180003c18 InterposerBackendGetDevCapsSize
+ SYMBOL_XREF 1800028a0 FUN_1800025e0
+ SYMBOL_XREF 180003d9f InterposerBackendGetDevCaps
+ SYMBOL_XREF 180003d6d InterposerBackendGetDevCaps
+ SYMBOL_XREF 180002666 FUN_1800025e0
+ SYMBOL_XREF 180003d10 InterposerBackendGetDevCaps
+ SYMBOL_XREF 1800026df FUN_1800025e0
+ SYMBOL_XREF 180003e94 InterposerBackendGetAppId
+ SYMBOL_XREF 180003e62 InterposerBackendGetAppId
+ SYMBOL_XREF 180003e08 InterposerBackendGetAppId
+SYMBOL 1800110a0 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000e82c 
+ SYMBOL_XREF 18000e870 
+SYMBOL 1800110c8 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000e924 
+ SYMBOL_XREF 18000e978 
+SYMBOL 1800110f8 RTTI_Type_Descriptor
+SYMBOL 180011120 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000e7b4 
+ SYMBOL_XREF 18000e7f8 
+SYMBOL 180011140 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000e9bc 
+ SYMBOL_XREF 18000ed58 
+SYMBOL 180011178 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000ea6c 
+ SYMBOL_XREF 18000e9d8 
+SYMBOL 1800111a0 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000ebe4 
+ SYMBOL_XREF 18000ebb0 
+SYMBOL 1800111e8 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000edb4 
+ SYMBOL_XREF 18000ecb0 
+SYMBOL 180011208 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000ec30 
+SYMBOL 180011248 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000eb1c 
+ SYMBOL_XREF 18000eab0 
+SYMBOL 180011268 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000ead8 
+ SYMBOL_XREF 18000ed14 
+SYMBOL 1800112a8 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000ea88 
+ SYMBOL_XREF 18000ed8c 
+SYMBOL 1800112e8 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000eb6c 
+ SYMBOL_XREF 18000ec58 
+SYMBOL 180011308 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000ee34 
+ SYMBOL_XREF 18000ee78 
+SYMBOL 180011340 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000ef54 
+ SYMBOL_XREF 18000ef20 
+SYMBOL 180011368 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000ef7c 
+ SYMBOL_XREF 18000eff0 
+SYMBOL 1800113a0 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000efd4 
+ SYMBOL_XREF 18000eea0 
+SYMBOL 1800113d0 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000eee4 
+ SYMBOL_XREF 18000ee50 
+SYMBOL 180011408 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000f05c 
+ SYMBOL_XREF 18000f028 
+SYMBOL 180011438 RTTI_Type_Descriptor
+ SYMBOL_XREF 18000f0b4 
+ SYMBOL_XREF 18000f108 
+STRING 180011418 .?AVInterposerUSBDevice@@
+STRING 180011448 .?AVInterposerUSBDevice_Win@@
+DECOMPILE 1800037a0 InterposerBackendInit
+
+undefined4 InterposerBackendInit(longlong param_1,undefined8 param_2,undefined8 param_3)
+
+{
+  undefined4 uVar1;
+  undefined8 *puVar2;
+  longlong *plVar3;
+  
+                    /* 0x37a0  8  InterposerBackendInit */
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 1) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180003400(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),param_2,param_3,
+                  *(undefined4 *)(param_1 + 0x204),(wchar_t *)(param_1 + 0x214));
+  }
+  puVar2 = FUN_180003070();
+  plVar3 = FUN_1800045f0((longlong)puVar2,param_1);
+  if (plVar3 == (longlong *)0x0) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0xb,&DAT_18000df78);
+    }
+    uVar1 = 0xfffffffe;
+  }
+  else {
+    uVar1 = (**(code **)(*plVar3 + 8))(plVar3,param_1);
+  }
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 2) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0xc,&DAT_18000df78,uVar1);
+  }
+  return uVar1;
+}
+
+
+DECOMPILE 180003890 InterposerBackendEnableCallbacks
+
+undefined4 InterposerBackendEnableCallbacks(longlong param_1,ulonglong param_2)
+
+{
+  undefined4 uVar1;
+  undefined8 *puVar2;
+  longlong *plVar3;
+  
+                    /* 0x3890  3  InterposerBackendEnableCallbacks */
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 1) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180002270(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),param_2,&DAT_18000df78,(int)param_2);
+  }
+  puVar2 = FUN_180003070();
+  plVar3 = FUN_1800045f0((longlong)puVar2,param_1);
+  if (plVar3 == (longlong *)0x0) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0xe,&DAT_18000df78);
+    }
+    uVar1 = 0xfffffffe;
+  }
+  else {
+    uVar1 = (**(code **)(*plVar3 + 0x18))(plVar3,param_2 & 0xffffffff);
+  }
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 2) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0xf,&DAT_18000df78,uVar1);
+  }
+  return uVar1;
+}
+
+
+DECOMPILE 180003980 InterposerBackendCleanup
+
+undefined4 InterposerBackendCleanup(longlong param_1)
+
+{
+  undefined8 *puVar1;
+  undefined8 *puVar2;
+  longlong lVar3;
+  undefined8 *puVar4;
+  longlong *plVar5;
+  longlong *plVar6;
+  undefined4 uVar7;
+  
+                    /* 0x3980  1  InterposerBackendCleanup */
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 1) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x10,&DAT_18000df78);
+  }
+  puVar4 = FUN_180003070();
+  plVar5 = FUN_1800045f0((longlong)puVar4,param_1);
+  if (plVar5 == (longlong *)0x0) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x11,&DAT_18000df78);
+    }
+    uVar7 = 0xfffffffe;
+  }
+  else {
+    (**(code **)(*plVar5 + 0x20))(plVar5);
+    EnterCriticalSection(DAT_180011060);
+    uVar7 = 0;
+    plVar5 = (longlong *)puVar4[2];
+    for (plVar6 = plVar5; plVar6 != (longlong *)0x0; plVar6 = (longlong *)plVar6[1]) {
+      puVar1 = (undefined8 *)plVar6[2];
+      if (*(int *)((longlong)puVar1 + 0x20c) == *(int *)(param_1 + 0x204)) {
+        if (plVar6 == plVar5) {
+          puVar2 = (undefined8 *)plVar5[1];
+          puVar4[2] = puVar2;
+          if (puVar2 == (undefined8 *)0x0) {
+            puVar4[3] = 0;
+            plVar6 = plVar5;
+          }
+          else {
+            *puVar2 = 0;
+            plVar6 = plVar5;
+          }
+LAB_180003aa4:
+          free(plVar6);
+          *(int *)(puVar4 + 4) = *(int *)(puVar4 + 4) + -1;
+        }
+        else {
+          plVar5 = (longlong *)puVar4[3];
+          if (plVar6 != plVar5) {
+            *(longlong *)plVar6[1] = *plVar6;
+            *(longlong *)(*plVar6 + 8) = plVar6[1];
+            goto LAB_180003aa4;
+          }
+          if (plVar5 != (longlong *)0x0) {
+            lVar3 = *plVar5;
+            puVar4[3] = lVar3;
+            plVar6 = plVar5;
+            if (lVar3 == 0) {
+              puVar4[2] = 0;
+            }
+            else {
+              *(undefined8 *)(lVar3 + 8) = 0;
+            }
+            goto LAB_180003aa4;
+          }
+        }
+        (**(code **)*puVar1)(puVar1,1);
+        break;
+      }
+    }
+    LeaveCriticalSection(DAT_180011060);
+  }
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 2) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x12,&DAT_18000df78,uVar7);
+  }
+  return uVar7;
+}
+
+
+DECOMPILE 180003b60 InterposerBackendGetVersion
+
+undefined4 InterposerBackendGetVersion(undefined4 *param_1)
+
+{
+                    /* 0x3b60  7  InterposerBackendGetVersion */
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 1) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x13,&DAT_18000df78);
+  }
+  if (param_1 == (undefined4 *)0x0) {
+    return 0xfffffffc;
+  }
+  *param_1 = DAT_180011a88;
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 2) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180003310(*(undefined8 *)(PTR_LOOP_180011038 + 0x38));
+  }
+  return 0;
+}
+
+
+DECOMPILE 180003bf0 InterposerBackendGetDevCapsSize
+
+undefined4
+InterposerBackendGetDevCapsSize(undefined4 *param_1,undefined4 *param_2,undefined *param_3)
+
+{
+  undefined4 uVar1;
+  undefined8 *puVar2;
+  
+                    /* 0x3bf0  6  InterposerBackendGetDevCapsSize */
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 1) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    param_3 = &DAT_18000df78;
+    FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x15,&DAT_18000df78);
+  }
+  puVar2 = FUN_180003070();
+  puVar2 = FUN_1800045f0((longlong)puVar2,(longlong)param_1);
+  if (puVar2 == (undefined8 *)0x0) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      param_3 = &DAT_18000df78;
+      param_1 = (undefined4 *)0x16;
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x16,&DAT_18000df78);
+    }
+    uVar1 = 0xfffffffe;
+  }
+  else {
+    param_3 = (undefined *)*puVar2;
+    param_1 = param_2;
+    uVar1 = (**(code **)(param_3 + 0x28))(puVar2);
+  }
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 2) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180003390(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),param_1,param_3,*param_2);
+  }
+  return uVar1;
+}
+
+
+DECOMPILE 180003ce0 InterposerBackendGetDevCaps
+
+undefined4 InterposerBackendGetDevCaps(longlong param_1,undefined8 param_2,undefined4 param_3)
+
+{
+  undefined4 uVar1;
+  undefined8 *puVar2;
+  longlong *plVar3;
+  
+                    /* 0x3ce0  5  InterposerBackendGetDevCaps */
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 1) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x18,&DAT_18000df78);
+  }
+  puVar2 = FUN_180003070();
+  plVar3 = FUN_1800045f0((longlong)puVar2,param_1);
+  if (plVar3 == (longlong *)0x0) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x19,&DAT_18000df78);
+    }
+    uVar1 = 0xfffffffe;
+  }
+  else {
+    uVar1 = (**(code **)(*plVar3 + 0x30))(plVar3,param_2,param_3);
+  }
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 2) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x1a,&DAT_18000df78,uVar1);
+  }
+  return uVar1;
+}
+
+
+DECOMPILE 180003de0 InterposerBackendGetAppId
+
+undefined4 InterposerBackendGetAppId(longlong param_1,undefined8 param_2)
+
+{
+  undefined4 uVar1;
+  undefined8 *puVar2;
+  longlong *plVar3;
+  
+                    /* 0x3de0  4  InterposerBackendGetAppId */
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 1) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x1b,&DAT_18000df78);
+  }
+  puVar2 = FUN_180003070();
+  plVar3 = FUN_1800045f0((longlong)puVar2,param_1);
+  if (plVar3 == (longlong *)0x0) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x1c,&DAT_18000df78);
+    }
+    uVar1 = 0xfffffffe;
+  }
+  else {
+    uVar1 = (**(code **)(*plVar3 + 0x38))(plVar3,param_2);
+  }
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 2) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x1d,&DAT_18000df78,uVar1);
+  }
+  return uVar1;
+}
+
+
+DECOMPILE 180003ed0 InterposerBackendMessage
+
+undefined4
+InterposerBackendMessage
+          (longlong param_1,longlong param_2,undefined8 param_3,undefined4 param_4,
+          undefined8 param_5)
+
+{
+  undefined4 uVar1;
+  char *pcVar2;
+  undefined8 *puVar3;
+  longlong *plVar4;
+  undefined *puVar5;
+  
+                    /* 0x3ed0  9  InterposerBackendMessage */
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 1) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    puVar5 = PTR_LOOP_180011038;
+    pcVar2 = FUN_180005720(*(int *)(param_2 + 4));
+    FUN_1800034c0(*(undefined8 *)(puVar5 + 0x38),0x1e,&DAT_18000df78,pcVar2);
+  }
+  puVar3 = FUN_180003070();
+  plVar4 = FUN_1800045f0((longlong)puVar3,param_1);
+  if (plVar4 == (longlong *)0x0) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x1f,&DAT_18000df78);
+    }
+    uVar1 = 0xfffffffe;
+  }
+  else {
+    uVar1 = (**(code **)(*plVar4 + 0x40))(plVar4,param_2,param_3,param_4,param_5);
+  }
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 2) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x20,&DAT_18000df78,uVar1);
+  }
+  return uVar1;
+}
+
+
+DECOMPILE 180004000 InterposerBackendRegisterCallback
+
+undefined4
+InterposerBackendRegisterCallback
+          (longlong param_1,undefined8 param_2,undefined8 param_3,int param_4,undefined4 param_5)
+
+{
+  undefined4 uVar1;
+  char *pcVar2;
+  undefined8 *puVar3;
+  longlong *plVar4;
+  undefined *puVar5;
+  
+                    /* 0x4000  10  InterposerBackendRegisterCallback */
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 1) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    puVar5 = PTR_LOOP_180011038;
+    pcVar2 = FUN_180005720(param_4);
+    FUN_1800034c0(*(undefined8 *)(puVar5 + 0x38),0x21,&DAT_18000df78,pcVar2);
+  }
+  puVar3 = FUN_180003070();
+  plVar4 = FUN_1800045f0((longlong)puVar3,param_1);
+  if (plVar4 == (longlong *)0x0) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x22,&DAT_18000df78);
+    }
+    uVar1 = 0xfffffffe;
+  }
+  else {
+    uVar1 = (**(code **)(*plVar4 + 0x48))(plVar4,param_2,param_3,param_4,param_5);
+  }
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 2) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x23,&DAT_18000df78,uVar1);
+  }
+  return uVar1;
+}
+
+
+DECOMPILE 180004120 InterposerBackendSurpriseRemoval
+
+undefined4 InterposerBackendSurpriseRemoval(longlong param_1)
+
+{
+  undefined4 uVar1;
+  undefined8 *puVar2;
+  longlong *plVar3;
+  
+                    /* 0x4120  11  InterposerBackendSurpriseRemoval */
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 1) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x24,&DAT_18000df78);
+  }
+  puVar2 = FUN_180003070();
+  plVar3 = FUN_1800045f0((longlong)puVar2,param_1);
+  if (plVar3 == (longlong *)0x0) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x25,&DAT_18000df78);
+    }
+    uVar1 = 0xfffffffe;
+  }
+  else {
+    uVar1 = (**(code **)(*plVar3 + 0x50))(plVar3);
+  }
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 2) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x26,&DAT_18000df78,uVar1);
+  }
+  return uVar1;
+}
+
+
+DECOMPILE 180004200 InterposerBackendDeviceControl
+
+undefined4
+InterposerBackendDeviceControl
+          (longlong param_1,undefined4 param_2,undefined8 param_3,undefined4 param_4,
+          undefined8 param_5,undefined4 param_6,undefined4 *param_7)
+
+{
+  undefined4 uVar1;
+  undefined8 *puVar2;
+  longlong *plVar3;
+  
+                    /* 0x4200  2  InterposerBackendDeviceControl */
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 1) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x27,&DAT_18000df78);
+  }
+  *param_7 = 0;
+  puVar2 = FUN_180003070();
+  plVar3 = FUN_1800045f0((longlong)puVar2,param_1);
+  if (plVar3 == (longlong *)0x0) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x28,&DAT_18000df78);
+    }
+    uVar1 = 0xfffffffe;
+  }
+  else {
+    uVar1 = (**(code **)(*plVar3 + 0x68))(plVar3,param_2,param_3,param_4,param_5,param_6,param_7);
+  }
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 2) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+    FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x29,&DAT_18000df78,uVar1);
+  }
+  return uVar1;
+}
+
+
+DECOMPILE 180005010 FUN_180005010
+
+int FUN_180005010(longlong param_1,longlong param_2,undefined8 param_3,int param_4,int param_5)
+
+{
+  int iVar1;
+  char *pcVar2;
+  undefined *puVar3;
+  
+  iVar1 = FUN_180002d90(param_1,param_2,param_3,param_4,param_5);
+  if ((((iVar1 < 0) && ((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038)) &&
+      ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+    puVar3 = PTR_LOOP_180011038;
+    pcVar2 = FUN_180005720(param_4);
+    FUN_1800044c0(*(undefined8 *)(puVar3 + 0x38),param_2,puVar3,pcVar2);
+  }
+  return iVar1;
+}
+
+
+DECOMPILE 180005510 FUN_180005510
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined4
+FUN_180005510(longlong param_1,DWORD param_2,LPVOID param_3,DWORD param_4,LPVOID param_5,
+             DWORD param_6,DWORD *param_7)
+
+{
+  undefined4 uVar1;
+  BOOL BVar2;
+  DWORD dwMessageId;
+  ulonglong uVar3;
+  undefined1 auStackY_78 [32];
+  wchar_t *local_38;
+  DWORD local_30 [2];
+  ulonglong local_28;
+  
+  local_28 = DAT_180011010 ^ (ulonglong)auStackY_78;
+  uVar1 = 0;
+  if (param_7 == (DWORD *)0x0) {
+    uVar1 = 0xfffffffc;
+  }
+  else {
+    *param_7 = 0;
+    local_30[0] = 0;
+    if (*(HANDLE *)(param_1 + 0xb28) == (HANDLE)0xffffffffffffffff) {
+      if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+          ((PTR_LOOP_180011038[0x44] & 0x20) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+        FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x21,&DAT_18000e040);
+      }
+      uVar1 = 0xffffffff;
+    }
+    else {
+      BVar2 = DeviceIoControl(*(HANDLE *)(param_1 + 0xb28),param_2,param_3,param_4,param_5,param_6,
+                              local_30,(LPOVERLAPPED)0x0);
+      if (BVar2 == 0) {
+        uVar1 = 0xffffffff;
+        dwMessageId = GetLastError();
+        if (dwMessageId != 0) {
+          uVar3 = (ulonglong)dwMessageId;
+          FormatMessageW(0x1100,(LPCVOID)0x0,dwMessageId,0x400,(LPWSTR)&local_38,0,(va_list *)0x0);
+          if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+              ((PTR_LOOP_180011038[0x44] & 0x20) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+            FUN_180004450(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x20,uVar3,local_38);
+          }
+          LocalFree(local_38);
+        }
+      }
+      else {
+        *param_7 = local_30[0];
+      }
+    }
+  }
+  return uVar1;
+}
+
+
+DECOMPILE 180004d20 FUN_180004d20
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined8 FUN_180004d20(longlong param_1,undefined4 *param_2)
+
+{
+  BOOL BVar1;
+  undefined8 uVar2;
+  undefined2 uVar3;
+  undefined1 auStackY_58 [32];
+  DWORD local_18 [2];
+  ulonglong local_10;
+  
+  local_10 = DAT_180011010 ^ (ulonglong)auStackY_58;
+  if (*(HANDLE *)(param_1 + 0xb28) == (HANDLE)0xffffffffffffffff) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x11,&DAT_18000e040);
+    }
+LAB_180004e33:
+    uVar2 = 0;
+  }
+  else {
+    local_18[0] = 0;
+    BVar1 = DeviceIoControl(*(HANDLE *)(param_1 + 0xb28),0x8000200c,(LPVOID)0x0,0,param_2,4,local_18
+                            ,(LPOVERLAPPED)0x0);
+    if (BVar1 == 0) {
+      if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+          ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+        uVar3 = 0xf;
+LAB_180004dde:
+        FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),uVar3,&DAT_18000e040);
+      }
+    }
+    else {
+      if (local_18[0] == 4) {
+        *(undefined4 *)(param_1 + 0xa88) = *param_2;
+        goto LAB_180004e33;
+      }
+      if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+          ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+        uVar3 = 0x10;
+        goto LAB_180004dde;
+      }
+    }
+    uVar2 = 0xffffffff;
+  }
+  return uVar2;
+}
+
+
+DECOMPILE 180004e50 FUN_180004e50
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined8 FUN_180004e50(longlong param_1,undefined8 *param_2,uint param_3)
+
+{
+  BOOL BVar1;
+  undefined2 uVar2;
+  undefined1 auStackY_58 [32];
+  DWORD local_18 [2];
+  ulonglong local_10;
+  
+  local_10 = DAT_180011010 ^ (ulonglong)auStackY_58;
+  if ((param_2 == (undefined8 *)0x0) || (param_3 < 0x9c)) {
+    if (((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+       (((PTR_LOOP_180011038[0x44] & 4) != 0 && ((byte)PTR_LOOP_180011038[0x41] < 7)))) {
+      FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x15,&DAT_18000e040,0xfffffffc);
+    }
+  }
+  else {
+    *param_2 = 0;
+    param_2[1] = 0;
+    param_2[2] = 0;
+    param_2[3] = 0;
+    param_2[4] = 0;
+    param_2[5] = 0;
+    param_2[6] = 0;
+    param_2[7] = 0;
+    param_2[8] = 0;
+    param_2[9] = 0;
+    param_2[10] = 0;
+    param_2[0xb] = 0;
+    param_2[0xc] = 0;
+    param_2[0xd] = 0;
+    param_2[0xe] = 0;
+    param_2[0xf] = 0;
+    param_2[0x10] = 0;
+    param_2[0x11] = 0;
+    param_2[0x12] = 0;
+    *(undefined4 *)(param_2 + 0x13) = 0;
+    if (*(HANDLE *)(param_1 + 0xb28) == (HANDLE)0xffffffffffffffff) {
+      if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+          ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+        FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x14,&DAT_18000e040);
+      }
+      return 0;
+    }
+    local_18[0] = 0;
+    BVar1 = DeviceIoControl(*(HANDLE *)(param_1 + 0xb28),0x80002004,(LPVOID)0x0,0,param_2,param_3,
+                            local_18,(LPOVERLAPPED)0x0);
+    if (BVar1 == 0) {
+      if ((undefined **)PTR_LOOP_180011038 == &PTR_LOOP_180011038) {
+        return 0xffffffff;
+      }
+      if ((PTR_LOOP_180011038[0x44] & 4) == 0) {
+        return 0xffffffff;
+      }
+      if (6 < (byte)PTR_LOOP_180011038[0x41]) {
+        return 0xffffffff;
+      }
+      uVar2 = 0x12;
+    }
+    else {
+      if (local_18[0] == 0x9c) {
+        return 0;
+      }
+      if ((undefined **)PTR_LOOP_180011038 == &PTR_LOOP_180011038) {
+        return 0xffffffff;
+      }
+      if ((PTR_LOOP_180011038[0x44] & 4) == 0) {
+        return 0xffffffff;
+      }
+      if (6 < (byte)PTR_LOOP_180011038[0x41]) {
+        return 0xffffffff;
+      }
+      uVar2 = 0x13;
+    }
+    FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),uVar2,&DAT_18000e040);
+  }
+  return 0xffffffff;
+}
+
+
+DECOMPILE 180005660 FUN_180005660
+
+undefined4 FUN_180005660(longlong *param_1)
+
+{
+  undefined4 uVar1;
+  undefined4 *_Memory;
+  
+  if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+      ((PTR_LOOP_180011038[0x44] & 8) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 4)) {
+    FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x22,&DAT_18000e040);
+  }
+  _Memory = (undefined4 *)thunk_FUN_180005c34(0x3c);
+  _Memory[3] = 0x30;
+  _Memory[4] = 3;
+  _Memory[6] = 1;
+  _Memory[1] = 0x253;
+  *_Memory = 0x3c;
+  uVar1 = (**(code **)(*param_1 + 0x40))(param_1,_Memory,0,0,0);
+  free(_Memory);
+  return uVar1;
+}
+
+
+DECOMPILE 180005080 FUN_180005080
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined8 FUN_180005080(longlong *param_1)
+
+{
+  undefined4 *puVar1;
+  bool bVar2;
+  bool bVar3;
+  BOOL BVar4;
+  DWORD *pDVar5;
+  char *pcVar6;
+  DWORD *pDVar7;
+  undefined *puVar8;
+  undefined **ppuVar9;
+  int iVar10;
+  undefined1 auStackY_78 [32];
+  DWORD local_38 [2];
+  ulonglong local_30;
+  
+  local_30 = DAT_180011010 ^ (ulonglong)auStackY_78;
+  if (param_1[0x165] == -1) {
+    if (*(HANDLE *)param_1[0x150] != (HANDLE)0x0) {
+      SetEvent(*(HANDLE *)param_1[0x150]);
+    }
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 0x10) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x1b,&DAT_18000e040);
+    }
+  }
+  else {
+    pDVar5 = (DWORD *)FUN_180002b30((longlong)param_1);
+    if (pDVar5 == (DWORD *)0x0) {
+      if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+          ((PTR_LOOP_180011038[0x44] & 0x10) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+        FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x17,&DAT_18000e040);
+      }
+      return 0xfffffffe;
+    }
+    bVar3 = false;
+    bVar2 = true;
+    ppuVar9 = (undefined **)PTR_LOOP_180011038;
+    do {
+      iVar10 = 0;
+      if (param_1[0x165] == -1) {
+        if (((ppuVar9 != &PTR_LOOP_180011038) && ((*(byte *)((longlong)ppuVar9 + 0x44) & 0x10) != 0)
+            ) && (*(byte *)((longlong)ppuVar9 + 0x41) < 7)) {
+          FUN_1800032e0(ppuVar9[7],0x1f,&DAT_18000e040);
+          ppuVar9 = (undefined **)PTR_LOOP_180011038;
+        }
+LAB_1800052f8:
+        if (!bVar3) {
+          bVar3 = true;
+          if (*(HANDLE *)param_1[0x150] != (HANDLE)0x0) {
+            SetEvent(*(HANDLE *)param_1[0x150]);
+            ppuVar9 = (undefined **)PTR_LOOP_180011038;
+          }
+        }
+      }
+      else {
+        local_38[0] = 0;
+        BVar4 = DeviceIoControl((HANDLE)param_1[0x166],0x80002008,param_1 + 0x151,4,
+                                *(LPVOID *)(pDVar5 + 2),*pDVar5,local_38,(LPOVERLAPPED)0x0);
+        if (BVar4 == 0) {
+          if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+              ((PTR_LOOP_180011038[0x44] & 0x10) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+            FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x1e,&DAT_18000e040);
+          }
+          iVar10 = -1;
+        }
+        else {
+          pDVar5[1] = local_38[0];
+        }
+        ppuVar9 = (undefined **)PTR_LOOP_180011038;
+        if ((iVar10 < 0) || (pDVar5[1] == 0)) goto LAB_1800052f8;
+        if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+            ((PTR_LOOP_180011038[0x44] & 0x10) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 2)) {
+          puVar8 = PTR_LOOP_180011038;
+          pcVar6 = FUN_180005720(*(int *)(*(longlong *)(pDVar5 + 2) + 4));
+          FUN_1800034c0(*(undefined8 *)(puVar8 + 0x38),0x18,&DAT_18000e040,pcVar6);
+        }
+        pDVar7 = pDVar5 + 2;
+        iVar10 = *(int *)(*(longlong *)pDVar7 + 4);
+        if (iVar10 == 0) {
+LAB_1800052be:
+          (**(code **)(*param_1 + 0x70))(param_1);
+          ppuVar9 = (undefined **)PTR_LOOP_180011038;
+        }
+        else if (iVar10 == 1) {
+          param_1[0x167] = -1;
+          puVar1 = *(undefined4 **)pDVar7;
+          if ((*(byte *)(puVar1 + 2) & 1) != 0) {
+            *puVar1 = 0x30;
+            *(undefined8 *)(puVar1 + 1) = 3;
+            puVar1[3] = 1;
+            (**(code **)(*param_1 + 0x70))(param_1,*(undefined8 *)pDVar7);
+          }
+          bVar2 = false;
+          ppuVar9 = (undefined **)PTR_LOOP_180011038;
+        }
+        else {
+          if (iVar10 == 3) goto LAB_1800052be;
+          if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+              ((PTR_LOOP_180011038[0x44] & 0x10) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 4)) {
+            FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0x19,&DAT_18000e040,iVar10);
+          }
+          (**(code **)(*param_1 + 0x70))(param_1,*(undefined8 *)pDVar7);
+          ppuVar9 = (undefined **)PTR_LOOP_180011038;
+        }
+      }
+      if (param_1[0x165] == -1) {
+        if (((ppuVar9 != &PTR_LOOP_180011038) && ((*(byte *)((longlong)ppuVar9 + 0x44) & 0x10) != 0)
+            ) && (*(byte *)((longlong)ppuVar9 + 0x41) < 7)) {
+          FUN_1800032e0(ppuVar9[7],0x1a,&DAT_18000e040);
+        }
+        break;
+      }
+    } while (bVar2);
+    FUN_180002c10((longlong)param_1,(longlong)pDVar5);
+  }
+  return 0xffffff9a;
+}
+
+
+DECOMPILE 180002580 FUN_180002580
+
+ulonglong FUN_180002580(longlong *param_1,undefined4 param_2)
+
+{
+  ulonglong uVar1;
+  ulonglong uVar2;
+  ulonglong uVar3;
+  
+  *(undefined4 *)(param_1 + 0x151) = param_2;
+  uVar1 = (**(code **)(*param_1 + 0x10))();
+  uVar3 = uVar1 & 0xffffffff;
+  uVar2 = uVar1;
+  if (((((int)uVar1 < 0) && (uVar2 = uVar3, (undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038)
+       ) && ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+    FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),10,&DAT_18000ded0,(int)uVar1);
+  }
+  return uVar2;
+}
+
+
+DECOMPILE 1800048c0 FUN_1800048c0
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+ulonglong FUN_1800048c0(longlong param_1,void *param_2)
+
+{
+  int iVar1;
+  DWORD DVar2;
+  ulonglong uVar3;
+  HANDLE pvVar4;
+  ulonglong uVar5;
+  undefined1 auStackY_278 [32];
+  wchar_t *local_238 [2];
+  wchar_t local_228 [256];
+  ulonglong local_28;
+  
+  local_28 = DAT_180011010 ^ (ulonglong)auStackY_278;
+  uVar3 = FUN_180002480(param_1);
+  uVar5 = uVar3 & 0xffffffff;
+  if (-1 < (int)uVar3) {
+    iVar1 = *(int *)((longlong)param_2 + 0x20c);
+    if ((((iVar1 - 0x5059U < 0x18) && ((0xffbf01U >> (iVar1 - 0x5059U & 0x1f) & 1) != 0)) ||
+        (iVar1 == 0x5167)) ||
+       ((iVar1 - 0x7181U < 4 ||
+        ((iVar1 - 0x4241U < 0x13 && ((0x407ebU >> (iVar1 - 0x4241U & 0x1f) & 1) != 0)))))) {
+      memcpy((void *)(param_1 + 8),param_2,0xa18);
+    }
+    else {
+      uVar5 = 0xffffff99;
+    }
+  }
+  if ((int)uVar5 < 0) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0xc,&DAT_18000e040,(int)uVar5);
+    }
+  }
+  else {
+    pvVar4 = CreateFileW((LPCWSTR)(param_1 + 8),0xc0000000,3,(LPSECURITY_ATTRIBUTES)0x0,3,0x80,
+                         (HANDLE)0x0);
+    *(HANDLE *)(param_1 + 0xb28) = pvVar4;
+    if (pvVar4 == (HANDLE)0xffffffffffffffff) {
+      DVar2 = GetLastError();
+      if (DVar2 != 0) {
+        uVar3 = (ulonglong)DVar2;
+        FormatMessageW(0x1100,(LPCVOID)0x0,DVar2,0x400,(LPWSTR)local_238,0,(va_list *)0x0);
+        if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+            ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+          FUN_180004450(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),10,uVar3,local_238[0]);
+        }
+        LocalFree(local_238[0]);
+      }
+      uVar5 = 0xffffffff;
+    }
+    else {
+      *(HANDLE *)(param_1 + 0xb38) = pvVar4;
+    }
+    wcscpy_s(local_228,0x100,(wchar_t *)(param_1 + 8));
+    wcscat_s(local_228,0x100,L"\\InterposerCallbackDevice");
+    pvVar4 = CreateFileW(local_228,0xc0000000,3,(LPSECURITY_ATTRIBUTES)0x0,3,0x80,(HANDLE)0x0);
+    *(HANDLE *)(param_1 + 0xb30) = pvVar4;
+    if (pvVar4 == (HANDLE)0xffffffffffffffff) {
+      DVar2 = GetLastError();
+      if (DVar2 != 0) {
+        uVar3 = (ulonglong)DVar2;
+        FormatMessageW(0x1100,(LPCVOID)0x0,DVar2,0x400,(LPWSTR)local_238,0,(va_list *)0x0);
+        if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+            ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+          FUN_180004450(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0xb,uVar3,local_238[0]);
+        }
+        LocalFree(local_238[0]);
+      }
+      uVar5 = 0xffffffff;
+    }
+  }
+  return uVar5;
+}
+
+
+DECOMPILE 180004bc0 FUN_180004bc0
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+int FUN_180004bc0(longlong param_1,DWORD *param_2,LPVOID param_3,DWORD param_4,DWORD *param_5)
+
+{
+  BOOL BVar1;
+  DWORD dwMessageId;
+  int iVar2;
+  char *pcVar3;
+  undefined8 uVar4;
+  undefined *puVar5;
+  undefined1 auStackY_78 [32];
+  wchar_t *local_38;
+  DWORD local_30 [2];
+  ulonglong local_28;
+  
+  local_28 = DAT_180011010 ^ (ulonglong)auStackY_78;
+  if (*(HANDLE *)(param_1 + 0xb28) == (HANDLE)0xffffffffffffffff) {
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+      FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0xe,&DAT_18000e040);
+    }
+    iVar2 = -1;
+  }
+  else {
+    iVar2 = 0;
+    local_30[0] = 0;
+    BVar1 = DeviceIoControl(*(HANDLE *)(param_1 + 0xb28),0x80002000,param_2,*param_2,param_3,param_4
+                            ,local_30,(LPOVERLAPPED)0x0);
+    if (BVar1 == 0) {
+      dwMessageId = GetLastError();
+      if (dwMessageId != 0) {
+        uVar4 = 0;
+        FormatMessageW(0x1100,(LPCVOID)0x0,dwMessageId,0x400,(LPWSTR)&local_38,0,(va_list *)0x0);
+        if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+            ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+          puVar5 = PTR_LOOP_180011038;
+          pcVar3 = FUN_180005720(param_2[1]);
+          FUN_180004540(*(undefined8 *)(puVar5 + 0x38),uVar4,puVar5,pcVar3,local_38);
+        }
+        LocalFree(local_38);
+      }
+      iVar2 = (dwMessageId != 8) - 2;
+    }
+    else if (param_5 != (DWORD *)0x0) {
+      *param_5 = local_30[0];
+    }
+  }
+  return iVar2;
+}
+
+
+DECOMPILE 1800053f0 FUN_1800053f0
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+undefined8 FUN_1800053f0(longlong param_1)
+
+{
+  BOOL BVar1;
+  undefined2 uVar2;
+  undefined1 auStackY_78 [32];
+  DWORD local_38 [2];
+  undefined4 local_30;
+  undefined4 local_2c;
+  undefined4 local_28;
+  undefined4 local_24;
+  undefined8 local_20;
+  ulonglong local_18;
+  
+  local_18 = DAT_180011010 ^ (ulonglong)auStackY_78;
+  if ((*(HANDLE *)(param_1 + 0xb28) == (HANDLE)0xffffffffffffffff) ||
+     (*(longlong *)(param_1 + 0xb38) == -1)) {
+    if ((undefined **)PTR_LOOP_180011038 == &PTR_LOOP_180011038) {
+      return 0xffffffff;
+    }
+    if ((PTR_LOOP_180011038[0x44] & 0x10) == 0) {
+      return 0xffffffff;
+    }
+    if (6 < (byte)PTR_LOOP_180011038[0x41]) {
+      return 0xffffffff;
+    }
+    uVar2 = 0x1d;
+  }
+  else {
+    local_28 = 0;
+    local_20 = 1;
+    local_24 = 0xc;
+    local_2c = 0x253;
+    local_30 = 0x18;
+    local_38[0] = 0;
+    BVar1 = DeviceIoControl(*(HANDLE *)(param_1 + 0xb28),0x80002000,&local_30,0x18,(LPVOID)0x0,0,
+                            local_38,(LPOVERLAPPED)0x0);
+    if (BVar1 != 0) {
+      return 0;
+    }
+    if ((undefined **)PTR_LOOP_180011038 == &PTR_LOOP_180011038) {
+      return 0xffffffff;
+    }
+    if ((PTR_LOOP_180011038[0x44] & 0x10) == 0) {
+      return 0xffffffff;
+    }
+    if (6 < (byte)PTR_LOOP_180011038[0x41]) {
+      return 0xffffffff;
+    }
+    uVar2 = 0x1c;
+  }
+  FUN_1800032e0(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),uVar2,&DAT_18000e040);
+  return 0xffffffff;
+}
+
+
+DECOMPILE 1800025e0 FUN_1800025e0
+
+/* WARNING: Function: __security_check_cookie replaced with injection: security_check_cookie */
+
+int FUN_1800025e0(longlong *param_1)
+
+{
+  longlong *plVar1;
+  int iVar2;
+  undefined8 *puVar3;
+  uintptr_t *_ArgList;
+  uintptr_t uVar4;
+  HANDLE pvVar5;
+  undefined8 *puVar6;
+  uint *puVar7;
+  undefined1 auStackY_78 [32];
+  uint local_40 [2];
+  ulonglong local_38;
+  
+  local_38 = DAT_180011010 ^ (ulonglong)auStackY_78;
+  local_40[0] = 0;
+  iVar2 = (**(code **)(*param_1 + 0x28))(param_1,local_40);
+  if ((iVar2 < 0) || (0x9c < local_40[0])) {
+    if (((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+       (((PTR_LOOP_180011038[0x44] & 4) != 0 && ((byte)PTR_LOOP_180011038[0x41] < 7)))) {
+      FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0xc,&DAT_18000ded0,iVar2);
+    }
+  }
+  else {
+    iVar2 = (**(code **)(*param_1 + 0x30))(param_1,(undefined8 *)((longlong)param_1 + 0xa8c),0x9c);
+    if (iVar2 < 0) {
+      if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+          ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 7)) {
+        FUN_180002210(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),0xb,&DAT_18000ded0,iVar2);
+      }
+      *(undefined8 *)((longlong)param_1 + 0xa8c) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xa94) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xa9c) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xaa4) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xaac) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xab4) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xabc) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xac4) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xacc) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xad4) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xadc) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xae4) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xaec) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xaf4) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xafc) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xb04) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xb0c) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xb14) = 0;
+      *(undefined8 *)((longlong)param_1 + 0xb1c) = 0;
+      *(undefined4 *)((longlong)param_1 + 0xb24) = 0;
+    }
+  }
+  if (*(HANDLE *)param_1[0x150] != (HANDLE)0x0) {
+    ResetEvent(*(HANDLE *)param_1[0x150]);
+  }
+  plVar1 = param_1 + 0x14e;
+  puVar3 = FUN_1800010d0();
+  _ArgList = (uintptr_t *)FUN_180005c34(0x40);
+  _ArgList[5] = (uintptr_t)L6Event::vftable;
+  uVar4 = FUN_180005c34(8);
+  _ArgList[6] = uVar4;
+  pvVar5 = CreateEventW((LPSECURITY_ATTRIBUTES)0x0,1,0,(LPCWSTR)0x0);
+  *(HANDLE *)_ArgList[6] = pvVar5;
+  *_ArgList = 0;
+  *(uint *)(_ArgList + 1) = 0;
+  _ArgList[2] = 0;
+  _ArgList[3] = (uintptr_t)FUN_1800022d0;
+  _ArgList[4] = (uintptr_t)param_1;
+  *(undefined4 *)(_ArgList + 7) = 0;
+  *(undefined2 *)((longlong)_ArgList + 0x3c) = 1;
+  *(undefined1 *)((longlong)_ArgList + 0x3e) = 0;
+  if ((HANDLE)**(undefined8 **)(puVar3[1] + 8) != (HANDLE)0x0) {
+    WaitForSingleObject((HANDLE)**(undefined8 **)(puVar3[1] + 8),0xffffffff);
+  }
+  uVar4 = _beginthreadex((void *)0x0,0,FUN_180001080,_ArgList,0,(uint *)(_ArgList + 1));
+  *_ArgList = uVar4;
+  if (uVar4 == 0) {
+    _ArgList[5] = (uintptr_t)L6Event::vftable;
+    if (*(HANDLE *)_ArgList[6] != (HANDLE)0x0) {
+      CloseHandle(*(HANDLE *)_ArgList[6]);
+    }
+    free((void *)_ArgList[6]);
+    _ArgList[6] = 0;
+    puVar7 = (uint *)0x40;
+    free(_ArgList);
+  }
+  else {
+    *(int *)((longlong)_ArgList + 0xc) = DAT_180011040;
+    DAT_180011040 = DAT_180011040 + 1;
+    puVar7 = (uint *)((longlong)_ArgList + 0xc);
+    puVar6 = (undefined8 *)FUN_180001630((longlong *)(puVar3[1] + 0x10),puVar7);
+    *puVar6 = _ArgList;
+    if (plVar1 != (longlong *)0x0) {
+      *(undefined4 *)plVar1 = *(undefined4 *)((longlong)_ArgList + 0xc);
+    }
+  }
+  if ((HANDLE)**(undefined8 **)(puVar3[1] + 8) != (HANDLE)0x0) {
+    ReleaseMutex((HANDLE)**(undefined8 **)(puVar3[1] + 8));
+  }
+  if (*_ArgList == 0) {
+    iVar2 = -1;
+  }
+  else {
+    if (*(HANDLE *)param_1[0x150] != (HANDLE)0x0) {
+      puVar7 = (uint *)0xffffffff;
+      WaitForSingleObject(*(HANDLE *)param_1[0x150],0xffffffff);
+    }
+    if (*(HANDLE *)param_1[0x150] != (HANDLE)0x0) {
+      ResetEvent(*(HANDLE *)param_1[0x150]);
+    }
+    if ((((undefined **)PTR_LOOP_180011038 != &PTR_LOOP_180011038) &&
+        ((PTR_LOOP_180011038[0x44] & 4) != 0)) && ((byte)PTR_LOOP_180011038[0x41] < 4)) {
+      FUN_180002270(*(undefined8 *)(PTR_LOOP_180011038 + 0x38),puVar7,&DAT_18000ded0,(int)*plVar1);
+    }
+  }
+  return iVar2;
+}
+
+

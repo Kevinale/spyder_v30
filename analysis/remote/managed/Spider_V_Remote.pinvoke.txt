@@ -1,0 +1,5 @@
+user32.dll SetForegroundWindow SetForegroundWindow
+user32.dll GetSystemMenu GetSystemMenu
+user32.dll TrackPopupMenuEx TrackPopupMenuEx
+user32.dll PostMessage PostMessage
+user32.dll EnableMenuItem EnableMenuItem

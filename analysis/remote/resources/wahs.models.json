@@ -1,0 +1,234 @@
+[
+  {
+    "symbolicID": "Line6Vetta",
+    "id": 33947650,
+    "category": 11,
+    "name": "Line 6",
+    "shortname": "Line 6",
+    "icon": "wah-vetta",
+    "params": [
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Position",
+        "persist": 1,
+        "tweak": 101,
+        "symbolicID": "Pedal",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Fassel",
+    "id": 33947651,
+    "category": 11,
+    "name": "Fassel",
+    "shortname": "Fassel",
+    "icon": "wah-fassel",
+    "params": [
+      {
+        "default": 0.13,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Position",
+        "persist": 1,
+        "tweak": 101,
+        "symbolicID": "Pedal",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Weeper",
+    "id": 33947652,
+    "category": 11,
+    "name": "Weeper",
+    "shortname": "Weeper",
+    "icon": "wah-weeper",
+    "params": [
+      {
+        "default": 0.88,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Position",
+        "persist": 1,
+        "tweak": 101,
+        "symbolicID": "Pedal",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Chrome",
+    "id": 33947653,
+    "category": 11,
+    "name": "Chrome",
+    "shortname": "Chrome",
+    "icon": "wah-chrome",
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Position",
+        "persist": 1,
+        "tweak": 101,
+        "symbolicID": "Pedal",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "ChromeCustom",
+    "id": 33947654,
+    "category": 11,
+    "name": "Chrome Custom",
+    "shortname": "Chrome Custom",
+    "icon": "wah-chromecustom",
+    "params": [
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Position",
+        "persist": 1,
+        "tweak": 101,
+        "symbolicID": "Pedal",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Throaty",
+    "id": 33947655,
+    "category": 11,
+    "name": "Throaty",
+    "shortname": "Throaty",
+    "icon": "wah-bones",
+    "params": [
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Position",
+        "persist": 1,
+        "tweak": 101,
+        "symbolicID": "Pedal",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Conductor",
+    "id": 33947656,
+    "category": 11,
+    "name": "Conductor",
+    "shortname": "Conductor",
+    "icon": "wah-conductor",
+    "params": [
+      {
+        "default": 0.88,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Position",
+        "persist": 1,
+        "tweak": 101,
+        "symbolicID": "Pedal",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Colorful",
+    "id": 33947657,
+    "category": 11,
+    "name": "Colorful",
+    "shortname": "Colorful",
+    "icon": "wah-colorful",
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Position",
+        "persist": 1,
+        "tweak": 101,
+        "symbolicID": "Pedal",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  }
+]

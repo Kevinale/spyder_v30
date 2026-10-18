@@ -1,0 +1,342 @@
+XREF 1005c680 10173b5c
+XREF 1005ccc0 10173b08
+XREF 1005c300 10049ccd
+XREF 1005c300 10173b6c
+XREF 1005c300 10173bac
+XREF 1005c5b0 10173b4c
+XREF 10173b4c 10049c99
+FUNCTION 1005c680 FUN_1005c680
+
+/* WARNING: Type propagation algorithm not settling */
+
+void __fastcall FUN_1005c680(int *param_1)
+
+{
+  int iVar1;
+  undefined4 *puVar2;
+  undefined4 uVar3;
+  void *pExceptionObject;
+  uint uVar4;
+  uint uStack_138;
+  undefined1 local_124 [24];
+  char local_10c [16];
+  undefined4 local_fc;
+  undefined4 local_f8;
+  undefined4 local_f4;
+  undefined4 local_f0;
+  undefined4 local_ec;
+  undefined4 local_e8;
+  undefined4 local_e4;
+  undefined4 local_e0;
+  undefined4 local_dc;
+  void *local_d8;
+  void *local_d4;
+  int *local_d0;
+  undefined4 *local_cc;
+  int local_c8;
+  int local_c4 [10];
+  uint local_9c [2];
+  int local_94;
+  undefined8 local_68;
+  undefined **local_60;
+  undefined4 uStack_5c;
+  int iStack_58;
+  undefined4 uStack_54;
+  undefined4 local_50;
+  undefined4 uStack_4c;
+  int iStack_48;
+  undefined4 uStack_44;
+  undefined8 local_40;
+  undefined **local_38;
+  undefined **ppuStack_34;
+  undefined4 uStack_30;
+  undefined4 uStack_2c;
+  int local_28 [3];
+  undefined ***local_1c;
+  uint local_18;
+  undefined1 *local_14;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_100c5570;
+  local_10 = ExceptionList;
+  uStack_138 = DAT_1018a29c ^ (uint)&stack0xfffffffc;
+  local_14 = (undefined1 *)&uStack_138;
+  ExceptionList = &local_10;
+  local_68 = 0;
+  local_d0 = param_1;
+  local_18 = uStack_138;
+  (**(code **)(*param_1 + 0x14))(0);
+  if ((int *)param_1[1] != (int *)0x0) {
+    (**(code **)(*(int *)param_1[1] + 4))(1,0);
+  }
+  if ((param_1[0xc] == 0) && ((int *)param_1[1] != (int *)0x0)) {
+    (**(code **)(*(int *)param_1[1] + 4))(5,0);
+    ExceptionList = local_10;
+    uStack_138 = 0x1005cb13;
+    __security_check_cookie(local_18 ^ (uint)&stack0xfffffffc);
+    return;
+  }
+  local_40 = 0;
+  local_50 = 0;
+  uStack_4c = 0;
+  iStack_48 = 0;
+  uStack_44 = 0;
+  FUN_1005cd10(&local_50);
+  local_8 = 1;
+  local_c4[0] = 0;
+  local_28[0] = 0;
+  local_cc = (undefined4 *)0x0;
+  FUN_1005bf70(param_1[5],param_1[6],local_9c);
+  if (local_94 != param_1[2]) {
+    local_dc = 0xffffffff;
+                    /* WARNING: Subroutine does not return */
+    _CxxThrowException(&local_dc,(ThrowInfo *)&DAT_10186fbc);
+  }
+  iVar1 = FUN_1005c080(param_1[5],param_1[6],&local_50);
+  if (iVar1 < 0) {
+    local_e0 = 0xffffffff;
+                    /* WARNING: Subroutine does not return */
+    _CxxThrowException(&local_e0,(ThrowInfo *)&DAT_10186fbc);
+  }
+  local_d8 = local_40._4_4_;
+  local_1c = (undefined ***)((int)local_40._4_4_ - (int)(void *)local_40);
+  local_d4 = (void *)local_40;
+  if (local_1c != (undefined ***)0x1) {
+    local_e4 = 0xffffffff;
+                    /* WARNING: Subroutine does not return */
+    _CxxThrowException(&local_e4,(ThrowInfo *)&DAT_10186fbc);
+  }
+  local_c8 = iStack_48;
+  local_1c = (undefined ***)0x1;
+  for (uVar4 = 0; uVar4 < local_1c; uVar4 = uVar4 + 1) {
+    if (local_c8 == 0) {
+      local_e8 = 1;
+                    /* WARNING: Subroutine does not return */
+      _CxxThrowException(&local_e8,(ThrowInfo *)&DAT_10186f18);
+    }
+    if (local_d8 <= (void *)((int)local_d4 + uVar4)) {
+      local_ec = 2;
+                    /* WARNING: Subroutine does not return */
+      _CxxThrowException(&local_ec,(ThrowInfo *)&DAT_10186f18);
+    }
+    FUN_10023170(local_d4,"chunk[%d] : type %d, version 0x%x, offset %d, length %d\n");
+  }
+  iVar1 = (**(code **)(*param_1 + 0x24))(param_1[5],param_1[6],local_9c,local_c4,local_28);
+  if (iVar1 < 0) {
+    local_f0 = 0xffffffff;
+                    /* WARNING: Subroutine does not return */
+    _CxxThrowException(&local_f0,(ThrowInfo *)&DAT_10186fbc);
+  }
+  if ((local_c4[0] == 0) || (local_28[0] == 0)) {
+    local_fc = 0xffffffff;
+                    /* WARNING: Subroutine does not return */
+    _CxxThrowException(&local_fc,(ThrowInfo *)&DAT_10186fbc);
+  }
+  puVar2 = (undefined4 *)FUN_100bee66(0x20);
+  puVar2[1] = 0;
+  puVar2[2] = 0;
+  puVar2[4] = 0;
+  puVar2[5] = 0;
+  puVar2[6] = 0;
+  puVar2[7] = 0;
+  *puVar2 = L6ControlRequestIoStream::vftable;
+  puVar2[3] = 0;
+  local_cc = puVar2;
+  uVar3 = (**(code **)(*(int *)param_1[0xc] + 0x20))();
+  puVar2[3] = uVar3;
+  puVar2[2] = puVar2;
+  puVar2[7] = FUN_10049140;
+  puVar2[4] = FUN_1005b680;
+  puVar2[6] = FUN_10049170;
+  puVar2[5] = FUN_1005b6a0;
+  puVar2[1] = puVar2 + 4;
+  local_60 = (undefined **)0x0;
+  uStack_5c = 0;
+  iStack_58 = 0;
+  uStack_54 = 0;
+  if (local_c8 == 0) {
+    local_f4 = 1;
+                    /* WARNING: Subroutine does not return */
+    _CxxThrowException(&local_f4,(ThrowInfo *)&DAT_10186f18);
+  }
+  if (local_d4 < local_d8) {
+    local_10c[4] = '\0';
+    local_10c[5] = '\0';
+    local_10c[6] = '\0';
+    local_10c[7] = '\0';
+    local_10c[8] = '\0';
+    local_10c[9] = '\0';
+    local_10c[10] = '\0';
+    local_10c[0xb] = '\0';
+    uStack_54 = *(undefined4 *)(local_c8 + 0xc + (int)local_d4 * 0x10);
+    iStack_58 = *(int *)(local_c8 + 8 + (int)local_d4 * 0x10) + local_c4[0];
+    local_60 = PlatformMemoryInStream::vftable;
+    local_10c[0] = '\x01';
+    local_10c[1] = '\0';
+    local_10c[2] = '\0';
+    local_10c[3] = '\0';
+    local_10c[0xc] = '\0';
+    local_10c[0xd] = '\x02';
+    local_10c[0xe] = '\0';
+    local_10c[0xf] = '\0';
+    local_38 = L6UUE::ImageArchive::vftable;
+    ppuStack_34 = L6UUE::ImageArchive::vftable;
+    uStack_30 = 0;
+    uStack_2c = 0;
+    uStack_30 = FUN_1005dad0(0,0);
+    local_8 = CONCAT31(local_8._1_3_,2);
+    local_1c = &local_60;
+    local_28[1] = 0;
+    local_28[2] = 0;
+    (*(code *)local_38[1])(local_28 + 1);
+    local_28[2] = 0;
+    local_1c = (undefined ***)0x0;
+    FUN_1005e5d0((uint *)(local_28 + 2),(int)&local_38,(int)(puVar2 + 1),local_10c,param_1 + 0xb);
+    if (-1 < local_28[2]) {
+      local_c8 = 0;
+      FUN_1005d730(&local_38);
+      FUN_1005c9e1();
+      return;
+    }
+    FUN_1005cc40(local_124,local_28 + 2);
+                    /* WARNING: Subroutine does not return */
+    _CxxThrowException(pExceptionObject,(ThrowInfo *)&DAT_10186f44);
+  }
+  local_f8 = 2;
+                    /* WARNING: Subroutine does not return */
+  _CxxThrowException(&local_f8,(ThrowInfo *)&DAT_10186f18);
+}
+
+
+FUNCTION 1005ccc0 FUN_1005ccc0
+
+void __thiscall FUN_1005ccc0(void *this,undefined4 param_1,undefined4 param_2)
+
+{
+  *(undefined4 *)((int)this + 8) = param_2;
+  *(undefined4 *)((int)this + 0xc) = param_1;
+  return;
+}
+
+
+FUNCTION 1005c300 FUN_1005c300
+
+void __thiscall FUN_1005c300(void *this,undefined4 param_1)
+
+{
+  *(undefined4 *)((int)this + 4) = param_1;
+  return;
+}
+
+
+FUNCTION 10049b80 FUN_10049b80
+
+int __thiscall FUN_10049b80(void *this,int param_1)
+
+{
+  int iVar1;
+  int iVar2;
+  undefined4 *this_00;
+  int iVar3;
+  int *_Dst;
+  int iVar4;
+  void *local_10;
+  undefined1 *puStack_c;
+  undefined4 local_8;
+  
+  local_8 = 0xffffffff;
+  puStack_c = &LAB_100c408e;
+  local_10 = ExceptionList;
+  ExceptionList = &local_10;
+  if (*(undefined4 **)((int)this + 0xa4) != (undefined4 *)0x0) {
+    (**(code **)**(undefined4 **)((int)this + 0xa4))(1,DAT_1018a29c ^ (uint)&stack0xfffffffc);
+    *(undefined4 *)((int)this + 0xa4) = 0;
+  }
+  this_00 = (undefined4 *)FUN_100bee66(0x1c);
+  local_8 = 0;
+  *this_00 = 0;
+  this_00[1] = 0;
+  this_00[2] = 0;
+  this_00[3] = 0;
+  *(undefined8 *)(this_00 + 4) = 0;
+  this_00[6] = 0;
+  *this_00 = L6Buffer::vftable;
+  *(undefined1 *)(this_00 + 1) = 0;
+  this_00[2] = 0;
+  this_00[3] = 1;
+  this_00[4] = 0;
+  this_00[5] = 0;
+  this_00[6] = 0;
+  FUN_1001d880(this_00,param_1);
+  local_8 = 0xffffffff;
+  *(undefined4 **)((int)this + 0xa4) = this_00;
+  iVar3 = (**(code **)(*(int *)this + 0x7c))();
+  if (-1 < iVar3) {
+    (**(code **)(*(int *)this + 0x8c))();
+    *(undefined1 *)((int)this + 0x32) = 1;
+    iVar3 = (**(code **)(*(int *)this + 0x38))(1);
+    if (iVar3 != 0) {
+      _Dst = (int *)FUN_100bee66(0x3c);
+      local_8 = 1;
+      memset(_Dst,0,0x3c);
+      FUN_1005cdc0(_Dst,*(undefined4 *)((int)this + 0x10));
+      _Dst[0xb] = (int)IProgress::vftable;
+      *_Dst = (int)L6AmplifiUsbControlPortUpdateEngine::vftable;
+      _Dst[0xb] = (int)L6AmplifiUsbControlPortUpdateEngine::vftable;
+      _Dst[0xc] = 0;
+      _Dst[0xd] = 0;
+      _Dst[0xe] = 1;
+      local_8 = 0xffffffff;
+      *(int **)((int)this + 0xa8) = _Dst;
+      (**(code **)(*_Dst + 0x20))((int)this + 0x90);
+      iVar1 = *(int *)((int)this + 0xa4);
+      *(undefined4 *)((int)this + 0xac) = 0;
+      iVar2 = *(int *)(iVar1 + 0x18);
+      if (iVar2 == 0) {
+        iVar4 = 0;
+      }
+      else {
+        iVar4 = *(int *)(iVar1 + 0x10);
+        if (iVar4 == 0) {
+          FUN_10030a20(iVar1);
+          iVar4 = *(int *)(iVar1 + 0x10);
+        }
+      }
+      (**(code **)(**(int **)((int)this + 0xa8) + 0x2c))(iVar3,iVar4,iVar2);
+      ExceptionList = local_10;
+      return 1;
+    }
+    iVar3 = -1;
+  }
+  ExceptionList = local_10;
+  return iVar3;
+}
+
+
+FUNCTION 1005c5b0 FUN_1005c5b0
+
+undefined4 * __thiscall FUN_1005c5b0(void *this,byte param_1)
+
+{
+  undefined4 *puVar1;
+  
+  *(undefined ***)((int)this + 0x2c) = L6AmplifiUsbControlPortUpdateEngine::vftable;
+  *(undefined ***)this = L6GenericUpdateEngine::vftable;
+  puVar1 = *(undefined4 **)((int)this + 0x28);
+  *(undefined ***)((int)this + 0x24) = L6Event::vftable;
+  if ((HANDLE)*puVar1 != (HANDLE)0x0) {
+    CloseHandle((HANDLE)*puVar1);
+    puVar1 = *(undefined4 **)((int)this + 0x28);
+  }
+  FUN_100bee96(puVar1);
+  *(undefined4 *)((int)this + 0x28) = 0;
+  if ((param_1 & 1) != 0) {
+    FUN_100bee96(this);
+  }
+  return this;
+}
+
+

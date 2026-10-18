@@ -1,0 +1,97 @@
+{
+  "source": "/workspace/attachments/ef63fc06-4cf7-49ac-8747-fdb26ccbee3d/Deity Crunch.svl6p",
+  "bytes": 1670,
+  "sha256": "fdbbfdc376bdfda3fd6e507a284e61b1455a5bb0a3cf892e4bc9dc7fe5e7baa0",
+  "format": "UTF-8 JSON",
+  "schema": "L6Preset",
+  "schema_version": 5,
+  "device_id": "0x220004",
+  "device_version_raw": "0x1040000",
+  "blocks": [
+    {
+      "group": "fx3",
+      "model": "L6SineChorus",
+      "enabled_field": false,
+      "existing_remote_catalog_match": null
+    },
+    {
+      "group": "gate",
+      "model": "Gate",
+      "enabled_field": false,
+      "existing_remote_catalog_match": null
+    },
+    {
+      "group": "reverb",
+      "model": "MediumHall",
+      "enabled_field": false,
+      "existing_remote_catalog_match": null
+    },
+    {
+      "group": "fx2",
+      "model": "L6DigitalDelay",
+      "enabled_field": false,
+      "existing_remote_catalog_match": null
+    },
+    {
+      "group": "compressor",
+      "model": "SharcPodFixedComp",
+      "enabled_field": false,
+      "existing_remote_catalog_match": null
+    },
+    {
+      "group": "eq",
+      "model": "ParaGraphic4_band",
+      "enabled_field": false,
+      "existing_remote_catalog_match": null
+    },
+    {
+      "group": "volume",
+      "model": "VolumePedal",
+      "enabled_field": true,
+      "existing_remote_catalog_match": null
+    },
+    {
+      "group": "cab",
+      "model": "4x12BritV30Studio",
+      "enabled_field": null,
+      "existing_remote_catalog_match": {
+        "catalog": "cabs.models.json",
+        "name": "4x12 Brit V30",
+        "id": 16908309
+      }
+    },
+    {
+      "group": "fx1",
+      "model": "ClassicDistortion",
+      "enabled_field": false,
+      "existing_remote_catalog_match": {
+        "catalog": "stomps.models.json",
+        "name": "Classic Distortion",
+        "id": 33882117
+      }
+    },
+    {
+      "group": "amp",
+      "model": "BomberXTC",
+      "enabled_field": null,
+      "existing_remote_catalog_match": {
+        "catalog": "amps.models.json",
+        "name": "2002 Bomber X-TC",
+        "id": 131120
+      }
+    },
+    {
+      "group": "wah",
+      "model": "Weeper",
+      "enabled_field": false,
+      "existing_remote_catalog_match": null
+    }
+  ],
+  "limits": [
+    "Device ID 0x220004 differs from live V30 0x220000; compatibility not tested by importing.",
+    "This exact JSON has parameter and metadata values, no executable payload, neural weights, model graph or audio sample array.",
+    "Does not prove every possible SVL6P variant has identical capabilities.",
+    "SharcPodFixedComp is a model symbol, not evidence of a SHARC processor.",
+    "Absent @enabled fields are not interpreted as confirmed current device state."
+  ]
+}

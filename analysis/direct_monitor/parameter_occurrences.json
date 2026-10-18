@@ -1,0 +1,47 @@
+{
+  "device_symbols": {
+    "GuitInputGain": {
+      "index": 890,
+      "text": "GuitInputGain",
+      "crc32": "fa3efa6b",
+      "string_offset": 21814,
+      "record_offset": 10688
+    },
+    "GuitarProcEnable": {
+      "index": 892,
+      "text": "GuitarProcEnable",
+      "crc32": "d6826900",
+      "string_offset": 21841,
+      "record_offset": 10712
+    },
+    "GuitProcInputGain": {
+      "index": 896,
+      "text": "GuitProcInputGain",
+      "crc32": "b3ea4de9",
+      "string_offset": 21900,
+      "record_offset": 10760
+    },
+    "GuitProcOutputGain": {
+      "index": 899,
+      "text": "GuitProcOutputGain",
+      "crc32": "bd42b89b",
+      "string_offset": 21945,
+      "record_offset": 10796
+    },
+    "USBOutLevel": {
+      "index": 900,
+      "text": "USBOutLevel",
+      "crc32": "837ea250",
+      "string_offset": 21964,
+      "record_offset": 10808
+    },
+    "USBInLevel": {
+      "index": 901,
+      "text": "USBInLevel",
+      "crc32": "e2b4d7d3",
+      "string_offset": 21976,
+      "record_offset": 10820
+    }
+  },
+  "occurrences": []
+}

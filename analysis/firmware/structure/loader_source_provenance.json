@@ -1,0 +1,55 @@
+[
+  {
+    "repo": "ldrshrink",
+    "commit": "daad8de9afa7c0cac8e77eac764590d142964fce",
+    "third_party_code_executed": false,
+    "files": [
+      {
+        "path": "/workspace/analysis/research/ldrshrink/Makefile",
+        "sha256": "b6981e39e3a89e548f62860f3fe65a53b4452e3ad2c3a31aeac56c4d6eb829f1"
+      },
+      {
+        "path": "/workspace/analysis/research/ldrshrink/README.md",
+        "sha256": "38675431375509dcd23f5072f164d1391590c26d38b3762631917180d7bb079f"
+      },
+      {
+        "path": "/workspace/analysis/research/ldrshrink/ldrshrink.c",
+        "sha256": "9624b0bbddc40ad1dc042fe44c67a65130d0e9bd3c90cfc9a7ef5772c3d279b1"
+      }
+    ]
+  },
+  {
+    "repo": "bf70x-bootloader",
+    "commit": "bd8cb63e952ef568ba827f56673e1dd7447fcc1e",
+    "third_party_code_executed": false,
+    "files": [
+      {
+        "path": "/workspace/analysis/research/bf70x-bootloader/sketch.cpp",
+        "sha256": "ada7bed30aa515402897a6d20bf49c85836ce0f6fd5ea246bddb01a03549099f"
+      },
+      {
+        "path": "/workspace/analysis/research/bf70x-bootloader/README.md",
+        "sha256": "11325ddf6b0c9e7c5b4eb6fdfcb69b14e381d8686e9e55bba5c7ed65e25f65d5"
+      }
+    ]
+  },
+  {
+    "repo": "ldr2dxe",
+    "commit": "b9d2a6c049f55b79439b9f3a5e93f6b402421b26",
+    "third_party_code_executed": false,
+    "files": [
+      {
+        "path": "/workspace/analysis/research/ldr2dxe/README.md",
+        "sha256": "a855eb61b592dbee1d644a4d47ce27a42d7e3c4ef2314aa48a86aca564f79fd6"
+      },
+      {
+        "path": "/workspace/analysis/research/ldr2dxe/ldr2dxe.py",
+        "sha256": "c7066c7c5c71b3c6e9b7a7ce1709dcb5d5c76f28b2616273019d27923851f0c2"
+      },
+      {
+        "path": "/workspace/analysis/research/ldr2dxe/.gitignore",
+        "sha256": "d66d403252904ba995118550a5a304ff67c243834cc3af9690edef49a990a5b9"
+      }
+    ]
+  }
+]

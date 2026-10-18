@@ -1,0 +1,80 @@
+{"token": "0x600029f", "name": "MainApplication.WindowsCommon.Editor.Editor::onEnableControlClicked", "rva": "0x176c4", "impl": "miForwardRef                               False\nmiIL                                        True\nmiInternalCall                             False\nmiManaged                                   True\nmiMaxMethodImplVal                         False\nmiNative                                   False\nmiNoInlining                               False\nmiOPTIL                                    False\nmiPreserveSig                              False\nmiRuntime                                  False\nmiSynchronized                             False\nmiUnmanaged                                False", "offset": "0x158c4", "va": "0x4176c4"}
+000c ldarg.0 None
+000d ldfld token(0x04000339) MainApplication.WindowsCommon.Editor.Editor::currentItemSymbolicID
+0012 ldstr 'amp'
+0017 call token(0x0A000034) System.String::op_Equality
+001c brtrue.s 48
+001e ldarg.0 None
+001f ldfld token(0x04000339) MainApplication.WindowsCommon.Editor.Editor::currentItemSymbolicID
+0024 ldstr 'cab'
+0029 call token(0x0A000034) System.String::op_Equality
+002e brfalse.s 70
+0030 ldarg.0 None
+0031 ldarg.0 None
+0032 ldfld token(0x0400033E) MainApplication.WindowsCommon.Editor.Editor::ampIsVisible
+0037 ldc.i4.0 None
+0038 ceq None
+003a call token(0x060002A1) MainApplication.WindowsCommon.Editor.Editor::setAmpCabMode
+003f ldarg.0 None
+0040 call token(0x060002A4) MainApplication.WindowsCommon.Editor.Editor::updateCategoryImageAndLabels
+0045 ret None
+0046 call token(0x06000008) WindowsCommon.EngineInterface.ParamValueServer::get_Instance
+004b ldarg.0 None
+004c ldfld token(0x04000339) MainApplication.WindowsCommon.Editor.Editor::currentItemSymbolicID
+0051 ldstr 'graphSlot_EnabledState'
+0056 callvirt token(0x0600001E) WindowsCommon.EngineInterface.ParamValueServer::getBoolParamValue
+005b stloc.0 None
+005c call token(0x06000008) WindowsCommon.EngineInterface.ParamValueServer::get_Instance
+0061 ldarg.0 None
+0062 ldfld token(0x04000339) MainApplication.WindowsCommon.Editor.Editor::currentItemSymbolicID
+0067 ldstr 'graphSlot_EnabledState'
+006c ldloc.0 None
+006d ldc.i4.0 None
+006e ceq None
+0070 callvirt token(0x06000019) WindowsCommon.EngineInterface.ParamValueServer::setBoolParamValue
+0075 pop None
+0076 ret None
+
+{"token": "0x60002a5", "name": "MainApplication.WindowsCommon.Editor.Editor::setEnabledControlState", "rva": "0x178e0", "impl": "miForwardRef                               False\nmiIL                                        True\nmiInternalCall                             False\nmiManaged                                   True\nmiMaxMethodImplVal                         False\nmiNative                                   False\nmiNoInlining                               False\nmiOPTIL                                    False\nmiPreserveSig                              False\nmiRuntime                                  False\nmiSynchronized                             False\nmiUnmanaged                                False", "offset": "0x15ae0", "va": "0x4178e0"}
+000c newobj token(0x06000608) .<>c__DisplayClass37_0::.ctor
+0011 stloc.0 None
+0012 ldloc.0 None
+0013 ldarg.1 None
+0014 stfld token(0x040006CD) .<>c__DisplayClass37_0::isEnabled
+0019 ldloc.0 None
+001a ldarg.0 None
+001b stfld token(0x040006CE) .<>c__DisplayClass37_0::<>4__this
+0020 call token(0x0A00007C) System.Windows.Application::get_Current
+0025 callvirt token(0x0A00008F) System.Windows.Threading.DispatcherObject::get_Dispatcher
+002a ldloc.0 None
+002b ldftn token(0x06000609) .<>c__DisplayClass37_0::<setEnabledControlState>b__0
+0031 newobj token(0x0A000090) System.Action::.ctor
+0036 call token(0x2B000004) 
+003b callvirt token(0x0A000092) System.Windows.Threading.Dispatcher::BeginInvoke
+0040 pop None
+0041 ret None
+
+{"token": "0x60004f1", "name": "MainApplication.AppSpecific.DeviceSpecificSignalFlowUtils::getSignalFlowItemEnabledStateForGroupID", "rva": "0x272ec", "impl": "miForwardRef                               False\nmiIL                                        True\nmiInternalCall                             False\nmiManaged                                   True\nmiMaxMethodImplVal                         False\nmiNative                                   False\nmiNoInlining                               False\nmiOPTIL                                    False\nmiPreserveSig                              False\nmiRuntime                                  False\nmiSynchronized                             False\nmiUnmanaged                                False", "offset": "0x254ec", "va": "0x4272ec"}
+000c ldc.i4.0 None
+000d stloc.0 None
+000e call token(0x06000008) WindowsCommon.EngineInterface.ParamValueServer::get_Instance
+0013 ldarg.1 None
+0014 ldstr 'graphSlot_EnabledState'
+0019 ldloc.0 None
+001a box token(0x01000097) 
+001f callvirt token(0x06000021) WindowsCommon.EngineInterface.ParamValueServer::getEngineValue
+0024 stloc.1 None
+0025 ldloc.1 None
+0026 brfalse.s 57
+0028 ldloc.1 None
+0029 isinst token(0x01000097) 
+002e brfalse.s 57
+0030 ldloc.1 None
+0031 call token(0x0A0000AA) System.Convert::ToBoolean
+0036 stloc.0 None
+0037 br.s 67
+0039 ldstr 'DeviceSpecificSignalFlowUtils.getFootswitchConnectionStatus: failed to get engine value'
+003e call token(0x0A0000B3) System.Console::WriteLine
+0043 ldloc.0 None
+0044 ret None
+

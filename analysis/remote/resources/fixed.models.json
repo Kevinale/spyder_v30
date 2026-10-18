@@ -1,0 +1,615 @@
+[
+  {
+    "symbolicID": "@global_params",
+    "id": 1047527424,
+    "name": "Globals",
+    "shortname": "Globals",
+    "params": [
+      {
+        "default": 120.0,
+        "max": 240.0,
+        "min": 30.0,
+        "name": "Tempo",
+        "persist": 0,
+        "symbolicID": "@tempo",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Speaker",
+        "persist": 0,
+        "symbolicID": "@speakermode",
+        "valueType": 2
+      },
+      {
+        "default": "",
+        "max": "",
+        "min": "",
+        "name": "Tweak Group",
+        "persist": 0,
+        "symbolicID": "@tweakgroup",
+        "valueType": 3
+      },
+      {
+        "default": "",
+        "max": "",
+        "min": "",
+        "name": "Tweak Param",
+        "persist": 0,
+        "symbolicID": "@tweakparam",
+        "valueType": 3
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tweak Min",
+        "persist": 0,
+        "symbolicID": "@tweakmin",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tweak Max",
+        "persist": 0,
+        "symbolicID": "@tweakmax",
+        "valueType": 1
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pedal 2 Assign",
+        "persist": 0,
+        "symbolicID": "@pedal2assign",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "@global_params_AEON",
+    "id": 1047527425,
+    "name": "Globals",
+    "shortname": "Globals",
+    "params": [
+      {
+        "default": 120.0,
+        "max": 240.0,
+        "min": 30.0,
+        "name": "Tempo",
+        "persist": 0,
+        "symbolicID": "@tempo",
+        "valueType": 1
+      },
+      {
+        "default": "",
+        "max": "",
+        "min": "",
+        "name": "Tweak Group",
+        "persist": 0,
+        "symbolicID": "@tweakgroup",
+        "valueType": 3
+      },
+      {
+        "default": "",
+        "max": "",
+        "min": "",
+        "name": "Tweak Param",
+        "persist": 0,
+        "symbolicID": "@tweakparam",
+        "valueType": 3
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tweak Min",
+        "persist": 0,
+        "symbolicID": "@tweakmin",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Tweak Max",
+        "persist": 0,
+        "symbolicID": "@tweakmax",
+        "valueType": 1
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pedal 2 Assign",
+        "persist": 0,
+        "symbolicID": "@pedal2assign",
+        "valueType": 2
+      },
+      {
+        "default": "compressor",
+        "max": "",
+        "min": "",
+        "name": "FS1 Group",
+        "persist": 0,
+        "symbolicID": "@fs1group",
+        "valueType": 3
+      },
+      {
+        "default": "fx1",
+        "max": "",
+        "min": "",
+        "name": "FS2 Group",
+        "persist": 0,
+        "symbolicID": "@fs2group",
+        "valueType": 3
+      },
+      {
+        "default": "fx2",
+        "max": "",
+        "min": "",
+        "name": "FS3 Group",
+        "persist": 0,
+        "symbolicID": "@fs3group",
+        "valueType": 3
+      },
+      {
+        "default": "fx3",
+        "max": "",
+        "min": "",
+        "name": "FS4 Group",
+        "persist": 0,
+        "symbolicID": "@fs4group",
+        "valueType": 3
+      },
+      {
+        "default": "reverb",
+        "max": "",
+        "min": "",
+        "name": "FS5 Group",
+        "persist": 0,
+        "symbolicID": "@fs5group",
+        "valueType": 3
+      }
+    ]
+  },
+  {
+    "symbolicID": "VolumePedal",
+    "id": 34013184,
+    "name": "Volume",
+    "shortname": "Volume",
+    "params": [
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Min Position",
+        "persist": 0,
+        "symbolicID": "MinVol",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Max Position",
+        "persist": 0,
+        "symbolicID": "MaxVol",
+        "valueType": 1
+      },
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 1001,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "Gate",
+    "id": 34275328,
+    "category": 4,
+    "name": "Noise Gate",
+    "shortname": "Noise Gate",
+    "params": [
+      {
+        "default": -58.0,
+        "max": 0.0,
+        "min": -96.0,
+        "name": "Threshold",
+        "persist": 0,
+        "symbolicID": "Thresh",
+        "valueType": 1
+      },
+      {
+        "default": 0.04,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Decay",
+        "persist": 0,
+        "symbolicID": "Decay",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "SharcPodFixedComp",
+    "id": 34275329,
+    "category": 4,
+    "name": "Compressor",
+    "shortname": "Compressor",
+    "params": [
+      {
+        "default": 0.677165,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Threshold",
+        "persist": 0,
+        "tweak": 100,
+        "symbolicID": "Thresh/G",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Gain",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "tweak": 101,
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "ParaGraphic4_band",
+    "id": 34340866,
+    "category": 14,
+    "name": "4 Band SemiParametric EQ",
+    "shortname": "EQ",
+    "params": [
+      {
+        "default": 0.07874,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Lo Shelf Freq",
+        "persist": 0,
+        "symbolicID": "Low",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Lo Shelf Gain",
+        "persist": 0,
+        "symbolicID": "gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.220472,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Lo Mid Freq",
+        "persist": 0,
+        "symbolicID": "LMid",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Lo Mid Gain",
+        "persist": 0,
+        "symbolicID": "gain.1",
+        "valueType": 1
+      },
+      {
+        "default": 0.283465,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hi Mid Freq",
+        "persist": 0,
+        "symbolicID": "HMid",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hi Mid Gain",
+        "persist": 0,
+        "symbolicID": "Gain",
+        "valueType": 1
+      },
+      {
+        "default": 0.511811,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hi Shelf Freq",
+        "persist": 0,
+        "symbolicID": "Hi",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Hi Shelf Gain",
+        "persist": 0,
+        "symbolicID": "gain.2",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "FXLoop",
+    "id": 34078720,
+    "category": 12,
+    "name": "FX Loop",
+    "shortname": "FX Loop",
+    "params": [
+      {
+        "default": false,
+        "max": true,
+        "min": false,
+        "name": "Enabled",
+        "persist": 1000,
+        "symbolicID": "@enabled",
+        "valueType": 2
+      },
+      {
+        "default": 0.0,
+        "max": 12.0,
+        "min": -59.5,
+        "name": "Send",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "Send",
+        "valueType": 1
+      },
+      {
+        "default": 0.0,
+        "max": 12.0,
+        "min": -59.5,
+        "name": "Return",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "Return",
+        "valueType": 1
+      },
+      {
+        "default": 0.5,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Mix",
+        "persist": 0,
+        "tweak": 104,
+        "symbolicID": "@mix",
+        "valueType": 1
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "symbolicID": "@mixtype",
+        "valueType": 0
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 0,
+        "symbolicID": "@post",
+        "valueType": 2
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "symbolicID": "@stereo",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "LooperFx500",
+    "id": 34275330,
+    "category": 15,
+    "name": "Looper",
+    "shortname": "Looper",
+    "params": [
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Playback Level",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@level",
+        "valueType": 1
+      },
+      {
+        "default": 1.0,
+        "max": 1.0,
+        "min": 0.0,
+        "name": "Overdub Level",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "Feedback",
+        "valueType": 1
+      },
+      {
+        "default": 20.0,
+        "max": 1000.0,
+        "min": 5.0,
+        "name": "HP Frequency",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "HP Frequency",
+        "valueType": 1
+      },
+      {
+        "default": 20000.0,
+        "max": 20000.0,
+        "min": 1000.0,
+        "name": "LP Frequency",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "LP Frequency",
+        "valueType": 1
+      },
+      {
+        "default": true,
+        "max": true,
+        "min": false,
+        "name": "Pre/Post",
+        "persist": 0,
+        "symbolicID": "@post",
+        "valueType": 2
+      }
+    ]
+  },
+  {
+    "symbolicID": "@variax",
+    "id": 50331648,
+    "name": "Variax",
+    "shortname": "Variax",
+    "params": [
+      {
+        "default": 19,
+        "max": 59,
+        "min": 0,
+        "name": "Model",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@variaxmodel",
+        "valueType": 0
+      },
+      {
+        "default": 0,
+        "max": 12,
+        "min": -12,
+        "name": "String 1 Tuning",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@string1tuning",
+        "valueType": 0
+      },
+      {
+        "default": 0,
+        "max": 12,
+        "min": -12,
+        "name": "String 2 Tuning",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@string2tuning",
+        "valueType": 0
+      },
+      {
+        "default": 0,
+        "max": 12,
+        "min": -12,
+        "name": "String 3 Tuning",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@string3tuning",
+        "valueType": 0
+      },
+      {
+        "default": 0,
+        "max": 12,
+        "min": -12,
+        "name": "String 4 Tuning",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@string4tuning",
+        "valueType": 0
+      },
+      {
+        "default": 0,
+        "max": 12,
+        "min": -12,
+        "name": "String 5 Tuning",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@string5tuning",
+        "valueType": 0
+      },
+      {
+        "default": 0,
+        "max": 12,
+        "min": -12,
+        "name": "String 6 Tuning",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@string6tuning",
+        "valueType": 0
+      },
+      {
+        "default": 0,
+        "max": 2,
+        "min": 0,
+        "name": "Pickup Mode",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@modelmagmode",
+        "valueType": 0
+      },
+      {
+        "default": 127,
+        "max": 127,
+        "min": 0,
+        "name": "Tone Knob Position",
+        "persist": 0,
+        "tweak": 0,
+        "symbolicID": "@toneknob",
+        "valueType": 0
+      }
+    ]
+  }
+]
